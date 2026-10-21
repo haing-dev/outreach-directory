@@ -1,4 +1,42 @@
 {
- "weeks": [],
+ "weeks": [
+  {
+   "week": "2026-10-21",
+   "generated_at": "2026-10-21T17:11:13+00:00",
+   "checked": 5,
+   "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-curtis",
+     "entry_name": "Curtis Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-noetik",
+     "entry_name": "Noetik",
+     "text": "Added"
+    }
+   ]
+  }
+ ],
  "suggestions": []
 }
