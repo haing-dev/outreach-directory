@@ -2,9 +2,69 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T20:52:45+00:00",
+   "generated_at": "2026-10-21T21:53:46+00:00",
    "checked": 10,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-berger",
+     "entry_name": "Berger Lab (CSAIL Computation and Biology)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "harvard-manrai",
