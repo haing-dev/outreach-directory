@@ -1,0 +1,5 @@
+# Hourly batch: researches the next `per_run` entries every hour
+# (never-researched first: academic, then institutes, then companies; afterwards the stalest > 7 days old).
+# Set enabled: false to pause. Claude changes this from chat when you ask.
+enabled: true
+per_run: 10

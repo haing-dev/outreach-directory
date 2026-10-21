@@ -2,10 +2,11 @@ name: Weekly refresh
 
 on:
   schedule:
-    - cron: "0 13 * * 1"   # Mondays 13:00 UTC = 06:00 Pacific (05:00 during PST)
+    - cron: "0 13 * * 1"   # weekly full refresh (skipped while hourly batch mode is on)
+    - cron: "17 * * * *"   # hourly batch (config/batch.yaml)
   push:
     branches: [main]
-    paths: ["config/run-request.yaml"]   # Claude starts runs from chat by pushing this file
+    paths: ["config/run-request.yaml", "config/batch.yaml"]   # Claude starts runs from chat by pushing this file
   workflow_dispatch:
     inputs:
       only:
@@ -34,6 +35,8 @@ jobs:
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - uses: actions/setup-python@v5
         with:
@@ -67,7 +70,13 @@ jobs:
           [ -n "$IN_ONLY" ] && ARGS+=(--only "$IN_ONLY")
           [ -n "$IN_CATEGORY" ] && ARGS+=(--category "$IN_CATEGORY")
           [ "$IN_DISCOVER" = "true" ] && ARGS+=(--discover all)
-          if [ "${{ github.event_name }}" = "push" ]; then ARGS+=(--request config/run-request.yaml); fi
+          if [ "${{ github.event_name }}" = "push" ]; then
+            if git diff --name-only HEAD~1 HEAD | grep -q "config/batch.yaml"; then ARGS+=(--batch); else ARGS+=(--request config/run-request.yaml); fi
+          fi
+          if [ "${{ github.event.schedule }}" = "17 * * * *" ]; then ARGS+=(--batch); fi
+          if [ "${{ github.event.schedule }}" = "0 13 * * 1" ] && grep -q "enabled: true" config/batch.yaml; then
+            echo "Hourly batch mode is on; it keeps entries fresh, so the weekly full run is skipped."; exit 0
+          fi
           python scripts/refresh.py "${ARGS[@]}"
 
       - name: Commit updated data

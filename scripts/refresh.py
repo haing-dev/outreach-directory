@@ -37,6 +37,7 @@ import re
 import shutil
 import subprocess
 import sys
+import threading
 import time
 from pathlib import Path
 
@@ -50,6 +51,10 @@ PROFILE = ROOT / "config" / "profile.yaml"
 DATA_DIR = ROOT / "public" / "data"
 DIRECTORY = DATA_DIR / "directory.json"
 CHANGES = DATA_DIR / "changes.json"
+USAGE = DATA_DIR / "usage.json"
+BATCH = ROOT / "config" / "batch.yaml"
+USAGE_LOG: list[dict] = []
+_usage_lock = threading.Lock()
 
 
 def _env(*names, default=""):
@@ -183,6 +188,13 @@ def call_claude_cli(system: str, user: str, max_searches: int) -> tuple[str, lis
             if "rate" in last.lower() or "limit" in last.lower():
                 time.sleep(120 * (attempt + 1))
             continue
+        u = out.get("usage") or {}
+        with _usage_lock:
+            USAGE_LOG.append({"input": int(u.get("input_tokens") or 0), "output": int(u.get("output_tokens") or 0),
+                              "cache_read": int(u.get("cache_read_input_tokens") or 0),
+                              "cache_write": int(u.get("cache_creation_input_tokens") or 0),
+                              "cost_usd": float(out.get("total_cost_usd") or 0), "turns": int(out.get("num_turns") or 0),
+                              "seconds": round((out.get("duration_ms") or 0) / 1000)})
         return out.get("result", ""), []
     raise RuntimeError(f"Claude Code error: {last}")
 
@@ -598,6 +610,8 @@ def main():
     ap.add_argument("--discover", action="append", default=[], help="institution name, or 'all' (repeatable)")
     ap.add_argument("--skip-refresh", action="store_true")
     ap.add_argument("--request", help="YAML run request (CI)")
+    ap.add_argument("--next", type=int, default=0, help="research the next N entries (never researched first, then stalest)")
+    ap.add_argument("--batch", action="store_true", help="hourly batch mode: read config/batch.yaml")
     ap.add_argument("--skeleton", action="store_true", help="no API calls; rebuild from seeds + last data")
     args = ap.parse_args()
 
@@ -609,6 +623,7 @@ def main():
         category = category or (req.get("category") or None)
         discover_names += [str(x) for x in (req.get("discover") or [])]
         skip = skip or bool(req.get("skip_refresh"))
+        args.next = args.next or int(req.get("next") or 0)
         print(f"Run request #{req.get('request')}: only={sorted(only) or 'all'} category={category or 'all'} "
               f"discover={discover_names or '-'} skip_refresh={skip}")
     if not args.skeleton and not TOKEN:
@@ -634,7 +649,26 @@ def main():
                 skip = True
 
     seeds = load_seeds()
+    if args.batch:
+        b = load_yaml(BATCH)
+        if not b.get("enabled"):
+            print("Batch mode is off (config/batch.yaml). Nothing to do.")
+            return
+        args.next = int(b.get("per_run") or 10)
     targets = [] if (skip or args.skeleton) else seeds
+    if args.next and targets:
+        order = {"academic": 0, "institute": 1, "bigtech": 2, "biotech": 3, "startup": 4}
+        stale_cut = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=7)).isoformat()
+        def when(s):
+            r = (prev_by_id.get(s["id"]) or {}).get("refreshed_at")
+            return r or ""
+        pool_ = [s for s in targets if not when(s)]
+        pool_.sort(key=lambda s: (order.get(s["category"], 9), s.get("institution") or "", s["id"]))
+        if len(pool_) < args.next:  # everything researched: refresh the stalest (> 7 days old)
+            stale = sorted([s for s in targets if when(s) and when(s) < stale_cut], key=when)
+            pool_ += stale
+        targets = pool_[:args.next]
+        print(f"Next {args.next}: {', '.join(s['id'] for s in targets) or 'nothing due'}")
     if only:
         targets = [s for s in targets if s["id"] in only]
     if category:
@@ -677,6 +711,20 @@ def main():
         changes["weeks"].insert(0, {"week": week, "generated_at": now, "checked": len(targets), "items": week_items})
         changes["weeks"] = changes["weeks"][:26]
     CHANGES.write_text(json.dumps(changes, ensure_ascii=False, indent=1))
+    if USAGE_LOG:
+        tot = {k: sum(x[k] for x in USAGE_LOG) for k in USAGE_LOG[0]}
+        run = {"at": now, "calls": len(USAGE_LOG), "entries": len(new_by_id), **tot}
+        hist = json.loads(USAGE.read_text()) if USAGE.exists() else {"runs": []}
+        hist["runs"].insert(0, run)
+        hist["runs"] = hist["runs"][:500]
+        USAGE.write_text(json.dumps(hist, indent=1))
+        print(f"Usage this run: {run['calls']} calls, {run['input'] + run['cache_read'] + run['cache_write']:,} input tokens "
+              f"({run['cache_read']:,} cached), {run['output']:,} output tokens, ~${run['cost_usd']:.2f} API-equivalent, "
+              f"{run['seconds'] // 60} min of model time")
+        summ = os.environ.get("GITHUB_STEP_SUMMARY")
+        if summ:
+            with open(summ, "a") as f:
+                f.write(f"### Usage\n- {run['calls']} calls · {run['output']:,} output tokens · ~${run['cost_usd']:.2f} API-equivalent\n")
     failed = [e["id"] for e in new_by_id.values() if e.get("error")]
     print(f"Wrote {len(entries)} entries; refreshed {len(new_by_id) - len(failed)}, failed {len(failed)}.")
     if targets and len(failed) == len(targets):
