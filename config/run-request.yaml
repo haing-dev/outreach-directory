@@ -5,8 +5,8 @@
 # category:  academic | institute | bigtech | biotech | startup ("" = all)
 # discover:  institution names to (re)discover labs for, or [all]
 # skip_refresh: true = only run discovery, don't research labs yet
-request: 1
-only: [stanford-curtis, arc-goodarzi, bt-deepmind, bio-tempus, st-noetik]
+request: 2
+only: []
 category: ""
-discover: []
-skip_refresh: false
+discover: [all]
+skip_refresh: true

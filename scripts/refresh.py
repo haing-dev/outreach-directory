@@ -69,7 +69,7 @@ TOKEN = _env("CLAUDE_TOKEN", "ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")
 # Subscription tokens from `claude setup-token` (sk-ant-oat...) only work through Claude Code,
 # so then we run the Claude Code CLI headless instead of calling the API directly.
 USE_CLI = TOKEN.startswith("sk-ant-oat") or bool(_env("CLAUDE_CODE_OAUTH_TOKEN"))
-WORKERS = int(_env("WORKERS", default="2" if USE_CLI else "4"))
+WORKERS = int(_env("WORKERS", default="3" if USE_CLI else "4"))
 # Standard keys go in x-api-key; many internal gateways want "Authorization: Bearer" (auto-switch on 401).
 AUTH = {"mode": "bearer" if _env("ANTHROPIC_AUTH_TOKEN") and not _env("CLAUDE_TOKEN", "ANTHROPIC_API_KEY") else "x-api-key"}
 COLLECT_EMAILS = _env("COLLECT_EMAILS").lower() == "true"
@@ -388,13 +388,19 @@ def run_discovery(names: list[str]) -> list[dict]:
     existing = load_yaml(DISCOVERED).get("labs") or []
     by_id = {l["id"]: l for l in existing}
     added = []
-    for inst in insts:
+
+    def one(inst):
         try:
             found = discover(inst)
             print(f"  discover {inst['name']}: {len(found)} labs")
+            return found
         except Exception as e:  # noqa: BLE001
             print(f"  discover {inst['name']}: FAILED ({e})", file=sys.stderr)
-            continue
+            return []
+
+    with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        results = list(pool.map(one, insts))
+    for found in results:
         for lab in found:
             if lab["id"] not in by_id:
                 by_id[lab["id"]] = lab
