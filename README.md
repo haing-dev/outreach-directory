@@ -47,10 +47,14 @@ GitHub Actions (Mon 13:00 UTC)
 
 ## Everyday use
 
-- **Add or remove an entry:** edit `config/seeds.yaml`, then commit. The next refresh fills it in. To refresh it right away, run the workflow with its id under "only". Never change an existing `id`, because your notes are keyed on it.
-- **Find more labs:** run the workflow with `discover = true`. Suggestions appear under *What's new → Suggested additions*. Copy the ones you want into `seeds.yaml`.
-- **Include Imperial:** set `enabled: true` on the Imperial entry in `seeds.yaml` and add labs there.
-- **Change the schedule:** edit the `cron` line in `.github/workflows/refresh.yml`.
+- **Start a run without opening GitHub:** edit `config/run-request.yaml` and push it, or ask Claude in chat to do it. Bump `request`, then set:
+  - `only:` the ids to refresh (`[]` refreshes everything)
+  - `discover:` institution names, or `[all]`, to find every bioinformatics / comp-bio lab there
+- **Weekly:** every Monday the job re-researches every entry.
+- **Labs:** discovered labs are written to `config/labs.discovered.yaml`, which you can edit. Labs listed under `labs:` in `seeds.yaml` are always included.
+- **Companies:** edit `companies:` in `seeds.yaml`. List order is the rank.
+- **Emails:** postdoc and PhD student emails are saved only when the GitHub repo is **private**. They're also only taken from official pages.
+- **Fit / Not fit and notes:** these are yours. They're stored in Cloudflare D1, and the refresh never touches them.
 
 ## Local development
 ```bash

@@ -1,111 +1,64 @@
-# Seed list: WHICH labs / institutes / companies are in the directory.
-# The weekly refresh fills in everything else (people, summary, programs, contacts, links).
+# What goes in the directory.
 #
-# Lab names below are a starting point from public knowledge as of mid-2026.
-# The first refresh confirms each PI's current affiliation and flags anyone who has moved.
-# Run the workflow with "discover" ticked to get suggested additions per university
-# (they appear under "What's new" > Suggestions; copy the ones you want in here).
+# Labs (academic + independent institutes) are DISCOVERED automatically: for every
+# university / institute below, Claude finds all bioinformatics / computational-biology
+# labs and writes them to config/labs.discovered.yaml. You then sort them by fit on the site.
+# Labs listed under `labs:` are always included (use it for notable PIs anywhere).
 #
-# Fields:
-#   id         unique, lowercase, never change it (your notes are keyed on it)
-#   name       display name
-#   pi         PI / lead name (academic) - helps the search find the right lab
-#   hint       optional extra words or URL to disambiguate
-#   enabled    false = skip without deleting (notes are kept)
+# Companies are listed by hand below (order = rank).
+#
+# ids: lowercase, never change one (your notes are keyed on it).
 
-academic:
-  US:
-    Stanford University:
-      - { id: stanford-curtis, name: Curtis Lab, pi: Christina Curtis }
-      - { id: stanford-ji, name: Ji Lab, pi: Hanlee Ji }
-      - { id: stanford-alizadeh, name: Alizadeh Lab, pi: Ash Alizadeh }
-      - { id: stanford-kundaje, name: Kundaje Lab, pi: Anshul Kundaje }
-    Harvard University:
-      - { id: harvard-park, name: Park Lab, pi: Peter Park, hint: "Harvard Medical School DBMI" }
-      - { id: harvard-vanallen, name: Van Allen Lab, pi: Eliezer Van Allen, hint: "Dana-Farber" }
-      - { id: harvard-meyerson, name: Meyerson Lab, pi: Matthew Meyerson, hint: "Dana-Farber / Broad" }
-      - { id: harvard-marks, name: Marks Lab, pi: Debora Marks }
-    MIT:
-      - { id: mit-uhler, name: Uhler Lab, pi: Caroline Uhler }
-      - { id: mit-kellis, name: Kellis Lab, pi: Manolis Kellis }
-      - { id: mit-barzilay, name: Barzilay Lab, pi: Regina Barzilay }
-    Princeton University:
-      - { id: princeton-raphael, name: Raphael Lab, pi: Ben Raphael }
-      - { id: princeton-troyanskaya, name: Troyanskaya Lab, pi: Olga Troyanskaya }
-      - { id: princeton-zhong, name: Zhong Lab, pi: Ellen Zhong }
-    Caltech:
-      - { id: caltech-pachter, name: Pachter Lab, pi: Lior Pachter }
-      - { id: caltech-thomson, name: Thomson Lab, pi: Matt Thomson }
-      - { id: caltech-cai, name: Cai Lab, pi: Long Cai }
-  UK:
-    University of Cambridge:
-      - { id: cam-markowetz, name: Markowetz Lab, pi: Florian Markowetz, hint: "CRUK Cambridge Institute" }
-      - { id: cam-nikzainal, name: Nik-Zainal Lab, pi: Serena Nik-Zainal }
-    University College London:
-      - { id: ucl-mcgranahan, name: McGranahan Lab, pi: Nicholas McGranahan, hint: "UCL Cancer Institute" }
-      - { id: ucl-swanton, name: Swanton Lab, pi: Charles Swanton, hint: "Francis Crick Institute / UCL" }
-    University of Oxford:
-      - { id: ox-yau, name: Yau Lab, pi: Christopher Yau }
-      - { id: ox-schusterbockler, name: Schuster-Böckler Lab, pi: Benjamin Schuster-Böckler, hint: "Ludwig Oxford" }
-    Imperial College London:
-      # You asked for 3 UK universities; Imperial is off by default. Set enabled: true to include it.
-      - { id: imperial-placeholder, name: "Imperial - fill in", pi: "", enabled: false }
-  Other:
-    # High-profile PIs outside the universities above
-    Notable PIs:
-      - { id: other-vanloo, name: Van Loo Lab, pi: Peter Van Loo, hint: "MD Anderson" }
-      - { id: other-alexandrov, name: Alexandrov Lab, pi: Ludmil Alexandrov, hint: "UC San Diego" }
-      - { id: other-getz, name: Getz Lab, pi: Gad Getz, hint: "Broad Institute / MGH" }
-      - { id: other-ding, name: Ding Lab, pi: Li Ding, hint: "Washington University in St. Louis" }
-      - { id: other-ideker, name: Ideker Lab, pi: Trey Ideker, hint: "UC San Diego" }
+universities:
+  US: [Stanford University, Harvard University, MIT, Princeton University, Caltech]
+  UK: [University of Cambridge, University College London, University of Oxford]
+  # Imperial College London: add it to the UK list to include it
 
-institute:
-  US:
-    - { id: inst-arc, name: Arc Institute }
-    - { id: inst-broad, name: Broad Institute of MIT and Harvard }
-    - { id: inst-scripps, name: Scripps Research }
-    - { id: inst-nygc, name: New York Genome Center }
-    - { id: inst-czbiohub, name: Chan Zuckerberg Biohub }
-  UK:
-    - { id: inst-sanger, name: Wellcome Sanger Institute }
-    - { id: inst-crick, name: Francis Crick Institute }
-    - { id: inst-ebi, name: EMBL-EBI }
-    - { id: inst-icr, name: The Institute of Cancer Research }
-    - { id: inst-lmb, name: MRC Laboratory of Molecular Biology }
+institutes:
+  US: [Arc Institute, Broad Institute, Scripps Research, New York Genome Center, Chan Zuckerberg Biohub]
+  UK: [Wellcome Sanger Institute, Francis Crick Institute, EMBL-EBI, The Institute of Cancer Research, MRC Laboratory of Molecular Biology]
 
-# Industry: list order = rank (1..10)
-bigtech:
-  - { id: bt-deepmind, name: Google DeepMind, hint: "science / biology teams, AlphaFold, AlphaGenome" }
-  - { id: bt-google-research, name: Google Research, hint: "health & genomics teams, DeepVariant" }
-  - { id: bt-openai, name: OpenAI, hint: "life sciences / OpenAI for Science" }
-  - { id: bt-anthropic, name: Anthropic, hint: "Claude for Life Sciences, AI for science" }
-  - { id: bt-microsoft, name: Microsoft Research, hint: "AI for Science, Health Futures" }
-  - { id: bt-nvidia, name: NVIDIA, hint: "BioNeMo, digital biology research" }
-  - { id: bt-meta, name: Meta FAIR, hint: "biology / chemistry research" }
-  - { id: bt-amazon, name: Amazon / AWS, hint: "health AI, life sciences" }
-  - { id: bt-calico, name: Calico (Alphabet) }
-  - { id: bt-ibm, name: IBM Research, hint: "computational biology / healthcare" }
+# Always-included labs (notable PIs anywhere, or labs discovery missed)
+labs:
+  - { id: stanford-curtis, name: Curtis Lab, pi: Christina Curtis, institution: Stanford University, region: US, category: academic }
+  - { id: arc-goodarzi, name: Goodarzi Lab, pi: Hani Goodarzi, institution: Arc Institute, region: US, category: institute }
+  - { id: other-vanloo, name: Van Loo Lab, pi: Peter Van Loo, institution: MD Anderson Cancer Center, region: US, category: academic, group: Notable PIs }
+  - { id: other-alexandrov, name: Alexandrov Lab, pi: Ludmil Alexandrov, institution: UC San Diego, region: US, category: academic, group: Notable PIs }
+  - { id: other-getz, name: Getz Lab, pi: Gad Getz, institution: Broad Institute / MGH, region: US, category: academic, group: Notable PIs }
+  - { id: other-ding, name: Ding Lab, pi: Li Ding, institution: Washington University in St. Louis, region: US, category: academic, group: Notable PIs }
+  - { id: other-ideker, name: Ideker Lab, pi: Trey Ideker, institution: UC San Diego, region: US, category: academic, group: Notable PIs }
 
-biotech:
-  - { id: bio-genentech, name: Genentech, hint: "Research and Early Development, computational sciences, Prescient Design" }
-  - { id: bio-lilly, name: Eli Lilly, hint: "TuneLab, computational biology" }
-  - { id: bio-tempus, name: Tempus AI }
-  - { id: bio-ginkgo, name: Ginkgo Bioworks }
-  - { id: bio-illumina, name: Illumina, hint: "AI / computational genomics" }
-  - { id: bio-regeneron, name: Regeneron Genetics Center }
-  - { id: bio-astrazeneca, name: AstraZeneca, hint: "oncology R&D, data science & AI" }
-  - { id: bio-grail, name: GRAIL }
-  - { id: bio-fmi, name: Foundation Medicine }
-  - { id: bio-recursion, name: Recursion }
-
-startup:
-  - { id: st-isomorphic, name: Isomorphic Labs }
-  - { id: st-chai, name: Chai Discovery }
-  - { id: st-xaira, name: Xaira Therapeutics }
-  - { id: st-evoscale, name: EvolutionaryScale }
-  - { id: st-noetik, name: Noetik, hint: "AI for cancer biology" }
-  - { id: st-generate, name: Generate:Biomedicines }
-  - { id: st-profluent, name: Profluent }
-  - { id: st-latent, name: Latent Labs }
-  - { id: st-bioptimus, name: Bioptimus }
-  - { id: st-inceptive, name: Inceptive }
+companies:
+  bigtech:
+    - { id: bt-deepmind, name: Google DeepMind, hint: "science / biology teams, AlphaFold, AlphaGenome" }
+    - { id: bt-google-research, name: Google Research, hint: "health & genomics teams, DeepVariant" }
+    - { id: bt-openai, name: OpenAI, hint: "life sciences / OpenAI for Science" }
+    - { id: bt-anthropic, name: Anthropic, hint: "Claude for Life Sciences, AI for science" }
+    - { id: bt-microsoft, name: Microsoft Research, hint: "AI for Science, Health Futures" }
+    - { id: bt-nvidia, name: NVIDIA, hint: "BioNeMo, digital biology research" }
+    - { id: bt-meta, name: Meta FAIR, hint: "biology / chemistry research" }
+    - { id: bt-amazon, name: Amazon / AWS, hint: "health AI, life sciences" }
+    - { id: bt-calico, name: Calico (Alphabet) }
+    - { id: bt-ibm, name: IBM Research, hint: "computational biology / healthcare" }
+  biotech:
+    - { id: bio-genentech, name: Genentech, hint: "Research and Early Development, computational sciences, Prescient Design" }
+    - { id: bio-lilly, name: Eli Lilly, hint: "TuneLab, computational biology" }
+    - { id: bio-tempus, name: Tempus AI }
+    - { id: bio-ginkgo, name: Ginkgo Bioworks }
+    - { id: bio-illumina, name: Illumina, hint: "AI / computational genomics" }
+    - { id: bio-regeneron, name: Regeneron Genetics Center }
+    - { id: bio-astrazeneca, name: AstraZeneca, hint: "oncology R&D, data science & AI" }
+    - { id: bio-grail, name: GRAIL }
+    - { id: bio-fmi, name: Foundation Medicine }
+    - { id: bio-recursion, name: Recursion }
+  startup:
+    - { id: st-isomorphic, name: Isomorphic Labs }
+    - { id: st-chai, name: Chai Discovery }
+    - { id: st-xaira, name: Xaira Therapeutics }
+    - { id: st-evoscale, name: EvolutionaryScale }
+    - { id: st-noetik, name: Noetik, hint: "AI for cancer biology" }
+    - { id: st-generate, name: Generate:Biomedicines }
+    - { id: st-profluent, name: Profluent }
+    - { id: st-latent, name: Latent Labs }
+    - { id: st-bioptimus, name: Bioptimus }
+    - { id: st-inceptive, name: Inceptive }

@@ -9,7 +9,7 @@ const STATUSES = new Set(["none", "emailed", "follow_up", "replied", "meeting", 
 function rowToNote(r) {
   return {
     entry_id: r.entry_id, status: r.status, priority: r.priority, follow_up: r.follow_up,
-    contact: r.contact, tags: safeParse(r.tags, []), body: r.body, log: safeParse(r.log, []),
+    decision: r.decision || null, contact: r.contact, tags: safeParse(r.tags, []), body: r.body, log: safeParse(r.log, []),
     updated_at: r.updated_at,
   };
 }
@@ -41,7 +41,7 @@ export async function onRequest(ctx) {
     let body;
     try { body = await request.json(); } catch { return json({ error: "bad json" }, 400); }
     const cur = await env.DB.prepare("SELECT * FROM notes WHERE entry_id = ?").bind(id).first();
-    const prev = cur ? rowToNote(cur) : { status: "none", priority: 0, follow_up: null, contact: null, tags: [], body: "", log: [] };
+    const prev = cur ? rowToNote(cur) : { decision: null, status: "none", priority: 0, follow_up: null, contact: null, tags: [], body: "", log: [] };
     const n = { ...prev, ...body };
     if (!STATUSES.has(n.status)) n.status = "none";
     n.priority = Math.max(0, Math.min(3, parseInt(n.priority, 10) || 0));
@@ -50,12 +50,13 @@ export async function onRequest(ctx) {
     n.log = Array.isArray(n.log) ? n.log.slice(0, 200) : [];
     n.body = String(n.body || "").slice(0, 20000);
     n.contact = n.contact ? String(n.contact).slice(0, 200) : null;
+    n.decision = n.decision === "fit" || n.decision === "not_fit" ? n.decision : null;
     const now = new Date().toISOString();
     await env.DB.prepare(
-      `INSERT INTO notes (entry_id, status, priority, follow_up, contact, tags, body, log, updated_at)
-       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)
-       ON CONFLICT(entry_id) DO UPDATE SET status=?2, priority=?3, follow_up=?4, contact=?5, tags=?6, body=?7, log=?8, updated_at=?9`
-    ).bind(id, n.status, n.priority, n.follow_up, n.contact, JSON.stringify(n.tags), n.body, JSON.stringify(n.log), now).run();
+      `INSERT INTO notes (entry_id, status, priority, follow_up, contact, tags, body, log, updated_at, decision)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10)
+       ON CONFLICT(entry_id) DO UPDATE SET status=?2, priority=?3, follow_up=?4, contact=?5, tags=?6, body=?7, log=?8, updated_at=?9, decision=?10`
+    ).bind(id, n.status, n.priority, n.follow_up, n.contact, JSON.stringify(n.tags), n.body, JSON.stringify(n.log), now, n.decision).run();
     return json({ note: { entry_id: id, ...n, updated_at: now } });
   }
 

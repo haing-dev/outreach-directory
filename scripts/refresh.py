@@ -1,31 +1,30 @@
 #!/usr/bin/env python3
 """
-Weekly refresh for the Outreach Directory.
+Refresh job for the Outreach Directory.
 
-For every entry in config/seeds.yaml, asks Claude (Sonnet, medium effort, with web search)
-to research the lab / institute / company and return structured JSON. Validates links,
-compares with last week's data, and writes:
+Two steps:
+  1. DISCOVER (optional): for each university / institute in config/seeds.yaml, Claude finds every
+     bioinformatics / computational-biology lab and writes config/labs.discovered.yaml.
+  2. REFRESH: for each lab and company, Claude (Sonnet, medium effort, web search) collects
+     the details and the site data is written to public/data/directory.json + changes.json.
 
-  public/data/directory.json   - all entries (what the site shows)
-  public/data/changes.json     - weekly change log + suggested additions
-
-Your notes are NOT here - they live in Cloudflare D1 and are never touched by this script.
+Your notes live in Cloudflare D1 and are never touched here.
 
 Usage:
-  python scripts/refresh.py                  # refresh everything
+  python scripts/refresh.py                         # refresh everything
   python scripts/refresh.py --only stanford-curtis,st-chai
   python scripts/refresh.py --category startup
-  python scripts/refresh.py --skeleton       # no API calls: build empty entries from seeds
-  python scripts/refresh.py --discover       # also suggest new labs per university
-  python scripts/refresh.py --stale-days 6   # skip entries refreshed in the last N days
+  python scripts/refresh.py --discover "Stanford University" --skip-refresh
+  python scripts/refresh.py --discover all
+  python scripts/refresh.py --request config/run-request.yaml   # what CI uses
+  python scripts/refresh.py --skeleton              # no API calls
 
 Env:
-  CLAUDE_TOKEN         your Claude API key or internal token (auth style auto-detected)
-  CLAUDE_BASE_URL      default https://api.anthropic.com (set for an internal gateway)
-  CLAUDE_MODEL         default claude-sonnet-5-5
-  CLAUDE_EFFORT        default medium
-  MAX_SEARCHES         web searches allowed per entry, default 8
-  WORKERS              parallel requests, default 4
+  CLAUDE_TOKEN      API key, internal token, or subscription token (sk-ant-oat..., via Claude Code)
+  CLAUDE_BASE_URL   default https://api.anthropic.com
+  CLAUDE_MODEL      default claude-sonnet-5-5
+  CLAUDE_EFFORT     default medium
+  COLLECT_EMAILS    "true" to store publicly listed institutional emails (CI sets this only for private repos)
 """
 from __future__ import annotations
 
@@ -46,10 +45,12 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEDS = ROOT / "config" / "seeds.yaml"
+DISCOVERED = ROOT / "config" / "labs.discovered.yaml"
 PROFILE = ROOT / "config" / "profile.yaml"
 DATA_DIR = ROOT / "public" / "data"
 DIRECTORY = DATA_DIR / "directory.json"
 CHANGES = DATA_DIR / "changes.json"
+
 
 def _env(*names, default=""):
     for n in names:
@@ -62,60 +63,81 @@ def _env(*names, default=""):
 BASE_URL = _env("CLAUDE_BASE_URL", "ANTHROPIC_BASE_URL", default="https://api.anthropic.com").rstrip("/")
 MODEL = _env("CLAUDE_MODEL", default="claude-sonnet-5-5")
 EFFORT = _env("CLAUDE_EFFORT", default="medium")
-MAX_SEARCHES = int(_env("MAX_SEARCHES", default="8"))
-WORKERS = int(_env("WORKERS", default="4"))
+MAX_SEARCHES = int(_env("MAX_SEARCHES", default="10"))
 WEB_SEARCH_TOOL = _env("WEB_SEARCH_TOOL", default="web_search_20260318")
 TOKEN = _env("CLAUDE_TOKEN", "ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")
-# Standard keys go in x-api-key; many internal gateways want "Authorization: Bearer".
-# We try x-api-key first and switch automatically on a 401.
 # Subscription tokens from `claude setup-token` (sk-ant-oat...) only work through Claude Code,
-# so in that case we run the Claude Code CLI headless instead of calling the API directly.
+# so then we run the Claude Code CLI headless instead of calling the API directly.
 USE_CLI = TOKEN.startswith("sk-ant-oat") or bool(_env("CLAUDE_CODE_OAUTH_TOKEN"))
-if USE_CLI:
-    WORKERS = int(_env("WORKERS", default="2"))
+WORKERS = int(_env("WORKERS", default="2" if USE_CLI else "4"))
+# Standard keys go in x-api-key; many internal gateways want "Authorization: Bearer" (auto-switch on 401).
 AUTH = {"mode": "bearer" if _env("ANTHROPIC_AUTH_TOKEN") and not _env("CLAUDE_TOKEN", "ANTHROPIC_API_KEY") else "x-api-key"}
+COLLECT_EMAILS = _env("COLLECT_EMAILS").lower() == "true"
 
+LAB_CATS = {"academic", "institute"}
+COMPANY_CATS = {"bigtech", "biotech", "startup"}
 CATEGORY_LABEL = {
-    "academic": "Academic lab",
-    "institute": "Independent institute",
-    "bigtech": "Big tech AI-bio team",
-    "biotech": "Biotech / pharma",
-    "startup": "AI-bio startup",
+    "academic": "academic lab", "institute": "lab at an independent research institute",
+    "bigtech": "big-tech AI-for-biology team", "biotech": "biotech / pharma company", "startup": "AI-bio startup",
 }
-HAS_CONTACTS = {"academic", "institute"}
 PROGRAM_STATUSES = {"open", "opens_soon", "rolling", "closed", "unknown"}
-
 TODAY = dt.date.today()
+META_KEYS = ("name", "category", "region", "institution", "pi", "rank", "group", "department_hint")
 
-
-# ----------------------------------------------------------------------------- seeds
 
 def load_yaml(path: Path):
+    if not path.exists():
+        return {}
     with open(path, encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
+
+
+def slug(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
+
+
+INST_SHORT = {
+    "stanford university": "stanford", "harvard university": "harvard", "mit": "mit", "princeton university": "princeton",
+    "caltech": "caltech", "university of cambridge": "cam", "university college london": "ucl",
+    "university of oxford": "ox", "imperial college london": "imperial", "arc institute": "arc",
+    "broad institute": "broad", "scripps research": "scripps", "new york genome center": "nygc",
+    "chan zuckerberg biohub": "czb", "wellcome sanger institute": "sanger", "francis crick institute": "crick",
+    "embl-ebi": "ebi", "the institute of cancer research": "icr", "mrc laboratory of molecular biology": "lmb",
+}
+
+
+def lab_id(institution: str, pi: str) -> str:
+    short = INST_SHORT.get(institution.lower(), slug(institution)[:12])
+    return f"{short}-{slug(pi.split()[-1] if pi else 'lab')}"
 
 
 def load_seeds() -> list[dict]:
     raw = load_yaml(SEEDS)
     out: list[dict] = []
-    for region, unis in (raw.get("academic") or {}).items():
-        for inst, labs in (unis or {}).items():
-            for lab in labs or []:
-                # "Notable PIs" group: show the hint (their actual institution) instead of the group name
-                shown = lab.get("hint") if region == "Other" and lab.get("hint") else inst
-                out.append({**lab, "category": "academic", "region": region, "institution": shown})
-    for region, items in (raw.get("institute") or {}).items():
-        for i, it in enumerate(items or []):
-            out.append({**it, "category": "institute", "region": region, "institution": it["name"], "rank": i + 1})
+    for lab in raw.get("labs") or []:
+        out.append({**lab, "category": lab.get("category", "academic")})
+    for lab in (load_yaml(DISCOVERED).get("labs") or []):
+        out.append(lab)
     for cat in ("bigtech", "biotech", "startup"):
-        for i, it in enumerate(raw.get(cat) or []):
+        for i, it in enumerate((raw.get("companies") or {}).get(cat) or []):
             out.append({**it, "category": cat, "region": it.get("region", ""), "institution": it["name"], "rank": i + 1})
-    seen = set()
+    seen, uniq = set(), []
     for s in out:
         if s["id"] in seen:
-            sys.exit(f"Duplicate id in seeds.yaml: {s['id']}")
+            continue  # manual entry wins over a discovered duplicate
         seen.add(s["id"])
-    return [s for s in out if s.get("enabled", True)]
+        uniq.append(s)
+    return [s for s in uniq if s.get("enabled", True)]
+
+
+def institutions() -> list[dict]:
+    raw = load_yaml(SEEDS)
+    out = []
+    for region, names in (raw.get("universities") or {}).items():
+        out += [{"name": n, "region": region, "category": "academic"} for n in names or []]
+    for region, names in (raw.get("institutes") or {}).items():
+        out += [{"name": n, "region": region, "category": "institute"} for n in names or []]
+    return out
 
 
 # ----------------------------------------------------------------------------- Claude
@@ -146,7 +168,7 @@ def call_claude_cli(system: str, user: str, max_searches: int) -> tuple[str, lis
     last = ""
     for attempt in range(3):
         try:
-            r = subprocess.run(cmd, capture_output=True, text=True, timeout=1200, env=env, cwd="/tmp")
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=2400, env=env, cwd="/tmp")
         except subprocess.TimeoutExpired:
             last = "timed out"
             continue
@@ -234,117 +256,221 @@ def extract_json(text: str):
 # ----------------------------------------------------------------------------- prompts
 
 SYSTEM = """You are a careful research assistant building a networking directory for a PhD student.
-Use web search to check OFFICIAL, CURRENT sources (lab/company websites, university pages, official program pages,
-Google Scholar, recent papers). Today's date is {today}.
+Use web search and web fetch to check OFFICIAL, CURRENT sources (lab / company websites, university and
+department pages, lab "people" / "members" pages, official program pages, Google Scholar). Today is {today}.
 
 Rules:
-- Never invent people, programs, dates or URLs. If you cannot verify something, leave it out or use null.
-- Every URL you return must be one you actually saw in search results.
-- Prefer official program pages for program links.
-- For people, use only information that is publicly posted in a professional context (lab members pages,
-  university profiles, Google Scholar, GitHub, personal academic sites). Never include email addresses,
-  phone numbers or home locations.
-- Keep the summary to 2-3 sentences, plain language.
-- Finish with ONE fenced ```json block that matches the requested schema exactly, and nothing after it."""
+- Never invent people, emails, programs, dates or URLs. If you cannot verify something, use null or leave it out.
+- Every URL you return must be one you actually saw.
+- Finish with ONE fenced ```json block matching the requested schema exactly, and nothing after it."""
 
-SCHEMA = """{
-  "name": "display name",
-  "institution": "university / company name",
-  "department": "department, institute or team name, or null",
+LAB_SCHEMA = """{
+  "name": "lab / group name",
+  "url": "lab website (main page)",
+  "pi": {"name": "", "title": "e.g. Associate Professor of Genetics", "profile_url": "", "scholar_url": ""},
+  "institution": "current institution",
+  "department": "department(s) / programs",
   "location": "city, country",
-  "website": "main URL",
-  "summary": "2-3 sentence summary of what they do",
-  "topics": ["3-6 short topic tags"],
-  "fit": {"score": 1, "reason": "one sentence on overlap with the student's interests (1=low, 2=medium, 3=high)"},
-  "people": [
-    {"name": "", "role": "PI / founder / team lead title", "background": "one line: training or prior roles",
-     "links": [{"label": "Profile|Scholar|LinkedIn|X|Website", "url": ""}]}
+  "focus": "3-4 sentences describing the lab's research topics and methods, concrete and specific",
+  "topics": ["4-6 short topic tags"],
+  "fit": {"score": 3, "reason": "one sentence: overlap with the student's interests. 5 = strongest fit, 1 = weakest"},
+  "members": [
+    {"name": "", "role": "Postdoc | PhD student", "year": "e.g. 3rd year, or null", "focus": "what they work on, one line",
+     "email": "only if publicly listed on an official lab/university page, else null", "profile_url": "personal/lab profile page or null"}
   ],
-  "recent_papers": [{"title": "", "venue": "", "year": 2026, "url": ""}],
+  "members_page": "URL of the lab people/members page used",
+  "flags": ["anything notable, e.g. 'PI moved to X in 2025', 'members page last updated 2023'"],
+  "sources": [{"title": "", "url": ""}]
+}"""
+
+COMPANY_SCHEMA = """{
+  "name": "",
+  "url": "main website for the relevant team",
+  "leads": [{"name": "", "role": "founder / head of team title", "background": "one line", "profile_url": ""}],
+  "focus": "3-4 sentences on what the team/company does in biology / AI for science, concrete and specific",
+  "topics": ["4-6 short topic tags"],
+  "location": "HQ / main sites",
+  "fit": {"score": 3, "reason": "one sentence: overlap with the student's interests. 5 = strongest fit, 1 = weakest"},
   "programs": [
-    {"name": "", "type": "internship|fellowship|visiting|residency|workshop|summer_school|phd_position|other",
-     "eligibility": "who can apply, incl. whether non-US/UK students are eligible if stated",
-     "deadline": "YYYY-MM-DD or null", "deadline_text": "e.g. 'Rolling', 'Usually opens in September'",
-     "status": "open|opens_soon|rolling|closed|unknown", "url": ""}
+    {"name": "", "type": "internship | fellowship | residency | student researcher | visiting | other",
+     "requirements": "what applicants need: degree stage, skills, publications, languages, etc.",
+     "eligibility": "who can apply incl. location / work authorization notes if stated",
+     "location": "", "duration": "", "deadline": "YYYY-MM-DD or null",
+     "deadline_text": "e.g. 'Rolling', 'Usually opens in September'", "status": "open|opens_soon|rolling|closed|unknown", "url": ""}
   ],
-  "contacts": [
-    {"name": "", "role": "PhD student (year) | Postdoc", "focus": "what they work on",
-     "opener": "one specific, genuine conversation opener tied to their work", "profile_url": "", "best": true}
-  ],
-  "flags": ["anything the student should know, e.g. 'PI moved to X in 2025', 'lab not taking visitors'"],
+  "flags": [],
   "sources": [{"title": "", "url": ""}]
 }"""
 
 
-def build_prompt(seed: dict, profile: dict, prev: dict | None) -> str:
+def build_prompt(seed: dict, profile: dict, prev: dict | None) -> tuple[str, int]:
     cat = seed["category"]
-    who = seed.get("pi")
-    lines = [f"Research this {CATEGORY_LABEL[cat].lower()} for a networking directory."]
-    lines.append(f"Name: {seed['name']}")
-    if cat == "academic":
-        lines.append(f"Principal investigator: {who}")
-        lines.append(f"Listed under: {seed['institution']} ({seed['region']})")
-        lines.append("First confirm the PI's CURRENT affiliation. If they have moved, research the lab at the new "
-                     "institution and add a flag saying so.")
+    student = "The student: " + json.dumps(profile, ensure_ascii=False)
+    if cat in LAB_CATS:
+        lines = [
+            f"Research this {CATEGORY_LABEL[cat]} for a networking directory.",
+            f"Lab: {seed.get('name')}  |  PI: {seed.get('pi')}  |  Listed at: {seed.get('institution')}",
+        ]
+        if seed.get("department_hint") or seed.get("hint"):
+            lines.append(f"Hint: {seed.get('department_hint') or seed.get('hint')}")
+        if seed.get("url"):
+            lines.append(f"Lab URL (from discovery): {seed['url']}")
+        lines += [
+            "",
+            "1. Confirm the PI's CURRENT institution (flag a move).",
+            "2. Open the lab's people/members page and list EVERY current postdoc and PhD student "
+            "(not alumni, not undergrads, not staff). Include their research focus and profile link. "
+            "Include an email only when it is published on an official lab or university page.",
+            "3. Describe the research focus in 3-4 specific sentences.",
+            "4. Score fit 1-5 against the student's interests (be discriminating: use the whole range).",
+            "",
+            student,
+            f"\nReturn JSON with this schema:\n{LAB_SCHEMA}",
+        ]
+        return "\n".join(lines), MAX_SEARCHES
+    lines = [
+        f"Research this {CATEGORY_LABEL[cat]} for a networking directory: {seed['name']}",
+    ]
     if seed.get("hint"):
-        lines.append(f"Hint: {seed['hint']}")
-
-    lines.append("\nThe student: " + json.dumps(profile, ensure_ascii=False))
-
-    lines.append("\nWhat to collect:")
-    if cat == "academic":
-        lines.append("- people: the PI (plus a co-lead or staff scientist if prominent). 1-3 entries.")
-        lines.append("- recent_papers: 2-3 recent notable papers (last ~2 years) useful as talking points.")
-    elif cat == "institute":
-        lines.append("- people: director/president plus 2-3 group leaders whose work is closest to cancer genomics / "
-                     "computational biology.")
-        lines.append("- recent_papers: 0-2 items, optional.")
-    else:
-        lines.append("- people: founders and/or leaders of the bio / science / computational team (2-4).")
-        lines.append("- recent_papers: 0-2 notable papers or model releases, optional.")
-    lines.append("- programs: every current program a PhD student could use: internships, PhD fellowships, visiting "
-                 "student/researcher schemes, residencies, summer schools, workshops. Include the official link. "
-                 "If a program exists but dates for the next cycle are not posted, use status 'opens_soon' or "
-                 "'unknown' with deadline_text explaining the usual timing.")
-    if cat in HAS_CONTACTS:
-        lines.append("- contacts: 2-3 CURRENT PhD students or postdocs (NOT the PI) from the public lab/group members "
-                     "page whose work overlaps the student's interests. Mark the single best first contact with "
-                     "best=true. Link to their public profile page. No emails.")
-    else:
-        lines.append("- contacts: return an empty list (not needed for companies).")
-    lines.append("- fit: score against the student's interests.")
-
+        lines.append(f"Focus on: {seed['hint']}")
+    lines += [
+        "",
+        "1. Identify founders and/or leaders of the biology / AI-for-science / computational team (2-4 people).",
+        "2. Describe what they do in biology in 3-4 specific sentences.",
+        "3. List every current program a PhD student could use (internships, PhD fellowships, residencies, "
+        "student researcher roles, visiting roles) with REQUIREMENTS, eligibility, deadline and the official link. "
+        "If the next cycle isn't posted, say when it usually opens.",
+        "4. Score fit 1-5 against the student's interests.",
+        "",
+        student,
+    ]
     if prev and prev.get("programs"):
-        lines.append("\nLast week's programs (re-check each one is still accurate):\n"
-                     + json.dumps(prev["programs"], ensure_ascii=False)[:3000])
+        lines.append("\nLast week's programs (re-check):\n" + json.dumps(prev["programs"], ensure_ascii=False)[:3000])
+    lines.append(f"\nReturn JSON with this schema:\n{COMPANY_SCHEMA}")
+    return "\n".join(lines), MAX_SEARCHES
 
-    lines.append(f"\nReturn JSON with this schema:\n{SCHEMA}")
-    return "\n".join(lines)
+
+DISCOVER_PROMPT = """List ALL faculty-led research labs/groups at {inst} whose work is substantially
+bioinformatics, computational biology, genomics data science, statistical genetics, systems biology modelling,
+or machine learning for biology/medicine. Include computational groups in any department (biology, genetics,
+biomedical data science, computer science, statistics, bioengineering, medicine, cancer centres, affiliated
+institutes) and wet/dry hybrid labs with a major computational component. Do not limit to cancer.
+Aim for completeness: check department faculty lists and research-area pages. Only include PIs whose current
+appointment at {inst} you verified.
+
+Return:
+```json
+{{"labs": [{{"pi": "Full Name", "lab_name": "X Lab", "department": "", "url": "lab or profile URL"}}]}}
+```"""
+
+
+def discover(inst: dict) -> list[dict]:
+    text, _ = call_claude(SYSTEM.format(today=TODAY.isoformat()), DISCOVER_PROMPT.format(inst=inst["name"]), max_searches=25)
+    labs = []
+    for x in extract_json(text).get("labs", []):
+        pi = (x.get("pi") or "").strip()
+        if not pi:
+            continue
+        labs.append({
+            "id": lab_id(inst["name"], pi), "name": (x.get("lab_name") or f"{pi.split()[-1]} Lab").strip(),
+            "pi": pi, "institution": inst["name"], "region": inst["region"], "category": inst["category"],
+            "department_hint": (x.get("department") or "").strip() or None,
+            "url": x.get("url") if _url(x.get("url")) else None, "discovered": TODAY.isoformat(),
+        })
+    return labs
+
+
+def run_discovery(names: list[str]) -> list[dict]:
+    insts = institutions()
+    if names != ["all"]:
+        wanted = {n.lower() for n in names}
+        insts = [i for i in insts if i["name"].lower() in wanted]
+    existing = load_yaml(DISCOVERED).get("labs") or []
+    by_id = {l["id"]: l for l in existing}
+    added = []
+    for inst in insts:
+        try:
+            found = discover(inst)
+            print(f"  discover {inst['name']}: {len(found)} labs")
+        except Exception as e:  # noqa: BLE001
+            print(f"  discover {inst['name']}: FAILED ({e})", file=sys.stderr)
+            continue
+        for lab in found:
+            if lab["id"] not in by_id:
+                by_id[lab["id"]] = lab
+                added.append(lab)
+    labs = sorted(by_id.values(), key=lambda l: (l["institution"], l["pi"]))
+    header = "# Generated by discovery. Safe to edit: delete an entry or set enabled: false.\n"
+    DISCOVERED.write_text(header + yaml.safe_dump({"labs": labs}, sort_keys=False, allow_unicode=True, width=200))
+    return added
 
 
 # ----------------------------------------------------------------------------- cleaning
 
-def _url_ok_shape(u) -> bool:
+def _url(u) -> bool:
     return isinstance(u, str) and u.startswith(("http://", "https://"))
 
 
-def clean_entry(seed: dict, raw: dict, cited: list[dict]) -> dict:
-    def s(x, n=600):
-        return x.strip()[:n] if isinstance(x, str) else None
+def _s(x, n=600):
+    return x.strip()[:n] if isinstance(x, str) and x.strip() else None
 
-    people = []
-    for p in (raw.get("people") or [])[:5]:
-        if not s(p.get("name")):
+
+def _fit(raw):
+    fit = raw.get("fit") or {}
+    try:
+        score = max(1, min(5, int(fit.get("score"))))
+    except (TypeError, ValueError):
+        score = None
+    return {"score": score, "reason": _s(fit.get("reason"), 300)}
+
+
+def _sources(raw, cited):
+    src = [{"title": _s(x.get("title"), 200) or x["url"], "url": x["url"]} for x in (raw.get("sources") or []) if _url(x.get("url"))]
+    known = {x["url"] for x in src}
+    return (src + [c for c in cited if c["url"] not in known])[:12]
+
+
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[a-z]{2,}$", re.I)
+
+
+def clean_lab(raw: dict, cited: list[dict]) -> dict:
+    pi = raw.get("pi") or {}
+    members = []
+    for m in (raw.get("members") or [])[:80]:
+        name = _s(m.get("name"), 120)
+        role = _s(m.get("role"), 60) or ""
+        if not name or not re.search(r"post-?doc|ph\.?d|doctoral|graduate student|dphil", role, re.I):
             continue
-        people.append({
-            "name": s(p.get("name"), 120), "role": s(p.get("role"), 200), "background": s(p.get("background"), 300),
-            "links": [{"label": s(l.get("label"), 30) or "Link", "url": l["url"]}
-                      for l in (p.get("links") or []) if _url_ok_shape(l.get("url"))][:4],
+        email = _s(m.get("email"), 120)
+        members.append({
+            "name": name, "role": role, "year": _s(str(m.get("year")) if m.get("year") else None, 40),
+            "focus": _s(m.get("focus"), 250),
+            "email": email if (COLLECT_EMAILS and email and EMAIL_RE.match(email)) else None,
+            "profile_url": m.get("profile_url") if _url(m.get("profile_url")) else None,
         })
+    members.sort(key=lambda m: (0 if re.search("post", m["role"], re.I) else 1, m["name"]))
+    return {
+        "url": raw.get("url") if _url(raw.get("url")) else None,
+        "pi_profile": {"name": _s(pi.get("name"), 120), "title": _s(pi.get("title"), 200),
+                       "profile_url": pi.get("profile_url") if _url(pi.get("profile_url")) else None,
+                       "scholar_url": pi.get("scholar_url") if _url(pi.get("scholar_url")) else None},
+        "current_institution": _s(raw.get("institution"), 200),
+        "department": _s(raw.get("department"), 200),
+        "location": _s(raw.get("location"), 120),
+        "focus": _s(raw.get("focus"), 900),
+        "topics": [t for t in (_s(t, 40) for t in raw.get("topics") or []) if t][:6],
+        "fit": _fit(raw),
+        "members": members,
+        "members_page": raw.get("members_page") if _url(raw.get("members_page")) else None,
+        "flags": [f for f in (_s(f, 300) for f in raw.get("flags") or []) if f][:5],
+        "sources": _sources(raw, cited),
+    }
 
+
+def clean_company(raw: dict, cited: list[dict]) -> dict:
     programs = []
     for p in (raw.get("programs") or [])[:12]:
-        if not s(p.get("name")):
+        if not _s(p.get("name")):
             continue
         dl = p.get("deadline")
         try:
@@ -352,184 +478,109 @@ def clean_entry(seed: dict, raw: dict, cited: list[dict]) -> dict:
         except (TypeError, ValueError):
             dl = None
         status = p.get("status") if p.get("status") in PROGRAM_STATUSES else "unknown"
-        if dl and dt.date.fromisoformat(dl) < TODAY and status in ("open", "opens_soon"):
+        if dl and dl < TODAY.isoformat() and status in ("open", "opens_soon"):
             status = "closed"
         programs.append({
-            "name": s(p.get("name"), 200), "type": s(p.get("type"), 40) or "other",
-            "eligibility": s(p.get("eligibility"), 300), "deadline": dl,
-            "deadline_text": s(p.get("deadline_text"), 120), "status": status,
-            "url": p.get("url") if _url_ok_shape(p.get("url")) else None,
+            "name": _s(p.get("name"), 200), "type": _s(p.get("type"), 40) or "other",
+            "requirements": _s(p.get("requirements"), 500), "eligibility": _s(p.get("eligibility"), 300),
+            "location": _s(p.get("location"), 120), "duration": _s(p.get("duration"), 80),
+            "deadline": dl, "deadline_text": _s(p.get("deadline_text"), 120), "status": status,
+            "url": p.get("url") if _url(p.get("url")) else None,
         })
-
-    contacts = []
-    if seed["category"] in HAS_CONTACTS:
-        for c in (raw.get("contacts") or [])[:4]:
-            if not s(c.get("name")):
-                continue
-            contacts.append({
-                "name": s(c.get("name"), 120), "role": s(c.get("role"), 120), "focus": s(c.get("focus"), 250),
-                "opener": s(c.get("opener"), 300), "best": bool(c.get("best")),
-                "profile_url": c.get("profile_url") if _url_ok_shape(c.get("profile_url")) else None,
-            })
-
-    fit = raw.get("fit") or {}
-    try:
-        score = max(1, min(3, int(fit.get("score", 0))))
-    except (TypeError, ValueError):
-        score = None
-
-    sources = [x for x in (raw.get("sources") or []) if _url_ok_shape(x.get("url"))]
-    known = {x["url"] for x in sources}
-    sources += [c for c in cited if c["url"] not in known]
-
     return {
-        "summary": s(raw.get("summary"), 700),
-        "department": s(raw.get("department"), 200),
-        "current_institution": s(raw.get("institution"), 200),
-        "location": s(raw.get("location"), 120),
-        "website": raw.get("website") if _url_ok_shape(raw.get("website")) else None,
-        "topics": [s(t, 40) for t in (raw.get("topics") or []) if s(t)][:6],
-        "fit": {"score": score, "reason": s(fit.get("reason"), 300)},
-        "people": people,
-        "recent_papers": [
-            {"title": s(p.get("title"), 300), "venue": s(p.get("venue"), 120), "year": p.get("year"),
-             "url": p.get("url") if _url_ok_shape(p.get("url")) else None}
-            for p in (raw.get("recent_papers") or [])[:3] if s(p.get("title"))
-        ],
+        "url": raw.get("url") if _url(raw.get("url")) else None,
+        "leads": [{"name": _s(l.get("name"), 120), "role": _s(l.get("role"), 200), "background": _s(l.get("background"), 300),
+                   "profile_url": l.get("profile_url") if _url(l.get("profile_url")) else None}
+                  for l in (raw.get("leads") or [])[:5] if _s(l.get("name"))],
+        "focus": _s(raw.get("focus"), 900),
+        "topics": [t for t in (_s(t, 40) for t in raw.get("topics") or []) if t][:6],
+        "location": _s(raw.get("location"), 120),
+        "fit": _fit(raw),
         "programs": programs,
-        "contacts": contacts,
-        "flags": [s(f, 300) for f in (raw.get("flags") or []) if s(f)][:5],
-        "sources": [{"title": s(x.get("title"), 200) or x["url"], "url": x["url"]} for x in sources][:12],
+        "flags": [f for f in (_s(f, 300) for f in raw.get("flags") or []) if f][:5],
+        "sources": _sources(raw, cited),
     }
 
 
 def check_links(entry: dict) -> None:
-    """Mark links that do not resolve. Keeps them, but flags them for review."""
-    urls = set()
-    for p in entry.get("programs", []):
-        if p.get("url"):
-            urls.add(p["url"])
-    if entry.get("website"):
-        urls.add(entry["website"])
+    urls = {p["url"] for p in entry.get("programs", []) if p.get("url")}
+    if entry.get("url"):
+        urls.add(entry["url"])
     broken = []
     for u in urls:
         try:
-            r = requests.head(u, allow_redirects=True, timeout=12, headers={"user-agent": "Mozilla/5.0 outreach-directory"})
-            if r.status_code in (403, 405, 429) or r.status_code >= 500:  # many sites block HEAD/bots; try GET
-                r = requests.get(u, allow_redirects=True, timeout=15, stream=True,
-                                 headers={"user-agent": "Mozilla/5.0 outreach-directory"})
+            r = requests.head(u, allow_redirects=True, timeout=12, headers={"user-agent": "Mozilla/5.0"})
+            if r.status_code in (403, 405, 429) or r.status_code >= 500:
+                r = requests.get(u, allow_redirects=True, timeout=15, stream=True, headers={"user-agent": "Mozilla/5.0"})
             if r.status_code in (404, 410):
                 broken.append(u)
         except requests.RequestException:
-            pass  # network hiccup / bot wall: don't punish
+            pass
     entry["broken_links"] = sorted(broken)
 
 
 # ----------------------------------------------------------------------------- diff
 
-def program_key(p):
-    return (p.get("name") or "").lower().strip()
-
-
 def diff_entry(old: dict | None, new: dict) -> list[dict]:
-    items = []
     eid, name = new["id"], new["name"]
+    item = lambda t, text, url=None: {"type": t, "entry_id": eid, "entry_name": name, "text": text, **({"url": url} if url else {})}
     if not old or not old.get("refreshed_at"):
-        if new.get("refreshed_at"):
-            items.append({"type": "new_entry", "entry_id": eid, "entry_name": name, "text": "Added to the directory"})
-        return items
-    old_p = {program_key(p): p for p in old.get("programs", [])}
-    new_p = {program_key(p): p for p in new.get("programs", [])}
-    for k, p in new_p.items():
-        if k not in old_p:
-            items.append({"type": "new_program", "entry_id": eid, "entry_name": name,
-                          "text": f"New program: {p['name']}" + (f" (deadline {p['deadline']})" if p.get("deadline") else ""),
-                          "url": p.get("url")})
-        else:
-            o = old_p[k]
-            if (o.get("deadline") or "") != (p.get("deadline") or ""):
-                items.append({"type": "date_changed", "entry_id": eid, "entry_name": name,
-                              "text": f"{p['name']}: deadline {o.get('deadline') or 'n/a'} -> {p.get('deadline') or 'n/a'}",
-                              "url": p.get("url")})
-            if o.get("status") != p.get("status") and p.get("status") == "open":
-                items.append({"type": "opened", "entry_id": eid, "entry_name": name,
-                              "text": f"{p['name']} is now open", "url": p.get("url")})
-    for k, p in old_p.items():
-        if k not in new_p:
-            items.append({"type": "program_removed", "entry_id": eid, "entry_name": name,
-                          "text": f"No longer listed: {p['name']}"})
-    old_c = {c["name"] for c in old.get("contacts", [])}
-    new_c = {c["name"] for c in new.get("contacts", [])}
-    if old_c and new_c and old_c != new_c:
-        gone, added = old_c - new_c, new_c - old_c
-        items.append({"type": "contact_changed", "entry_id": eid, "entry_name": name,
-                      "text": "Suggested contacts changed" + (f"; added {', '.join(sorted(added))}" if added else "")
-                      + (f"; removed {', '.join(sorted(gone))}" if gone else "")})
+        return [item("new_entry", "Added")] if new.get("refreshed_at") else []
+    out = []
+    op = {(p.get("name") or "").lower(): p for p in old.get("programs", [])}
+    np_ = {(p.get("name") or "").lower(): p for p in new.get("programs", [])}
+    for k, p in np_.items():
+        if k not in op:
+            out.append(item("new_program", f"New program: {p['name']}", p.get("url")))
+        elif (op[k].get("deadline") or "") != (p.get("deadline") or ""):
+            out.append(item("date_changed", f"{p['name']}: {op[k].get('deadline') or 'n/a'} → {p.get('deadline') or 'n/a'}", p.get("url")))
+    for k, p in op.items():
+        if k not in np_:
+            out.append(item("program_removed", f"No longer listed: {p['name']}"))
+    om = {m["name"] for m in old.get("members", [])}
+    nm = {m["name"] for m in new.get("members", [])}
+    if om and nm != om:
+        add, gone = sorted(nm - om), sorted(om - nm)
+        text = "; ".join(x for x in [f"joined: {', '.join(add)}" if add else "", f"left: {', '.join(gone)}" if gone else ""] if x)
+        out.append(item("members_changed", text))
     for f in new.get("flags", []):
         if f not in old.get("flags", []):
-            items.append({"type": "flag", "entry_id": eid, "entry_name": name, "text": f})
+            out.append(item("flag", f))
     for u in new.get("broken_links", []):
         if u not in old.get("broken_links", []):
-            items.append({"type": "needs_review", "entry_id": eid, "entry_name": name,
-                          "text": "Link not found (404) - kept last known info", "url": u})
-    return items
-
-
-# ----------------------------------------------------------------------------- discovery
-
-def discover(seeds: list[dict], profile: dict, per_university: int = 4) -> list[dict]:
-    """Suggest additional labs per university (shown in What's new > Suggestions)."""
-    unis: dict[tuple, list[str]] = {}
-    for s in seeds:
-        if s["category"] == "academic" and s["region"] in ("US", "UK"):
-            unis.setdefault((s["institution"], s["region"]), []).append(s.get("pi") or s["name"])
-    out = []
-    for (uni, region), existing in unis.items():
-        prompt = (
-            f"Suggest up to {per_university} additional faculty labs at {uni} that are among the strongest for a PhD "
-            f"student interested in: {', '.join(profile.get('interests', []))}. Exclude these PIs already listed: "
-            f"{', '.join(existing)}. Only include PIs whose current appointment at {uni} you verified.\n"
-            'Return ```json {"suggestions": [{"pi": "", "lab_name": "", "department": "", "why": "one line", '
-            '"url": ""}]}```'
-        )
-        try:
-            text, _ = call_claude(SYSTEM.format(today=TODAY.isoformat()), prompt, max_searches=6, max_tokens=4000)
-            for sug in extract_json(text).get("suggestions", [])[:per_university]:
-                if sug.get("pi"):
-                    out.append({**sug, "institution": uni, "region": region})
-            print(f"  discover {uni}: ok")
-        except Exception as e:  # noqa: BLE001
-            print(f"  discover {uni}: failed ({e})", file=sys.stderr)
+            out.append(item("needs_review", "Link not found (404)", u))
     return out
 
 
 # ----------------------------------------------------------------------------- main
 
 def base_entry(seed: dict) -> dict:
-    return {
-        "id": seed["id"], "name": seed["name"], "category": seed["category"], "region": seed.get("region", ""),
-        "institution": seed.get("institution", ""), "pi": seed.get("pi"), "rank": seed.get("rank"),
-        "summary": None, "department": None, "location": None, "website": None, "topics": [],
-        "fit": {"score": None, "reason": None}, "people": [], "recent_papers": [], "programs": [],
-        "contacts": [], "flags": [], "sources": [], "broken_links": [], "refreshed_at": None, "error": None,
-    }
+    e = {k: seed.get(k) for k in META_KEYS}
+    e.update({"id": seed["id"], "url": seed.get("url"), "focus": None, "topics": [], "fit": {"score": None, "reason": None},
+              "flags": [], "sources": [], "broken_links": [], "refreshed_at": None, "error": None})
+    if seed["category"] in LAB_CATS:
+        e.update({"pi_profile": {}, "members": [], "department": seed.get("department_hint"), "location": None})
+    else:
+        e.update({"leads": [], "programs": [], "location": None})
+    return e
 
 
 def research(seed: dict, profile: dict, prev: dict | None) -> dict:
     entry = base_entry(seed)
     try:
-        text, cited = call_claude(SYSTEM.format(today=TODAY.isoformat()), build_prompt(seed, profile, prev))
+        prompt, searches = build_prompt(seed, profile, prev)
+        text, cited = call_claude(SYSTEM.format(today=TODAY.isoformat()), prompt, max_searches=searches, max_tokens=12000)
         raw = extract_json(text)
-        entry.update(clean_entry(seed, raw, cited))
-        if raw.get("name") and seed["category"] != "academic":
-            entry["name"] = seed["name"]  # keep the seed's display name for companies
+        entry.update(clean_lab(raw, cited) if seed["category"] in LAB_CATS else clean_company(raw, cited))
+        entry["url"] = entry.get("url") or seed.get("url")
         check_links(entry)
         entry["refreshed_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-        print(f"  ok   {seed['id']}  ({len(entry['programs'])} programs, {len(entry['contacts'])} contacts)")
-    except Exception as e:  # noqa: BLE001 - keep last week's data on any failure
+        n = len(entry.get("members", entry.get("programs", [])))
+        print(f"  ok   {seed['id']}  (fit {entry['fit']['score']}, {n} {'members' if seed['category'] in LAB_CATS else 'programs'})")
+    except Exception as e:  # noqa: BLE001 - keep last data on any failure
         print(f"  FAIL {seed['id']}: {e}", file=sys.stderr)
         if prev:
-            entry = {**prev, **{k: base_entry(seed)[k] for k in ("name", "category", "region", "institution", "pi", "rank")}}
+            entry = {**prev, **{k: seed.get(k) for k in META_KEYS}}
         entry["error"] = str(e)[:300]
     return entry
 
@@ -537,83 +588,93 @@ def research(seed: dict, profile: dict, prev: dict | None) -> dict:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", help="comma-separated ids")
-    ap.add_argument("--category", choices=list(CATEGORY_LABEL))
-    ap.add_argument("--skeleton", action="store_true", help="no API calls; build empty entries from seeds")
-    ap.add_argument("--discover", action="store_true", help="suggest new labs per university")
-    ap.add_argument("--stale-days", type=float, default=0, help="skip entries refreshed within N days")
+    ap.add_argument("--category", choices=sorted(LAB_CATS | COMPANY_CATS))
+    ap.add_argument("--discover", action="append", default=[], help="institution name, or 'all' (repeatable)")
+    ap.add_argument("--skip-refresh", action="store_true")
+    ap.add_argument("--request", help="YAML run request (CI)")
+    ap.add_argument("--skeleton", action="store_true", help="no API calls; rebuild from seeds + last data")
     args = ap.parse_args()
 
-    seeds = load_seeds()
-    profile = load_yaml(PROFILE)
+    only = set(args.only.split(",")) if args.only else set()
+    category, discover_names, skip = args.category, list(args.discover), args.skip_refresh
+    if args.request:
+        req = load_yaml(Path(args.request))
+        only |= set(req.get("only") or [])
+        category = category or (req.get("category") or None)
+        discover_names += [str(x) for x in (req.get("discover") or [])]
+        skip = skip or bool(req.get("skip_refresh"))
+        print(f"Run request #{req.get('request')}: only={sorted(only) or 'all'} category={category or 'all'} "
+              f"discover={discover_names or '-'} skip_refresh={skip}")
+    if not args.skeleton and not TOKEN:
+        sys.exit("Missing Claude token: add the CLAUDE_TOKEN secret in GitHub.")
+    print(f"Model {MODEL}, effort {EFFORT}, via {'Claude Code (subscription token)' if USE_CLI else 'Claude API'}, "
+          f"workers {WORKERS}, emails {'on' if COLLECT_EMAILS else 'off (repo is public)'}")
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     prev_dir = json.loads(DIRECTORY.read_text()) if DIRECTORY.exists() else {"entries": []}
     prev_by_id = {e["id"]: e for e in prev_dir.get("entries", [])}
-    changes = json.loads(CHANGES.read_text()) if CHANGES.exists() else {"weeks": [], "suggestions": []}
+    changes = json.loads(CHANGES.read_text()) if CHANGES.exists() else {"weeks": []}
+    week_items: list[dict] = []
 
-    targets = seeds
-    if args.only:
-        ids = set(args.only.split(","))
-        targets = [s for s in seeds if s["id"] in ids]
-    if args.category:
-        targets = [s for s in targets if s["category"] == args.category]
-    if args.stale_days:
-        cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=args.stale_days)
-        def fresh(s):
-            r = (prev_by_id.get(s["id"]) or {}).get("refreshed_at")
-            return r and dt.datetime.fromisoformat(r) > cutoff
-        targets = [s for s in targets if not fresh(s)]
+    if discover_names and not args.skeleton:
+        added = run_discovery(discover_names)
+        print(f"Discovery added {len(added)} labs")
+        for lab in added:
+            week_items.append({"type": "discovered", "entry_id": lab["id"], "entry_name": f"{lab['name']} ({lab['pi']})",
+                               "text": f"New lab found at {lab['institution']}"})
+        if not only and not category:
+            only = {l["id"] for l in added}  # research the newly found labs
+            if not only:
+                skip = True
+
+    seeds = load_seeds()
+    targets = [] if (skip or args.skeleton) else seeds
+    if only:
+        targets = [s for s in targets if s["id"] in only]
+    if category:
+        targets = [s for s in targets if s["category"] == category]
 
     new_by_id: dict[str, dict] = {}
-    if args.skeleton:
-        pass  # the merge below builds every entry from seeds + last data, no API calls
-    else:
-        via = "Claude Code (subscription token)" if USE_CLI else "Claude API"
-        print(f"Refreshing {len(targets)} entries with {MODEL} via {via} (effort={EFFORT}, workers={WORKERS})")
+    if targets:
+        print(f"Refreshing {len(targets)} entries")
         with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-            futs = {pool.submit(research, s, profile, prev_by_id.get(s["id"])): s for s in targets}
-            for f in cf.as_completed(futs):
+            for f in cf.as_completed([pool.submit(research, s, load_yaml(PROFILE), prev_by_id.get(s["id"])) for s in targets]):
                 e = f.result()
                 new_by_id[e["id"]] = e
 
-    # Merge: untouched seeds keep last data; removed seeds disappear (notes stay in D1)
     entries = []
-    week_items: list[dict] = []
     for s in seeds:
         if s["id"] in new_by_id:
             e = new_by_id[s["id"]]
             week_items += diff_entry(prev_by_id.get(s["id"]), e)
         else:
-            e = prev_by_id.get(s["id"]) or base_entry(s)
-            e.update({k: base_entry(s)[k] for k in ("name", "category", "region", "institution", "pi", "rank")})
+            old = prev_by_id.get(s["id"])
+            e = {**base_entry(s), **(old or {}), **{k: s.get(k) for k in META_KEYS}} if old and old.get("refreshed_at") else base_entry(s)
+            if not COLLECT_EMAILS:
+                for m in e.get("members", []):
+                    m["email"] = None
         entries.append(e)
-    for e in entries:
-        if e.get("error"):
+        if e.get("error") and s["id"] in new_by_id:
             week_items.append({"type": "needs_review", "entry_id": e["id"], "entry_name": e["name"],
                                "text": f"Refresh failed, showing last known data ({e['error'][:120]})"})
 
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    out = {"generated_at": now, "model": MODEL, "effort": EFFORT, "entries": entries}
-    DIRECTORY.write_text(json.dumps(out, ensure_ascii=False, indent=1))
-
-    if not args.skeleton:
+    DIRECTORY.write_text(json.dumps({"generated_at": now, "model": MODEL, "effort": EFFORT, "entries": entries},
+                                    ensure_ascii=False, indent=1))
+    if not args.skeleton and (targets or discover_names):
         week = TODAY.isoformat()
-        # Several runs in one week (e.g. "Refresh now") merge into the same week entry
         same = next((w for w in changes.get("weeks", []) if w["week"] == week), None)
         if same:
             seen = {(i["entry_id"], i["type"], i["text"]) for i in week_items}
             week_items += [i for i in same["items"] if (i["entry_id"], i["type"], i["text"]) not in seen]
         changes["weeks"] = [w for w in changes.get("weeks", []) if w["week"] != week]
-        changes["weeks"].insert(0, {"week": week, "generated_at": now,
-                                    "checked": max(len(targets), (same or {}).get("checked", 0)), "items": week_items})
+        changes["weeks"].insert(0, {"week": week, "generated_at": now, "checked": len(targets), "items": week_items})
         changes["weeks"] = changes["weeks"][:26]
-    if args.discover:
-        changes["suggestions"] = discover(seeds, profile)
-        changes["suggestions_at"] = now
     CHANGES.write_text(json.dumps(changes, ensure_ascii=False, indent=1))
-    print(f"Wrote {len(entries)} entries, {len(week_items)} changes.")
-    failed = sum(1 for e in entries if e.get("error"))
-    if targets and failed == len(targets) and not args.skeleton:
-        sys.exit("Every entry failed - check the API key / base URL.")
+    failed = [e["id"] for e in new_by_id.values() if e.get("error")]
+    print(f"Wrote {len(entries)} entries; refreshed {len(new_by_id) - len(failed)}, failed {len(failed)}.")
+    if targets and len(failed) == len(targets):
+        sys.exit("Every entry failed - check the Claude token.")
 
 
 if __name__ == "__main__":

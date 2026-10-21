@@ -3,6 +3,9 @@ name: Weekly refresh
 on:
   schedule:
     - cron: "0 13 * * 1"   # Mondays 13:00 UTC = 06:00 Pacific (05:00 during PST)
+  push:
+    branches: [main]
+    paths: ["config/run-request.yaml"]   # Claude starts runs from chat by pushing this file
   workflow_dispatch:
     inputs:
       only:
@@ -28,7 +31,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
 
@@ -55,6 +58,7 @@ jobs:
           CLAUDE_EFFORT: ${{ vars.CLAUDE_EFFORT }}
           WORKERS: ${{ vars.WORKERS }}
           MAX_SEARCHES: ${{ vars.MAX_SEARCHES }}
+          COLLECT_EMAILS: ${{ github.event.repository.private }}
           IN_ONLY: ${{ inputs.only }}
           IN_CATEGORY: ${{ inputs.category }}
           IN_DISCOVER: ${{ inputs.discover }}
@@ -62,14 +66,15 @@ jobs:
           ARGS=()
           [ -n "$IN_ONLY" ] && ARGS+=(--only "$IN_ONLY")
           [ -n "$IN_CATEGORY" ] && ARGS+=(--category "$IN_CATEGORY")
-          [ "$IN_DISCOVER" = "true" ] && ARGS+=(--discover)
+          [ "$IN_DISCOVER" = "true" ] && ARGS+=(--discover all)
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS+=(--request config/run-request.yaml); fi
           python scripts/refresh.py "${ARGS[@]}"
 
       - name: Commit updated data
         run: |
           git config user.name "outreach-bot"
           git config user.email "outreach-bot@users.noreply.github.com"
-          git add public/data
+          git add public/data config/labs.discovered.yaml
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Refresh $(date -u +%F)"
           git pull --rebase origin main

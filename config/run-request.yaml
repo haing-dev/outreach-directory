@@ -1,0 +1,12 @@
+# Pushing a change to this file starts a refresh on GitHub Actions.
+# (Claude edits and pushes it when you ask from chat; you can also edit it on github.com.)
+#
+# only:      list of entry ids to refresh ([] = everything)
+# category:  academic | institute | bigtech | biotech | startup ("" = all)
+# discover:  institution names to (re)discover labs for, or [all]
+# skip_refresh: true = only run discovery, don't research labs yet
+request: 1
+only: [stanford-curtis, arc-goodarzi, bt-deepmind, bio-tempus, st-noetik]
+category: ""
+discover: []
+skip_refresh: false

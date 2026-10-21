@@ -10,17 +10,15 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="brand"><span class="logo"></span>Outreach Directory</div>
-  <nav class="nav" id="nav">
-    <a data-view="directory">Directory</a>
-    <a data-view="programs">Programs &amp; deadlines</a>
-    <a data-view="outreach">My outreach</a>
-    <a data-view="news">What's new <span class="dot" id="newsCount" hidden></span></a>
-  </nav>
-  <div class="tb-right">
-    <span class="refresh" id="refreshInfo"><i></i>Loading…</span>
-    <button class="btn" id="refreshNow" title="Run the refresh job now">Refresh now</button>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand"><span class="logo"></span>Outreach</div>
+    <nav class="nav" id="nav">
+      <a data-view="directory">Directory</a>
+      <a data-view="programs">Programs</a>
+      <a data-view="news">What's new <span class="badge" id="newsCount" hidden></span></a>
+    </nav>
+    <div class="meta" id="refreshInfo"></div>
   </div>
 </header>
 <div id="banner" class="banner" hidden></div>
