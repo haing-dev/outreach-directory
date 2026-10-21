@@ -1,0 +1,16 @@
+{
+ "runs": [
+  {
+   "at": "2026-10-21T18:54:42+00:00",
+   "calls": 10,
+   "entries": 10,
+   "input": 82,
+   "output": 24382,
+   "cache_read": 225841,
+   "cache_write": 52578,
+   "cost_usd": 0.6402273,
+   "turns": 64,
+   "seconds": 376
+  }
+ ]
+}

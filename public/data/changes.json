@@ -2,9 +2,69 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T18:40:17+00:00",
-   "checked": 0,
+   "generated_at": "2026-10-21T18:54:42+00:00",
+   "checked": 10,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab",
+     "text": "Added"
+    },
     {
      "type": "discovered",
      "entry_id": "stanford-plevritis",

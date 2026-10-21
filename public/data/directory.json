@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:40:17+00:00",
+ "generated_at": "2026-10-21T18:54:42+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -401,22 +401,212 @@
    "group": "Notable PIs",
    "department_hint": null,
    "id": "other-getz",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://getzlab.org/",
+   "focus": "The lab does cancer genome analysis in two steps. Characterization catalogs genomic events and their causes in an individual patient's tumour compared with normal tissue, across DNA, RNA and protein. Interpretation analyses these data across patient cohorts to find cancer-driving gene and pathway alterations, molecular subtypes, and links to clinical variables. Current themes listed on the PI's Broad bio are tumour heterogeneity and clonal evolution, single-cell analysis of tumours and the microenvironment, therapy-resistance drivers, proteogenomics, and somatic mutations in normal tissues. The group also leads the Broad effort in the TCGA Genome Data Analysis Center and co-leads the Proteogenomics Data Analysis Center.",
+   "topics": [
+    "cancer genomics",
+    "somatic mutation / driver discovery",
+    "clonal evolution",
+    "single-cell tumour analysis",
+    "proteogenomics",
+    "computational methods"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 5,
+    "reason": "The lab is a leading computational cancer-genomics group working on WGS/transcriptome somatic analysis, mutation and driver methods, and single-cell tumour profiling. This closely matches the student's interests, though US visa logistics and a large lab are drawbacks."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move: Getz is still at the Broad and MGH/HMS, per the Broad bio and lab page.",
+    "The team page has no 'last updated' date. Research focus, year and email were not listed for any member, so they are null; I did not open the individual profile pages.",
+    "The roster is ambiguous. The page has an 'Alumni' heading, but unlabeled entries continue past it. Some look like current people: postdocs Michelle Aranha, Alex Gorelick, David Lee and Benny Zhitomirsky, and students Ziao Lin, Sam Freeman, Michael Vinyard and Nicole Lu. I left them out because their",
+    "Arielle Medford and Arvind Ravi appear in the postdoc section but are titled Instructor in Medicine (faculty-level). I excluded them.",
+    "Alex Azizi and Allen Gu are visiting postdocs, and Marcin Kaszkowiak is a visiting graduate student."
+   ],
+   "sources": [
+    {
+     "title": "Getz Lab team page",
+     "url": "https://getzlab.org/team/"
+    },
+    {
+     "title": "Getz Lab website",
+     "url": "https://getzlab.org/"
+    },
+    {
+     "title": "Broad Institute – Getz Lab",
+     "url": "https://www.broadinstitute.org/labs/getz"
+    },
+    {
+     "title": "Broad Institute – Gad Getz bio",
+     "url": "https://www.broadinstitute.org/bios/gad-getz"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:53:13+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": null,
-   "location": null
+   "pi_profile": {
+    "name": "Gad Getz",
+    "title": "Director, Cancer Genome Computational Analysis, Broad Institute; Professor of Pathology, Harvard Medical School; Director of Bioinformatics, MGH Cancer Center and Dept. of Pathology; Paul C. Zamecnik ",
+    "profile_url": "https://www.broadinstitute.org/bios/gad-getz",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alex Azizi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/azizi-alex"
+    },
+    {
+     "name": "Allen Gu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/gu-allen"
+    },
+    {
+     "name": "Chris Etienne",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/etienne-chris"
+    },
+    {
+     "name": "Dory Abelman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/abelman-dory"
+    },
+    {
+     "name": "Eleonora Calabretta",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/calabretta-eleonora"
+    },
+    {
+     "name": "Francesco Corrado",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/corrado-francesco"
+    },
+    {
+     "name": "Gabriela Virdzekova",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/virdzekova-gabriela"
+    },
+    {
+     "name": "Johan Gustafsson",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/gustafsson-johan"
+    },
+    {
+     "name": "Jonathan Rosenski",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/rosenski-jonathan"
+    },
+    {
+     "name": "Kane Foster",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/foster-kane"
+    },
+    {
+     "name": "Khrystofor Khokhlov",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/khrystofor-khokhlov"
+    },
+    {
+     "name": "Noé Perron",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/perron-noe"
+    },
+    {
+     "name": "Sihao Xiao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/xiao-sihao"
+    },
+    {
+     "name": "Simona Dalin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/dalin-simona"
+    },
+    {
+     "name": "Sungjae Kim",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/kim-sungjae"
+    },
+    {
+     "name": "Xiaomeng Sun",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/xiaomeng-sun"
+    },
+    {
+     "name": "Xuan Zhao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://getzlab.org/team/postdoctoral%20researcher/xuan-zhao"
+    },
+    {
+     "name": "Antonia Kowalewski",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard BBS Program PhD student; research focus not listed on the team page",
+     "email": null,
+     "profile_url": "https://getzlab.org/team/graduate%20student/kowalewski-antonia"
+    },
+    {
+     "name": "Marcin Kaszkowiak",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as a Visiting Graduate Student; research focus not listed on the team page",
+     "email": null,
+     "profile_url": "https://getzlab.org/team/graduate%20student/kaszkowiak-marcin"
+    }
+   ],
+   "department": "Cancer Genome Computational Analysis (Broad); Krantz Family Center for Cancer Research and Department of Pathology (MGH); Pathology (HMS)",
+   "location": "Cambridge / Boston, Massachusetts, USA",
+   "current_institution": "Broad Institute of MIT and Harvard / Massachusetts General Hospital (Harvard Medical School)",
+   "members_page": "https://getzlab.org/team/"
   },
   {
    "name": "Ding Lab",
@@ -2885,22 +3075,124 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (evolutionary genomics)",
    "id": "caltech-parker",
-   "url": "https://www.bbe.caltech.edu/people/joseph-parker",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.beetles.caltech.edu/",
+   "focus": "The lab studies the genetic, genomic and neurobiological basis of symbiosis in animals. Its model system is rove beetles (Staphylinidae), including species that live as symbionts inside ant colonies. It asks how new interspecies interactions evolve and what changes in genomes, development, chemistry and behaviour make them possible. Methods include comparative genomics, developmental biology, chemical ecology and behavioural neuroscience.",
+   "topics": [
+    "evolutionary genomics",
+    "symbiosis",
+    "rove beetles",
+    "evolution of novel traits",
+    "chemical ecology",
+    "behavioural neuroscience"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does evolutionary genomics and developmental biology in beetles, with no cancer, tumour sequencing, structural variant or single-cell cancer work, so the overlap is limited to general comparative genomics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at Caltech (BBE profile).",
+    "The members page lists only each person's field, not their projects or start year, so focus entries are field labels and year is null.",
+    "Member emails are shown obfuscated on the lab page and were decoded by the fetch tool. Check them against the page before using them.",
+    "No Google Scholar URL was verified.",
+    "The student is Canadian-based, so a US role would likely need a visa."
+   ],
+   "sources": [
+    {
+     "title": "Joseph Parker – Caltech BBE",
+     "url": "https://www.bbe.caltech.edu/people/joseph-parker"
+    },
+    {
+     "title": "Parker Lab people page",
+     "url": "https://www.beetles.caltech.edu/people"
+    },
+    {
+     "title": "Parker Lab website",
+     "url": "https://www.beetles.caltech.edu/"
+    },
+    {
+     "title": "Joseph Parker – Caltech Neuroscience",
+     "url": "https://neuroscience.caltech.edu/people/joseph-parker"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:54:33+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology and Biological Engineering (evolutionary genomics)",
-   "location": null
+   "pi_profile": {
+    "name": "Joseph Parker",
+    "title": "Professor of Biology and Biological Engineering",
+    "profile_url": "https://www.bbe.caltech.edu/people/joseph-parker",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jaeda Patton",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Evolution and genomics (field as listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jess Kanwal",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Neurobiology (field as listed; specific project not stated)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ling Loh",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Evolution and developmental biology (field as listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ti Eriksson",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biology and Biological Engineering (field as listed; specific project not stated)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Esther Okamoto",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biology (field as listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Hayley Smihula",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Neurobiology (field as listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jean Badroos",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biochemistry and molecular biophysics (field as listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joani Viliunas",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biology (field as listed)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering; Center for Evolutionary Science",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "https://www.beetles.caltech.edu/people"
   },
   {
    "name": "Goentoro Lab",
@@ -2912,22 +3204,108 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (design principles and modelling)",
    "id": "caltech-goentoro",
-   "url": "https://www.bbe.caltech.edu/people/lea-a-goentoro",
-   "focus": null,
-   "topics": [],
+   "url": "http://goentoro.caltech.edu/",
+   "focus": "The lab studies the engineering principles and molecular mechanisms behind how biological systems are built. It works across protein circuits, signaling pathways, developmental programs and whole organisms. Its themes include relative perception (fold-change detection) and how cells compute logarithms in the TGF-beta and Wnt pathways, robustness in embryo development, and self-repairing symmetry and sleep in jellyfish. Methods are mathematical modelling and simulation, biochemistry, single-cell imaging, histology, molecular biology, frog (Xenopus) embryos, jellyfish, and Drosophila limb regeneration with metabolic models of its microbial symbionts.",
+   "topics": [
+    "systems biology",
+    "signaling pathways (Wnt/TGF-beta)",
+    "mathematical modelling",
+    "regeneration",
+    "jellyfish",
+    "developmental robustness"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does quantitative systems biology and regeneration modelling, with no cancer genomics, sequencing, structural variants, single-cell/spatial omics or genomics ML, so it overlaps only loosely through computational modelling."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Caltech; no move found.",
+    "The lab members page may be out of date. It still lists Aki Ohdera as postdoc, and the lab's news feed was last updated around 2019. Confirm the roster with the lab.",
+    "The individual member profile URLs (goentoro.caltech.edu/people/<name>/) returned 404 when fetched, so they may be dead links. They come from the lab's people feed, and I could not open them to check roles or status.",
+    "Member emails are hidden behind Cloudflare obfuscation, so none are listed. The lab contact address goentoro@caltech.edu is shown on the lab homepage.",
+    "The PI's Google Scholar profile was not found on the official pages. Caltech's publications list is at https://feeds.library.caltech.edu/people/Goentoro-L-A/."
+   ],
+   "sources": [
+    {
+     "title": "Lea A. Goentoro - Caltech BBE profile",
+     "url": "https://www.bbe.caltech.edu/people/lea-a-goentoro"
+    },
+    {
+     "title": "Goentoro Lab home",
+     "url": "http://goentoro.caltech.edu/"
+    },
+    {
+     "title": "Goentoro Lab people page",
+     "url": "http://goentoro.caltech.edu/people.html"
+    },
+    {
+     "title": "Goentoro Lab people feed",
+     "url": "https://goentoro.caltech.edu/people/feed/index.html"
+    },
+    {
+     "title": "Goentoro Lab news feed",
+     "url": "https://goentoro.caltech.edu/news/feed/index.html"
+    },
+    {
+     "title": "Caltech publications list for Goentoro",
+     "url": "https://feeds.library.caltech.edu/people/Goentoro-L-A/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:53:51+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology and Biological Engineering (design principles and modelling)",
-   "location": null
+   "pi_profile": {
+    "name": "Lea A. Goentoro",
+    "title": "Professor of Biology",
+    "profile_url": "https://www.bbe.caltech.edu/people/lea-a-goentoro",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aki Ohdera",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "No research focus listed. The lab's 2019 news feed says they joined as a postdoc.",
+     "email": null,
+     "profile_url": "https://goentoro.caltech.edu/people/aki-ohdera/"
+    },
+    {
+     "name": "Jesus del Rio Salgado",
+     "role": "PhD student",
+     "year": null,
+     "focus": "No research focus listed (Biology).",
+     "email": null,
+     "profile_url": "https://goentoro.caltech.edu/people/jesus-del-rio-salgado/"
+    },
+    {
+     "name": "Judah Bates",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Metabolic models of Drosophila symbionts and their contribution to limb regeneration (Bioengineering).",
+     "email": null,
+     "profile_url": "https://goentoro.caltech.edu/people/judah-bates/"
+    },
+    {
+     "name": "Yutian Li",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Limb regeneration in adult Drosophila (Biology).",
+     "email": null,
+     "profile_url": "https://goentoro.caltech.edu/people/yutian-li/"
+    },
+    {
+     "name": "Zevin J Condiotte",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Roles of microbes in the Drosophila regenerative response (Biology).",
+     "email": null,
+     "profile_url": "https://goentoro.caltech.edu/people/zevin-j-condiotte/"
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "http://goentoro.caltech.edu/people.html"
   },
   {
    "name": "Pachter Lab",
@@ -2939,22 +3317,115 @@
    "group": null,
    "department_hint": "Computational Biology / Computing and Mathematical Sciences (Bren Professor)",
    "id": "caltech-pachter",
-   "url": "https://www.cms.caltech.edu/people/lpachter",
-   "focus": null,
-   "topics": [],
+   "url": "https://pachterlab.github.io/",
+   "focus": "The lab develops computational and experimental methods for genomics, with current work centered on single-cell genomics technologies and their application to RNA biology. It is known for building fast, widely used software for RNA-seq and single-cell pre-processing, such as the kallisto and bustools tools. Its methods work draws on mathematics, statistics and algorithms. Its applications are mostly in basic RNA biology and single-cell analysis, not cancer genomics. This summary comes only from the lab homepage; I did not confirm details of individual projects.",
+   "topics": [
+    "single-cell genomics",
+    "RNA-seq methods",
+    "computational biology",
+    "statistics and algorithms",
+    "RNA biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap with the student's interest in computational methods and single-cell omics for genomics, but the lab does little cancer, structural-variant or somatic-mutation work, and a US role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Caltech; the CMS profile confirms the Bren Professor title and no move was found.",
+    "The lab members page lists no current postdocs.",
+    "The members page has no last-updated date, so it may be out of date.",
+    "No emails, years or research focus are given for members. I did not open the Caltech directory pages, so I did not check them for emails.",
+    "Google Scholar URL not verified, so left null."
+   ],
+   "sources": [
+    {
+     "title": "Lior Pachter - Caltech CMS profile",
+     "url": "https://www.cms.caltech.edu/people/lpachter"
+    },
+    {
+     "title": "Pachter Lab homepage",
+     "url": "https://pachterlab.github.io/"
+    },
+    {
+     "title": "Pachter Lab group page",
+     "url": "https://pachterlab.github.io/group.html"
+    },
+    {
+     "title": "Caltech directory: Lior Pachter",
+     "url": "https://directory.caltech.edu/personnel/lpachter"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:54:15+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computational Biology / Computing and Mathematical Sciences (Bren Professor)",
-   "location": null
+   "pi_profile": {
+    "name": "Lior Pachter",
+    "title": "Bren Professor of Computational Biology and Computing and Mathematical Sciences",
+    "profile_url": "https://www.cms.caltech.edu/people/lpachter",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Catherine Felce",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/cfelce"
+    },
+    {
+     "name": "Conrad Oakes",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/coakes"
+    },
+    {
+     "name": "Joseph Rich",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/jmrich"
+    },
+    {
+     "name": "Kayla Jackson",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/kaylajac"
+    },
+    {
+     "name": "Maria Carilli",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/mcarilli"
+    },
+    {
+     "name": "Nikhila Swarna",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/nswarna"
+    },
+    {
+     "name": "Vera Beilinson",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the lab page; co-advised by Margaret McFall-Ngai",
+     "email": null,
+     "profile_url": "https://directory.caltech.edu/personnel/vbeilins"
+    }
+   ],
+   "department": "Computing and Mathematical Sciences (Division of Engineering and Applied Science); Computational Biology",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "https://pachterlab.github.io/group.html"
   },
   {
    "name": "Cai Lab",
@@ -2966,22 +3437,172 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (spatial and single-cell transcriptomics)",
    "id": "caltech-cai",
-   "url": "https://www.bbe.caltech.edu/people/long-cai",
-   "focus": null,
-   "topics": [],
+   "url": "https://spatial.caltech.edu/",
+   "focus": "The lab develops spatial genomics technologies and helped found the field. Its signature method is seqFISH (sequential single-molecule FISH), which detects over 10,000 genes at single-cell resolution in tissue. It also developed MEMOIR, which records molecular events in a cell's genome. These tools are applied to developmental biology and neuroscience, including single-cell-resolution spatial atlases of organisms, brain cell types, and how cell-cell interactions shape cell state. Current members also work on new transcriptomic and imaging methods, on inflammation and disease, and on computational tools for transcriptional dynamics.",
+   "topics": [
+    "spatial transcriptomics",
+    "seqFISH",
+    "single-cell biology",
+    "neuroscience",
+    "cell-cell interactions",
+    "molecular recording (MEMOIR)"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap with the student's single-cell and spatial omics interest and some computational tooling, but the lab is mainly experimental technology development in neuroscience and development, with no emphasis on cancer genomics, WGS or structural variants, and a US visa would be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Caltech; no move found. Caltech's Cell Interaction Initiative profile also lists him as full Professor since 2018.",
+    "The team page has no visible update date, so it may be out of date.",
+    "Katsuya \"Lex\" Colon appears in both the current graduate students list and the alumni list (scientist, Twist Bioscience), so their status is unclear and they may no longer be in the lab.",
+    "Student years are not published.",
+    "The lab's own people URL (spatial.caltech.edu/people) returned 404. The team page is at /team."
+   ],
+   "sources": [
+    {
+     "title": "Long Cai - Caltech BBE profile",
+     "url": "https://www.bbe.caltech.edu/people/long-cai"
+    },
+    {
+     "title": "Cai Lab team page",
+     "url": "https://spatial.caltech.edu/team"
+    },
+    {
+     "title": "Cai Lab home page",
+     "url": "https://spatial.caltech.edu/"
+    },
+    {
+     "title": "Long Cai - Caltech Cell Interaction Initiative",
+     "url": "https://ci2.caltech.edu/people/people-page/long-cai"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:53:18+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology and Biological Engineering (spatial and single-cell transcriptomics)",
-   "location": null
+   "pi_profile": {
+    "name": "Long Cai",
+    "title": "Professor of Biology and Biological Engineering; Executive Officer for Biology and Biological Engineering",
+    "profile_url": "https://www.bbe.caltech.edu/people/long-cai",
+    "scholar_url": "https://scholar.google.com/citations?user=yFYEd3IAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Akash Garg",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the team page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maulik Jani",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Technologies for single-cell biology",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=kzFlMn0AAAAJ&hl=en"
+    },
+    {
+     "name": "Michal Polonsky",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "How cellular interactions influence individual cells",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=27jeSW0AAAAJ&hl=en"
+    },
+    {
+     "name": "Alexi McAdams",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cellular variety and signaling pathways that shape cell function",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=u9Nx0wIAAAAJ"
+    },
+    {
+     "name": "Banat Kaur Chawla",
+     "role": "PhD student",
+     "year": null,
+     "focus": "No details listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chuqi Lu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "New seqFISH methods for single-cell biology",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Haiyun Liu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "New transcriptomics techniques",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=gMxpI_sAAAAJ"
+    },
+    {
+     "name": "Jeffrey Liang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "No details listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jonathan Fox",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student; relationship between inflammation and disease using seqFISH",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=PjGZv8gAAAAJ"
+    },
+    {
+     "name": "Katsuya \"Lex\" Colon",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Novel seqFISH methods for molecular features of brain cells and events (see flags: also listed as alumni)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=BebbbjEAAAAJ&hl=en"
+    },
+    {
+     "name": "Konnor von Emster",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Regulatory mechanisms of transcriptional oscillations, signal amplification, and computational tools",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Linjing (Lynn) Fang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How neurons and synapses generate and retain memories",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=I3S9SSsAAAAJ&hl=en"
+    },
+    {
+     "name": "Rahma Elsiesy",
+     "role": "PhD student",
+     "year": null,
+     "focus": "No details listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Wenbin Nie",
+     "role": "PhD student",
+     "year": null,
+     "focus": "No details listed",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "https://spatial.caltech.edu/team"
   },
   {
    "name": "Thomson Lab",
@@ -3020,22 +3641,62 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (gene circuits; quantitative and systems biology)",
    "id": "caltech-elowitz",
-   "url": "https://www.bbe.caltech.edu/people/michael-b-elowitz",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.elowitz.caltech.edu",
+   "focus": "The lab builds synthetic genetic circuits in bacteria, yeast and mammalian cells to understand how cells process information. It brings synthetic approaches to cell-cell communication, epigenetic memory and cell fate control. It also uses time-lapse single-cell microscopy to study gene expression dynamics and noise. A 2024 Sloan Foundation grant supports a synthetic cell fate control system that pairs a synthetic signaling network with gene regulation. Some trainees work on programmable protein circuits in living cells. This summary comes from secondary sources, because the lab site did not load its content.",
+   "topics": [
+    "synthetic biology",
+    "gene circuits",
+    "cell-cell communication",
+    "epigenetic memory",
+    "single-cell dynamics",
+    "cell fate control"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is mainly experimental synthetic and systems biology, with only loose overlap with the student's single-cell interests, and little on cancer genomics, tumour sequencing, structural variants or ML for genomics. A US visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Caltech. No move found; the BBE and APhMS pages list him there as Dickinson Professor and HHMI Investigator.",
+    "The lab website (elowitz.caltech.edu) returned only its title, so no current member roster could be verified. The members list is empty on purpose, and nobody was invented.",
+    "Search snippets mention Felix Horns and Gal Manella as postdocs, and an unnamed MD/PhD student. Their current status is unverified, so they are not listed.",
+    "Check the lab site directly in a browser for the current people list."
+   ],
+   "sources": [
+    {
+     "title": "Michael B. Elowitz - Caltech BBE",
+     "url": "https://www.bbe.caltech.edu/people/michael-b-elowitz"
+    },
+    {
+     "title": "Michael Elowitz - Caltech APhMS",
+     "url": "https://www.aphms.caltech.edu/people/melowitz"
+    },
+    {
+     "title": "Elowitz Lab website",
+     "url": "http://www.elowitz.caltech.edu"
+    },
+    {
+     "title": "Sloan Foundation grant G-2024-22436",
+     "url": "https://sloan.org/grant-detail/G-2024-22436"
+    },
+    {
+     "title": "Michael Elowitz - AIChE",
+     "url": "https://www.aiche.org/sbe/community/bio/michael-elowitz"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:53:09+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Michael B. Elowitz",
+    "title": "Roscoe Gilkey Dickinson Professor of Biology and Bioengineering; Investigator, Howard Hughes Medical Institute",
+    "profile_url": "https://www.bbe.caltech.edu/people/michael-b-elowitz",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Biology and Biological Engineering (gene circuits; quantitative and systems biology)",
-   "location": null
+   "department": "Division of Biology and Biological Engineering (BBE); also listed with Applied Physics and Materials Science (APhMS)",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": null
   },
   {
    "name": "Guttman Lab",
@@ -3047,22 +3708,139 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (experimental plus computational genomics)",
    "id": "caltech-guttman",
-   "url": "https://guttmanlab.caltech.edu/?p=2530",
-   "focus": null,
-   "topics": [],
+   "url": "https://guttmanlab.caltech.edu/",
+   "focus": "The lab studies how long non-coding RNAs (lncRNAs) shape nuclear structure and gene expression. Its main topics are nuclear compartments such as nuclear speckles, which affect splicing efficiency, and X chromosome inactivation by the lncRNA Xist. It develops genome-wide mapping methods, including SPRITE for multi-way DNA/RNA/protein contacts, and CLAP and SPIDR for RNA-protein interactions. Recent work also covers ChIP-DIP (multiplexed protein-to-DNA mapping), CRISPRi screens, single-cell assays, and affinity-reagent discovery. The team combines experimental and computational biology.",
+   "topics": [
+    "lncRNA / Xist",
+    "3D genome and nuclear organization",
+    "SPRITE / RNA-protein mapping methods",
+    "nuclear speckles and splicing",
+    "single-cell functional genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab combines wet-lab and computational genomics, and has some single-cell and method-development work, but it focuses on basic RNA and nuclear biology. It does little on cancer genomics, tumour sequencing, structural variants or somatic mutations, and a Canadian student would likely need a US vi"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found. Caltech's library profile and the lab site both still list Caltech; the library profile says professor since 2019.",
+    "The URL from discovery (?p=2530) is a 2017 news post, not the people page. The roster comes from /ourteam/.",
+    "The team page shows no last-updated date. The newest embedded image path is from 2025/11.",
+    "No year-in-program is listed for any member.",
+    "Asuka Sato's visible email (asato@lncrna.caltech.edu) does not match the page's hidden link (btyeh@lncrna.caltech.edu), so I left it out."
+   ],
+   "sources": [
+    {
+     "title": "Guttman Lab – Our Team",
+     "url": "https://guttmanlab.caltech.edu/ourteam/"
+    },
+    {
+     "title": "Guttman Lab at Caltech (home)",
+     "url": "https://guttmanlab.caltech.edu/"
+    },
+    {
+     "title": "Guttman Lab at Caltech (2017 news post)",
+     "url": "https://guttmanlab.caltech.edu/?p=2530"
+    },
+    {
+     "title": "Caltech Library profile: Guttman, Mitchell",
+     "url": "https://feeds.library.caltech.edu/people/Guttman-M/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:53:50+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology and Biological Engineering (experimental plus computational genomics)",
-   "location": null
+   "pi_profile": {
+    "name": "Mitchell Guttman",
+    "title": "Professor of Biology",
+    "profile_url": "https://feeds.library.caltech.edu/people/Guttman-M/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Guoming Gao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "RNA-guided, localized gene control beyond TF–DNA interactions, using lncRNA Xist as a model",
+     "email": null,
+     "profile_url": "https://guominggao.wordpress.com/"
+    },
+    {
+     "name": "Mingkun Wu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Methods for profiling RNA-protein interactions across the RNA lifecycle and in subcellular compartments",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=LuZzv3EAAAAJ&hl=en&oi=ao"
+    },
+    {
+     "name": "Allen W. Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How RNA compartmentalization and genome organization evolve in the nucleus; lncRNA function in gene regulation",
+     "email": null,
+     "profile_url": "https://orcid.org/0000-0002-6351-2578"
+    },
+    {
+     "name": "Asuka Sato",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Screening technologies: genome-wide CRISPRi screens of X chromosome inactivation and DNA-encoded library screens for heterobifunctional molecules",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Benjamin Yeh",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student working on single-cell functional genomic assays of nuclear structure, chromatin states and transcription regulators",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=kHslwRwAAAAJ"
+    },
+    {
+     "name": "Delaney Sullivan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student working on efficient, scalable high-throughput single-cell transcriptomic methods",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=r8IhPSgAAAAJ"
+    },
+    {
+     "name": "Jose Lorenzo M. Ferrer (Jolo)",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How RNAs and their binding proteins regulate gene expression; tools for studying non-coding roles of mRNAs",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=t53VFMkAAAAJ&hl=en"
+    },
+    {
+     "name": "Linlin Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Rapid, low-cost discovery and screening of affinity reagents for targeting proteins and complexes",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=2QMer_YAAAAJ&hl=en"
+    },
+    {
+     "name": "Noah Epstein",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Regulatory function and biophysical properties of phase-separated nuclear compartments; profiling their nucleic acid content",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ryan Hong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "High-throughput, multiplexed technologies for mapping molecular interactions and chromatin architecture",
+     "email": null,
+     "profile_url": "https://x.com/ryanjshong"
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "https://guttmanlab.caltech.edu/ourteam/"
   },
   {
    "name": "Pierce Lab",
@@ -3074,22 +3852,115 @@
    "group": null,
    "department_hint": "Applied and Computational Mathematics / Bioengineering (nucleic acid design algorithms)",
    "id": "caltech-pierce",
-   "url": "https://www.bbe.caltech.edu/people/niles-a-pierce",
-   "focus": null,
-   "topics": [],
+   "url": "http://piercelab.caltech.edu/",
+   "focus": "The lab works on kinetically controlled DNA and RNA self-assembly. It develops principles, mechanisms and algorithms for rationally designing dynamic nucleic acid devices, and it is a founding group of dynamic nucleic acid nanotechnology and molecular programming. Its main methods are computational nucleic acid sequence design and physical modelling, and it uses them to build molecular devices that work in vitro, in situ and in vivo. A well-known application is hybridization chain reaction (HCR) for multiplexed imaging. The lab's non-profit Molecular Technologies unit, in the Beckman Institute, supplies HCR imaging kits to many labs.",
+   "topics": [
+    "nucleic acid design algorithms",
+    "molecular programming",
+    "hybridization chain reaction (HCR)",
+    "DNA/RNA nanotechnology",
+    "in situ imaging probes"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's computational work is nucleic acid design and biophysics, not cancer genomics, structural variants or sequencing analysis. The only link to the student's interests is HCR-based spatial imaging tools that could support spatial or single-cell omics, and a US visa could be required."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: Niles Pierce is still at Caltech, per the current Caltech BBE profile.",
+    "The people page lists no current postdocs.",
+    "The people page gives programs rather than research topics, and no emails are published on it. Member focus lines are therefore program-level only.",
+    "The people page has no update date. Its footer reads © 2026 Caltech.",
+    "Avinash Nanjundiah and Duo Tao are linked only to the lab homepage, so I left their profile URLs null or without a personal page."
+   ],
+   "sources": [
+    {
+     "title": "Niles A. Pierce – Caltech BBE profile",
+     "url": "https://www.bbe.caltech.edu/people/niles-a-pierce"
+    },
+    {
+     "title": "Pierce Lab people page",
+     "url": "http://piercelab.caltech.edu/people"
+    },
+    {
+     "title": "Pierce Lab homepage (Niles)",
+     "url": "https://www.piercelab.caltech.edu/niles"
+    },
+    {
+     "title": "Niles Pierce – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Niles_Pierce"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:54:42+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Applied and Computational Mathematics / Bioengineering (nucleic acid design algorithms)",
-   "location": null
+   "pi_profile": {
+    "name": "Niles A. Pierce",
+    "title": "John D. and Catherine T. MacArthur Professor of Applied and Computational Mathematics and Bioengineering; Executive Officer for Biology and Biological Engineering",
+    "profile_url": "https://www.bbe.caltech.edu/people/niles-a-pierce",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Avinash Nanjundiah",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student (USC Medicine, Caltech Biology); research topic not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Duo Tao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering program; research topic not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Eric Lei",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering program; research topic not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/shuwen-lei-28842499/"
+    },
+    {
+     "name": "Heyun Li",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Chemistry program; research topic not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/heyun-li-9b4040219/"
+    },
+    {
+     "name": "Nikhil Linaval",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student (USC Medicine, Caltech Bioengineering); research topic not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/nikhil-linaval-54024610a/"
+    },
+    {
+     "name": "Sarah Balderston",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering program; research topic not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/sarah-balderston-2ba058b5/"
+    },
+    {
+     "name": "Sheldon Zhu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering program; research topic not listed",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering; Applied and Computational Mathematics; Bioengineering",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "http://piercelab.caltech.edu/people"
   },
   {
    "name": "Sternberg Lab",
@@ -3128,22 +3999,92 @@
    "group": null,
    "department_hint": "Control and Dynamical Systems / Bioengineering (synthetic and systems biology modelling)",
    "id": "caltech-murray",
-   "url": "https://www.bbe.caltech.edu/people/richard-m-murray",
-   "focus": null,
-   "topics": [],
+   "url": "https://murray.cds.caltech.edu",
+   "focus": "The group works on control and dynamical systems theory applied to engineered biological systems. Its synthetic biology work covers biomolecular feedback circuits, cell-free (TX-TL) expression systems, and synthetic biofilms and consortia. It builds mathematical models and designs control algorithms for biological and other autonomous systems. The group also does engineering work on autonomous systems and robotics. This focus is inferred from the PI's profile, the wiki project listings and the student's hint, not from a full lab description page I read.",
+   "topics": [
+    "synthetic biology",
+    "biomolecular feedback control",
+    "cell-free systems",
+    "dynamical systems modelling",
+    "synthetic biofilms",
+    "autonomous systems"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The group does control theory and synthetic-biology circuit engineering, with essentially no cancer genomics, sequencing, structural variant, or single-cell and spatial omics work, so overlap with the student's interests is minimal. Any link would be through computational modelling, and a US visa wo"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Caltech; no move found.",
+    "The members page was edited on 2026-10-21 and lists 5 current PhD students and 0 postdocs. A search snippet showed a different snapshot with 11 PhD students and 1 postdoc (Josefine Graebener), so the roster may be inconsistent or in flux and should be re-checked.",
+    "Many members are co-advised, so some students may be better found on other faculty's pages.",
+    "I did not verify the member profile pages directly. The URLs follow the wiki's page-title pattern and may not all resolve.",
+    "I could not verify the PI's Google Scholar URL, so it is null. The lab's CDS wiki page failed with an SSL error."
+   ],
+   "sources": [
+    {
+     "title": "Richard M. Murray, Caltech BBE profile",
+     "url": "https://www.bbe.caltech.edu/people/richard-m-murray"
+    },
+    {
+     "title": "Murray Group wiki: Group members",
+     "url": "https://murray.cds.caltech.edu/Admin/Group_members"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:53:46+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Control and Dynamical Systems / Bioengineering (synthetic and systems biology modelling)",
-   "location": null
+   "pi_profile": {
+    "name": "Richard M. Murray",
+    "title": "Thomas E. and Doris Everhart Professor of Control and Dynamical Systems and Bioengineering",
+    "profile_url": "https://www.bbe.caltech.edu/people/richard-m-murray",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Han Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://murray.cds.caltech.edu/Han_Zhang"
+    },
+    {
+     "name": "Leo Li",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://murray.cds.caltech.edu/Leo_Li"
+    },
+    {
+     "name": "Nikos Mynhier",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://murray.cds.caltech.edu/Nikos_Mynhier"
+    },
+    {
+     "name": "Sal Ibarra",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://murray.cds.caltech.edu/Sal_Ibarra"
+    },
+    {
+     "name": "Zach Martinez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed on the ICB Synthetic Biofilms project",
+     "email": null,
+     "profile_url": "https://murray.cds.caltech.edu/Zach_Martinez"
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering (BBE); Control and Dynamical Systems (CDS)",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "https://murray.cds.caltech.edu/Admin/Group_members"
   },
   {
    "name": "Phillips Lab",
@@ -3155,22 +4096,108 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering / Physics (physical biology modelling)",
    "id": "caltech-phillips",
-   "url": "https://www.bbe.caltech.edu/people/rob-phillips",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.rpgroup.caltech.edu/",
+   "focus": "The lab works on the physical biology of the cell. It combines biophysical theory with single-molecule and single-cell experiments. Its topics include quantitative models of transcription and gene regulation (statistical mechanics, thermodynamic models), active matter and cytoskeletal or cellular mechanics, physical genomes, and biophysical approaches to evolution. Methods are mostly theory and quantitative modelling, plus Bayesian inference and some machine learning, tied to quantitative measurements of regulation in bacteria and other cells.",
+   "topics": [
+    "physical biology of the cell",
+    "gene regulation modelling",
+    "biophysical theory",
+    "single-molecule experiments",
+    "single-cell experiments",
+    "active matter"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is a quantitative biophysics and theory group and does not study cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics. The overlap is limited to computational and statistical modelling skills, and a US visa would likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Caltech; no move found.",
+    "The people page gives no dates, research foci or profile links for members, and no emails are listed individually. The page says emails follow a name@caltech.edu pattern, but those were inferred and are not included.",
+    "The people page may not be up to date; it was not checked against Caltech's directory.",
+    "Google Scholar URL not verified, so left null.",
+    "Staff (Heun Jin Lee, staff scientist; Melanie Tiangco, administrative assistant) were excluded as requested."
+   ],
+   "sources": [
+    {
+     "title": "Rob Phillips - Caltech BBE profile",
+     "url": "https://www.bbe.caltech.edu/people/rob-phillips"
+    },
+    {
+     "title": "Phillips Lab website",
+     "url": "http://www.rpgroup.caltech.edu/"
+    },
+    {
+     "title": "Phillips Lab people page",
+     "url": "http://www.rpgroup.caltech.edu/people/index.html"
+    },
+    {
+     "title": "Rob B. Phillips - Caltech PMA",
+     "url": "https://www.pma.caltech.edu/people/rob-b-phillips"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T18:54:21+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology and Biological Engineering / Physics (physical biology modelling)",
-   "location": null
+   "pi_profile": {
+    "name": "Rob Phillips",
+    "title": "Fred and Nancy Morris Professor of Biophysics, Biology, and Physics",
+    "profile_url": "https://www.bbe.caltech.edu/people/rob-phillips",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Mohammadamin (Amin) Tajik",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Doran Sekaran",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kian Faizi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Minakshi Ashok",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rosalind Pan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sara Mahdavi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Division of Biology and Biological Engineering; also Physics (PMA division)",
+   "location": "Pasadena, California, USA",
+   "current_institution": "California Institute of Technology (Caltech)",
+   "members_page": "http://www.rpgroup.caltech.edu/people/index.html"
   },
   {
    "name": "Streets Lab",
