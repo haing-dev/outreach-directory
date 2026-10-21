@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:42:49+00:00",
+ "generated_at": "2026-10-21T23:54:57+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -14312,22 +14312,112 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-newman",
-   "url": "https://med.stanford.edu/profiles/aaron-newman",
-   "focus": null,
-   "topics": [],
+   "url": "https://anlab.stanford.edu/",
+   "focus": "The lab develops computational methods to study the diversity, developmental hierarchies and clinical significance of tumour cell subsets and their microenvironments. It combines AI, data science and biology with bulk, single-cell and spatial genomics. Experiments follow the key findings, with the aim of producing diagnostics and anti-cancer therapies. One main project is tumour-initiating cells: mapping single-cell developmental states (CytoTRACE, CytoTRACE 2) to find cancer stem cells in primary human malignancies. The other is digital cytometry: expression deconvolution and scRNA-seq frameworks (CIBERSORTx, EcoTyper, CytoSPACE) that profile tissue composition at scale, including in fixed clinical specimens.",
+   "topics": [
+    "digital cytometry",
+    "single-cell and spatial omics",
+    "tumour microenvironment",
+    "tumour-initiating cells",
+    "machine learning for genomics",
+    "cell-state deconvolution"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's interests in computational and ML methods and in single-cell and spatial omics in cancer. There is less focus on whole-genome sequencing, structural variants and somatic mutation calling, and the lab is in the US, so the student may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at Stanford (Biomedical Data Science). I could not open the Stanford profile page because of a certificate error, so the title comes from the lab members page.",
+    "The members page does not give PhD years, emails or individual profile links.",
+    "Two clinical and research fellows (Ken Chen, MD/PhD, and Tom Watkins, MD/PhD) and one medical student are listed. I left them out because they are not postdocs or PhD students. Whether the fellows count as postdocs is unclear.",
+    "I did not check Google Scholar, so scholar_url is null.",
+    "I did not see a date for when the members page was last updated."
+   ],
+   "sources": [
+    {
+     "title": "Newman Lab – Lab Members",
+     "url": "https://anlab.stanford.edu/members"
+    },
+    {
+     "title": "Newman Lab – Home",
+     "url": "https://anlab.stanford.edu/"
+    },
+    {
+     "title": "Newman Lab – Contact",
+     "url": "https://anlab.stanford.edu/contact"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:53:57+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Aaron Newman",
+    "title": "Associate Professor of Biomedical Data Science; Investigator, Chan Zuckerberg Biohub (SF)",
+    "profile_url": "https://profiles.stanford.edu/aaron-newman",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Wubing Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Single-cell and spatial genomics, transcriptomics and proteomics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alex Belov",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Data Science PhD student; computational causes of cancer progression and metastasis",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Erin Brown",
+     "role": "PhD student",
+     "year": null,
+     "focus": "ICME PhD student; computational methods for cancer mechanisms and patient outcomes",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Janella Schwab",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering PhD student; genetic determinants of engineered immune cell infiltration and efficacy",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jeremy D'Silva",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cancer Biology PhD student; spatial organization of cell types in the tumour microenvironment and its effect on cell state and progression",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Minji Kang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science PhD student; uses molecular biology data to understand mechanisms of human disease",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rachel Gleyzer",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cancer Biology PhD student; machine learning for biological insights from sequencing data",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Biomedical Data Science; Institute for Stem Cell Biology and Regenerative Medicine; affiliated with the Biomedical Informatics, Cancer Biology and Immunology graduate programs",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://anlab.stanford.edu/members"
   },
   {
    "name": "Ioannidis Lab",
@@ -14339,22 +14429,128 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-ioannidis",
-   "url": "https://dbds.stanford.edu/people/alex-ioannidis/",
-   "focus": null,
-   "topics": [],
+   "url": "https://ioannidislab.ai",
+   "focus": "The lab develops computational algorithms, machine learning and deep learning methods for genomics and precision health. One strand is population genetics, with local-ancestry inference (Gnomix) and large cohorts in Oceania and Latin America, including the Mexican Biobank. A second strand is Large Tabular Models for phenotype and disease-risk prediction on biobank-scale data. Work also covers admixture mapping and genotype-phenotype association in diverse populations (for example All of Us). The focus is germline and population genomics, not cancer.",
+   "topics": [
+    "local ancestry inference",
+    "population genetics",
+    "deep learning for genomics",
+    "large tabular models",
+    "biobank-scale precision health",
+    "admixture mapping"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in computational and ML methods for genomics, but it works on germline, population-genetic and biobank risk prediction, with no cancer, tumour sequencing, structural variant, somatic or single-cell focus, and a US move would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI appears to have moved from Stanford to UC Santa Cruz (Biomolecular Engineering). A UCSC seminar listing from Oct 2025 calls him BME Assistant Professor, and the UCSC Genomics Institute lists him as an affiliate member. The Stanford DBDS page is outdated and did not load for me. The lab site does ",
+    "No current postdocs are listed. Javier Blanco-Portillo appears under Alumni (former PhD student, then postdoc).",
+    "Daniel Mas Montserrat is listed as Chief Researcher, so I did not count him as a postdoc or PhD student.",
+    "The people page gives names only: no individual research focus, emails, profile links or years. I did not verify that all seven are still enrolled.",
+    "Do not confuse him with Nilah Ioannidis, a different researcher who is also at UCSC/Berkeley."
+   ],
+   "sources": [
+    {
+     "title": "Ioannidis Lab home",
+     "url": "https://ioannidislab.ai"
+    },
+    {
+     "title": "Lab people page",
+     "url": "https://ioannidislab.ai/people"
+    },
+    {
+     "title": "Alex Ioannidis personal lab page",
+     "url": "https://ai-page.org/home"
+    },
+    {
+     "title": "UCSC Genomics Institute team page",
+     "url": "https://genomics.ucsc.edu/?p=225910"
+    },
+    {
+     "title": "UCSC BME 280B seminar listing",
+     "url": "https://events.ucsc.edu/event/bme-280b-seminar-computational-precision-health-genomic-diversity/"
+    },
+    {
+     "title": "Stanford Profiles: Alexander Ioannidis",
+     "url": "https://profiles.stanford.edu/alexander-ioannidis"
+    },
+    {
+     "title": "Gnomix bioRxiv preprint",
+     "url": "https://www.biorxiv.org/content/10.1101/2021.09.19.460980.full.pdf"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:54:05+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Alexander (Alex) G. Ioannidis",
+    "title": "Assistant Professor of Biomolecular Engineering (UCSC; per a Oct 2025 UCSC seminar listing). The Stanford profile still lists Assistant Professor (Research) of Genetics and of Biomedical Data Science.",
+    "profile_url": "https://profiles.stanford.edu/alexander-ioannidis",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Christophe Thomassin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Cole Shanks",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "David Bonet",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Margarita Geleta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page (lab-wide: ML/AI for genomics and precision health)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Marçal Comajoan Cara",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Peter Gerlach",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Samuel Sacco",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Biomolecular Engineering (Baskin School of Engineering); affiliate member of the UCSC Genomics Institute. Previously Genetics and Biomedical Data Science at Stanford.",
+   "location": "Santa Cruz, California, USA",
+   "current_institution": "University of California, Santa Cruz (likely; moved from Stanford). I could not confirm this on the lab site, which does not name an institution.",
+   "members_page": "https://ioannidislab.ai/people"
   },
   {
    "name": "Bhatt Lab",
@@ -14367,21 +14563,171 @@
    "department_hint": "Medicine (Hematology) / Genetics",
    "id": "stanford-bhatt",
    "url": "https://www.bhattlab.com/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab studies the human gut microbiome and how it relates to health and disease. This includes patients with blood cancers and those undergoing stem cell transplant. A major theme is mobile genetic elements (phages, plasmids) and how they move between microbes and shape bacterial evolution and adaptation. Methods include long-read and short-read metagenomics, bacterial genome and epigenome analysis, and computational method development. The lab also studies skin microbiome strain variation and metagenomics in immunocompromised patients.",
+   "topics": [
+    "gut microbiome",
+    "mobile genetic elements and phages",
+    "long-read metagenomics",
+    "microbial evolution",
+    "hematologic malignancy and transplant",
+    "bacterial epigenetics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab does computational genomics with long-read sequencing and structural genome analysis, which overlaps in methods. Its focus is microbial and metagenomic, not cancer genomics, tumour WGS or RNA-seq, somatic variants, or single-cell and spatial omics in cancer."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI profile and Scholar URLs were not opened, so they are null. The PI's title is not verified from an official page and is inferred from the lab site and the Medicine/Genetics hint.",
+    "No move for the PI was found. The lab site is titled 'Bhatt Lab - Stanford Medical School'. I did not check a Stanford profile page, so this is unconfirmed.",
+    "The People page appears to have been updated around August 2026. Student years are inferred from the listed year, which is probably the start year.",
+    "Owen Tuck's start (September 2026) may be recent or pending.",
+    "Nathan Pincus (MD/PhD, Medical Fellow, 2025) and Dennis James Zhang (rotating MD/PhD student) were excluded as non-postdoc or non-PhD-student listings. Other rotating students were also excluded."
+   ],
+   "sources": [
+    {
+     "title": "Bhatt Lab home page",
+     "url": "https://www.bhattlab.com/"
+    },
+    {
+     "title": "Bhatt Lab people page",
+     "url": "https://www.bhattlab.com/people"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:47:11+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Medicine (Hematology) / Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Ami Bhatt",
+    "title": "Professor of Medicine (Hematology) and of Genetics",
+    "profile_url": null,
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Florian Hoffmann",
+     "role": "Postdoc",
+     "year": "2025",
+     "focus": "Bacteriophages and other mobile genetic elements and their effects on the microbiome and health",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Garrett Patrick",
+     "role": "Postdoc",
+     "year": "2025",
+     "focus": "Skin microbiome and how strain-level genetic variation affects skin disease (joint with the Scharschmidt lab, UCSF)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Helen Choi",
+     "role": "Postdoc",
+     "year": "2025",
+     "focus": "Genetic determinants of gut microbial physiology and evolution",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jordan Lin",
+     "role": "Postdoc",
+     "year": "2024",
+     "focus": "How bacterial genomes are structured and evolve",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Owen Tuck",
+     "role": "Postdoc",
+     "year": "2026",
+     "focus": "Connecting molecular immunology with microbial ecology (jointly supervised with KC Huang); the bio says he starts September 2026",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rachael Chanin",
+     "role": "Postdoc",
+     "year": "2021",
+     "focus": "Mechanisms of gut bacterial community change and their link to disease",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuya Kiguchi",
+     "role": "Postdoc",
+     "year": "2024",
+     "focus": "Mobile genetic elements using long-read sequencing, and how commensal bacteria adapt",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Aaron Behr",
+     "role": "PhD student",
+     "year": "2021 start",
+     "focus": "How DNA moves within and between microbes and shapes within-host and across-host evolution",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Angela Shang-Mei Hickey",
+     "role": "PhD student",
+     "year": "2022 start",
+     "focus": "Mechanisms of microbial adaptation in the human gut and effects on health",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Imani Elaine Porter",
+     "role": "PhD student",
+     "year": "2024 start",
+     "focus": "Gut microbe-host interactions, with an epigenetics background",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jane Ann Cook",
+     "role": "PhD student",
+     "year": "2024 start",
+     "focus": "Long-read metagenomics, host-microbe interactions, mobile genetic elements, bacterial epigenetics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Matthew Owen Gill",
+     "role": "PhD student",
+     "year": "2022 start",
+     "focus": "Evolution, ecology and host-microbe relationships of gut microbes",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Matthew P. Grieshop",
+     "role": "PhD student",
+     "year": "2021 start (MD/PhD)",
+     "focus": "Microbiome community substructure and organization, and microbe-host communication",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mukundh Naresh Murthy",
+     "role": "PhD student",
+     "year": "2026 start",
+     "focus": "Uncharacterized coding potential and genome plasticity of gut microbes, and links to host immune phenotypes",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sayde Perry",
+     "role": "PhD student",
+     "year": "2025 start",
+     "focus": "Why phages and plasmids are so prevalent in the gut microbiome (co-mentored by Leonor Garcia-Bayona)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Medicine (Hematology) and Genetics, Stanford School of Medicine",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://www.bhattlab.com/people"
   },
   {
    "name": "Gentles Lab",
@@ -14394,21 +14740,83 @@
    "department_hint": "Biomedical Data Science / Pathology",
    "id": "stanford-gentles",
    "url": "https://med.stanford.edu/profiles/andrew-gentles",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab does computational systems biology, mainly in cancer. It builds and applies methods to find the biological processes behind disease in high-throughput genomic and proteomic data. Gentles co-developed CIBERSORT and CIBERSORTx. These tools estimate cell-type fractions from bulk tissue expression by computational deconvolution, and he has used them to study the tumour immune microenvironment and its link to clinical outcome. Related work covers tumour microenvironment heterogeneity, cancer initiation and metastasis, and multiplexed imaging of tumours. The lab has also worked on neurodegenerative disease and other collaborations.",
+   "topics": [
+    "computational systems biology",
+    "cell-type deconvolution (CIBERSORTx)",
+    "tumour microenvironment",
+    "cancer genomics",
+    "metastasis",
+    "multiplexed imaging"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Computational cancer genomics and tumour transcriptome analysis (deconvolution, microenvironment) overlap well with the student's interests, but I found little evidence of structural variant or somatic mutation work. The single-cell and spatial angle is only moderate. A US visa would also be needed,"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I could not find a dedicated Gentles lab website. gentleslab.stanford.edu does not resolve, and the lab URL field is therefore null.",
+    "The Stanford profile pages (med.stanford.edu/profiles and profiles.stanford.edu) failed to load with certificate errors. The PI's title and affiliation come from search-result summaries of the Stanford profile, not a direct read.",
+    "The only member list I found is the CCSB people page. It is undated and appears to come from about 2019-2020, so the two postdocs may no longer be in the lab. Verify before reaching out.",
+    "No PhD students are listed under Gentles on that page. Instructor Kevin Brennan and former postdoc Tyler Risom were left out as non-current or non-qualifying roles.",
+    "No move was found. The PI is still listed at Stanford."
+   ],
+   "sources": [
+    {
+     "title": "Andrew Gentles' Profile (Stanford Profiles)",
+     "url": "https://profiles.stanford.edu/andrew-gentles"
+    },
+    {
+     "title": "Andrew Gentles - Stanford Department of Biomedical Data Science",
+     "url": "https://dbds.stanford.edu/people/andrew-gentles/"
+    },
+    {
+     "title": "Stanford CCSB People",
+     "url": "https://stanfordhealthcare.org/content/sm/ccsb/people/people1.html"
+    },
+    {
+     "title": "Plevritis Lab alumni",
+     "url": "https://plevritislab.stanford.edu/people/alumni"
+    },
+    {
+     "title": "Bio-X profile: Andrew Gentles",
+     "url": "https://biox.stanford.edu/node/6332"
+    },
+    {
+     "title": "Robust enumeration of cell subsets from tissue expression profiles (Nature Methods)",
+     "url": "https://www.nature.com/articles/nmeth.3337"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:52:16+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science / Pathology",
-   "location": null
+   "pi_profile": {
+    "name": "Andrew Gentles",
+    "title": "Associate Professor (Research) of Pathology and of Medicine (Biomedical Informatics Research); Professor by courtesy of Biomedical Data Science",
+    "profile_url": "https://profiles.stanford.edu/andrew-gentles",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Almudena Espin Perez",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Algorithms and computational methods for mining multi-dataset genomics data in cancer initiation and metastasis.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Bogdan Luca",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational methods for studying tumour microenvironment heterogeneity.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Pathology; Medicine (Biomedical Informatics Research / Computational Medicine); Biomedical Data Science (courtesy); Stanford Center for Cancer Systems Biology",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://stanfordhealthcare.org/content/sm/ccsb/people/people1.html"
   },
   {
    "name": "Kundaje Lab",
@@ -14420,22 +14828,208 @@
    "group": null,
    "department_hint": "Genetics / Computer Science",
    "id": "stanford-kundaje",
-   "url": "https://profiles.stanford.edu/anshul-kundaje",
-   "focus": null,
-   "topics": [],
+   "url": "https://kundajelab.github.io/",
+   "focus": "The lab is a computational biology group that aims to understand the genetic basis of disease, mainly through gene regulation. It builds statistical and machine learning models, mostly deep learning, from large-scale functional genomic data. The aim is for the models to be mechanistic, interpretable, simple and hierarchical. The lab uses them to generate and test hypotheses in silico, to prioritize non-coding variants and find potential therapeutic targets, and to validate findings with experimental collaborators. Current work includes DNA sequence models, long-range DNA models, and gene regulation in cancer.",
+   "topics": [
+    "regulatory genomics",
+    "deep learning for DNA sequence",
+    "interpretable ML",
+    "non-coding variants",
+    "gene regulation in cancer",
+    "chromatin accessibility / epigenomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab is strong on ML methods for genomics and has a couple of cancer regulatory genomics projects, but it is mostly non-coding regulatory modelling, with little tumour WGS, structural variant or somatic mutation work. Its US location may also require a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: still at Stanford.",
+    "The Stanford profile page failed to load (certificate error), so the title comes from a search-result snippet and the lab page, not from the profile itself.",
+    "Google Scholar URL not verified, so it is left null.",
+    "The members page footer says 'Last updated: 10/12/2026', so it looks current. The date format is ambiguous.",
+    "The people page publishes no emails."
+   ],
+   "sources": [
+    {
+     "title": "Kundaje Lab home",
+     "url": "https://kundajelab.github.io/"
+    },
+    {
+     "title": "Kundaje Lab people",
+     "url": "https://kundajelab.github.io/people/"
+    },
+    {
+     "title": "Anshul Kundaje, Stanford Profiles",
+     "url": "https://profiles.stanford.edu/anshul-kundaje"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:52:02+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics / Computer Science",
-   "location": null
+   "pi_profile": {
+    "name": "Anshul Kundaje",
+    "title": "Associate Professor of Genetics and of Computer Science",
+    "profile_url": "https://profiles.stanford.edu/anshul-kundaje",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Adam He",
+     "role": "Postdoc",
+     "year": "joined 2026",
+     "focus": "Not listed (Genetics)",
+     "email": null,
+     "profile_url": "https://adamyhe.github.io"
+    },
+    {
+     "name": "Danila Bredhikin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Genetics; co-advised by Jesse Engreitz)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Isaac Vock",
+     "role": "Postdoc",
+     "year": "joined 2025",
+     "focus": "Not listed (Genetics)",
+     "email": null,
+     "profile_url": "https://isaacvock.github.io"
+    },
+    {
+     "name": "Lei Xiong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Long-range DNA models and macrophage regulatory mechanisms (co-advised by Michael Bassik)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Pau Badia i Mompel",
+     "role": "Postdoc",
+     "year": "joined 2025",
+     "focus": "Synthetic biology and gene regulatory networks",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Seungbyn Baek",
+     "role": "Postdoc",
+     "year": "joined 2025",
+     "focus": "Not listed (Genetics; co-advised by Maya Kasowski)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alejandro Buendia",
+     "role": "PhD student",
+     "year": "joined 2025",
+     "focus": "Not listed (Biomedical Data Science)",
+     "email": null,
+     "profile_url": "https://abuendia.github.io"
+    },
+    {
+     "name": "Anvita Gupta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Multimodal AI and clinical genomics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Arpita Singhal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "DNA sequence modeling and cancer regulatory genomics (co-advised by Maya Kasowski)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chang Yun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (Chemical Engineering; co-advised by Brian Hie)",
+     "email": null,
+     "profile_url": "https://chang-m-yun.github.io"
+    },
+    {
+     "name": "Chiho Im",
+     "role": "PhD student",
+     "year": "joined 2024",
+     "focus": "Not listed (Computer Science; co-advised by Scott Boyd)",
+     "email": null,
+     "profile_url": "https://cs.stanford.edu/people/chihoim/"
+    },
+    {
+     "name": "Jake Silberg",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (Biomedical Data Science; co-advised by James Zou)",
+     "email": null,
+     "profile_url": "https://jsilbergds.github.io"
+    },
+    {
+     "name": "Kamal Obbad",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (Biophysics; co-advised by Kyle Daniels)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nathaniel L. Diamant",
+     "role": "PhD student",
+     "year": "joined 2025",
+     "focus": "Discrete diffusion models, finetuning methods, single-molecule footprinting (co-advised by Brian Trippe)",
+     "email": null,
+     "profile_url": "https://nathanieldiamant.com"
+    },
+    {
+     "name": "Riya Sinha",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Mechanisms of genetic diseases",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Salil Deshpande",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (ICME)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shouvik Mani",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Gene regulation in cancer (co-advised by Maya Kasowski)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Valeh Valiollah Pour Amiri",
+     "role": "PhD student",
+     "year": "joined 2023",
+     "focus": "Not listed (Genetics; co-advised by Hani Goodarzi)",
+     "email": null,
+     "profile_url": "https://valehamiri.com"
+    },
+    {
+     "name": "Ziwei Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Expression models",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Genetics; Computer Science",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://kundajelab.github.io/people/"
   },
   {
    "name": "Sidow Lab",
@@ -14474,22 +15068,116 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-engelhardt",
-   "url": "https://profiles.stanford.edu/barbara-engelhardt",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.engelhardt.gladstone.org",
+   "focus": "The lab builds and applies probabilistic and machine learning models for structured biomedical data. These models are used to find patterns in the data, predict how a system will respond to interventions, support decisions, and prioritize experiments when designing biological systems. The group's published work (not checked on this run) includes statistical genetics, genotype-tissue expression and gene regulation, latent variable and Bayesian models, and causal inference and decision-making methods for clinical data. The lab page I could read gave no detailed research text, so this description rests mainly on the PI's CEHG bio.",
+   "topics": [
+    "probabilistic machine learning",
+    "statistical genomics",
+    "gene regulation / eQTL",
+    "causal inference",
+    "experimental design",
+    "biomedical data science"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab is strong on computational and ML methods for genomics, which matches one of the student's interests. Cancer genomics, structural variants and somatic mutation work are not its stated focus, and the lab is US-based, so a visa would likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI has no institutional move to flag. She is still at Stanford (BMIreal Data Science) and has been a Gladstone Senior Investigator since the lab joined Gladstone in 2021, so the primary lab site is gladstone.org rather than Stanford.",
+    "The Stanford profile URL could not be fetched (certificate error), so her title comes from the CEHG page.",
+    "The 'Bioinformatics Fellow' role is not clearly a postdoc, so I listed those three people as postdocs on an assumption. Verify before contacting them.",
+    "The team page does not state student years, focus areas or emails, so those fields are null or generic.",
+    "Staff (Elizabeth Nguyen, Tania Mergudich Thal, Aishwarya Mandyam, Leo Epstein) and the affiliate (Priyanka Shrestha) are excluded."
+   ],
+   "sources": [
+    {
+     "title": "Engelhardt Lab team page",
+     "url": "https://www.engelhardt.gladstone.org/team"
+    },
+    {
+     "title": "Ed Tam team page",
+     "url": "https://www.engelhardt.gladstone.org/team/ed-tam%2C-phd"
+    },
+    {
+     "title": "Barbara Engelhardt - Stanford CEHG",
+     "url": "https://cehg.stanford.edu/people/barbara-engelhardt"
+    },
+    {
+     "title": "Barbara Engelhardt - Stanford HAI",
+     "url": "https://hai.stanford.edu/people/barbara-engelhardt"
+    },
+    {
+     "title": "Pollard lab post on Engelhardt group joining Gladstone (Sept 2021)",
+     "url": "https://docpollard.org/2021/09/17/september-2021-2/"
+    },
+    {
+     "title": "Adam Weiner, Vazquez-Garcia lab page",
+     "url": "https://vazquezgarcialab.mgh.harvard.edu/projects/adam_weiner"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:49:19+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Barbara Engelhardt",
+    "title": "Senior Investigator, Gladstone Institutes; Professor (Research) of Biomedical Data Science at Stanford University, with courtesy appointments in Statistics and Computer Science",
+    "profile_url": "https://profiles.stanford.edu/barbara-engelhardt",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Adam Weiner",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a Bioinformatics Fellow. Another lab's site lists him as a postdoc in the Engelhardt Lab at UCSF Gladstone. Focus not published.",
+     "email": null,
+     "profile_url": "https://www.engelhardt.gladstone.org/team/adam-weiner%2C-phd"
+    },
+    {
+     "name": "Ed Tam",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a Visiting Postdoc; research focus not published on the page I could read.",
+     "email": null,
+     "profile_url": "https://www.engelhardt.gladstone.org/team/ed-tam%2C-phd"
+    },
+    {
+     "name": "Jiachen Cai",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a Bioinformatics Fellow with a PhD (postdoc-level, not confirmed as a postdoc); focus not published.",
+     "email": null,
+     "profile_url": "https://www.engelhardt.gladstone.org/team/jiachen-cai"
+    },
+    {
+     "name": "Sarah Nyquist",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a Bioinformatics Fellow with a PhD (postdoc-level, not confirmed as a postdoc); focus not published.",
+     "email": null,
+     "profile_url": "https://www.engelhardt.gladstone.org/team/sarah-nyquist%2C-phd"
+    },
+    {
+     "name": "Arpita Singhal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Focus not published on the team page.",
+     "email": null,
+     "profile_url": "https://www.engelhardt.gladstone.org/team/arpita-singhal"
+    },
+    {
+     "name": "Luis Chumpitaz Diaz",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Focus not published on the team page.",
+     "email": null,
+     "profile_url": "https://www.engelhardt.gladstone.org/team/luis-chumpitaz-diaz"
+    }
+   ],
+   "department": "Stanford Department of Biomedical Data Science (courtesy appointments in Statistics and Computer Science); Gladstone Institutes; Stanford CEHG",
+   "location": "San Francisco, California (Gladstone) and Stanford, California, USA",
+   "current_institution": "Gladstone Institutes (primary lab) and Stanford University (joint appointment)",
+   "members_page": "https://www.engelhardt.gladstone.org/team"
   },
   {
    "name": "Wang Lab",
@@ -14528,22 +15216,131 @@
    "group": null,
    "department_hint": "Chemical Engineering / Data Science",
    "id": "stanford-hie",
-   "url": "https://datasciencemajor.stanford.edu/events/machine-learning-biology-brian-hie",
-   "focus": null,
-   "topics": [],
+   "url": "https://evodesign.org",
+   "focus": "The lab works at the intersection of machine learning and biology, with the stated aim of 'aligning biological AI with human good'. It has three focus areas. The first is learning from nature, such as how the immune system balances short-term protection with long-term adaptability, to inform robust therapeutics. The second is accelerating evolution by learning evolutionary rules from data and using machine learning to harness them. The third is safe biological AI, meaning generative models that let researchers quickly deploy countermeasures against harmful biology. Methods centre on large biological language and generative models for protein and genome sequences.",
+   "topics": [
+    "biological language models",
+    "generative protein/genome design",
+    "protein evolution",
+    "immune system",
+    "biosecurity / safe biological AI"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in machine learning for genomics, but its work is on generative models for protein and genome design and evolution, with no cancer genomics, structural variant, tumour sequencing or single-cell/spatial focus. It is also in the US, so the student may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The page lists no postdocs, though a Stanford postdoc posting names Hie as faculty mentor, so openings may exist.",
+    "Yasa Baig (PhD rotation student, Stanford Bioengineering) is listed but not counted as a PhD student because they are only rotating.",
+    "The members page gives no individual emails, years, research focus or profile links. Member focus lines above are only departmental affiliations and co-advisors.",
+    "The page was not checked for a last-updated date. The lab's own site (evodesign.org) was not opened, so its people list could differ.",
+    "The Google Scholar URL was not verified, so it is left null."
+   ],
+   "sources": [
+    {
+     "title": "Laboratory of Evolutionary Design (Arc Institute)",
+     "url": "https://arcinstitute.org/labs/hielab"
+    },
+    {
+     "title": "Stanford Data Science event page: Brian Hie",
+     "url": "https://datasciencemajor.stanford.edu/events/machine-learning-biology-brian-hie"
+    },
+    {
+     "title": "Brian Hie, Stanford Profiles",
+     "url": "https://profiles.stanford.edu/brian-hie"
+    },
+    {
+     "title": "Open Postdoctoral position, faculty mentor Brian Hie",
+     "url": "https://postdocs.stanford.edu/prospective/opportunities/open-postdoctoral-position-faculty-mentor-brian-hie"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:50:55+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Chemical Engineering / Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Brian Hie",
+    "title": "Assistant Professor of Chemical Engineering (and Data Science), David T. Morgenthaler II Faculty Fellow, Stanford School of Engineering; Innovation Investigator, Arc Institute",
+    "profile_url": "https://profiles.stanford.edu/brian-hie",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aditi Merchant",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Bioengineering (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ashir Borah",
+     "role": "PhD student",
+     "year": null,
+     "focus": "UCSF Biomedical and Medical Informatics; co-advised by Luke Gilbert (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Brandon Ameglio",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Biophysics; co-advised by Anne Brunet (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Brian Kang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Bioengineering (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "David Li",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Bioengineering; co-advised by Michael Fischbach and Karl Deisseroth (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Eric Nguyen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Bioengineering; co-advised by Stephen Baccus and Christopher Ré (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Garyk Brixi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Genetics (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Samuel King",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Bioengineering (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Talal Widatalla",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stanford Biophysics (specific project not listed)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Chemical Engineering; Data Science; Arc Institute",
+   "location": "Stanford / Palo Alto, California, USA",
+   "current_institution": "Stanford University (with Arc Institute affiliation)",
+   "members_page": "https://arcinstitute.org/labs/hielab"
   },
   {
    "name": "Sabatti Lab",
@@ -14850,22 +15647,92 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-alsentzer",
-   "url": "https://profiles.stanford.edu/emily-alsentzer",
-   "focus": null,
-   "topics": [],
+   "url": "http://alsentzerlab.org/",
+   "focus": "The lab develops machine learning and natural language processing methods to support clinical decision-making and to widen access to high-quality healthcare. It works on three themes. The first is integrating domain knowledge, using knowledge graphs and unstructured clinical text to build robust, generalizable decision-support models. The second is learning with limited annotated data, using self-supervised learning and clinical foundation models. The third is responsible ML, covering human-in-the-loop systems, fairness, transparency and patient safety. Current student projects include reasoning over longitudinal clinical records linked to molecular data, knowledge-grounded language models for rare disease diagnosis, and clinical NLP with trustworthy AI.",
+   "topics": [
+    "clinical NLP",
+    "machine learning for healthcare",
+    "knowledge graphs",
+    "foundation models",
+    "responsible AI",
+    "rare disease diagnosis"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab does ML methods work, and one student project links records to molecular data, but the focus is clinical NLP and decision support, with no cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No institutional move found: the PI is still at Stanford, based on the Stanford profile and CS pages.",
+    "alsentzerlab.github.io redirects to alsentzerlab.org.",
+    "The Stanford profile page failed to load (certificate error). Title and department come from the CS and DBDS search results and the CS page.",
+    "I could not verify a Google Scholar URL, so it is null.",
+    "The team page gives no date, so I can't say how current it is. It lists one postdoc and three PhD students."
+   ],
+   "sources": [
+    {
+     "title": "Alsentzer Lab team page",
+     "url": "http://alsentzerlab.org/team/"
+    },
+    {
+     "title": "Alsentzer Lab research page",
+     "url": "http://alsentzerlab.org/research/"
+    },
+    {
+     "title": "Stanford CS people: Emily Alsentzer",
+     "url": "https://www.cs.stanford.edu/people/emily-alsentzer"
+    },
+    {
+     "title": "Stanford Profiles: Emily Alsentzer",
+     "url": "https://profiles.stanford.edu/emily-alsentzer"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:48:39+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Emily Alsentzer",
+    "title": "Assistant Professor of Biomedical Data Science (by courtesy, Computer Science)",
+    "profile_url": "https://profiles.stanford.edu/emily-alsentzer",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Chloe Stanwyck",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the team page. Listed under Biomedical Data Science and Obstetric Anesthesiology.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Bridget Lin",
+     "role": "PhD student",
+     "year": "1st year",
+     "focus": "Clinical NLP and trustworthy AI, from development through safe deployment in healthcare.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Fiona X. Cai",
+     "role": "PhD student",
+     "year": "2nd year",
+     "focus": "Knowledge-grounded language model systems for biomedical reasoning, especially rare disease diagnosis. Also multimodal retrieval and biomedical visual question answering.",
+     "email": null,
+     "profile_url": "https://fionacai.com/"
+    },
+    {
+     "name": "Jordan Cahoon",
+     "role": "PhD student",
+     "year": "2nd year",
+     "focus": "Methods for reasoning over longitudinal clinical records, linked with patient molecular data.",
+     "email": null,
+     "profile_url": "https://www.jordancahoon.com/"
+    }
+   ],
+   "department": "Biomedical Data Science (School of Medicine); courtesy appointment in Computer Science",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "http://alsentzerlab.org/team/"
   },
   {
    "name": "Lundberg Lab",
@@ -14877,22 +15744,208 @@
    "group": null,
    "department_hint": "Bioengineering / Pathology",
    "id": "stanford-lundberg",
-   "url": "https://bioengineering.stanford.edu/people/emma-lundberg",
-   "focus": null,
-   "topics": [],
+   "url": "https://lundberglab.stanford.edu",
+   "focus": "The lab studies human cell biology through spatial proteomics. It combines bioimaging, mass-spectrometry proteomics and AI to map where proteins sit within cells, how those locations change over time, and how mislocalization contributes to disease. The long-term goal is a spatiotemporal proteome model of a human cell, built by applying machine learning to imaging data integrated with other data types, with the aim of improving drug discovery. The lab creates the subcellular section of the Human Protein Atlas (Cell Atlas). Current work includes multiplexed immunofluorescence, Deep Visual Proteomics, generative and foundation models of microscopy images, 'digital twin' cell models, and cilia biology. The lab also supports open science and runs crowd-sourced challenges.",
+   "topics": [
+    "spatial proteomics",
+    "Human Protein Atlas",
+    "multiplexed imaging",
+    "deep learning for microscopy",
+    "virtual cell models",
+    "cilia"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab has strong ML and some spatial-omics overlap, and a few members work on tissue or early-cancer imaging. It does not do cancer genomics, WGS/transcriptome sequencing or structural-variant analysis, so it is a weak match for this student's core interests. The student may also need a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: the PI is still at Stanford, and the bioengineering faculty page confirms Stanford Bioengineering.",
+    "The people list is an in-page section of the lab homepage, with no separate people page and no date. I could not verify when it was last updated.",
+    "Emily Laura Meyer is a visiting PhD student on a four-month stay, so she may not count as a full lab member.",
+    "Paul Sun is in the Current Members list, but the page gives no role description for him.",
+    "Xikun Zhang is listed under Alumni and was left out."
+   ],
+   "sources": [
+    {
+     "title": "Emma Lundberg - Stanford Bioengineering",
+     "url": "https://bioengineering.stanford.edu/people/emma-lundberg"
+    },
+    {
+     "title": "Lundberg Lab homepage (people section)",
+     "url": "https://lundberglab.stanford.edu/index.html"
+    },
+    {
+     "title": "Emma Lundberg - Stanford Profiles",
+     "url": "https://profiles.stanford.edu/emma-lundberg"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:53:23+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Bioengineering / Pathology",
-   "location": null
+   "pi_profile": {
+    "name": "Emma Lundberg",
+    "title": "Associate Professor of Bioengineering and of Pathology",
+    "profile_url": "https://profiles.stanford.edu/emma-lundberg",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alissa Hummer",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Integrating cellular imaging across resolutions (co-advised by Wah Chiu); PhD in ML for antibody design.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ankit Gupta",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Image and multimodal models for protein localization and cell embeddings for the Human Protein Atlas.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jan Hansen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Primary and motile cilia; developer of the Q-line ImageJ plugins.",
+     "email": null,
+     "profile_url": "https://github.com/hansenjn"
+    },
+    {
+     "name": "Konstantin Kahnert",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Diffusion and self-supervised models to predict protein localization.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ludvig Bergenstråhle",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "ML 'digital twin' models that simulate cellular responses to treatments (co-advised by Serena Yeung).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Noorsher Ahmed",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Spatial proteomics, how subcellular transcriptomes inform protein localization, and perturbomics.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Paul Sun",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "No focus given on the lab page; see personal website.",
+     "email": null,
+     "profile_url": "https://sun-huangqingbo.github.io/"
+    },
+    {
+     "name": "Viviana Macarelli",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Primary cilia in the adult brain using hiPSCs.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Will Leineweber",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Spatial organization of proteins that regulate cell migration.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alexandra Johannesson",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Generating Human Protein Atlas subcellular data and macrophage protein expression.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Anton Thieme",
+     "role": "PhD student",
+     "year": null,
+     "focus": "A platform for autonomous discovery in perturbation genomics and proteomics.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Emily Laura Meyer",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cardiac spatial proteomics. Visiting PhD student from the Lundby Lab, University of Copenhagen, on a four-month visit.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ernst Pulido",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Protein-protein interactions using mass spectrometry and cryo-EM (Biophysics Program).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Frida Björklund",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Spatiotemporal protein variation at single-cell level using multiplex imaging and deep-learning segmentation.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mohini Misra",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AI-powered cell modeling (Bioengineering; co-advised by Russ Altman).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nicolai Dorka",
+     "role": "PhD student",
+     "year": "2nd year",
+     "focus": "Deep Visual Proteomics: high-resolution imaging, laser microdissection and sensitive mass spectrometry.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rong Chi",
+     "role": "PhD student",
+     "year": "1st year (rotation)",
+     "focus": "Mass-spectrometry cell-cycle proteomics.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Samantha Mutiti",
+     "role": "PhD student",
+     "year": "1st year",
+     "focus": "Foundation models and lab automation.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zoe Wefers",
+     "role": "PhD student",
+     "year": "1st year (rotation)",
+     "focus": "Generative modeling of Human Protein Atlas microscopy images.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Bioengineering; Pathology (School of Medicine). The PI also directs the Cell Atlas of the Human Protein Atlas, based in Sweden.",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://lundberglab.stanford.edu/index.html#people"
   },
   {
    "name": "Ashley Lab",
@@ -14904,22 +15957,132 @@
    "group": null,
    "department_hint": "Medicine / Biomedical Data Science",
    "id": "stanford-ashley",
-   "url": "https://med.stanford.edu/profiles/euan-ashley",
-   "focus": null,
-   "topics": [],
+   "url": "https://ashleylab.stanford.edu/",
+   "focus": "The lab applies whole-genome sequencing and multi-omic data to diagnose genetic disease and personalize medicine, with a strong emphasis on inherited cardiovascular disease and rare disorders. Computational work includes deep learning on genetics, multimodal clinical data (ECG, echo, MRI) and wearable/smartphone data (e.g. the MyHeart Counts app). The lab also runs exercise-physiology and molecular-profiling projects (MoTrPAC, elite athlete performance) and develops gene therapy tools such as AAV and non-viral cardiomyocyte delivery vectors and base editors, using protein design and machine learning. It is a mix of bioinformatics, genetics, computer science, statistics and bench/clinical researchers.",
+   "topics": [
+    "clinical genome sequencing",
+    "cardiovascular genetics",
+    "rare disease diagnosis",
+    "deep learning for health data",
+    "exercise physiology multi-omics",
+    "gene therapy vector design"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares an interest in computational and machine-learning genomics and in whole-genome sequencing, but it focuses on germline/cardiovascular and rare disease, wearables and gene therapy rather than cancer genomics, somatic variants or single-cell/spatial oncology."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is now Chair of Stanford's Department of Medicine, so his time for individual trainees may be limited. Sources differ on when he started the role.",
+    "No year of study or emails are published on the lab team pages.",
+    "The postdoc page mixes postdocs, clinical fellows and visiting scholars. I left out Joshua Gillard (deep learning for cardiovascular genetics, in the lab since 2024) and Rodrigo Mendez (medical geneticist, deep-learning phenotyping) because their roles are not stated. I also left out Zaniar Ghazizad",
+    "I left out undergraduates Shriya Reddy and Andy Wang and MD candidate Samuel Margolis.",
+    "The Stanford profile pages returned certificate errors when fetched, so the PI's title and departments come from search-result snippets. I did not find his Google Scholar URL."
+   ],
+   "sources": [
+    {
+     "title": "Ashley Lab - Postdoctoral Fellows and Visiting Scholars",
+     "url": "https://ashleylab.stanford.edu/team/postdoctoral-fellows-and-visiting-scholars/"
+    },
+    {
+     "title": "Ashley Lab - Students",
+     "url": "https://ashleylab.stanford.edu/team/students/"
+    },
+    {
+     "title": "Euan Ashley - Stanford Profiles",
+     "url": "https://profiles.stanford.edu/euan-ashley"
+    },
+    {
+     "title": "Euan A. Ashley - Stanford DBDS",
+     "url": "https://dbds.stanford.edu/?p=6817"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:46:40+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Medicine / Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Euan A. Ashley",
+    "title": "Roger and Joelle Burnell Professor of Genomics and Precision Health; Arthur L. Bloomfield Professor of Medicine; Chair, Department of Medicine",
+    "profile_url": "https://profiles.stanford.edu/euan-ashley",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Edward Guzman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Non-viral nucleic acid delivery to cardiomyocytes",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Matthew Neu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genomic technologies for rapid diagnosis and personalized gene therapy for metabolic disorders (medical genetics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Narayan Schuetz",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Generative deep learning and remote health monitoring from smartphone and wearable data (Wu Tsai Human Performance Fellow)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ruoyi Cai",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Multimodal data and machine learning for cardiovascular risk prediction and clinical trial design",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Samuel Montalvo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biomechanical, molecular and physiological mechanisms of human performance (Wu Tsai Human Performance Alliance)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ben Viggiano",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Deep learning for protein engineering; computational design of gene therapy vectors and base editors (MS/PhD, Computer Science and Biomedical Informatics)",
+     "email": null,
+     "profile_url": "https://bviggiano.github.io/"
+    },
+    {
+     "name": "Hugo Mendez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetic determinants of elite athletic performance (ELITE); computational chemistry and protein design for cardiac gene delivery",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mohammad Asadi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AI for clinical workflows, including multimodal cardiologist assistants combining ECG, echo and cardiac MRI (Electrical Engineering)",
+     "email": null,
+     "profile_url": "https://masadi.ai"
+    },
+    {
+     "name": "Vidal Arroyo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistical and algorithmic tools for high-dimensional exercise science data within MoTrPAC (Biophysics; co-advised with Russ Altman)",
+     "email": null,
+     "profile_url": "https://vidalarroyo.com/"
+    }
+   ],
+   "department": "Department of Medicine (Cardiovascular Medicine; Chair); Genetics; Biomedical Data Science; Pathology (by courtesy); Stanford Center for Inherited Cardiovascular Disease",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://ashleylab.stanford.edu/team/students/"
   },
   {
    "name": "Bejerano Lab",
@@ -14931,22 +16094,57 @@
    "group": null,
    "department_hint": "Developmental Biology / Computer Science / Pediatrics",
    "id": "stanford-bejerano",
-   "url": "https://profiles.stanford.edu/gill-bejerano",
-   "focus": null,
-   "topics": [],
+   "url": "http://bejerano.stanford.edu",
+   "focus": "The lab studies how the genome encodes function in humans and related species, with a focus on cis-regulatory elements and the evolution of gene regulation. It combines computational genomics with experimental validation, including comparative genomics and studies of the gene regulatory landscape of the developing neocortex. It also analyses patient genomes and medical records to find disease-causing variants, mainly in rare and Mendelian disease. The PI's Stanford bio also lists cryptogenomics (from 2017) and healthcare risk management (from 2021). This summary comes from the PI's Stanford profile pages, not from the lab website, which I could not open.",
+   "topics": [
+    "regulatory genomics",
+    "comparative genomics",
+    "rare disease genomics",
+    "computational biology",
+    "developmental gene regulation"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares computational and ML genomics methods with the student, but its focus is regulatory and evolutionary genomics and rare disease, not cancer, somatic mutation, structural variants or single-cell oncology. The student may also need a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Lab website bejerano.stanford.edu and profiles.stanford.edu both failed with TLS certificate errors, so the people page was not accessed and no current members could be verified.",
+    "No move found: Stanford pages still list the PI as Professor at Stanford.",
+    "Heidi Chen (joint with the Kingsley lab, Stanford degree 2023) and Cory McLean (CS PhD student, early 2000s) appeared only on old pages. They are likely alumni and are not listed as members.",
+    "Google Scholar URL not verified, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Gill Bejerano - Stanford Wu Tsai Neurosciences profile",
+     "url": "https://neuroscience.stanford.edu/people/gill-bejerano"
+    },
+    {
+     "title": "Gill Bejerano - Stanford Bio-X profile",
+     "url": "https://biox.stanford.edu/people/gill-bejerano"
+    },
+    {
+     "title": "Kingsley lab members (mentions Heidi Chen)",
+     "url": "https://cmgm-new.stanford.edu/devbio/kingsley/lab_members.html"
+    },
+    {
+     "title": "Gill Bejerano - Stanford profiles",
+     "url": "https://profiles.stanford.edu/gill-bejerano"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:46:56+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Gill Bejerano",
+    "title": "Professor of Developmental Biology, Computer Science, and Pediatrics (Genetics)",
+    "profile_url": "https://profiles.stanford.edu/gill-bejerano",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Developmental Biology / Computer Science / Pediatrics",
-   "location": null
+   "department": "Developmental Biology; Computer Science; Pediatrics (Medical Genetics)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": null
   },
   {
    "name": "Zou Lab",
@@ -14985,22 +16183,59 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-fries",
-   "url": "https://profiles.stanford.edu/jason-fries",
-   "focus": null,
-   "topics": [],
+   "url": "https://frieslab-stanford.github.io/",
+   "focus": "The lab builds foundation models for longitudinal healthcare data, mainly electronic health record (EHR) timelines and clinical text. It also builds multimodal models that combine EHRs with imaging, omics, wearables and literature, with a focus on long-term disease progression. A second line of work is evaluation: standardized benchmarks and released EHR datasets (INSPECT, EHRSHOT, MedAlign, FactEHR) intended to make healthcare AI results reproducible. A third line is human-AI teaming, which captures tacit clinical knowledge such as the reasoning used in tumour boards and care coordination. Application areas named include oncology, precision medicine and pediatrics.",
+   "topics": [
+    "healthcare foundation models",
+    "EHR",
+    "multimodal learning",
+    "benchmarking and evaluation",
+    "human-AI teaming",
+    "oncology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares an interest in ML methods and has some oncology applications, but its work is EHR and clinical-AI based, not tumour sequencing, structural variants or single-cell/spatial omics. Omics appears only as one modality in multimodal models."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No members or people page could be verified. The lab site (frieslab-stanford.github.io) says 'Lab website coming soon', and the PI's personal site lists no members, so the members list is empty and no PhD students or postdocs are named.",
+    "The lab is recruiting PhD students (mainly from Biomedical Data Science and Computer Science) and is accepting 2026 postdoc applications.",
+    "The Stanford profile page failed to load because of a certificate error. The PI's title and department come from the personal site web.stanford.edu/~jfries/.",
+    "No move was found: the PI is still listed at Stanford.",
+    "The lab GitHub organization (VISTA-Stanford) might show members, but it was not checked."
+   ],
+   "sources": [
+    {
+     "title": "Jason Alan Fries personal site (Stanford)",
+     "url": "https://web.stanford.edu/~jfries/"
+    },
+    {
+     "title": "Fries Lab site",
+     "url": "https://frieslab-stanford.github.io/"
+    },
+    {
+     "title": "Jason Alan Fries teaching page (Stanford)",
+     "url": "https://web.stanford.edu/~jfries/teaching"
+    },
+    {
+     "title": "Stanford Profiles: Jason Fries",
+     "url": "https://profiles.stanford.edu/jason-fries"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:49:41+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Jason Alan Fries",
+    "title": "Assistant Professor of Biomedical Data Science and of Medicine",
+    "profile_url": "https://profiles.stanford.edu/jason-fries",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "department": "Biomedical Data Science; Medicine",
+   "location": "Stanford / Palo Alto, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": null
   },
   {
    "name": "Engreitz Lab",
@@ -15013,21 +16248,171 @@
    "department_hint": "Genetics",
    "id": "stanford-engreitz",
    "url": "https://www.engreitzlab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab maps the regulatory wiring of the human genome to understand the genetic mechanisms of heart development and disease. It combines experimental and computational genomics, biochemistry, molecular biology and human genetics. Its work includes CRISPR perturbation screens, enhancer–gene linking models, and the interpretation of noncoding GWAS variants, mainly for cardiovascular disease. Machine-learning models of sequence and gene regulation are developed jointly with collaborating labs.",
+   "topics": [
+    "enhancer-gene regulation",
+    "noncoding GWAS variants",
+    "CRISPR perturbation screens",
+    "cardiovascular genetics",
+    "predictive ML models of regulation",
+    "single-cell genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares an interest in computational and ML genomics and single-cell methods, but it works on regulatory genomics and cardiovascular disease, not cancer genomics, tumour WGS, structural variants or somatic mutations."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the lab site lists the PI at Stanford. I did not check this against a second source.",
+    "The team page gives no years, emails or individual profile links, so those fields are null.",
+    "I could not tell whether the team page is up to date.",
+    "I did not find a Google Scholar or Stanford profile URL, so those fields are null.",
+    "Several members are joint with other labs (Kundaje, Greenleaf, Bintu, Chang, Pritchard, Rando)."
+   ],
+   "sources": [
+    {
+     "title": "Engreitz Lab home",
+     "url": "https://www.engreitzlab.org/"
+    },
+    {
+     "title": "Engreitz Lab team",
+     "url": "https://www.engreitzlab.org/team"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:49:13+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Jesse Engreitz",
+    "title": "Principal Investigator (Assistant Professor of Genetics, Stanford; BASE Initiative). The exact title was not confirmed on the page I read.",
+    "profile_url": null,
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Danila Bredikhin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Multimodal models linking sequence and gene expression to study enhancer-gene interactions (joint with Kundaje Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Gal Keshet",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Rules that determine which enhancers activate which promoters, and how variation alters this",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Olga Pushkarev",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Cis-regulatory elements and variants in pulmonary arterial hypertension; therapeutic targets (joint with Rabinovitch Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Philine Guckelberger",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "3D chromosome conformation and enhancer function; CRISPR perturbation tools and AI-informed interpretation (FutureHouse)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tri Nguyen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Disease gene regulation and disease-critical cell types in cardiovascular disease",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ashna Nisal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Silencers and repressive elements in cell identity and disease; predictive markers (Genetics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ben Doughty",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Experimental and computational tools for enhancers and noncoding GWAS variants at single-cell resolution (Genetics; Greenleaf Lab, listed as collaborator)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Charu Balamurugan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Gene function in specific cell contexts and cardiovascular health; cis-regulatory element dynamics (MD-PhD)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jason Tan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational and experimental tools for enhancer function (Computer Science, joint with Greenleaf Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jonathan Perera",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predictive models of enhancer-gene interactions that integrate sequence context (MD-PhD, joint with Kundaje Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maggie S. Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Enhancers, genes and variants in cardiac organoids and disease development (MD-PhD, Genetics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ronghao Zhou",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetic and epigenetic changes of aging (Genetics, joint with Rando Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tony Zeng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Causal discovery for coronary artery disease from perturbation data (Genetics, joint with Pritchard Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Xiangmeng Shawn Cai",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Transcription factors' roles in 3D genome structure; high-throughput genome perturbation tools (Bioengineering, joint with Bintu Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yannick Lee-yow",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Circular RNAs in gene regulation, development and disease (Genetics, joint with Chang Lab)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Genetics and BASE Initiative, Stanford University School of Medicine",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://www.engreitzlab.org/team"
   },
   {
    "name": "Witte Lab",
@@ -15066,22 +16451,92 @@
    "group": null,
    "department_hint": "Medicine / Biomedical Data Science",
    "id": "stanford-chen",
-   "url": "https://profiles.stanford.edu/jonc101",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.healthrexlab.com/",
+   "focus": "The lab combines human and artificial intelligence to improve medical decision-making. It applies machine learning and data analytics to real-world clinical data such as electronic medical records, then returns the results as clinical decision support. The aim is a continuously learning health system. Recent work evaluates large language models in clinical reasoning and diagnosis, defines benchmarks for medical AI safety and efficacy, and builds decision-support interfaces. The lab also works on training the healthcare workforce to use AI. It does not work on genomics or cancer omics.",
+   "topics": [
+    "clinical decision support",
+    "electronic health records",
+    "LLM evaluation in medicine",
+    "medical AI benchmarks",
+    "recommender systems",
+    "learning health system"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on EHR-based clinical decision support and LLM evaluation, with no cancer genomics, sequencing, structural variants or single-cell/spatial omics; the only overlap is general machine learning, and a US visa would be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: Stanford is current, and the lab's own site lists a Stanford address (3180 Porter Drive, Palo Alto).",
+    "The two sources disagree on who is on the team. The lab's own team page (healthrexlab.com/team) lists no current postdocs or PhD students. It names collaborators Vishnu Ravi, Stephen Ma, Dong Han Yao, Kathleen Lacar and Bethel R. Mieso, plus David Wu (Harvard MD-PhD resident). The member list above ",
+    "The lab's team page shows François Grolleau (post-doc fellow, 2026) and Minh Nguyen (PhD student, 2024) as former members. The Computational Medicine page lists neither.",
+    "Other people on the Computational Medicine page were excluded as non-postdoc, non-PhD roles: Chuk Anyaegbuna (research fellow), Ethan Goh (physician), and clinical informatics fellows Kameron Black, Nicholas Marshall and Austin James Schoeffler.",
+    "I could not open the official Stanford profile pages: the profiles.stanford.edu and med.stanford.edu fetches failed with certificate errors. Details come from a search snippet and the pages I did read."
+   ],
+   "sources": [
+    {
+     "title": "Chen Lab - Stanford Computational Medicine",
+     "url": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/chen-lab/"
+    },
+    {
+     "title": "HealthRex Lab main page",
+     "url": "https://www.healthrexlab.com/"
+    },
+    {
+     "title": "HealthRex Lab team page",
+     "url": "https://www.healthrexlab.com/team"
+    },
+    {
+     "title": "Jonathan Chen Stanford profile",
+     "url": "https://profiles.stanford.edu/jonc101"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:47:47+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Medicine / Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Jonathan H. Chen, MD, PhD",
+    "title": "Physician-scientist, Division of Computational Medicine, Stanford (the Computational Medicine page lists Assistant Professor of Medicine, but it may be out of date and I could not confirm the current ",
+    "profile_url": "https://profiles.stanford.edu/jonc101",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Fateme Nateghi Haredasht",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Post-training and evaluation of large language models (LLMs) in healthcare.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/nateghi-haredasht-fateme/"
+    },
+    {
+     "name": "Ruoqi Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral scholar in the Chen Lab; the page gives no individual research focus.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/liu-ruoqi/"
+    },
+    {
+     "name": "Bryan Bunning",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Data Science PhD student; the page gives no individual research focus.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/bunning-bryan/"
+    },
+    {
+     "name": "Ivan Lopez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student; the page gives no individual research focus.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/lopez-ivan/"
+    }
+   ],
+   "department": "Division of Computational Medicine, Department of Medicine; Center for Biomedical Informatics Research (BMIR); Biomedical Data Science",
+   "location": "Palo Alto / Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/chen-lab/"
   },
   {
    "name": "Pritchard Lab",
@@ -15093,22 +16548,168 @@
    "group": null,
    "department_hint": "Genetics / Biology",
    "id": "stanford-pritchard",
-   "url": "https://med.stanford.edu/genetics/people/Faculty1/genetics-faculty-m-z.html",
-   "focus": null,
-   "topics": [],
+   "url": "https://web.stanford.edu/group/pritchardlab/home.html",
+   "focus": "The lab uses statistical and computational methods to study genomics and evolutionary biology. It asks what DNA sequence variation reveals about population structure, population history and natural selection. It also studies how genetic variation shapes complex traits and gene regulation, and why so much of the genome contributes to those traits (the omnigenic model). Recent work combines Perturb-seq experiments with new statistical and machine-learning methods to map how genetic effects flow through gene regulatory networks, especially in immune cells such as T cells.",
+   "topics": [
+    "population genetics",
+    "complex trait genetics",
+    "gene regulation",
+    "Perturb-seq / single-cell",
+    "statistical genetics / ML",
+    "human evolution"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab overlaps with the student's interests in computational and ML methods for genomics and in single-cell data (Perturb-seq, scRNA-seq). Its focus is population and complex-trait genetics, not cancer genomics or somatic or structural variants. The one cancer-related project is Alvina Adimoelja's"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at Stanford. I found no sign of a move.",
+    "The members page has no explicit last-updated date. Its photo caption says May 2025, but the roster includes later entries.",
+    "Two postdocs have start dates of July 2026 (Leqi Xu) and Oct 2026 (Wangjie Liu). I did not verify them independently.",
+    "The members page publishes no individual profile links or emails, so those fields are null.",
+    "The lab's news page said a staff scientist search was open."
+   ],
+   "sources": [
+    {
+     "title": "The Pritchard Lab (home)",
+     "url": "https://web.stanford.edu/group/pritchardlab/home.html"
+    },
+    {
+     "title": "Pritchard Lab: Lab Members",
+     "url": "https://web.stanford.edu/group/pritchardlab/labMembers.html"
+    },
+    {
+     "title": "Jonathan Pritchard (lab site)",
+     "url": "https://web.stanford.edu/group/pritchardlab/pritchard.html"
+    },
+    {
+     "title": "Jonathan Pritchard (Bio-X)",
+     "url": "https://biox.stanford.edu/people/jonathan-pritchard"
+    },
+    {
+     "title": "The Pritchard Lab: How to apply",
+     "url": "https://web.stanford.edu/group/pritchardlab/positions.html"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:54:40+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics / Biology",
-   "location": null
+   "pi_profile": {
+    "name": "Jonathan K. Pritchard",
+    "title": "Professor of Genetics and of Biology; Bing Professor of Population Studies",
+    "profile_url": "https://web.stanford.edu/group/pritchardlab/pritchard.html",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Emma Dann",
+     "role": "Postdoc",
+     "year": "since June 2024",
+     "focus": "scRNA-seq, T cells, computational methods (joint with Alex Marson)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jiacheng Miao",
+     "role": "Postdoc",
+     "year": "since June 2025",
+     "focus": "Statistical genetics, ML/AI models (joint with James Zou)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Leqi Xu",
+     "role": "Postdoc",
+     "year": "listed start July 2026",
+     "focus": "Statistical genetics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ronghui (Ron) Zhu",
+     "role": "Postdoc",
+     "year": "since Sept 2022",
+     "focus": "Gene regulatory networks and T cell perturbation (joint with Alex Marson)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Wangjie Liu",
+     "role": "Postdoc",
+     "year": "listed start Oct 2026",
+     "focus": "Single-cell and Perturb-seq, chromatin, human genetics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Xinyi Li",
+     "role": "Postdoc",
+     "year": "since May 2025",
+     "focus": "Statistical genetics, population genetics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yun Deng",
+     "role": "Postdoc",
+     "year": "since Jan 2025",
+     "focus": "Computational population genetics, ARG inference",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alvina Adimoelja",
+     "role": "PhD student",
+     "year": "started June 2022 (Genetics; joint with ",
+     "focus": "Population genetics in cancer",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Julie (Huisheng) Zhu",
+     "role": "PhD student",
+     "year": "started June 2023 (Biology)",
+     "focus": "Population genetics modeling of complex traits",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nikhil Milind",
+     "role": "PhD student",
+     "year": "started June 2023 (Genetics)",
+     "focus": "Gene dosage effects on trait variation",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ryan Goto",
+     "role": "PhD student",
+     "year": "started 2025 (BMI; joint with Rob Tibshi",
+     "focus": "Perturb-seq and statistical modeling",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tami Gjorgjieva",
+     "role": "PhD student",
+     "year": "started June 2023 (Genetics)",
+     "focus": "Population genetics, molecular and complex traits",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tony Zeng",
+     "role": "PhD student",
+     "year": "started June 2022 (Genetics; joint with ",
+     "focus": "Statistics/ML and Perturb-seq",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Departments of Genetics and Biology; Stanford Bio-X; Center for Computational, Evolutionary and Human Genomics (CEHG)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://web.stanford.edu/group/pritchardlab/labMembers.html"
   },
   {
    "name": "Palacios Lab",
@@ -15120,22 +16721,104 @@
    "group": null,
    "department_hint": "Biomedical Data Science / Statistics",
    "id": "stanford-palacios",
-   "url": "https://med.stanford.edu/profiles/julia-palacios",
-   "focus": null,
-   "topics": [],
+   "url": "https://juliapalacios.github.io",
+   "focus": "The lab develops Bayesian nonparametric and probabilistic models for evolutionary and population-genetic data. Its methods include new coalescent models, Gaussian-process priors for effective population size trajectories, and efficient MCMC and other computational-statistics tools. Much of the work is on phylodynamics and inference of phylogenetic tree distributions for infectious disease, including ranked tree shapes and reporting delays in real-time analyses. The lab also works on single-cell lineage tracing, and its stated applications include genetics, health and cancer.",
+   "topics": [
+    "Bayesian nonparametrics",
+    "coalescent models / phylodynamics",
+    "phylogenetic tree inference",
+    "single-cell lineage tracing",
+    "probabilistic ML / MCMC",
+    "infectious disease epidemiology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is a methods-focused statistical phylogenetics group. Its overlap with the student's interests is limited to computational/ML methods and single-cell lineage tracing, and it does not work on tumour WGS, structural variants or somatic mutation calling."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Stanford; no move found. The supplied URL (med.stanford.edu/profiles/julia-palacios) failed with a certificate error, so I used the Statistics department profile and the lab site instead.",
+    "The members page has no date, so I could not tell how current it is. Years are given for only one student.",
+    "No individual emails or profile links are published on the people page. The only contact listed is a lab-level Gmail address, which I left out as it is not an official university address.",
+    "Google Scholar URL not verified.",
+    "The lab says it is recruiting undergraduates, graduate students and postdocs. Moving to a US lab would likely need a visa."
+   ],
+   "sources": [
+    {
+     "title": "Palacios Lab home",
+     "url": "https://juliapalacios.github.io"
+    },
+    {
+     "title": "Palacios Lab people",
+     "url": "https://juliapalacios.github.io/people"
+    },
+    {
+     "title": "Stanford Statistics profile: Julia Palacios",
+     "url": "https://statistics.stanford.edu/people/julia-palacios"
+    },
+    {
+     "title": "Stanford Profiles: Julia Palacios",
+     "url": "https://profiles.stanford.edu/julia-palacios?tab=bio"
+    },
+    {
+     "title": "Stanford Data Science: Yi-Ting Tsai",
+     "url": "https://datascience.stanford.edu/people/yi-ting-tsai"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:54:23+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science / Statistics",
-   "location": null
+   "pi_profile": {
+    "name": "Julia A. Palacios",
+    "title": "Associate Professor of Statistics and of Biomedical Data Science; Associate Professor, by courtesy, of Biology",
+    "profile_url": "https://statistics.stanford.edu/people/julia-palacios",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Isaac Goldstein",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Statistical methods for infectious disease epidemiology: latent stochastic process models, Bayesian nonparametrics, statistical computing. PhD 2024, UC Irvine.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Cherith Chen",
+     "role": "PhD student",
+     "year": "2nd year",
+     "focus": "Flexible ML and statistical models for distributions over phylogenetic trees (Statistics).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ivan Specht",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Efficient Bayesian inference algorithms for phylogenetic trees, applied to infectious disease spread (Computational and Mathematical Engineering).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Leda Liang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Methods for single-cell lineage tracing and visualization (Statistics).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yi-Ting Tsai",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Stochastic processes, probabilistic modelling and Bayesian statistics for health, genetics and cancer (ICME).",
+     "email": null,
+     "profile_url": "https://datascience.stanford.edu/people/yi-ting-tsai"
+    }
+   ],
+   "department": "Department of Statistics (School of Humanities & Sciences); Biomedical Data Science (School of Medicine); Biology (courtesy); affiliated with Bio-X, Data Science, ICME",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://juliapalacios.github.io/people"
   },
   {
    "name": "Salzman Lab",
@@ -15174,22 +16857,196 @@
    "group": null,
    "department_hint": "Bioengineering / Microbiology & Immunology",
    "id": "stanford-huang",
-   "url": "https://bioengineering.stanford.edu/people/kerwyn-huang",
-   "focus": null,
-   "topics": [],
+   "url": "https://whatislife.stanford.edu/",
+   "focus": "The lab studies how bacterial cells control their shape, growth and internal organization. Its methods include quantitative imaging, biophysical modelling and computational simulation. It also studies the human gut microbiome, with a focus on community assembly, antibiotic responses and the ecology of microbial communities, using in vitro communities, metagenomic sequencing and mathematical modelling. The work spans cell biophysics (cell wall, cytoskeleton, mechanics) and systems-level microbial ecology. Both parts combine experiments with computation. This description is based on the PI's known research and the lab's site name. I did not open a page that gives a research summary.",
+   "topics": [
+    "bacterial cell biology",
+    "cell shape and mechanics",
+    "gut microbiome",
+    "microbial community ecology",
+    "quantitative imaging",
+    "biophysical modelling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on bacterial biophysics and the gut microbiome, not cancer genomics, structural variants or tumour single-cell/spatial omics. The only overlap is general computational and sequencing-based analysis, and it would also require a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Stanford; no move found.",
+    "The members page has no last-updated date. Its footer reads © 2026.",
+    "The page lists departments only, with no research descriptions or years. Member focus fields are therefore blank placeholders.",
+    "A search-result summary of the same page named Handuo Shi as a postdoc, but the page itself did not list them. Treat this as an unresolved discrepancy.",
+    "Excluded: Amin Sajjadian (undergraduate), Lisa Willis (staff data scientist) and Jennifer Gucwa (lab manager)."
+   ],
+   "sources": [
+    {
+     "title": "KC Huang - Stanford Bioengineering",
+     "url": "https://bioengineering.stanford.edu/people/kerwyn-huang"
+    },
+    {
+     "title": "Huang Lab Current Members",
+     "url": "https://whatislife.stanford.edu/people.html"
+    },
+    {
+     "title": "Huang Lab home",
+     "url": "https://whatislife.stanford.edu/"
+    },
+    {
+     "title": "Stanford Profiles - KC Huang",
+     "url": "https://profiles.stanford.edu/10429"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:51:28+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Bioengineering / Microbiology & Immunology",
-   "location": null
+   "pi_profile": {
+    "name": "Kerwyn Casey (KC) Huang",
+    "title": "LeRa Professor and Professor of Microbiology and Immunology; Professor of Bioengineering",
+    "profile_url": "https://bioengineering.stanford.edu/people/kerwyn-huang",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Achuthan Ambat",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Andrew Verdegaal",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Anthony Shiver",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": "https://www.researchgate.net/profile/Anthony_Shiver"
+    },
+    {
+     "name": "Aseel Shomar",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Applied Physics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Beverly Fu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Helen Stone",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jamie Alcira Lopez",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering and Applied Physics)",
+     "email": null,
+     "profile_url": "https://www.jamielopez.net/"
+    },
+    {
+     "name": "Jason Millington",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Saria McKeithen-Mead",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering and Microbiology & Immunology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Taylor Nguyen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Théo Gervais",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jess Liang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page (Biophysics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jiawei Sun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kent Kotaka",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page (Biophysics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kevin Jiang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page (Microbiology and Immunology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Morgan Zhang Su",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page (Microbiology and Immunology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rachel Porter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page (Biophysics)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Bioengineering; Microbiology and Immunology (courtesy appointment in Biochemistry; directs the Biophysics Program)",
+   "location": "Stanford, CA, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://whatislife.stanford.edu/people.html"
   },
   {
    "name": "Steinmetz Lab",
@@ -15255,22 +17112,72 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-musen",
-   "url": "https://med.stanford.edu/profiles/mark-musen",
-   "focus": null,
-   "topics": [],
+   "url": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/musen-lab/",
+   "focus": "The lab develops biomedical ontologies, knowledge representation methods, and tools for organizing, integrating and sharing scientific knowledge. Its group built Protégé, an ontology-editing tool, and BioPortal, an ontology repository. It also leads CEDAR (Center for Expanded Data Annotation and Retrieval), which builds tools for authoring and managing experimental metadata that follows FAIR principles. Further work covers open science and data stewardship, intelligent systems, biomedical decision support, and the WHO Collaborating Center that supports ICD-11 terminology infrastructure. A recent postdoc listing mentions modeling laboratory workflows to program self-driving laboratories.",
+   "topics": [
+    "biomedical ontologies",
+    "metadata and FAIR data",
+    "knowledge representation",
+    "semantic web",
+    "data stewardship",
+    "clinical terminologies (ICD-11)"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on ontologies, metadata and knowledge engineering, with no cancer genomics, sequencing, structural-variant, ML-for-genomics or single-cell work, so overlap with the student's interests is minimal (some indirect relevance through genomic data standards and metadata)."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab page lists no PhD students. The other 10 listed members are software developers, engineers or technical staff.",
+    "A search snippet shows Shijie Wan and Christopher Donovan Jr as Biomedical Informatics postdocs with Musen as sponsor, but I couldn't open their profiles or confirm they are current. They are left out of the member list.",
+    "stanford.edu profile pages (med.stanford.edu, profiles.stanford.edu, bmir.stanford.edu) returned certificate errors, so the PI's title and department come from the Stanford Computational Medicine page and search results rather than the profile page.",
+    "No move for the PI: Stanford is his current institution, per the Computational Medicine lab page.",
+    "The Google Scholar URL was not verified and is left null."
+   ],
+   "sources": [
+    {
+     "title": "Musen Lab – Stanford Division of Computational Medicine",
+     "url": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/musen-lab/"
+    },
+    {
+     "title": "Brian Donovan – Musen Lab",
+     "url": "https://computationalmedicine.stanford.edu/donovan-brian/"
+    },
+    {
+     "title": "Shijie Wan – Stanford Profiles",
+     "url": "https://profiles.stanford.edu/shijie-wan"
+    },
+    {
+     "title": "Chris Donovan – Stanford Profiles",
+     "url": "https://profiles.stanford.edu/chris-donovan"
+    },
+    {
+     "title": "Mark A. Musen – Stanford FSI",
+     "url": "https://fsi.stanford.edu/node/1936"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:53:45+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Mark A. Musen",
+    "title": "Professor of Medicine (Biomedical Informatics Research) and Research Director, Stanford Division of Computational Medicine",
+    "profile_url": "https://med.stanford.edu/profiles/mark-musen",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Brian Donovan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the lab page. A search result lists a Stanford Biomedical Informatics postdoc named Chris Donovan with Musen as faculty sponsor; this may be the same person but I could not confirm it.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/donovan-brian/"
+    }
+   ],
+   "department": "Division of Computational Medicine (Department of Medicine); Biomedical Informatics Research",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/musen-lab/"
   },
   {
    "name": "Covert Lab",
@@ -15282,22 +17189,111 @@
    "group": null,
    "department_hint": "Bioengineering",
    "id": "stanford-covert",
-   "url": "https://bioengineering.stanford.edu/people/markus-covert",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.covert.stanford.edu/",
+   "focus": "The lab builds computational models of living cells and combines them with experiments. It is best known for whole-cell models that simulate every gene and process in a cell, such as E. coli and Mycoplasma. It also uses live-cell imaging and single-cell methods to study signaling and gene regulation dynamics in mammalian cells, for example NF-kB and the innate immune response. I could not verify the details of current projects from the lab pages I could open, so this description rests largely on my background knowledge of the lab. Methods include mechanistic and dynamical modeling, systems biology, and machine learning for cell phenotype prediction.",
+   "topics": [
+    "whole-cell modeling",
+    "systems biology",
+    "single-cell imaging",
+    "gene regulation",
+    "computational biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares an interest in computational methods and single-cell work, but it does not study cancer genomics, tumour sequencing, structural variants or somatic mutation analysis, which are the core of the student's interests."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found. Stanford is confirmed as the current institution by the department profile page.",
+    "The members page lists no individual profile links, emails or years. The page has no date, so I could not tell how recent it is.",
+    "The member list comes from an automated summary of the page, not a direct read of it. Check it against the live page.",
+    "I did not find the Google Scholar URL, so it is null.",
+    "A US visa would likely be needed for any role in this lab."
+   ],
+   "sources": [
+    {
+     "title": "Markus Covert - Stanford Bioengineering",
+     "url": "https://bioengineering.stanford.edu/people/markus-covert"
+    },
+    {
+     "title": "Covert Lab - People",
+     "url": "https://www.covert.stanford.edu/people"
+    },
+    {
+     "title": "Covert Lab",
+     "url": "https://www.covert.stanford.edu/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:49:42+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Bioengineering",
-   "location": null
+   "pi_profile": {
+    "name": "Markus Covert",
+    "title": "Shriram Chair of the Department of Bioengineering; James H. Clark Professor in the School of Engineering; Professor (by courtesy) of Chemical and Systems Biology",
+    "profile_url": "https://bioengineering.stanford.edu/people/markus-covert",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Nora Vivanco Gonzalez",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Gene expression and how it determines cell phenotype, using molecular biology and computational tools",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rong Ma",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Cyrus K.",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Building tools and models for understanding living systems (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Heena Saqib",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mia Grahn",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational biology applied to how underlying cellular processes connect (Chemical Engineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mica Yang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational models applied to issues such as sustainability (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Riley Juenemann",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Applying math and computer science tools to biology questions (Computational and Mathematical Engineering)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Bioengineering (School of Engineering); courtesy appointment in Chemical and Systems Biology",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://www.covert.stanford.edu/people"
   },
   {
    "name": "Snyder Lab",
@@ -15502,22 +17498,104 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-gevaert",
-   "url": "https://med.stanford.edu/profiles/olivier-gevaert",
-   "focus": null,
-   "topics": [],
+   "url": "https://med.stanford.edu/gevaertlab.html",
+   "focus": "The lab builds machine-learning methods that fuse multimodal, multi-omics and multi-scale biomedical data, including genomics, DNA methylation, copy number, expression, pathology, radiology and clinical data. Its application areas are mainly oncology (lung cancer, glioma, mesothelioma) and also neuroscience and cardiovascular disease. Methods include Bayesian models, kernel methods, regularized regression and deep learning, with a stated goal of a medical digital twin that predicts disease course and treatment response. Earlier tools include MethylMix and AMARETTO for multi-omics integration, and the lab has contributed to radiogenomics (imaging genomics). Recent work includes foundation-model and multimodal biomarker projects, such as an ARPA-H ADAPT project and a partnership with Owkin.",
+   "topics": [
+    "multimodal AI",
+    "multi-omics integration",
+    "radiogenomics",
+    "cancer biomarkers",
+    "deep learning",
+    "digital pathology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab overlaps with the student's interest in computational and machine-learning methods for cancer genomics and transcriptomics. Its emphasis is on multimodal fusion with imaging and pathology, not on structural variants, somatic mutation calling, whole-genome sequencing or single-cell/spatial om"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I could not open the lab's own site (med.stanford.edu/gevaertlab) or the Stanford profile page because of certificate errors. The member list comes from the Stanford Computational Medicine roster page, which may not match the lab's own people page and has no date.",
+    "No move was found. The institution was confirmed from the roster and search results, not from the Stanford profile page itself. The roster lists the PI as Associate Professor of Medicine, Computational Medicine, while search summaries list Medicine and Biomedical Data Science.",
+    "The roster lists only one PhD student, who is in Electrical Engineering. The lab may have more students listed elsewhere.",
+    "No member emails were found on official pages.",
+    "Non-target roles were excluded: Rohan Bareja (research engineer), Christoph Sadee (data scientist), Max Van Puyvelde (visiting student researcher), and MD student Bryce Allen Bagley."
+   ],
+   "sources": [
+    {
+     "title": "Gevaert Lab, Stanford Computational Medicine (roster)",
+     "url": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/gevaert-lab/"
+    },
+    {
+     "title": "Gevaert Lab: Multimodal AI in biomedicine",
+     "url": "https://med.stanford.edu/gevaertlab.html"
+    },
+    {
+     "title": "Gevaert Lab people page (not opened, certificate error)",
+     "url": "https://med.stanford.edu/gevaertlab/people.html"
+    },
+    {
+     "title": "Olivier Gevaert, Stanford Profiles (not opened, certificate error)",
+     "url": "https://med.stanford.edu/profiles/olivier-gevaert"
+    },
+    {
+     "title": "Owkin collaborates with Stanford Medicine on lung cancer and mesothelioma research",
+     "url": "https://owkin.com/newsfeed/owkin-collaborates-with-stanford-medicine-on-lung-cancer-and-mesothelioma-treatment-research-using-ai"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:50:20+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Olivier Gevaert",
+    "title": "Associate Professor of Medicine (Biomedical Informatics Research) and of Biomedical Data Science",
+    "profile_url": "https://med.stanford.edu/profiles/olivier-gevaert",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Humaira Noor",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Machine learning for high-dimensional multimodal and multi-omics data (focus taken from a search summary, not from the roster page).",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/noor-humaira/"
+    },
+    {
+     "name": "Marija Pizurica",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the roster page.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/pizurica-marija/"
+    },
+    {
+     "name": "Qinmei Xu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the roster page.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/xu-qinmei/"
+    },
+    {
+     "name": "Yuanning Zheng",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the roster page.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/zheng-yuanning/"
+    },
+    {
+     "name": "Ibrahim Gulluk",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Electrical Engineering PhD student and research assistant. No individual focus is stated on the roster page.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/gulluk-ibrahim/"
+    }
+   ],
+   "department": "Department of Medicine (Biomedical Informatics Research); Biomedical Data Science; Stanford Center for Biomedical Informatics Research; Stanford Cancer Institute",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/gevaert-lab/"
   },
   {
    "name": "Tibshirani Group",
@@ -15556,22 +17634,139 @@
    "group": null,
    "department_hint": "Computer Science / Structural Biology",
    "id": "stanford-dror",
-   "url": "https://cs.stanford.edu/people/rondror/home.htm",
-   "focus": null,
-   "topics": [],
+   "url": "https://drorlab.stanford.edu/",
+   "focus": "The lab develops computational methods to study biomolecular structure, dynamics and function, with an emphasis on spatial structure at the molecular and cellular levels. It combines molecular dynamics simulation with machine learning, including 3D deep learning on protein and RNA structure. It works closely with experimental collaborators, for example on GPCRs and other drug targets. A major goal is to guide the design of more effective medicines. The work is structure-based and physics-driven, not sequencing- or omics-driven.",
+   "topics": [
+    "molecular dynamics simulation",
+    "GPCR / membrane proteins",
+    "structure-based drug design",
+    "machine learning on 3D structure",
+    "protein/RNA structure prediction"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on molecular simulation and structural machine learning for drug discovery, with essentially no overlap with cancer genomics, structural variants, tumour sequencing, or single-cell/spatial omics. The only link is a general interest in ML methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found; Stanford is confirmed as the current institution by the CS home page and the lab site.",
+    "The members page has no date or last-updated note, so the roster's currency is unverified.",
+    "The members page does not list years or research focus. Member focus lines are limited to department and fellowship information.",
+    "The lab website's own people page lists the PI's title as Associate Professor of Computer Science. I did not independently check whether this has since changed.",
+    "The student would likely need a US visa for any role here."
+   ],
+   "sources": [
+    {
+     "title": "Dror Lab people page",
+     "url": "https://drorlab.stanford.edu/people.html"
+    },
+    {
+     "title": "Ron Dror Stanford CS home page",
+     "url": "https://cs.stanford.edu/people/rondror/home.htm"
+    },
+    {
+     "title": "Ron Dror lab profile",
+     "url": "https://drorlab.stanford.edu/rondror.html"
+    },
+    {
+     "title": "Ron Dror, Stanford AI for Structural Biology and Drug Discovery",
+     "url": "https://aisbdd.stanford.edu/people/ron-dror"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:48:46+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science / Structural Biology",
-   "location": null
+   "pi_profile": {
+    "name": "Ron O. Dror",
+    "title": "Associate Professor of Computer Science (courtesy appointment in Molecular and Cellular Physiology)",
+    "profile_url": "https://drorlab.stanford.edu/rondror.html",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Yuxuan Zhuang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page (Wallenberg Fellow); the lab's work is molecular simulation and ML",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/yuxuan-zhuang/"
+    },
+    {
+     "name": "Anasthasia Shilov",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biophysics; NSF Fellow; specific project not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Aviv Korman",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering, joint with the Deisseroth Lab; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/aviv-k-98980539/"
+    },
+    {
+     "name": "Ayush Pandit",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; NSF Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/ayushpandit/"
+    },
+    {
+     "name": "Briana Sobecks",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Chemical Engineering; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/briana-sobecks/"
+    },
+    {
+     "name": "Daniel Richman",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; NSF Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/daniel-richman-074b4411a"
+    },
+    {
+     "name": "EJ Fine",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/ej-fine-68386a1b3/"
+    },
+    {
+     "name": "Hyelim Kang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biology; SGF Fellow; specific project not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jessica Karaguesian",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering, joint with the Fordyce Lab; Knight-Hennessy Scholar; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/jessica-karaguesian/"
+    },
+    {
+     "name": "Rohan Koodli",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics; NSF Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/rohan-koodli/"
+    }
+   ],
+   "department": "Computer Science; courtesy appointment in Molecular and Cellular Physiology; affiliated with Biophysics and Bioengineering programs",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://drorlab.stanford.edu/people.html"
   },
   {
    "name": "Daneshjou Lab",
@@ -15583,22 +17778,112 @@
    "group": null,
    "department_hint": "Biomedical Data Science / Dermatology",
    "id": "stanford-daneshjou",
-   "url": "https://profiles.stanford.edu/roxana-daneshjou",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.daneshjoulab.com",
+   "focus": "The lab develops and evaluates machine learning and AI methods for biomedical research, with a stated emphasis on rigor and fairness. Its work falls into three areas. The first is multi-modal modelling that combines pathology slides, imaging, lab values and clinical documentation to support diagnosis, prognosis and treatment decisions. The second is patient-facing LLM chatbots, for example explaining X-ray findings and discharge summaries in plain language, and testing them for accuracy and clinical safety. The third is dermatology: datasets that span a full range of skin tones (such as the Diverse Dermatology Images dataset), predictive models, biomarker discovery and imaging analysis. The lab does not do cancer genomics or sequencing-based work.",
+   "topics": [
+    "AI in dermatology",
+    "algorithmic fairness",
+    "multimodal ML",
+    "medical LLMs / chatbots",
+    "clinical imaging datasets",
+    "melanoma / skin cancer imaging"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The overlap is limited to general computational/ML methods and some skin-cancer work, which is imaging and clinical AI. The lab does not work on tumour WGS/transcriptome sequencing, structural variants, somatic mutations, or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The Stanford profile page (profiles.stanford.edu) returned a certificate error, so I could not open it. Her Stanford affiliation comes from the lab site and the Bio-X and news results. I found no sign that she has moved.",
+    "Vivian Utti is listed as a PhD rotation student, not a full PhD student, so she is left out of the members list.",
+    "The team page gives no academic years and no individual profile links. It has no last-updated date and lists no alumni.",
+    "The emails come from the lab team page, as extracted by the fetch tool. I did not check them against a second page.",
+    "I did not find a Google Scholar URL, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Daneshjou Lab home",
+     "url": "https://www.daneshjoulab.com"
+    },
+    {
+     "title": "Daneshjou Lab team",
+     "url": "https://www.daneshjoulab.com/team"
+    },
+    {
+     "title": "Daneshjou Lab research",
+     "url": "https://www.daneshjoulab.com/research"
+    },
+    {
+     "title": "Stanford Bio-X profile",
+     "url": "https://biox.stanford.edu/node/15087"
+    },
+    {
+     "title": "Stanford Profiles (PI page, not opened due to certificate error)",
+     "url": "https://profiles.stanford.edu/roxana-daneshjou"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:48:18+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science / Dermatology",
-   "location": null
+   "pi_profile": {
+    "name": "Roxana Daneshjou",
+    "title": "Assistant Professor of Biomedical Data Science and of Dermatology",
+    "profile_url": "https://profiles.stanford.edu/roxana-daneshjou",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aaron Fanous",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biomedical Data Science (MD)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sirui (David) Ding",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biomedical Data Science",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Vicky Bikia",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biomedical Data Science (Stanford HAI)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ank Agarwal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD-PhD student in Biophysics (Knight-Hennessy Scholar)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ryan Park",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD-PhD student in Genetics (Knight-Hennessy Scholar)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Wei Deng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Data Science",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Biomedical Data Science; Dermatology (School of Medicine)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://www.daneshjoulab.com/team"
   },
   {
    "name": "Altman Lab",
@@ -15610,22 +17895,184 @@
    "group": null,
    "department_hint": "Bioengineering / Genetics / Biomedical Data Science",
    "id": "stanford-altman",
-   "url": "https://med.stanford.edu/profiles/russ-altman",
-   "focus": null,
-   "topics": [],
+   "url": "https://helix.stanford.edu",
+   "focus": "The Helix Group applies computational methods to biomedical problems. Its work centers on pharmacogenomics, drug-target and drug-response prediction, and the structure and function of proteins and small molecules, using machine learning and natural-language processing of the literature. Student titles on the people page suggest further work on clinical informatics and AI ethics. This summary comes from my background knowledge and the people-page titles. I could not open the official profile (certificate error), so it is not confirmed against the lab's own description.",
+   "topics": [
+    "pharmacogenomics",
+    "machine learning",
+    "protein structure/function",
+    "biomedical informatics",
+    "drug discovery",
+    "text mining"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is strong in computational methods and ML for biomedicine, but its focus is pharmacogenomics and drug and protein modelling, not cancer genomics, structural variants or single-cell/spatial omics, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I could not open the Stanford profile page (certificate error), so the PI's current institution and titles are not confirmed on an official page. Stanford is the affiliation given in the discovery data, and I found no sign of a move.",
+    "The people page loaded only partially (it ends with 'Load More People'), so the member list may be incomplete.",
+    "The page does not label current members versus alumni. I left out entries with an ambiguous 'PhD' title and no 'Student' or 'Candidate' label, because they are probably alumni. These are Binbin Chen, Henry Cousins, Alexander Derry, Emily Flynn, Margaret Guo, Lichy Han, Adam Lavertu, Emily Mallory, G",
+    "Postdocs Sheng Wang and Lu Yang appeared on a second page of the list with no profile link seen, and their current status is unconfirmed.",
+    "GSK.ai Ethics Fellows (Abdoul Jalil Djiberou Mahamadou, Carole Federico, Artem Trotsyuk) were excluded as fellows, not postdocs."
+   ],
+   "sources": [
+    {
+     "title": "Helix Group people page",
+     "url": "https://helix.stanford.edu/people"
+    },
+    {
+     "title": "Helix Group people page (page 2)",
+     "url": "https://helix.stanford.edu/people?page=1"
+    },
+    {
+     "title": "Russ Altman Stanford Medicine profile (URL from discovery; could not be opened)",
+     "url": "https://med.stanford.edu/profiles/russ-altman"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:46:25+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Bioengineering / Genetics / Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Russ B. Altman",
+    "title": "Professor of Bioengineering, Genetics, Medicine and Biomedical Data Science (title not re-verified this session)",
+    "profile_url": "https://med.stanford.edu/profiles/russ-altman",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Coté Falaguera",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page (listed as Visiting Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/cote-falaguera"
+    },
+    {
+     "name": "Jake Lever",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/jake-lever"
+    },
+    {
+     "name": "Jun Woo Kim",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page (listed as Postdoctoral Fellow and Biomedical Informatics MS student)",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/jun-woo-kim"
+    },
+    {
+     "name": "Lu Yang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page (also listed as Bioengineering PhD)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sheng Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alp Tartici",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetics PhD candidate; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/alp-tartici"
+    },
+    {
+     "name": "Betty Xiong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics PhD candidate; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/betty-xiong"
+    },
+    {
+     "name": "Delaney Smith",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biochemistry PhD candidate; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/delaney-smith"
+    },
+    {
+     "name": "Gowri Nayar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics PhD candidate; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/gowri-nayar"
+    },
+    {
+     "name": "Hannah Chung",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Chemistry PhD student; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/hannah-chung"
+    },
+    {
+     "name": "Issah Samori",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering PhD student; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/issah-samori"
+    },
+    {
+     "name": "Jeonghyeon Kim",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Chemical and Systems Biology PhD student; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/jeonghyeon-kim"
+    },
+    {
+     "name": "Kara Liu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science PhD candidate; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/kara-liu"
+    },
+    {
+     "name": "Kristy Carpenter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics PhD candidate; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/kristy-carpenter"
+    },
+    {
+     "name": "Mohini Misra",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering PhD student; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/mohini-misra"
+    },
+    {
+     "name": "Stephanie Arteaga",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics PhD student; focus not stated",
+     "email": null,
+     "profile_url": "https://helix.stanford.edu/people/stephanie-arteaga"
+    }
+   ],
+   "department": "Bioengineering; Genetics; Biomedical Data Science (departments not re-verified this session)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://helix.stanford.edu/people"
   },
   {
    "name": "Linderman Lab",
@@ -15638,21 +18085,170 @@
    "department_hint": "Statistics",
    "id": "stanford-linderman",
    "url": "https://lindermanlab.github.io/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab combines computational neuroscience, machine learning and Bayesian statistics. Its work centres on state space models for neural and behavioural data, including deep state space models and ways to parallelize sequential models. It also develops scalable Bayesian inference methods. The applications are mainly neural population recordings, behaviour and neuroscience data analysis, not genomics.",
+   "topics": [
+    "state space models",
+    "Bayesian inference",
+    "computational neuroscience",
+    "probabilistic machine learning",
+    "neural and behavioural data analysis"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab's methods (probabilistic ML and statistics) are loosely relevant to computational methods for genomics, but its focus is neuroscience, with no cancer genomics, sequencing, structural variant or single-cell/spatial omics work visible on the site."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Stanford; no move found.",
+    "The members list sits in the #group section of the main page, and there is no separate people page (/people/ returns 404).",
+    "The page gives no years, per-person research focus or emails for members, so those fields are null or marked 'not listed'.",
+    "Only the PI's email is published (scott.linderman@stanford.edu).",
+    "Several 2025-26 departures are listed as alumni, e.g. Xavier Gonzalez, Amber Hu, David Zoltowski and Kelly Buchanan."
+   ],
+   "sources": [
+    {
+     "title": "Linderman Lab homepage and Group section",
+     "url": "https://lindermanlab.github.io/"
+    },
+    {
+     "title": "Scott Linderman on Google Scholar",
+     "url": "https://scholar.google.com/citations?user=6mD3I24AAAAJ&hl=en"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:52:34+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Statistics",
-   "location": null
+   "pi_profile": {
+    "name": "Scott W. Linderman",
+    "title": "Assistant Professor of Statistics; Institute Scholar, Wu Tsai Neurosciences Institute",
+    "profile_url": "https://lindermanlab.github.io/",
+    "scholar_url": "https://scholar.google.com/citations?user=6mD3I24AAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Aditi Jha",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the site",
+     "email": null,
+     "profile_url": "https://aditijha7.com/"
+    },
+    {
+     "name": "Kanha Batra",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the site; co-advised with Prof. Lisa Giocomo",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/kanhabatra/"
+    },
+    {
+     "name": "Nicolas Zucchet",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the site",
+     "email": null,
+     "profile_url": "https://nicolaszucchet.github.io/"
+    },
+    {
+     "name": "Alisa Levin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD, co-advised with Prof. Jaimie Henderson; focus not listed",
+     "email": null,
+     "profile_url": "https://alisalevin.github.io/"
+    },
+    {
+     "name": "Cole Citrenbaum",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistics PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/cole-citrenbaum-26b18820a/"
+    },
+    {
+     "name": "Etaash Katiyar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistics PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/etaash-katiyar-77108818b/"
+    },
+    {
+     "name": "Hannah Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/hannahlee-neuro/"
+    },
+    {
+     "name": "Henry Smith",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistics PhD, co-advised with Prof. Brian Trippe; focus not listed",
+     "email": null,
+     "profile_url": "https://smithhenryd.github.io/"
+    },
+    {
+     "name": "Hyun Dong Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD, co-advised with Prof. Emily Fox; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/hyundongleee"
+    },
+    {
+     "name": "Ian Christopher Tanoh",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistics PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/ian-c-tanoh/en"
+    },
+    {
+     "name": "Jakub Smékal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Applied Physics PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://jakubsmekal.com/"
+    },
+    {
+     "name": "Josh Lunger",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/joshua-lunger-586703238/"
+    },
+    {
+     "name": "Noah Cowan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistics PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/noah-cowan/"
+    },
+    {
+     "name": "Skyler Wu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistics PhD; focus not listed",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=tpguLYkAAAAJ&hl=en"
+    },
+    {
+     "name": "Yiqi Jiang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD, co-advised with Prof. Mark Schnitzer; focus not listed",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/yiqi-jiang-aa1363173/"
+    }
+   ],
+   "department": "Statistics (courtesy appointment in Computer Science); Wu Tsai Neurosciences Institute; Stanford Bio-X; Stanford AI Lab",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://lindermanlab.github.io/#group"
   },
   {
    "name": "Medical AI and Computer Vision Lab",
@@ -15691,22 +18287,50 @@
    "group": null,
    "department_hint": "Pathology / Genetics / Biomedical Data Science",
    "id": "stanford-montgomery",
-   "url": "https://med.stanford.edu/profiles/stephen-montgomery",
-   "focus": null,
-   "topics": [],
+   "url": "https://montgomerylab.stanford.edu/",
+   "focus": "The lab studies how rare and environment-responsive genetic variants cause molecular effects. This includes the consequences of structural variants and chromosomal copy-number changes, common genetic variants, and understudied RNAs. Much of the recent work addresses neurodegenerative and neurodevelopmental traits. The lab combines large-scale genomic and transcriptomic data with computational and statistical methods such as eQTL mapping and RNA-seq. It also takes part in the IGVF consortium. This summary comes from search-result snippets of the Stanford profile and could not be checked against the lab site.",
+   "topics": [
+    "functional genomics",
+    "structural variants",
+    "eQTL / transcriptomics",
+    "rare variants",
+    "neurogenetics",
+    "computational genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's structural-variant, transcriptome and computational-genomics methods overlap with the student's interests, but its focus is germline and population variant function in rare disease and neurobiology, not cancer genomics or somatic mutation, and no single-cell/spatial cancer work was confirm"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Lab people page (montgomerylab.stanford.edu) could not be opened: certificate errors on every fetch attempt, so no current postdocs or PhD students could be verified and the members list is empty.",
+    "PI is still at Stanford per search snippets of the Stanford profile; no move found. The profile page itself could not be opened.",
+    "The student would likely need a US visa for a Stanford role.",
+    "The discovery URL (med.stanford.edu/profiles/...) redirects to profiles.stanford.edu, and the Scholar URL was not verified, so it is left null."
+   ],
+   "sources": [
+    {
+     "title": "Stephen Montgomery - Stanford Profiles (seen in search results)",
+     "url": "https://profiles.stanford.edu/stephen-montgomery?tab=bio"
+    },
+    {
+     "title": "Stephen Montgomery - IGVF portal (seen in search results)",
+     "url": "https://data.igvf.org/labs/stephen-montgomery"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:53:00+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Stephen B. Montgomery",
+    "title": "Professor of Pathology and of Genetics (endowed professorship; also Biomedical Data Science, courtesy in Computer Science); Director of Genome Informatics, Dept. of Pathology",
+    "profile_url": "https://profiles.stanford.edu/stephen-montgomery",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Pathology / Genetics / Biomedical Data Science",
-   "location": null
+   "department": "Pathology; Genetics; Biomedical Data Science (courtesy appointment in Computer Science)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University School of Medicine",
+   "members_page": null
   },
   {
    "name": "Quake Lab",
@@ -15745,22 +18369,100 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-plevritis",
-   "url": "https://profiles.stanford.edu/sylvia-plevritis",
-   "focus": null,
-   "topics": [],
+   "url": "https://plevritislab.stanford.edu/",
+   "focus": "The lab builds multiscale cancer models that link molecular programs, cell-cell interactions and tissue structure to cancer progression and patient outcomes. It combines AI, spatial biology and computational modeling with molecular, imaging and clinical data. It studies human tumors and experimental models to understand how cancer cells interact with immune and stromal cells over space and time. Its stated focus is multimodal spatial biology across the cancer care continuum, with the aim of informing precision cancer care.",
+   "topics": [
+    "spatial biology",
+    "single-cell omics",
+    "cancer systems biology",
+    "computational modeling",
+    "AI / machine learning",
+    "tumor microenvironment"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap with the student's single-cell/spatial omics in cancer and computational/ML methods interests, but the lab does little on tumour WGS, structural variants or somatic mutation analysis. Visa needs (US) and the very small PhD cohort also limit practical fit."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: the lab site and search results still list Plevritis at Stanford as Chair of Biomedical Data Science. I could not open the Stanford profile page itself because of a certificate error.",
+    "The members page gives no years, individual research focus or emails, and I did not open the individual profile pages for more detail.",
+    "A search snippet described Asmita Sood as an MS student, but the lab members page lists a PhD student in Biomedical Data Science. I used the lab page; please verify.",
+    "Elizabeth Miller is listed as a Fall Quarter rotation student, so I excluded her as not a confirmed PhD student.",
+    "Excluded as non-postdoc, non-PhD: Jeremy Edwards (visiting scholar), Anum Khan (research professional), Zahra Mesrizadeh (bioinformatician), Anna Kaur (admin)."
+   ],
+   "sources": [
+    {
+     "title": "Plevritis Lab home",
+     "url": "https://plevritislab.stanford.edu/"
+    },
+    {
+     "title": "Plevritis Lab - Lab Members",
+     "url": "https://plevritislab.stanford.edu/people/lab-members"
+    },
+    {
+     "title": "Plevritis Lab - The Team",
+     "url": "https://plevritislab.stanford.edu/our-amazing-team"
+    },
+    {
+     "title": "Plevritis Lab - Shahira Abousamra",
+     "url": "https://plevritislab.stanford.edu/people/shahira-abousamra"
+    },
+    {
+     "title": "Plevritis Lab - Openings",
+     "url": "https://plevritislab.stanford.edu/openings-within-plevritis-lab"
+    },
+    {
+     "title": "Stanford Profiles - Sylvia Plevritis",
+     "url": "https://profiles.stanford.edu/sylvia-plevritis"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:54:48+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Sylvia K. Plevritis",
+    "title": "William M. Hume Professor; Professor of Biomedical Data Science and of Radiology; Chair, Department of Biomedical Data Science",
+    "profile_url": "https://profiles.stanford.edu/sylvia-plevritis",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Dina Hany",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": "https://plevritislab.stanford.edu/people/dina-hany"
+    },
+    {
+     "name": "Shahira Abousamra",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the lab page; profile links to a personal site (shahiraabousamra.github.io)",
+     "email": null,
+     "profile_url": "https://plevritislab.stanford.edu/people/shahira-abousamra"
+    },
+    {
+     "name": "Asmita Sood",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Data Science program; research focus not stated on the lab page",
+     "email": null,
+     "profile_url": "https://plevritislab.stanford.edu/people/asmita-sood"
+    },
+    {
+     "name": "Jake Chang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics PhD program; research focus not stated on the lab page",
+     "email": null,
+     "profile_url": "https://plevritislab.stanford.edu/people/jake-chang"
+    }
+   ],
+   "department": "Biomedical Data Science; Radiology",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://plevritislab.stanford.edu/people/lab-members"
   },
   {
    "name": "Hernandez-Boussard Lab",
@@ -15772,22 +18474,84 @@
    "group": null,
    "department_hint": "Biomedical Data Science",
    "id": "stanford-hernandez-boussard",
-   "url": "https://med.stanford.edu/profiles/tina-hernandez-boussard",
-   "focus": null,
-   "topics": [],
+   "url": "https://med.stanford.edu/boussard-lab.html",
+   "focus": "The lab uses data science to improve healthcare quality, outcomes, equity and health policy. It applies new methods and tools to large clinical datasets, such as electronic health records, for hypothesis generation, comparative effectiveness research and evaluating the quality of healthcare delivery. Search snippets and the lab page also point to work on responsible and fair clinical AI and machine learning, and on social determinants of health. The PI's background is in computational biology and health-services research. The lab's work is clinical informatics and health services, not genomics.",
+   "topics": [
+    "clinical informatics",
+    "electronic health records",
+    "responsible/fair clinical AI",
+    "health policy and equity",
+    "comparative effectiveness",
+    "population health"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on EHR-based clinical AI, health equity and health policy, with no evident cancer genomics, sequencing, structural variant or single-cell/spatial omics work, so overlap is limited to general machine-learning methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at Stanford, though the official profile and lab site would not load (certificate errors), so the affiliation rests on the Computational Medicine lab page and search results.",
+    "Titles conflict across sources: Professor on Stanford pages, Associate Professor on older pages, and Associate Dean of Research in other listings.",
+    "The members page gives no dates. Member profile pages are dated Aug 2026, but the footer says 2024, so I can't tell how current the roster is.",
+    "Not included because they are not postdocs or PhD students: Behzad Naderalvojoud (biostatistician), Thomas Sandholm (senior software developer) and Ashley Tamdjo (MS student).",
+    "Search snippets also named Yeon Mi Hwang and Ashley Lewis as PhD students, but they do not appear on the current roster, so they are probably alumni and I left them out."
+   ],
+   "sources": [
+    {
+     "title": "Hernandez-Boussard Lab (Stanford Computational Medicine)",
+     "url": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/hernandez-boussard-lab/"
+    },
+    {
+     "title": "Cesar Baeta profile",
+     "url": "https://computationalmedicine.stanford.edu/baeta-cesar/"
+    },
+    {
+     "title": "Na Mu Park profile",
+     "url": "https://computationalmedicine.stanford.edu/park-na-mu/"
+    },
+    {
+     "title": "Soumyadeep Roy profile",
+     "url": "https://computationalmedicine.stanford.edu/roy-soumyadeep/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:51:02+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Tina Hernandez-Boussard",
+    "title": "Professor of Medicine (Biomedical Informatics / Computational Medicine) and of Biomedical Data Science; by courtesy, Epidemiology and Population Health",
+    "profile_url": "https://med.stanford.edu/profiles/tina-hernandez-boussard",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Na Mu Park",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral scholar. No research focus is listed on the lab page, and the individual profile page has none either.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/park-na-mu/"
+    },
+    {
+     "name": "Soumyadeep Roy",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral scholar. No research focus is listed on the lab page, and the individual profile page has none either.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/roy-soumyadeep/"
+    },
+    {
+     "name": "Cesar Baeta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Epidemiology and Population Health PhD student. A search snippet said they were admitted in autumn 2022, but I did not confirm this on an official page. No research focus is listed.",
+     "email": null,
+     "profile_url": "https://computationalmedicine.stanford.edu/baeta-cesar/"
+    }
+   ],
+   "department": "Division of Computational Medicine, Department of Medicine; Biomedical Data Science",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://computationalmedicine.stanford.edu/sections-and-research-labs/research-labs/hernandez-boussard-lab/"
   },
   {
    "name": "Greenleaf Lab",
@@ -15799,22 +18563,164 @@
    "group": null,
    "department_hint": "Genetics",
    "id": "stanford-greenleaf",
-   "url": "https://data.igvf.org/labs/will-greenleaf/",
-   "focus": null,
-   "topics": [],
+   "url": "https://greenleaf.stanford.edu/",
+   "focus": "The lab develops high-throughput biophysics and genomics methods, including ATAC-seq-style chromatin accessibility profiling and single-cell genomic technologies. It builds large-scale measurements and biophysical models of DNA-binding protein sequence landscapes. It also characterizes newly discovered and engineered CRISPR enzymes. A further goal is genome-wide human cell atlases of gene expression and DNA accessibility. Work includes some cancer-related regulatory genomics and ML-based modeling.",
+   "topics": [
+    "chromatin accessibility",
+    "single-cell genomics",
+    "high-throughput biophysics",
+    "CRISPR enzymes",
+    "regulatory genomics",
+    "cell atlases"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's single-cell, regulatory genomics and computational-modeling work overlaps with the student's single-cell omics and ML interests, but it is not centered on cancer WGS, structural variants or somatic mutation analysis, and the roles are in the US (visa needed)."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Stanford; no move found.",
+    "The people page gives no individual research focus or profile links, so the member 'focus' entries only reflect program and fellowship affiliations.",
+    "Member emails were extracted by an automated page reader and were not checked against the page directly. Verify them before use.",
+    "A search snippet of the same page also listed Georgi Marinov (joint with Kundaje lab) and Guiping Wang as postdocs. They were absent from the fetched version, so the roster may be inconsistent or have changed.",
+    "Sarah Sun and Tong Wang appear under the postdoc heading but are clinical residents, so they were excluded."
+   ],
+   "sources": [
+    {
+     "title": "Greenleaf Lab people page",
+     "url": "https://greenleaf.stanford.edu/people"
+    },
+    {
+     "title": "About William Greenleaf",
+     "url": "https://greenleaf.stanford.edu/about-will"
+    },
+    {
+     "title": "Greenleaf Lab contact",
+     "url": "https://greenleaf.stanford.edu/contact"
+    },
+    {
+     "title": "William Greenleaf, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/William_Greenleaf_(American_scientist)"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:50:05+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "William J. Greenleaf",
+    "title": "Professor of Genetics (courtesy appointment in Applied Physics)",
+    "profile_url": "https://greenleaf.stanford.edu/about-will",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Guanhua He",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Berry Fellow; specific project not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Matt Kukurugya",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sandy Klemm",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sayeh Gorjifard",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Vinson Fan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zhifei Luo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ben Doughty",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetics PhD program; NSF GRFP fellow",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Georgia Grace Tully",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Chemistry PhD program; MPTP trainee",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "James Occean",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cancer Biology PhD program; PD Soros fellow; joint with Matt Jones (MIT)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jason Tan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science PhD program; NSF GRFP fellow; joint with Jesse Engreitz",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Logan Dunkenberger",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetics PhD program",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Owen Dunkley",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering PhD program; CIHR fellow (Canadian)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuxi Ke",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioengineering PhD program; joint with Mark Schnitzer",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Genetics, Stanford School of Medicine; courtesy appointment in Applied Physics",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://greenleaf.stanford.edu/people"
   },
   {
    "name": "Qiu Lab",
@@ -15827,21 +18733,115 @@
    "department_hint": "Genetics",
    "id": "stanford-qiu",
    "url": "https://www.devo-evo.com/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab studies how gene regulatory networks and cell-cell interactions guide mammalian cell-fate transitions over time and space. Its application focus is heart evolution, development and disease. It combines the interpretability of systems biology with the scalability of machine learning. Methods include transformers, neural ODEs, diffusion models, metabolic-labeling scRNA-seq, spatial transcriptomics and Perturb-seq. The lab builds software tools such as Dynamo and Spateo, and Qiu previously helped develop Monocle.",
+   "topics": [
+    "single-cell genomics",
+    "spatial transcriptomics",
+    "cell-fate dynamics modeling",
+    "machine learning for biology",
+    "Perturb-seq",
+    "heart development"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab overlaps with the student's interests in computational/ML methods and single-cell/spatial omics, but it focuses on development and cell fate rather than cancer, tumour WGS or structural variants, and a US role may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Qiu started the Stanford lab on 2023-12-16, so this is a new lab, not a move.",
+    "The people page gives no years or per-person research focus. Member focus fields are null, not guesses.",
+    "The only email on the lab site is the general PI/lab address xiaojie@stanford.edu. No individual member emails are listed.",
+    "The lab has many visiting researchers, undergraduates and staff. These are excluded from the members list.",
+    "Both listed PhD students are in Computer Science, not Genetics. Postdocs are the main trainee path into the lab."
+   ],
+   "sources": [
+    {
+     "title": "Qiu Lab homepage",
+     "url": "https://www.devo-evo.com/"
+    },
+    {
+     "title": "Qiu Lab people page",
+     "url": "https://www.devo-evo.com/people"
+    },
+    {
+     "title": "Stanford Profiles: Xiaojie Qiu",
+     "url": "https://profiles.stanford.edu/xiaojie-qiu"
+    },
+    {
+     "title": "Xiaojie Qiu on Google Scholar",
+     "url": "https://scholar.google.com/citations?user=XlMd8TAAAAAJ"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:54:57+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Xiaojie Qiu",
+    "title": "Assistant Professor of Genetics (courtesy appointments in Computer Science and BASE)",
+    "profile_url": "https://profiles.stanford.edu/xiaojie-qiu",
+    "scholar_url": "https://scholar.google.com/citations?user=XlMd8TAAAAAJ"
+   },
+   "members": [
+    {
+     "name": "Naoki Konno",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/Naoki/"
+    },
+    {
+     "name": "Nianping Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/nianping/"
+    },
+    {
+     "name": "Weize Xu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/Weize/"
+    },
+    {
+     "name": "Xun Shan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/xun/"
+    },
+    {
+     "name": "Yash Rana",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/yash/"
+    },
+    {
+     "name": "Mengchen Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science PhD student; research focus not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/mengchen/"
+    },
+    {
+     "name": "Peter Pao-Huang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science PhD student; research focus not listed on the people page",
+     "email": null,
+     "profile_url": "https://www.devo-evo.com/people/peter_huang/"
+    }
+   ],
+   "department": "Department of Genetics, School of Medicine; courtesy appointments in Computer Science and the BASE program",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://www.devo-evo.com/people"
   },
   {
    "name": "He Lab",
@@ -15853,22 +18853,68 @@
    "group": null,
    "department_hint": "Biomedical Data Science / Neurology",
    "id": "stanford-he",
-   "url": "https://profiles.stanford.edu/zihuai-he",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.zihuai-he.com/",
+   "focus": "The group develops statistical and machine-learning methods for statistical genetics and for integrative analysis of omics data. Its methods work covers high-dimensional inference and large-scale testing. It also covers rigorous, interpretable feature selection within machine-learning models. The applications are neurological disorders and aging, especially risk and protective factors for Alzheimer's disease. The data come from genetic, genomic, proteomic and biomarker sources. The stated aim is to turn data-driven discoveries into mechanistic insights and drug targets.",
+   "topics": [
+    "statistical genetics",
+    "high-dimensional inference",
+    "interpretable machine learning",
+    "Alzheimer's disease",
+    "multi-omics integration",
+    "aging"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab overlaps on computational and ML methods for genomics, but it works on neurodegeneration and aging statistical genetics, not cancer, tumour sequencing, structural variants or single-cell/spatial omics. A US visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The Stanford Profiles page returned a certificate error when fetched, so the PI's title and affiliations come from search-result summaries rather than the page itself. Check them before relying on them.",
+    "The lab site (zihuai-he.com) has no people/members page that I could find, so the member list is incomplete. Only one postdoc could be verified, and no PhD students were found.",
+    "Stanford's postdoc office lists an open postdoc position with He as faculty mentor, so the lab is recruiting. The page returned a 404 when I fetched it, and I only saw its summary in search results.",
+    "No evidence of the PI moving institutions was found; Stanford appears current.",
+    "The PI's Google Scholar URL was not verified, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Zihuai He lab homepage",
+     "url": "http://www.zihuai-he.com/"
+    },
+    {
+     "title": "Open Postdoctoral position, faculty mentor Zihuai He",
+     "url": "https://postdocs.stanford.edu/prospective/opportunities/open-postdoctoral-position-faculty-mentor-zihuai-he"
+    },
+    {
+     "title": "Zichu Fu, Stanford Profiles",
+     "url": "https://profiles.stanford.edu/zichu-fu"
+    },
+    {
+     "title": "Zihuai He, Stanford Profiles",
+     "url": "https://profiles.stanford.edu/zihuai-he"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:50:30+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science / Neurology",
-   "location": null
+   "pi_profile": {
+    "name": "Zihuai He",
+    "title": "Associate Professor (Research) of Neurology and Neurological Sciences; of Medicine (BMIR); and, by courtesy, of Biomedical Data Science",
+    "profile_url": "https://profiles.stanford.edu/zihuai-he",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Zichu Fu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral scholar in Neurology and Neurological Sciences with Zihuai He as faculty sponsor. Specific project not verified.",
+     "email": null,
+     "profile_url": "https://profiles.stanford.edu/zichu-fu"
+    }
+   ],
+   "department": "Neurology and Neurological Sciences (Neurology Research); Medicine (BMIR); Biomedical Data Science (by courtesy)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": null
   },
   {
    "name": "Systems and Precision Cancer Medicine Group",

@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T23:42:49+00:00",
+   "generated_at": "2026-10-21T23:54:57+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-newman",
+     "entry_name": "Newman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-bhatt",
+     "entry_name": "Bhatt Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-alsentzer",
+     "entry_name": "Alsentzer Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-ashley",
+     "entry_name": "Ashley Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-chen",
+     "entry_name": "Chen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-daneshjou",
+     "entry_name": "Daneshjou Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-altman",
+     "entry_name": "Altman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "mit-shalek",
