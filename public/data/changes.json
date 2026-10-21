@@ -2,9 +2,69 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T21:53:46+00:00",
+   "generated_at": "2026-10-21T22:50:12+00:00",
    "checked": 10,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "other-vanloo",
