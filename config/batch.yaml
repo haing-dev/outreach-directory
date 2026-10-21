@@ -2,4 +2,4 @@
 # (never-researched first: academic, then institutes, then companies; afterwards the stalest > 7 days old).
 # Set enabled: false to pause. Claude changes this from chat when you ask.
 enabled: true
-per_run: 10
+per_run: 30
