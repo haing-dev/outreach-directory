@@ -2,9 +2,2259 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T17:11:13+00:00",
-   "checked": 5,
+   "generated_at": "2026-10-21T18:40:17+00:00",
+   "checked": 0,
    "items": [
+    {
+     "type": "discovered",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab (Sylvia K. Plevritis)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-sabatti",
+     "entry_name": "Sabatti Lab (Chiara Sabatti)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab (Julia Palacios)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab (Dennis Wall)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab (Stephen B. Montgomery)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-aghaeepour",
+     "entry_name": "Aghaeepour Lab (Nima Aghaeepour)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-alsentzer",
+     "entry_name": "Alsentzer Lab (Emily Alsentzer)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-altman",
+     "entry_name": "Altman Lab (Russ B. Altman)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-ashley",
+     "entry_name": "Ashley Lab (Euan A. Ashley)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-chen",
+     "entry_name": "Chen Lab (Jonathan H. Chen)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-daneshjou",
+     "entry_name": "Daneshjou Lab (Roxana Daneshjou)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab (Barbara Engelhardt)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab (Jason Fries)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab (Andrew Gentles)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab (Olivier Gevaert)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab (Zihuai He)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab (Tina Hernandez-Boussard)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab (Alex Ioannidis)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR) (Mark Musen)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-newman",
+     "entry_name": "Newman Lab (Aaron Newman)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab (Manuel Rivas)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab (Mirabela Rusu)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab (Julia Salzman)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab (Nigam H. Shah)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group (Robert Tibshirani)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab (John Witte)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab (Serena Yeung-Levy)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab (James Zou)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-adeli",
+     "entry_name": "Stanford Translational AI (STAI) Lab (Ehsan Adeli)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab (Markus Covert)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab (KC Huang)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab (Stephen Quake)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab (Emma Lundberg)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab (Bo Wang)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab (Anshul Kundaje)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab (Gill Bejerano)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab (Jesse Engreitz)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab (Xiaojie Qiu)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab (William Greenleaf)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab (Jonathan Pritchard)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab (Michael Snyder)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab (Arend Sidow)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab (Lars Steinmetz)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab (Ron Dror)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab (Scott Linderman)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-bhatt",
+     "entry_name": "Bhatt Lab (Ami Bhatt)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design (Brian Hie)",
+     "text": "New lab found at Stanford University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-avillach",
+     "entry_name": "Avillach Lab (Paul Avillach)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab (Michael Baym)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab) (Tianxi Cai)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab (Maha Farhat)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE) (Nils Gehlenborg)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab (Isaac Kohane)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab (Heng Li)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab (Arjun (Raj) Manrai)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab (Luke O'Connor)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab (Peter Park)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group (Chirag Patel)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab (Pranav Rajpurkar)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab (Shamil Sunyaev)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab (Kun-Hsing Yu)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab (Marinka Zitnik)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab (Curtis Huttenhower)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group (Rong Ma)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "harvard-aryee",
+     "entry_name": "Aryee Lab (Martin Aryee)",
+     "text": "New lab found at Harvard University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab (Eric Alm)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab (Zhiliang Bai)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group (Regina Barzilay)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab (Mark Bathe)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-berger",
+     "entry_name": "Berger Lab (CSAIL Computation and Biology) (Bonnie Berger)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab (Paul C. Blainey)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group (Tamara Broderick)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab (Bryan Bryson)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab (Chris Burge)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group (Connor W. Coley)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab (Otto X. Cordero)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab (Olivia Corradin)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-vecchio",
+     "entry_name": "Del Vecchio Lab (Domitilla Del Vecchio)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab (Ernest Fraenkel)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab (Katie Galloway)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-gifford",
+     "entry_name": "Gifford Lab (David K. Gifford)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab (Yunha Hwang)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab (Matthew G. Jones)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab (Amy Keating)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-kellis",
+     "entry_name": "MIT Computational Biology Group (Kellis Lab) (Manolis Kellis)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-lieberman",
+     "entry_name": "Lieberman Lab (Tami Lieberman)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-mirny",
+     "entry_name": "Mirny Lab (Leonid A. Mirny)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-page",
+     "entry_name": "Page Lab (David C. Page)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-shalek",
+     "entry_name": "Shalek Lab (Alex K. Shalek)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-sontag",
+     "entry_name": "Sontag Lab (Clinical ML) (David Sontag)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-stultz",
+     "entry_name": "Computational Biophysics Group (Collin M. Stultz)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-uhler",
+     "entry_name": "Uhler Lab (Caroline Uhler)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-young",
+     "entry_name": "Young Lab (Richard A. Young)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-zhang",
+     "entry_name": "Zhang Group (Bin Zhang)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group (Marzyeh Ghassemi)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project) (James J. Collins)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group (Polina Golland)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "mit-szolovits",
+     "entry_name": "Clinical Decision Making Group (Peter Szolovits)",
+     "text": "New lab found at MIT"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-troyanskaya",
+     "entry_name": "Laboratory of Bioinformatics and Functional Genomics (Olga Troyanskaya)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-singh",
+     "entry_name": "Singh Group (computational molecular biology) (Mona Singh)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-raphael",
+     "entry_name": "Raphael Group (computational cancer genomics) (Ben Raphael)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-pritykin",
+     "entry_name": "Pritykin Lab (Yuri Pritykin)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-zhong",
+     "entry_name": "E.Z. Lab for Molecular Machine Learning (Ellen Zhong)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-storey",
+     "entry_name": "Storey Lab for Statistical Genomics (John D. Storey)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-akey",
+     "entry_name": "Akey Lab (Joshua Akey)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-skinnider",
+     "entry_name": "Skinnider Lab (Michael Skinnider)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-wingreen",
+     "entry_name": "Wingreen Lab (Ned S. Wingreen)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "princeton-joseph",
+     "entry_name": "Joseph Group (Jerelle A. Joseph)",
+     "text": "New lab found at Princeton University"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab (Lior Pachter)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab (Matt Thomson)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab (David Van Valen)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab (Mitchell Guttman)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab (Ellen Rothenberg)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab (Long Cai)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab (Barbara J. Wold)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab (Michael B. Elowitz)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab (Lea A. Goentoro)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab (Rob Phillips)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab (Erik Winfree)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab (Niles A. Pierce)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group (Richard M. Murray)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab (Joseph Parker)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab (Paul W. Sternberg)",
+     "text": "New lab found at Caltech"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics (Richard Durbin)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-micklem",
+     "entry_name": "Bioinformatics and Genomics (Micklem Lab) (Gos Micklem)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics (Aylwyn Scally)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair (Michael Boemo)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-collepardo",
+     "entry_name": "Computational Physics of Chromatin (Rosana Collepardo)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab) (Gamze Gürsoy)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease (Heather Machado)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics (Alex Cagan)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants (Renske Vroomans)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference (Nicola De Maio)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics (Henrik Salje)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics (Kate Baker)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics (Charlotte Houldcroft)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-welch",
+     "entry_name": "Molecular Evolution (John Welch)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology) (Florian Markowetz)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group (Hana Aliee)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology) (Raza Ali)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics) (Pau Creixell)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group (Berthold Göttgens)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group (Sarah Teichmann)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group (Benjamin Simons)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-butterworth",
+     "entry_name": "Butterworth Group (Adam Butterworth)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group (Michael Inouye)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology) (Stephen Burgess)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction) (Angela Wood)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical) (John Whittaker)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-li",
+     "entry_name": "Liò Group (ML and computational models for health, multi-omics) (Pietro Liò)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine) (Mateja Jamnik)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology) (Neil Lawrence)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-holden",
+     "entry_name": "Holden Group (ML, organelle proteomics) (Sean Holden)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine (Mihaela van der Schaar)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group (Nik Cunniffe)",
+     "text": "New lab found at University of Cambridge"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute (Aida Andrés)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics) (Richard Mott)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history) (Garrett Hellenthal)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group (Maria Secrier)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics) (David Curtis)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology (Ziheng Yang)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics) (Francois Balloux)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry) (Jürg Bähler)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab) (Chris Barnes)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-jones",
+     "entry_name": "Bioinformatics Group (UCL Computer Science) (David Jones)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics) (Christine Orengo)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group (Simone Zaccaria)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group (Nicholas McGranahan)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics) (Sergi Castellano)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab (Tom Bartlett)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain) (Parashkev Nachev)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia) (James Cole)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director) (Harry Hemingway)",
+     "text": "New lab found at University College London"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics) (Chris Holmes)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit) (Jerome Kelleher)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism) (Cecilia Lindgren)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI) (Trey Ideker)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group (Christophe Fraser)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance (David Aanensen)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics) (Pier Francesco Palamara)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics) (Simon Myers)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG) (Charlotte Deane)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group (Gavin Band)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group (Azim Ansari)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group (Benjamin Schuster-Böckler)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group (David Gavaghan)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems) (Radek Erban)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab (David Clifton)",
+     "text": "New lab found at University of Oxford"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab (Hani Goodarzi)",
+     "text": "New lab found at Arc Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab (Patrick Hsu)",
+     "text": "New lab found at Arc Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab (Silvana Konermann)",
+     "text": "New lab found at Arc Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design (Brian Hie)",
+     "text": "New lab found at Arc Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab (Yun Song)",
+     "text": "New lab found at Arc Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis) (Gad Getz)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-uhler",
+     "entry_name": "Uhler Lab (Caroline Uhler)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab (Pardis Sabeti)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-neale",
+     "entry_name": "Neale Lab (Benjamin Neale)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-xavier",
+     "entry_name": "Xavier Lab (Ramnik Xavier)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab (Jason Buenrostro)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-macosko",
+     "entry_name": "Macosko Lab (Evan Macosko)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab (Fei Chen)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab (Nir Hacohen)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab (Mark Daly)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-raychaudhuri",
+     "entry_name": "Raychaudhuri Lab (Soumya Raychaudhuri)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab (Shamil Sunyaev)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab (Joel Hirschhorn)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab (Hailiang Huang)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-mccarroll",
+     "entry_name": "McCarroll Lab (Steve McCarroll)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab (Michael Talkowski)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab (Eliezer Van Allen)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab (Elise Robinson)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab (Melina Claussnitzer)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-luria",
+     "entry_name": "O'Donnell-Luria Lab (Anne O'Donnell Luria)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-villani",
+     "entry_name": "Villani Lab (Alexandra-Chloé Villani)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab (Alex Shalek)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab (James Collins)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-meyerson",
+     "entry_name": "Meyerson Lab (Matthew Meyerson)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab (Hilary Finucane)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab (Manolis Kellis)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-price",
+     "entry_name": "Price Lab (Alkes Price)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab (Bonnie Berger)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab (David Gifford)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab (Ernest Fraenkel)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab (Christopher Burge)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab (Rameen Beroukhim)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab (Nils Gehlenborg)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab (Curtis Huttenhower)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-lin",
+     "entry_name": "Lin Lab (Xihong Lin)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-marks",
+     "entry_name": "Marks Lab (Debora Marks)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-michor",
+     "entry_name": "Michor Lab (Franziska Michor)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab (Marinka Zitnik)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-pinello",
+     "entry_name": "Pinello Lab (Luca Pinello)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-loh",
+     "entry_name": "Loh Lab (Po-Ru Loh)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-reshef",
+     "entry_name": "Reshef Lab (Yakir Reshef)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab (Esther Rheinbay)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-gusev",
+     "entry_name": "Gusev Lab (Alexander Gusev)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab (Martin Hemberg)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-korsunsky",
+     "entry_name": "Korsunsky Lab (Ilya Korsunsky)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-lawrence",
+     "entry_name": "Lawrence Lab (Michael Lawrence)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab (Konrad Karczewski)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab (Marzyeh Ghassemi)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-mahmood",
+     "entry_name": "Mahmood Lab (Faisal Mahmood)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab (Rafael Irizarry)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab (Sahand Hormoz)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab (Volker Hovestadt)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-li",
+     "entry_name": "Li Lab (Heng Li)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-liang",
+     "entry_name": "Liang Lab (Liming Liang)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-o-connor",
+     "entry_name": "O'Connor Lab (Luke O'Connor)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-patel",
+     "entry_name": "Patel Lab (Chirag Patel)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-ovchinnikov",
+     "entry_name": "Ovchinnikov Lab (Sergey Ovchinnikov)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab (Philippe Rigollet)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab (Ayellet Segre)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab (Christopher Smillie)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-vazquez-garcia",
+     "entry_name": "Vazquez-Garcia Lab (Ignacio Vazquez-Garcia)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab (Wei Zhou)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-palotie",
+     "entry_name": "Palotie Lab (Aarno Palotie)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-martin",
+     "entry_name": "Martin Lab (Alicia Martin)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab (Bin Zhang)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group (Connor Coley)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-lieberman",
+     "entry_name": "Lieberman Lab (Tami Lieberman)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-neafsey",
+     "entry_name": "Neafsey Lab (Daniel Neafsey)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab (Rui Duan)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab (Tian Ge)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-nirmal",
+     "entry_name": "Nirmal Lab (Ajit Johnson Nirmal)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab (Jason Flannick)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-mercader",
+     "entry_name": "Mercader Lab (Josep Mercader)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-udler",
+     "entry_name": "Udler Lab (Miriam Udler)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-naqvi",
+     "entry_name": "Naqvi Lab (Sahin Naqvi)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab (Michael Baym)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-klein",
+     "entry_name": "Klein Lab (Allon Klein)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-lahav",
+     "entry_name": "Lahav Lab (Galit Lahav)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab (Martha Bulyk)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab (Michael Desai)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab (Michael Springer)",
+     "text": "New lab found at Broad Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab (Andrew Su)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-torkamani",
+     "entry_name": "Torkamani Lab (Genome Informatics, Translational Institute) (Ali Torkamani)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab (Stefano Forli)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory (Arthur Olson)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab (Michel Sanner)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute) (Giorgio Quer)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab (Marco Mravic)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab (Megan Ken)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab (Kristian Andersen)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab (Bryan Briney)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-peng",
+     "entry_name": "Peng Lab (Qian Peng)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab (Ann Kennedy)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab (William Balch)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab (John Hogenesch)",
+     "text": "New lab found at Scripps Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab (Rahul Satija)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab (David A. Knowles)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab (Dan A. Landau)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab (Marcin Imieliński)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-sanjana",
+     "entry_name": "Sanjana Lab (Neville Sanjana)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab (Chenxu Zhu)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-iossifov",
+     "entry_name": "Iossifov Lab (Ivan Iossifov)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab (Gamze Gürsoy)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković) (Sanja Vicković)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab (Tuuli Lappalainen)",
+     "text": "New lab found at New York Genome Center"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York) (Evan Paull)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab (Katherine S. Pollard)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-streets",
+     "entry_name": "Streets Lab (Aaron Streets)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group (Nilah Ioannidis)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab (Elizabeth Purdom)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab (Liana Lareau)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group (Emily Fox)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group (James Zou)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab (Nicolas Altemose)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab (Luis Barreiro)",
+     "text": "New lab found at Chan Zuckerberg Biohub"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group (Carl Anderson)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group (Omer Bayraktar)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group (Sam Behjati)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group (Mark Blaxter)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group (Nicholas Croucher)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group (Emma Davenport)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-garnett",
+     "entry_name": "Garnett Group (Mathew Garnett)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-haniffa",
+     "entry_name": "Haniffa Group (Muzlifah Haniffa)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-hurles",
+     "entry_name": "Hurles Group (Matthew Hurles)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-jaron",
+     "entry_name": "Jaron Group (Kamil S Jaron)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-jones",
+     "entry_name": "Jones Group (Phil H Jones)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-lawley",
+     "entry_name": "Lawley Lab (Trevor Lawley)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-lee-six",
+     "entry_name": "Lee-Six Group (Henry Lee-Six)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-lehner",
+     "entry_name": "Lehner Group (Ben Lehner)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-lotfollahi",
+     "entry_name": "Lotfollahi Group (Mo Lotfollahi)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-martin",
+     "entry_name": "Martin Group (Hilary Martin)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-martincorena",
+     "entry_name": "Martincorena Group (Inigo Martincorena)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-meier",
+     "entry_name": "Meier Group (Joana Isabel Meier)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-nangalia",
+     "entry_name": "Nangalia Group (Jyoti Nangalia)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-rahbari",
+     "entry_name": "Rahbari Group (Raheleh Rahbari)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-stratton",
+     "entry_name": "Stratton Group (Mike Stratton)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-taipale",
+     "entry_name": "Taipale Group (Jussi Taipale)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-thomson",
+     "entry_name": "Thomson Group (Nicholas Robert Thomson)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-trynka",
+     "entry_name": "Trynka Group (Gosia Trynka)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-vento-tormo",
+     "entry_name": "Vento-Tormo Group (Roser Vento-Tormo)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group (Richard Durbin)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-stegle",
+     "entry_name": "Stegle and Theis Group (Oliver Stegle)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-theis",
+     "entry_name": "Stegle and Theis Group (Fabian Theis)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-soranzo",
+     "entry_name": "Soranzo Group (Nicole Soranzo)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-seb-pedr-s",
+     "entry_name": "Sebé-Pedrós Group (Arnau Sebé-Pedrós)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group (Jukka Corander)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group (Caroline Colijn)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group (Christophe Fraser)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group (Caroline Buckee)",
+     "text": "New lab found at Wellcome Sanger Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory (Nicholas Luscombe)",
+     "text": "New lab found at Francis Crick Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory (Fabian Fröhlich)",
+     "text": "New lab found at Francis Crick Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory (Zena Hadjivasiliou)",
+     "text": "New lab found at Francis Crick Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory (Samra Turajlic)",
+     "text": "New lab found at Francis Crick Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory (Silvia Santos)",
+     "text": "New lab found at Francis Crick Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory (James Briscoe)",
+     "text": "New lab found at Francis Crick Institute"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group (Alex Bateman)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group (Ewan Birney)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-cortes-ciriano",
+     "entry_name": "Cortes-Ciriano Group (Isidro Cortes-Ciriano)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-coorens",
+     "entry_name": "Coorens Group (Tim Coorens)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-ewald",
+     "entry_name": "Ewald Group (Jessica Ewald)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics) (Robert Finn)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group (Nick Goldman)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group (John Lees)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group (Julio Saez-Rodriguez)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting) (Thomas Keane)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting) (Evangelia Petsalaki)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-thornton",
+     "entry_name": "Thornton Group (visiting) (Janet Thornton)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting) (Virginie Uhlmann)",
+     "text": "New lab found at EMBL-EBI"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab (Trevor Graham)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group (Anguraj Sadanandam)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group (Chris Bakal)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics) (Richard Houlston)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group (Clare Turnbull)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group (Montserrat Garcia-Closas)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead) (Janet Shipley)",
+     "text": "New lab found at The Institute of Cancer Research"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology) (Garib Murshudov)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields) (Joe Greener)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION) (Sjors Scheres)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics) (Gregory Jefferis)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics) (Albert Cardona)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics) (Joergen Kornfeld)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
+    {
+     "type": "discovered",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics) (Menna Clatworthy)",
+     "text": "New lab found at MRC Laboratory of Molecular Biology"
+    },
     {
      "type": "new_entry",
      "entry_id": "stanford-curtis",
