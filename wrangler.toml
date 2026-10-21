@@ -1,0 +1,16 @@
+name = "outreach-directory"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "public"
+
+# Notes database. Create it once with:  npx wrangler d1 create outreach-notes
+# then paste the database_id it prints below.
+[[d1_databases]]
+binding = "DB"
+database_name = "outreach-notes"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Set these in Cloudflare dashboard > Pages project > Settings > Variables (not here):
+#   ALLOWED_EMAILS  your login email(s), comma-separated (works with Cloudflare Access)
+#   GITHUB_TOKEN    optional, enables the "Refresh now" button (secret)
+#   GITHUB_REPO     optional, e.g. yourname/outreach-directory

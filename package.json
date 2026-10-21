@@ -1,0 +1,19 @@
+{
+  "name": "outreach-directory",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Private, weekly-refreshed directory of labs, institutes and companies for networking",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "db:create": "wrangler d1 create outreach-notes",
+    "db:migrate:local": "wrangler d1 migrations apply outreach-notes --local",
+    "db:migrate": "wrangler d1 migrations apply outreach-notes --remote",
+    "deploy": "wrangler pages deploy --project-name=outreach-directory --branch=main",
+    "refresh": "python3 scripts/refresh.py",
+    "skeleton": "python3 scripts/refresh.py --skeleton"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

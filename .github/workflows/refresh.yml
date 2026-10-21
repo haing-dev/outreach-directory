@@ -1,0 +1,75 @@
+name: Weekly refresh
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Mondays 13:00 UTC = 06:00 Pacific (05:00 during PST)
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only these ids (comma-separated), e.g. stanford-curtis. Blank = everything"
+        required: false
+        default: ""
+      category:
+        description: "Only one category (academic, institute, bigtech, biotech, startup). Blank = all"
+        required: false
+        default: ""
+      discover:
+        description: "Also suggest new labs per university"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Refresh directory with Claude
+        env:
+          CLAUDE_TOKEN: ${{ secrets.CLAUDE_TOKEN }}
+          CLAUDE_BASE_URL: ${{ vars.CLAUDE_BASE_URL }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          CLAUDE_EFFORT: ${{ vars.CLAUDE_EFFORT }}
+          WORKERS: ${{ vars.WORKERS }}
+          MAX_SEARCHES: ${{ vars.MAX_SEARCHES }}
+          IN_ONLY: ${{ inputs.only }}
+          IN_CATEGORY: ${{ inputs.category }}
+          IN_DISCOVER: ${{ inputs.discover }}
+        run: |
+          ARGS=()
+          [ -n "$IN_ONLY" ] && ARGS+=(--only "$IN_ONLY")
+          [ -n "$IN_CATEGORY" ] && ARGS+=(--category "$IN_CATEGORY")
+          [ "$IN_DISCOVER" = "true" ] && ARGS+=(--discover)
+          python scripts/refresh.py "${ARGS[@]}"
+
+      - name: Commit updated data
+        run: |
+          git config user.name "outreach-bot"
+          git config user.email "outreach-bot@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Refresh $(date -u +%F)"
+          git pull --rebase origin main
+          git push
+
+  # Pushes made by the workflow don't trigger other workflows, so deploy explicitly.
+  deploy:
+    needs: refresh
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

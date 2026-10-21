@@ -1,0 +1,13 @@
+# About you. Used to score "fit" and to write suggested openers for contacts.
+# Edit freely; the next refresh picks it up.
+name: ""            # optional
+position: First-year PhD student, Bioinformatics / Computational Biology
+home_lab: Marra Lab, University of British Columbia (Canada's Michael Smith Genome Sciences Centre)
+interests:
+  - cancer genomics
+  - tumour whole-genome / transcriptome sequencing
+  - structural variants and somatic mutation analysis
+  - computational methods and machine learning for genomics
+  - single-cell and spatial omics in cancer
+# Eligibility notes that matter for programs (used to flag programs you can apply to)
+eligibility: PhD student at a Canadian university; may need a visa for US/UK roles
