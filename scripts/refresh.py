@@ -35,6 +35,8 @@ import datetime as dt
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -66,6 +68,11 @@ WEB_SEARCH_TOOL = _env("WEB_SEARCH_TOOL", default="web_search_20260318")
 TOKEN = _env("CLAUDE_TOKEN", "ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")
 # Standard keys go in x-api-key; many internal gateways want "Authorization: Bearer".
 # We try x-api-key first and switch automatically on a 401.
+# Subscription tokens from `claude setup-token` (sk-ant-oat...) only work through Claude Code,
+# so in that case we run the Claude Code CLI headless instead of calling the API directly.
+USE_CLI = TOKEN.startswith("sk-ant-oat") or bool(_env("CLAUDE_CODE_OAUTH_TOKEN"))
+if USE_CLI:
+    WORKERS = int(_env("WORKERS", default="2"))
 AUTH = {"mode": "bearer" if _env("ANTHROPIC_AUTH_TOKEN") and not _env("CLAUDE_TOKEN", "ANTHROPIC_API_KEY") else "x-api-key"}
 
 CATEGORY_LABEL = {
@@ -124,8 +131,44 @@ def _headers() -> dict:
     return h
 
 
+def call_claude_cli(system: str, user: str, max_searches: int) -> tuple[str, list[dict]]:
+    """Same research turn via Claude Code (works with a Claude subscription token)."""
+    exe = shutil.which("claude")
+    if not exe:
+        raise RuntimeError("Claude Code CLI not installed (npm install -g @anthropic-ai/claude-code)")
+    env = {**os.environ, "CLAUDE_CODE_OAUTH_TOKEN": _env("CLAUDE_CODE_OAUTH_TOKEN") or TOKEN}
+    env.pop("ANTHROPIC_API_KEY", None)
+    cmd = [exe, "-p", user, "--model", MODEL, "--effort", EFFORT,
+           "--append-system-prompt", system + f"\nUse at most {max_searches} web searches.",
+           "--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch",
+           "--permission-mode", "dontAsk", "--output-format", "json",
+           "--max-turns", str(max_searches * 3 + 5), "--no-session-persistence"]
+    last = ""
+    for attempt in range(3):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=1200, env=env, cwd="/tmp")
+        except subprocess.TimeoutExpired:
+            last = "timed out"
+            continue
+        try:
+            out = json.loads(r.stdout)
+        except json.JSONDecodeError:
+            last = (r.stderr or r.stdout)[-400:]
+            time.sleep(30 * (attempt + 1))
+            continue
+        if out.get("is_error") or r.returncode != 0:
+            last = str(out.get("result") or out.get("subtype") or r.stderr)[-400:]
+            if "rate" in last.lower() or "limit" in last.lower():
+                time.sleep(120 * (attempt + 1))
+            continue
+        return out.get("result", ""), []
+    raise RuntimeError(f"Claude Code error: {last}")
+
+
 def call_claude(system: str, user: str, max_searches: int = MAX_SEARCHES, max_tokens: int = 8000) -> tuple[str, list[dict]]:
     """Run one research turn with web search. Returns (final text, cited sources)."""
+    if USE_CLI:
+        return call_claude_cli(system, user, max_searches)
     messages: list[dict] = [{"role": "user", "content": user}]
     body = {
         "model": MODEL,
@@ -524,7 +567,8 @@ def main():
     if args.skeleton:
         pass  # the merge below builds every entry from seeds + last data, no API calls
     else:
-        print(f"Refreshing {len(targets)} entries with {MODEL} (effort={EFFORT}, workers={WORKERS})")
+        via = "Claude Code (subscription token)" if USE_CLI else "Claude API"
+        print(f"Refreshing {len(targets)} entries with {MODEL} via {via} (effort={EFFORT}, workers={WORKERS})")
         with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
             futs = {pool.submit(research, s, profile, prev_by_id.get(s["id"])): s for s in targets}
             for f in cf.as_completed(futs):

@@ -40,6 +40,13 @@ jobs:
 
       - run: pip install -r scripts/requirements.txt
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Claude Code (used when CLAUDE_TOKEN is a subscription token)
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: Refresh directory with Claude
         env:
           CLAUDE_TOKEN: ${{ secrets.CLAUDE_TOKEN }}

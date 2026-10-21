@@ -16,7 +16,7 @@ You can sort, filter and search everything, and keep notes, a status, a priority
 
    | Secret | Value |
    |---|---|
-   | `CLAUDE_TOKEN` | Your Claude API key or internal token. The script tries both auth styles automatically. |
+   | `CLAUDE_TOKEN` | Either a subscription token (run `claude setup-token` in a terminal with Claude Code installed; it starts with `sk-ant-oat`) or an API key. The job detects which one you gave it. |
    | `CLOUDFLARE_API_TOKEN` | Cloudflare → My Profile → API Tokens → Create Token → Custom, with **Account › Cloudflare Pages › Edit** and **Account › D1 › Edit** |
    | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard → Workers & Pages → right sidebar |
    | `SITE_PASSWORD` | Any password. The site asks for it; any username works. |
