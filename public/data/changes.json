@@ -2,9 +2,69 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T18:54:42+00:00",
+   "generated_at": "2026-10-21T19:50:09+00:00",
    "checked": 10,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-aryee",
+     "entry_name": "Aryee Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-avillach",
+     "entry_name": "Avillach Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab)",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "other-getz",
