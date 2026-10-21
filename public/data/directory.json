@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T19:50:09+00:00",
+ "generated_at": "2026-10-21T20:52:45+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -5557,21 +5557,70 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-manrai",
    "url": null,
-   "focus": null,
-   "topics": [],
+   "focus": "The lab applies machine learning and statistical modeling to improve medical decision-making. Its work includes AI for medical diagnosis, such as the Dr. CaBot diagnostic reasoning system, and the reproducibility, safety and evaluation of medical AI. It also studies how genomic data and blood biomarkers are used clinically, including variant interpretation in inherited heart and kidney disease and decision-making across diverse populations. Manrai is a founding Deputy Editor of NEJM AI.",
+   "topics": [
+    "medical AI evaluation",
+    "clinical decision-making",
+    "diagnostic reasoning LLMs",
+    "genomic variant interpretation",
+    "biomarkers",
+    "population diversity"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Its genomics work is clinical variant interpretation in inherited disease and its main focus is medical AI evaluation, so there is little overlap with cancer genomics, tumour WGS or transcriptome sequencing, structural variants, or single-cell and spatial omics, and it would likely mean a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No dedicated lab website or lab members page found, so the roster is incomplete. Only one student was verified, from the DBMI people directory and an HMS news article.",
+    "PI is still at Harvard Medical School (DBMI), with no move found. The DBMI profile lists the email Arjun_Manrai@hms.harvard.edu.",
+    "Title discrepancy: sources variously say Assistant Professor (2025) and Associate Professor (July 2026). Confirm which is current.",
+    "No postdocs were verified."
+   ],
+   "sources": [
+    {
+     "title": "DBMI profile: Arjun Manrai",
+     "url": "https://dbmi.hms.harvard.edu/people/arjun-raj-manrai"
+    },
+    {
+     "title": "Google Scholar: Arjun (Raj) Manrai",
+     "url": "https://scholar.google.com/citations?user=uzzY6UAAAAAJ&hl=en"
+    },
+    {
+     "title": "NEXUS Spotlight: Arjun (Raj) Manrai",
+     "url": "https://www.nexus-exposomics.org/news/Manrai_spotlight_July2026.html"
+    },
+    {
+     "title": "HMS News: An AI System With Detailed Diagnostic Reasoning Makes Its Case",
+     "url": "https://hms.harvard.edu/news/ai-system-detailed-diagnostic-reasoning-makes-its-case"
+    },
+    {
+     "title": "DBMI People directory",
+     "url": "https://dbmi.hms.harvard.edu/people"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:52:17+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "pi_profile": {
+    "name": "Arjun (Raj) Manrai",
+    "title": "Associate Professor of Biomedical Informatics (per a July 2026 NEXUS profile; the 2025 pages and my DBMI profile search snippet say Assistant Professor)",
+    "profile_url": "https://dbmi.hms.harvard.edu/people/arjun-raj-manrai",
+    "scholar_url": "https://scholar.google.com/citations?user=uzzY6UAAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Thomas Buckley",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AI in medicine; co-created the Dr. CaBot diagnostic AI system with Manrai. Listed as a Dunleavy Fellow in the AIM program.",
+     "email": null,
+     "profile_url": "https://dbmi.hms.harvard.edu/people"
+    }
+   ],
+   "department": "Department of Biomedical Informatics (DBMI); Artificial Intelligence in Medicine (AIM) PhD program",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard Medical School, Harvard University",
+   "members_page": null
   },
   {
    "name": "Patel Group",
@@ -5584,21 +5633,107 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-patel",
    "url": "https://www.chiragjpgroup.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab integrates multi-omic data (proteome, regulome, exposome) to study how environmental exposures affect biological pathways and disease. It applies machine learning to molecular signatures and exposures to project individual health trajectories, with emphasis on conditions such as Alzheimer's disease, cancer and diabetes. It also does meta-science work on how analytic choices with big data affect conclusions, for example 'vibration of effects' analyses. The PI is involved in NEXUS (Network for Exposomics in the United States). Work is population-scale (exposome-wide and gene-by-environment association studies), not tumour sequencing.",
+   "topics": [
+    "exposomics",
+    "gene-by-environment interactions",
+    "multi-omic integration",
+    "machine learning",
+    "precision and preventive medicine",
+    "meta-science"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "There is some overlap in machine learning and multi-omics methods, but the lab centres on exposomics and population epidemiology, not tumour WGS/transcriptome, structural variants, somatic mutation or single-cell/spatial cancer omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: still at Harvard Medical School, Department of Biomedical Informatics.",
+    "Members page has no last-updated date, years or emails. The profile URLs are my resolution of relative links and I did not open them.",
+    "Braden Tierney appears on the current roster as 'Director of Exposomics and Microbial Data Sciences' but also in the alumni list, so I left him out of the members list.",
+    "The lab posted postdoc and associate openings in May 2026 (multi-omic integration, ML/AI). A postdoc is a possible route later.",
+    "A US role would likely need a visa for a Canadian-based student."
+   ],
+   "sources": [
+    {
+     "title": "Patel Group home",
+     "url": "https://www.chiragjpgroup.org/"
+    },
+    {
+     "title": "Patel Group members",
+     "url": "https://www.chiragjpgroup.org/members.html"
+    },
+    {
+     "title": "Chirag Patel - HMS BMI PhD",
+     "url": "https://bmiphd.hms.harvard.edu/people/chirag-patel"
+    },
+    {
+     "title": "HMS Postdoctoral Fellow in Biomedical Informatics (Patel Lab) posting",
+     "url": "https://jobs.protocol.ai/companies/harvard-university/jobs/80714532-hms-postdoctoral-fellow-in-biomedical-informatics-patel-lab"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:52:45+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "pi_profile": {
+    "name": "Chirag J. Patel",
+    "title": "Associate Professor of Biomedical Informatics",
+    "profile_url": "https://bmiphd.hms.harvard.edu/people/chirag-patel",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Dillon Lloyd",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Data science approaches for exposomics",
+     "email": null,
+     "profile_url": "https://www.chiragjpgroup.org/members/dillon.html"
+    },
+    {
+     "name": "Raghav Tandon",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Gene-by-environment interactions",
+     "email": null,
+     "profile_url": "https://www.chiragjpgroup.org/members/raghav.html"
+    },
+    {
+     "name": "Randy Ellis",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Multi-scale/meta-science approaches to dissect brain aging",
+     "email": null,
+     "profile_url": "https://www.chiragjpgroup.org/members/randy.html"
+    },
+    {
+     "name": "Sara Cromer",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Diabetes and health disparities",
+     "email": null,
+     "profile_url": "https://www.chiragjpgroup.org/members/sara.html"
+    },
+    {
+     "name": "Aashna Shah",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning of lung function (Systems Biology PhD)",
+     "email": null,
+     "profile_url": "https://www.chiragjpgroup.org/members/aashna.html"
+    },
+    {
+     "name": "Shakson Isaac",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Gene-by-environment interactions (Bioinformatics and Integrative Genomics PhD)",
+     "email": null,
+     "profile_url": "https://www.chiragjpgroup.org/members/shakson.html"
+    }
+   ],
+   "department": "Department of Biomedical Informatics",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard Medical School, Harvard University",
+   "members_page": "https://www.chiragjpgroup.org/members.html"
   },
   {
    "name": "Huttenhower Lab",
@@ -5610,22 +5745,232 @@
    "group": null,
    "department_hint": "Biostatistics, Harvard T.H. Chan School of Public Health",
    "id": "harvard-huttenhower",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://huttenhower.sph.harvard.edu/",
+   "focus": "The lab develops computational methods to study microbial communities, especially the human gut microbiome in health and disease. Its work includes taxonomic and functional profiling from metagenomes and metatranscriptomes (tools such as MetaPhlAn, HUMAnN and MaAsLin). It also includes statistical association and multi-omic integration methods. Large cohort studies such as HMP2/IBDMDB, plus epidemiology collaborations on diet, cancer and environmental exposures, are also part of its work. The focus is the microbiome, not tumour genomics, though some collaborations touch on gut microbiome and colorectal cancer.",
+   "topics": [
+    "microbiome",
+    "metagenomics",
+    "biostatistics",
+    "multi-omics integration",
+    "IBD",
+    "microbial function profiling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's strengths in computational methods and ML-adjacent statistics for sequencing data overlap loosely with the student's methods interests, but the focus is microbiome rather than cancer genomics, structural variants or single-cell/spatial omics. The PI's move to UBC (2027) is a point in favou"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is moving from Harvard to UBC (Department of Microbiology and Immunology) as Eddie Goldenberg Research Chair of Canada in Microbiome Sciences. The expected start is summer 2027, per Wikipedia and UBC/Canada pages. Harvard still lists him as of today.",
+    "The people page gives no research focus, year or individual profile links for members, so those are null or marked 'not listed'.",
+    "Etienne Nzabarushimana (postdoc, visitor table, end date 07/06/2026) was left out because he looks to be past his end date or listed only as a visitor.",
+    "Many postdocs are jointly advised with other PIs, so their work may differ from the core microbiome focus.",
+    "The Google Scholar URL was not verified, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Huttenhower Lab People",
+     "url": "https://huttenhower.sph.harvard.edu/people/"
+    },
+    {
+     "title": "Harvard Chan faculty profile: Curtis Huttenhower",
+     "url": "https://hsph.harvard.edu/profile/curtis-huttenhower"
+    },
+    {
+     "title": "Wikipedia: Curtis Huttenhower",
+     "url": "https://en.wikipedia.org/wiki/Curtis_Huttenhower"
+    },
+    {
+     "title": "UBC Research: Curtis Huttenhower",
+     "url": "https://research.ubc.ca/node/47811"
+    },
+    {
+     "title": "UBC Eddie Goldenberg Chairs",
+     "url": "https://research.ubc.ca/eddie-goldenberg-chairs"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:50:56+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biostatistics, Harvard T.H. Chan School of Public Health",
-   "location": null
+   "pi_profile": {
+    "name": "Curtis Huttenhower",
+    "title": "Professor of Computational Biology and Bioinformatics (Biostatistics); secondary appointment in Immunology and Infectious Diseases",
+    "profile_url": "https://hsph.harvard.edu/profile/curtis-huttenhower",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Ana Nogal",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Mingyang Song; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Askarbek Orakov",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Seth Rakoff-Nahoum; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Carter Merenstein",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Seth Rakoff-Nahoum; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chahat Upreti",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Danyue Dong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Daniel Wang; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Dongyu Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Emily Green",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed under the Microbiome Analysis and Collection Cores; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Erik Hasenoehrl",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Seth Rakoff-Nahoum; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Fenglei Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Daniel Wang; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jack Sumner",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jacob Nearing",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jiaxian Shen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Long Nguyen; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Marina Chen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Jack Spengler; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mengxi Du",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Mingyang Song; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yiqing Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Andrew T. Chan; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuxi Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint with Daniel Wang; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jordan Jensen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biological Sciences in Public Health program; research focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sithija Manage",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Joint with Y. Samuel Wang and Martin T. Wells (Cornell); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yehoon Jo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biological Sciences in Public Health program; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yu Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Nutritional Epidemiology; joint with Daniel Wang",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yujia Lu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Joint with Mingyang Song; focus not listed",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biostatistics; Department of Immunology and Infectious Diseases; Harvard Chan Microbiome Analysis Core; Broad Institute affiliation",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard University (T.H. Chan School of Public Health). Announced move to the University of British Columbia, expected summer 2027.",
+   "members_page": "https://huttenhower.sph.harvard.edu/people/"
   },
   {
    "name": "Li Lab",
@@ -5638,21 +5983,107 @@
    "department_hint": "Biomedical Informatics, HMS / Dana-Farber",
    "id": "harvard-li",
    "url": "https://hlilab.github.io/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab develops computational and statistical methods and widely used software for sequencing data analysis. Its tools cover sequence alignment (bwa, minimap2, miniprot), de novo assembly (miniasm, hifiasm), variant calling (longcallR, longcallD) and pangenome analysis (minigraph, pangene). It also designs file formats (SAM, GFA) and works on full-text indexing (ropebwt3) and population genetics (PSMC). The work is mostly algorithms and software for long-read and pangenome data, not cancer-specific biology.",
+   "topics": [
+    "sequence alignment",
+    "genome assembly",
+    "variant calling",
+    "pangenomics",
+    "long-read sequencing",
+    "bioinformatics algorithms"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's strengths in long-read alignment, assembly and variant calling are relevant to the student's interest in structural variants and computational genomics methods. It does not appear to work on cancer genomics, transcriptomics, single-cell or spatial omics, and it would require a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found. Harvard/Dana-Farber affiliation is confirmed by the lab site and the HMS and Dana-Farber profiles.",
+    "The team page gives no research focus for any member, so the member focus entries are limited to what it states.",
+    "The team page also lists staff scientists Ying Zhou and Ahsan Sanaullah, a research assistant and three master's students. They are excluded from the members list.",
+    "Only the PI's email (hli@jimmy.harvard.edu) is published on the team page. No student or postdoc emails are listed.",
+    "The page lists a start date of Jul 2026 for Ellie Kim, so the page appears to have been updated in 2026."
+   ],
+   "sources": [
+    {
+     "title": "Li Lab homepage",
+     "url": "https://hlilab.github.io/"
+    },
+    {
+     "title": "Li Lab team page",
+     "url": "https://hlilab.github.io/team"
+    },
+    {
+     "title": "Heng Li, HMS DBMI profile",
+     "url": "https://dbmi.hms.harvard.edu/people/heng-li"
+    },
+    {
+     "title": "Heng Li, Dana-Farber profile",
+     "url": "https://dana-farber.org/find-a-doctor/heng-li"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:51:34+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS / Dana-Farber",
-   "location": null
+   "pi_profile": {
+    "name": "Heng Li",
+    "title": "Associate Professor of Biomedical Informatics, Harvard Medical School; Department of Data Science, Dana-Farber Cancer Institute",
+    "profile_url": "https://dbmi.hms.harvard.edu/people/heng-li",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jim Shaw",
+     "role": "Postdoc",
+     "year": "Joined Sep 2024",
+     "focus": "Not stated on the team page; PhD with Yun William Yu (U Toronto)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maximillian Marin",
+     "role": "Postdoc",
+     "year": "Joined Sep 2024",
+     "focus": "Not stated on the team page; PhD with Maha Farhat (Harvard)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Neng Huang",
+     "role": "Postdoc",
+     "year": "Joined Mar 2023",
+     "focus": "Not stated on the team page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ellie Kim",
+     "role": "PhD student",
+     "year": "Joined Jul 2026",
+     "focus": "Not stated on the team page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jakob Heinz",
+     "role": "PhD student",
+     "year": "Joined Aug 2024",
+     "focus": "Co-mentored with Matthew Meyerson (Dana-Farber); project not stated on the team page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Megan Khiet Le",
+     "role": "PhD student",
+     "year": "Joined Jun 2024",
+     "focus": "Co-mentored with Bonnie Berger (MIT); project not stated on the team page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biomedical Informatics (HMS); Department of Data Science (Dana-Farber)",
+   "location": "Boston, USA",
+   "current_institution": "Harvard Medical School / Dana-Farber Cancer Institute",
+   "members_page": "https://hlilab.github.io/team"
   },
   {
    "name": "Kohane Lab",
@@ -5664,22 +6095,54 @@
    "group": null,
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-kohane",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "http://zaklab.org",
+   "focus": "The lab develops computational methods to study disease at several scales, from whole healthcare systems used as 'living laboratories' to the functional genomics of neurodevelopment, with a particular focus on autism. It uses large-scale molecular analyses to reclassify diseases such as autism, rheumatoid arthritis and cancers. Its work aims to speed the path from data to knowledge and from knowledge to practice, including tools for point-of-care decisions. Current postdoctoral projects, per DBMI, cover large language models (including for primary care delivery), AI to automate patient diagnosis, and cancer treatment response.",
+   "topics": [
+    "biomedical informatics",
+    "large language models in medicine",
+    "autism / neurodevelopment genomics",
+    "disease reclassification",
+    "clinical decision support"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab touches cancer treatment response and molecular disease reclassification, but its emphasis is clinical informatics, LLMs and autism. It has little published focus on tumour WGS, structural variants or single-cell/spatial omics, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Could not open the lab website (zaklab.org returned 403), so no current postdoc or PhD student roster was verified; members list is empty rather than guessed.",
+    "The DBMI profile page lists only Samantha Lemos (Executive Coordinator, staff) as a lab member.",
+    "PI is still at Harvard Medical School (DBMI Chair); no move found.",
+    "Do not confuse with Daniel S. Kohane's lab at Boston Children's Hospital (kohane.tch.harvard.edu), a different group.",
+    "Google Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "Isaac Kohane | DBMI profile",
+     "url": "https://dbmi.hms.harvard.edu/people/isaac-kohane"
+    },
+    {
+     "title": "DBMI department leadership",
+     "url": "https://dbmi.hms.harvard.edu/about-dbmi/department-leadership"
+    },
+    {
+     "title": "Postdoctoral Positions in the Lab of Isaac Kohane (\"Zaklab\")",
+     "url": "https://dbmi.hms.harvard.edu/node/16591"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:51:57+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Isaac (Zak) Kohane",
+    "title": "Chair, Department of Biomedical Informatics; Marion V. Nelson Professor of Biomedical Informatics",
+    "profile_url": "https://dbmi.hms.harvard.edu/people/isaac-kohane",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "department": "Department of Biomedical Informatics (DBMI)",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard Medical School, Harvard University",
+   "members_page": null
   },
   {
    "name": "Yu Lab",
@@ -5719,21 +6182,119 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-o-connor",
    "url": "https://oconnorlab.hms.harvard.edu/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab develops statistical and mathematical methods to characterize the genetic architecture of common diseases and complex traits. One thread quantifies how common and rare variants contribute to disease and how natural selection shapes that architecture. Current projects include integrating functional annotations, characterizing the genetic architecture of autism, and forecasting rare-variant association study results at larger sample sizes. A second thread builds genealogy-based representations of linkage disequilibrium and genotype data, which speed up LD-matrix computations and heritability partitioning. The work is population/statistical genetics (GWAS and rare-variant analysis) and not tumour sequencing.",
+   "topics": [
+    "statistical genetics",
+    "complex trait architecture",
+    "rare variant analysis",
+    "natural selection",
+    "genealogical (ARG) methods for LD",
+    "heritability partitioning"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab does computational and statistical methods development for genomics, which overlaps with the student's methods interest, but it works on germline GWAS and rare-variant genetics and not on cancer, tumour WGS or transcriptomes, structural or somatic variants, or single-cell and spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: the PI is still listed at HMS DBMI, with a Broad Institute affiliation.",
+    "The members page gives no start years or individual profile pages, so year and profile_url are null.",
+    "Emails are published on the lab page in obfuscated '[at]' form, and I converted them to normal addresses.",
+    "Qiuqi (Autumn) Xu is a Master's student and was excluded.",
+    "A May 2026 postdoc posting mentions autism genetic architecture methods, but the DBMI lab page says no positions are available, so check current openings."
+   ],
+   "sources": [
+    {
+     "title": "O'Connor Lab home",
+     "url": "https://oconnorlab.hms.harvard.edu/"
+    },
+    {
+     "title": "O'Connor Lab people",
+     "url": "https://oconnorlab.hms.harvard.edu/people"
+    },
+    {
+     "title": "O'Connor Lab research",
+     "url": "https://oconnorlab.hms.harvard.edu/research"
+    },
+    {
+     "title": "HMS DBMI profile: Luke O'Connor",
+     "url": "https://dbmi.hms.harvard.edu/people/luke-oconnor-0?page=2"
+    },
+    {
+     "title": "Broad Institute bio: Luke O'Connor",
+     "url": "https://www.broadinstitute.org/bios/luke-o%E2%80%99connor"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:52:17+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "pi_profile": {
+    "name": "Luke J. O'Connor",
+    "title": "Assistant Professor of Biomedical Informatics",
+    "profile_url": "https://dbmi.hms.harvard.edu/people/luke-oconnor-0?page=2",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Kangcheng Hou",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Using functional information to characterize common and rare variants in complex traits (co-mentored by Alkes Price)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Noah Connally",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Co-mentored by Elinor Karlsson; focus not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Pouria Salehi Nowbandegani",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ajay Nadig",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student co-advised by Elise Robinson; research focus not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Amber Shen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jay Baik",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Noncoding variation (e.g. in untranslated regions) and its effects on gene regulation, traits and disease; BIG program",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Wenhan Lu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Statistical methods for the functional and pleiotropic effects of rare coding variants (co-mentored by Ben Neale and Konrad Karczewski)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biomedical Informatics (HMS); affiliated with the Broad Institute Program in Medical and Population Genetics",
+   "location": "Boston, MA, USA",
+   "current_institution": "Harvard Medical School, Harvard University",
+   "members_page": "https://oconnorlab.hms.harvard.edu/people"
   },
   {
    "name": "Farhat Lab",
@@ -5745,22 +6306,84 @@
    "group": null,
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-farhat",
-   "url": "https://scholar.harvard.edu/mahafarhat",
-   "focus": null,
-   "topics": [],
+   "url": "https://mahafarhat.scholars.harvard.edu/",
+   "focus": "The lab studies how pathogen genotype relates to phenotype in infectious disease, mainly drug-resistant tuberculosis. It combines whole-genome sequencing of M. tuberculosis with statistical genetics, evolutionary analysis such as selection signatures, and machine learning to find resistance mechanisms and predict antibiotic resistance. It built GenTB, a free web tool that predicts resistance from sequence data. It also works on diagnostics, surveillance and treatment-outcome prediction, with field partners in South Africa and India.",
+   "topics": [
+    "tuberculosis genomics",
+    "antibiotic resistance prediction",
+    "machine learning",
+    "pathogen evolution",
+    "bacterial WGS",
+    "clinical diagnostics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in WGS variant analysis and ML for genomics, but its work is on bacterial pathogen genomics rather than cancer, structural variants, or single-cell/spatial omics, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I could not open the lab website or members page (HTTP 403). The member list comes from search-result snippets only and may be incomplete or out of date.",
+    "A postdoc named Nikhil George appears on the members page, but his entry links to a different person's profile. I left him out as unverified.",
+    "Profile URLs for the listed members were not confirmed.",
+    "No PI move found: Harvard Medical School pages still list her at HMS/DBMI and MGH.",
+    "The lab page and an old event listing call her an assistant professor, but current faculty pages list her as Gilbert S. Omenn Associate Professor, so the lab page title is probably outdated."
+   ],
+   "sources": [
+    {
+     "title": "Farhat Lab members (search result)",
+     "url": "https://mahafarhat.scholars.harvard.edu/members"
+    },
+    {
+     "title": "Farhat Lab research",
+     "url": "https://mahafarhat.scholars.harvard.edu/research"
+    },
+    {
+     "title": "Maha Farhat, HMS DBMI",
+     "url": "https://dbmi.hms.harvard.edu/people/maha-farhat?page=2"
+    },
+    {
+     "title": "Maha Farhat, HMS Bacteriology",
+     "url": "https://bacteriology.hms.harvard.edu/our-faculty/maha-farhat"
+    },
+    {
+     "title": "Maha Farhat, Mass General",
+     "url": "https://www.massgeneral.org/doctors/19248/maha-farhat"
+    },
+    {
+     "title": "HMS CME catalog, Maha Farhat",
+     "url": "https://cmecatalog.hms.harvard.edu/faculty-staff/maha-farhat"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:50:56+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "pi_profile": {
+    "name": "Maha Farhat",
+    "title": "Gilbert S. Omenn Associate Professor of Biomedical Informatics (HMS); pulmonary and critical care physician at Massachusetts General Hospital",
+    "profile_url": "https://dbmi.hms.harvard.edu/people/maha-farhat",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Avika Dixit",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoc listed in pediatric infectious diseases at Boston Children's Hospital. Specific project not verified.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shandu Mulaudzi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "PhD student in the Bioinformatics and Integrative Genomics program, studying tuberculosis.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biomedical Informatics (DBMI), HMS; also listed with Harvard bacteriology faculty",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard Medical School (with clinical affiliation at Massachusetts General Hospital)",
+   "members_page": "https://mahafarhat.scholars.harvard.edu/members"
   },
   {
    "name": "Zitnik Lab",
@@ -5977,22 +6600,84 @@
    "group": null,
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-gehlenborg",
-   "url": "http://gehlenborglab.org/",
-   "focus": null,
-   "topics": [],
+   "url": "https://hidivelab.org/",
+   "focus": "The lab builds computational methods and interactive interfaces that help people explore and interpret biomedical data, combining informatics algorithms with data visualization and human-AI interaction. Past and current work includes visualization tools for large cancer genomics datasets such as TCGA, and reproducible software for genomics and epigenomics. Recent postdoc openings cover EHR data visualization and genomics and imaging data visualization for nucleome studies. The lab also develops open-source tools and community resources in the visualization space, and the PI co-founded BioVis and VIZBI.",
+   "topics": [
+    "biomedical data visualization",
+    "cancer genomics visualization",
+    "human-AI interaction",
+    "epigenomics/nucleome tools",
+    "EHR visualization",
+    "reproducible software"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Cancer genomics visualization is a loose overlap, but the lab centres on visualization and HCI rather than SV or somatic mutation analysis, sequencing pipelines or ML for genomics; it currently lists no PhD students and a US visa may be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Harvard Medical School (DBMI profile); no move found.",
+    "No current PhD students are listed on the members page; the only current student listed is an MMSc student (Ryan Seaman) and an undergraduate intern, both excluded.",
+    "Many postdocs left in 2026 (e.g. Sehi L'Yi, Eric Moerth, David Kouřil, Devin Lange, Huyen Nguyen), so the roster is small.",
+    "The lab has open postdoc positions (HMS posting, June 2026).",
+    "Members page gives no research focus or year for current members; no emails are published."
+   ],
+   "sources": [
+    {
+     "title": "HIDIVE Lab members",
+     "url": "https://hidivelab.org/team/members"
+    },
+    {
+     "title": "HIDIVE Lab home",
+     "url": "https://hidivelab.org/"
+    },
+    {
+     "title": "Nils Gehlenborg - HMS DBMI",
+     "url": "https://dbmi.hms.harvard.edu/people/nils-gehlenborg"
+    },
+    {
+     "title": "Postdoctoral Positions in the Lab of Nils Gehlenborg",
+     "url": "https://dbmi.hms.harvard.edu/node/249"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:51:02+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "pi_profile": {
+    "name": "Nils Gehlenborg",
+    "title": "Associate Professor of Biomedical Informatics; Director, MMSc in Biomedical Informatics program",
+    "profile_url": "https://dbmi.hms.harvard.edu/people/nils-gehlenborg",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Astrid van den Brandt",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research Fellow in Biomedical Informatics; focus not stated on members page",
+     "email": null,
+     "profile_url": "https://hidivelab.org/team/members/astrid-vandenbrandt/"
+    },
+    {
+     "name": "Kiroong Choe",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research Fellow in Biomedical Informatics; focus not stated on members page",
+     "email": null,
+     "profile_url": "https://hidivelab.org/team/members/kiroong-choe/"
+    },
+    {
+     "name": "Md Dilshadur Rahman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research Fellow in Biomedical Informatics; focus not stated on members page",
+     "email": null,
+     "profile_url": "https://hidivelab.org/team/members/dilshadur-rahman/"
+    }
+   ],
+   "department": "Department of Biomedical Informatics (DBMI)",
+   "location": "Boston, MA, USA",
+   "current_institution": "Harvard Medical School, Harvard University",
+   "members_page": "https://hidivelab.org/team/members"
   },
   {
    "name": "Avillach Lab",
@@ -6069,21 +6754,155 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-park",
    "url": "https://compbio.hms.harvard.edu/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab develops computational and statistical methods to analyse genomic data and uncover the genetic and epigenetic mechanisms of disease. A main interest is mutational processes in normal and cancer cells and how they affect gene regulation. Past work includes detecting mosaic mutations from single-cell and bulk whole-genome sequencing, mutational signature analysis, chromothripsis and structural variants in cancer, and epigenomics. The lab also takes part in large consortia, including SMaHT (somatic mosaicism across human tissues, with a data analysis center) and the 4D Nucleome.",
+   "topics": [
+    "cancer genomics",
+    "somatic mosaicism",
+    "mutational signatures",
+    "structural variants",
+    "epigenomics",
+    "computational method development"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with somatic mutation analysis, structural variants and WGS-based computational methods in cancer, but the lab has less visible emphasis on single-cell/spatial cancer omics, and a US postdoc would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at Harvard Medical School; no move found.",
+    "The people page gives no research focus or email for members, so I left the emails null and did not look at the individual profile pages.",
+    "Excluded Yujie Guo (Master's student), Kyung Ah (Kate) Woo (visiting scholar), research scientist Elizabeth (Hye-Jung) Chun, the undergraduate intern and all staff.",
+    "Vinay Viswanadham and L. Joe Luquette also appear in the alumni PhD/associate lists, which suggests they moved from student or staff roles to postdoc. This is unverified.",
+    "Dominik Glodzik is listed as an alumnus (2021-2026), so a search snippet that showed him as current is out of date."
+   ],
+   "sources": [
+    {
+     "title": "Park Lab home",
+     "url": "https://compbio.hms.harvard.edu/"
+    },
+    {
+     "title": "Park Lab people",
+     "url": "https://compbio.hms.harvard.edu/people"
+    },
+    {
+     "title": "Peter J Park profile",
+     "url": "https://compbio.hms.harvard.edu/people/peter-j-park"
+    },
+    {
+     "title": "Postdoctoral positions in computational genomics - Park lab (expired)",
+     "url": "https://careers.iscb.org/jobs/view/7767"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:52:38+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Informatics, HMS",
-   "location": null
+   "pi_profile": {
+    "name": "Peter J. Park",
+    "title": "Professor of Biomedical Informatics",
+    "profile_url": "https://compbio.hms.harvard.edu/people/peter-j-park",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Cait Harrigan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/cait-harrigan"
+    },
+    {
+     "name": "Christophe Boetto",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/christophe-boetto"
+    },
+    {
+     "name": "Corinne Sexton",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/corinne-sexton"
+    },
+    {
+     "name": "Han (Flora) Qu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/han-qu"
+    },
+    {
+     "name": "Hu Jin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/hu-jin"
+    },
+    {
+     "name": "L. Joe Luquette",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/lovelace-joe-luquette"
+    },
+    {
+     "name": "Sangmi (Sandra) Lee",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/sangmi-sandra-lee"
+    },
+    {
+     "name": "Vinay Viswanadham",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/vinay-viswanadham"
+    },
+    {
+     "name": "Yuwei Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/yuwei-zhang"
+    },
+    {
+     "name": "Allen Lynch",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/allen-lynch"
+    },
+    {
+     "name": "Ann Caplin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/ann-caplin"
+    },
+    {
+     "name": "Daniel Feng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://compbio.hms.harvard.edu/people/daniel-feng"
+    }
+   ],
+   "department": "Department of Biomedical Informatics (HMS); Ludwig Center at Harvard; Division of Genetics, Brigham and Women's Hospital; Harvard-MIT Health Sciences and Technology; Bioinformatics and Integrative Gen",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard Medical School",
+   "members_page": "https://compbio.hms.harvard.edu/people"
   },
   {
    "name": "Rajpurkar Lab",
@@ -6122,22 +6941,140 @@
    "group": null,
    "department_hint": "Biostatistics, Harvard T.H. Chan School of Public Health",
    "id": "harvard-ma",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://sites.google.com/site/rongmastat/home",
+   "focus": "The group develops statistical theory and methods for high-dimensional data, including inference for large random matrices and high-dimensional models. It also works on the theory and computation of nonlinear embedding and manifold learning (e.g., t-SNE/UMAP-type methods). A major applied thread is interpretable machine learning for single-cell and multiomics data integration in biomedicine. The work is mostly methodological and theoretical statistics, with genomics as the application area, rather than tumour sequencing or variant calling.",
+   "topics": [
+    "high-dimensional statistics",
+    "random matrix theory",
+    "manifold learning / embedding",
+    "single-cell multiomics",
+    "interpretable machine learning",
+    "data integration"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Overlap is with computational and ML methods for genomics and single-cell/multiomics, but there is no evident focus on cancer genomics, WGS/structural variants or somatic mutation analysis, and it is a US-based, theory-heavy statistics group."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move: Harvard Chan profile and personal site both list Ma at Harvard Biostatistics (faculty since Aug 2023).",
+    "The students page gives no research focus, years, emails or profile links, so these are null or 'not listed'.",
+    "The students page does not carry a visible update date. Several entries are external mentees (Yale, Heidelberg, Broad) rather than Harvard-enrolled students.",
+    "Roles on the page are 'Faculty Sponsor', 'Research Mentor' and 'Thesis Co-Advisor', which are Ma's role relative to each person. Jingyuan Hu's postdoc status is inferred from 'Postdoc Faculty Sponsor'.",
+    "MS students (Cindy Liu, Shuying Han, Allen Gu, Sijia Zhu) are excluded as non-PhD/postdoc."
+   ],
+   "sources": [
+    {
+     "title": "Rong Ma - Harvard Chan profile",
+     "url": "https://hsph.harvard.edu/profile/rong-ma/"
+    },
+    {
+     "title": "Rong Ma personal website",
+     "url": "https://sites.google.com/site/rongmastat/home"
+    },
+    {
+     "title": "Rong Ma - Students & Postdocs",
+     "url": "https://sites.google.com/site/rongmastat/students"
+    },
+    {
+     "title": "Interview with Assistant Professor Dr. Rong Ma",
+     "url": "https://hsph.harvard.edu/biostatistics/news/interview-w-assistant-professor-dr-rong-ma"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T20:51:45+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biostatistics, Harvard T.H. Chan School of Public Health",
-   "location": null
+   "pi_profile": {
+    "name": "Rong Ma",
+    "title": "Assistant Professor of Biostatistics",
+    "profile_url": "https://hsph.harvard.edu/profile/rong-ma/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Amiee Huang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as postdoc research mentee (Harvard Biostatistics); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jingyuan Hu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as 'Postdoc Faculty Sponsor' (Harvard Biostatistics), so Ma sponsors this postdoc; research focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Madhav Sankaranarayanan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as postdoc research mentee (Broad Institute); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chang Lu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research mentee from Yale Computational Biology; focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Daniel Paydarfar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research mentee (Harvard Biostatistics); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Hongrui Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research mentee (Harvard Biostatistics); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nuo Ding",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research mentee (Harvard Biostatistics); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Phuc Vu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research mentee (Harvard Biostatistics); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Victoria Mezger",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Thesis co-advised by Ma (Heidelberg University Mathematics); focus not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ziqi Fu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Thesis co-advised by Ma (Harvard Biostatistics); focus not listed",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biostatistics; affiliated with Dana-Farber Cancer Institute (Dept. of Data Science) and Associate Member of the Broad Institute",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard University (T.H. Chan School of Public Health)",
+   "members_page": "https://sites.google.com/site/rongmastat/students"
   },
   {
    "name": "Sunyaev Lab",

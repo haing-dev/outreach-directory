@@ -2,9 +2,69 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T19:50:09+00:00",
+   "generated_at": "2026-10-21T20:52:45+00:00",
    "checked": 10,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "caltech-wold",
