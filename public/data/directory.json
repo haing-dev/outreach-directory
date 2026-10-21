@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:50:12+00:00",
+ "generated_at": "2026-10-21T23:42:49+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -7816,22 +7816,55 @@
    "group": null,
    "department_hint": "Chemistry / IMES",
    "id": "mit-shalek",
-   "url": "https://csbphd.mit.edu/faculty/alex-k-shalek/",
-   "focus": null,
-   "topics": [],
+   "url": "https://shaleklab.com/",
+   "focus": "The lab develops and applies single-cell genomics tools to study how cells and tissues behave in health and disease. Its disease areas are autoimmune and inflammatory disease, cancer and infectious disease, and it also works on tissue homeostasis. Its methods are grouped on the lab site as Approach, Measure, Model, Perturb and Integrate. They combine experimental single-cell profiling (the lab's Seq-Well platform and related tools) with computational modelling and perturbation of cell and tissue responses. This description comes from the lab's home page, which gives only high-level detail. The Seq-Well and method details come from my background knowledge, not from a page I opened.",
+   "topics": [
+    "single-cell genomics",
+    "immunology",
+    "cancer",
+    "infectious disease",
+    "autoimmune and inflammatory disease",
+    "computational modelling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Single-cell omics, computational methods and a cancer focus overlap with the student's interests. The lab is immunology-centred and does not emphasise tumour whole-genome sequencing or structural variants. A US role would also likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at MIT. No move found.",
+    "The team page lists names and photos only, with no role, year, focus, profile link or email. Postdocs and PhD students could not be separated from staff, undergraduates and MS or MD students, so no members are listed.",
+    "Names on the team page, role unverified: Kasey Tenggren, Nancy Tran, Ameerah Schmidt, Elliot Boblitt, Jeff Gahan, Max Reynolds, Mark Godek, Sarah Sweeting, Sidney Allison, Somkene 'DK' Alakwe, Adam Rubin, Benoit Desbiolles, Bokai Zhu, Constantine Tzouanas, Evelyn Yuzhou Tong, Feng Shan, Jasmin Josep",
+    "The team page has image uploads dated up to 2026-10, so it appears current.",
+    "The lab's own home page is https://shaleklab.com/. The URL that MIT CSB lists (shalek.wpengine.com) looks outdated."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB faculty page: Alex K. Shalek",
+     "url": "https://csbphd.mit.edu/faculty/alex-k-shalek/"
+    },
+    {
+     "title": "Shalek Lab home page",
+     "url": "https://shaleklab.com/"
+    },
+    {
+     "title": "Shalek Lab team page",
+     "url": "https://shaleklab.com/team/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:36:47+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Alex K. Shalek",
+    "title": "Professor of Chemistry, MIT (the lab site describes him as J. W. Kieckhefer Professor; the MIT CSB page still lists an older Pfizer-Laubach Career Development Assistant Professor title); core member o",
+    "profile_url": "https://csbphd.mit.edu/faculty/alex-k-shalek/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Chemistry / IMES",
-   "location": null
+   "department": "Department of Chemistry; Institute for Medical Engineering & Science (IMES); Computational & Systems Biology PhD program",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT); also affiliated with the Broad Institute and Ragon Institute",
+   "members_page": "https://shaleklab.com/team/"
   },
   {
    "name": "Keating Lab",
@@ -7843,22 +7876,124 @@
    "group": null,
    "department_hint": "Biology / Biological Engineering",
    "id": "mit-keating",
-   "url": "https://csbphd.mit.edu/faculty/amy-keating/",
-   "focus": null,
-   "topics": [],
+   "url": "http://mit.edu/biology/keating/KeatingLab/Home.html",
+   "focus": "The lab studies how proteins interact in eukaryotic signaling and how those interactions affect human health. It combines computational modeling with experiments to work out how amino acid sequence controls binding specificity. It then designs peptides and other molecules that selectively disrupt particular interactions. A current focus is the Bcl-2 family of apoptosis regulators, where structure-based and machine-learning models of BH3-motif helix binding have produced selective peptide reagents for profiling apoptosis in cancer cells. The lab is also expanding into TRAF and EVH1 domains that bind short linear motifs. Methods include machine learning for protein and peptide design, structural modeling, yeast surface display, and biophysical and structural assays.",
+   "topics": [
+    "protein-protein interactions",
+    "peptide binder design",
+    "machine learning for protein design",
+    "Bcl-2 / apoptosis",
+    "short linear motifs",
+    "yeast surface display"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does protein and peptide design and structural biochemistry, so it has almost no overlap with cancer genomics, structural variants, sequencing analysis, or single-cell and spatial omics. The only link is the use of machine learning and an apoptosis-in-cancer application."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I did not find a move: the PI is still listed at MIT.",
+    "The people page has no individual profile links, no student or postdoc emails, and no year-in-program information. Its last-updated date is unknown.",
+    "The PI's general contact address, keating@mit.edu, appears on the lab people page.",
+    "The lab URL found by discovery was a CSB PhD program page. The lab's own site is the mit.edu address listed above, and I did not open it. The people page came from keatinglab.mit.edu.",
+    "A US visa may be needed for a role here."
+   ],
+   "sources": [
+    {
+     "title": "Keating Lab people",
+     "url": "https://keatinglab.mit.edu/people/"
+    },
+    {
+     "title": "MIT CSB PhD faculty page: Amy Keating",
+     "url": "https://csbphd.mit.edu/faculty/amy-keating/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:34:38+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology / Biological Engineering",
-   "location": null
+   "pi_profile": {
+    "name": "Amy Keating",
+    "title": "Professor of Biology and Biological Engineering",
+    "profile_url": "https://csbphd.mit.edu/faculty/amy-keating/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jackson Halpin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational peptide design to inhibit challenging protein–protein interfaces, with conformationally pre-organized peptides",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joel Sexton",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Domain peptide-peptide interactions, using photoactivatable cross-linkers that label binding-site motifs",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sergei Kotelnikov",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational structural modeling of proteins and their interactions, using machine learning that incorporates physical and geometric knowledge",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Cora Wendlandt",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Enhancing cyclotide yeast surface display with computational tools for binder discovery, affinity maturation, and developability",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ellen Irving",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Short linear motif binding, focusing on activation of the E3 ubiquitin ligase Itch",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Foster Birnbaum",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning models for protein design, including sequence-energy landscapes conditioned on structure",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Haley Goodwin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Peptide binder prediction and design",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jessie Gan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational models for peptide binder design",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lindsey Guan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational design of highly target-selective peptide binders; interpretable machine learning",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biology; Department of Biological Engineering",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "https://keatinglab.mit.edu/people/"
   },
   {
    "name": "Zhang Group",
@@ -7870,22 +8005,112 @@
    "group": null,
    "department_hint": "Chemistry",
    "id": "mit-zhang",
-   "url": "https://csbphd.mit.edu/faculty/bin-zhang/",
-   "focus": null,
-   "topics": [],
+   "url": "https://zhanggroup.mit.edu",
+   "focus": "The lab develops computational and theoretical methods to understand how the genome is organized in three dimensions and how that organization relates to gene regulation. Its work includes predicting genome organization from sequence data and building multiscale polymer and molecular-dynamics models of chromatin. It also incorporates genome structure and dynamics into gene network models of cell differentiation. The group describes its mission as advancing genome science through AI and simulation. It is a theory and simulation lab, not a sequencing or cancer-genomics lab.",
+   "topics": [
+    "3D genome organization",
+    "chromatin modeling",
+    "molecular dynamics simulation",
+    "machine learning for genomics",
+    "gene regulation",
+    "biophysics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The overlap is limited to computational and ML methods for genomics; the lab works on chromatin biophysics and simulation, not cancer genomics, tumour sequencing, structural or somatic variants, or single-cell and spatial omics. A US role would also need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still listed at MIT Chemistry.",
+    "The members page gives no individual research focuses or profile links, so member focus is null.",
+    "The page gave Bojun Liu the same email as Yumeng Zhang, which is probably an error, so Liu's email is left out.",
+    "The members page has no last-updated date; the footer reads © 2020.",
+    "The PI's Google Scholar URL was not verified, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Bin Zhang - MIT CSB PhD faculty profile",
+     "url": "https://csbphd.mit.edu/faculty/bin-zhang/"
+    },
+    {
+     "title": "Group Members - Zhang Group @ MIT",
+     "url": "https://zhanggroup.mit.edu/team.html"
+    },
+    {
+     "title": "Zhang Group @ MIT news",
+     "url": "https://zhanggroup.mit.edu/allnews.html"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:38:22+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Chemistry",
-   "location": null
+   "pi_profile": {
+    "name": "Bin Zhang",
+    "title": "Associate Professor of Chemistry, Associate Member of the Broad Institute, Pfizer-Laubach Career Development Professor",
+    "profile_url": "https://csbphd.mit.edu/faculty/bin-zhang/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Bojun Liu",
+     "role": "Postdoc",
+     "year": "joined 2026",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joe Paggi",
+     "role": "Postdoc",
+     "year": "joined 2023",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yumeng Zhang",
+     "role": "Postdoc",
+     "year": "joined 2024",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Camryn Carter",
+     "role": "PhD student",
+     "year": "joined 2023",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chenxi Ye",
+     "role": "PhD student",
+     "year": "joined 2025",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ivan Riveros",
+     "role": "PhD student",
+     "year": "joined 2023",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Justin Airas",
+     "role": "PhD student",
+     "year": "joined 2021",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Chemistry; Computational and Systems Biology PhD program; Broad Institute (associate member)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "https://zhanggroup.mit.edu/team.html"
   },
   {
    "name": "Berger Lab (CSAIL Computation and Biology)",
@@ -8094,22 +8319,196 @@
    "group": null,
    "department_hint": "EECS / IDSS",
    "id": "mit-uhler",
-   "url": "https://csbphd.mit.edu/faculty/caroline-uhler/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.carolineuhler.com/",
+   "focus": "The lab develops theory, methods and algorithms for probabilistic graphical models, including causal inference and learning gene regulatory networks. A second strand builds geometric models of chromosome organization, treating chromosome configurations as packings of ellipsoids, to study how DNA packing relates to gene regulation. Through the Schmidt Center, the group also applies machine learning to single-cell and perturbation data, and works with Broad biologists on spatial and multi-omics data. Most members are co-advised by Broad experimental or clinical faculty.",
+   "topics": [
+    "causal inference",
+    "graphical models",
+    "single-cell omics",
+    "perturbation modelling",
+    "chromatin / 3D genome",
+    "machine learning for biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The overlap is in computational and machine-learning methods for single-cell and spatial omics, and one postdoc (Josephine Yates) is co-advised by Eliezer Van Allen, a cancer genomics researcher. The lab's core is causal inference and representation learning, not tumour WGS, structural variants or s"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: still at MIT (EECS/IDSS) and the Broad Institute.",
+    "The members page has no date and its footer reads '© 2024', so the roster may be out of date. Check it before reaching out.",
+    "The page gives no research focus or start year for anyone. The 'focus' entries come from affiliations and co-advisors only.",
+    "Vicky Zhang is tagged as both graduate student and postdoc on the page.",
+    "The MIT CSB page says 'Assistant Professor', which may be outdated. I did not check her current rank."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD - Caroline Uhler",
+     "url": "https://csbphd.mit.edu/faculty/caroline-uhler/"
+    },
+    {
+     "title": "Uhler Lab - Current Team Members",
+     "url": "https://carolineuhler.com/current-team-members"
+    },
+    {
+     "title": "Uhler Lab - Alumni",
+     "url": "https://www.carolineuhler.com/alumni"
+    },
+    {
+     "title": "Eric and Wendy Schmidt Center - People",
+     "url": "https://ericandwendyschmidtcenter.org/people"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:37:59+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EECS / IDSS",
-   "location": null
+   "pi_profile": {
+    "name": "Caroline Uhler",
+    "title": "Henry L. Grace Doherty Associate/Assistant Professor (the MIT CSB page lists 'Assistant Professor'; this may be outdated). Also Director of the Eric and Wendy Schmidt Center at the Broad Institute.",
+    "profile_url": "https://csbphd.mit.edu/faculty/caroline-uhler/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Dongshunyi (Dora) Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoctoral fellow co-advised by Fei Chen (Broad); research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://twitter.com/doralidsy"
+    },
+    {
+     "name": "Josephine Yates",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center fellow co-advised by Eliezer Van Allen (cancer genomics at Dana-Farber/Broad); research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/josephine-yates/"
+    },
+    {
+     "name": "Julie Laffy",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center fellow co-advised by Fei Chen and Nir Hacohen; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://github.com/jlaffy"
+    },
+    {
+     "name": "Kai Cao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center fellow co-advised by Ramnik Xavier; research focus not stated on the page",
+     "email": null,
+     "profile_url": "http://www.caokai.site"
+    },
+    {
+     "name": "Luezhen Yuan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center fellow co-advised by Ramnik Xavier; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://github.com/LuezhenYuan"
+    },
+    {
+     "name": "Vidhi Lalchand",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center and MIT postdoc; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.vidhilalchand.co.uk/"
+    },
+    {
+     "name": "Viktoria Schuster",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "MIT and Schmidt Center postdoc; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://viktoriaschuster.github.io/website/"
+    },
+    {
+     "name": "Yichun He",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center fellow co-advised by Xiao Wang; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://yichunher.github.io/"
+    },
+    {
+     "name": "Yue Qin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center fellow co-advised by Paul Blainey; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://twitter.com/Yue_Qin_SysBio"
+    },
+    {
+     "name": "Abhinav Kumar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center graduate student in MIT EECS; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://abhinavkumar.info/"
+    },
+    {
+     "name": "Chujun He",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center graduate student in MIT IDSS, co-advised by Munther Dahleh; research focus not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Hannah Schlueter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center graduate student in MIT EECS; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://hannahschlueter.com/"
+    },
+    {
+     "name": "Jiaqi (Vicky) Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Graduate student in MIT EECS, LIDS and IDSS; the page also tags her as a postdoc, so her status needs checking; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://jqvicky.github.io/"
+    },
+    {
+     "name": "Jingwen (Alina) Guo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center graduate student at MIT; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/alina-guo314/"
+    },
+    {
+     "name": "Maggie Sui",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center PhD student at MIT; research focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/maggie-sui-1617012/"
+    },
+    {
+     "name": "Max Land",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center graduate student in MIT LIDS, co-advised by G.V. Shivashankar; research focus not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Renzo Soatto",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center graduate student; research focus not stated on the page",
+     "email": null,
+     "profile_url": "http://rsoatto.github.io"
+    }
+   ],
+   "department": "Electrical Engineering and Computer Science (EECS); Institute for Data, Systems and Society (IDSS); Eric and Wendy Schmidt Center at the Broad Institute",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT); also a core member of the Broad Institute of MIT and Harvard",
+   "members_page": "https://carolineuhler.com/current-team-members"
   },
   {
    "name": "Burge Lab",
@@ -8230,22 +8629,64 @@
    "group": null,
    "department_hint": "EECS / IMES",
    "id": "mit-stultz",
-   "url": "https://csbphd.mit.edu/faculty/collin-m-stultz/",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.rle.mit.edu/cbg/",
+   "focus": "The group computationally studies how large biomolecules change shape and how those changes relate to human disease. It builds methods to model the unfolded ensembles of intrinsically disordered proteins linked to Alzheimer's disease, such as tau, alpha-synuclein and amyloid beta. A second theme applies signal processing and machine learning to build computational biomarkers that identify cardiovascular patients at high risk of adverse events. These models combine clinical history, genetic data and physiologic signals to support clinical decisions.",
+   "topics": [
+    "molecular simulation",
+    "intrinsically disordered proteins",
+    "protein structure and dynamics",
+    "machine learning for clinical risk predi",
+    "cardiovascular biomarkers"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's clinical machine learning overlaps only slightly with the student's computational-methods interest, and it does no cancer genomics, structural variant or single-cell work."
    },
-   "flags": [],
-   "sources": [],
-   "broken_links": [],
-   "refreshed_at": null,
+   "flags": [
+    "The lab members page could not be opened (certificate error on rle.mit.edu), so no postdocs or PhD students were verified and the members list is empty.",
+    "The lab appears to have shifted from molecular biophysics toward clinical machine learning. Wikipedia calls it the Computational Cardiovascular Research Group, so the 'Computational Biophysics Group' name may be dated.",
+    "The PI is still at MIT and no move was found. Current page text was not checked for dates.",
+    "The PI's Google Scholar URL was not found.",
+    "The role is in the US, so the student may need a visa."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD - Collin M. Stultz",
+     "url": "https://csbphd.mit.edu/faculty/collin-m-stultz/"
+    },
+    {
+     "title": "RLE - Collin M. Stultz",
+     "url": "https://www.rle.mit.edu/people/collin-m-stultz/"
+    },
+    {
+     "title": "Wikipedia - Collin M. Stultz",
+     "url": "https://en.wikipedia.org/wiki/Collin_M._Stultz"
+    },
+    {
+     "title": "MIT CSAIL - Collin Stultz",
+     "url": "https://cap.csail.mit.edu/members/people/collin-stultz"
+    },
+    {
+     "title": "Jameel Clinic - Collin Stultz",
+     "url": "https://jclinic.mit.edu/team-member/collin-stultz"
+    }
+   ],
+   "broken_links": [
+    "http://www.rle.mit.edu/cbg/"
+   ],
+   "refreshed_at": "2026-10-21T23:37:11+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Collin M. Stultz",
+    "title": "Professor of Electrical Engineering and Computer Science; Institute for Medical Engineering and Science (IMES)",
+    "profile_url": "https://www.rle.mit.edu/people/collin-m-stultz/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "EECS / IMES",
-   "location": null
+   "department": "EECS; IMES / Harvard-MIT Health Sciences and Technology (HST); Research Laboratory of Electronics (RLE); CSAIL (associate member); Jameel Clinic",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "http://www.rle.mit.edu/cbg/"
   },
   {
    "name": "Coley Research Group",
@@ -8518,22 +8959,183 @@
    "group": null,
    "department_hint": "Biology",
    "id": "mit-page",
-   "url": "https://csbphd.mit.edu/faculty/david-c-page/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.pagelab.wi.mit.edu/",
+   "focus": "The lab studies the chromosomal origins of sex differences in health and disease, centred on the X and Y chromosomes (Xa, Xi, Y). It uses both computational and experimental approaches. Topics include sex chromosome evolution and biology, and sex differences in human health and in the brain. Cancer genomics, structural variant calling and single-cell or spatial cancer omics are not described on the pages I could read.",
+   "topics": [
+    "sex chromosomes",
+    "X and Y chromosome biology",
+    "sex differences in disease",
+    "sex chromosome evolution",
+    "computational genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab does computational genomics, but its focus is sex-chromosome biology and sex differences in health, not tumour WGS/transcriptome, somatic variants or cancer single-cell/spatial omics, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: Page is still at MIT and the Whitehead Institute.",
+    "The members page gives names, programs and join years only. It has no research focus, profile links or emails, so those fields are null. Only Alisa White's focus came from a separate Whitehead profile.",
+    "Page's Whitehead profile lists him as Member; one source listed him as Director. I did not resolve this, so the title above is the one from the Whitehead profile.",
+    "Google Scholar URL not verified, so left null.",
+    "The members page has no date, so I could not tell when it was last updated."
+   ],
+   "sources": [
+    {
+     "title": "Page Lab members",
+     "url": "https://www.pagelab.wi.mit.edu/members"
+    },
+    {
+     "title": "Page Lab home",
+     "url": "http://pagelab.wi.mit.edu/"
+    },
+    {
+     "title": "Whitehead Institute profile: David Page",
+     "url": "https://wi.mit.edu/people/member/page"
+    },
+    {
+     "title": "MIT CSB faculty page: David C. Page",
+     "url": "https://csbphd.mit.edu/faculty/david-c-page/"
+    },
+    {
+     "title": "Whitehead postdoc profiles",
+     "url": "https://wi.mit.edu/series/postdoc-profiles"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:36:14+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology",
-   "location": null
+   "pi_profile": {
+    "name": "David C. Page",
+    "title": "Professor of Biology, MIT; Member, Whitehead Institute; Investigator, Howard Hughes Medical Institute",
+    "profile_url": "https://wi.mit.edu/people/member/page",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alisa White",
+     "role": "Postdoc",
+     "year": "joined 2022",
+     "focus": "Sex differences in the brain",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jordana Bloom",
+     "role": "Postdoc",
+     "year": "joined 2020",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ben Feng",
+     "role": "PhD student",
+     "year": "joined 2024 (MIT Biology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Carol Dalgarno",
+     "role": "PhD student",
+     "year": "joined 2025 (MIT Biology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Danielle Firer",
+     "role": "PhD student",
+     "year": "joined 2024 (MIT CSB)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Erik Owen",
+     "role": "PhD student",
+     "year": "joined 2023 (MIT CSB)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Finn Thompson",
+     "role": "PhD student",
+     "year": "joined 2023 (MIT Biology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Gesmira Molla",
+     "role": "PhD student",
+     "year": "joined 2025 (MIT CSB)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ian Sabula",
+     "role": "PhD student",
+     "year": "joined 2021 (MIT Biology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jaclyn Kline",
+     "role": "PhD student",
+     "year": "joined 2024 (Harvard Immunology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jared Collins",
+     "role": "PhD student",
+     "year": "joined 2026 (MIT CSB)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maya Talukdar",
+     "role": "PhD student",
+     "year": "joined 2020 (Harvard BIG)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shravasti Ray",
+     "role": "PhD student",
+     "year": "joined 2024 (MIT Biology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sophie VanderWeele",
+     "role": "PhD student",
+     "year": "joined 2024 (MIT Biological Engineering)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Xueqi Sun",
+     "role": "PhD student",
+     "year": "joined 2025 (MIT Biology)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "MIT Department of Biology; Whitehead Institute for Biomedical Research; HHMI",
+   "location": "Cambridge, Massachusetts, USA",
+   "current_institution": "Massachusetts Institute of Technology / Whitehead Institute",
+   "members_page": "https://www.pagelab.wi.mit.edu/members"
   },
   {
    "name": "Gifford Lab",
@@ -8545,22 +9147,54 @@
    "group": null,
    "department_hint": "EECS",
    "id": "mit-gifford",
-   "url": "https://csbphd.mit.edu/faculty/david-k-gifford/",
-   "focus": null,
-   "topics": [],
+   "url": "http://cgs.csail.mit.edu/",
+   "focus": "The lab develops machine learning methods to model the transcriptional regulatory networks that control gene expression. It integrates genome sequence, chromatin structure, transcription factor binding and expression data to study how regulatory networks guide development. Current work includes modelling chromatin-modifying complexes and chromatin-based cellular memory in yeast, and building modular graphical models with mechanistic constraints. The lab also models regulatory networks that direct stem-cell differentiation. Recent publications include combinatorial ML optimization of peptide vaccine formulations for SARS-CoV-2 and the HIGAN pipeline linking signaling inputs, transcription factors and cis-regulatory elements.",
+   "topics": [
+    "regulatory genomics",
+    "machine learning",
+    "epigenomics / chromatin",
+    "stem-cell differentiation",
+    "peptide vaccine design"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares an interest in computational and ML methods for genomics, but it works on regulatory genomics, chromatin and vaccine design rather than cancer genomics, structural variants or tumour sequencing. The PI is also not taking students, and the team page lists no current members."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The team page lists no current postdocs or PhD students. Its named PhD members are all alumni (graduated 2022–2025), so the member list is empty.",
+    "The CSB program page lists the PI as 'Professor Post Tenure - Not taking students'.",
+    "The team page shows no last-updated date and says its alumni list is incomplete.",
+    "The PI is still listed at MIT EECS, so no institutional move was found.",
+    "gifford.mit.edu did not load (connection refused)."
+   ],
+   "sources": [
+    {
+     "title": "CSB PhD Program: David K. Gifford",
+     "url": "https://csbphd.mit.edu/faculty/david-k-gifford/"
+    },
+    {
+     "title": "Gifford Lab homepage",
+     "url": "http://cgs.csail.mit.edu/"
+    },
+    {
+     "title": "Gifford Lab team page",
+     "url": "https://cgs.csail.mit.edu/team/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:38:17+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "David K. Gifford",
+    "title": "Professor of Electrical Engineering and Computer Science (Professor Post Tenure; not taking students)",
+    "profile_url": "https://www.eecs.mit.edu/people/faculty/david-gifford",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "EECS",
-   "location": null
+   "department": "Electrical Engineering and Computer Science (EECS); CSAIL; Computational and Systems Biology (CSB) PhD program",
+   "location": "Cambridge, Massachusetts, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "https://cgs.csail.mit.edu/team/"
   },
   {
    "name": "Sontag Lab (Clinical ML)",
@@ -8572,22 +9206,88 @@
    "group": null,
    "department_hint": "EECS / IMES",
    "id": "mit-sontag",
-   "url": "https://csbphd.mit.edu/faculty/david-sontag/",
-   "focus": null,
-   "topics": [],
+   "url": "http://clinicalml.org/",
+   "focus": "The group develops machine learning methods for clinical prediction, causal inference on high-dimensional observational data, and next-generation electronic health records. Current work includes foundation models for structured EHR data, NLP and human-AI collaboration over clinical and scientific text, reliable causal inference from heterogeneous data, and weak supervision and inference methods. One student (Boiarsky) builds disease progression models from clinical and genomic data, including single-cell RNA-seq in cancer. The work is mostly clinical and EHR ML, not genomics or sequencing.",
+   "topics": [
+    "clinical machine learning",
+    "causal inference",
+    "EHR foundation models",
+    "clinical NLP",
+    "weak supervision",
+    "disease progression models"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Only a small overlap with the student's interests (one student works on single-cell RNA-seq in cancer and genomic data, and the lab does ML methods work), while the lab is mainly EHR/clinical ML with no focus on WGS, structural variants or somatic mutation analysis."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI has not moved institutions. He is still at MIT, but is on partial leave in 2025 and is CEO of Layer Health, which he co-founded.",
+    "The lab people page lists no current postdocs. Postdocs appear only as alumni.",
+    "The people page shows no dates, so I could not tell how recently it was updated. Some of the listed students (for example Hunter Lang and Rebecca Boiarsky) may be near graduation or may already have left.",
+    "No emails or start years are published on the people page.",
+    "Lawrence Shi is an MEng student, so I left him out of the member list."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD: David Sontag",
+     "url": "https://csbphd.mit.edu/faculty/david-sontag/"
+    },
+    {
+     "title": "Clinical ML: Meet the Team",
+     "url": "http://clinicalml.org/people/"
+    },
+    {
+     "title": "David Sontag's Home Page (CSAIL)",
+     "url": "http://people.csail.mit.edu/dsontag/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:36:52+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EECS / IMES",
-   "location": null
+   "pi_profile": {
+    "name": "David Sontag",
+    "title": "Professor of Electrical Engineering and Computer Science (the CSB PhD page still lists him as Assistant Professor and Helmholtz Career Development Professor in IMES)",
+    "profile_url": "http://people.csail.mit.edu/dsontag/",
+    "scholar_url": "https://scholar.google.com/citations?user=LfcroyAAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Hunter Lang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Performance of ML algorithms in real-world settings, including MAP inference, stochastic optimization and weak supervision.",
+     "email": null,
+     "profile_url": "http://clinicalml.org/author/hunter-lang/"
+    },
+    {
+     "name": "Ilker Demirel",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Reliable causal inference methods using rich, heterogeneous data.",
+     "email": null,
+     "profile_url": "http://clinicalml.org/author/ilker-demirel/"
+    },
+    {
+     "name": "Rebecca (Peyser) Boiarsky",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Disease progression models and precision medicine using clinical and genomic data, especially single-cell RNA-seq in cancer.",
+     "email": null,
+     "profile_url": "http://clinicalml.org/author/rebecca-peyser-boiarsky/"
+    },
+    {
+     "name": "Shannon Shen (Zejiang Shen)",
+     "role": "PhD student",
+     "year": null,
+     "focus": "NLP and HCI for expert scientific, legal and clinical text, supporting human-AI collaboration.",
+     "email": null,
+     "profile_url": "http://clinicalml.org/author/shannon-shen/"
+    }
+   ],
+   "department": "EECS; Institute for Medical Engineering & Science (IMES); CSAIL; J-Clinic for Machine Learning in Health",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "http://clinicalml.org/people/"
   },
   {
    "name": "Del Vecchio Lab",
@@ -8599,22 +9299,136 @@
    "group": null,
    "department_hint": "Mechanical Engineering",
    "id": "mit-vecchio",
-   "url": "https://csbphd.mit.edu/faculty/domitilla-del-vecchio/",
-   "focus": null,
-   "topics": [],
+   "url": "https://scripts.mit.edu/~ddv/people.php",
+   "focus": "The lab designs and analyzes genetic networks, from fully synthetic circuits to circuits that interact with a cell's native regulatory networks. A major theme is how context (resource competition, loading, and retroactivity) affects circuit behavior. The lab uses feedback control design to reduce those effects. A main goal is circuits that guide cell fate transitions for regenerative medicine. Methods combine dynamical-systems and control theory modeling with wet-lab synthetic biology.",
+   "topics": [
+    "synthetic biology",
+    "genetic circuits",
+    "control theory",
+    "cell fate reprogramming",
+    "context dependence / resource competitio",
+    "regenerative medicine"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does control-theoretic synthetic biology and circuit design, so it has almost no overlap with cancer genomics, sequencing, structural variants, or single-cell/spatial omics, apart from a loose link through mathematical modelling."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I could not open the lab people page directly (certificate rejected). The member names and roles come only from a search-result summary of that page, so I did not check them against the page itself.",
+    "I found no research focus, year, email or profile link for any member, so those fields are null.",
+    "The search summary did not show a date on the people page, so the roster may be out of date. Check the page before contacting anyone.",
+    "No Google Scholar profile was found.",
+    "The PI is still at MIT, and I found no sign of a move. Her title differs between pages: the CSB page says Associate Professor, and the lab page says Grover M. Hermann Professor."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD - Domitilla Del Vecchio",
+     "url": "https://csbphd.mit.edu/faculty/domitilla-del-vecchio/"
+    },
+    {
+     "title": "Del Vecchio Lab people page (seen only in search results)",
+     "url": "https://scripts.mit.edu/~ddv/people.php"
+    },
+    {
+     "title": "Domitilla Del Vecchio - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Domitilla_Del_Vecchio"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:37:56+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Mechanical Engineering",
-   "location": null
+   "pi_profile": {
+    "name": "Domitilla Del Vecchio",
+    "title": "Grover M. Hermann Professor in Health Sciences and Technology, Mechanical and Biological Engineering (the CSB page still lists her as Associate Professor of Mechanical Engineering)",
+    "profile_url": "https://csbphd.mit.edu/faculty/domitilla-del-vecchio/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Elia Salibi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Giulio Alighieri",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Iacopo Ruolo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sebastian Palacios",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Eric Lu",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Hengyu Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jichi Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kalon Overholt",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Krishna Manoj",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nicholas Nolan",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Mechanical Engineering; Biological Engineering; MIT Synthetic Biology Center; Computational and Systems Biology (CSB) PhD program",
+   "location": "Cambridge, Massachusetts, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "https://scripts.mit.edu/~ddv/people.php"
   },
   {
    "name": "Alm Lab",
@@ -9290,22 +10104,104 @@
    "group": null,
    "department_hint": "IMES / Physics",
    "id": "mit-mirny",
-   "url": "https://csbphd.mit.edu/faculty/leonid-mirny/",
-   "focus": null,
-   "topics": [],
+   "url": "https://mirnylab.mit.edu/",
+   "focus": "The lab studies the physical principles linking 3D genome folding to genome function. It builds simple physical models of biological systems, using polymer physics theory and simulation, statistical analysis of genome-wide data such as Hi-C, and population genetics and evolutionary theory. Topics include loop extrusion by cohesin and condensin, chromatin organization and epigenetic memory, enhancer-promoter communication, and DNA repair. The lab also covers cell division, immune response, and chromosome abnormalities in cancer.",
+   "topics": [
+    "3D genome organization",
+    "loop extrusion",
+    "polymer physics simulation",
+    "Hi-C analysis",
+    "epigenetic memory",
+    "chromosome abnormalities in cancer"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is mostly biophysical modelling of chromatin folding and Hi-C. It overlaps only loosely with the student's cancer genomics, structural variant, sequencing and single-cell interests, mainly through chromosome abnormalities in cancer and computational and statistical methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at MIT, with no move found.",
+    "The members page shows no last-updated date and gives no student years.",
+    "Jonas Neipel and Flavia Corsi are listed with Institut Curie (Paris) email addresses. They may be based in a Curie-affiliated collaboration rather than at MIT.",
+    "Tingran Wang is listed as 'Graduate Student, MIT Physics'. The page does not explicitly say PhD, so that role is inferred.",
+    "Henrik Dahl Pinholt's Google Scholar link is malformed on the page, so I left his profile URL null."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD – Leonid Mirny",
+     "url": "https://csbphd.mit.edu/faculty/leonid-mirny/"
+    },
+    {
+     "title": "Mirny Lab home",
+     "url": "https://mirnylab.mit.edu/"
+    },
+    {
+     "title": "Mirny Lab – Lab members",
+     "url": "https://mirnylab.mit.edu/lab-members/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:35:44+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "IMES / Physics",
-   "location": null
+   "pi_profile": {
+    "name": "Leonid A. Mirny",
+    "title": "Professor of Medical Engineering and Science, and Physics",
+    "profile_url": "https://csbphd.mit.edu/faculty/leonid-mirny/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Flavia Corsi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Mechanisms governing 3D organization of sister chromatids, using biophysical models (listed as Postdoctoral Fellow, Institut Curie, Paris)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=aJDoWvIAAAAJ"
+    },
+    {
+     "name": "Irina Zhegalova",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Role of non-coding RNAs in shaping chromatin organization, using bioinformatics analysis of Hi-C data",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=JiW914oAAAAJ"
+    },
+    {
+     "name": "Jonas Neipel",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "How 3D genome organization lets cells learn and maintain identity through epigenetic patterns on the genomic polymer",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=u-2pRe0AAAAJ&hl=en&oi=ao"
+    },
+    {
+     "name": "Timothy Földes",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Kinetics of cohesin-mediated chromatin contacts and their role in enhancer-promoter communication, using analytical methods and simulations",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=tTbxWf4AAAAJ&hl=en&oi=ao"
+    },
+    {
+     "name": "Henrik Dahl Pinholt",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cell decision-making, especially enhancer-mediated gene activation and DNA repair, using single-particle tracking inference, non-equilibrium statistical mechanics and polymer simulations",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tingran Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Epigenetic memory through mitotic division and cell fate, plus Bayesian inference to directly observe loop extrusion in vivo",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=eH3n6lMAAAAJ"
+    }
+   ],
+   "department": "Institute for Medical Engineering & Science (IMES); Department of Physics; MIT Computational and Systems Biology PhD program",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "https://mirnylab.mit.edu/lab-members/"
   },
   {
    "name": "MIT Computational Biology Group (Kellis Lab)",
@@ -9318,21 +10214,247 @@
    "department_hint": "EECS",
    "id": "mit-kellis",
    "url": "https://compbio.mit.edu/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab studies the mechanisms of human disease by combining computational and experimental methods. It annotates functional elements of the human genome and maps the gene-regulatory circuits that control them. Methods include epigenomic annotation of regulatory regions across cell types, comparative genomics to find constrained coding and non-coding regions, and GWAS and polygenic-score dissection. Current work leans heavily on single-cell and spatial genomics, especially in brain (Alzheimer's) and metabolism, with machine learning (VAEs, Bayesian models, protein language models, generative AI). Cancer genomics is listed as an area, but it is a minor part of the current group.",
+   "topics": [
+    "regulatory genomics",
+    "epigenomics",
+    "single-cell and spatial omics",
+    "GWAS / disease genetics",
+    "comparative genomics",
+    "ML for genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap on computational/ML methods and single-cell/spatial omics, but the lab's current focus is brain, metabolism and regulatory genomics rather than tumour WGS, structural variants or somatic mutations, and a US visa may be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at MIT (EECS/CSAIL and Broad); no move found.",
+    "The members page shows no last-updated date and mixes current and alumni entries, so the roster may be stale. Xushen Xiong appears as both postdoc and alumnus. Elvira Kinzina entered the PhD in 2018, so check whether they are still a student.",
+    "Irwin Jungreis (GENCODE, stop-codon readthrough) and Lei Hou (disease genetics/epigenomics) are listed under the postdoc heading as research scientists. They are left out of the members list; Xushen Xiong is also left out because of the double listing.",
+    "No emails are published on the people page; the only contact found is kellis-admin@mit.edu.",
+    "Cancer genomics is a minor, mostly historical theme. Vanessa Xiao (spatial transcriptomics and geometric deep learning in cancer) is an undergraduate UROP, not a PhD student."
+   ],
+   "sources": [
+    {
+     "title": "Kellis Lab home",
+     "url": "https://compbio.mit.edu/"
+    },
+    {
+     "title": "Kellis Lab people",
+     "url": "https://compbio.mit.edu/people.html"
+    },
+    {
+     "title": "MIT CSB PhD profile: Elvira Kinzina",
+     "url": "https://csbphd.mit.edu/student/elvira-kinzina"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:35:34+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EECS",
-   "location": null
+   "pi_profile": {
+    "name": "Manolis Kellis",
+    "title": "Professor of Computer Science (EECS); Karl Van Tassel Career Development Chair; Broad Institute associate member; CSAIL member",
+    "profile_url": "https://compbio.mit.edu/people.html",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alec Chapman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ben Lengerich",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Bo Zhao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Elee Shimshoni",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Complex in vitro models for target validation and drug testing",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Eman Alnabati",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Fiona Song",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jackie Yang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kai Kang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Leandro Agudelo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lei Xiong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Martin Wohlwend",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Functional genomics, iPSCs",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Riley Mangan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Gene regulation and evolution",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shanshan Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Single-cell genomics and epigenomics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Suvi Linna-Kuosmanen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Xikun Han",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yongheng Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Single-cell spatial omics and generative AI (MIT-Novo Nordisk AI Fellow)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yosuke Tanigawa",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Disease heterogeneity dissection, inclusive polygenic scores",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zunpeng Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Single-cell epigenomics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alexander Lenail",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational systems biology",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Benjamin James",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Single-cell genomics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Eloi Schmauch",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Elvira Kinzina",
+     "role": "PhD student",
+     "year": "entered 2018 (MIT CSB PhD)",
+     "focus": "Not listed on the lab page",
+     "email": null,
+     "profile_url": "https://csbphd.mit.edu/student/elvira-kinzina"
+    },
+    {
+     "name": "Na Sun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sebastian Pineda",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "EECS / Computer Science and Artificial Intelligence Laboratory (CSAIL); Broad Institute of MIT and Harvard",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "https://compbio.mit.edu/people.html"
   },
   {
    "name": "Bathe Lab",
@@ -9404,22 +10526,180 @@
    "group": null,
    "department_hint": "EECS / IMES",
    "id": "mit-ghassemi",
-   "url": "https://healthy-ml.csail.mit.edu/marzyeh",
-   "focus": null,
-   "topics": [],
+   "url": "https://healthy-ml.csail.mit.edu/",
+   "focus": "The group develops and applies machine learning to understand and improve health, with a focus on making models robust, private and fair. Work includes clinical ML on EHR, time-series, imaging and multimodal data, plus algorithmic fairness, differential privacy and distribution shift. A newer strand covers trustworthy LLMs and reasoning for healthcare, including auditing generative models. Most of the work targets clinical and hospital data. A few members work on biological or neuroimaging data, but none on genomics.",
+   "topics": [
+    "clinical machine learning",
+    "algorithmic fairness",
+    "robustness and distribution shift",
+    "differential privacy",
+    "trustworthy LLMs for healthcare",
+    "EHR and multimodal data"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does general ML methods for clinical data, with fairness and robustness as core themes. It has no cancer genomics, sequencing, structural variant or single-cell/spatial work, so it overlaps only on the ML-methods interest. The student would also likely need a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: Ghassemi is still at MIT (EECS/IMES, also LIDS).",
+    "Her Google Scholar URL was not verified, so it is null.",
+    "Most members' years are not stated on the people page.",
+    "The page also lists master's students and alumni, who are excluded here.",
+    "The student would likely need a US visa."
+   ],
+   "sources": [
+    {
+     "title": "Healthy ML Group – Marzyeh Ghassemi",
+     "url": "https://healthy-ml.csail.mit.edu/marzyeh"
+    },
+    {
+     "title": "Healthy ML Group – People",
+     "url": "https://healthy-ml.csail.mit.edu/people"
+    },
+    {
+     "title": "Healthy ML Group home",
+     "url": "https://healthy-ml.csail.mit.edu/"
+    },
+    {
+     "title": "MIT IMES – Marzyeh Ghassemi",
+     "url": "https://imes.mit.edu/node/686"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:34:03+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EECS / IMES",
-   "location": null
+   "pi_profile": {
+    "name": "Marzyeh Ghassemi",
+    "title": "Associate Professor, EECS and IMES",
+    "profile_url": "https://healthy-ml.csail.mit.edu/marzyeh",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Chantal Shaib",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Linguistic variation in language models, robustness and novelty",
+     "email": null,
+     "profile_url": "http://cshaib.github.io/"
+    },
+    {
+     "name": "Lena Stempfle",
+     "role": "Postdoc",
+     "year": "Joined fall 2025",
+     "focus": "ML in healthcare, predictions with missing test-time values, time series, causality",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=U5vzdc4AAAAJ"
+    },
+    {
+     "name": "Sydney Bailes",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Neuroimaging and ML, brain aging",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Aaron Serianni",
+     "role": "PhD student",
+     "year": "1st year",
+     "focus": "Fairness in ML, bias mitigation, societal impacts of AI",
+     "email": null,
+     "profile_url": "https://aaronserianni.com/"
+    },
+    {
+     "name": "Abinitha Gourabathina",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Trustworthy ML; auditing generative models' latent spaces in high-stakes settings",
+     "email": null,
+     "profile_url": "https://abinithago.github.io/"
+    },
+    {
+     "name": "Awa Dieng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Reliable ML, sources of bias and mitigation",
+     "email": null,
+     "profile_url": "https://www.awadieng.me/"
+    },
+    {
+     "name": "Cassandra Parent",
+     "role": "PhD student",
+     "year": "3rd year",
+     "focus": "Equitable ML for underserved health conditions using routinely captured data in and out of hospitals",
+     "email": null,
+     "profile_url": "https://cassandra-parent.github.io"
+    },
+    {
+     "name": "Hyewon Jeong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Clinical ML on time-series EHR, signal and multimodal data; robustness, fairness, causal inference",
+     "email": null,
+     "profile_url": "https://sites.google.com/view/hyewon-jeong/"
+    },
+    {
+     "name": "Isha Puri",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Language models that reason, deployable and ethical AI",
+     "email": null,
+     "profile_url": "https://ishapuri.github.io"
+    },
+    {
+     "name": "Jennifer Lu",
+     "role": "PhD student",
+     "year": "1st year",
+     "focus": "Model interpretability, robust representation learning, latent geometry and failure prediction",
+     "email": null,
+     "profile_url": "https://mlu108.github.io/"
+    },
+    {
+     "name": "Kumail Alhamoud",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Trustworthy, adaptable ML; evaluation under distribution shift in healthcare",
+     "email": null,
+     "profile_url": "https://kumailalhamoud.netlify.app"
+    },
+    {
+     "name": "Qixuan (Alice) Jin",
+     "role": "PhD student",
+     "year": "5th year",
+     "focus": "Incorporating expert domain knowledge into data-driven models for medical and biological data",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sraavya Sambara",
+     "role": "PhD student",
+     "year": "1st year",
+     "focus": "Efficient, reliable multimodal ML for high-stakes reasoning",
+     "email": null,
+     "profile_url": "https://srsambara.github.io/"
+    },
+    {
+     "name": "Vinith M. Suriyakumar",
+     "role": "PhD student",
+     "year": "5th year",
+     "focus": "Differential privacy, algorithmic fairness, distributive justice, optimization",
+     "email": null,
+     "profile_url": "https://vms-6511.github.io/"
+    },
+    {
+     "name": "Yuxin Xiao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Safe, robust, trustworthy LLMs and reasoning for healthcare",
+     "email": null,
+     "profile_url": "https://xiaoyuxin1002.github.io"
+    }
+   ],
+   "department": "Electrical Engineering and Computer Science (EECS); Institute for Medical Engineering & Science (IMES); affiliated with LIDS, CSAIL, IDSS and the Jameel Clinic",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "https://healthy-ml.csail.mit.edu/people"
   },
   {
    "name": "Jones Lab",
@@ -9431,22 +10711,107 @@
    "group": null,
    "department_hint": "Biology / IMES",
    "id": "mit-jones",
-   "url": "https://csbphd.mit.edu/faculty/matthew-g-jones/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.thejoneslaboratory.com",
+   "focus": "The lab builds computational tools and experimental technologies to study how tumours evolve at the genetic, epigenetic, metabolic and microenvironmental levels. One area is tracking how copy-number alterations, especially extrachromosomal DNA (ecDNA), change across space and time in tumours. A second area is developing new methods, both computational and experimental, for single-cell lineage tracing and the phylodynamics of tumour evolution. A third area is the principles that organise tumours over time. Methods combine AI and machine learning with single-cell, spatial and long-read multi-omics, lineage tracing and high-resolution imaging.",
+   "topics": [
+    "tumour evolution",
+    "extrachromosomal DNA / copy-number alter",
+    "single-cell lineage tracing",
+    "spatial and long-read multi-omics",
+    "computational methods / ML"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "The lab's work on copy-number alterations and ecDNA, single-cell and spatial omics in cancer, and computational/ML methods overlaps strongly with the student's interests. It is less centred on bulk tumour WGS or structural-variant calling, and the role would be in the US, so a visa may be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: the PI is confirmed at MIT, and the MIT Koch Institute (ki.mit.edu) news and faculty pages appear in search results.",
+    "The team page lists no research focus, year, email or individual profile pages for any member. Contact details are on the lab's /contact page, which I did not open.",
+    "Julien Dilly is a joint postdoc with Tyler Jacks (jacks-lab.mit.edu). James Occean is a joint PhD student with Will Greenleaf (greenleaf.stanford.edu).",
+    "I did not find a Google Scholar URL.",
+    "The team page also lists an MEng student, two technical staff and two UROP undergraduates, who are excluded here."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD – Matthew G. Jones",
+     "url": "https://csbphd.mit.edu/faculty/matthew-g-jones/"
+    },
+    {
+     "title": "Jones Laboratory",
+     "url": "https://www.thejoneslaboratory.com"
+    },
+    {
+     "title": "Jones Laboratory – Team",
+     "url": "https://www.thejoneslaboratory.com/team"
+    },
+    {
+     "title": "Koch Institute – Matt Jones, PhD",
+     "url": "https://ki.mit.edu/people/faculty/matthew-jones"
+    },
+    {
+     "title": "IMES – Matthew G. Jones",
+     "url": "https://imes.mit.edu/node/1673"
+    },
+    {
+     "title": "Koch Institute – Decoding Cancer Evolution",
+     "url": "https://ki.mit.edu/news/2026/decoding-cancer-evolution"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:34:33+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology / IMES",
-   "location": null
+   "pi_profile": {
+    "name": "Matthew G. Jones",
+    "title": "Assistant Professor, Department of Biology",
+    "profile_url": "https://csbphd.mit.edu/faculty/matthew-g-jones/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Julien Dilly",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joint postdoc with Tyler Jacks (Jacks lab); focus not listed on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ada Zhu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biology PhD program student; focus not listed on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "James Occean",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Joint with Will Greenleaf (Stanford); focus not listed on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Juliano Ribeiro",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MEMP/HST program student; focus not listed on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Liz Codd",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CSB PhD program student; focus not listed on the page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biology; Koch Institute for Integrative Cancer Research (intramural member); Institute for Medical Engineering and Science (IMES, core member)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "https://www.thejoneslaboratory.com/team"
   },
   {
    "name": "Corradin Lab",
@@ -9889,21 +11254,58 @@
    "department_hint": "EECS / CSAIL",
    "id": "mit-szolovits",
    "url": "https://people.csail.mit.edu/psz/web",
-   "focus": null,
-   "topics": [],
+   "focus": "The group applies AI to medical decision making. Its topics include clinical decision support and predictive modeling from electronic health records. It also works on clinical natural language processing, which extracts structured information from clinical narratives to support translational medicine, and on integrating multimodal clinical data (notes, images, structured data). Past student work covers clinical question answering, medical imaging with constrained data, graph neural networks for diagnosing genetic conditions, and equitable machine learning in healthcare. The work centres on clinical and EHR data, not omics or sequencing.",
+   "topics": [
+    "clinical NLP",
+    "clinical decision support",
+    "predictive modeling from EHR",
+    "multimodal clinical data",
+    "ML for healthcare",
+    "fairness in health ML"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Methodological overlap through machine learning for health data, with a small link through a past graph-neural-network project on rare genetic disease diagnosis; the group does not work on cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics, and a US role would likel"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at MIT. No move was found, but the sources I found are old, so I could not confirm 2026 status.",
+    "The group's students page was last updated 2022-05-20. It lists students as 'in progress' or 'exploring', with no years, links or emails. Those entries are probably now graduated or stale, so I did not list them as current members.",
+    "The older MEDG people page (groups.csail.mit.edu/medg/people/) is also outdated. It shows MS-level students and research staff, with no current postdocs or PhD students.",
+    "No verified current roster of postdocs or PhD students was found. Check the PI's page or ask the group directly.",
+    "Names from the 2022 students page, for follow-up only (status unverified): Elena Sergeeva, Geeticka Chauhan, Harry Hsu, Emily Alsentzer (co-supervised with Kohane), and readers Monica Agrawal, Irene Chen, Kertu Tenso, Yilun Zhou and Daphne Schlesinger."
+   ],
+   "sources": [
+    {
+     "title": "Peter Szolovits / Clinical Decision-Making Group home",
+     "url": "http://people.csail.mit.edu/psz/web/"
+    },
+    {
+     "title": "Group students page (last updated 2022-05-20)",
+     "url": "http://people.csail.mit.edu/psz/web/students.html"
+    },
+    {
+     "title": "MEDG people page (old)",
+     "url": "https://groups.csail.mit.edu/medg/people/"
+    },
+    {
+     "title": "Harvard BMI PhD profile for Peter Szolovits",
+     "url": "https://bmiphd.hms.harvard.edu/people/peter-szolovits"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:37:31+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Peter Szolovits",
+    "title": "Professor of Computer Science and Engineering (EECS); head of the Clinical Decision-Making Group, CSAIL; associate faculty, IMES",
+    "profile_url": "https://people.csail.mit.edu/psz/web",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "EECS / CSAIL",
-   "location": null
+   "department": "EECS / CSAIL; IMES (associate faculty); Harvard-MIT HST / Harvard BMI PhD program",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "http://people.csail.mit.edu/psz/web/students.html"
   },
   {
    "name": "Medical Vision Group",
@@ -9916,21 +11318,94 @@
    "department_hint": "EECS / CSAIL",
    "id": "mit-golland",
    "url": "https://people.csail.mit.edu/polina/index.html",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops statistical and machine-learning methods for biomedical image analysis. Its work covers shape modeling and representation, predictive modeling, and visualization of statistical models. It also studies how biological shape and function relate and how they vary across individuals. The data are mainly medical images such as MRI, and the work is aimed at characterizing biological processes from imaging.",
+   "topics": [
+    "biomedical image analysis",
+    "statistical shape modeling",
+    "predictive modeling",
+    "machine learning",
+    "medical imaging"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The group works on medical imaging methods and does no cancer genomics, sequencing, structural variants or single-cell/spatial omics, so the only overlap is general ML methodology."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: the PI page still lists MIT EECS/CSAIL.",
+    "The people page lists no current postdocs.",
+    "The people page gives no research focus, year or email for any student, so those fields are null or unstated.",
+    "I did not check the page's last-updated date.",
+    "A US role would likely need a visa for a Canadian-based student."
+   ],
+   "sources": [
+    {
+     "title": "Polina Golland homepage",
+     "url": "https://people.csail.mit.edu/polina/index.html"
+    },
+    {
+     "title": "Medical Vision Group people page",
+     "url": "https://people.csail.mit.edu/polina/people.html"
+    },
+    {
+     "title": "Google Scholar profile",
+     "url": "https://scholar.google.com/citations?user=4GpKQUIAAAAJ&hl=en"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:33:49+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EECS / CSAIL",
-   "location": null
+   "pi_profile": {
+    "name": "Polina Golland",
+    "title": "Sunlin (1966) and Priscilla Chou Professor of Electrical Engineering and Computer Science",
+    "profile_url": "https://people.csail.mit.edu/polina/index.html",
+    "scholar_url": "https://scholar.google.com/citations?user=4GpKQUIAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Aaron Luong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jason Adhinarta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://jasonkena.github.io/"
+    },
+    {
+     "name": "Margherita Firenze",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/margherita-firenze-321b60198/"
+    },
+    {
+     "name": "Olivia O'Driscoll",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://oliviaodriscoll.github.io"
+    },
+    {
+     "name": "Ramya Muthukrishnan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://ramyamut.github.io/"
+    }
+   ],
+   "department": "EECS; Computer Science and Artificial Intelligence Laboratory (CSAIL)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "https://people.csail.mit.edu/polina/people.html"
   },
   {
    "name": "Barzilay Group",
@@ -10187,22 +11662,57 @@
    "group": null,
    "department_hint": "Biology",
    "id": "mit-young",
-   "url": "https://csbphd.mit.edu/faculty/richard-young/",
-   "focus": null,
-   "topics": [],
+   "url": "http://younglab.wi.mit.edu/",
+   "focus": "The lab studies how gene expression programs are controlled to establish cell identity and differentiation in mouse and human cells. It examines how signaling pathways, transcription factors, chromatin regulators and small RNAs shape gene programs in healthy and diseased cells. Its work covers basic gene-regulation mechanisms and also drug development for cancer and other diseases caused by gene misregulation. It uses both experimental and computational methods. This summary comes from the MIT CSB faculty page. The lab website would not load, so I have not checked it against the lab's own description.",
+   "topics": [
+    "gene regulation",
+    "transcription factors",
+    "chromatin",
+    "cell identity",
+    "cancer and disease gene misregulation"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab has some computational and cancer-related gene-regulation work, but I found nothing on tumour WGS, structural variants, somatic mutation analysis or single-cell and spatial omics. It would also need a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: the MIT CSB page and the Whitehead 2026 faculty roster still list Young at MIT and Whitehead.",
+    "The lab website, http://younglab.wi.mit.edu/, failed with a TLS certificate mismatch, so I could not open its people page. The member list is left empty rather than guessed.",
+    "Henry Kilgore is a postdoc in the lab, per a July 2025 Whitehead 'Ask a Scientist' piece. I left him out of the list because I only saw this in a search snippet, not on a lab roster, and I don't know whether he is still there.",
+    "Check the member list manually on the lab site and on wi.mit.edu."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD – Richard Young",
+     "url": "https://csbphd.mit.edu/faculty/richard-young/"
+    },
+    {
+     "title": "Whitehead Institute – Young profile",
+     "url": "https://wi.mit.edu/people/member/young"
+    },
+    {
+     "title": "Whitehead Faculty list (Dec 2025)",
+     "url": "https://wi.mit.edu/sites/default/files/2025-12/Whitehead%20Faculty%20FNL%2012-04-25.pdf"
+    },
+    {
+     "title": "Ask a Scientist: Henry Kilgore",
+     "url": "https://wi.mit.edu/news/ask-scientist-henry-kilgore"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:38:26+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Richard A. Young",
+    "title": "Professor of Biology, MIT; Member, Whitehead Institute",
+    "profile_url": "https://csbphd.mit.edu/faculty/richard-young/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Biology",
-   "location": null
+   "department": "MIT Department of Biology; Whitehead Institute",
+   "location": "Cambridge, Massachusetts, USA",
+   "current_institution": "Massachusetts Institute of Technology / Whitehead Institute for Biomedical Research",
+   "members_page": null
   },
   {
    "name": "Broderick Group",
@@ -10327,22 +11837,96 @@
    "group": null,
    "department_hint": "Civil and Environmental Engineering / IMES",
    "id": "mit-lieberman",
-   "url": "https://csbphd.mit.edu/faculty/tami-lieberman/",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.lieberman.science/",
+   "focus": "The lab studies how individual bacterial species and strains behave in the human microbiome. It looks at the pressures they face, the environments they occupy, and how they adapt to different people. Bacterial evolution within a person is reconstructed from cultured isolates, whole-genome sequencing and new computational methods. This approach can trace bacterial movement between body sites and identify selective pressures and molecular adaptations without needing repeated sampling over time. The lab also uses high-throughput culturing, develops computational tools, and examines spatial structure in human-associated settings. The broader goal is to make microbial therapies more predictable by understanding which strains stably colonize a person.",
+   "topics": [
+    "microbiome",
+    "bacterial within-host evolution",
+    "whole-genome sequencing of isolates",
+    "comparative genomics tools",
+    "high-throughput culturing",
+    "spatial structure"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in computational WGS analysis and somatic or within-host mutation calling, but it studies bacterial microbiome evolution and has no cancer, structural variant, single-cell or spatial omics focus."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at MIT, so there is no move to flag.",
+    "The people page gives no individual research focus, profile links or emails.",
+    "The people page has no explicit update date; the footer reads 2026 and some photos are dated 2026, so it looks current.",
+    "Alex Crits-Christoph is listed as Computational Biology Program Scientist. He is staff, so he is excluded from the member list, but he may be a useful computational contact.",
+    "The PI's Google Scholar URL was not verified, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "MIT CSB PhD faculty page: Tami Lieberman",
+     "url": "https://csbphd.mit.edu/faculty/tami-lieberman/"
+    },
+    {
+     "title": "Lieberman Lab website",
+     "url": "http://www.lieberman.science/"
+    },
+    {
+     "title": "Lieberman Lab people page",
+     "url": "http://www.lieberman.science/people"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:35:07+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Civil and Environmental Engineering / IMES",
-   "location": null
+   "pi_profile": {
+    "name": "Tami Lieberman",
+    "title": "Associate Professor, Institute for Medical Engineering and Science (IMES) and Civil and Environmental Engineering",
+    "profile_url": "https://csbphd.mit.edu/faculty/tami-lieberman/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Annie Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page; PhD in Molecular Genetics and Microbiology, University of Toronto.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Timothy Yu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page; PhD in Molecular & Cellular Biology, University of Washington.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alyssa Haynes Mitchell",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; MIT Microbiology PhD Program.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Evan Qu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; MIT Microbiology PhD Program, NSF GRFP fellow.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Paul Torrillo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; MIT Computational and Systems Biology (CSB) PhD Program.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Civil and Environmental Engineering (CEE); Institute for Medical Engineering and Science (IMES)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "http://www.lieberman.science/people"
   },
   {
    "name": "Hwang Lab",
@@ -10354,22 +11938,124 @@
    "group": null,
    "department_hint": "Biology / EECS / Schwarzman College of Computing",
    "id": "mit-hwang",
-   "url": "https://csbphd.mit.edu/faculty/https-csbphd-mit-edu-faculty/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.hwanglab.mit.edu/",
+   "focus": "The lab builds machine learning models and experimental methods to discover and design novel microbial functions. A core theme is genomic language models (gLMs), which read DNA in its genomic context. The PI's earlier gLM was trained on large microbial metagenomic datasets. Applications include gene function discovery, biosynthetic gene clusters, protein structure prediction and design, and multi-protein system design. Stated interests are machine learning for biomanufacturing, microbial evolution and open science. Wet-lab work (synthetic biology, genome-to-metabolome mapping) validates the computational predictions.",
+   "topics": [
+    "genomic language models",
+    "metagenomics",
+    "microbial evolution",
+    "protein design",
+    "biosynthetic gene clusters",
+    "synthetic biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in machine learning for genomics, but it works on microbial metagenomes and protein function, not cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics; it is also a US lab, so a visa may be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is listed as an incoming Assistant Professor (Fall 2025) on the MIT CSB PhD page. This looks like a new MIT appointment, not a move away from MIT. She is also co-founder and Chief Scientist of Tatta Bio.",
+    "The team page gives no student years, so all years are null.",
+    "Jia Lu's only listed email is a personal Gmail address, so it was left out.",
+    "The Google Scholar URL was not verified, so it is null.",
+    "Excluded as non-PhD/postdoc: Tori Yetman (administrative assistant), Tom Lankiewicz (research scientist), Anisha Parsan (UROP student)."
+   ],
+   "sources": [
+    {
+     "title": "Hwang Lab team page",
+     "url": "https://www.hwanglab.mit.edu/team"
+    },
+    {
+     "title": "MIT CSB PhD faculty page",
+     "url": "https://csbphd.mit.edu/faculty/https-csbphd-mit-edu-faculty/"
+    },
+    {
+     "title": "MIT CSB profile: Yunha Hwang",
+     "url": "https://csbphd.mit.edu/faculty/yunha-hwang"
+    },
+    {
+     "title": "MIT Biology profile",
+     "url": "https://biology.mit.edu/profile/yunha-hwang/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:34:19+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biology / EECS / Schwarzman College of Computing",
-   "location": null
+   "pi_profile": {
+    "name": "Yunha Hwang",
+    "title": "Samuel A. Goldblitch Career Development Assistant Professor (Biology, EECS, Schwarzman College of Computing); Co-founder and Chief Scientist, Tatta Bio",
+    "profile_url": "https://biology.mit.edu/profile/yunha-hwang/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aransa Griñen Muñoz",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Molecular tools and machine learning (MIT-Novo Nordisk AI Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jeffrey Ouyang-Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Protein structure prediction and design; models learning from evolutionary sequence data (Tayebati Postdoctoral Fellow, co-advised with Ovchinnikov)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jia Lu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Synthetic genetic parts for multicellular dynamics and engineering non-model organisms (co-advised with Christopher Voigt)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rachel Silverstein",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genetics and AI; tools for understanding molecules encoded by genomic sequences (Biswas Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sunhee Bae",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "High-throughput genome-to-metabolome mapping (co-advised with Gene-Wei Li)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Hongwei Tu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Generative modeling and efficient machine learning for genomics and molecular systems (EECS)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jordan Hoff",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genomic language models and biosynthetic gene cluster discovery (Microbiology; co-advised with Ovchinnikov)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zhilei Bei",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AI/ML to discover, understand and engineer molecular machinery (EECS)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Biology; Electrical Engineering and Computer Science (EECS); Schwarzman College of Computing",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology",
+   "members_page": "https://www.hwanglab.mit.edu/team"
   },
   {
    "name": "Bai Lab",
@@ -10906,22 +12592,192 @@
    "group": null,
    "department_hint": "Computer Science",
    "id": "princeton-raphael",
-   "url": "https://www.cs.princeton.edu/~braphael",
-   "focus": null,
-   "topics": [],
+   "url": "https://raphael-group.github.io/",
+   "focus": "The group develops computational methods for large-scale biological data, using combinatorial optimization, graph algorithms, machine learning and statistics. Its main topics are cancer evolution and tumour heterogeneity, and structural variation and genome rearrangements in human and cancer genomes. It also works on network and pathway analysis of somatic mutations. The lab's site lists single-cell and spatial sequencing among its areas, and its algorithms have been applied to TCGA and ICGC data.",
+   "topics": [
+    "cancer genomics",
+    "structural variation",
+    "tumour evolution",
+    "single-cell and spatial omics",
+    "combinatorial algorithms",
+    "mutation network analysis"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "The lab covers cancer genomics, structural variants, somatic mutations, computational methods and single-cell/spatial omics, which matches most of the student's interests. It is algorithm-heavy and computer-science-led rather than focused on running WGS/RNA-seq pipelines, and a US role would probabl"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at Princeton. I found no sign of a move. He joined in 2016 from Brown.",
+    "The people page gives no research focus, profile links or individual emails for members, so those fields are null. Their start years suggest several students are late-stage and may graduate soon.",
+    "The lab homepage's latest news item is dated April 19, 2023, and its footer reads '© 2014-2017'. The site may be stale, so check the roster against current sources.",
+    "The only published email is a general lab address, braphael AT cs DOT princeton DOT edu, and it is not tied to any individual.",
+    "Julian Gold is listed as staff (DataX Data Scientist) and is excluded from the member list."
+   ],
+   "sources": [
+    {
+     "title": "Raphael Group homepage",
+     "url": "https://raphael-group.github.io/"
+    },
+    {
+     "title": "Raphael Group people page",
+     "url": "https://raphael-group.github.io/people/"
+    },
+    {
+     "title": "Ben Raphael, Princeton CS page",
+     "url": "https://www.cs.princeton.edu/~braphael"
+    },
+    {
+     "title": "Hirak Sarkar, Princeton CS profile",
+     "url": "https://www.cs.princeton.edu/people/profile/hs0424"
+    },
+    {
+     "title": "Princeton news: Board approves 16 faculty appointments (2016)",
+     "url": "https://www.princeton.edu/news/2016/06/09/board-approves-16-faculty-appointments"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:39:29+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science",
-   "location": null
+   "pi_profile": {
+    "name": "Ben Raphael",
+    "title": "Professor of Computer Science",
+    "profile_url": "https://www.cs.princeton.edu/~braphael",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Hirak Sarkar",
+     "role": "Postdoc",
+     "year": "Started Feb 2023",
+     "focus": "Ludwig Scholar; Princeton CS lists them as a Postdoctoral Research Associate advised by Raphael",
+     "email": null,
+     "profile_url": "https://www.cs.princeton.edu/people/profile/hs0424"
+    },
+    {
+     "name": "Hongyu Zheng",
+     "role": "Postdoc",
+     "year": "Started Sept 2023",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yihang Shen",
+     "role": "Postdoc",
+     "year": "Started Sept 2024",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ahmed Shuaibi",
+     "role": "PhD student",
+     "year": "Started 2021 (Quantitative and Computati",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Akhil Jakatdar",
+     "role": "PhD student",
+     "year": "Started 2022 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Clover Zheng",
+     "role": "PhD student",
+     "year": "Started 2022 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Gary Hu",
+     "role": "PhD student",
+     "year": "Started 2022 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Gillian Chu",
+     "role": "PhD student",
+     "year": "Started 2022 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Henri Schmidt",
+     "role": "PhD student",
+     "year": "Started 2021 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Peter Halmos",
+     "role": "PhD student",
+     "year": "Started 2023 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Richard Zhang",
+     "role": "PhD student",
+     "year": "Started 2022 (Quantitative and Computati",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Runpeng Luo",
+     "role": "PhD student",
+     "year": "Started 2024 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sereno Lopez-Darwin",
+     "role": "PhD student",
+     "year": "Started 2022 (Quantitative and Computati",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Viola Chen",
+     "role": "PhD student",
+     "year": "Started 2023 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "William Howard-Synder",
+     "role": "PhD student",
+     "year": "Started 2024 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Xinhao Liu",
+     "role": "PhD student",
+     "year": "Started 2021 (Computer Science)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Computer Science (some students are in the Quantitative and Computational Biology program)",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://raphael-group.github.io/people/"
   },
   {
    "name": "E.Z. Lab for Molecular Machine Learning",
@@ -10934,21 +12790,134 @@
    "department_hint": "Computer Science",
    "id": "princeton-zhong",
    "url": "https://ezlab.princeton.edu",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab develops AI algorithms that use new data sources, especially cryo-EM imaging data, to advance structural biology. Its main topics are 3D reconstruction in cryo-EM, multimodal generative modeling of proteins, in situ visual proteomics and cryo-ET methods development, and AI for chemistry. Methods include deep generative models, neural fields and inverse-problem approaches for heterogeneous molecular structures. The group works with experimentalists to interpret data from new structural biology and chemistry tools, and releases open-source software.",
+   "topics": [
+    "cryo-EM reconstruction",
+    "cryo-ET",
+    "generative models for proteins",
+    "structural biology ML",
+    "AI for chemistry"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on ML for cryo-EM and protein structure, so it shares only the general theme of ML methods for biology; it has no cancer genomics, sequencing, structural variant or single-cell/spatial omics work, and a US role may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: the team page lists Zhong at Princeton CS. I did not check any other source for this.",
+    "The team page gives no years for current members, so every member's year is null.",
+    "The team page has no Google Scholar link, so scholar_url is null.",
+    "Staff and undergraduates are excluded. They are Michal Grzadkowski (Research Software Engineer) and Philipp Janke (undergraduate, Physics).",
+    "I did not open the PI's CS faculty page, so her title comes from the lab team page only."
+   ],
+   "sources": [
+    {
+     "title": "E.Z. Lab home page",
+     "url": "https://ezlab.princeton.edu"
+    },
+    {
+     "title": "E.Z. Lab team page",
+     "url": "https://ezlab.princeton.edu/team/"
+    },
+    {
+     "title": "Ellen Zhong faculty website",
+     "url": "https://www.cs.princeton.edu/~zhonge"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:40:20+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science",
-   "location": null
+   "pi_profile": {
+    "name": "Ellen D. Zhong",
+    "title": "Assistant Professor of Computer Science",
+    "profile_url": "https://www.cs.princeton.edu/~zhonge",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jeffrey Gu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "3D computer vision, neural fields, geometric deep learning, AI for science",
+     "email": null,
+     "profile_url": "https://its-gucci.github.io/"
+    },
+    {
+     "name": "Ryan Feathers",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Molecular mechanisms of cellular trafficking; cryo-EM and cryo-ET methods development (joint with the Hughson Lab)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alkın Kaz",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Deep learning algorithms for cryo-EM",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ariana Vlad",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Deep learning protein models for structural biology and therapeutics (Biophysics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jina Kim",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the team page (Computer Science)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joseph Clark",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational methods for studying protein conformational heterogeneity (Quantitative and Computational Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Minkyu Jeon",
+     "role": "PhD student",
+     "year": null,
+     "focus": "3D reconstruction, generative models and inverse problems in scientific imaging such as cryo-EM",
+     "email": null,
+     "profile_url": "https://minkyujeon.github.io/"
+    },
+    {
+     "name": "Rishwanth Raghu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for cryo-EM and cryo-ET processing",
+     "email": null,
+     "profile_url": "https://rish-raghu.github.io/"
+    },
+    {
+     "name": "Robert Heeter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer vision, physics and ML in structural biology and medicine (Omenn-Darling Bioengineering Institute)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ziyu Xiong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Controllable, efficient generative models for scientific discovery",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Computer Science (members also come from Bioengineering (Omenn-Darling), Biophysics, and Quantitative and Computational Biology)",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://ezlab.princeton.edu/team/"
   },
   {
    "name": "Joseph Group",
@@ -10960,22 +12929,87 @@
    "group": null,
    "department_hint": "Chemical and Biological Engineering / Omenn-Darling Bioengineering Institute",
    "id": "princeton-joseph",
-   "url": "https://josephgroup.princeton.edu/people/jerelle-joseph-phd",
-   "focus": null,
-   "topics": [],
+   "url": "https://josephgroup.princeton.edu/",
+   "focus": "The lab uses molecular simulation and computational modelling to work out the physical rules by which biomolecular condensates (membraneless, phase-separated droplets) form and evolve. It develops residue-level coarse-grained models, including the Mpipi family. A recent extension, Mpipi-P, handles phosphorylation. It also works on chemically informed treatments of electrostatics in charge-rich condensates. The group applies these models to disease and aging, and to engineering condensates for biomedical and sustainability uses.",
+   "topics": [
+    "biomolecular condensates",
+    "phase separation",
+    "coarse-grained molecular simulation",
+    "protein-RNA interactions",
+    "computational biophysics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does physics-based molecular simulation of protein phase separation, which has almost no overlap with cancer genomics, sequencing, structural variants, or single-cell and spatial omics. The only link is the general computational-methods angle. The US visa issue would also apply."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The people/team page returned HTTP 403, so I could not read it. The roster is incomplete and no postdocs are listed.",
+    "A search snippet from the team page also names a PhD student called Dominic, but I could not get a surname, so I left them out.",
+    "A 2024 news page names other graduate students (Nate, Daniel, Caroline, Morat, Pablo, Virginia) who may now be current or alumni. I could not verify their status.",
+    "The join-us page said the group was recruiting a postdoc. I did not verify whether the posting is still open.",
+    "No move by the PI. Search results consistently place her at Princeton, where she has been an assistant professor since January 2023."
+   ],
+   "sources": [
+    {
+     "title": "Team - Joseph Research Group",
+     "url": "https://josephgroup.princeton.edu/team"
+    },
+    {
+     "title": "Join us - Joseph Research Group",
+     "url": "https://josephgroup.princeton.edu/join-us"
+    },
+    {
+     "title": "Jerelle A. Joseph - CBE Princeton",
+     "url": "https://cbe.princeton.edu/people/jerelle-joseph"
+    },
+    {
+     "title": "Jerelle A. Joseph - Bioengineering Princeton",
+     "url": "https://bioengineering.princeton.edu/people/jerelle-joseph"
+    },
+    {
+     "title": "News 0 - Joseph Research Group",
+     "url": "https://josephgroup.princeton.edu/news-0"
+    },
+    {
+     "title": "Joseph Research Group",
+     "url": "https://josephgroup.princeton.edu/"
+    },
+    {
+     "title": "Jerelle Joseph - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jerelle_Joseph"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:38:54+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Chemical and Biological Engineering / Omenn-Darling Bioengineering Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Jerelle A. Joseph",
+    "title": "Assistant Professor of Chemical and Biological Engineering",
+    "profile_url": "https://cbe.princeton.edu/people/jerelle-joseph",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Ananya Chakravarti",
+     "role": "PhD student",
+     "year": "Joined Spring 2023",
+     "focus": "Mechanisms of biomolecular condensates, and designing modifications to control phase separation in disease and aging.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sam Beall-Dennell",
+     "role": "PhD student",
+     "year": "Joined Spring 2026 (NSF GRFP fellow)",
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Chemical and Biological Engineering; Omenn-Darling Bioengineering Institute",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://josephgroup.princeton.edu/team"
   },
   {
    "name": "Storey Lab for Statistical Genomics",
@@ -10988,21 +13022,91 @@
    "department_hint": "Lewis-Sigler Institute for Integrative Genomics / Molecular Biology",
    "id": "princeton-storey",
    "url": "https://storeylab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab works on statistical genomics, with emphasis on population genomics, quantitative genomics, statistical theory and methods, and analysis of complex datasets. Current members work on heritability estimation in GWAS, coancestry estimation in structured populations, and surrogate variable analysis for RNA-seq. Other current work covers multivariate models of genetic variation for polygenic risk scores, causal inference in population genetics, and structural variation such as chromosomal inversions in evolution. The lab also builds open-source data science software. Members come from statistics, computer science, mathematics, physics and biology.",
+   "topics": [
+    "statistical genomics",
+    "GWAS and heritability",
+    "population genetics",
+    "RNA-seq / surrogate variable analysis",
+    "polygenic risk scores",
+    "open-source software"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab offers strong computational and statistical methods for genomics, but its work is population and quantitative genetics (GWAS, heritability, polygenic scores) rather than cancer, tumour sequencing, somatic mutation or single-cell and spatial omics. The only overlap with the student's interest"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at Princeton. I found no sign of a move, and the faculty listing matches the lab page.",
+    "Olivia Harringmeyer is listed as a Lewis-Sigler Scholar, not labeled a postdoc. I included them as a postdoc-level member, so this is an assumption.",
+    "No member emails are published on the members page.",
+    "Year of study is not listed for any member.",
+    "I could not tell when the members page was last updated."
+   ],
+   "sources": [
+    {
+     "title": "Storey Lab home",
+     "url": "https://storeylab.org/"
+    },
+    {
+     "title": "Storey Lab members",
+     "url": "https://storeylab.org/patterns/members/"
+    },
+    {
+     "title": "John D. Storey bio (Princeton genomics)",
+     "url": "https://genomics.princeton.edu/storeylab/bio.html"
+    },
+    {
+     "title": "LSI QCB faculty research",
+     "url": "https://lsi.princeton.edu/education/quantitative-computational-biology-graduate-program/faculty-research"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:39:54+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Lewis-Sigler Institute for Integrative Genomics / Molecular Biology",
-   "location": null
+   "pi_profile": {
+    "name": "John D. Storey",
+    "title": "William R. Harman '63 and Mary-Love Harman Professor in Genomics; Professor, Lewis-Sigler Institute for Integrative Genomics",
+    "profile_url": "https://storeylab.org/storeybio/",
+    "scholar_url": "https://scholar.google.com/citations?hl=en&user=oi4x2XIAAAAJ&view_op=list_works&pagesize=100"
+   },
+   "members": [
+    {
+     "name": "Olivia Harringmeyer",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Structural genomic variation, especially chromosomal inversions and their role in evolution. The members page lists this person as a Lewis-Sigler Scholar, not labeled as a postdoc.",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=UFeWDgIAAAAJ&hl=en"
+    },
+    {
+     "name": "Yushi Tang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Ancestral population as a conditional variable in GWAS and heritability; causal inference in population genetics",
+     "email": null,
+     "profile_url": "https://yushift.github.io/"
+    },
+    {
+     "name": "Alvin Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Multivariate models of genetic variation for dissecting complex traits and building polygenic risk scores (QCB program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Danfeng Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Heritability methods in GWAS, coancestry estimation in structured populations, surrogate variable analysis for RNA-seq (QCB program)",
+     "email": null,
+     "profile_url": "https://github.com/mikkoch"
+    }
+   ],
+   "department": "Lewis-Sigler Institute for Integrative Genomics (primary appointment); associated with Molecular Biology, computer science, statistics and operations research. Co-directs the NHGRI Quantitative and Co",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://storeylab.org/patterns/members/"
   },
   {
    "name": "Akey Lab",
@@ -11014,22 +13118,84 @@
    "group": null,
    "department_hint": "Lewis-Sigler Institute for Integrative Genomics / Ecology and Evolutionary Biology",
    "id": "princeton-akey",
-   "url": "https://lsi.princeton.edu/people/joshua-akey",
-   "focus": null,
-   "topics": [],
+   "url": "https://akeylab.princeton.edu",
+   "focus": "The lab studies human evolutionary and population genomics. It uses large-scale sequencing datasets to study natural selection, demographic history, and archaic introgression from Neanderthals and Denisovans, including introgressed structural variants. It also studies the genetic architecture of complex traits, including polygenic risk score transferability and variation in intrinsically disordered protein regions. A yeast program uses the organism as a model to study high-dimensional molecular phenotypes such as gene, protein and metabolite levels. Methods are mainly computational: statistical and population-genetic inference, and analysis of large genomic datasets.",
+   "topics": [
+    "human population genomics",
+    "archaic introgression",
+    "natural selection",
+    "complex trait genetics",
+    "polygenic scores",
+    "yeast functional genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares computational genomics methods and some structural-variant work with the student, but its focus is germline and evolutionary genomics, not cancer, somatic mutation, tumour sequencing or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Could not open the lab people page (akeylab.princeton.edu refused connections) or the LSI pages (403). The postdoc names come only from a search-result summary of the people page; I did not see the page itself.",
+    "The PhD student list is NOT verified, so no students are listed. A search summary of the QCB graduate-student directory mentioned Yuuna (Liubou) Klindziuk, Isabella Leite and Nina Sachdev under Akey, but the summary was garbled and I could not confirm it. Check the people page directly.",
+    "The search summary also mentioned a research scientist and a Lewis-Sigler Scholar in the lab; these are staff and are excluded.",
+    "The PI is still at Princeton. His LSI profile appears in current search results, and a 2019 Texas A&M item identified him as LSI director. I did not confirm his current title or whether he still holds the directorship.",
+    "The student would likely need a US visa for a Princeton role."
+   ],
+   "sources": [
+    {
+     "title": "Joshua Akey - Lewis-Sigler Institute",
+     "url": "https://lsi.princeton.edu/people/joshua-akey"
+    },
+    {
+     "title": "People - Akey Lab at Princeton University",
+     "url": "https://akeylab.princeton.edu/people.html"
+    },
+    {
+     "title": "Research - Akey Lab at Princeton University",
+     "url": "https://akeylab.princeton.edu/research.html"
+    },
+    {
+     "title": "Alumni - Akey Lab at Princeton University",
+     "url": "https://akeylab.princeton.edu/alumni.html"
+    },
+    {
+     "title": "QCB Graduate Students - Lewis-Sigler Institute",
+     "url": "https://lsi.princeton.edu/education/quantitative-computational-biology-graduate-program/graduate-students"
+    },
+    {
+     "title": "Board of Trustees approves 14 faculty appointments (2017)",
+     "url": "https://www.princeton.edu/news/2017/05/09/board-trustees-approves-14-faculty-appointments"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:39:03+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Lewis-Sigler Institute for Integrative Genomics / Ecology and Evolutionary Biology",
-   "location": null
+   "pi_profile": {
+    "name": "Joshua Akey",
+    "title": "Professor, Lewis-Sigler Institute for Integrative Genomics",
+    "profile_url": "https://lsi.princeton.edu/people/joshua-akey",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Kaiqian Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Transferability of polygenic risk scores across populations",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Susie Song",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Human genetic variation in intrinsically disordered protein regions",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Lewis-Sigler Institute for Integrative Genomics; Ecology and Evolutionary Biology; Quantitative and Computational Biology (QCB) graduate program",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://akeylab.princeton.edu/people.html"
   },
   {
    "name": "Skinnider Lab",
@@ -11041,22 +13207,67 @@
    "group": null,
    "department_hint": "Ludwig Princeton Branch / Lewis-Sigler Institute for Integrative Genomics",
    "id": "princeton-skinnider",
-   "url": "https://ludwigcancer.princeton.edu/news/2023/ludwig-princeton-branch-welcomes-skinnider-assistant-member",
-   "focus": null,
-   "topics": [],
+   "url": "https://lsi.princeton.edu/research/faculty-research-labs/skinnider-research-lab",
+   "focus": "The lab develops computational and AI methods to identify known and unknown small molecules (the 'dark matter' of the metabolome) from mass spectrometry-based metabolomics data. It builds generative and large language models of chemical structures, such as DeepMet (Nature, 2026), to predict previously unrecognised metabolites and translate mass spectra into structures. The work links these molecules to human disease, including cancer. The lab's postdoc postings emphasise computational mass spectrometry and AI/machine learning for biochemistry.",
+   "topics": [
+    "metabolomics",
+    "computational mass spectrometry",
+    "generative AI for chemistry",
+    "small-molecule identification",
+    "machine learning",
+    "cancer metabolism"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in computational and machine-learning methods and has a cancer link, but it works on metabolomics and mass spectrometry rather than cancer genomics, structural variants, WGS/transcriptome sequencing, or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Could not access the lab people page: Princeton LSI and Ludwig pages returned 403, so the member list is unverified and empty.",
+    "No standalone lab website was found.",
+    "PI is still at Princeton (2025 Packard Fellow; named a Pew Scholar in June 2026). No move.",
+    "Lab has recruited postdocs (computational MS / AI for biochemistry postings).",
+    "A US role would likely need a visa."
+   ],
+   "sources": [
+    {
+     "title": "Michael Skinnider named Pew Scholar (Princeton, 2026-06-23)",
+     "url": "https://www.princeton.edu/index%2ephp/news/2026/06/23/michael-skinnider-named-pew-scholar"
+    },
+    {
+     "title": "Michael Skinnider wins 2025 Packard Foundation Fellowship",
+     "url": "https://princeton.edu/news/2025/10/15/michael-skinnider-wins-2025-packard-foundation-fellowship"
+    },
+    {
+     "title": "Skinnider Research Lab (LSI)",
+     "url": "https://lsi.princeton.edu/research/faculty-research-labs/skinnider-research-lab"
+    },
+    {
+     "title": "Michael Skinnider (Ludwig Princeton)",
+     "url": "https://ludwigcancer.princeton.edu/people/michael-skinnider"
+    },
+    {
+     "title": "Unleashing AI on the metabolome (Ludwig Cancer Research)",
+     "url": "https://www.ludwigcancerresearch.org/ludwig-link/april-2026/unleashing-ai-on-the-metabolome/"
+    },
+    {
+     "title": "Postdoctoral Research Associate - Computational biology/computational mass spectrometry",
+     "url": "https://jobs.sciencecareers.org/job/677393/postdoctoral-research-associate-computational-biology-computational-mass-spectrometry/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:39:48+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Michael Skinnider",
+    "title": "Assistant Professor, Lewis-Sigler Institute for Integrative Genomics; Assistant Member, Ludwig Princeton Branch",
+    "profile_url": "https://lsi.princeton.edu/people/michael-skinnider",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Ludwig Princeton Branch / Lewis-Sigler Institute for Integrative Genomics",
-   "location": null
+   "department": "Lewis-Sigler Institute for Integrative Genomics; Ludwig Institute for Cancer Research, Princeton Branch",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": null
   },
   {
    "name": "Singh Group (computational molecular biology)",
@@ -11068,22 +13279,152 @@
    "group": null,
    "department_hint": "Computer Science / Lewis-Sigler Institute for Integrative Genomics",
    "id": "princeton-singh",
-   "url": "https://www.cs.princeton.edu/people/profile/mona",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.cs.princeton.edu/~mona",
+   "focus": "The group works on computational molecular biology at the intersection of machine learning and algorithms. They use high-throughput biological data to build algorithms that infer protein interactions, binding specificity and molecular networks. They also predict the effects of mutations, especially in disease, and infer protein function from sequence and structure. They analyze biological networks to understand cellular organization and pathways. Protein structure informs much of this work.",
+   "topics": [
+    "protein interactions",
+    "protein structure",
+    "mutation effect prediction",
+    "biological networks",
+    "machine learning",
+    "algorithms"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's machine-learning and mutation-effect work gives some methodological overlap, but its focus is protein structure, interactions and networks. The pages I saw don't mention tumour sequencing, structural variants or single-cell/spatial omics, and a US role may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at Princeton University.",
+    "The members page doesn't state PhD status for the 11 students. They are listed as 'PhD student' on the assumption that this is their role, so verify before outreach.",
+    "The members page shows no year, research focus, profile links or emails for any member, and no last-updated date.",
+    "Joshua Wetzel is listed as a Research Scientist (staff), so he is excluded.",
+    "I did not find or open a Google Scholar profile for the PI, so scholar_url is null."
+   ],
+   "sources": [
+    {
+     "title": "Mona Singh - Princeton CS profile",
+     "url": "https://www.cs.princeton.edu/people/profile/mona"
+    },
+    {
+     "title": "Mona Singh homepage",
+     "url": "https://www.cs.princeton.edu/~mona"
+    },
+    {
+     "title": "Singh Group members page",
+     "url": "https://www.cs.princeton.edu/~mona/group.html"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:39:27+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science / Lewis-Sigler Institute for Integrative Genomics",
-   "location": null
+   "pi_profile": {
+    "name": "Mona Singh",
+    "title": "Wang Family Professor in Computer Science; Professor, Lewis-Sigler Institute for Integrative Genomics",
+    "profile_url": "https://www.cs.princeton.edu/people/profile/mona",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Minh Hoang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ariel Bruner",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Isabel Armour-Garb",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jaden Luo",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "James Fife",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Masha Larina",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Megan Schmidt",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nina Sachdev",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sam Neff",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-advised with Mohammed Donia",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sohit Miglani",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-advised with Ned Wingreen",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yinying Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Lewis-Sigler Scholar",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuqi Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Computer Science; Lewis-Sigler Institute for Integrative Genomics; affiliated with Molecular Biology and the Omenn-Darling Bioengineering Institute",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://www.cs.princeton.edu/~mona/group.html"
   },
   {
    "name": "Wingreen Lab",
@@ -11095,22 +13436,175 @@
    "group": null,
    "department_hint": "Molecular Biology / Lewis-Sigler Institute for Integrative Genomics",
    "id": "princeton-wingreen",
-   "url": "https://wingreenlab.scholar.princeton.edu/ned-s-wingreen-phd",
-   "focus": null,
-   "topics": [],
+   "url": "https://wingreenlab.scholar.princeton.edu",
+   "focus": "The lab uses theory and computational modeling to study biological systems. These include microbial communities and biofilms (Vibrio cholerae, with the Bassler and Stone labs, using agent-based and continuum models), pattern formation and collective behavior in Myxococcus xanthus, and phage-bacteria interactions such as coevolution and phage therapy. A second major area is intracellular phase separation, including biomolecular condensates and the pyrenoid. This work includes a 2026 Nature Cell Biology paper with Jonikas and Brangwynne. The approach is mostly biophysical and statistical-physics modeling, usually with experimental collaborators. It is not focused on genomics or sequencing data.",
+   "topics": [
+    "biofilms and microbial communities",
+    "phase separation / condensates",
+    "phage-bacteria interactions",
+    "biophysical modeling",
+    "collective behavior and pattern formatio"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is theory- and modeling-driven, centred on microbial ecology and condensate biophysics, so it has little overlap with cancer genomics, structural variants, or single-cell and spatial omics. The only real link is general computational methods. A US visa would also likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab site returned HTTP 403 to direct fetches, including the members page. The roster comes from a search-engine summary of that page, not from reading the page myself. Verify it manually.",
+    "Member research focus, year and profile links could not be confirmed, and no emails were seen.",
+    "The PI's current affiliation (Princeton) was confirmed only through search results and was not checked on the PI's page. I saw no sign of a move.",
+    "The Google Scholar URL was not found.",
+    "The members page also lists a faculty assistant (Alison Phillips) and alumni. I left both out."
+   ],
+   "sources": [
+    {
+     "title": "Wingreen Lab Members",
+     "url": "https://wingreenlab.scholar.princeton.edu/wingreen-lab-members"
+    },
+    {
+     "title": "Wingreen Lab research",
+     "url": "https://wingreenlab.scholar.princeton.edu/research"
+    },
+    {
+     "title": "Ned Wingreen - Princeton Molecular Biology",
+     "url": "https://molbio.princeton.edu/people/ned-wingreen"
+    },
+    {
+     "title": "Ned S. Wingreen - Princeton Research profile",
+     "url": "https://collaborate.princeton.edu/en/persons/ned-s-wingreen/"
+    },
+    {
+     "title": "Ned S. Wingreen, PhD (lab page)",
+     "url": "https://wingreenlab.scholar.princeton.edu/ned-s-wingreen-phd"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:40:15+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Molecular Biology / Lewis-Sigler Institute for Integrative Genomics",
-   "location": null
+   "pi_profile": {
+    "name": "Ned S. Wingreen",
+    "title": "Howard A. Prior Professor of the Life Sciences; Professor of Molecular Biology and the Lewis-Sigler Institute for Integrative Genomics",
+    "profile_url": "https://molbio.princeton.edu/people/ned-wingreen",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alejandro Martinez-Calvo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Carolina Trenado Yuste",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Colin Scheibner",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jonathon L. Yuly",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Linnea M Lemma",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ofer Kimchi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Trevor K. GrandPre",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Andrew Pyo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Bruce Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kimberly R. Sabsay",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Qiwei Yu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sebastian Gonzalez La Corte",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sohit Miglani",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ziyang Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified (members page could not be opened)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Molecular Biology; Lewis-Sigler Institute for Integrative Genomics; Quantitative and Computational Biology (QCB) Graduate Program (Director of Graduate Studies)",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://wingreenlab.scholar.princeton.edu/wingreen-lab-members"
   },
   {
    "name": "Laboratory of Bioinformatics and Functional Genomics",
@@ -11122,22 +13616,188 @@
    "group": null,
    "department_hint": "Computer Science / Lewis-Sigler Institute for Integrative Genomics",
    "id": "princeton-troyanskaya",
-   "url": "https://www.cs.princeton.edu/people/profile/ogt",
-   "focus": null,
-   "topics": [],
+   "url": "https://function.princeton.edu/",
+   "focus": "The lab develops computational and machine-learning methods for functional genomics. Its work includes integrating large collections of genomic and proteomic data, and deep-learning models that predict the effects of regulatory and noncoding variants. It also builds tissue- and cell-type-specific functional gene networks to study human disease and gene function. Troyanskaya's other publicly known work, which I did not check on the lab pages, includes tools such as HumanBase and ExPecto and collaborations with biologists and clinicians. This description comes from my background knowledge plus the lab and department pages I fetched. I did not read the lab's research page.",
+   "topics": [
+    "functional genomics",
+    "deep learning for regulatory variants",
+    "tissue-specific gene networks",
+    "data integration",
+    "proteomics methods",
+    "human disease genetics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab strongly matches the student's interest in machine-learning methods for genomics and in variant and mutation effects. However, it is a method-development lab rather than a cancer genomics lab, and I found no evidence of tumour WGS, structural variant or single-cell/spatial cancer work. It is"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at Princeton, per the CS department profile.",
+    "The people page gives names and titles only. It has no research focus, profile links, emails or start years for current members, so most member focus fields are placeholders.",
+    "The people page shows a 2026 copyright footer but no last-updated date.",
+    "Tavis Reed appears as a postdoc on the lab page, but a 2021 announcement described a Tavis as a graduate student. These are probably the same person, now a postdoc, but I did not confirm that.",
+    "Troyanskaya also has a Flatiron Institute (Simons Foundation) affiliation, which fits the two Flatiron Research Fellows on the roster. I did not check this affiliation on an official page."
+   ],
+   "sources": [
+    {
+     "title": "Olga Troyanskaya, Princeton CS profile",
+     "url": "https://www.cs.princeton.edu/people/profile/ogt"
+    },
+    {
+     "title": "Troyanskaya Laboratory people page",
+     "url": "https://function.princeton.edu/people"
+    },
+    {
+     "title": "Troyanskaya Laboratory home",
+     "url": "https://function.princeton.edu/"
+    },
+    {
+     "title": "Chris Sun, Lewis-Sigler Institute profile",
+     "url": "https://lsi.princeton.edu/people/chris-sun"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:40:00+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science / Lewis-Sigler Institute for Integrative Genomics",
-   "location": null
+   "pi_profile": {
+    "name": "Olga G. Troyanskaya",
+    "title": "Maduraperuma/Khot Professor of Computer Science; Lewis-Sigler Institute for Integrative Genomics",
+    "profile_url": "https://www.cs.princeton.edu/people/profile/ogt",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aviya Litman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Flatiron Research Fellow, Simons Foundation)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Claudia Skok-Gibbs",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Flatiron Research Fellow, Simons Foundation)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ksenia Sokolova",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Postdoctoral Research Associate)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sanketh Vedula",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Postdoctoral Research Associate)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tavis Reed",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "A 2021 announcement described Tavis as a QCB student co-mentored by Troyanskaya who developed computational tools for proteomic datasets; the current people page lists Tavis Reed as a postdoc",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Weiguang (Wayne) Mao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Associate Research Scholar)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yun Hao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page (title: Associate Research Scholar)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zhicheng Pan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed (Associate Research Scholar)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Anusha Aggarwal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (QCB program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chris Sun",
+     "role": "PhD student",
+     "year": "Started 2023",
+     "focus": "Computational genomics questions related to human health (QCB program, per the Lewis-Sigler Institute profile)",
+     "email": null,
+     "profile_url": "https://lsi.princeton.edu/people/chris-sun"
+    },
+    {
+     "name": "Jack McMahon",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (QCB program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jeffrey Zhong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (Computer Science program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joyce Fang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (QCB program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Keerthana Nallamotu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (Computer Science program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sarah Dobbins",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (QCB program)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zixiang Zhou",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed (Molecular Biology program)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Computer Science; Lewis-Sigler Institute for Integrative Genomics (affiliated with Molecular Biology and the Omenn-Darling Bioengineering Institute)",
+   "location": "Princeton, New Jersey, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://function.princeton.edu/people"
   },
   {
    "name": "Pritykin Lab",
@@ -11149,22 +13809,120 @@
    "group": null,
    "department_hint": "Computer Science / Lewis-Sigler Institute for Integrative Genomics",
    "id": "princeton-pritykin",
-   "url": "https://www.cs.princeton.edu/people/profile/pritykin",
-   "focus": null,
-   "topics": [],
+   "url": "https://pritykinlab.github.io/",
+   "focus": "The lab develops computational methods, based on statistics, machine learning and efficient algorithms, for high-throughput functional genomics. These are mainly multi-modal single-cell, spatial and genome-editing technologies, and the lab applies them in immunology and cancer. One thread characterizes CD8 T cell states and the regulation of T cell activation, using single-cell and spatial multi-omics, including Tcf7 regulators in tumour CD8 T cells. A second thread studies how Foxp3 and related factors shape chromatin organization and gene expression in regulatory T cells. A third thread builds CRISPR guide-RNA design tools (GuideScan and GuideScan2), including for noncoding regions and batch screens. Other published methods include ArchVelo (trajectory modeling), Gloss (cell-cell interactions) and a benchmark of spatial transcriptomics deconvolution.",
+   "topics": [
+    "single-cell multi-omics",
+    "spatial transcriptomics",
+    "CRISPR guide design",
+    "T cell immunology / tumour immunology",
+    "regulatory genomics",
+    "machine learning for genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's computational and ML methods for single-cell and spatial omics, with some tumour-immunology applications, overlap with the student's methods and single-cell/spatial interests. It does not do tumour WGS, structural variants or somatic mutation analysis, and it is based in the US, so a visa "
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: the PI is still at Princeton, and the Princeton CS profile and the lab site both list him there.",
+    "The people page lists no research focus or year for any member, so member focus fields are mostly empty. I did not check individual profile pages.",
+    "No member emails are published. The only email shown is the PI's, pritykin@princeton.edu, and the lab says it is recruiting postdocs and grad students.",
+    "The profile URLs for members are built from relative paths on the people page, so they are not individually verified.",
+    "The lab site is at pritykinlab.github.io. The cs.princeton.edu/~pritykin page redirects to pritykin.github.io, which points to the lab site. A pritykinlab.princeton.edu URL I tried returned an expired-certificate error."
+   ],
+   "sources": [
+    {
+     "title": "Princeton CS profile: Yuri Pritykin",
+     "url": "https://www.cs.princeton.edu/people/profile/pritykin"
+    },
+    {
+     "title": "Pritykin Lab home",
+     "url": "https://pritykinlab.github.io/"
+    },
+    {
+     "title": "Pritykin Lab people",
+     "url": "https://pritykinlab.github.io/people"
+    },
+    {
+     "title": "Yuri Pritykin personal page",
+     "url": "https://pritykin.github.io/"
+    },
+    {
+     "title": "Postdoctoral Research Associate Position - Pritykin Lab",
+     "url": "https://www.nature.com/naturecareers/job/12797107/postdoctoral-research-associate-position-pritykin-lab/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:39:01+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science / Lewis-Sigler Institute for Integrative Genomics",
-   "location": null
+   "pi_profile": {
+    "name": "Yuri Pritykin",
+    "title": "Assistant Professor of Computer Science and Genomics",
+    "profile_url": "https://www.cs.princeton.edu/people/profile/pritykin",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jonathan Mitchel",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/jonathan-mitchel/"
+    },
+    {
+     "name": "Wenfan Ke",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/wenfan-ke/"
+    },
+    {
+     "name": "Amanda Sun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/amanda-sun/"
+    },
+    {
+     "name": "Dillon Lue",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/dillon-lue/"
+    },
+    {
+     "name": "Tamjeed Azad",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/tamjeed-azad/"
+    },
+    {
+     "name": "Yanjin Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-advised with Britt Adamson; further detail not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/yanjin-chen/"
+    },
+    {
+     "name": "Zhiyue Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-advised with Lydia Lynch; further detail not stated on the people page",
+     "email": null,
+     "profile_url": "https://pritykinlab.github.io/author/zhiyue-zhang/"
+    }
+   ],
+   "department": "Department of Computer Science; Lewis-Sigler Institute for Integrative Genomics. Also affiliated with Molecular Biology, the Omenn-Darling Bioengineering Institute, and the Center for Statistics and M",
+   "location": "Princeton, NJ, USA",
+   "current_institution": "Princeton University",
+   "members_page": "https://pritykinlab.github.io/people"
   },
   {
    "name": "Torkamani Lab (Genome Informatics, Translational Institute)",
@@ -11851,22 +14609,236 @@
    "group": null,
    "department_hint": "Psychiatry / Biomedical Data Science",
    "id": "stanford-adeli",
-   "url": "https://dbds.stanford.edu/people/ehsan-adeli/",
-   "focus": null,
-   "topics": [],
+   "url": "https://stai.stanford.edu/",
+   "focus": "The lab develops translational AI for precision healthcare and mental health. It brings together computer vision, machine learning, neuroscience, neuroimaging and psychiatry. Its topics include multimodal and foundation models (including LLMs for psychiatry), brain MRI and fMRI analysis, and graph representation learning. It also works on video-based human activity and behaviour analysis, ambient intelligence and digital health, and AI evaluation. It does not appear to do genomics or cancer work.",
+   "topics": [
+    "health AI",
+    "computational neuroscience",
+    "neuroimaging",
+    "multimodal foundation models",
+    "computer vision",
+    "mental health"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on neuroimaging, vision and psychiatry AI, with no cancer genomics, sequencing, structural variants or single-cell/spatial omics; only the general ML-methods overlap is relevant, and a US visa may also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I confirmed the PI is still at Stanford from the Stanford CS, HAI and Neuroscience profile pages in search results. I found no sign of a move.",
+    "The dbds.stanford.edu URL from discovery failed to load (connection refused), so the PI's title comes from search snippets.",
+    "I read only the first 100,000 of about 130,000 characters of the people page. The unread tail may hold more entries.",
+    "The page also lists 'rotation' PhD students: Yao He, Christina Liu, Hongjie Li, Puyin Li, Keith Moore (BDS), Sriya Mantena and Yanchen Wang. I left them out of the members list because they are not full members.",
+    "Mohammad H. Abbasi (Senior Data Scientist) and Souhad Chbeir (Research Scientist) are staff, not postdocs, so they are excluded."
+   ],
+   "sources": [
+    {
+     "title": "STAI Lab people page",
+     "url": "https://stai.stanford.edu/people"
+    },
+    {
+     "title": "STAI Lab home",
+     "url": "https://stai.stanford.edu/"
+    },
+    {
+     "title": "STAI Lab openings",
+     "url": "https://stai.stanford.edu/openings"
+    },
+    {
+     "title": "Ehsan Adeli, Stanford CS profile",
+     "url": "https://www.cs.stanford.edu/people/ehsan-adeli"
+    },
+    {
+     "title": "Ehsan Adeli, Stanford HAI profile",
+     "url": "https://hai.stanford.edu/people/ehsan-adeli"
+    },
+    {
+     "title": "Ehsan Adeli, DBDS profile",
+     "url": "https://dbds.stanford.edu/people/ehsan-adeli/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:42:49+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Psychiatry / Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Ehsan Adeli",
+    "title": "Assistant Professor of Psychiatry & Behavioral Sciences, and (by courtesy) of Biomedical Data Science and of Computer Science; Director, STAI Lab",
+    "profile_url": "https://dbds.stanford.edu/people/ehsan-adeli/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Akshay Paruchuri",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Health AI, AI evaluation, multimodal learning, computational social science",
+     "email": null,
+     "profile_url": "https://akshayparuchuri.com/"
+    },
+    {
+     "name": "Cynthia Nyongesa",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational neuroscience, multimodal ML, aging and cognition",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=F6iqM_gAAAAJ&hl=en"
+    },
+    {
+     "name": "Gustavo Chau",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational neuroscience, health AI, foundation models, diffusion tensor imaging",
+     "email": null,
+     "profile_url": "https://sites.google.com/a/pucp.edu.pe/grchau/"
+    },
+    {
+     "name": "Ivan Martinovic",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Health AI, biomedical AI, digital health",
+     "email": null,
+     "profile_url": "https://ivanmct.github.io/"
+    },
+    {
+     "name": "Jiyao Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational neuroscience, graph representation learning, fMRI, multimodal learning",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=s02wtQgAAAAJ&hl=en"
+    },
+    {
+     "name": "Juze Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computer vision, robot learning, world models, digital humans",
+     "email": null,
+     "profile_url": "https://juzezhang.github.io/"
+    },
+    {
+     "name": "Narayan Schutz",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Health AI, ambient intelligence, digital twins",
+     "email": null,
+     "profile_url": "https://profiles.stanford.edu/narayan-schuetz"
+    },
+    {
+     "name": "Yue Zhao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computer vision, representation learning, perception and action, multimodal understanding",
+     "email": null,
+     "profile_url": "https://zhaoyue-zephyrus.github.io/"
+    },
+    {
+     "name": "Adam Sun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://adamsunn.github.io/"
+    },
+    {
+     "name": "Bailey Trang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=-yVY9T4AAAAJ&hl=en"
+    },
+    {
+     "name": "Chaitanya Patel",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD; advised by Juan Carlos Niebles (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://chaitanya100100.github.io/"
+    },
+    {
+     "name": "Fangrui Huang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/fangrui-huang-762376205/"
+    },
+    {
+     "name": "Favour Nerrise",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://www.favournerrise.com/"
+    },
+    {
+     "name": "Heng (Henry) Yu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://heng14.github.io/"
+    },
+    {
+     "name": "Jessica Brown",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://linkedin.com/in/jessicabrown2025/"
+    },
+    {
+     "name": "Karan Singh",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://karanps.com/"
+    },
+    {
+     "name": "Mohammad Asadi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD; co-advised by Euan Ashley and Fei-Fei Li (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://masadi.ai/"
+    },
+    {
+     "name": "Ridvan Yesiloglu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=jU0GuXgAAAAJ&hl=en"
+    },
+    {
+     "name": "Tiange Xiang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD; co-advised by Fei-Fei Li and Scott Delp (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://ai.stanford.edu/~xtiange/"
+    },
+    {
+     "name": "Wonkyeong Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "EE PhD (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=RQUDWTsAAAAJ"
+    },
+    {
+     "name": "Zane Durante",
+     "role": "PhD student",
+     "year": null,
+     "focus": "CS PhD; advised by Fei-Fei Li (focus not listed on page)",
+     "email": null,
+     "profile_url": "https://zanedurante.github.io/"
+    }
+   ],
+   "department": "Psychiatry & Behavioral Sciences; Biomedical Data Science (courtesy); Computer Science (courtesy)",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://stai.stanford.edu/people"
   },
   {
    "name": "Alsentzer Lab",
@@ -12418,22 +15390,107 @@
    "group": null,
    "department_hint": "Anesthesiology / Biomedical Data Science",
    "id": "stanford-aghaeepour",
-   "url": "https://med.stanford.edu/profiles/nima-aghaee-pour",
-   "focus": null,
-   "topics": [],
+   "url": "https://nalab.stanford.edu",
+   "focus": "The lab develops computational and machine-learning methods for clinical and biological data in translational medicine. Its work covers high-dimensional immune profiling, including single-cell and mass cytometry. It also covers multi-omic integration and longitudinal clinical and wearable data, for example for pregnancy, surgical recovery and perioperative outcomes. The methods are mostly predictive modelling and AI for biomarker discovery. They are applied mainly to immunology, perinatal health and surgery, and much less to tumour genomics. This description is based on search-result summaries only, because the lab pages could not be opened.",
+   "topics": [
+    "immune profiling / cytometry",
+    "multi-omics integration",
+    "machine learning for clinical data",
+    "perioperative and perinatal medicine",
+    "wearable and longitudinal data"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab overlaps with the student's interest in ML methods and single-cell omics, but its focus is immunology and clinical prediction, not cancer genomics, structural variants or somatic mutation analysis; a US visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: search summaries still show Stanford, but I could not open the profile page to confirm.",
+    "Member list is INCOMPLETE and unconfirmed: the lab pages failed to load, and the current-members list has about 5 pages, of which only snippets were seen.",
+    "Other names appeared in search results as past or current postdocs (Lei Xue, Tomin James, Marc Ghanem, Liu Yang, Rui Xu, Alex Goodell, Mehrdad Kiamari, Amin Sadeghi, Saber Sheybani and others), but I could not tell whether they are still in the lab.",
+    "No emails were verified.",
+    "The Google Scholar URL was not found."
+   ],
+   "sources": [
+    {
+     "title": "Aghaeepour Lab - current members",
+     "url": "https://nalab.stanford.edu/employees_category/current-members/"
+    },
+    {
+     "title": "Aghaeepour Lab - people",
+     "url": "https://nalab.stanford.edu/people"
+    },
+    {
+     "title": "Shadi Momtahen - Postdoctoral Scholar",
+     "url": "https://nalab.stanford.edu/team/shadi-momtahen"
+    },
+    {
+     "title": "Stanford Neurosciences - Nima Aghaeepour",
+     "url": "https://neuroscience.stanford.edu/people/nima-aghaeepour"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-21T23:40:45+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Anesthesiology / Biomedical Data Science",
-   "location": null
+   "pi_profile": {
+    "name": "Nima Aghaeepour",
+    "title": "Professor of Anesthesiology, Perioperative and Pain Medicine, of Pediatrics, and of Biomedical Data Science (title taken from search summaries, not from the profile page)",
+    "profile_url": "https://med.stanford.edu/profiles/nima-aghaee-pour",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Shadi Momtahen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Machine learning models for longitudinal clinical and wearable data",
+     "email": null,
+     "profile_url": "https://nalab.stanford.edu/team/shadi-momtahen"
+    },
+    {
+     "name": "Weijieying Ren",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral fellow in Biomedical Data Science; specific project not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yijie (Jamie) Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computer science PhD (University of Tulsa, 2025); specific project not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chloe Kashiwagi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Immunology PhD student; specific project not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "David Seong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Immunology MD-PhD student; specific project not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Perla Molina",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Data Science (DBDS) PhD student; specific project not verified",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Anesthesiology, Perioperative and Pain Medicine; Pediatrics; Biomedical Data Science",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://nalab.stanford.edu/employees_category/current-members/"
   },
   {
    "name": "Gevaert Lab",

@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-21",
-   "generated_at": "2026-10-21T22:50:12+00:00",
-   "checked": 10,
+   "generated_at": "2026-10-21T23:42:49+00:00",
+   "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "mit-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-zhang",
+     "entry_name": "Zhang Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-uhler",
+     "entry_name": "Uhler Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-stultz",
+     "entry_name": "Computational Biophysics Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-page",
+     "entry_name": "Page Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-sontag",
+     "entry_name": "Sontag Lab (Clinical ML)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-vecchio",
+     "entry_name": "Del Vecchio Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-mirny",
+     "entry_name": "Mirny Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-kellis",
+     "entry_name": "MIT Computational Biology Group (Kellis Lab)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-szolovits",
+     "entry_name": "Clinical Decision Making Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-young",
+     "entry_name": "Young Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-lieberman",
+     "entry_name": "Lieberman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-raphael",
+     "entry_name": "Raphael Group (computational cancer genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-zhong",
+     "entry_name": "E.Z. Lab for Molecular Machine Learning",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-joseph",
+     "entry_name": "Joseph Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-storey",
+     "entry_name": "Storey Lab for Statistical Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-akey",
+     "entry_name": "Akey Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-skinnider",
+     "entry_name": "Skinnider Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-singh",
+     "entry_name": "Singh Group (computational molecular biology)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-wingreen",
+     "entry_name": "Wingreen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-troyanskaya",
+     "entry_name": "Laboratory of Bioinformatics and Functional Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "princeton-pritykin",
+     "entry_name": "Pritykin Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-adeli",
+     "entry_name": "Stanford Translational AI (STAI) Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-aghaeepour",
+     "entry_name": "Aghaeepour Lab",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "mit-bryson",
