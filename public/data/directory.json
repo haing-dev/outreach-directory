@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T07:42:58+00:00",
+ "generated_at": "2026-10-22T08:05:27+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -1891,22 +1891,54 @@
    "group": null,
    "department_hint": "Institute Member (MIT)",
    "id": "broad-shalek",
-   "url": "https://www.broadinstitute.org/bios/alex-shalek",
-   "focus": null,
-   "topics": [],
+   "url": "https://shaleklab.com/",
+   "focus": "The lab develops nanoscale and genomic tools to manipulate and measure molecules and cells, including single-cell RNA-seq and related platforms that combine genomics, chemical biology and nanotechnology. It studies how cellular heterogeneity and cell-to-cell communication shape tissue function and dysfunction in health and disease. A major theme is how immune cells interact with tissue-resident cells, and how host-pathogen interactions change over time and across tissues. The lab also studies how tumour cells evade immune activity.",
+   "topics": [
+    "single-cell genomics",
+    "immunology",
+    "tumour immune evasion",
+    "host-pathogen interactions",
+    "technology development",
+    "computational biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's single-cell profiling, cancer immune-evasion work and computational methods overlap with the student's single-cell cancer interests. It has little focus on tumour WGS, structural variants or somatic mutation analysis, and a US role may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Could not verify postdoc/PhD roster: the team page text I could read lists names without roles, and profile links and emails were not extractable.",
+    "Names seen on the team page (roles unverified, may include staff, undergraduates and alumni): Kasey Tenggren, Nancy Tran, Bokai Zhu, Constantine Tzouanas, Zoë Steier, Hyery Yoo, Tammy Lan, Tracy Leidan Chen, Sergio Triana, Feng Shan, Evelyn Yuzhou Tong, James Bole Pan, Ankit Basak, Daniela Russo.",
+    "PI institution confirmed as Broad Institute and MIT per the Broad bio; no move detected.",
+    "Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "Alex Shalek – Broad Institute bio",
+     "url": "https://www.broadinstitute.org/bios/alex-shalek"
+    },
+    {
+     "title": "Shalek Lab team page",
+     "url": "https://shaleklab.com/team/"
+    },
+    {
+     "title": "Shalek Lab website",
+     "url": "https://shaleklab.com/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
+   "refreshed_at": "2026-10-22T07:59:22+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Alex K. Shalek",
+    "title": "Institute Member, Broad Institute; Director, MIT Institute for Medical Engineering & Science (IMES) and Health Innovation Hub; J. W. Kieckhefer Professor, IMES and Department of Chemistry, MIT",
+    "profile_url": "https://www.broadinstitute.org/bios/alex-shalek",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Institute Member (MIT)",
-   "location": null
+   "department": "IMES and Department of Chemistry (MIT); Koch Institute (extramural member); Ragon Institute; Immunology (MGH); Health Sciences and Technology (Harvard Medical School)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Broad Institute of MIT and Harvard (also MIT)",
+   "members_page": "https://shaleklab.com/team/"
   },
   {
    "name": "Gusev Lab",
@@ -1984,22 +2016,92 @@
    "group": null,
    "department_hint": "Institute Member (MGH, HMS)",
    "id": "broad-villani",
-   "url": "https://www.broadinstitute.org/node/1281911",
-   "focus": null,
-   "topics": [],
+   "url": "https://villani.mgh.harvard.edu/",
+   "focus": "The lab builds a detailed map of the human immune system, covering the cell types involved and the rules that govern immune responses. It uses single-cell multi-omics, systems immunology and computational modelling to study immunity in health, inflammation, disease progression and treatment response. It contributes to the Human Cell Atlas Immune Bionetwork and studies how circulating blood immune cells relate to cells in paired tissues. Translational projects focus on immune-related adverse events from immune-checkpoint inhibitor therapy, including checkpoint colitis and myocarditis, and on allergic asthma.",
+   "topics": [
+    "single-cell multi-omics",
+    "systems immunology",
+    "Human Cell Atlas",
+    "immune-related adverse events",
+    "checkpoint inhibitor toxicity",
+    "computational modelling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab shares single-cell omics, computational methods and some cancer-immunotherapy context with the student's interests, but it centres on immunology and has no focus on tumour WGS, structural variants or somatic mutation analysis."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: she is still listed at MGH / HMS / Broad, which matches the Broad bio page.",
+    "INCOMPLETE ROSTER: the lab team page could not be opened (the site returned a certificate verification error). The four postdocs above come from search-result summaries of the team page, not from reading the page itself, so the roster may be incomplete or outdated.",
+    "The same search summary also listed Michelle Rengarajan (physician investigator, endocrinology, thyroid autoimmunity). I left her out because her role as postdoc or faculty is unclear.",
+    "No PhD students could be confirmed, and no roster was seen on the Broad page. Check the team page directly.",
+    "No member emails were seen. The only published lab contact was the general address avillani@mgh.harvard.edu, which the search tool reported from the lab contact page. I did not open that page."
+   ],
+   "sources": [
+    {
+     "title": "Broad Institute lab page (discovery URL)",
+     "url": "https://www.broadinstitute.org/node/1281911"
+    },
+    {
+     "title": "Broad Institute bio: Alexandra-Chloé Villani",
+     "url": "https://www.broadinstitute.org/bios/alexandra-chloe-villani"
+    },
+    {
+     "title": "Villani Lab team page (seen only in search results)",
+     "url": "https://villani.mgh.harvard.edu/team/"
+    },
+    {
+     "title": "Villani Lab contact page (seen only in search results)",
+     "url": "https://villani.mgh.harvard.edu/contact"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Institute Member (MGH, HMS)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:01:33+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Alexandra-Chloé Villani",
+    "title": "Institute Member, Broad Institute; Assistant Professor of Medicine, Harvard Medical School; PI at MGH Center for Cancer Research and Center for Immunology and Inflammatory Diseases (CIID); Director, C",
+    "profile_url": "https://www.broadinstitute.org/bios/alexandra-chloe-villani",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Daniel Zlotoff",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Cardiologist (MD, PhD) studying immune responses in the heart, including checkpoint inhibitor-associated myocarditis.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kamil Slowikowski",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational postdoc working on single-cell transcriptomics.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Leyre Zubiri",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Medical oncologist (MD, PhD) studying complications of immunotherapy on MGH's Severe Immunotherapy Complications service; earlier doctoral work on liquid biopsies for melanoma biomarkers.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rachelly Normand",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational postdoc studying autoimmune and infectious diseases using multi-omic single-cell data.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "MGH Center for Cancer Research; Center for Immunology and Inflammatory Diseases (CIID), Single Cell Genomics Research Program; Broad Institute; HMS Department of Medicine",
+   "location": "Boston (Charlestown Navy Yard), Massachusetts, USA",
+   "current_institution": "Massachusetts General Hospital / Harvard Medical School (Broad Institute Institute Member)",
+   "members_page": "https://villani.mgh.harvard.edu/team/"
   },
   {
    "name": "Martin Lab",
@@ -2539,22 +2641,92 @@
    "group": null,
    "department_hint": "Associate Member (Harvard)",
    "id": "broad-segre",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://www.asegrelab.org/team",
+   "focus": "The lab develops statistical and computational methods to find the causal genes, variants and regulatory mechanisms behind common eye diseases. These include primary open-angle glaucoma, age-related macular degeneration (AMD) and diabetic retinopathy. Methods combine GWAS with functional genomics (eQTL and splicing QTL mapping in human retina), single-cell data and systems biology, with the aim of interpreting noncoding variants. Current directions include drug repurposing for glaucoma and AMD, pharmacogenomics of ocular drug response, and non-negative matrix factorization to find biological subtypes of glaucoma. The PI also did earlier GTEx work and developed the MAGENTA pathway-enrichment method for GWAS.",
+   "topics": [
+    "statistical genetics",
+    "GWAS interpretation",
+    "functional genomics / eQTL",
+    "single-cell genomics",
+    "ophthalmic disease genetics",
+    "drug repurposing"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The computational methods and single-cell/functional genomics work overlap with the student's methods interests, but the lab studies germline genetics of eye diseases, not cancer, tumour WGS/transcriptomes or somatic structural variants, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI's primary home is Mass Eye and Ear / Harvard Medical School, not the Broad. The Broad affiliation is Associate Member only. No move to another institution was found.",
+    "The PI's rank is inconsistent across sources (Assistant vs Associate Professor).",
+    "The members page does not show a last-updated date, so it may be out of date.",
+    "The team page gives no individual profile links, years or emails for members. The PI's email is listed in obfuscated form as ayellet_segre [at] meei.harvard.edu.",
+    "Excluded from the member list: Mauricio Garcia (HST MD student, co-advised with Wiggs); Songtao Xu and Levi Svaren (master's students); Jacqueline Ohmura (radiology resident); staff bioinformaticists Puja Mehta, Yuyang Luo, Jyoti Lama and Meghana Dutta; two undergraduate interns; and alumni."
+   ],
+   "sources": [
+    {
+     "title": "Segrè Lab team page",
+     "url": "https://www.asegrelab.org/team"
+    },
+    {
+     "title": "Ocular Genomics Institute – Segrè Lab",
+     "url": "https://oculargenomics.meei.harvard.edu/labs/segre-lab/"
+    },
+    {
+     "title": "Ocular Genomics Institute – Segrè Lab members",
+     "url": "https://oculargenomics.meei.harvard.edu/labs/segre-lab/lab-members/"
+    },
+    {
+     "title": "Mass Eye and Ear investigator profile – Ayellet Segrè",
+     "url": "https://www.masseyeandear.org/research/investigators/s/segre-ayellet"
+    },
+    {
+     "title": "Glaucoma Foundation – Ayellet V. Segrè bio",
+     "url": "https://glaucomafoundation.org/our_staff/ayellet-v-segre-phd/"
+    },
+    {
+     "title": "HMS BMI PhD – Ayellet V. Segre",
+     "url": "https://bmiphd.hms.harvard.edu/people/ayellet-v-segre"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (Harvard)",
-   "location": null
+   "refreshed_at": "2026-10-22T07:59:27+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Ayellet V. Segrè",
+    "title": "Assistant Professor of Ophthalmology, Harvard Medical School (the lab page says Assistant Professor; the Glaucoma Foundation bio says Associate Professor, so the rank is unclear). Also Assistant Scien",
+    "profile_url": "https://www.masseyeandear.org/research/investigators/s/segre-ayellet",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Michelle Bartolo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rinaldo Catta-Preta",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Katherine Duchinski",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Drug repurposing for glaucoma and AMD, combining human genetics, functional genomics and small-molecule expression data (BIG Program, HMS)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Ophthalmology (Harvard Medical School); Ocular Genomics Institute, Mass Eye and Ear; Bioinformatics and Integrative Genomics (BIG) PhD program",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Massachusetts Eye and Ear / Harvard Medical School (Ocular Genomics Institute); Associate Member, Broad Institute",
+   "members_page": "https://www.asegrelab.org/team"
   },
   {
    "name": "Neale Lab",
@@ -2679,22 +2851,107 @@
    "group": null,
    "department_hint": "Associate Member (MIT)",
    "id": "broad-zhang",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://zhanggroup.mit.edu",
+   "focus": "The group builds AI/machine-learning-driven, multiscale simulation tools to study how molecular interactions give rise to biological organization. It combines theoretical chemistry, statistical physics and data-driven modeling to link atomic-level chemistry with genome-scale biology. A central theme is large-scale simulation of chromatin and 3D genome organization, which aims to relate genomic sequence, structure and function. The group says this work could inform genome engineering and therapeutic approaches, including for Alzheimer's disease. Its tagline is 'Advancing genome science through AI and simulation.'",
+   "topics": [
+    "3D genome / chromatin modeling",
+    "molecular dynamics simulation",
+    "machine learning for biophysics",
+    "phase separation",
+    "statistical physics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares an interest in computational methods and ML for genomics, but it does physics-based chromatin simulation and does no cancer sequencing, structural-variant or somatic-mutation analysis, or single-cell and spatial omics in cancer."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found. Bin Zhang is still at MIT Chemistry, with a Broad Institute Associate Member appointment.",
+    "The members page gives no research focus for individual members, so member focus fields are not described.",
+    "The page lists Bojun Liu with the same email as Yumeng Zhang, which looks like a copy error. Liu's email is set to null.",
+    "The page footer reads © 2020 and has no explicit update date, though it lists 2026 starts.",
+    "Google Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "Zhang Group – Group Members",
+     "url": "https://zhanggroup.mit.edu/team.html"
+    },
+    {
+     "title": "Zhang Group home",
+     "url": "https://zhanggroup.mit.edu"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (MIT)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:02:02+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Bin Zhang",
+    "title": "Associate Professor of Chemistry; Pfizer-Laubach Career Development Professor; Associate Member, Broad Institute",
+    "profile_url": "https://zhanggroup.mit.edu/team.html",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Bojun Liu",
+     "role": "Postdoc",
+     "year": "joined 2026",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joe Paggi",
+     "role": "Postdoc",
+     "year": "joined 2023",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yumeng Zhang",
+     "role": "Postdoc",
+     "year": "joined 2024",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Camryn Carter",
+     "role": "PhD student",
+     "year": "joined 2023",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Chenxi Ye",
+     "role": "PhD student",
+     "year": "joined 2025",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ivan Riveros",
+     "role": "PhD student",
+     "year": "joined 2023",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Justin Airas",
+     "role": "PhD student",
+     "year": "joined 2021",
+     "focus": "Not described on the page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Chemistry, MIT",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (Associate Member, Broad Institute)",
+   "members_page": "https://zhanggroup.mit.edu/team.html"
   },
   {
    "name": "Berger Lab",
@@ -2770,22 +3027,195 @@
    "group": null,
    "department_hint": "Core Institute Member; Eric and Wendy Schmidt Center",
    "id": "broad-uhler",
-   "url": "https://www.broadinstitute.org/bios/caroline-uhler",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.carolineuhler.com/",
+   "focus": "The lab develops machine learning foundations and methods for integrating different data modalities. A central theme is causal inference, meaning learning cause-and-effect structure from observational and interventional data. These methods are applied to uncover gene regulatory circuits that drive cell and tissue programs in health and disease. The work sits in the Schmidt Center's mix of machine learning, statistics and biology. Many members are co-advised by Broad biologists, including Fei Chen, Nir Hacohen, Eliezer Van Allen, Ramnik Xavier, Xiao Wang and Paul Blainey. This points to single-cell, spatial and perturbation data. The homepage gives only a brief description, so more detailed topics were not verified.",
+   "topics": [
+    "causal inference",
+    "multimodal data integration",
+    "gene regulatory networks",
+    "single-cell and spatial omics",
+    "machine learning for biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab overlaps on computational and ML methods and on single-cell/spatial omics, but its focus is causal and representation-learning theory. It does not centre on tumour WGS, structural variants or somatic mutation calling. Some postdocs co-advised by Eliezer Van Allen may touch on cancer, but tha"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: Uhler is still at the Broad Institute and MIT, per the Broad bio page.",
+    "The members page shows no update date (footer reads © 2024), so the roster may be out of date.",
+    "The members page does not list research focus or year for anyone. The focus entries above are only affiliations and co-advisors from the page, not verified topics.",
+    "Jiaqi (Vicky) Zhang is labelled both 'Graduate student' and 'Postdoc' on the page; listed here as postdoc.",
+    "No Google Scholar URL was found, so scholar_url is null."
+   ],
+   "sources": [
+    {
+     "title": "Caroline Uhler - Broad Institute bio",
+     "url": "https://www.broadinstitute.org/bios/caroline-uhler"
+    },
+    {
+     "title": "Uhler Lab current team members",
+     "url": "https://www.carolineuhler.com/current-team-members"
+    },
+    {
+     "title": "Uhler Lab homepage",
+     "url": "https://www.carolineuhler.com/"
+    },
+    {
+     "title": "Eric and Wendy Schmidt Center people",
+     "url": "https://ericandwendyschmidtcenter.org/people"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Core Institute Member; Eric and Wendy Schmidt Center",
-   "location": null
+   "refreshed_at": "2026-10-22T08:00:49+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Caroline Uhler",
+    "title": "Andrew (1956) and Erna Viterbi Professor of Engineering, EECS and IDSS, MIT; Core Institute Member, Broad Institute; Director, Eric and Wendy Schmidt Center",
+    "profile_url": "https://www.broadinstitute.org/bios/caroline-uhler",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Dongshunyi (Dora) Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Fei Chen (research focus not listed)",
+     "email": null,
+     "profile_url": "https://twitter.com/doralidsy"
+    },
+    {
+     "name": "Jiaqi (Vicky) Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center, MIT EECS/LIDS/IDSS (the page labels this person both graduate student and postdoc; focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/jiaqi-zhang-34b490180"
+    },
+    {
+     "name": "Josephine Yates",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Eliezer Van Allen (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/josephine-yates/"
+    },
+    {
+     "name": "Julie Laffy",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Fei Chen and Nir Hacohen (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/julie-laffy-1982b51a7"
+    },
+    {
+     "name": "Kai Cao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Ramnik Xavier (focus not listed)",
+     "email": null,
+     "profile_url": "https://caokai.site"
+    },
+    {
+     "name": "Luezhen Yuan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Ramnik Xavier (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/luezhen-yuan-5a0a52244/"
+    },
+    {
+     "name": "Vidhi Lalchand",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center, MIT (focus not listed)",
+     "email": null,
+     "profile_url": "https://vidhilalchand.co.uk"
+    },
+    {
+     "name": "Viktoria Schuster",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "MIT / Schmidt Center (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/viktoria-schuster-0bbaa9156/"
+    },
+    {
+     "name": "Yichun He",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Xiao Wang (focus not listed)",
+     "email": null,
+     "profile_url": "https://yichunher.github.io"
+    },
+    {
+     "name": "Yue Qin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Center postdoc co-advised by Paul Blainey (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/yue-qin-472092b2"
+    },
+    {
+     "name": "Abhinav Kumar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center, MIT EECS (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/abhinav-kumar-99b29a16b/"
+    },
+    {
+     "name": "Chujun He",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center, MIT IDSS, co-advised by Munther Dahleh (focus not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Hannah Schlueter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center, MIT EECS (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/hmschlue/"
+    },
+    {
+     "name": "Jingwen (Alina) Guo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center, MIT (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/alina-guo314/"
+    },
+    {
+     "name": "Maggie Sui",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center, MIT (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/maggie-sui-1617012/"
+    },
+    {
+     "name": "Max Land",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center, MIT LIDS, co-advised by G.V. Sivashankar (focus not listed)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Renzo Soatto",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Schmidt Center (focus not listed)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/renzosoatto/"
+    }
+   ],
+   "department": "MIT EECS and Institute for Data, Systems, and Society (IDSS); Broad Eric and Wendy Schmidt Center",
+   "location": "Cambridge, Massachusetts, USA",
+   "current_institution": "Broad Institute of MIT and Harvard (joint with MIT)",
+   "members_page": "https://www.carolineuhler.com/current-team-members"
   },
   {
    "name": "Patel Lab",
@@ -3023,22 +3453,88 @@
    "group": null,
    "department_hint": "Associate Member (MGH)",
    "id": "broad-smillie",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://www.smillielab.org/",
+   "focus": "The lab studies microbial life on the human body and how microbes interact with host tissues. Its work covers epithelial stem cells, the immune system and the enteric nervous system. One strand maps host-microbiome interactions using single-cell atlases of the human colon and enteric nervous system, spatial transcriptomics, and predicted multicellular circuits. A second strand studies microbiome evolution during disease, including horizontal gene transfer and bacterial strain tracking in inflammatory bowel disease (IBD). A third strand develops computational methods for spatial transcriptomics, such as reconstructing cell-cell interactions and mapping disease-risk loci to cells and pathways.",
+   "topics": [
+    "host-microbiome interactions",
+    "IBD / gut inflammation",
+    "single-cell atlases",
+    "spatial transcriptomics methods",
+    "microbial evolution / strain tracking",
+    "enteric nervous system"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's single-cell/spatial methods and computational focus overlap with the student's interests, but its work is on microbiome and IBD rather than cancer, tumour WGS, or structural variants, and the lab is in the US (visa needed)."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at MGH/HMS with an Associate Member appointment at the Broad.",
+    "The lab website does not publish emails. The three emails above come from the MGH CCIB lab page (https://ccib.mgh.harvard.edu/smillie).",
+    "The lab website lists Emanuel (Ema) Burgos-Robles (MIT CSB) under Alumni but describes him as a current MIT PhD student. His status is unclear, so he is not included. The CCIB page lists him as a machine learning intern at Gensaic.",
+    "The CCIB page lists Adarsh Kumbhari (postdoc) and Shivam Gandhi (now a Harvard SSQB PhD student) as former members. Neither is included.",
+    "The members pages show no join years, and I could not see when they were last updated."
+   ],
+   "sources": [
+    {
+     "title": "Smillie Lab home",
+     "url": "https://www.smillielab.org/"
+    },
+    {
+     "title": "Smillie Lab people",
+     "url": "https://www.smillielab.org/people"
+    },
+    {
+     "title": "Smillie Lab (MGH CCIB)",
+     "url": "https://ccib.mgh.harvard.edu/smillie"
+    },
+    {
+     "title": "Christopher Smillie, MGH researcher profile",
+     "url": "https://researchers.mgh.harvard.edu/profile/24601346/Christopher-Smillie"
+    },
+    {
+     "title": "Ohad Lewin-Epstein, Broad talk page",
+     "url": "https://www.broadinstitute.org/talks/ohad-lewin-epstein"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (MGH)",
-   "location": null
+   "refreshed_at": "2026-10-22T07:59:49+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Christopher Smillie",
+    "title": "Assistant Professor, Harvard Medical School; Principal Investigator, Massachusetts General Hospital (Center for Computational and Integrative Biology); Associate Member, Broad Institute",
+    "profile_url": "https://researchers.mgh.harvard.edu/profile/24601346/Christopher-Smillie",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Ohad Lewin-Epstein",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational methods for host-microbiome interactions, microbial evolution, and microbiome adaptation to the IBD gut (Rothschild and EMBO Postdoctoral Fellow).",
+     "email": null,
+     "profile_url": "https://www.broadinstitute.org/talks/ohad-lewin-epstein"
+    },
+    {
+     "name": "Thomas Cheng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not specified on the lab page (Harvard-MIT HST graduate student).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Vy Tran",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Multi-modal human genetics, gene expression and microbiome data, focused on host-microbe interactions (Harvard BIG).",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Center for Computational and Integrative Biology (CCIB), MGH; Department of Medicine, HMS",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Massachusetts General Hospital / Harvard Medical School (Associate Member, Broad Institute)",
+   "members_page": "https://www.smillielab.org/people"
   },
   {
    "name": "Coley Group",
@@ -4061,22 +4557,124 @@
    "group": null,
    "department_hint": "Institute Member (Harvard, MGH)",
    "id": "broad-robinson",
-   "url": "https://www.broadinstitute.org/bios/elise-robinson",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.robinsonlab.org/",
+   "focus": "The lab studies genetic influences on behavior and cognition. It looks at neurodevelopmental variation and at differences within and between neuropsychiatric disorders, especially autism. Its methods come from statistical genetics and epidemiology, applied to common variants (GWAS meta-analysis, polygenic risk) and to rare variants. Current work extends the autism GWAS with new data from SPARK, the Autism Inpatient Collection and the NeuroDev project, and studies how common polygenic risk acts across brain cell types and tissues. The lab also works on psychiatric comorbidity in autism, such as anxiety and depression. Robinson co-chairs the Psychiatric Genomics Consortium Autism Working Group and the Broad's NeuroDevelopmental Variability Initiative.",
+   "topics": [
+    "autism genetics",
+    "statistical genetics",
+    "GWAS / polygenic risk",
+    "rare variants",
+    "neuropsychiatric epidemiology",
+    "neurodevelopment"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab does statistical and population genetics of autism and psychiatric disorders, with little on cancer, tumour sequencing, structural variants or single-cell/spatial omics. The only overlap is general computational genomics methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found for the PI. She is still listed at the Broad Institute and MGH.",
+    "The people page has no dates, so it is unclear how current it is. Taylor Thomas's postdoc start was announced in September 2023, so some listed postdocs may have moved on.",
+    "The people page gives no research focus, year or email for any member. Only Kuo's profile link comes from the page; the member foci are mostly unverified.",
+    "Lea Urpa is a visiting postdoc, and Celia van der Merwe (Research Scientist) is staff and was left out.",
+    "The lab has few PhD students, and the two listed graduate students (Michelle Zhan, Emily Hang) are not given a degree program or institution."
+   ],
+   "sources": [
+    {
+     "title": "Elise Robinson - Broad Institute",
+     "url": "https://www.broadinstitute.org/bios/elise-robinson"
+    },
+    {
+     "title": "Robinson Lab home",
+     "url": "https://www.robinsonlab.org/"
+    },
+    {
+     "title": "Robinson Lab people",
+     "url": "https://www.robinsonlab.org/about-1-1"
+    },
+    {
+     "title": "Elise Robinson - MGH Center for Genomic Medicine",
+     "url": "https://cgm.massgeneral.org/faculty/elise-robinson/?training"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Institute Member (Harvard, MGH)",
-   "location": null
+   "refreshed_at": "2026-10-22T07:58:35+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Elise Robinson",
+    "title": "Institute Member, Broad Institute; Faculty, Center for Genomic Medicine and Department of Psychiatry, Massachusetts General Hospital; affiliated faculty, Department of Epidemiology, Harvard T.H. Chan ",
+    "profile_url": "https://www.broadinstitute.org/bios/elise-robinson",
+    "scholar_url": "https://scholar.google.com/citations?user=HEDJHa0AAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Jing Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lea Urpa",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page (listed as Visiting Postdoc Researcher)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rebecca Danning",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page (listed as Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Susan S. Kuo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=St6KatYAAAAJ&hl=en&oi=ao"
+    },
+    {
+     "name": "Taylor Thomas",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genetics of anxiety and depression in autism, with collaborative projects with the Bressler Center at MGH",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Toni Boltz",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Emily Hang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page (listed as Graduate Student)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Michelle Zhan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page (listed as Graduate Student)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Center for Genomic Medicine and Department of Psychiatry (MGH); Analytic and Translational Genetics Unit (MGH); Epidemiology (Harvard T.H. Chan School of Public Health, affiliated)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Broad Institute of MIT and Harvard / Massachusetts General Hospital (Harvard-affiliated)",
+   "members_page": "https://www.robinsonlab.org/about-1-1"
   },
   {
    "name": "Fraenkel Lab",
@@ -4225,22 +4823,67 @@
    "group": null,
    "department_hint": "Associate Member (MGH)",
    "id": "broad-rheinbay",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://www.massgeneral.org/cancer-center/clinical-trials-and-research/center-for-cancer-research/investigators/rheinbay-lab",
+   "focus": "The lab identifies and functionally characterizes non-coding cancer drivers in tumour whole-genome sequences. It develops new statistical and computational analysis methods and works with experimental collaborators to validate candidates. This builds on Rheinbay's 2020 Nature PCAWG/TCGA analysis of non-coding somatic drivers (point mutations and structural variants) in 2,658 cancer genomes. A second major theme is the role of the sex chromosomes in cancer, especially loss of the Y chromosome (LOY) in primary tumours. The lab also studies gender differences in cancer drivers, and has a Krantz award with Miguel Rivera on intrinsically disordered protein domains in cancer.",
+   "topics": [
+    "non-coding cancer drivers",
+    "tumour whole-genome analysis",
+    "Y chromosome loss",
+    "somatic mutations and structural variant",
+    "sex differences in cancer",
+    "computational cancer genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's interests in tumour WGS, somatic mutation and structural-variant analysis, and computational methods, but single-cell/spatial omics is not a stated focus and a US position may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Could not open an official lab people page. The MGH investigator page redirects, and the HMS profile returned 403. Member roles are therefore unverified.",
+    "A third-party mirror of the MGH page lists these people, but the mirror may be out of date and gives no roles, so none were added as members: Luis Antonio Corchete Sánchez, Preshita Dave, Philipp Hähnel, Ema Klefti, Garrett Lam, Andrey Leshchiner, Xavi Loinaz, Irene Rin Mitsiades, Andres Fillizzola ",
+    "Rheinbay's current profiles list MGH and Harvard Medical School, not the Broad. The Broad affiliation looks like an associate or historical link. No institutional move was found.",
+    "A postdoc position in computational cancer genomics was advertised, with applications to erheinbay@mgh.harvard.edu. I did not see the posting itself, so check it is still open.",
+    "Google Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "Rheinbay Lab (MGH Krantz Family Center for Cancer Research; URL as returned by search, redirects)",
+     "url": "https://www.massgeneral.org/cancer-center/clinical-trials-and-research/center-for-cancer-research/investigators/rheinbay-lab"
+    },
+    {
+     "title": "Esther Rheinbay (HMS BMI PhD)",
+     "url": "https://bmiphd.hms.harvard.edu/people/esther-rheinbay"
+    },
+    {
+     "title": "Krantz Family Center for Cancer Research investigators",
+     "url": "https://www.massgeneral.org/cancer-center/clinical-trials-and-research/center-for-cancer-research/investigators"
+    },
+    {
+     "title": "Lost but not least: Y chromosome loss as a driver of cancer (Trends in Cancer)",
+     "url": "https://www.cell.com/trends/cancer/abstract/S2405-8033(25)00283-3"
+    },
+    {
+     "title": "Loss of chromosome Y in primary tumors (Cell)",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(23)00646-3"
+    },
+    {
+     "title": "Tracking mysteries of loss of Y chromosome, cancer (Medical Xpress, 2026)",
+     "url": "https://medicalxpress.com/news/2026-03-tracking-mysteries-loss-chromosome-cancer.html"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
+   "refreshed_at": "2026-10-22T07:58:47+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Esther Rheinbay",
+    "title": "Assistant Professor of Medicine (Harvard Medical School); Investigator, Krantz Family Center for Cancer Research, Massachusetts General Hospital",
+    "profile_url": "https://bmiphd.hms.harvard.edu/people/esther-rheinbay",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Associate Member (MGH)",
-   "location": null
+   "department": "Krantz Family Center for Cancer Research and MGH Cancer Center; Harvard Medical School (Medicine)",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Massachusetts General Hospital / Harvard Medical School (Broad Institute associate member)",
+   "members_page": null
   },
   {
    "name": "Macosko Lab",
@@ -5351,22 +5994,80 @@
    "group": null,
    "department_hint": "Associate Member (MGH)",
    "id": "broad-vazquez-garcia",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://vazquezgarcialab.mgh.harvard.edu/",
+   "focus": "The lab studies how tumours evolve across space and time, how they progress, and how they respond to therapy. It also studies how tumours and the immune system co-evolve. Its methods are scalable inference and modelling of single-cell genomic data and in situ imaging data. Published work from the lab and collaborators covers genome doubling and immune evasion in ovarian cancer, clonal evolution tracked with cell-free DNA during treatment, and mutational processes that create genomic variation between single cells. The lab received a Krantz Technology Award for a cellenONE platform for image-based single-cell isolation.",
+   "topics": [
+    "tumour evolution",
+    "single-cell genomics",
+    "spatial/in situ imaging",
+    "mutational processes",
+    "ovarian cancer",
+    "computational modelling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "The lab's work on single-cell and spatial cancer genomics, mutational processes and computational inference overlaps well with the student's interests, but it centres on single-cell and evolution modelling rather than bulk WGS/transcriptome and structural-variant work, and it is in the US, so the st"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is at MGH/HMS with a Broad associate-member appointment. No move was found, and the Broad listing is secondary rather than primary.",
+    "The lab is small. Only one postdoc and one PhD student (a rotation student, not yet a full member) are listed.",
+    "Other current members (lab manager, research associate, master's student, undergraduate) are staff or students outside the postdoc/PhD scope and are excluded.",
+    "No emails are published on the team or profile pages. A contact page exists at /contact/, which I did not open.",
+    "The PI's Google Scholar URL could not be verified and is left null."
+   ],
+   "sources": [
+    {
+     "title": "Vazquez-Garcia Lab team page",
+     "url": "https://vazquezgarcialab.mgh.harvard.edu/team"
+    },
+    {
+     "title": "Ignacio Vazquez-Garcia profile",
+     "url": "https://vazquezgarcialab.mgh.harvard.edu/projects/ignacio_vazquez-garcia"
+    },
+    {
+     "title": "Vazquez-Garcia Lab home",
+     "url": "https://vazquezgarcialab.mgh.harvard.edu/"
+    },
+    {
+     "title": "Kit Gallagher profile",
+     "url": "https://vazquezgarcialab.mgh.harvard.edu/projects/kit_gallagher/"
+    },
+    {
+     "title": "Michail Andreopoulos profile",
+     "url": "https://vazquezgarcialab.mgh.harvard.edu/projects/michail_andreopoulos/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (MGH)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:01:05+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Ignacio Vazquez-Garcia",
+    "title": "Assistant Professor, Harvard Medical School and Massachusetts General Hospital (Pathology; Krantz Family Center for Cancer Research); Associate Member, Broad Institute",
+    "profile_url": "https://vazquezgarcialab.mgh.harvard.edu/projects/ignacio_vazquez-garcia",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Kit Gallagher",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Schmidt Science Fellow. Mathematical modelling and deep reinforcement learning for treatment scheduling and outcome prediction in cancer (metastatic prostate cancer in prior work). This is inferred from the bio, since no lab-specific focus is stated.",
+     "email": null,
+     "profile_url": "https://vazquezgarcialab.mgh.harvard.edu/projects/kit_gallagher/"
+    },
+    {
+     "name": "Michail Andreopoulos",
+     "role": "PhD student",
+     "year": "Rotation student (Harvard BIG programme)",
+     "focus": "Mathematical models of how tumours and other diseases evolve, for early detection and prevention. Previously used mutational signature analysis and duplex sequencing to study somatic mosaicism in Peter Park's lab.",
+     "email": null,
+     "profile_url": "https://vazquezgarcialab.mgh.harvard.edu/projects/michail_andreopoulos/"
+    }
+   ],
+   "department": "HMS/MGH Department of Pathology; MGH Krantz Family Center for Cancer Research; Broad Institute (associate member); Dana-Farber/Harvard Cancer Consortium",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Massachusetts General Hospital / Harvard Medical School (Broad Institute associate member)",
+   "members_page": "https://vazquezgarcialab.mgh.harvard.edu/team"
   },
   {
    "name": "Korsunsky Lab",
@@ -6989,22 +7690,236 @@
    "group": null,
    "department_hint": "Associate Member (Harvard)",
    "id": "broad-zitnik",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://zitniklab.hms.harvard.edu/",
+   "focus": "The lab develops machine learning methods grounded in biomedical knowledge. The PI's stated current focus is learning systems informed by geometry, structure and symmetry. Its work includes graph neural networks and geometric deep learning, foundation models for biology and medicine, and AI agents for science. The lab co-founded Therapeutics Data Commons and runs an AI4Science initiative. Applications include drug discovery and repurposing, protein and molecular design, single-cell biology, and clinical and rare-disease prediction. I did not review the publication list in detail, so this summary rests on the PI profile pages and the lab's people page.",
+   "topics": [
+    "geometric deep learning",
+    "graph neural networks",
+    "foundation models for biomedicine",
+    "drug discovery / repurposing",
+    "single-cell omics",
+    "AI agents for science"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is a general ML-for-biomedicine group. It has some overlap with the student's interest in ML methods for genomics and single-cell omics, but little on cancer genomics, WGS or transcriptome sequencing, structural variants or somatic mutation analysis. The US location may also require a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI has not moved. She is still at Harvard Medical School with a Broad Institute Associate Member appointment. The Broad is a secondary affiliation, so the lab is based at HMS DBMI and not at an independent institute.",
+    "The members page has no research focus, years or emails for anyone. The focus fields above are blank for that reason, and I did not infer them.",
+    "Amy Dong may be a stale listing. News on the lab site says she is moving to a PhD program in August 2026.",
+    "The BMI PhD program page still lists the PI as Assistant Professor, which is out of date.",
+    "No Google Scholar URL was seen, so scholar_url is null."
+   ],
+   "sources": [
+    {
+     "title": "Zitnik Lab people page",
+     "url": "https://zitniklab.hms.harvard.edu/people/"
+    },
+    {
+     "title": "Zitnik Lab PI bio",
+     "url": "https://zitniklab.hms.harvard.edu/bio/"
+    },
+    {
+     "title": "Marinka Zitnik, Harvard DBMI",
+     "url": "https://dbmi.hms.harvard.edu/people/marinka-zitnik?page=1"
+    },
+    {
+     "title": "Marinka Zitnik, Kempner Institute",
+     "url": "https://kempnerinstitute.harvard.edu/people/marinka-zitnik/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (Harvard)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:02:17+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Marinka Zitnik",
+    "title": "Associate Professor of Biomedical Informatics, Harvard Medical School; Associate Member, Broad Institute of MIT and Harvard",
+    "profile_url": "https://zitniklab.hms.harvard.edu/bio/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aarthi Venkat",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Eric and Wendy Schmidt Fellow; the page does not state her focus",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=Z8c9_0QAAAAJ&hl=en"
+    },
+    {
+     "name": "Boyang Fu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "https://fboyang.github.io/"
+    },
+    {
+     "name": "Gaurav Bhatt",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "https://gauravbh1010tt.github.io/"
+    },
+    {
+     "name": "Grey Kuling",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Curriculum Fellow; the page does not state their focus",
+     "email": null,
+     "profile_url": "https://curriculumfellows.hms.harvard.edu/people/grey-kuling"
+    },
+    {
+     "name": "Haifan Gong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "https://haifangong.github.io/"
+    },
+    {
+     "name": "Haoyu Han",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "https://hhy.one/"
+    },
+    {
+     "name": "Intae Moon",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "https://itmoon7.github.io/"
+    },
+    {
+     "name": "Lincoln Harris",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ruth Johnson",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Harvard Berkowitz Fellow; the page does not state her focus",
+     "email": null,
+     "profile_url": "https://ruthjohnson95.github.io/"
+    },
+    {
+     "name": "Shanghua Gao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "http://shgao.site/"
+    },
+    {
+     "name": "Xiaorui Su",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=zh-CN&user=Awdn73MAAAAJ"
+    },
+    {
+     "name": "Ada Fang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard CCB program; focus not stated",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Amy Dong",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard AIM program; the lab's news says she is moving on to a PhD program in August 2026, so her status is uncertain",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ayush Noori",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Oxford University; focus not stated",
+     "email": null,
+     "profile_url": "https://www.ayushnoori.com/"
+    },
+    {
+     "name": "Kevin Li",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard-MIT HST program; focus not stated",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lukas Fesser",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard Applied Mathematics; focus not stated",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Michael Sun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MIT EECS; focus not stated",
+     "email": null,
+     "profile_url": "https://michaelsuntech.wordpress.com/"
+    },
+    {
+     "name": "Nic Fishman",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard Statistics; focus not stated",
+     "email": null,
+     "profile_url": "https://njw.fish/"
+    },
+    {
+     "name": "Robert Calef",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MIT EECS; focus not stated",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=q7Yn0UwAAAAJ&hl=en"
+    },
+    {
+     "name": "Shvat Messica",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard AIM program; focus not stated",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/shvatmessica"
+    },
+    {
+     "name": "Walker Rickord",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard-MIT HST program; focus not stated",
+     "email": null,
+     "profile_url": "https://github.com/wrickord"
+    },
+    {
+     "name": "Yepeng Huang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Harvard BBS program; focus not stated",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biomedical Informatics (HMS); Kempner Institute (Associate Faculty); Broad Institute (Associate Member)",
+   "location": "Boston, MA, USA",
+   "current_institution": "Harvard Medical School (Department of Biomedical Informatics), with an Associate Member appointment at the Broad Institute",
+   "members_page": "https://zitniklab.hms.harvard.edu/people/"
   },
   {
    "name": "Daly Lab",
@@ -8109,22 +9024,127 @@
    "group": null,
    "department_hint": "Associate Member (Harvard)",
    "id": "broad-springer",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://springerlabhms.org/",
+   "focus": "The lab studies how evolution shapes and constrains the way organisms respond to their environment. It compares cellular responses across related yeast species, using in vivo fluorescence, synthetic and genetic approaches, and numerical and analytical modeling. It also asks how biochemistry, molecular design and pathway wiring let cells process environmental information, using duplicated genes within and across species to study quantitative features of pathways. A current focus is cellular homeostasis, starting with pH homeostasis, including how protein overexpression affects total protein abundance and how much protein levels can vary before fitness costs appear.",
+   "topics": [
+    "yeast systems biology",
+    "evolution of signaling",
+    "gene duplication",
+    "cellular homeostasis",
+    "quantitative modeling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does yeast evolutionary and systems biology with quantitative modeling. I found no cancer genomics, tumour sequencing, structural variant analysis or single-cell/spatial omics, so the only overlap is general computational modeling."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The old domain springerlab.org redirects to springerlabhms.org.",
+    "The Broad Institute affiliation and the PI's current rank could not be confirmed on pages I opened. The Harvard Systems Biology page confirms the HMS Systems Biology affiliation but gives no title.",
+    "No move from Harvard was found.",
+    "The people page gives names only: no focus areas, profile links or emails, and no update date. Michael Cory is listed as a HIVE Fellow, not clearly a postdoc, so I left him out.",
+    "Search snippets also named Andrew Bo Liu and Julius Palme as Springer Lab PhD students on the HMS Systems Biology student page, but they are not on the lab's people page. Check whether they are still current."
+   ],
+   "sources": [
+    {
+     "title": "Springer Lab people page",
+     "url": "https://springerlabhms.org/people"
+    },
+    {
+     "title": "Springer Lab home",
+     "url": "https://springerlabhms.org/"
+    },
+    {
+     "title": "HMS Systems Biology - Michael Springer",
+     "url": "https://sysbio.med.harvard.edu/michael-springer"
+    },
+    {
+     "title": "HMS Systems Biology graduate student profiles",
+     "url": "https://sysbio.med.harvard.edu/graduate-student-profiles"
+    },
+    {
+     "title": "HMS Systems Biology faculty",
+     "url": "https://sysbio.med.harvard.edu/facultyprofiles"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (Harvard)",
-   "location": null
+   "refreshed_at": "2026-10-22T07:59:56+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Michael Springer",
+    "title": "Faculty member, Department of Systems Biology, Harvard Medical School (current rank not confirmed; older sources say Associate Professor); Associate Member, Broad Institute (per hint, not verified)",
+    "profile_url": "https://sysbio.med.harvard.edu/michael-springer",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Ang Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Audrey Ory",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-advised; focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Matt Agboola",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maximillian P. MacNeil Soltysiak",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nathan Schaumburger",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Olivia Langlois",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ra'Mal Harris",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Skylar Ann Gay",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-advised; focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Systems Biology",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard Medical School",
+   "members_page": "https://springerlabhms.org/people"
   },
   {
    "name": "Talkowski Lab",
@@ -8136,22 +9156,172 @@
    "group": null,
    "department_hint": "Institute Member (MGH, HMS)",
    "id": "broad-talkowski",
-   "url": "https://www.broadinstitute.org/bios/michael-talkowski",
-   "focus": null,
-   "topics": [],
+   "url": "https://talkowski.mgh.harvard.edu/",
+   "focus": "The lab studies how genome structure relates to function and how genetic variation, especially structural variation, contributes to human disease. It builds methods and open resources for detecting and interpreting structural variants. These include population-scale SV maps and long-read efforts such as gnomAD-LR, and the lab also works on mobile element insertions and pangenome tools. It runs large-scale gene discovery and cellular modeling studies of autism and other neurodevelopmental disorders, including bipolar disorder. It also develops prenatal and pediatric genomic diagnostics. Work spans cloud-based computational pipelines, statistical and machine learning models, splicing and functional genomics, and high-throughput variant-to-function assays.",
+   "topics": [
+    "structural variation",
+    "long-read sequencing",
+    "neurodevelopmental disorders / autism",
+    "population and clinical genomics",
+    "prenatal diagnostics",
+    "functional genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab is strong on structural variant calling, computational methods and ML for genomics, and long-read sequencing, which match the student's SV and methods interests. It is germline and neurodevelopment-focused with no cancer, somatic mutation, tumour sequencing or single-cell/spatial work, and a"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: still MGH/HMS with a Broad Institute Institute Member appointment.",
+    "I fetched https://talkowski.mgh.harvard.edu/people and read the roster from that fetch. The profile links point to the anchors on /about/people-2/, which I did not open directly. The page's last-updated date is unknown.",
+    "The roster shows 9 postdocs and 4 PhD students. Some entries may be stale. Graduate years are not listed.",
+    "Emails come from the roster as returned by the fetch tool.",
+    "Google Scholar URL not verified, so it is left null."
+   ],
+   "sources": [
+    {
+     "title": "Broad Institute bio: Michael Talkowski",
+     "url": "https://www.broadinstitute.org/bios/michael-talkowski"
+    },
+    {
+     "title": "Talkowski Lab homepage",
+     "url": "https://talkowski.mgh.harvard.edu/"
+    },
+    {
+     "title": "Talkowski Lab people page",
+     "url": "https://talkowski.mgh.harvard.edu/about/people-2/"
+    },
+    {
+     "title": "Talkowski Lab contact page",
+     "url": "https://talkowski.mgh.harvard.edu/about/contact-us"
+    },
+    {
+     "title": "Talkowski Lab post (Xuefang Zhao, 2017)",
+     "url": "https://talkowski.mgh.harvard.edu/?p=696"
+    },
+    {
+     "title": "ATGU profile: Michael Talkowski",
+     "url": "https://www.atgu.mgh.harvard.edu/people/michael-e-talkowski-ph-d"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Institute Member (MGH, HMS)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:01:33+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Michael E. Talkowski",
+    "title": "Associate Professor of Neurology, Harvard Medical School (cross-appointments in Psychiatry and Pathology); Institute Member, Broad Institute; Director, Center for Genomic Medicine, MGH",
+    "profile_url": "https://www.broadinstitute.org/bios/michael-talkowski",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alba Sanchis-Juan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Large-scale population and clinical genomics of rare disease",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#d95db305f10f35996"
+    },
+    {
+     "name": "Arthur Lee",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Cloud-based discovery of structural variants in repetitive regions, integrated with epigenomic data",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#8b1ca8baddc952a72"
+    },
+    {
+     "name": "Cal Liao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genetics of bipolar disorder; functional consequences of structural variation",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#07833a25fbd32f0b5"
+    },
+    {
+     "name": "Chiara Auwerx",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Phenotypic effects of structural variants in clinical and population cohorts; 16p11.2 pleiotropy",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#c448a743d6ef69376"
+    },
+    {
+     "name": "Hang Su",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Long-read sequencing analysis, pangenome tools, population genetics",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#039b483b6fc33a4e9"
+    },
+    {
+     "name": "Huilin Xu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Functional interpretation of splicing, including poison exons in the human brain",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#77f4edb1aef1f5fd8"
+    },
+    {
+     "name": "Ieva Miceikaite",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Invasive and non-invasive prenatal genetic testing",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#7772b257df14e417c"
+    },
+    {
+     "name": "Michael Duyzend",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Prenatal diagnostics and the genetic architecture of disease",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#32a3b096d1aff604a"
+    },
+    {
+     "name": "Rebecca Danning",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Statistical and machine learning methods for latent space analysis of neurodevelopmental disorders",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#ae7d5c98fe6c67bc3"
+    },
+    {
+     "name": "Alex Yenkin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Mobile element insertions and their functional effects (HMS BIG)",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#bc56af31da81213ea"
+    },
+    {
+     "name": "Daniel Ben-Isvy",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Structural variation in disease, integrating long- and short-read sequencing (HMS BIG)",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#3212ae09bea66ab0e"
+    },
+    {
+     "name": "Lily Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Evolutionarily important genomic regions based on selection signatures, especially in early development (HMS BIG)",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#36a3ca05f67d8ba80"
+    },
+    {
+     "name": "Sinclair Emans",
+     "role": "PhD student",
+     "year": null,
+     "focus": "High-throughput platforms for linking variants to function (HMS BBS)",
+     "email": null,
+     "profile_url": "https://talkowski.mgh.harvard.edu/about/people-2/#e53cd6b8d177996a4"
+    }
+   ],
+   "department": "Center for Genomic Medicine (MGH); Neurology (HMS); Broad Program in Medical and Population Genetics and Stanley Center for Psychiatric Research; faculty mentor for the HMS BBS and BIG PhD programs",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Massachusetts General Hospital / Harvard Medical School, with Institute Member appointment at the Broad Institute",
+   "members_page": "https://talkowski.mgh.harvard.edu/about/people-2/"
   },
   {
    "name": "Udler Lab",
@@ -8163,22 +9333,84 @@
    "group": null,
    "department_hint": "Associate Member (MGH)",
    "id": "broad-udler",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://www.udlerlab.org",
+   "focus": "The lab works on precision diagnostics and management of diabetes. It analyses genetic data, from rare to common variants, to find new diabetes genes, disease subtypes and mechanisms. A major theme is defining molecular subtypes of type 2 diabetes with clustering of genetic loci and polygenic scores, so that patient care can be tailored. It also leads the RADIANT study of atypical diabetes, with patient recruitment at MGH and genomic analyses at the Broad. Data sources include UK Biobank, Mass General Brigham Biobank, All of Us and the T2D Knowledge Portal. The lab also runs the MGH Diabetes Genetics Clinic.",
+   "topics": [
+    "diabetes genetics",
+    "type 2 diabetes subtypes",
+    "polygenic scores",
+    "biobank genomics",
+    "monogenic/atypical diabetes",
+    "pharmacogenomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab is a computational human-genetics group focused on germline variation in diabetes. It has little overlap with cancer, tumour WGS/transcriptome, somatic mutation or single-cell/spatial work, apart from general statistical genomics and clustering methods. A US visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PhD students are listed on the members page. The only students listed are a medical student (Mathula Muhundan, affiliated member).",
+    "The PI's current institution was not independently confirmed beyond the lab site, which shows MGH, Broad and HMS logos. No move was found.",
+    "The members page does not mark dates, so the list of current members could not be confirmed as up to date.",
+    "No emails are published on the members page.",
+    "Only one web search was productive; the PI's Google Scholar URL was not found."
+   ],
+   "sources": [
+    {
+     "title": "Udler Lab home",
+     "url": "https://www.udlerlab.org"
+    },
+    {
+     "title": "Udler Lab members",
+     "url": "https://www.udlerlab.org/members"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (MGH)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:00:27+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Miriam S. Udler, MD PhD",
+    "title": "Principal Investigator; Associate Member, Broad Institute; Associate Professor of Medicine, Harvard Medical School / Massachusetts General Hospital (rank per the hint and not verified on an official p",
+    "profile_url": "https://www.linkedin.com/in/miriam-udler-md-phd-16277b27/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Julie Gervis",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Large-scale genomics of eating behavior and metabolic disease risk",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nipith Charoenngam",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genetics of bone density, fracture risk and monogenic calcium disorders",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Raymond Kreienkamp",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genetic drivers of diabetes",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Steven D. Gage",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Integrating multiple data types in metabolic disease; RADIANT gene discovery",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Center for Genomic Medicine and Diabetes Unit (MGH); Broad Institute (Metabolism Program / Program in Medical and Population Genetics)",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Massachusetts General Hospital / Harvard Medical School, with Broad Institute affiliation",
+   "members_page": "https://www.udlerlab.org/members"
   },
   {
    "name": "Gehlenborg Lab",
@@ -8451,22 +9683,59 @@
    "group": null,
    "department_hint": "Core Institute Member",
    "id": "broad-sabeti",
-   "url": "https://www.broadinstitute.org/bios/pardis-sabeti",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.sabetilab.org/",
+   "focus": "The lab describes its mission as overcoming infectious diseases through genomics and computation. It combines genomic technology, advanced analytics and global outreach to track outbreaks, diagnose disease and study fundamental pathogen and host biology. The official site gives no more detail than this, so specific methods are not verified from the pages I read. The lab is known for pathogen genomics and diagnostics, but that comes from general knowledge, not the pages I opened.",
+   "topics": [
+    "infectious disease genomics",
+    "outbreak surveillance",
+    "pathogen sequencing",
+    "computational genomics",
+    "diagnostics",
+    "host-pathogen evolution"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's computational genomics and sequencing methods, but its focus is infectious disease and pathogen genomics, not cancer, structural variants, somatic mutations or single-cell/spatial omics, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The official team page lists 0 postdocs and 0 graduate students. The sections are empty headings, and the page may be stale or rendered by script.",
+    "The lab site's latest news item is dated February 2016.",
+    "The PI's current institution is confirmed as the Broad Institute and no move was found.",
+    "A search surfaced Taylor Brock-Fisher (graduate student, Harvard OEB) and Jesse Pyle (postdoc) as possible Sabeti Lab members. I did not verify either on an official lab page, so neither is listed.",
+    "No email addresses are published on the team page, which only has a contact form."
+   ],
+   "sources": [
+    {
+     "title": "Pardis Sabeti - Broad Institute",
+     "url": "https://www.broadinstitute.org/bios/pardis-sabeti"
+    },
+    {
+     "title": "Sabeti Lab",
+     "url": "http://www.sabetilab.org/"
+    },
+    {
+     "title": "Sabeti Lab team page",
+     "url": "https://www.sabetilab.org/team/"
+    },
+    {
+     "title": "Taylor Brock-Fisher - Harvard OEB",
+     "url": "https://www.oeb.harvard.edu/people/taylor-brock-fisher.md"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
+   "refreshed_at": "2026-10-22T07:59:02+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Pardis Sabeti",
+    "title": "Core Institute Member, Broad Institute; Professor, Harvard (Center for Systems Biology, Dept. of Organismic and Evolutionary Biology, and Dept. of Immunology and Infectious Disease at the Harvard T.H.",
+    "profile_url": "https://www.broadinstitute.org/bios/pardis-sabeti",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Core Institute Member",
-   "location": null
+   "department": "Center for Systems Biology; Organismic and Evolutionary Biology (Harvard); Immunology and Infectious Disease (Harvard T.H. Chan School of Public Health)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Broad Institute of MIT and Harvard (with Harvard University appointments)",
+   "members_page": "https://www.sabetilab.org/team/"
   },
   {
    "name": "Rigollet Lab",
@@ -8478,22 +9747,151 @@
    "group": null,
    "department_hint": "Associate Member (MIT)",
    "id": "broad-rigollet",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://math.mit.edu/~rigollet",
+   "focus": "The group works on statistics, data science and AI, and currently concentrates on statistical optimal transport and the mathematical foundations of Transformers. Specific threads include Transformers viewed as interacting particle systems, where self-attention acts as a velocity field that clusters tokens. Another thread is Wasserstein gradient flows for particle-based optimisation over probability measures, used for variational inference and nonparametric maximum likelihood. On the biology side, they model cell populations as probability measures to predict treatment response and to reconstruct developmental trajectories. This work was funded by a Chan Zuckerberg Initiative single-cell grant, and the group collaborates with the Broad Institute.",
+   "topics": [
+    "statistical optimal transport",
+    "Transformers theory",
+    "Wasserstein gradient flows",
+    "single-cell trajectory inference",
+    "high-dimensional statistics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The overlap is limited to the optimal-transport and ML methods for single-cell omics. The lab is mathematically theoretical and does not do cancer genomics, tumour WGS/transcriptome sequencing, structural variants or somatic mutation analysis, and its PhD students are admitted only through MIT Mathe"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI's primary appointment is MIT Mathematics. The Broad listing is an associate membership, not a move.",
+    "No institution change was found.",
+    "The group has no separate lab site, so the PI's MIT page was used as the members page.",
+    "I could not verify the date the members page was last updated.",
+    "The page gives no individual research focus or year for members, and no emails are published (only a 'View Email Address' option)."
+   ],
+   "sources": [
+    {
+     "title": "Philippe Rigollet - MIT Math",
+     "url": "https://math.mit.edu/~rigollet"
+    },
+    {
+     "title": "LIDS: Rigollet receives grant to map every cell in the human body",
+     "url": "https://lids.mit.edu/node/1110"
+    },
+    {
+     "title": "Philippe Rigollet - IDSS",
+     "url": "https://idss.mit.edu/?p=352"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (MIT)",
-   "location": null
+   "refreshed_at": "2026-10-22T07:58:28+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Philippe Rigollet",
+    "title": "Cecil and Ida Green Distinguished Professor of Mathematics; Associate Member, Broad Institute",
+    "profile_url": "https://math.mit.edu/~rigollet",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alireza Mousavi-Hosseini",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Wiener Fellow; the page does not state a focus",
+     "email": null,
+     "profile_url": "https://mousavih.github.io"
+    },
+    {
+     "name": "Gokul Gowri",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Tayebati Fellow; the page does not state a focus",
+     "email": null,
+     "profile_url": "https://g-kl.github.io"
+    },
+    {
+     "name": "Matthew Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "C.L.E. Moore Instructor (a three-year postdoc); the page does not state a focus",
+     "email": null,
+     "profile_url": "https://matthewzhang1998.github.io"
+    },
+    {
+     "name": "Mohammad Reza Karimi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "C.L.E. Moore Instructor; the page does not state a focus",
+     "email": null,
+     "profile_url": "http://moreka.github.io/"
+    },
+    {
+     "name": "Sharvaj Kubal",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "EWSC Postdoc; the page does not state a focus",
+     "email": null,
+     "profile_url": "https://sharvaj.github.io"
+    },
+    {
+     "name": "Shi Chen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "C.L.E. Moore Instructor; the page does not state a focus",
+     "email": null,
+     "profile_url": "https://simonchenthu.github.io"
+    },
+    {
+     "name": "Zhengjiang Lin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "C.L.E. Moore Instructor; the page does not state a focus",
+     "email": null,
+     "profile_url": "https://sites.google.com/view/zhengjiang-lin/home"
+    },
+    {
+     "name": "Akshat Agarwal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "The page does not state a focus",
+     "email": null,
+     "profile_url": "https://www.aaagarwal.com"
+    },
+    {
+     "name": "Andrew Yao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "The page does not state a focus",
+     "email": null,
+     "profile_url": "https://yaoandrew.com"
+    },
+    {
+     "name": "Emre Parmaksiz",
+     "role": "PhD student",
+     "year": null,
+     "focus": "The page does not state a focus",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kaizhao Liu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "The page does not state a focus",
+     "email": null,
+     "profile_url": "https://drzfct.github.io"
+    },
+    {
+     "name": "Mara Daniels",
+     "role": "PhD student",
+     "year": null,
+     "focus": "The page does not state a focus",
+     "email": null,
+     "profile_url": "https://maradan.me"
+    }
+   ],
+   "department": "Department of Mathematics; affiliated with IDSS/LIDS and the Broad Institute (Associate Member)",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "members_page": "https://math.mit.edu/~rigollet"
   },
   {
    "name": "Loh Lab",
@@ -8881,22 +10279,188 @@
    "group": null,
    "department_hint": "Core Institute Member",
    "id": "broad-xavier",
-   "url": "https://www.broadinstitute.org/bios/ramnik-xavier",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.broadinstitute.org/xavier-lab",
+   "focus": "The lab translates human genetics, especially inflammatory bowel disease genetics, into functional biology. It maps immune features and metabolic states in the gut at single-cell resolution. It also studies how the gut microbiome affects health and disease, using human cohorts and computational models. Other work identifies new cellular receptors and places them in pathway biology, and uses chemical biology to test therapeutic hypotheses and inform drug discovery.",
+   "topics": [
+    "inflammatory bowel disease genetics",
+    "gut microbiome",
+    "single-cell gut immunology",
+    "functional genomics",
+    "chemical biology",
+    "computational models of host-microbe int"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab uses single-cell omics and computational/ML methods, but its focus is IBD, immunology and the microbiome. It does not do cancer genomics, tumour WGS or structural variants, so overlap with the student's interests is limited. It is also in the US, so a visa would be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move: Xavier remains at the Broad Institute (Cambridge, MA) with joint MGH, Harvard Medical School and MIT roles.",
+    "The members page gives no research focus, profile links, emails or year for individuals, so those fields are null. Postdoc and PhD focus lines were not verified.",
+    "The MGH Molecular Biology directory lists other research fellows (e.g. Yuan-Mao Hung, Yuchen Lei, Rui Li, Kosaku Nanki) who are not on the Broad members page. I did not include them as postdocs because their roles and current status are unconfirmed.",
+    "The members page has no visible last-updated date, so I could not check how current it is.",
+    "The PI's Google Scholar URL was not found, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Ramnik Xavier – Broad Institute bio",
+     "url": "https://www.broadinstitute.org/bios/ramnik-xavier"
+    },
+    {
+     "title": "Xavier Lab – Broad Institute",
+     "url": "https://www.broadinstitute.org/xavier-lab"
+    },
+    {
+     "title": "Xavier Lab current lab members",
+     "url": "https://www.broadinstitute.org/xavier-lab/current-lab-members"
+    },
+    {
+     "title": "MGH Molecular Biology people directory (Xavier lab)",
+     "url": "https://molbio.mgh.harvard.edu/people?lab=Xavier"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Core Institute Member",
-   "location": null
+   "refreshed_at": "2026-10-22T08:01:45+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Ramnik Xavier",
+    "title": "Core Institute Member, Broad Institute; Director, Klarman Cell Observatory; Kurt J. Isselbacher Professor of Medicine, Harvard Medical School",
+    "profile_url": "https://www.broadinstitute.org/bios/ramnik-xavier",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Ahmed Mohamed",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Fangfang Lu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Felicia Bloemendaal",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Georgia Panagiotaropoulou",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Marta Brandt",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Masa Kanai",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Statistical genetics (not stated on the members page; the MGH directory lists Masahiro Kanai as Instructor)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Motohiko Kadoki",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sacha Lebon",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shaqed Carasso",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Vlad Pokatayev",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuna Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Adrian Bebenek",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Aidan Pavao",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Phi Nguyen",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Thomas Kainamura Pedersen",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zhihan Nan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Co-mentored with Stuart Schreiber; no further detail published on the members page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Klarman Cell Observatory; Immunology Program; Infectious Disease and Microbiome Program (Broad). Also Dept. of Molecular Biology / Center for Computational and Integrative Biology, Massachusetts Gener",
+   "location": "Cambridge, MA, USA",
+   "current_institution": "Broad Institute of MIT and Harvard",
+   "members_page": "https://www.broadinstitute.org/xavier-lab/current-lab-members"
   },
   {
    "name": "Duan Lab",
@@ -9436,22 +11000,100 @@
    "group": null,
    "department_hint": "Institute Member (HMS, BWH)",
    "id": "broad-sunyaev",
-   "url": "https://www.broadinstitute.org/node/1281871",
-   "focus": null,
-   "topics": [],
+   "url": "https://sunyaevlab.hms.harvard.edu/wiki/!web/start",
+   "focus": "The lab is a computational genomics group studying human genetic variation from evolutionary, functional and medical genetics perspectives. Topics include the biology and evolution of mutation (mutagenesis in germline and somatic tissue), and the population genetics of deleterious alleles. It also covers predicting the functional effects of variants, and the allelic architecture of complex traits. Methods are statistical and computational, applied to large-scale sequencing datasets. Some members work on cancer, for example tumour progression modelling and machine learning for clinical decisions.",
+   "topics": [
+    "mutagenesis / mutational processes",
+    "population genetics",
+    "variant effect prediction",
+    "complex trait genetics",
+    "statistical genomics",
+    "cancer evolution"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's strengths in somatic and germline mutation analysis and statistical or ML methods overlap with the student's somatic mutation and computational methods interests, but the lab is mainly population and statistical genetics, with little on tumour WGS, structural variants or single-cell/spatia"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at HMS/BWH and the Broad. The Broad profile lists all three affiliations.",
+    "The members page has no dates or years, so it may be out of date. Confirm that listed members are current before reaching out.",
+    "The members page does not label several PhD-holders (Carles Boix, Evan Koch, Ryan McGinty, Mikhail Moldovan, Vladimir Seplyarskiy) as postdocs, so they are left out. Some may be postdocs.",
+    "Colby Chiang is listed as a Clinical Fellow at Boston Children's Hospital, so he is excluded.",
+    "I did not find a Google Scholar URL."
+   ],
+   "sources": [
+    {
+     "title": "Broad Institute: Shamil Sunyaev profile",
+     "url": "https://www.broadinstitute.org/node/1281871"
+    },
+    {
+     "title": "Sunyaev Lab home",
+     "url": "https://sunyaevlab.hms.harvard.edu/wiki/!web/_export/xhtml/start"
+    },
+    {
+     "title": "Sunyaev Lab members",
+     "url": "https://sunyaevlab.hms.harvard.edu/wiki/!web/members"
+    },
+    {
+     "title": "Sunyaev Lab alumni",
+     "url": "https://sunyaevlab.hms.harvard.edu/wiki/!web/alumni"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Institute Member (HMS, BWH)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:00:06+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Shamil Sunyaev",
+    "title": "Institute Member, Broad Institute; Professor of Biomedical Informatics, Harvard Medical School; Professor of Medicine (Genetics), Brigham and Women's Hospital",
+    "profile_url": "https://www.broadinstitute.org/node/1281871",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Sumaiya Nazeen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Computational and statistical models of the genetic basis of complex disease, including network-based rare variant analysis, patient stratification and biomarker discovery for Lewy body pathologies (joint with the Khurana lab).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alex Berg",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioinformatics and Integrative Genomics PhD candidate. The page gives no research focus.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Daniel Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioinformatics and Integrative Genomics PhD student. The page gives no research focus.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jonathan Mitchel",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Inter-individual variation in gene expression and how genotype affects phenotype (Harvard-MIT HST PhD candidate).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maha Shady",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Modelling tumorigenesis and tumour progression, and ML models to support clinical decisions for cancer patients. Co-advised with Eliezer Van Allen.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Biomedical Informatics (HMS); Division of Genetics (BWH); Broad Institute",
+   "location": "Boston / Cambridge, MA, USA",
+   "current_institution": "Harvard Medical School / Brigham and Women's Hospital, with Broad Institute of MIT and Harvard membership",
+   "members_page": "https://sunyaevlab.hms.harvard.edu/wiki/!web/members"
   },
   {
    "name": "Raychaudhuri Lab",
@@ -10027,22 +11669,79 @@
    "group": null,
    "department_hint": "Associate Member (MGH)",
    "id": "broad-zhou",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://wzhoulab.com",
+   "focus": "The lab develops statistical methods and software for the genetic basis of complex human diseases using large biobanks. Its tools include SAIGE, SAIGE-GENE+ (set-based rare-variant tests) and GATE (time-to-event genetic analysis). It co-leads the Global Biobank Meta-analysis Initiative (GBMI) and works on genetic analysis of disease onset and progression. It also uses multi-omics and single-cell eQTL mapping to link association signals to biological mechanisms. The work centres on germline population-scale genetics, not tumour sequencing.",
+   "topics": [
+    "biobank statistical genetics",
+    "rare-variant association tests",
+    "time-to-event GWAS",
+    "biobank meta-analysis (GBMI)",
+    "single-cell eQTL / multi-omics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab overlaps with the student's interest in computational methods for genomics and, loosely, single-cell omics. Its focus is germline biobank association statistics, not cancer genomics, tumour WGS/transcriptome sequencing, or structural variants and somatic mutations. A US role would also proba"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is at MGH with an Associate Member appointment at the Broad. The Broad listing is secondary, and MGH is the primary institution.",
+    "The lab website lists no current PhD students. Grant Chau (Dartmouth) appears only as an alumnus/collaborator.",
+    "The People section was read from a summarized fetch. Individual profile links and emails were not visible, so they are null.",
+    "The lab page also lists computational associates and research staff (Linfeng Hu, Christiana Liu, Junkai Zhang, Feng Lu). These were excluded as staff.",
+    "The MGH profile page failed to load (certificate error), so the title came from search results and the lab page. A Google Scholar URL was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Zhou Lab website",
+     "url": "https://wzhoulab.com"
+    },
+    {
+     "title": "Wei Zhou, PhD - MGH Research profile",
+     "url": "https://researchers.mgh.harvard.edu/profile/17886437/Wei-Zhou"
+    },
+    {
+     "title": "Wei Zhou - HMS BMI PhD people page",
+     "url": "https://bmiphd.hms.harvard.edu/people/wei-zhou"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Associate Member (MGH)",
-   "location": null
+   "refreshed_at": "2026-10-22T08:02:01+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Wei Zhou",
+    "title": "Assistant Professor of Psychiatry, Harvard Medical School; Center for Genomic Medicine, MGH; Associate Member, Broad Institute",
+    "profile_url": "https://researchers.mgh.harvard.edu/profile/17886437/Wei-Zhou",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Kisung Nam",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not specified on the page (lab statistical genetics projects)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tony Chen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Co-leads the GBMI Longitudinal Working Group project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuanxin Zhong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Co-mentored by Tian Ge and Wei Zhou; focus not specified",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Center for Genomic Medicine, MGH; Analytic and Translational Genetics Unit; Stanley Center for Psychiatric Research (Broad); Harvard Medical School",
+   "location": "Boston / Cambridge, MA, USA",
+   "current_institution": "Massachusetts General Hospital (Center for Genomic Medicine / Analytic and Translational Genetics Unit); Associate Member, Stanley Center, Broad Institute",
+   "members_page": "https://wzhoulab.com (People section, #People)"
   },
   {
    "name": "Lin Lab",
@@ -12065,22 +13764,144 @@
    "group": null,
    "department_hint": "Bioengineering / Center for Computational Biology, UC Berkeley",
    "id": "czb-streets",
-   "url": "https://streetslab.berkeley.edu/people/aaron-streets",
-   "focus": null,
-   "topics": [],
+   "url": "https://streetslab.berkeley.edu",
+   "focus": "The lab builds tools to measure and analyze biological systems at the single-cell level. Its aim is to find the principles governing molecular interactions inside cells and cell-cell interactions in tissues and organisms. Methods include microfluidics with elastomeric valves for single-cell handling and parallel experiments, and nonlinear optical microscopy with computational image processing. They also develop single-cell genomics methods such as µCB-seq (microfluidic cell barcoding and sequencing) and µDamID, and devices that couple imaging with single-cell sequencing.",
+   "topics": [
+    "single-cell genomics",
+    "microfluidics",
+    "quantitative imaging",
+    "nuclear genome organization (µDamID)",
+    "computational biology",
+    "biophysics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's single-cell genomics and computational methods overlap loosely with the student's single-cell and methods interests, but the lab has no stated focus on cancer genomics, tumour WGS, structural variants or somatic mutations, and it is mainly a technology and biophysics lab."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: Streets is still at UC Berkeley Bioengineering, with a CZ Biohub investigator appointment.",
+    "The people page labels students 'Graduate Student', not 'PhD student'. I assumed they are PhD students. It shows no research focus, years, profile links or emails.",
+    "The page's update date was not visible, so I could not check how current the member list is.",
+    "I did not verify the Google Scholar URL, so it is null.",
+    "I ran only 3 fetches and no web searches. I did not open the individual member pages or the publications page."
+   ],
+   "sources": [
+    {
+     "title": "Aaron Streets - Streets Lab",
+     "url": "https://streetslab.berkeley.edu/people/aaron-streets"
+    },
+    {
+     "title": "Streets Lab People",
+     "url": "https://streetslab.berkeley.edu/people"
+    },
+    {
+     "title": "Streets Lab Research",
+     "url": "https://streetslab.berkeley.edu/research"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Bioengineering / Center for Computational Biology, UC Berkeley",
-   "location": null
+   "refreshed_at": "2026-10-22T08:04:20+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Aaron Streets",
+    "title": "Assistant Professor, Bioengineering, UC Berkeley; Investigator, Chan Zuckerberg Biohub",
+    "profile_url": "https://streetslab.berkeley.edu/people/aaron-streets",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Bryce Manifold",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not shown on people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sina Booeshaghi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not shown on people page (listed as HHMI Hanna Gray Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Boden Eakins",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jeremy Marcus",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Computational Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Juliana Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Molecular and Cellular Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Leon Han",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Computational Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Misha Rozenwald",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Computational Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Oberon Dixon-Luinenburg",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rodrigo Cotrim Chaves",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Bioengineering)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shiyi Yang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Computational Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Xiaohan Zhu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not shown (Biophysics)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Bioengineering; Center for Computational Biology (core faculty); Berkeley Biophysics (core faculty)",
+   "location": "Berkeley, California, USA",
+   "current_institution": "University of California, Berkeley (also Chan Zuckerberg Biohub investigator)",
+   "members_page": "https://streetslab.berkeley.edu/people"
   },
   {
    "name": "Purdom Lab",
@@ -12092,22 +13913,112 @@
    "group": null,
    "department_hint": "Statistics, UC Berkeley",
    "id": "czb-purdom",
-   "url": "https://statistics.berkeley.edu/node/8186",
-   "focus": null,
-   "topics": [],
+   "url": "https://purdom.stat.berkeley.edu/",
+   "focus": "The lab develops statistical methods for high-throughput 'omics data, with a current emphasis on single-cell and spatial transcriptomics. A stated goal is to analyze a patient's whole single-cell profile, rather than individual cells, and link it to health outcomes so that outcomes can be predicted from single-cell data. Past lab work includes clustering of RNA-seq data, time-course gene expression analysis, and integration of multi-modal sequencing data. The work is methodological and statistical, not a wet-lab cancer genomics program.",
+   "topics": [
+    "single-cell RNA-seq",
+    "spatial transcriptomics",
+    "statistical genomics",
+    "clustering",
+    "multi-modal data integration",
+    "patient-level prediction"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Her single-cell and spatial omics methods and her statistical and machine-learning approach overlap with the student's computational interests, but the lab doesn't focus on cancer, tumour WGS, or structural variants, and it is a US lab (visa issue)."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: the PI is still at UC Berkeley Statistics, and her Biohub Investigator award (March 2022, five years) is an award, not a change of institution.",
+    "The members page lists current graduate students and post-docs together in one table, so roles are not distinguished. All six are labelled 'PhD student' by assumption, and none is confirmed as a postdoc or PhD student.",
+    "The members page gives no update date, no research focus, and no start years for any member.",
+    "Only the PI's email is published (epurdom@stat.berkeley.edu), so no member emails are listed.",
+    "The PI's Google Scholar URL was not found."
+   ],
+   "sources": [
+    {
+     "title": "Elizabeth Purdom named Chan Zuckerberg Biohub Investigator",
+     "url": "https://statistics.berkeley.edu/node/8186"
+    },
+    {
+     "title": "Purdom Lab home",
+     "url": "https://purdom.stat.berkeley.edu/"
+    },
+    {
+     "title": "Purdom Lab people",
+     "url": "https://purdom.stat.berkeley.edu/people.html"
+    },
+    {
+     "title": "Elizabeth Purdom - Berkeley Statistics",
+     "url": "https://statistics.berkeley.edu/node/3128"
+    },
+    {
+     "title": "Elizabeth Purdom - Berkeley CCB",
+     "url": "https://ccb.berkeley.edu/people/elizabeth-purdom"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Statistics, UC Berkeley",
-   "location": null
+   "refreshed_at": "2026-10-22T08:04:00+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Elizabeth Purdom",
+    "title": "Associate Professor of Statistics; Chan Zuckerberg Biohub Investigator",
+    "profile_url": "https://statistics.berkeley.edu/node/3128",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Florica Constantine",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": "https://statistics.berkeley.edu/people/florica-constantine"
+    },
+    {
+     "name": "Keying (Maggie) Kuang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lucas Etourneau",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": "https://lucas-et.github.io/"
+    },
+    {
+     "name": "Nicolas Sanchez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": "https://statistics.berkeley.edu/people/nicolas-sanchez"
+    },
+    {
+     "name": "Van Hovenga",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": "https://statistics.berkeley.edu/people/van-hovenga"
+    },
+    {
+     "name": "Zhiwei Xiao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the lab page",
+     "email": null,
+     "profile_url": "https://zhiweixiao.github.io/"
+    }
+   ],
+   "department": "Department of Statistics; Center for Computational Biology",
+   "location": "Berkeley, California, USA",
+   "current_institution": "University of California, Berkeley",
+   "members_page": "https://purdom.stat.berkeley.edu/people.html"
   },
   {
    "name": "Fox Group",
@@ -12119,22 +14030,80 @@
    "group": null,
    "department_hint": "Statistics and Computer Science, Stanford",
    "id": "czb-fox",
-   "url": "https://statistics.stanford.edu/news/emily-fox-selected-cz-biohub-investigators",
-   "focus": null,
-   "topics": [],
+   "url": "https://emilybfox.su.domains",
+   "focus": "The group develops Bayesian and probabilistic machine learning for complex time series. Methods include Bayesian dynamic modeling, sequence modeling and generative modeling, with an emphasis on interpretability and scalable computation. Applications cover machine learning for health (wearable sensors, health sensing), computational neuroscience (neuroimaging), and more recently multimodal biological data such as microscopy and omics. Her homepage describes the work as applying ML to health and biology. I did not find a specific cancer genomics program.",
+   "topics": [
+    "Bayesian time-series modeling",
+    "machine learning for health",
+    "computational neuroscience",
+    "generative / sequence models",
+    "multimodal biology (microscopy, omics)",
+    "wearables"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's ML methods and its recent omics and microscopy work are loosely relevant, but I found no cancer genomics, structural variant or somatic mutation work, and the focus is mainly health time series and neuroscience."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I found no lab people page, so the PhD student list is empty. That is a gap in what I found, not evidence that she has no students. The lab homepage and the department profile list no students.",
+    "The postdoc list comes from the Statistics department roster, not a lab page, and may be incomplete. A search summary earlier listed Dongxia Wu as a postdoc under Fox, but the roster fetch showed only Berlinghieri and Gao, so I left Wu out. Verify this.",
+    "No move found. She has been at Stanford since 2021 and received a CZ Biohub Investigator award in 2022 (announced 12 Jan 2022). The Biohub listing is an investigator award, not a change of institution.",
+    "Industry ties: SVP of AI/ML at insitro 2024-2025 per her homepage, and currently Chief Technical Advisor there. Earlier she led Health AI at Apple (2018-2021).",
+    "I could not open her Stanford Profiles page (certificate error), and I did not find a Google Scholar URL."
+   ],
+   "sources": [
+    {
+     "title": "Emily Fox selected as CZ Biohub Investigator (Stanford Statistics)",
+     "url": "https://statistics.stanford.edu/news/emily-fox-selected-cz-biohub-investigators"
+    },
+    {
+     "title": "Emily B. Fox, Stanford Statistics profile",
+     "url": "https://statistics.stanford.edu/people/emily-b-fox"
+    },
+    {
+     "title": "Emily B. Fox personal website",
+     "url": "https://emilybfox.su.domains"
+    },
+    {
+     "title": "Stanford Statistics postdocs roster",
+     "url": "https://statistics.stanford.edu/people/postdocs"
+    },
+    {
+     "title": "Emily B. Fox (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Emily_B._Fox"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Statistics and Computer Science, Stanford",
-   "location": null
+   "refreshed_at": "2026-10-22T08:03:05+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Emily B. Fox",
+    "title": "Professor of Statistics and Professor of Computer Science (joint appointment in Data Science), Stanford University; CZ Biohub Investigator (2022 cohort)",
+    "profile_url": "https://statistics.stanford.edu/people/emily-b-fox",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Mars Liyao Gao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page I could open. The roster lists Emily B. Fox as advisor.",
+     "email": null,
+     "profile_url": "https://profiles.stanford.edu/385553"
+    },
+    {
+     "name": "Renato Berlinghieri",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page I could open. The roster lists Emily B. Fox as advisor.",
+     "email": null,
+     "profile_url": "https://profiles.stanford.edu/388332"
+    }
+   ],
+   "department": "Department of Statistics; Computer Science (joint); Data Science. Also Bio-X and Wu Tsai Neurosciences Institute affiliations; CZ Biohub Investigator",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University",
+   "members_page": "https://statistics.stanford.edu/people/postdocs"
   },
   {
    "name": "AI and Computational Biology group (Biohub New York)",
@@ -12147,21 +14116,58 @@
    "department_hint": "Biohub AI/ML and Comp Biology",
    "id": "czb-paull",
    "url": "https://biohub.org/ai-comp-biology/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group builds 'virtual cell models' of cellular dynamics and gene modules. It analyzes high-throughput omics, imaging and spatial data covering DNA, mRNA, enhancers, transcription factors, chromatin and proteins. It combines AI with statistical methods and prior scientific knowledge, and works closely with Biohub's experimental labs. One stated application is how enhancers govern immune responses in health and disease. Paull's background includes network inference and cancer-genomics methods (e.g. TieDIE, from his earlier work with Califano and Stuart).",
+   "topics": [
+    "virtual cell models",
+    "foundation models for biology",
+    "gene regulation / enhancers",
+    "multi-omics and spatial data",
+    "immune response",
+    "machine learning"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The group does ML for genomics and single-cell/spatial omics, which matches the student's methods interests, but it focuses on virtual cells and immune enhancers rather than cancer WGS, structural variants or somatic mutations, and the roles are in the US (visa needed)."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No postdocs or PhD students are listed on the people page. It lists only staff: Diane Adjavon (AI Scientist), Rowan Cassius (AI Scientist), Elise Flynn (Data Lead), Alireza Karbalayghareh (Senior AI Scientist) and Andrew Moorman (AI Scientist), plus the PI.",
+    "No PI move found: the PI is still listed at CZ Biohub New York.",
+    "The Google Scholar profile could not be verified, so scholar_url is null.",
+    "No emails or individual profile links are published on the people page.",
+    "The group is hiring (Research Scientist AI, Research Engineer AI, Computational Biologist AI/ML), so it may suit a visiting or industry-style role more than a PhD-style one."
+   ],
+   "sources": [
+    {
+     "title": "AI and Computational Biology lab - Biohub",
+     "url": "https://biohub.org/ai-comp-biology/"
+    },
+    {
+     "title": "AI and Computational Biology people - Biohub",
+     "url": "https://biohub.org/ai-comp-biology/people/"
+    },
+    {
+     "title": "Meet the team at CZ Biohub New York",
+     "url": "https://biohub.org/?p=40721"
+    },
+    {
+     "title": "CZ Biohub NY at Yale Mini Workshop",
+     "url": "https://medicine.yale.edu/event/cz-biohub-ny-at-yale-mini-workshop"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
+   "refreshed_at": "2026-10-22T08:03:27+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Evan Paull",
+    "title": "Group Leader, Artificial Intelligence/Machine Learning (also Platform Leader for AI/ML at CZ Biohub New York)",
+    "profile_url": "https://biohub.org/ai-comp-biology/people/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Biohub AI/ML and Comp Biology",
-   "location": null
+   "department": "Biohub New York, AI/ML and Computational Biology platform (Biohub New York is a collaboration of Columbia, Rockefeller and Yale)",
+   "location": "New York, USA",
+   "current_institution": "Chan Zuckerberg Biohub New York",
+   "members_page": "https://biohub.org/ai-comp-biology/people/"
   },
   {
    "name": "Zou Group",
@@ -12402,22 +14408,148 @@
    "group": null,
    "department_hint": "Gladstone Institute of Data Science & Biotechnology / UCSF Epidemiology & Biostatistics",
    "id": "czb-pollard",
-   "url": "https://docpollard.org/?p=389",
-   "focus": null,
-   "topics": [],
+   "url": "https://docpollard.org/",
+   "focus": "The lab develops statistical and machine-learning methods for genomics and applies them to gene regulation, noncoding variation and disease risk. Current members work on deep-learning models of regulatory genomics, 3D genome folding, and multi-omics comparisons of human-specific changes in aging and cancer. A second strand studies the human gut microbiome, covering microbial interactions, adaptation over time and function. The PI's earlier work includes microarray analysis in cancer biology and comparative genomics of rapidly evolving human genome regions. Her current work combines AI modelling with genome editing to test causality in human cells. I did not find a dedicated research page, so this summary comes from the PI bio and member profiles.",
+   "topics": [
+    "regulatory genomics",
+    "noncoding variation",
+    "machine learning",
+    "human gut microbiome",
+    "3D genome",
+    "comparative genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's computational and machine-learning genomics matches the student's methods interest, but its main topics are regulatory genomics and the microbiome rather than cancer WGS, structural variants, somatic mutation or single-cell/spatial cancer work (only Xinru Zhang's aging and cancer multi-omi"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: the lab site and search results still show Gladstone, UCSF and CZ Biohub. I found no 2026-specific news either way, and the search results were mostly older bios and CVs.",
+    "The listed URL (?p=389) is a news item from February 2017 (Biohub Investigator announcement), not the people page. The real people page is /people/the_team/.",
+    "The members page shows no start dates or years, so student years are null. I could not tell whether the page is current.",
+    "Shari Kennedy's profile lists an email beginning 'Sharon.kennedy@...', which doesn't match her name, so I left her email null.",
+    "Emails are published in obfuscated form ([at]/[dot]) on the lab profile pages."
+   ],
+   "sources": [
+    {
+     "title": "Pollard Lab news page (?p=389)",
+     "url": "https://docpollard.org/?p=389"
+    },
+    {
+     "title": "Pollard Lab team page",
+     "url": "https://docpollard.org/people/the_team/"
+    },
+    {
+     "title": "Katherine S. Pollard, PhD profile",
+     "url": "https://docpollard.org/people/katherine-s-pollard-phd/"
+    },
+    {
+     "title": "Pollard CV",
+     "url": "https://docpollard.org/wordpress/wp-content/uploads/KSPollardCV.pdf"
+    },
+    {
+     "title": "Simons Foundation profile",
+     "url": "https://www.simonsfoundation.org/people/katherine-s-pollard-2/"
+    },
+    {
+     "title": "Sonoma Valley Authors Festival bio",
+     "url": "https://svauthorsfest.org/authors/katie-pollard/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Gladstone Institute of Data Science & Biotechnology / UCSF Epidemiology & Biostatistics",
-   "location": null
+   "refreshed_at": "2026-10-22T08:03:56+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Katherine S. Pollard",
+    "title": "Director, Gladstone Institute of Data Science & Biotechnology; Professor, UCSF Epidemiology & Biostatistics; Investigator, Chan Zuckerberg Biohub",
+    "profile_url": "https://docpollard.org/people/katherine-s-pollard-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Shari Kennedy",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Regulatory genomics of noncoding variation in cardiovascular disease",
+     "email": null,
+     "profile_url": "https://docpollard.org/shari-kennedy/"
+    },
+    {
+     "name": "Veronika Dubinkina",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "How microbes in the human intestine interact, adapt and change over time",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/veronika-dubinika/"
+    },
+    {
+     "name": "Xinru Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Machine learning on multi-omics data to find human-specific changes in aging and cancer",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/xinru-zhang-ph-d/"
+    },
+    {
+     "name": "Akshita Saxena",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for gene regulation linked to disease",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/akshita-saxena/"
+    },
+    {
+     "name": "Alexander Floren",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine-learning models of gene regulation and disease risk",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/alexander-floren/"
+    },
+    {
+     "name": "Cindy Pino",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Function of microbes in the human gut",
+     "email": null,
+     "profile_url": "https://docpollard.org/cindy-pino"
+    },
+    {
+     "name": "Ethan Shurberg",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Deep learning for disease mechanisms, especially regulatory genomics",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/ethan-shurberg/"
+    },
+    {
+     "name": "Jodi Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bioinformatic methods to uncover how the genome is regulated over time",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/jodi-lee/"
+    },
+    {
+     "name": "Shiron Drusinsky",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How noncoding DNA changes drive disease, using machine learning and multi-omics",
+     "email": null,
+     "profile_url": "https://docpollard.org/people/shiron-drusinsky/"
+    },
+    {
+     "name": "Shu Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How altered genome folding contributes to human disease",
+     "email": null,
+     "profile_url": "https://docpollard.org/shu-zhang/"
+    }
+   ],
+   "department": "Gladstone Institute of Data Science & Biotechnology; UCSF Epidemiology & Biostatistics, Institute for Human Genetics, Bakar Computational Health Sciences Institute, Bioinformatics graduate program; CZ",
+   "location": "San Francisco, USA",
+   "current_institution": "Gladstone Institutes (with UCSF professorship and Chan Zuckerberg Biohub investigator appointment)",
+   "members_page": "https://docpollard.org/people/the_team/"
   },
   {
    "name": "Lareau Lab",
@@ -12429,22 +14561,103 @@
    "group": null,
    "department_hint": "Bioengineering, UC Berkeley",
    "id": "czb-lareau",
-   "url": "https://cdss.berkeley.edu/news/nine-cdss-faculty-among-latest-chan-zuckerberg-biohub-cohort",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.lareaulab.org/",
+   "focus": "The lab studies post-transcriptional regulation of gene expression: how RNA sequence determines splicing, translation and protein output. It combines machine learning and computational modelling with high-throughput experiments to predict how sequence shapes the output of the genome. Current projects described in public member profiles include the effect of synonymous codon choice and slow codons on translation and protein output (yeast and human cells), and mRNA splicing, including engineering poison exons as a therapeutic strategy (a talk on Huntington's disease). The work centres on RNA biology and functional genomics, not cancer genomics.",
+   "topics": [
+    "post-transcriptional regulation",
+    "translation and codon usage",
+    "RNA splicing",
+    "machine learning for sequence-to-functio",
+    "high-throughput functional assays"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in computational and ML methods for genomics, but its work is RNA regulation and translation, with no cancer, structural variant, WGS or single-cell/spatial focus."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab website (lareaulab.org) could not be opened (certificate rejected / connection refused), so the official people page was NOT checked. The member list is probably incomplete and may be out of date; no postdocs were found.",
+    "The three students above come from third-party conference-attendee profiles (UCSF BARC), not an official lab page. Their current status and years are unverified. Catamura's lab affiliation is not confirmed.",
+    "Lou Devanneaux (Staff Scientist/SRA, yeast codon work) was seen but excluded because staff are out of scope.",
+    "The PI has NOT moved. She is still at UC Berkeley Bioengineering and was promoted to Associate Professor with tenure in Sept 2025. The CDSS news page still calls her an assistant professor, which is outdated.",
+    "The Chan Zuckerberg Biohub listing is an investigator appointment. The lab is at UC Berkeley, so no US visa issue is specific to a Biohub site, but a Canadian student would likely need a US visa for any role here."
+   ],
+   "sources": [
+    {
+     "title": "Nine CDSS faculty among latest Chan Zuckerberg Biohub cohort",
+     "url": "https://cdss.berkeley.edu/news/nine-cdss-faculty-among-latest-chan-zuckerberg-biohub-cohort"
+    },
+    {
+     "title": "UC Berkeley MCB directory: Liana Lareau",
+     "url": "https://mcb.berkeley.edu/directory/search/detail/6349"
+    },
+    {
+     "title": "Welcome Professor Liana Lareau (Bioengineering)",
+     "url": "https://bioeng.berkeley.edu/news/welcome-professor-liana-lareau"
+    },
+    {
+     "title": "Liana Lareau: Awarded Tenure and Promoted to Associate Professor of Bioengineering",
+     "url": "https://ccb.berkeley.edu/node/372"
+    },
+    {
+     "title": "Maria McSharry (UCSF BARC)",
+     "url": "https://barc.ucsf.edu/user/8311"
+    },
+    {
+     "title": "Sahim Wallace (UCSF BARC)",
+     "url": "https://barc.ucsf.edu/user/5751"
+    },
+    {
+     "title": "Carmelle Catamura (UCSF BARC)",
+     "url": "https://barc.ucsf.edu/user/6191"
+    },
+    {
+     "title": "Lou Devanneaux (UCSF BARC)",
+     "url": "https://barc.ucsf.edu/attendee/loudev"
+    },
+    {
+     "title": "Engineering Poison Exons to Treat Huntington's Disease (Duke CHSI)",
+     "url": "https://chsi.duke.edu/events/engineering-poison-exons-treat-huntingtons-disease"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Bioengineering, UC Berkeley",
-   "location": null
+   "refreshed_at": "2026-10-22T08:05:27+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Liana Lareau",
+    "title": "Associate Professor of Bioengineering (tenured Sept 2025); CZ Biohub Investigator",
+    "profile_url": "https://mcb.berkeley.edu/directory/search/detail/6349",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Carmelle Catamura",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational Biology PhD student; her profile gives no lab project, so any splicing link is unconfirmed",
+     "email": null,
+     "profile_url": "https://barc.ucsf.edu/user/6191"
+    },
+    {
+     "name": "Maria McSharry",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Impact of synonymous codon changes on protein output (MCB graduate program)",
+     "email": null,
+     "profile_url": "https://barc.ucsf.edu/user/8311"
+    },
+    {
+     "name": "Sahim Wallace",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Rules of codon choice",
+     "email": null,
+     "profile_url": "https://barc.ucsf.edu/user/5751"
+    }
+   ],
+   "department": "Bioengineering; Center for Computational Biology; affiliated with Molecular & Cell Biology (MCB) and the Innovative Genomics Institute",
+   "location": "Berkeley, California, USA",
+   "current_institution": "University of California, Berkeley",
+   "members_page": null
   },
   {
    "name": "Barreiro Lab",
@@ -12457,21 +14670,66 @@
    "department_hint": "Genetic Medicine, University of Chicago",
    "id": "czb-barreiro",
    "url": "http://luis-barreirolab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab studies how genetics and environment shape human immune responses, and why people and populations differ in susceptibility to infection and immune-related disease. It also studies how immune responses evolved in primates. Methods include population-scale transcriptomics and epigenomics, iPSC-derived macrophage systems, and single-cell RNA-seq. Examples are a rhesus macaque model of social stress and measurements of mRNA transcription rates during early infection, the latter with Yang Li under a CZ Biohub Chicago grant. Current NIH projects cover innate immune memory in humans and population variation in transcriptional responses to pathogens.",
+   "topics": [
+    "immunogenomics",
+    "population genetics of immune response",
+    "innate immune memory",
+    "single-cell RNA-seq",
+    "iPSC-derived macrophages",
+    "primate evolution"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in computational transcriptomics and single-cell methods, but it studies immune and infection genetics, not cancer genomics, tumour whole-genome sequencing or structural variants. A US visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Lab website could not be opened (expired SSL certificate), so the people page was not read. The member list is incomplete: only one postdoc, found through a search snippet, and no PhD students.",
+    "The directory lists the lab at Chan Zuckerberg Biohub, but the PI is at the University of Chicago. CZ Biohub Chicago is a UChicago/Northwestern/UIUC collaboration and he is one of its funded investigators. No move found.",
+    "Paul Maurizio's role was not checked on a current lab page.",
+    "Google Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "UChicago: Luis Barreiro GGSB chair",
+     "url": "https://biologicalsciences.uchicago.edu/news/luis-barreiro-ggsb-chair"
+    },
+    {
+     "title": "UChicago Profiles: Luis Barreiro",
+     "url": "https://profiles.uchicago.edu/profiles/profile/13785604"
+    },
+    {
+     "title": "CZ Biohub Chicago investigators 2024",
+     "url": "https://biologicalsciences.uchicago.edu/news/czbiohub-chicago-investigators-2024"
+    },
+    {
+     "title": "Paul Maurizio bio (FLI network)",
+     "url": "https://flinetwork.uchicago.edu/?p=1816"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetic Medicine, University of Chicago",
-   "location": null
+   "refreshed_at": "2026-10-22T08:02:36+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Luis Barreiro",
+    "title": "Professor, Section of Genetic Medicine (one UChicago page lists Associate Professor of Medicine); Chair, Genetics, Genomics & Systems Biology graduate program",
+    "profile_url": "https://profiles.uchicago.edu/profiles/profile/13785604",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Paul Maurizio",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Effect of social stress on immune gene regulation and host response to pathogens, using single-cell RNA-seq in a rhesus macaque model",
+     "email": null,
+     "profile_url": "https://flinetwork.uchicago.edu/?p=1816"
+    }
+   ],
+   "department": "Section of Genetic Medicine, Department of Medicine; Genetics, Genomics & Systems Biology program; CZ Biohub Chicago investigator",
+   "location": "Chicago, USA",
+   "current_institution": "University of Chicago",
+   "members_page": "http://luis-barreirolab.org/"
   },
   {
    "name": "Altemose Lab",
@@ -12484,21 +14742,135 @@
    "department_hint": "Genetics, Stanford",
    "id": "czb-altemose",
    "url": "https://www.altemoselab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab develops new experimental and analytical tools to study how chromatin proteins regulate complex, repetitive regions of the human genome. A core method is DiMeLo-seq, which uses long-read, single-molecule DNA sequencing to map protein-DNA interactions and chromatin organization. Current projects include extending DiMeLo-seq to chromatin and gene regulation, and studying transcription factors that act on satellite DNA with microscopy, sequencing and biochemical labeling. The PI has a statistics/computational background (DPhil in statistics from Oxford), and the lab mixes wet-lab and computational work on centromeres and satellite repeats. This is not a cancer-focused lab.",
+   "topics": [
+    "long-read sequencing",
+    "single-molecule chromatin",
+    "DiMeLo-seq",
+    "satellite DNA / centromeres",
+    "gene regulation",
+    "computational genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The computational and sequencing-methods overlap is real, but the lab studies chromatin and repetitive-DNA biology in healthy genomes, with no focus on cancer, structural variants, somatic mutation or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is at Stanford (Genetics) and is also a CZ Biohub Investigator (2023-2028). The PI has not moved, and the lab is not located at a Biohub site.",
+    "altemoselab.org redirects to a Google Sites page under stanford.edu.",
+    "The team page gives no start or class years. Most members' research focus is not stated. Dates for when the page was last updated were not visible.",
+    "Emails are the @stanford.edu addresses shown on the team page. I did not check the team page against the Stanford directory.",
+    "Student eligibility: a US visa would likely be needed for a postdoc/visiting role."
+   ],
+   "sources": [
+    {
+     "title": "Altemose Lab home (Google Sites)",
+     "url": "https://sites.google.com/stanford.edu/altemoselab"
+    },
+    {
+     "title": "Altemose Lab team members",
+     "url": "https://sites.google.com/stanford.edu/altemoselab/team-members"
+    },
+    {
+     "title": "Altemose Lab PI page",
+     "url": "https://sites.google.com/stanford.edu/altemoselab/principal-investigator"
+    },
+    {
+     "title": "Stanford Profiles: Nicolas Altemose",
+     "url": "https://profiles.stanford.edu/altemose"
+    },
+    {
+     "title": "Stanford Medicine profile: Nathan Gamarra",
+     "url": "https://med.stanford.edu/profiles/nathan-gamarra"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics, Stanford",
-   "location": null
+   "refreshed_at": "2026-10-22T08:02:28+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Nicolas Altemose",
+    "title": "Assistant Professor of Genetics; Chan Zuckerberg Biohub Investigator",
+    "profile_url": "https://profiles.stanford.edu/altemose",
+    "scholar_url": "https://scholar.google.com/citations?user=aamOod8AAAAJ"
+   },
+   "members": [
+    {
+     "name": "Anthony Harris",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the team page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "J. Matthew Franklin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Transcription factors that act on satellite DNA, using microscopy, DNA sequencing and biochemical labeling",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nathan Gamarra",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Extending DiMeLo-seq to study chromatin organization and gene regulation",
+     "email": null,
+     "profile_url": "https://med.stanford.edu/profiles/nathan-gamarra"
+    },
+    {
+     "name": "Ashlie Barillas",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Stanford Genetics, co-supervised by Will Allen)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Danilo Dubocanin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Building and applying new tools to study genomic processes at the single-molecule level (Stanford Genetics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Diego Pomales-Matos",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Stanford Genetics)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Maria Del Rio",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Stanford Biology)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Robert Hall",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Stanford Biology, co-supervised by Molly Schumer)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rosa Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Stanford Genetics)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Genetics",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University School of Medicine (CZ Biohub Investigator)",
+   "members_page": "https://sites.google.com/stanford.edu/altemoselab/team-members"
   },
   {
    "name": "Ioannidis Group",
@@ -12511,21 +14883,61 @@
    "department_hint": "EECS / Center for Computational Biology, UC Berkeley",
    "id": "czb-ioannidis",
    "url": "https://vcresearch.berkeley.edu/faculty/nilah-ioannidis",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops computational methods to analyze and interpret personal genomes. A main thread is machine learning and deep learning to predict the clinical impact of genetic variation, including pathogenicity of missense and other variants; the PI previously co-developed the REVEL ensemble predictor. A second thread is deep learning models of sequence-to-function relationships, such as variation in gene expression and other molecular and cellular phenotypes. The EECS AI+Science page lists her interests as ML in genomics, variant effect prediction and sequence-to-phenotype prediction. The pages I could open did not mention cancer, somatic mutation or single-cell work.",
+   "topics": [
+    "variant effect prediction",
+    "deep learning for genomics",
+    "personal genomics",
+    "gene expression prediction",
+    "sequence-to-phenotype modeling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap with the student's interest in ML methods for genomics and some overlap with variant interpretation, but the group's focus is germline and personal-genome variant effects rather than cancer, structural variants, somatic mutation, or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Could not find or open a lab people/members page, so no postdocs or PhD students were verified. The Berkeley faculty page returned HTTP 403 when fetched, and the EECS page lists no students.",
+    "Berkeley pages describe the PI as an adjunct assistant professor, while the 2022 Biohub announcement said assistant professor. Check the current title.",
+    "No move detected: the PI is still at UC Berkeley. The CZ Biohub listing is her Investigator award (2022-2027), not a separate institution.",
+    "A search snippet from a student's profile page (docpollard.org, Ryan Keivanfar) said the student is co-advised by Nilah Ioannidis and Katie Pollard. I did not open that page, so the student is not listed as a member.",
+    "Visa is likely needed for a US role."
+   ],
+   "sources": [
+    {
+     "title": "Nilah Ioannidis - Berkeley Research faculty profile",
+     "url": "https://vcresearch.berkeley.edu/faculty/nilah-ioannidis"
+    },
+    {
+     "title": "Nilah Ioannidis - EECS faculty page",
+     "url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nilah.html"
+    },
+    {
+     "title": "EECS AI+Science",
+     "url": "https://ai-science.eecs.berkeley.edu"
+    },
+    {
+     "title": "Chan Zuckerberg Biohub awards to QB3-Berkeley faculty",
+     "url": "https://qb3.berkeley.edu/news/chan-zuckerberg-biohub-awards-to-qb3-berkeley-faculty-members/"
+    },
+    {
+     "title": "Ryan Keivanfar (Pollard lab profile, search snippet only)",
+     "url": "https://docpollard.org/people/ryan-keivanfar/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
-   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
-   "pi_profile": {},
+   "refreshed_at": "2026-10-22T08:03:14+00:00",
+   "error": null,
+   "pi_profile": {
+    "name": "Nilah Ioannidis",
+    "title": "Adjunct Assistant Professor (joint appointment in EECS and the Center for Computational Biology); Chan Zuckerberg Biohub Investigator (2022-2027)",
+    "profile_url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nilah.html",
+    "scholar_url": "https://scholar.google.com/citations?user=42m4tGIAAAAJ"
+   },
    "members": [],
-   "department": "EECS / Center for Computational Biology, UC Berkeley",
-   "location": null
+   "department": "Electrical Engineering and Computer Sciences (EECS); Center for Computational Biology (CCB)",
+   "location": "Berkeley, California, USA",
+   "current_institution": "University of California, Berkeley",
+   "members_page": null
   },
   {
    "name": "Bateman Group",
@@ -12786,21 +15198,70 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-cortes-ciriano",
    "url": "https://www.ebi.ac.uk/research/cortes-ciriano",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops computational tools for cancer genomics. One theme is genomic instability and immune escape: how complex chromosomal alterations drive cancer and affect immunotherapy response, including analysis of long-read sequencing data. A second theme is early cancer detection, using multi-omic liquid biopsy methods based on nanopore sequencing, including minimal residual disease monitoring. A third theme is single-cell genomics, covering clonal evolution, the timing of somatic mutations and their fitness effects. The group also analyses somatic mutations in sequencing data, and the PI received an ERC Consolidator Grant in December 2025 on genome structure and gene regulation in disease.",
+   "topics": [
+    "cancer genomics",
+    "structural variants / complex rearrangem",
+    "long-read nanopore sequencing",
+    "liquid biopsy / early detection",
+    "single-cell clonal evolution",
+    "somatic mutation analysis"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 5,
+    "reason": "Very strong overlap with the student's interests in cancer WGS, structural variants and somatic mutation analysis, computational methods, and single-cell cancer genomics, but the lab is UK-based, so a visa would likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at EMBL-EBI. A December 2025 EACR piece and the 2025 EMBL-EBI research review list him there, and I found no sign of a move.",
+    "The official members page lists only one current member, Carolin M. Sauer, as a 'Visitor' (https://www.ebi.ac.uk/people/person/carolin-sauer). Her role is not stated as postdoc or PhD, so I did not list her under members. The page shows no alumni.",
+    "No postdocs or PhD students could be verified from the official members page, so the members list is empty. The page may be out of date or incomplete.",
+    "The EMBL people directory has an entry for Bertha Rueda, described in a search snippet as a Postdoctoral Fellow in the group. I could not confirm this because the profile page only redirected. She is not on the lab members page, so I left her out.",
+    "Ece Ulutas and Remi Poulard appeared in a search for the group, but their EMBL profiles say Coorens group, so they were excluded."
+   ],
+   "sources": [
+    {
+     "title": "Cortes-Ciriano group main page",
+     "url": "https://www.ebi.ac.uk/research/cortes-ciriano"
+    },
+    {
+     "title": "Cortes-Ciriano group members page",
+     "url": "https://www.ebi.ac.uk/research/cortes-ciriano/members/"
+    },
+    {
+     "title": "Cortes-Ciriano group: join us",
+     "url": "https://www.ebi.ac.uk/research/cortes-ciriano/join-us"
+    },
+    {
+     "title": "Two EMBL scientists awarded ERC Consolidator Grants",
+     "url": "https://www.ebi.ac.uk/about/news/announcements/two-embl-scientists-awarded-erc-consolidator-grants/"
+    },
+    {
+     "title": "EMBL profile: Carolin Sauer",
+     "url": "https://www.ebi.ac.uk/people/person/carolin-sauer"
+    },
+    {
+     "title": "EMBL people directory: Ece Ulutas (Coorens group)",
+     "url": "https://www.embl.org/people/person/ece-ulutas"
+    },
+    {
+     "title": "EMBL people directory: Remi Poulard (Coorens group)",
+     "url": "https://embl.org/people/person/remi-poulard"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:05:03+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Isidro Cortés-Ciriano",
+    "title": "Research Group Leader",
+    "profile_url": "https://www.ebi.ac.uk/research/cortes-ciriano",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "department": "EMBL-EBI Research unit (cancer genomics)",
+   "location": "Hinxton (Cambridge), United Kingdom",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory – European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/cortes-ciriano/members/"
   },
   {
    "name": "Thornton Group (visiting)",
@@ -12840,21 +15301,131 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-ewald",
    "url": "https://www.ebi.ac.uk/research/ewald/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group uses machine learning and multi-omics integration to find and characterise chemical hazards to humans and ecosystems. A main interest is image-based cell profiling, including the Cell Painting multiplexed fluorescent imaging assay. The group also works with the OASIS Consortium's liver toxicity dataset. Its overall theme is computational toxicology: predicting and understanding chemical effects from high-content cellular data.",
+   "topics": [
+    "cell profiling",
+    "Cell Painting",
+    "computational toxicology",
+    "machine learning",
+    "multi-omics integration",
+    "chemical hazard"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's machine learning and multi-omics methods overlap with the student's computational methods interest, but the work is on toxicology and imaging with no cancer genomics, structural variants or tumour sequencing, and the role would be in the UK, which may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Jessica Ewald is described in a 2025 EMBL-EBI welcome piece as the newest Research Group Leader, so the group is new and still building. I saw no sign of a move.",
+    "The members page gives no individual research focus or start years, so 'year' is null for everyone.",
+    "Marco Raffaele Cosenza is listed as Research Scientist (staff) and is excluded.",
+    "Her Google Scholar profile was not found, so scholar_url is null.",
+    "The emails come from the lab members page, where they are shown obfuscated as [at]."
+   ],
+   "sources": [
+    {
+     "title": "Ewald Group main page",
+     "url": "https://www.ebi.ac.uk/research/ewald/"
+    },
+    {
+     "title": "Ewald Group members",
+     "url": "https://www.ebi.ac.uk/research/ewald/members/"
+    },
+    {
+     "title": "Welcome: Jess Ewald",
+     "url": "https://www.ebi.ac.uk/about/news/perspectives/welcome-jess-ewald"
+    },
+    {
+     "title": "Jessica Ewald, EMBL people directory",
+     "url": "https://www.embl.org/people/person/jessica-ewald"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:05:02+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
+   "pi_profile": {
+    "name": "Jessica Ewald",
+    "title": "Group Leader",
+    "profile_url": "https://www.ebi.ac.uk/people/person/jessica-ewald",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Guillaume Ollitrault",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow; individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/guillaume-ollitrault"
+    },
+    {
+     "name": "Jonne Rietdijk",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow in Computational Toxicology",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/jonne-rietdijk"
+    },
+    {
+     "name": "Olivier Labayle-Pabet",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow in Computational Toxicology",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/olivier-labayle-pabet"
+    },
+    {
+     "name": "Pyry Helkkula",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow; individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/pyry-henrik-helkkula"
+    },
+    {
+     "name": "Tiam Heydari",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow (EIPOD); individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/tiam-heydari"
+    },
+    {
+     "name": "Daniel Ehrlich",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Visiting Predoctoral Fellow; individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/daniel-ehrlich"
+    },
+    {
+     "name": "Daniele Bottazzi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/daniele-bottazzi"
+    },
+    {
+     "name": "Naomi Murphy",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/naomi-murphy"
+    },
+    {
+     "name": "Pia Mozdzanowski",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not stated on the page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/pia-mozdzanowski"
+    }
+   ],
    "department": "EMBL-EBI Research",
-   "location": null
+   "location": "Hinxton (Wellcome Genome Campus), Cambridgeshire, UK",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory, European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/ewald/members/"
   },
   {
    "name": "Lees Group",
@@ -13002,21 +15573,139 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-coorens",
    "url": "https://www.ebi.ac.uk/research/coorens/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies how normal human cells acquire somatic mutations and uses those mutations as natural barcodes to reconstruct cell lineages and phylogenies. Its work covers somatic mutation patterns across normal tissues, including links to lifestyle and exposures, and how these relate to cancer origins. It also covers early embryogenesis and the origins of childhood cancer. The group builds computational tools for single-cell and spatial data. Recent publications include a 2025 Nature paper on the somatic mutation landscape of normal gastric epithelium and a 2025 Nature paper on the developmental GTEx projects.",
+   "topics": [
+    "somatic mutation",
+    "lineage tracing / phylogenetics",
+    "clonal evolution in normal tissue",
+    "cancer origins",
+    "childhood cancer",
+    "single-cell and spatial genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with somatic mutation analysis, computational genomics methods and single-cell/spatial omics, and with cancer origins. The group focuses on normal tissue and development more than on tumour WGS/transcriptome work, and a UK role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI moved: Tim Coorens joined EMBL-EBI as Research Group Leader in May 2025, coming from a postdoc at the Broad Institute (Getz and Ardlie labs). EMBL-EBI is the current institution.",
+    "The members page does not give individual research focuses or years, so those fields are generic or null. Check each profile page for details.",
+    "Emails are published in obfuscated form ('name [at] ebi.ac.uk') on the members page, and I have written them out in normal form.",
+    "I did not find a Google Scholar URL, so it is null.",
+    "A UK role would likely need a visa for a Canadian student."
+   ],
+   "sources": [
+    {
+     "title": "Coorens Group home",
+     "url": "https://www.ebi.ac.uk/research/coorens/"
+    },
+    {
+     "title": "Coorens Group members",
+     "url": "https://www.ebi.ac.uk/research/coorens/members/"
+    },
+    {
+     "title": "Tim Coorens - EMBL-EBI profile",
+     "url": "https://www.ebi.ac.uk/people/person/tim-coorens"
+    },
+    {
+     "title": "Welcome Tim Coorens (EMBL)",
+     "url": "https://www.embl.org/news/people-perspectives/welcome-tim-coorens/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:04:33+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "pi_profile": {
+    "name": "Tim Coorens",
+    "title": "Group Leader",
+    "profile_url": "https://www.ebi.ac.uk/people/person/tim-coorens",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Andrea Cossa",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/andrea-cossa"
+    },
+    {
+     "name": "Ianthe van Belzen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow (EIPOD); individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/ianthe-van-belzen"
+    },
+    {
+     "name": "Leticia Rodríguez Montes",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "EMBL-EBI–Sanger Postdoctoral (ESPOD) Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/leticia-rodriguez-montes"
+    },
+    {
+     "name": "Lori Kregar",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Visiting Postdoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/lori-kregar"
+    },
+    {
+     "name": "Maurice Langhinrichs",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Visiting Postdoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/maurice-langhinrichs"
+    },
+    {
+     "name": "Yifan Zhao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/yifan-zhao"
+    },
+    {
+     "name": "Ece Ulutas",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/ece-ulutas"
+    },
+    {
+     "name": "Koen Rademaker",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/koen-joske-rademaker"
+    },
+    {
+     "name": "Niklas Engel",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/niklas-leon-engel"
+    },
+    {
+     "name": "Remi Poulard",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral Fellow; individual focus not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/remi-poulard"
+    }
+   ],
+   "department": "EMBL-EBI Research (Wellcome Genome Campus)",
+   "location": "Hinxton, Cambridgeshire, UK",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory, European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/coorens/members/"
   },
   {
    "name": "Uhlmann Group (visiting)",
