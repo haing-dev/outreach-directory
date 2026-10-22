@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T03:01:34+00:00",
+   "generated_at": "2026-10-22T03:58:28+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "broad-gusev",
+     "entry_name": "Gusev Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "other-ding",
