@@ -1,6 +1,193 @@
 {
  "weeks": [
   {
+   "week": "2026-10-22",
+   "generated_at": "2026-10-22T01:12:13+00:00",
+   "checked": 30,
+   "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-sabatti",
+     "entry_name": "Sabatti Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-jones",
+     "entry_name": "Bioinformatics Group (UCL Computer Science)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "Added"
+    }
+   ]
+  },
+  {
    "week": "2026-10-21",
    "generated_at": "2026-10-21T23:54:57+00:00",
    "checked": 30,
