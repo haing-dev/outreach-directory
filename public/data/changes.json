@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T03:58:28+00:00",
+   "generated_at": "2026-10-22T05:01:04+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "broad-palotie",
+     "entry_name": "Palotie Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-nirmal",
+     "entry_name": "Nirmal Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-martin",
+     "entry_name": "Martin Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-price",
+     "entry_name": "Price Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-klein",
+     "entry_name": "Klein Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-luria",
+     "entry_name": "O'Donnell-Luria Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-neale",
+     "entry_name": "Neale Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-patel",
+     "entry_name": "Patel Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-neafsey",
+     "entry_name": "Neafsey Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-marks",
+     "entry_name": "Marks Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-macosko",
+     "entry_name": "Macosko Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-mahmood",
+     "entry_name": "Mahmood Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-michor",
+     "entry_name": "Michor Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-lahav",
+     "entry_name": "Lahav Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-li",
+     "entry_name": "Li Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-korsunsky",
+     "entry_name": "Korsunsky Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-mercader",
+     "entry_name": "Mercader Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-liang",
+     "entry_name": "Liang Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-pinello",
+     "entry_name": "Pinello Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-meyerson",
+     "entry_name": "Meyerson Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-lawrence",
+     "entry_name": "Lawrence Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-loh",
+     "entry_name": "Loh Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-naqvi",
+     "entry_name": "Naqvi Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-ovchinnikov",
+     "entry_name": "Ovchinnikov Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-raychaudhuri",
+     "entry_name": "Raychaudhuri Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-mccarroll",
+     "entry_name": "McCarroll Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-lieberman",
+     "entry_name": "Lieberman Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-lin",
+     "entry_name": "Lin Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-reshef",
+     "entry_name": "Reshef Lab",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "broad-gusev",
