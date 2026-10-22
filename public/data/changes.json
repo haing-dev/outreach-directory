@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T05:01:04+00:00",
+   "generated_at": "2026-10-22T07:42:58+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "needs_review",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-villani",
+     "entry_name": "Villani Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-uhler",
+     "entry_name": "Uhler Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-vazquez-garcia",
+     "entry_name": "Vazquez-Garcia Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-udler",
+     "entry_name": "Udler Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-xavier",
+     "entry_name": "Xavier Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-streets",
+     "entry_name": "Streets Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York)",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group",
+     "text": "Added"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your session limit · resets 7:40am (UTC))"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "broad-palotie",

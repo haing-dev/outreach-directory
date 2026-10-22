@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T05:01:04+00:00",
+ "generated_at": "2026-10-22T07:42:58+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -1902,7 +1902,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Institute Member (MIT)",
@@ -1995,7 +1995,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Institute Member (MGH, HMS)",
@@ -2550,7 +2550,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (Harvard)",
@@ -2690,7 +2690,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MIT)",
@@ -2781,7 +2781,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Core Institute Member; Eric and Wendy Schmidt Center",
@@ -3034,7 +3034,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MGH)",
@@ -4072,7 +4072,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Institute Member (Harvard, MGH)",
@@ -4236,7 +4236,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MGH)",
@@ -5362,7 +5362,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MGH)",
@@ -7000,7 +7000,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (Harvard)",
@@ -8120,7 +8120,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (Harvard)",
@@ -8147,7 +8147,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Institute Member (MGH, HMS)",
@@ -8174,7 +8174,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MGH)",
@@ -8462,7 +8462,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Core Institute Member",
@@ -8489,7 +8489,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MIT)",
@@ -8892,7 +8892,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Core Institute Member",
@@ -9447,7 +9447,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Institute Member (HMS, BWH)",
@@ -10038,7 +10038,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Associate Member (MGH)",
@@ -12076,7 +12076,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Bioengineering / Center for Computational Biology, UC Berkeley",
@@ -12103,7 +12103,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Statistics, UC Berkeley",
@@ -12130,7 +12130,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Statistics and Computer Science, Stanford",
@@ -12157,7 +12157,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Biohub AI/ML and Comp Biology",
@@ -12173,22 +12173,224 @@
    "group": null,
    "department_hint": "Biomedical Data Science, Stanford",
    "id": "czb-zou",
-   "url": null,
-   "focus": null,
-   "topics": [],
+   "url": "https://www.james-zou.com/",
+   "focus": "The lab develops machine learning methods and AI systems and applies them to biomedicine and health. Its work covers statistical ML foundations such as reliability, fairness, and data valuation. It also covers large language model agents, multi-agent systems, and AI for scientific discovery. Biomedical applications include genomics, protein and drug design, and clinical and pathology AI. I could not open the research page, so this summary comes mainly from the Stanford faculty profile snippets. Check it against the lab's research page before relying on it.",
+   "topics": [
+    "machine learning",
+    "AI for health",
+    "LLM agents",
+    "computational biology",
+    "statistical ML",
+    "biomedical data science"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab does strong ML-for-biomedicine work with some genomics overlap, but I found no focus on cancer genomics, structural variants, or tumour sequencing. A US visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is at Stanford, not an independent institute. The CZ Biohub link is an Investigator award or appointment, so he has not moved.",
+    "The people page has a © 2019 footer, so the member list may be out of date. Verify it before contacting anyone.",
+    "The people page gives only names, roles, and programs, with no research focus, profile links, or emails.",
+    "Scholar URL not verified. His title may have changed since the Stanford profile snippet, so check the current profile.",
+    "Visa needed for US roles."
+   ],
+   "sources": [
+    {
+     "title": "Zou Group people page",
+     "url": "https://www.james-zou.com/people"
+    },
+    {
+     "title": "James Zou, Stanford Profiles",
+     "url": "https://profiles.stanford.edu/james-zou"
+    },
+    {
+     "title": "James Zou, Stanford Medicine profile",
+     "url": "https://www.med.stanford.edu/profiles/james-zou"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T07:42:35+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Biomedical Data Science, Stanford",
-   "location": null
+   "pi_profile": {
+    "name": "James Zou",
+    "title": "Associate Professor of Biomedical Data Science (courtesy appointments in Computer Science and Electrical Engineering), Stanford University",
+    "profile_url": "https://profiles.stanford.edu/james-zou",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jiacheng Miao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Pan Lu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sheng Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Siyu He",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Aneesh Pappu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Electrical Engineering; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Arushi Gupta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Batu El",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as an ICML PhD student; program unclear",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Elana Simon",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Haotian Ye",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Harrison Zhang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jake Silberg",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joseph Boen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kyle Swanson",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mert Yuksekgonul",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mirac Suzgun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nitya Thakkar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Owen Queen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rahul Thapa",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sam Alber",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shirley Wu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Wanjia Zhao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science; no focus listed",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Biomedical Data Science; courtesy in Computer Science and Electrical Engineering; Stanford AI Lab",
+   "location": "Stanford, California, USA",
+   "current_institution": "Stanford University (also Chan Zuckerberg Biohub Investigator)",
+   "members_page": "https://www.james-zou.com/people"
   },
   {
    "name": "Pollard Lab",
@@ -12211,7 +12413,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Gladstone Institute of Data Science & Biotechnology / UCSF Epidemiology & Biostatistics",
@@ -12238,7 +12440,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Bioengineering, UC Berkeley",
@@ -12265,7 +12467,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Genetic Medicine, University of Chicago",
@@ -12292,7 +12494,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "Genetics, Stanford",
@@ -12319,7 +12521,7 @@
    "sources": [],
    "broken_links": [],
    "refreshed_at": null,
-   "error": null,
+   "error": "Claude Code error: You've hit your session limit · resets 7:40am (UTC)",
    "pi_profile": {},
    "members": [],
    "department": "EECS / Center for Computational Biology, UC Berkeley",
@@ -12336,21 +12538,86 @@
    "department_hint": "EMBL-EBI Research / Sequence Family Resources",
    "id": "ebi-bateman",
    "url": "https://www.ebi.ac.uk/research/bateman",
-   "focus": null,
-   "topics": [],
+   "focus": "The group analyses protein sequences and structures to understand how proteins evolve and what they do. One main project is bacterial cell-surface proteins, especially fibrillar adhesins. These have a terminal adhesive domain on a stalk of repeated domains, and they matter for host colonisation, biofilm formation and vaccine design. The group studies them with AlphaFold structure prediction. A second project is spurious translated sequences in protein databases. The aim is tools that remove these contaminants from sequence sets. The wider team also runs the UniProt, InterPro and RNAcentral resources.",
+   "topics": [
+    "protein sequence analysis",
+    "AlphaFold structure prediction",
+    "bacterial adhesins",
+    "protein databases (InterPro/UniProt)",
+    "sequence family evolution"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The work is protein sequence and structure bioinformatics, with essentially no cancer genomics, structural variants, somatic mutation or single-cell/spatial omics, so it overlaps only in general computational methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at EMBL-EBI, so no move was found. He has been there since 2012, after Sanger/Pfam.",
+    "The members page lists no individual research focus for anyone. The member focus fields above are only role labels.",
+    "Ailsa Orr and Francesco Costa are 'Predoctoral Fellows', and I treated them as PhD students without confirming it.",
+    "Loic Lannelongue is listed as a Visitor and was excluded.",
+    "Emails on the page are obfuscated with '[at]'."
+   ],
+   "sources": [
+    {
+     "title": "Bateman Group",
+     "url": "https://www.ebi.ac.uk/research/bateman"
+    },
+    {
+     "title": "Bateman Group members",
+     "url": "https://www.ebi.ac.uk/research/bateman/members/"
+    },
+    {
+     "title": "Alex Bateman - EMBL-EBI",
+     "url": "https://www.ebi.ac.uk/people/person/alex-bateman"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T07:42:36+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research / Sequence Family Resources",
-   "location": null
+   "pi_profile": {
+    "name": "Alex Bateman",
+    "title": "Senior Team Leader, Protein Sequence Resources",
+    "profile_url": "https://www.ebi.ac.uk/people/person/alex-bateman",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Andrew Green",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research Fellow (ARISE/Marie Curie). The page lists no individual project.",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/andrew-green"
+    },
+    {
+     "name": "Daniel Olson",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow (ARISE2). The page lists no individual project.",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/daniel-olson"
+    },
+    {
+     "name": "Ailsa Orr",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow. I did not confirm that this is a PhD enrolment. The page lists no individual project.",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/ailsa-orr"
+    },
+    {
+     "name": "Francesco Costa",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow. I did not confirm that this is a PhD enrolment. The page lists no individual project.",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/francesco-costa"
+    }
+   ],
+   "department": "EMBL-EBI Research / Protein Sequence Resources",
+   "location": "Hinxton, Cambridge, UK",
+   "current_institution": "EMBL-EBI (European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/bateman/members/"
   },
   {
    "name": "Petsalaki Group (visiting)",
@@ -12390,21 +12657,123 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-birney",
    "url": "https://www.ebi.ac.uk/research/birney/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group applies AI methods to molecular, cellular and organismal biology. Models named on the lab page include generative pre-trained transformers, variational autoencoders and convolutional networks. These are applied to health records, organ-scale imaging, single-cell data, and DNA and protein sequences. The group also has Oxford Nanopore sequencing expertise. It works across human and model organisms: medaka, zebrafish, mouse, C. elegans and Drosophila. The members page heading is 'Intraspecies variation in medaka fish and humans'.",
+   "topics": [
+    "AI/deep learning for biology",
+    "genetic variation (medaka and human)",
+    "single-cell data",
+    "Nanopore sequencing",
+    "health records and imaging",
+    "model organisms"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The group overlaps on ML for genomics, single-cell data and sequencing methods, but it has no stated focus on cancer, tumour WGS or structural variants. Moving to the UK would also need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab page and PI profile still list Ewan Birney as Director of EMBL-EBI. A web-search summary of the EBI profile page and a York seminar listing from October 2025 describe a 2025 move to an EMBL-wide leadership role (Interim Director General or Executive Director). I could not confirm this on a p",
+    "The members page lists 23 people but gives no role descriptions, years or research foci, and no update date (footer is © EMBL 2026).",
+    "Predoctoral Fellow is assumed to mean PhD student, which the page does not state. Visiting postdoc and predoc fellows are included but may be short-term visitors.",
+    "Other people are listed as Visitors or Visiting Researchers and were not classified as postdocs or PhD students: Moritz Gerstung, Tomas Fitzgerald, Panagiotis Sergouniotis, Tuomo Hartonen, Brooke Wolford and others. Staff scientist George Kalantzis and technical master's student Juan Martinez Urdaci",
+    "Emails appear in obfuscated form ('name [at] ebi.ac.uk') on the official members page."
+   ],
+   "sources": [
+    {
+     "title": "Birney Group home",
+     "url": "https://www.ebi.ac.uk/research/birney/"
+    },
+    {
+     "title": "Birney Group members",
+     "url": "https://www.ebi.ac.uk/research/birney/members/"
+    },
+    {
+     "title": "Ewan Birney - EMBL-EBI profile",
+     "url": "https://www.ebi.ac.uk/about/people/ewan-birney"
+    },
+    {
+     "title": "York Biomedical Research Institute seminar, Ewan Birney (2025-26)",
+     "url": "https://www.york.ac.uk/biomedical-research-institute/events/biomedical-science-seminars/2025-26/ewan-birney/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T07:42:58+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "pi_profile": {
+    "name": "Ewan Birney",
+    "title": "Director of EMBL-EBI (per the lab and EBI pages). A search result says he is now Interim Director General or Executive Director of EMBL; see flags.",
+    "profile_url": "https://www.ebi.ac.uk/about/people/ewan-birney",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Breeshey Roskams-Hieter",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/breeshey-roskams-hieter"
+    },
+    {
+     "name": "Rodrigo Bonazzola",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/rodrigo-bonazzola"
+    },
+    {
+     "name": "Saul Pierotti",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as Visiting Postdoctoral Fellow; focus not stated",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/saul-pierotti"
+    },
+    {
+     "name": "Xiaolei Zhang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as Visiting Postdoctoral Fellow; focus not stated",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/xiaolei-zhang"
+    },
+    {
+     "name": "Esther Yoo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; focus not stated",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/esther-yoo"
+    },
+    {
+     "name": "Inês Amado Santos Pinheiro Lucas",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; focus not stated",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/ines-amado-santos-pinheiro-lucas"
+    },
+    {
+     "name": "Tim Dang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Visiting Predoctoral Fellow; focus not stated",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/tim-dang"
+    },
+    {
+     "name": "Walter Santana Garcia",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; focus not stated",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/walter-santana-garcia"
+    }
+   ],
+   "department": "EMBL-EBI Research (Birney Group)",
+   "location": "Hinxton (Wellcome Genome Campus), Cambridge, UK",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory, European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/birney/members/"
   },
   {
    "name": "Cortes-Ciriano Group",
