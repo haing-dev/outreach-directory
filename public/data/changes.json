@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T01:55:21+00:00",
+   "generated_at": "2026-10-22T03:01:34+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "other-ding",
+     "entry_name": "Ding Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-welch",
+     "entry_name": "Molecular Evolution",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI)",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "ucl-orengo",
