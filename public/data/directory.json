@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:12:13+00:00",
+ "generated_at": "2026-10-22T01:55:21+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -20928,22 +20928,58 @@
    "group": null,
    "department_hint": "Structural and Molecular Biology",
    "id": "ucl-orengo",
-   "url": "https://www.ismb.lon.ac.uk/christine-orengo/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.ucl.ac.uk/orengo-group/",
+   "focus": "The group develops computational methods to classify protein domains by structure and evolution, and it established the CATH classification in 1994. It studies how protein family members acquire new functions, and it builds methods to predict protein function and the networks proteins take part in. It integrates heterogeneous functional genomics data to study how protein networks change during evolution and under different biological conditions. It also collaborates with experimental groups on signalling in development, neuropathic pain, ageing and cancer.",
+   "topics": [
+    "CATH protein domain classification",
+    "protein structure-function prediction",
+    "protein evolution",
+    "functional genomics / protein networks",
+    "structural bioinformatics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group works on protein structure, function and evolution, so overlap with the student's cancer genomics, structural variant, sequencing and single-cell interests is limited to occasional cancer-related collaborations and general computational methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Members NOT verified. The UCL lab-members page returned HTTP 403 when fetched, and I could not read it directly.",
+    "A search snippet of that page listed postdocs (Ashford, Cuff, Garcia, Grzebyta, Lees, Lee, Lewis, Sillitoe) and PhD students (Baskozos, Das, Dawson, Lam, Lehtinen). Several of these look like long-past members, so the page appears stale. I left them out of the members list.",
+    "The ISMB 'Our People' page lists only the PI and no group members.",
+    "Affiliation ambiguity: the ISMB profile says 'Based at UCL' for the PI, but its footer is the Birkbeck/ISMB address. UKRI and a conference profile describe her as at UCL. I found no sign of a move.",
+    "Check the lab members page manually in a browser, or email the PI (c.orengo@ucl.ac.uk, listed on the ISMB profile)."
+   ],
+   "sources": [
+    {
+     "title": "Christine Orengo – ISMB profile",
+     "url": "https://www.ismb.lon.ac.uk/christine-orengo/"
+    },
+    {
+     "title": "ISMB Our People",
+     "url": "https://www.ismb.lon.ac.uk/our-people/"
+    },
+    {
+     "title": "Orengo Group lab members (UCL; seen in search results, not fetchable)",
+     "url": "https://www.ucl.ac.uk/orengo-group/lab-members"
+    },
+    {
+     "title": "UKRI – Professor Christine Orengo",
+     "url": "https://www.ukri.org/people/christine-orengo/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:01+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Christine Orengo",
+    "title": "Professor of Bioinformatics",
+    "profile_url": "https://www.ismb.lon.ac.uk/christine-orengo/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Structural and Molecular Biology",
-   "location": null
+   "department": "Structural and Molecular Biology (UCL); the ISMB page footer also lists the Institute of Structural and Molecular Biology, School of Natural Sciences, Birkbeck, University of London",
+   "location": "London, UK",
+   "current_institution": "University College London (UCL)",
+   "members_page": "https://www.ucl.ac.uk/orengo-group/lab-members"
   },
   {
    "name": "Curtis group (statistical genetics)",
@@ -21621,22 +21657,120 @@
    "group": null,
    "department_hint": "Genetics, Evolution and Environment / UCL Genetics Institute",
    "id": "ucl-secrier",
-   "url": "https://ucl.ac.uk/biosciences/gee/academic-staff",
-   "focus": null,
-   "topics": [],
+   "url": "https://secrierlab.github.io",
+   "focus": "The lab studies somatic evolution, using cancer as the main model. One line of work asks how mutational processes (for example homologous recombination deficiency and genomic instability) shape cell plasticity and stress adaptation. The other asks how tumour cells co-evolve with their microenvironment to evade therapy. The group builds statistical, data-integration and machine-learning methods that link bulk, single-cell and spatial transcriptomics with digital pathology (H&E). Current projects include tumour dormancy under a UKRI Future Leaders Fellowship, breast cancer and liver metastasis, oesophageal adenocarcinoma, radiotherapy resistance in colorectal cancer, and immunogenomic metrics.",
+   "topics": [
+    "cancer evolution",
+    "mutational processes / HRD",
+    "single-cell & spatial transcriptomics",
+    "computational pathology",
+    "machine learning",
+    "tumour microenvironment"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's interests in computational/ML methods, somatic mutation processes, and single-cell and spatial omics in cancer. It is a bit weaker on structural variants and on large-scale WGS-centred work, and a UK role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: Secrier is still at UCL (Genetics Institute).",
+    "The lab site gives no dates for when the members page was last updated, so check it is current.",
+    "Emails on the profile pages are obfuscated (an 'obfuscate' string is inserted), so no emails are listed. The Champneys page shows an email whose username belongs to a former member.",
+    "The lab website is a GitHub Pages site, not a ucl.ac.uk page. The UCL staff page returned HTTP 403.",
+    "Research Fellows are counted as postdocs. Years of study are not published."
+   ],
+   "sources": [
+    {
+     "title": "Secrier Lab home",
+     "url": "https://secrierlab.github.io"
+    },
+    {
+     "title": "Secrier Lab team page",
+     "url": "https://secrierlab.github.io/team/"
+    },
+    {
+     "title": "Maria Secrier profile",
+     "url": "https://secrierlab.github.io/team/maria-secrier/"
+    },
+    {
+     "title": "Shi Pan profile",
+     "url": "https://secrierlab.github.io/team/shi-pan/"
+    },
+    {
+     "title": "Cenk Celik profile",
+     "url": "https://secrierlab.github.io/team/cenk-celik/"
+    },
+    {
+     "title": "Beatriz Monterde Martínez profile",
+     "url": "https://secrierlab.github.io/team/bea/"
+    },
+    {
+     "title": "Emma Champneys profile",
+     "url": "https://secrierlab.github.io/team/emma-champneys/"
+    },
+    {
+     "title": "Ivan Lam profile",
+     "url": "https://secrierlab.github.io/team/ivan-lam/"
+    },
+    {
+     "title": "Research Fellow in Computational Biology and AI (jobs.ac.uk)",
+     "url": "https://www.jobs.ac.uk/job/DSI621/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:17+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Genetics, Evolution and Environment / UCL Genetics Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Maria Secrier",
+    "title": "Associate Professor of Computational Cancer Biology",
+    "profile_url": "https://secrierlab.github.io/team/maria-secrier/",
+    "scholar_url": "https://scholar.google.co.uk/citations?user=yBRsIosAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Beatriz Monterde Martínez",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Visiting MSCA postdoctoral researcher (ICR London): immunogenomic metrics to predict treatment response and tumour progression",
+     "email": null,
+     "profile_url": "https://secrierlab.github.io/team/bea/"
+    },
+    {
+     "name": "Cenk Celik",
+     "role": "Postdoc",
+     "year": "joined June 2023",
+     "focus": "Research Fellow: tumour cell plasticity and quiescence/proliferation switching in breast cancer and liver metastasis, using single-cell and spatial transcriptomics methods. Listed as Research Fellow, not 'postdoc', on the page.",
+     "email": null,
+     "profile_url": "https://secrierlab.github.io/team/cenk-celik/"
+    },
+    {
+     "name": "Shi Pan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research Fellow: AI for computational pathology (H&E to molecular predictions, HistoMIL, graph neural networks) and LLMs for genomic/transcriptomic multiomics. Listed as Research Fellow, not 'postdoc', on the page.",
+     "email": null,
+     "profile_url": "https://secrierlab.github.io/team/shi-pan/"
+    },
+    {
+     "name": "Emma Champneys",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Homologous recombination deficiency (HRD) in breast cancer (MRC DTP)",
+     "email": null,
+     "profile_url": "https://secrierlab.github.io/team/emma-champneys/"
+    },
+    {
+     "name": "Hou Wang (Ivan) Lam",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Radiotherapy resistance in colorectal cancer (MRC DTP)",
+     "email": null,
+     "profile_url": "https://secrierlab.github.io/team/ivan-lam/"
+    }
+   ],
+   "department": "UCL Genetics Institute, Department of Genetics, Evolution and Environment (Division of Biosciences)",
+   "location": "London, United Kingdom",
+   "current_institution": "University College London",
+   "members_page": "https://secrierlab.github.io/team/"
   },
   {
    "name": "Cancer Genome Evolution Research Group",
@@ -21708,22 +21842,55 @@
    "group": null,
    "department_hint": "Queen Square Institute of Neurology",
    "id": "ucl-nachev",
-   "url": "https://www.ucl.ac.uk/artificial-intelligence/our-people",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.ucl.ac.uk/ion/research/departments/brain-repair-rehabilitation/research-themes/high-dimensional-neurology",
+   "focus": "The group applies large-scale, high-dimensional modelling to rich clinical and imaging datasets from patients with focal brain damage. The aim is to predict outcomes for individual patients. Its work includes automatic anomaly detection for triage and classification of brain imaging. Other work is on network modelling of lesions and AI-based neuro-oncology, including brain tumour research. The methods are machine learning and deep learning on clinical neuroimaging and healthcare data. This summary comes from search-result snippets, because the group pages returned 403 errors.",
+   "topics": [
+    "computational neurology",
+    "deep learning on neuroimaging",
+    "lesion-deficit modelling",
+    "anomaly detection",
+    "neuro-oncology AI",
+    "clinical prediction"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does machine learning on clinical neuroimaging and brain tumour data, which overlaps only loosely with the student's interests in cancer genomics, structural variants, sequencing and single-cell omics, and the UK location would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The members page and the group page both returned HTTP 403, so no current postdoc or PhD student list could be verified and none is given.",
+    "A search snippet mentions Dr Chris Foulon and Dr James Ruffle as research staff or postdoc-level members, but this is unverified and has no role details, so they are not listed.",
+    "A jobs.ac.uk listing (DRO126) for a Research Fellow or Senior Research Fellow in neuro-oncology AI under Dr James Ruffle was seen only in a search snippet, not opened.",
+    "Search snippets confirm Nachev is still at UCL Queen Square Institute of Neurology. I found no sign of a move, but I did not open a dated official page.",
+    "I found no current PhD advert for the group."
+   ],
+   "sources": [
+    {
+     "title": "High-Dimensional Neurology (UCL ION)",
+     "url": "https://www.ucl.ac.uk/ion/research/departments/brain-repair-rehabilitation/research-themes/high-dimensional-neurology"
+    },
+    {
+     "title": "NIHR Dementia Researcher podcast profile: Professor Parashkev Nachev",
+     "url": "https://www.dementiaresearcher.nihr.ac.uk/podcast-profile-professor-parashkev-nachev/"
+    },
+    {
+     "title": "jobs.ac.uk listing DRO126",
+     "url": "https://www.jobs.ac.uk/job/DRO126/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:05+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Parashkev Nachev",
+    "title": "Professor of Neurology; Honorary Consultant Neurologist, National Hospital for Neurology and Neurosurgery",
+    "profile_url": null,
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Queen Square Institute of Neurology",
-   "location": null
+   "department": "UCL Queen Square Institute of Neurology (Department of Brain Repair and Rehabilitation; High-Dimensional Neurology theme)",
+   "location": "London, United Kingdom",
+   "current_institution": "University College London",
+   "members_page": "https://www.ucl.ac.uk/artificial-intelligence/our-people"
   },
   {
    "name": "Mott Group (computational and statistical genetics)",
@@ -21871,21 +22038,99 @@
    "department_hint": "UCL Cancer Institute",
    "id": "ucl-zaccaria",
    "url": "https://www.ucl.ac.uk/medical-sciences/divisions/cancer/our-research/computational-cancer-genomics",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops computational methods to analyse tumour sequencing data and study cancer evolution. Past outputs include algorithms for identifying tumour clones from single-cell data and for integrating clone trees. Work on copy-number evolution and on reconstructing metastatic migration histories has also appeared, for example in a 2025 RECOMB paper. Projects use single-cell and bulk whole-genome sequencing from cohorts such as TRACERx and PEACE, in collaboration with the Swanton and Jamal-Hanjani groups. Current student projects cover copy-number-based tumour evolution, metastatic migration, and clonal proliferation rates and replication timing in breast and lung cancer.",
+   "topics": [
+    "cancer evolution",
+    "copy-number alterations",
+    "single-cell WGS",
+    "metastatic migration",
+    "tumour phylogenetics",
+    "computational method development"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's interest in tumour WGS, structural and copy-number variants, somatic mutation analysis, computational methods and single-cell cancer genomics; there is less emphasis on transcriptome or spatial omics, and a UK role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "ucl.ac.uk returned HTTP 403 to direct fetches, so the roster comes from search-result snippets of the members page and may be stale. The snippet reportedly came from a cached copy about 4.6 years old.",
+    "The roster as seen lists no postdocs, but the group has advertised postdoc roles (2022 job ad), so current postdocs may exist that I couldn't verify. Check the live page.",
+    "PI still at UCL as of the Dec 2024 EMBO Young Investigator news item. No move found, but I couldn't confirm anything more recent.",
+    "A Google Scholar profile was not found, so scholar_url is null.",
+    "The PI's email, s.zaccaria@ucl.ac.uk, is reportedly on the group page. Student emails were not found."
+   ],
+   "sources": [
+    {
+     "title": "Members of the CCG group",
+     "url": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group"
+    },
+    {
+     "title": "CCG member: Abi Bunkum",
+     "url": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group/ccg-abi-bunkum"
+    },
+    {
+     "title": "CCG member: Olivia Lucas",
+     "url": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group/ccg-olivia-lucas"
+    },
+    {
+     "title": "UCL news: EMBO Young Investigator (Dec 2024)",
+     "url": "https://www.ucl.ac.uk/medical-sciences/news/2024/dec/ucl-cancer-researcher-receives-funding-boost-embo-young-investigator-scheme"
+    },
+    {
+     "title": "UCL Zaccaria postdoc advert (April 2022)",
+     "url": "https://safrabio.cs.tau.ac.il/sites/exactsci_en.tau.ac.il/files/media_server/Exact_Science/Safrabio/jobs/UCL_SimoneZaccaria_postdoc_April2022.pdf"
+    },
+    {
+     "title": "dblp: Simone Zaccaria",
+     "url": "https://dblp.org/pid/140/3270"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:44+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "UCL Cancer Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Simone Zaccaria",
+    "title": "Group Leader (Principal Research Fellow, Research Department of Oncology); EMBO Young Investigator",
+    "profile_url": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Abi Bunkum",
+     "role": "PhD student",
+     "year": "1st year (per a cached page that may be ",
+     "focus": "Using copy-number data to reconstruct tumour evolution and infer metastatic migration patterns; co-supervised with Mariam Jamal-Hanjani.",
+     "email": null,
+     "profile_url": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group/ccg-abi-bunkum"
+    },
+    {
+     "name": "Olivia Lucas",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Wellcome Clinical PhD Fellow studying clonal proliferation rates and replication timing in breast and lung cancer evolution; co-supervised with Charles Swanton.",
+     "email": null,
+     "profile_url": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group/ccg-olivia-lucas"
+    },
+    {
+     "name": "Rija Zaidi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Named on the members page; research focus not verified.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sonya Hessey",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Named on the members page; research focus not verified.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "UCL Cancer Institute, Research Department of Oncology",
+   "location": "London, UK",
+   "current_institution": "University College London",
+   "members_page": "https://www.ucl.ac.uk/cancer/research/department-oncology/computational-cancer-genomics/members-ccg-group"
   },
   {
    "name": "Bartlett Lab",
@@ -21974,22 +22219,63 @@
    "group": null,
    "department_hint": "Genetics, Evolution and Environment",
    "id": "ucl-yang",
-   "url": "https://www.ucl.ac.uk/biosciences/gee/computational-biology-group",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.ucl.ac.uk/life-sciences/yang-lab",
+   "focus": "The lab develops statistical methods and software for analysing genetic sequence data in molecular evolution, phylogenetics and population genetics. Its best-known programs are PAML (including MCMCtree for Bayesian divergence-time estimation) and BPP (Bayesian MCMC analysis of multi-locus genomic data under the multispecies coalescent). Topics include species delimitation, species-tree estimation, gene flow and introgression, and molecular clock dating. The work is mostly theoretical and computational statistics (likelihood and Bayesian inference, MCMC) applied to comparative genomics. It has no cancer or clinical focus.",
+   "topics": [
+    "molecular evolution",
+    "phylogenetics",
+    "multispecies coalescent",
+    "Bayesian divergence-time estimation",
+    "population genetics",
+    "statistical software (PAML, BPP)"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does computational and statistical phylogenetics. It has little overlap with cancer genomics, tumour sequencing, structural variants, single-cell/spatial omics, or machine learning, and a UK role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I could not open the lab team page; UCL returned HTTP 403, so the PhD student and postdoc list is unverified and 'members' is empty.",
+    "A search snippet of the team page lists only research staff, not students: Dr Sandra Álvarez-Carretero (Research fellow), Dr Tomas Flouri (Senior research fellow), Dr Ana Serra Silva (Research fellow, shared with Prof Max Telford), and Dr Yuttapong Thawornwattana (Research fellow). I did not confirm",
+    "The same snippet gives a lab contact email, z.yang@ucl.ac.uk, which I did not see on the page itself.",
+    "No move for the PI was found. Search results show him still at UCL as R. A. Fisher Chair and Director of the Fisher Centre, but I could not open the profile page to check this.",
+    "The URL from discovery (/biosciences/gee/computational-biology-group) also returned 403. The lab pages now sit under /life-sciences/yang-lab."
+   ],
+   "sources": [
+    {
+     "title": "Ziheng Yang - UCL Human Evolution profile",
+     "url": "https://www.ucl.ac.uk/human-evolution/experts/experts-profile/yang-ziheng"
+    },
+    {
+     "title": "Yang lab team (UCL)",
+     "url": "https://www.ucl.ac.uk/life-sciences/yang-lab/team"
+    },
+    {
+     "title": "Yang lab resources: BPP",
+     "url": "https://www.ucl.ac.uk/life-sciences/yang-lab/resources"
+    },
+    {
+     "title": "Ziheng Yang - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ziheng_Yang"
+    },
+    {
+     "title": "GEE Academics (UCL)",
+     "url": "https://www.ucl.ac.uk/life-sciences/gee/gee-researchers"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:26+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Ziheng Yang",
+    "title": "R. A. Fisher Chair of Statistical Genetics; Director, R. A. Fisher Centre for Computational Biology",
+    "profile_url": "https://www.ucl.ac.uk/human-evolution/experts/experts-profile/yang-ziheng",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Genetics, Evolution and Environment",
-   "location": null
+   "department": "Genetics, Evolution and Environment (UCL Division of Biosciences / Life Sciences)",
+   "location": "London, United Kingdom",
+   "current_institution": "University College London",
+   "members_page": "https://www.ucl.ac.uk/life-sciences/yang-lab/team"
   },
   {
    "name": "Butterworth Group",
@@ -22002,21 +22288,56 @@
    "department_hint": "Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care",
    "id": "cam-butterworth",
    "url": "https://www.phpc.cam.ac.uk/staff/professor-adam-butterworth",
-   "focus": null,
-   "topics": [],
+   "focus": "The group does large-scale genetic and molecular epidemiology, mainly on cardiometabolic disease and molecular traits. It carries out genetic discovery for cardiovascular disease and risk factors such as lipids, and studies the genetic influences on plasma proteomics and metabolomics. It uses human genetics to infer the likely efficacy and safety of drug targets, working with pharmaceutical partners. It also builds multi-ethnic studies, including in Bangladesh, Malaysia and Sri Lanka. The PI leads the HDRUK Multiomics Cohorts Consortium and is Scientific Coordinator of EPIC-CVD.",
+   "topics": [
+    "genetic epidemiology",
+    "cardiovascular disease genetics",
+    "proteomics and metabolomics (multi-omics",
+    "drug target prioritisation / Mendelian r",
+    "diverse-ancestry cohorts"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group works on population-scale germline genetics and multi-omics for cardiometabolic disease, with little on cancer, somatic variants, tumour sequencing or single-cell/spatial omics. The only overlap is general computational genomics. A UK role would also likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No current postdocs or PhD students are named on the PI's profile page, the HLRI profile or the search results. The page says only that the group is made up of postdocs and PhD students, so the members list is empty rather than guessed.",
+    "No PI move found. Cambridge profiles (PHPC and HLRI) list him as Professor of Molecular Epidemiology.",
+    "The PHPC directory (https://www.phpc.cam.ac.uk/directory) may list members, but I did not open it.",
+    "The PI's email asb38@cam.ac.uk is on the official PHPC profile page."
+   ],
+   "sources": [
+    {
+     "title": "Professor Adam Butterworth, PHPC Cambridge",
+     "url": "https://www.phpc.cam.ac.uk/staff/professor-adam-butterworth"
+    },
+    {
+     "title": "Professor Adam Butterworth, HLRI Cambridge",
+     "url": "https://www.hlri.cam.ac.uk/staff/professor-adam-butterworth"
+    },
+    {
+     "title": "PHPC PhD supervisors",
+     "url": "https://www.phpc.cam.ac.uk/education-and-training/doctoral-training/application-process/phd-supervisors-phd-public-health-and-primary-care"
+    },
+    {
+     "title": "Adam Butterworth, Google Scholar",
+     "url": "https://scholar.google.com/citations?hl=en&user=MUPR-6QAAAAJ&view_op=list_works"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:51:34+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Adam Butterworth",
+    "title": "Professor of Molecular Epidemiology",
+    "profile_url": "https://www.phpc.cam.ac.uk/staff/professor-adam-butterworth",
+    "scholar_url": "https://scholar.google.com/citations?hl=en&user=MUPR-6QAAAAJ&view_op=list_works"
+   },
    "members": [],
-   "department": "Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care",
-   "location": null
+   "department": "Department of Public Health and Primary Care; Cardiovascular Epidemiology Unit (CEU)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.phpc.cam.ac.uk/staff/professor-adam-butterworth"
   },
   {
    "name": "Comparative Somatic Evolutionary Genomics",
@@ -22028,22 +22349,108 @@
    "group": null,
    "department_hint": "Department of Genetics",
    "id": "cam-cagan",
-   "url": "https://live-cambridge-gen-cwp.pantheonsite.io/cagan-group",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.gen.cam.ac.uk/cagan-group",
+   "focus": "The group studies somatic evolution: the mutations and clonal expansions that accumulate in normal tissues as organisms age, and what they mean for health. Its three areas are ageing, cancer (including Peto's Paradox, which asks why large, long-lived species do not get more cancer), and environmental monitoring using sentinel species. Methods named on the department page are laser capture microdissection plus genome sequencing, applied comparatively across many species, from ants to primates, elephants and whales. This is a mostly wet-lab and comparative-genomics group, and its postings mention collaborations with the Sudmant lab (UC Berkeley) and the Rahbari lab (Wellcome Sanger Institute).",
+   "topics": [
+    "somatic evolution",
+    "somatic mutation",
+    "comparative genomics",
+    "ageing",
+    "Peto's paradox",
+    "laser capture microdissection"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Somatic mutation analysis and cancer genomics overlap with the student's interests, but the work is comparative across species and based on microdissection sequencing. It has little emphasis on tumour transcriptomics, structural variants, machine learning, or single-cell and spatial omics, and a UK "
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The listed lab URL (pantheonsite.io) is a staging host and 301-redirects to https://www.gen.cam.ac.uk/cagan-group.",
+    "No PI move found; Cambridge is confirmed as the current institution. The PI's personal site also mentions the Wellcome Sanger Institute.",
+    "The members page labels students only as 'Postgraduate Student'. I treated them as PhD students but the page does not say so. No years or research focuses are given.",
+    "Inez Januszczak (Research Laboratory Coordinator) is staff and is excluded.",
+    "The PI's email is written on the group page as 'atjc2 at cam.ac.uk'. It is not placed in a member field."
+   ],
+   "sources": [
+    {
+     "title": "Cagan Group - Department of Genetics",
+     "url": "https://www.gen.cam.ac.uk/cagan-group"
+    },
+    {
+     "title": "Cagan Group members",
+     "url": "https://www.gen.cam.ac.uk/cagan-group-members"
+    },
+    {
+     "title": "Alex Cagan personal site",
+     "url": "https://www.alexcagan.com/"
+    },
+    {
+     "title": "Saamin Cheema profile",
+     "url": "https://www.gen.cam.ac.uk/people/saamin-cheema"
+    },
+    {
+     "title": "Robert Powles profile",
+     "url": "https://www.gen.cam.ac.uk/people/robert-powles"
+    },
+    {
+     "title": "Ugne Vaitkute profile",
+     "url": "https://www.gen.cam.ac.uk/people/ugne-vaitkute"
+    },
+    {
+     "title": "Martín Santamarina García profile",
+     "url": "https://www.gen.cam.ac.uk/people/martin-santamarina-garcia"
+    },
+    {
+     "title": "Research Associate (Fixed Term) posting",
+     "url": "https://www.jobs.ac.uk/job/DTB355/research-associate-fixed-term"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:51:50+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Alex Cagan",
+    "title": "University Assistant Professor (Group Leader), Departments of Genetics, Pathology and Veterinary Medicine",
+    "profile_url": "https://www.gen.cam.ac.uk/people/alex-cagan",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Martín Santamarina García",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the profile page; listed as Postdoctoral Research Associate in the Cagan Group.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/martin-santamarina-garcia"
+    },
+    {
+     "name": "Robert Powles",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the profile page.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/robert-powles"
+    },
+    {
+     "name": "Saamin Cheema",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described; listed as Postgraduate Student and Research Assistant in the Cagan Group.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/saamin-cheema"
+    },
+    {
+     "name": "Ugne Vaitkute",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the profile page.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/ugne-vaitkute"
+    }
+   ],
+   "department": "Department of Genetics (also listed under Pathology and Veterinary Medicine)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge (PI's personal site also lists a Wellcome Sanger Institute affiliation)",
+   "members_page": "https://www.gen.cam.ac.uk/cagan-group-members"
   },
   {
    "name": "Wood Group (statistical methodology, risk prediction)",
@@ -22083,21 +22490,62 @@
    "department_hint": "Department of Genetics",
    "id": "cam-scally",
    "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/scally",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies the evolutionary and demographic processes that shape genetic diversity within and between species. Its main subjects are human and primate evolution, including great apes, Neanderthals and archaic populations. The PI helped produce the first gorilla genome assembly, and the group has also worked on the human germline mutation rate. Its methods are computational, mathematical and population-genetic, applied to large whole-genome datasets. The group also collaborates with wet-lab researchers.",
+   "topics": [
+    "human evolution",
+    "primate genomics",
+    "population genetics",
+    "germline mutation rate",
+    "computational genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The computational genomics and whole-genome analysis methods overlap somewhat with the student's interests, and germline mutation is loosely related to somatic mutation, but the group does no cancer, tumour sequencing, single-cell/spatial or ML work, and a UK role may need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI is still at the University of Cambridge, Department of Genetics. No move was found.",
+    "The members page lists only the PI and one postgraduate student, Andrei Popescu, so it is probably incomplete or out of date. No postdocs are listed.",
+    "A search result tagged Seongwon Hwang as a postgraduate student in the Scally Group, but I could not open that page (404). I left them out because I could not verify the affiliation.",
+    "I could not open the group taxonomy page (403) or Andrei Popescu's profile (403).",
+    "The group page links to a Google Scholar profile, but I did not see the URL, so scholar_url is null."
+   ],
+   "sources": [
+    {
+     "title": "Scally Group (Dept of Genetics)",
+     "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/scally"
+    },
+    {
+     "title": "Scally Group members",
+     "url": "https://www.gen.cam.ac.uk/scally-group-members"
+    },
+    {
+     "title": "Aylwyn Scally profile",
+     "url": "https://www.gen.cam.ac.uk/people/aylwyn-scally"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:55:21+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
+   "pi_profile": {
+    "name": "Aylwyn Scally",
+    "title": "University Associate Professor",
+    "profile_url": "https://www.gen.cam.ac.uk/people/aylwyn-scally",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Andrei Popescu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed. The members page only gives 'Postgraduate Student', so PhD status is not confirmed.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/andrei-popescu"
+    }
+   ],
    "department": "Department of Genetics",
-   "location": null
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.gen.cam.ac.uk/scally-group-members"
   },
   {
    "name": "Simons Group",
@@ -22137,21 +22585,75 @@
    "department_hint": "Cambridge Stem Cell Institute",
    "id": "cam-g-ttgens",
    "url": "https://www.stemcells.cam.ac.uk/people/pi/gottgens",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies how transcription factor networks control the function of blood stem cells. It also studies how mutations that disrupt these networks cause leukaemia. The group has about 15 years of experience in single-cell genomics. A recent job advert says the current focus is integrating large-scale single-cell genomics data from early development with cellular dynamics. The group is led jointly with Research Professor Nicola Wilson and combines wet-lab and computational (bioinformatics) work.",
+   "topics": [
+    "haematopoietic stem cells",
+    "transcription factor networks",
+    "single-cell genomics",
+    "leukaemia",
+    "computational biology",
+    "early blood development"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The group has strong single-cell and computational genomics methods that match the student's methods interests, but its focus is normal and malignant haematopoiesis, not tumour WGS, structural variants or somatic mutation analysis. A UK visa would also likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at the University of Cambridge and is Director of the Cambridge Stem Cell Institute.",
+    "The members page lists about 21 names without roles, so postdocs and PhD students could not be told apart. Only Harimoto and Hidajat are confirmed as PhD students, and only from a search-result summary of the directory, not from a page I opened. The list is therefore incomplete.",
+    "Other names on the group page, with roles I could not verify: Marcelo Brunatto, Barbora Bucinskaite, A. Garcia-Hernandez, Josephine Gollin, Myriam Haltalli (Research Associate per directory), Rebecca Hannah (Bioinformatician per directory), Xiaoling Huang, Sarah Juster, Sarah Kinston, Deborah Martin",
+    "Directory pages are undated. A group postdoc advert ran from 22 Oct 2025 to 16 Nov 2025 and has likely closed.",
+    "No email addresses were verified, and no Google Scholar URL was seen."
+   ],
+   "sources": [
+    {
+     "title": "Göttgens Group, Cambridge Stem Cell Institute",
+     "url": "https://www.stemcells.cam.ac.uk/people/pi/gottgens"
+    },
+    {
+     "title": "Bertie Göttgens profile",
+     "url": "https://www.stemcells.cam.ac.uk/people/bertie-gottgens"
+    },
+    {
+     "title": "Postdoctoral Research Associate (Fixed Term) - Gottgens Lab",
+     "url": "https://www.c2d3.cam.ac.uk/opportunities/postdoctoral-research-associate-fixed-term-gottgens-lab"
+    },
+    {
+     "title": "Cambridge Stem Cell Institute directory (H)",
+     "url": "https://www.stemcells.cam.ac.uk/directory/h"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:52:55+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Cambridge Stem Cell Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Berthold (Bertie) Göttgens",
+    "title": "Professor of Molecular Haematology; Director of the Cambridge Stem Cell Institute",
+    "profile_url": "https://www.stemcells.cam.ac.uk/people/bertie-gottgens",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Hiromitsu Harimoto",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the pages I could open. The Institute directory tags this person to the Göttgens Group as a PhD student.",
+     "email": null,
+     "profile_url": "https://www.stemcells.cam.ac.uk/node/11495"
+    },
+    {
+     "name": "Olivia Hidajat",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the pages I could open. The Institute directory tags this person to the Göttgens Group as a PhD student.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Cambridge Stem Cell Institute; Department of Haematology",
+   "location": "Cambridge, UK",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.stemcells.cam.ac.uk/people/pi/gottgens"
   },
   {
    "name": "Virus Genomics",
@@ -22164,21 +22666,54 @@
    "department_hint": "Department of Genetics",
    "id": "cam-houldcroft",
    "url": "https://www.gen.cam.ac.uk/research/research-groups/houldcroft-group",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies the evolution and diversity of double-stranded DNA viruses that cause human disease, from respiratory infections and fever to chronic nerve pain and cancer. They use whole-genome sequencing to track virus spread over time and geography, detect drug resistance and identify recombinant strains. Two main strands of work are adenovirus genomics in clinical settings and adaptive immunity to adenoviruses. They also look at how human genetic and immunological variation shapes viral diversity, and at the ancient evolution of human pathogens. The PI's earlier work covered Epstein-Barr virus latency, cytomegalovirus and adenovirus.",
+   "topics": [
+    "viral genomics",
+    "adenovirus",
+    "herpesviruses (EBV, CMV)",
+    "pathogen evolution",
+    "drug resistance",
+    "host-virus immunity"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does sequencing-based genomics and variant analysis, but on viral pathogens and evolution, not cancer genomics, somatic mutation, single-cell/spatial omics or ML methods. Overlap is limited to general genome sequencing and bioinformatics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The group page and the PI profile list no postdocs or PhD students. The member list is empty because I could not verify any names, not because the group has none.",
+    "The group page links to a site-wide /people directory. I did not see a group-specific roster, and the Genetics directory URL I tried returned a 404.",
+    "The PI's institution is confirmed as the University of Cambridge, Department of Genetics, with no sign of a move. Her title is inconsistent across pages (Assistant Professor vs lecturer).",
+    "A 4-year funded PhD studentship for October 2025 was advertised, with projects under Houldcroft, Alex Cagan or Antoine Hocher. The deadline was 7 January 2025, so that call has likely closed.",
+    "Alex Cagan's work on somatic mutation is a closer match to the student's interests. I did not research his group."
+   ],
+   "sources": [
+    {
+     "title": "Houldcroft Group, Department of Genetics",
+     "url": "https://www.gen.cam.ac.uk/research/research-groups/houldcroft-group"
+    },
+    {
+     "title": "Charlotte Houldcroft, Department of Genetics profile",
+     "url": "https://www.gen.cam.ac.uk/people/charlotte-houldcroft"
+    },
+    {
+     "title": "Charlotte Houldcroft, Cambridge staff profile",
+     "url": "https://www.bio.cam.ac.uk/staff/charlotte-houldcroft"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:53:19+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Charlotte Houldcroft",
+    "title": "Assistant Professor (listed as lecturer in the biography), Department of Genetics",
+    "profile_url": "https://www.gen.cam.ac.uk/people/charlotte-houldcroft",
+    "scholar_url": null
+   },
    "members": [],
    "department": "Department of Genetics",
-   "location": null
+   "location": "Cambridge, UK",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.gen.cam.ac.uk/research/research-groups/houldcroft-group"
   },
   {
    "name": "Markowetz Group (Computational Oncology)",
@@ -22191,21 +22726,91 @@
    "department_hint": "CRUK Cambridge Institute",
    "id": "cam-markowetz",
    "url": "https://www.cruk.cam.ac.uk/research-groups/markowetz-group/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group works in computational oncology, building computational and AI technologies to support faster and better clinical decisions. Its work covers the mechanisms of genomic instability in ovarian, oesophageal and pancreatic cancers, including a set of 17 copy number signatures of chromosomal instability. It also covers therapy targeting, overcoming treatment resistance, and early detection, for example AI analysis of Cytosponge pathology images for oesophageal precursors. Job postings describe a mixed computational/experimental lab using machine learning on cancer genomics and imaging, including single-cell genomics of chromosomal instability funded by an ERC Advanced Grant.",
+   "topics": [
+    "chromosomal instability",
+    "copy number signatures",
+    "cancer genomics",
+    "machine learning / AI",
+    "single-cell genomics",
+    "early detection / pathology imaging"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's interests in cancer whole-genome sequencing, somatic copy number and structural variant analysis, ML methods and single-cell work, but the group has little focus on transcriptome or spatial omics, and a UK role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move: the PI is still at the CRUK Cambridge Institute, University of Cambridge (group leader since 2009).",
+    "The official page has no dedicated people page, no individual profile links and no emails. It lists no members with the role 'Postdoc'.",
+    "The page labels four people 'Postgraduate Student'. I treated them as PhD students without confirming it, and their years and projects are not shown.",
+    "Research Associates (Philip Smith, William Prew, Shadi Shafighi) and other staff are on the page but are not clearly postdocs. I left them out. Some may be postdoc-level, so check before outreach.",
+    "Postings show a PhD studentship for 1 Oct 2026 (deadline 17 Oct 2025) and a Research Associate role in single-cell genomics of CIN. Both were likely closed or filled by now."
+   ],
+   "sources": [
+    {
+     "title": "Markowetz Group - CRUK Cambridge Institute",
+     "url": "https://www.cruk.cam.ac.uk/research-groups/markowetz-group/"
+    },
+    {
+     "title": "Professor Florian Markowetz - CRUK Cambridge Centre",
+     "url": "https://crukcambridgecentre.org.uk/user/900"
+    },
+    {
+     "title": "Research Associate - Single-Cell Genomics of Chromosomal Instability (Markowetz Group)",
+     "url": "https://www.cambridgenetwork.co.uk/jobs/research-associate-single-cell-genomics-chromosomal-instability-markowetz-group-fixed-term"
+    },
+    {
+     "title": "CRUK CI PhD studentship: chromosomal instability tools",
+     "url": "https://www.jobs.ac.uk/job/DOQ055/cruk-ci-phd-studentship-development-and-application-of-computational-tools-for-the-early-detection-and-deconstruction-of-chromosomal-instability-in-cancer"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:54:55+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "CRUK Cambridge Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Florian Markowetz",
+    "title": "Professor of Computational Oncology; Senior Group Leader and Associate Director of Artificial Intelligence, CRUK Cambridge Institute",
+    "profile_url": "https://crukcambridgecentre.org.uk/user/900",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Anoushka Harit",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the page. The page labels this person 'Postgraduate Student'.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Emily Lythgoe",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the page. The page labels this person 'Postgraduate Student'.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rehan Zuberi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the page. The page labels this person 'Postgraduate Student'.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "William Orchard",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the page. The page labels this person 'Postgraduate Student'.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Cancer Research UK Cambridge Institute; Dept. of Oncology (University of Cambridge)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge (Cancer Research UK Cambridge Institute)",
+   "members_page": "https://www.cruk.cam.ac.uk/research-groups/markowetz-group/"
   },
   {
    "name": "Computational Biology and Bioinformatics (G2 Lab)",
@@ -22218,21 +22823,146 @@
    "department_hint": "Department of Genetics",
    "id": "cam-g-rsoy",
    "url": "https://g2lab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab works on genomic data privacy. It builds privacy-preserving tools, file formats and pipelines for sharing sensitive genotype and phenotype data, and it studies security risks across the biomedical data life cycle. A second theme is 3D genome organization: how genome folding, repeat DNA and regulatory-element interactions shape molecular phenotypes, and how mutations and disease alter genome topology and epigenetic patterns. Other work covers the privacy implications of microbiome data, the evolution of regulatory elements across species, and compression of linkage-disequilibrium matrices. The methods are mostly computational, with some machine learning and cryptography-style approaches. The lab has dual Cambridge and Columbia University links.",
+   "topics": [
+    "genomic privacy",
+    "3D genome",
+    "regulatory evolution",
+    "microbiome privacy",
+    "computational genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab shares the student's interest in computational and ML methods for genomics, but it focuses on data privacy and 3D genome organization, not tumour WGS/transcriptome, structural variants or single-cell cancer omics. It would also need a UK visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI moved from Columbia University (Herbert Irving Assistant Professor, Biomedical Informatics) to the University of Cambridge. Several Columbia profiles still list her as current, so they are outdated.",
+    "The PI's home department is DAMTP (Faculty of Mathematics), not Genetics.",
+    "Most listed PhD students are Columbia-based. Only Sobhan Shukueian Tabrizi is listed at Cambridge, so the lab is split between the two institutions.",
+    "The people page shows no start years, so year is null for every member.",
+    "The PI's Google Scholar URL was not found."
+   ],
+   "sources": [
+    {
+     "title": "G2 Lab people page",
+     "url": "https://g2lab.org/people/"
+    },
+    {
+     "title": "G2 Lab home",
+     "url": "https://g2lab.org/"
+    },
+    {
+     "title": "Gamze Gursoy, Faculty of Mathematics, Cambridge",
+     "url": "https://www.maths.cam.ac.uk/person/gg584"
+    },
+    {
+     "title": "Gamze Gürsoy, Columbia DBMI (outdated)",
+     "url": "https://www.dbmi.columbia.edu/profile/gamze-gursoy/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:52:55+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Gamze Gürsoy",
+    "title": "Assistant Professor",
+    "profile_url": "https://www.maths.cam.ac.uk/person/gg584",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alison Sutherland",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biological encryption and the permeation of genetic material in soil.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/alison-sutherland/"
+    },
+    {
+     "name": "Bianca Brown",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Microbiome and behaviour, privacy implications of microbiome data, and gut-brain crosstalk via extracellular vesicles. Rokos-Menon Fellow at Queens' College.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/bianca-brown/"
+    },
+    {
+     "name": "Sydney Conner",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Focus not stated on the page; her PhD at Tufts studied obesity-related changes in the breast tumour microenvironment.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/sydney-conner/"
+    },
+    {
+     "name": "V. Oğulcan Kaya",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Evolution of regulatory elements across species and how their spatial interactions constrain that evolution. Co-mentored by Nicola De Maio (DAMTP) and Genetics.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/v-o%c4%9fulcan-kaya/"
+    },
+    {
+     "name": "Xiaoting Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Focus not stated on the page; her PhD at Columbia focused on genetic variant effects on transcription factor regulation.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/xiaoting-li/"
+    },
+    {
+     "name": "Abigail Newbury",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Biomedical Informatics, Columbia. Focus not stated on the page.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/abigail-newbury/"
+    },
+    {
+     "name": "Carlos Angel",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational methods for how mutations and disease alter genome topology and epigenetic patterns. Pharmacology, Columbia, co-mentored by Chao Lu.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/carlos-angel/"
+    },
+    {
+     "name": "Jacob Blindenbach",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computer Science, Columbia University. Focus not stated on the page.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/jacob-blindenbach/"
+    },
+    {
+     "name": "Rashid Al-Abri",
+     "role": "PhD student",
+     "year": null,
+     "focus": "3D genome, repeat DNA and its regulatory role. Computer Science, Columbia.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/rashid-al-abri/"
+    },
+    {
+     "name": "Sobhan Shukueian Tabrizi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "3D genome organization and how genome folding shapes function. DAMTP, Cambridge.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/sobhan-shukueian-tabrizi/"
+    },
+    {
+     "name": "Yebin Kim",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Visiting PhD student from Indiana University Bloomington (Bioinformatics). Computational tools that predict an individual's disease causes or prognosis.",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/yebin-kim/"
+    }
+   ],
+   "department": "Department of Applied Mathematics and Theoretical Physics (DAMTP), Faculty of Mathematics (the hint said Genetics; one postdoc is co-mentored with Genetics)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://g2lab.org/people/"
   },
   {
    "name": "Bioinformatics and Genomics (Micklem Lab)",
@@ -22245,21 +22975,74 @@
    "department_hint": "Department of Genetics",
    "id": "cam-micklem",
    "url": "http://www.micklemlab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab is interdisciplinary. It combines computational and molecular techniques for basic and applied biology. A major activity is open-source development of the InterMine data integration platform, including the HumanMine and FlyMine instances. Current topics are antimicrobial resistance and synthetic biology. The lab also does machine learning work related to these areas, such as natural-language-to-SQL (SQLformer) and knowledge-graph/language-model projects (Polyglotter, SFAVEL).",
+   "topics": [
+    "data integration (InterMine)",
+    "antimicrobial resistance",
+    "synthetic biology",
+    "machine learning / NLP for biological da",
+    "integrative genomics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's strengths are data integration, antimicrobial resistance and synthetic biology, plus ML methods, so it overlaps only with the student's computational/ML interest and not with cancer genomics, tumour WGS/transcriptome work, structural variants or single-cell/spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab site has no separate people page. Members are listed on the main page under 'Current lab members'.",
+    "No current postdocs are listed. Prof. Conrad Lichtenstein and Dr Gi Mikawa are listed as visiting researchers and are excluded.",
+    "The PI is still at Cambridge, with no move found. He is also a Visiting Professor at DBCLS in Japan.",
+    "The members page may be out of date. I did not see its update date or confirm each person's start year or project.",
+    "Individual member profile URLs and emails were not verified, so they are null. The group's department page lists the PI's email as g.micklem@gen.cam.ac.uk."
+   ],
+   "sources": [
+    {
+     "title": "Micklem Lab",
+     "url": "http://www.micklemlab.org/"
+    },
+    {
+     "title": "Bioinformatics and Genomics, Dept of Genetics",
+     "url": "https://www.gen.cam.ac.uk/node/432"
+    },
+    {
+     "title": "Professor Gos Micklem, C2D3",
+     "url": "https://www.c2d3.cam.ac.uk/Professor-Gos-Micklem"
+    },
+    {
+     "title": "Micklem Lab, Systems Biology Cambridge",
+     "url": "https://www.sysbiol.cam.ac.uk/Investigators/gos-micklem"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:54:52+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Gos Micklem",
+    "title": "Professor of Computational & Molecular Biology",
+    "profile_url": "https://www.c2d3.cam.ac.uk/Professor-Gos-Micklem",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Adrian Bazaga",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning, including text-to-SQL and knowledge-graph/language-model methods (SQLformer, Polyglotter, SFAVEL); the focus is inferred from the lab's project list and was not confirmed on a personal page.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kavi Shah",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified; the project is not stated in the sources I could read.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Genetics; joint with DAMTP and the Cambridge Centre for Data-Driven Discovery (C2D3)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "http://www.micklemlab.org/"
   },
   {
    "name": "Aliee Group",
@@ -22272,21 +23055,57 @@
    "department_hint": "CRUK Cambridge Institute",
    "id": "cam-aliee",
    "url": "https://www.cruk.cam.ac.uk/research-groups/aliee-group/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group builds AI models of the molecular mechanisms behind health and disease. They ask how cells make decisions, how cellular behaviour varies between individuals, and how cells respond to drugs and mutations. They also want to use models for counterfactual reasoning, for example estimating whether a cell could return to a healthy state if a disease-driving mutation were corrected. The group lists three themes: AI-driven scientific discovery (hypothesis generation and experiment prioritisation), modelling cellular intelligence (predictive, generalisable models of how cells differ across individuals and conditions), and context-dependent gene regulatory network inference. Recruitment material mentions generative models and causal inference, applied to cancer and patient stratification data.",
+   "topics": [
+    "generative models",
+    "causal inference",
+    "gene regulatory networks",
+    "cell-state modelling",
+    "AI for scientific discovery",
+    "patient stratification"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The group's ML-for-genomics and cancer-oriented modelling overlap with the student's interests, but I found no work on tumour WGS, structural variants or somatic mutation calling. The focus is on generative and causal models of cell state and gene regulation, and the group is new and in the UK, whic"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The group page lists no members other than the PI, so no postdocs or PhD students could be verified. The group appears newly established.",
+    "The group is recruiting. There is an open PhD studentship, 'Generative Modelling for Foundational Discovery in Biomedicine', and a fixed-term postdoctoral Research Associate post (2 years initially). Both are vacancies, not current members.",
+    "The PI's institution is confirmed as CRUK Cambridge Institute, University of Cambridge, so no move was found. I did not find the PI's Google Scholar profile or open the appointment news article, so the start date is unconfirmed.",
+    "The student may need a UK visa."
+   ],
+   "sources": [
+    {
+     "title": "Aliee Group - CRUK Cambridge Institute",
+     "url": "https://www.cruk.cam.ac.uk/research-groups/aliee-group/"
+    },
+    {
+     "title": "PhD studentship: Generative Modelling for Foundational Discovery in Biomedicine",
+     "url": "https://www.cruk.cam.ac.uk/vacancies/phd-studentship-generative-modelling-for-foundational-discovery-in-biomedicine/"
+    },
+    {
+     "title": "Dr Hana Aliee appointed as a Junior Group Leader",
+     "url": "https://www.cruk.cam.ac.uk/news/dr-hana-aliee-appointed-as-a-junior-group-leader/"
+    },
+    {
+     "title": "Research Associate (Aliee Group) (Fixed Term)",
+     "url": "https://www.c2d3.cam.ac.uk/opportunities/research-associate-aliee-group-fixed-term"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:44+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Hana Aliee",
+    "title": "Junior Group Leader",
+    "profile_url": "https://www.cruk.cam.ac.uk/research-groups/aliee-group/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "CRUK Cambridge Institute",
-   "location": null
+   "department": "CRUK Cambridge Institute; Artificial Intelligence research theme",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge (Cancer Research UK Cambridge Institute)",
+   "members_page": "https://www.cruk.cam.ac.uk/research-groups/aliee-group/"
   },
   {
    "name": "Lymphocyte somatic evolution in ageing and disease",
@@ -22299,21 +23118,79 @@
    "department_hint": "Department of Genetics",
    "id": "cam-machado",
    "url": "https://www.machado-lab.org/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab studies the somatic evolution of the adaptive immune system in cancer immunology and immune ageing. It combines single-cell multiomics with phylogenetic lineage tracing, which uses somatic mutations to reconstruct cell lineages. The aim is to understand how immune and non-immune cells co-evolve during cancer progression and ageing. Cancer projects look at the timing and dynamics of tumour immune responses, how chronic or pre-malignant inflammation reshapes T cell responses, and how immunotherapy acts on T cell clonotypes. Ageing projects look at the genomic and phenotypic features of T cell immunosenescence.",
+   "topics": [
+    "lymphocyte somatic mutation",
+    "phylogenetic lineage tracing",
+    "single-cell multiomics",
+    "cancer immunology",
+    "T cell immunosenescence",
+    "immune ageing"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's somatic mutation analysis, lineage tracing and single-cell omics in cancer overlap with the student's interests, but its focus is immune-cell evolution and ageing rather than tumour WGS, structural variants or ML methods, and a UK role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at the University of Cambridge, with a joint appointment in Pathology and Genetics. The lab's own pages place the group in the Department of Pathology.",
+    "The people page lists no postdocs. It lists a lab manager and research associate, Sebastian Diegeler, who is staff and so is excluded.",
+    "The people page gives no PhD years or individual profile links.",
+    "A fixed-term Research Assistant/Associate post was advertised in June 2026 and closed on 1 July 2026, so the group may be growing.",
+    "I could not verify a Google Scholar URL."
+   ],
+   "sources": [
+    {
+     "title": "Machado Lab home",
+     "url": "https://www.machado-lab.org/"
+    },
+    {
+     "title": "Machado Lab people",
+     "url": "https://www.machado-lab.org/people"
+    },
+    {
+     "title": "Dr Heather Machado – Pathology, Cambridge",
+     "url": "https://www.path.cam.ac.uk/people/heather-machado"
+    },
+    {
+     "title": "Heather Machado – Cambridge Biological Sciences",
+     "url": "https://www.bio.cam.ac.uk/staff/heather-machado"
+    },
+    {
+     "title": "Research Assistant/Associate (Fixed Term) job advert",
+     "url": "https://www.cambridgenetwork.co.uk/jobs/research-assistantassociate-fixed-term-79"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:54:23+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Heather Machado",
+    "title": "Group Leader / Research Group Leader and CRUK Career Development Fellow (joint Pathology and Genetics)",
+    "profile_url": "https://www.path.cam.ac.uk/people/heather-machado",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Tomás Lopes",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How pre-malignant inflammation shapes T cell responses in cancer.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Trinity Eales",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Tumour microenvironment and immune-cancer interactions using advanced sequencing; co-supervised with the McKinney lab.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Pathology (Immunology Division) and Department of Genetics",
+   "location": "Cambridge, UK",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.machado-lab.org/people"
   },
   {
    "name": "Infectious disease dynamics",
@@ -22326,21 +23203,91 @@
    "department_hint": "Department of Genetics",
    "id": "cam-salje",
    "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/salje-group",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies how pathogens spread and persist in populations, including the roles of host immunity, human mobility, environmental factors and viral transmissibility. It combines mathematical modelling, genetics, population biology, big data and field-based epidemiology. The main focus is arboviruses (dengue, Zika, chikungunya), often in resource-poor settings in Asia. The data it draws on are epidemiological, genomic, serological and behavioural, and the work is applied public health research used to evaluate control measures and inform policy.",
+   "topics": [
+    "infectious disease modelling",
+    "arboviruses (dengue, Zika, chikungunya)",
+    "serology and antibody dynamics",
+    "pathogen genomics",
+    "human mobility",
+    "field epidemiology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does population-level epidemiological modelling of pathogens, with some pathogen genomics. It has little overlap with cancer genomics, structural variants, somatic mutation analysis or single-cell and spatial omics."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI has not moved: still at the University of Cambridge, Department of Genetics, and titled Professor of Disease Ecology on the department profile. The group relocated from Institut Pasteur, Paris, in 2020.",
+    "The members page could not be opened (SSL handshake error), so the roster is partial and unverified, and it may be stale or missing current members.",
+    "A search summary mentioned a third PhD student named only as 'Sophie' (co-supervised with Stephen Bentley at the Wellcome Sanger Institute). I left her out because I couldn't confirm her full name.",
+    "Some pages list the PI's title differently, e.g. University Associate Professor, so check the current title.",
+    "The Pathogen Dynamics Unit has about 15-20 researchers across the Baker, Houldcroft and Salje groups, so the full roster is likely larger than the four names listed."
+   ],
+   "sources": [
+    {
+     "title": "Salje group - Department of Genetics",
+     "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/salje-group"
+    },
+    {
+     "title": "Professor Henrik Salje - Department of Genetics",
+     "url": "https://www.gen.cam.ac.uk/people/henrik-salje"
+    },
+    {
+     "title": "Pathogen Dynamics Group - People",
+     "url": "https://www.pdg.gen.cam.ac.uk/about-us/people"
+    },
+    {
+     "title": "Pathogen Dynamics Group people page (node 46)",
+     "url": "https://www.pdg.gen.cam.ac.uk/node/46"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:55:21+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Henrik Salje",
+    "title": "Professor of Disease Ecology",
+    "profile_url": "https://www.gen.cam.ac.uk/people/henrik-salje",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jair Andrade",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Within-host immune responses to dengue (listed as Postdoctoral Scientist in a directory entry)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lin Wang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Dengue virus diversity in Thailand (co-supervised by Salje)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mariana Perez Duque",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Chikungunya disease dynamics in Asia",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Megan O'Driscoll",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Mathematical models of serological data; arbovirus transmission and immune dynamics",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Genetics (Pathogen Dynamics Group / Pathogen Dynamics Unit)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.pdg.gen.cam.ac.uk/about-us/people"
   },
   {
    "name": "Molecular Evolution",
@@ -22407,21 +23354,111 @@
    "department_hint": "Department of Genetics",
    "id": "cam-baker",
    "url": "https://www.gen.cam.ac.uk/baker-group",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies how pathogen genome variation and evolution affect disease spread and control. A particular emphasis is the accessory genome of bacterial populations, including antimicrobial resistance (AMR). They combine genomics, epidemiology and molecular microbiology, working in both high-income and lower- and middle-income settings. Published work covers the genomic epidemiology of enteric bacterial pathogens such as Shigella, and bacterial immune/defence systems in Pseudomonas aeruginosa.",
+   "topics": [
+    "bacterial genomics",
+    "antimicrobial resistance",
+    "genomic epidemiology",
+    "Shigella / enteric pathogens",
+    "accessory genome / mobile elements",
+    "bacterial defence systems"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does bacterial pathogen genomics and AMR epidemiology. It has essentially no overlap with cancer genomics, tumour sequencing, somatic or structural variants, or single-cell and spatial omics. The only common ground is general genomic analysis methods. A UK visa would also be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found: the PI is still at the University of Cambridge, Department of Genetics.",
+    "The members page shows no last-updated date, so I can't tell how current it is. It lists only 5 people besides the PI.",
+    "Student roles are listed as 'Postgraduate Student', so I assumed PhD. This is unconfirmed, and one of them (Charles Wei) is also listed as a Research Assistant.",
+    "No individual emails are published. Only the department address comms@gen.cam.ac.uk appears, and I did not use it as a member email.",
+    "Charlotte Chong's focus comes from a search snippet, not the official profile page."
+   ],
+   "sources": [
+    {
+     "title": "Baker Group - Dept of Genetics",
+     "url": "https://www.gen.cam.ac.uk/baker-group"
+    },
+    {
+     "title": "Baker Group members",
+     "url": "https://www.gen.cam.ac.uk/baker-group-members"
+    },
+    {
+     "title": "Professor Kate S Baker - CSAP",
+     "url": "https://www.csap.cam.ac.uk/network/kate-baker1"
+    },
+    {
+     "title": "Ben Carter profile",
+     "url": "https://www.gen.cam.ac.uk/people/ben-carter"
+    },
+    {
+     "title": "Charles Wei profile",
+     "url": "https://www.gen.cam.ac.uk/people/charles-wei"
+    },
+    {
+     "title": "Francesca Young profile",
+     "url": "https://www.gen.cam.ac.uk/people/francesca-young"
+    },
+    {
+     "title": "Malaka De Silva profile",
+     "url": "https://www.gen.cam.ac.uk/people/malaka-de-silva"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:51:13+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
+   "pi_profile": {
+    "name": "Kate S. Baker",
+    "title": "Professor of Infectious Disease (also described as Professor of Applied Microbial Genomics), Department of Genetics",
+    "profile_url": "https://www.gen.cam.ac.uk/people/kate-baker",
+    "scholar_url": "https://scholar.google.com/citations?user=KigrV9gAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Charlotte Chong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Joined in 2021 to work on Shigella genomics. Now uses bioinformatics to study bacterial immune systems in Pseudomonas aeruginosa (from a search snippet, not the official page).",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/charlotte-chong"
+    },
+    {
+     "name": "Malaka De Silva",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research focus not stated on the profile page.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/malaka-de-silva"
+    },
+    {
+     "name": "Ben Carter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not stated. The page lists only the role 'Postgraduate Student'.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/ben-carter"
+    },
+    {
+     "name": "Charles Wei",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not stated. Listed as 'Research Assistant; Postgraduate Student'.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/charles-wei"
+    },
+    {
+     "name": "Francesca Young",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not stated. The page lists only the role 'Postgraduate Student'.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/francesca-young"
+    }
+   ],
    "department": "Department of Genetics",
-   "location": null
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.gen.cam.ac.uk/baker-group-members"
   },
   {
    "name": "Jamnik Group (explainable ML, personalised medicine)",
@@ -22433,22 +23470,148 @@
    "group": null,
    "department_hint": "Department of Computer Science and Technology",
    "id": "cam-jamnik",
-   "url": "https://www.cl.cam.ac.uk/research/ai/people/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.cl.cam.ac.uk/~mj201",
+   "focus": "The group works on explainable and interpretable ML, mainly concept-based explanations for deep networks and LLMs, and on interpretable methods for tabular data. A second strand is neuro-symbolic reasoning, including LLMs for mathematical reasoning and automated reasoning. Biomedical work includes multi-modal explainable ML on biomedical data, ML for low-sample healthcare settings, and generative modelling of proteins. The PI's page also lists human-adaptable knowledge representations and tabular foundation models, with personalised medicine and tutoring systems as application areas. Past postdocs worked on an 'AI for Integrative Cancer Medicine' project funded by the Mark Foundation.",
+   "topics": [
+    "explainable AI",
+    "concept-based explanations",
+    "multi-modal biomedical ML",
+    "tabular foundation models",
+    "LLM reasoning",
+    "personalised medicine"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group is mainly an ML-methods and explainability lab. Its biomedical work (multi-modal biomedical data, low-sample healthcare ML) touches the student's interest in ML for genomics. It does not do cancer genomics, structural variants, sequencing or single-cell/spatial omics, and the current page "
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The discovery URL (cl.cam.ac.uk/research/ai/people/) is outdated. It lists students and postdocs who have since graduated or left (e.g. Kazhdan, Scherer, Simidjievski, Andres Terre), so I used the PI's own group page instead.",
+    "The PI's group page lists no current postdocs. All postdocs on it are alumni, and none have dates.",
+    "The group page shows no start years, so the year field is null for every student. The page has no last-updated date, but the most recent alumni are dated 2025.",
+    "No emails are published on the pages I checked.",
+    "The PI is still at the University of Cambridge, and I found no sign of a move. Her page and the ai.cam.ac.uk profile were shown only in search results, not opened."
+   ],
+   "sources": [
+    {
+     "title": "Mateja Jamnik homepage",
+     "url": "https://www.cl.cam.ac.uk/~mj201"
+    },
+    {
+     "title": "Jamnik group page",
+     "url": "https://www.cl.cam.ac.uk/~mj201/group.html"
+    },
+    {
+     "title": "Cambridge AI Group people (outdated)",
+     "url": "https://www.cl.cam.ac.uk/research/ai/people/"
+    },
+    {
+     "title": "Mateja Jamnik, ai.cam.ac.uk profile (seen in search results only)",
+     "url": "https://www.ai.cam.ac.uk/people/mateja-jamnik/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:54:02+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Computer Science and Technology",
-   "location": null
+   "pi_profile": {
+    "name": "Mateja Jamnik",
+    "title": "Professor of Artificial Intelligence",
+    "profile_url": "https://www.cl.cam.ac.uk/~mj201",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Elaf Almahmoud",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Value of AI assistance (co-supervised with Umang Bhatt)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/elafalmahmoud/"
+    },
+    {
+     "name": "George Shaikovski",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Explainable and steerable complex reasoning in transformer language models",
+     "email": null,
+     "profile_url": "https://gshaikovski.github.io"
+    },
+    {
+     "name": "Haoyan Luo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Explainability of large language models",
+     "email": null,
+     "profile_url": "https://clarenceluo78.github.io"
+    },
+    {
+     "name": "Julia Komorowska",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Dynamics-informed generative modelling of proteins (co-supervised with Pietro Lio)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/urszula-julia-komorowska-b080b9230/"
+    },
+    {
+     "name": "Konstantin Hemker",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Multi-modal, explainable ML on biomedical data",
+     "email": null,
+     "profile_url": "https://www.cst.cam.ac.uk/people/kh701"
+    },
+    {
+     "name": "Marco Dos Santos",
+     "role": "PhD student",
+     "year": null,
+     "focus": "LLMs for mathematical reasoning",
+     "email": null,
+     "profile_url": "https://marco-dossantos.github.io"
+    },
+    {
+     "name": "Oscar Hill",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Concept discovery for explainable AI",
+     "email": null,
+     "profile_url": "https://www.cst.cam.ac.uk/people/ogh22"
+    },
+    {
+     "name": "Urska Matjasec",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Interpretable, high-performing methods for tabular data",
+     "email": null,
+     "profile_url": "http://www.cst.cam.ac.uk/people/um234"
+    },
+    {
+     "name": "Xiangjian Jiang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Interpretable ML for low-sample healthcare settings",
+     "email": null,
+     "profile_url": "https://silencex12138.github.io"
+    },
+    {
+     "name": "Yael Konforti",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Explainable AI and bias",
+     "email": null,
+     "profile_url": "https://www.cst.cam.ac.uk/people/yk449"
+    },
+    {
+     "name": "Yuval Shalev",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Training language agents to learn from experience",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/yuval-shalev-54ba281a3/"
+    }
+   ],
+   "department": "Department of Computer Science and Technology (Computer Laboratory), AI Group",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.cl.cam.ac.uk/~mj201/group.html"
   },
   {
    "name": "Computational Biology of DNA Replication and Repair",
@@ -22460,22 +23623,108 @@
    "group": null,
    "department_hint": "Department of Genetics",
    "id": "cam-boemo",
-   "url": "https://www.gen.cam.ac.uk/research/research-groups/boemo-group",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.boemogroup.org/",
+   "focus": "The lab studies how cells copy and repair their DNA, how replication errors cause genomic instability, and how those errors could be targeted therapeutically. It develops mathematical and stochastic models, simulation software and AI/machine-learning methods. These are applied to large genomic sequencing datasets, including single-molecule data such as nanopore sequencing of replication. The group's work links replication stress to cancer biology and parasite biology. Its tools are released as software for collaborators and the wider community. The team is computational and includes mathematicians, physicists, engineers and computer scientists, who work alongside wet-lab scientists.",
+   "topics": [
+    "DNA replication",
+    "genomic instability",
+    "DNA repair",
+    "mathematical modelling",
+    "machine learning",
+    "nanopore single-molecule sequencing"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's machine-learning methods for genomic sequencing data and its interest in genomic instability in cancer are a partial match, but its focus is replication-fork dynamics and single-molecule nanopore data, not tumour WGS, structural variants, somatic mutations or single-cell/spatial omics, and"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at the University of Cambridge. Cambridge pages describe a joint Pathology/Genetics appointment, and the Genetics page lists the group address as Pathology.",
+    "The people page gives no years, research focus, emails or individual profile pages. It only links external GitHub, Scholar and LinkedIn icons, and I did not record those URLs.",
+    "I could not verify a Google Scholar URL for the PI.",
+    "The PI's title varies between Cambridge pages (Group leader, Assistant Professor of AI and Machine Learning in Disease, University Teaching Officer).",
+    "A 2025 job advert for the group was mentioned in search results, so the group may be hiring. I did not open it."
+   ],
+   "sources": [
+    {
+     "title": "Computational Biology of DNA Replication and Repair (Cambridge Genetics)",
+     "url": "https://www.gen.cam.ac.uk/research/research-groups/boemo-group"
+    },
+    {
+     "title": "Boemo Group lab website",
+     "url": "https://www.boemogroup.org/"
+    },
+    {
+     "title": "Boemo Group people page",
+     "url": "https://www.boemogroup.org/people"
+    },
+    {
+     "title": "Dr Michael Boemo (Cambridge Genetics)",
+     "url": "https://www.gen.cam.ac.uk/node/4611"
+    },
+    {
+     "title": "Boemo Group (Cambridge Pathology)",
+     "url": "https://www.path.cam.ac.uk/node/2641"
+    },
+    {
+     "title": "Michael Boemo (Cambridge AI)",
+     "url": "https://www.ai.cam.ac.uk/people/michael-boemo/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:51:11+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "pi_profile": {
+    "name": "Michael Boemo",
+    "title": "Assistant Professor of AI and Machine Learning in Disease (joint Pathology / Genetics); University Teaching Officer",
+    "profile_url": "https://www.gen.cam.ac.uk/node/4611",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Francisco Berkemeier",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mona Suleiman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Frederico Água",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Rosie Berners-Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shutong Ye",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Research focus not listed on the people page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Pathology and Department of Genetics (the lab page is hosted by Genetics; the group is based in Pathology)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.boemogroup.org/people"
   },
   {
    "name": "Systems Genomics / Inouye Group",
@@ -22487,22 +23736,172 @@
    "group": null,
    "department_hint": "Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care",
    "id": "cam-inouye",
-   "url": "https://www.phpc.cam.ac.uk/education-and-training/doctoral-training/application-process/phd-supervisors-phd-public-health-and-primary-care",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.inouyelab.org/",
+   "focus": "The lab develops polygenic (genomic) risk scores for cardiometabolic and other common diseases. It studies how they transfer across ancestries and how they perform in NHS clinical settings. It also integrates multi-omic data (proteomics, metabolomics, transcriptomics, e.g. INTERVAL, Mexico City Prospective Study) to trace how genetic risk flows through biomolecular networks and to find therapeutic targets. Methods include statistical genetics, machine learning and deep learning on omics, imaging and electronic health record data, and network analysis. The lab also builds open tools and resources (PGS Catalog, OmicsPred) and works on green computing. Its disease focus is cardiovascular and respiratory, not cancer.",
+   "topics": [
+    "polygenic risk scores",
+    "multi-omics integration",
+    "cardiometabolic disease",
+    "machine learning for risk prediction",
+    "population biobank genomics",
+    "open computational tools"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "There is overlap in computational and ML methods for genomics, but the lab works on germline polygenic risk and population cardiometabolic omics. It does not work on tumour WGS or transcriptome sequencing, structural variants or somatic mutations, and only one student (scRNA-seq linked to GWAS) touc"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is currently at Cambridge (Professor of Systems Genomics & Population Health) with a joint Baker Institute appointment in Melbourne. This is not a move.",
+    "The lab URL from discovery was a generic Cambridge PHPC PhD supervisors page. The real lab site is inouyelab.org.",
+    "The people page has no 'last updated' date. Alumni entries run to July 2026, so it appears reasonably current.",
+    "Only the PI and the lab administrator have emails on the lab page. Individual members have no published emails or profile links. The PI's emails are mi336@cam.ac.uk and minouye@baker.edu.au.",
+    "Under 'Research Staff', Carles Foguet and Elodie Persyn (roles not stated) were not counted as postdocs. Xilin Jiang (Group Leader) and Scott Ritchie (Assistant Research Professor) are not postdocs. Laurent Gil and Florent Yvon are software developers."
+   ],
+   "sources": [
+    {
+     "title": "Inouye Lab - People",
+     "url": "https://www.inouyelab.org/home/people"
+    },
+    {
+     "title": "Inouye Lab",
+     "url": "https://www.inouyelab.org/"
+    },
+    {
+     "title": "Professor Michael Inouye - Cambridge Cardiovascular directory",
+     "url": "https://www.cardiovascular.cam.ac.uk/directory/michael-inouye"
+    },
+    {
+     "title": "Mike Inouye - PHG Foundation",
+     "url": "https://www.phgfoundation.org/people/mike-inouye-2/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:53:58+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care",
-   "location": null
+   "pi_profile": {
+    "name": "Michael Inouye",
+    "title": "Professor of Systems Genomics & Population Health (Cambridge); Director of Data Sciences and Munz Chair of Cardiovascular Prediction & Prevention, Baker Heart and Diabetes Institute",
+    "profile_url": "https://www.cardiovascular.cam.ac.uk/directory/michael-inouye",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Chief Ben-Eghan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Polygenic risk scores for cardiometabolic diseases and their portability across ancestries",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Martin Kelemen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Transferability of polygenic risk scores across ancestries",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Meng Yuan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Machine learning, medical imaging and statistical genetics",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Pearl Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Risk prediction models and polygenic risk scores in NHS clinical settings",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yang Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Machine learning for disease prediction",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Benedetta Felici",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Multi-omics and imaging data with deep learning for cardiovascular disease",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Esther Brandt",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Infection and immune response in myocardial infarction and cardiovascular disease",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lanting Li",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Dietary and multi-omics data for cardiometabolic risk (BHF 4-year programme)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Matt Richards",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Digital twin models for cardiovascular risk",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Millie Zhou",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetics and disease relationships",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shengxin Liang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Genetics for precision medicine in cardiovascular disease",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Siyuan Chen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Linking scRNA-seq cell characteristics to GWAS results",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tin Oreskovic",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning on multi-omic data from the Mexico City Prospective Study (completing PhD at Oxford, joined late 2024)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Zongtai (Michael) Wu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Causal mediators between genetics and cardiometabolic disease (HDR UK-funded)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Public Health and Primary Care; BHF Cardiovascular Epidemiology Unit; Heart and Lung Research Institute",
+   "location": "Cambridge, UK (with a second node in Melbourne, Australia)",
+   "current_institution": "University of Cambridge (joint appointment with Baker Heart and Diabetes Institute, Melbourne)",
+   "members_page": "https://www.inouyelab.org/home/people"
   },
   {
    "name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
@@ -22541,22 +23940,76 @@
    "group": null,
    "department_hint": "Department of Computer Science and Technology",
    "id": "cam-lawrence",
-   "url": "https://www.cl.cam.ac.uk/research/ai/people/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.inverseprobability.com",
+   "focus": "Lawrence works on probabilistic machine learning, especially Gaussian processes and other probabilistic models. His stated applications are computational biology, personalised health and developing economies. Recent student work listed on the Cambridge AI people page covers AutoAI through meta-modelling, and frameworks for surrogate modelling and emulation. The group has no dedicated cancer genomics, sequencing or structural variant work. Its closest biology links are computational and methodological.",
+   "topics": [
+    "probabilistic machine learning",
+    "Gaussian processes",
+    "computational biology",
+    "surrogate modelling / emulation",
+    "AutoML",
+    "ML for health"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does general probabilistic ML with some computational biology, but the people page shows no cancer genomics, sequencing, structural variant or single-cell work. Related biology work sits with Pietro Liò's students and Bianca Dumitrascu (a DECAF fellow in ML and genetics) in the same depart"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI has not moved. Search results show he has been at Cambridge since 2019-10-01 as DeepMind Professor of Machine Learning. He is also a Senior AI Fellow at the Alan Turing Institute and a Visiting Professor at Sheffield.",
+    "The listed page is the department-wide Cambridge AI group page, not a dedicated Lawrence lab page, and it has no date. Many of the students on it may have graduated, so Meissner's and Paleyes's current status is unconfirmed.",
+    "The page lists no postdocs supervised by Lawrence. Postdocs on it work with other staff.",
+    "Only students whose supervisor is listed as Lawrence are included. Neil Lawrence's personal site and the AI@Cam pages may list other current members, but I did not check them.",
+    "The profile link for Meissner is the relative path /~erm70/ from the page, resolved against the cl.cam.ac.uk host. I did not open it."
+   ],
+   "sources": [
+    {
+     "title": "Cambridge AI Group people page",
+     "url": "https://www.cl.cam.ac.uk/research/ai/people/"
+    },
+    {
+     "title": "Neil Lawrence biography",
+     "url": "https://www.inverseprobability.com/biog"
+    },
+    {
+     "title": "Neil Lawrence, AI@Cam team page",
+     "url": "https://ai.cam.ac.uk/team/neil-lawrence"
+    },
+    {
+     "title": "Cambridge appoints first DeepMind Professor of Machine Learning",
+     "url": "https://www.cam.ac.uk/research/news/cambridge-appoints-first-deepmind-professor-of-machine-learning"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:53:53+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Computer Science and Technology",
-   "location": null
+   "pi_profile": {
+    "name": "Neil D. Lawrence",
+    "title": "DeepMind Professor of Machine Learning; leads the AI@Cam mission",
+    "profile_url": "https://www.inverseprobability.com/biog",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Andrei Paleyes",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Frameworks for surrogate modelling and emulation (supervisor: Lawrence)",
+     "email": null,
+     "profile_url": "https://paleyes.info/"
+    },
+    {
+     "name": "Eric Meissner",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AutoAI via meta-modelling (supervisor: Lawrence)",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~erm70/"
+    }
+   ],
+   "department": "Department of Computer Science and Technology (Cambridge AI group); AI@Cam",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.cl.cam.ac.uk/research/ai/people/"
   },
   {
    "name": "Large-scale evolutionary inference",
@@ -22569,21 +24022,66 @@
    "department_hint": "Department of Genetics",
    "id": "cam-maio",
    "url": "https://www.gen.cam.ac.uk/research/research-groups",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops phylogenetic and population-genetic inference methods that scale to millions of closely related genomes, mainly for genomic epidemiology and pandemic-scale data such as SARS-CoV-2. Tools from this line of work include MAPLE and CMAPLE for fast maximum-likelihood phylogenetics, and methods for assessing phylogenetic confidence at pandemic scale. Related work covers recurrent mutations and sequencing errors in viral genomes, simulation of wastewater sequencing data, hospital transmission dynamics of antimicrobial-resistant bacteria, and neural networks for detecting positive selection between species. This summary is inferred from the PI's publication list and affiliations. I did not find a lab website or a research statement.",
+   "topics": [
+    "phylogenetics",
+    "genomic epidemiology",
+    "SARS-CoV-2 evolution",
+    "molecular evolution",
+    "scalable inference methods",
+    "population genetics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group is strong in computational methods for genomics, but it works on pathogen phylogenetics and molecular evolution. It does not cover cancer genomics, tumour sequencing, structural variants, or single-cell or spatial omics. The UK location may also need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I found no lab website, and no people or members page for this group, so the member list is empty. It is not confirmed to be empty.",
+    "The Department of Genetics research-groups page lists the group under 'Large-scale evolutionary inference' with no link to a group page.",
+    "The PI's earlier role was Research Staff Scientist in the Goldman group at EMBL-EBI (joined 2018). Cambridge pages now show an Assistant Professor appointment in Genetics and Applied Mathematics. This looks like a move from EMBL-EBI to Cambridge, but I did not find an announcement or the start date.",
+    "The Cambridge Genetics 'Groups in the Department' list I saw did not show De Maio, and a Genetics team page described him as 'Affiliate Faculty'. That list may be out of date.",
+    "He co-supervises a 4-year postdoc position in Molecular Evolution and Functional Genomics with Gamze Gursoy. I did not confirm that the postholder is a current lab member."
+   ],
+   "sources": [
+    {
+     "title": "Cambridge Genetics research groups",
+     "url": "https://www.gen.cam.ac.uk/research/research-groups"
+    },
+    {
+     "title": "Dr Nicola De Maio - Faculty of Mathematics",
+     "url": "https://www.maths.cam.ac.uk/person/nd597"
+    },
+    {
+     "title": "Nicola de Maio - Centre for Research Informatics Training",
+     "url": "https://bioinfotraining.bio.cam.ac.uk/people/nicola-de-maio"
+    },
+    {
+     "title": "Informal seminar: Dr Nicola De Maio, Pandemic-scale phylogenetics",
+     "url": "https://www.gen.cam.ac.uk/events/informal-seminar-dr-nicola-de-maio-pandemic-scale-phylogenetics"
+    },
+    {
+     "title": "Cambridge Pathogen Dynamics Unit team",
+     "url": "https://www.pdu.gen.cam.ac.uk/team"
+    },
+    {
+     "title": "Postdoctoral Research Associate in Molecular Evolution and Functional Genomics",
+     "url": "https://www.c2d3.cam.ac.uk/index.php/opportunities/postdoctoral-research-associate-molecular-evolution-and-functional-genomics-fixed"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:54:43+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Nicola De Maio",
+    "title": "Assistant Professor (appointments in the Department of Genetics and the Department of Applied Mathematics and Theoretical Physics)",
+    "profile_url": "https://www.maths.cam.ac.uk/person/nd597",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "department": "Department of Genetics; Department of Applied Mathematics and Theoretical Physics (Faculty of Mathematics)",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": null
   },
   {
    "name": "Theoretical and Computational Epidemiology Group",
@@ -22595,22 +24093,88 @@
    "group": null,
    "department_hint": "Department of Plant Sciences",
    "id": "cam-cunniffe",
-   "url": "https://www.plantsci.cam.ac.uk/directory",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.plantsci.cam.ac.uk/node/984",
+   "focus": "The group builds mathematical and computational models of how plant pests and pathogens spread, are detected, evolve and are controlled. Methods include deterministic, stochastic and spatial epidemic models. The group uses these to forecast outbreaks and to plan surveillance and control, for example fungicide-resistance management and vector-borne plant disease. A recurring theme is decision-making when data are limited or incomplete, with links to biosecurity and plant-health policy (the PI sits on the EFSA Plant Health Panel). The work is epidemiological and ecological modelling, not sequencing or genomics.",
+   "topics": [
+    "plant disease epidemiology",
+    "mathematical modelling",
+    "fungicide resistance",
+    "vector-borne disease",
+    "surveillance and biosecurity",
+    "stochastic and spatial models"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on population-level modelling of plant disease epidemics, with essentially no overlap with cancer genomics, structural variants, sequencing analysis or single-cell/spatial omics. Only the general computational-modelling skills carry over."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at the University of Cambridge, Department of Plant Sciences.",
+    "The group has been renamed Quantitative Plant Health (formerly Theoretical and Computational Epidemiology).",
+    "The members page loaded with an empty list when I fetched it. The three PhD students come from a search-result snippet of that page and may be out of date.",
+    "No postdocs were found, and I could not confirm there are none. The current list is probably in the department people directory filtered to classification 321, which I did not open.",
+    "The lab URL from discovery (plantsci.cam.ac.uk/directory) returned 404. No separate external lab website is listed."
+   ],
+   "sources": [
+    {
+     "title": "Professor Nik Cunniffe (Plant Sciences)",
+     "url": "https://www.plantsci.cam.ac.uk/people/nik-cunniffe"
+    },
+    {
+     "title": "Quantitative Plant Health group page",
+     "url": "https://www.plantsci.cam.ac.uk/node/984"
+    },
+    {
+     "title": "Theoretical and Computational Epidemiology group members",
+     "url": "https://www.plantsci.cam.ac.uk/research/groups/theoretical-and-computational-epidemiology/group-members"
+    },
+    {
+     "title": "Group members intro page",
+     "url": "https://www.plantsci.cam.ac.uk/node/475"
+    },
+    {
+     "title": "Vacancies and PhDs",
+     "url": "https://www.plantsci.cam.ac.uk/research/nikcunniffe/studentships"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:52:33+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
+   "pi_profile": {
+    "name": "Nik Cunniffe",
+    "title": "Professor of Plant Disease Epidemiology; Head of Quantitative Plant Health; Deputy Head of Department (Teaching)",
+    "profile_url": "https://www.plantsci.cam.ac.uk/people/nik-cunniffe",
+    "scholar_url": "https://scholar.google.co.uk/citations?user=RKunIbsAAAAJ&hl=en&oi=ao"
+   },
+   "members": [
+    {
+     "name": "Iona McCabe",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the page; the group works on plant disease epidemic modelling",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Katie Riccio",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as CTP-SAI; the page gives no project details",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Laura Erbetta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the page; the group works on plant disease epidemic modelling",
+     "email": null,
+     "profile_url": null
+    }
+   ],
    "department": "Department of Plant Sciences",
-   "location": null
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.plantsci.cam.ac.uk/research/groups/theoretical-and-computational-epidemiology/group-members"
   },
   {
    "name": "Creixell Group (Cancer signalling and therapeutics)",
@@ -22623,21 +24187,103 @@
    "department_hint": "CRUK Cambridge Institute",
    "id": "cam-creixell",
    "url": "https://www.cruk.cam.ac.uk/research-groups/creixell-group/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group combines machine learning with high-throughput biochemistry, such as peptide-display screening of kinases. It uses these to study how proteins, especially kinases, select their substrates and how cancer disrupts that selectivity. It targets the substrate-binding pocket rather than the ATP pocket, to design selective, mutant-specific drugs that avoid resistance. The lab's three themes are cancer signalling, cancer resistance and therapeutics, and protein design and engineering (ab initio protein, peptide and drug design, nanobodies). Disease focus includes brain tumours such as glioblastoma, and leukaemia.",
+   "topics": [
+    "kinase signalling",
+    "protein/peptide design",
+    "machine learning",
+    "drug resistance",
+    "high-throughput biochemistry",
+    "brain tumours"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group uses machine learning in cancer, but its work is protein biochemistry and drug design. It does little genomics, sequencing, structural variant analysis or single-cell/spatial omics, so overlap with the student's cancer genomics interests is limited."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The CRUK institute page still lists Mingxuan Jiang, Gerard Duart (Marie Curie Fellow/postdoc), Luis Bermudez-Guzman and Ocean Tsang as current. The lab's own team page lists all four as alumni (2026), so it appears more up to date and was used.",
+    "Mohan Sun is listed as a Research Assistant (MPhil student), so is not counted as a PhD student or postdoc.",
+    "The PI's CRUK Cambridge Institute affiliation was confirmed on the institute page. No move was found.",
+    "The lab team page gives no years for current members.",
+    "Google Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "Creixell Group, CRUK Cambridge Institute",
+     "url": "https://www.cruk.cam.ac.uk/research-groups/creixell-group/"
+    },
+    {
+     "title": "Creixell Lab website",
+     "url": "https://creixell-lab.com/"
+    },
+    {
+     "title": "Creixell Lab team page",
+     "url": "https://www.creixell-lab.com/team/"
+    },
+    {
+     "title": "Dr Pau Creixell joins Institute as new Group Leader",
+     "url": "https://www.cruk.cam.ac.uk/news/dr-pau-creixell-joins-institute-as-new-group-leader/"
+    },
+    {
+     "title": "Research Associate (Creixell Group) (Fixed Term)",
+     "url": "https://c2d3.cam.ac.uk/opportunities/research-associate-creixell-group-fixed-term"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:52:19+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "CRUK Cambridge Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Pau Creixell",
+    "title": "Junior Group Leader",
+    "profile_url": "https://www.cruk.cam.ac.uk/research-groups/creixell-group/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Mihkel Örd",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Protein signalling networks; targeting dynamic protein-protein interactions",
+     "email": null,
+     "profile_url": "https://www.creixell-lab.com/publications/?a=596"
+    },
+    {
+     "name": "Amelia Barclay",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Protein-protein interactions for targeted therapeutics",
+     "email": null,
+     "profile_url": "https://www.creixell-lab.com/publications/?a=820"
+    },
+    {
+     "name": "Jun Jie Peng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Nanobody engineering against phosphorylation-dependent epitopes; computational protein design",
+     "email": null,
+     "profile_url": "https://www.creixell-lab.com/publications/?a=822"
+    },
+    {
+     "name": "Nuo Cheng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Reagents for detecting novel cancer signalling pathways",
+     "email": null,
+     "profile_url": "https://www.creixell-lab.com/publications/?a=75"
+    },
+    {
+     "name": "Sian Evans",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Kinase signalling pathways in chronic myeloid leukaemia",
+     "email": null,
+     "profile_url": "https://www.creixell-lab.com/publications/?a=1224"
+    }
+   ],
+   "department": "Cancer Research UK Cambridge Institute; partnered with the CRUK Cambridge Centre and the Children's Brain Tumour Centre of Excellence",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge (CRUK Cambridge Institute)",
+   "members_page": "https://www.creixell-lab.com/team/"
   },
   {
    "name": "Liò Group (ML and computational models for health, multi-omics)",
@@ -22649,22 +24295,236 @@
    "group": null,
    "department_hint": "Department of Computer Science and Technology",
    "id": "cam-li",
-   "url": "https://www.cl.cam.ac.uk/research/ai/people/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.cl.cam.ac.uk/~pl219/",
+   "focus": "The group develops AI and computational biology models to study disease complexity and support personalised and precision medicine. Graph neural networks are the main current method, applied to biomedical and multi-omic data. Student project titles on the people page include generating realistic multi-omic data, unsupervised learning from single-cell to organ-level data, machine learning on graph-structured data for oncology, and machine learning for systems biology. The group also works on clinical ML (emergency care, psychiatric outcomes, cerebrovascular disease), neurodegeneration (tauopathies, Parkinson's), neural signal analysis (fMRI, NMR) and interpretable AI.",
+   "topics": [
+    "graph neural networks",
+    "multi-omics",
+    "single-cell modelling",
+    "precision medicine",
+    "clinical ML",
+    "interpretable AI"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Partial overlap on ML for genomics, multi-omics, single-cell data and oncology graph ML, but the group is mainly method- and ML-driven, with little visible work on tumour WGS, structural variants or somatic mutation analysis, and a UK role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: Liò is still at the University of Cambridge, Department of Computer Science and Technology.",
+    "The people page and the group page (cl.cam.ac.uk/~pms69/group.html) carry no update date, and the group page appears to date from about 2019. Many listed students are probably alumni or have graduated, so check each person's current status before contacting them.",
+    "The page does not say which of the other AI-group postdocs (e.g. Raggi, Rivera, Shams, Stapleton, Sylvester, Zanetti) work with Liò, so I left them out. Only Helena Andres Terre and Nikola Simidjievski are tied to the Computational Biology group, via the search result.",
+    "No emails are published on the people page, which refers readers to the Laboratory's list of all members. Student year of study is not given.",
+    "Profile links on the people page were relative paths. I resolved them against cl.cam.ac.uk and did not open each one."
+   ],
+   "sources": [
+    {
+     "title": "Cambridge CST AI group people",
+     "url": "https://www.cl.cam.ac.uk/research/ai/people/"
+    },
+    {
+     "title": "Pietro Liò homepage",
+     "url": "https://www.cl.cam.ac.uk/~pl219/"
+    },
+    {
+     "title": "Computational Biology Group page (Paul Scherer's site)",
+     "url": "https://www.cl.cam.ac.uk/~pms69/group.html"
+    },
+    {
+     "title": "Dr Pietro Lio' - CSAP Cambridge",
+     "url": "https://www.csap.cam.ac.uk/network/pietro-lio"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:54:31+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Computer Science and Technology",
-   "location": null
+   "pi_profile": {
+    "name": "Pietro Liò",
+    "title": "Full Professor of Computational Biology",
+    "profile_url": "https://www.cl.cam.ac.uk/~pl219/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Helena Andres Terre",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a postdoc/research associate in the AI group and Computational Biology group; specific project not stated on the page.",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~ha376/"
+    },
+    {
+     "name": "Nikola Simidjievski",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a postdoc/research associate in the AI group and Computational Biology group; specific project not stated on the page.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alexander Campbell",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Project listed as 'to be agreed'",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~ajrc4/"
+    },
+    {
+     "name": "Benjamin Day",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AI inspired by statistical physics",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~bjd39/"
+    },
+    {
+     "name": "Cristian Bodnar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Evolution-guided learning",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~cb2015/"
+    },
+    {
+     "name": "Cătălina Cangea",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for cross-modal scenarios",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~ccc53/"
+    },
+    {
+     "name": "David Buterez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Unsupervised learning for modelling single-cell to organ data",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~db804/"
+    },
+    {
+     "name": "Dobrik Georgiev",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Neural execution of graph algorithms",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~dgg30/"
+    },
+    {
+     "name": "Duo Wang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Bridging computer science with neuroscience for a new understanding of reasoning (co-supervised with M. Jamnik)",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~wd263/"
+    },
+    {
+     "name": "Emma Rocheteau",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predicting outcomes in psychiatric disorders using reinforcement learning (co-supervised with R. Cardinal)",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~ecr38/"
+    },
+    {
+     "name": "Felix Opolka",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Attention, conditioning and interpretability in deep learning",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~flo23/"
+    },
+    {
+     "name": "Jacob Deasy",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning in emergency care",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~jd645/"
+    },
+    {
+     "name": "Jacob Moss",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for systems biology",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~jm2311/"
+    },
+    {
+     "name": "Jin Zhu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Clinical decision support system for cerebral vascular diseases",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~jz426/"
+    },
+    {
+     "name": "Junwei Yang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Deep learning for neuroscience and back",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~jy406/"
+    },
+    {
+     "name": "Pablo Spivakovsky-Gonzalez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Project titled 'Cold Fish'",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~ps713/"
+    },
+    {
+     "name": "Paris Flood",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for personalised healthcare",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~pdlf3/"
+    },
+    {
+     "name": "Paul Scherer",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning on graph-structured data for oncology (co-supervised with M. Jamnik)",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~pms69/"
+    },
+    {
+     "name": "Pietro Barbiero",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Towards interpretable artificial intelligence",
+     "email": null,
+     "profile_url": "http://www.pietrobarbiero.eu/"
+    },
+    {
+     "name": "Ramon Viñas Torné",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Generating realistic multi-omic data",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~rv340/"
+    },
+    {
+     "name": "Simeon Spasov",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Modelling metabolic and communication dysfunctions in Parkinson's disease",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~ses88/"
+    },
+    {
+     "name": "Tiago Azevedo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning and multi-scale modelling of tauopathies (co-supervised with M. Spillantini)",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~tmla2/"
+    }
+   ],
+   "department": "Department of Computer Science and Technology (AI Group); member of the Cambridge Centre for AI in Medicine",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.cl.cam.ac.uk/research/ai/people/"
   },
   {
    "name": "Ali Group (Systems cancer pathology)",
@@ -22676,22 +24536,92 @@
    "group": null,
    "department_hint": "CRUK Cambridge Institute",
    "id": "cam-ali",
-   "url": "https://www.cruk.cam.ac.uk/research-groups/ali/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.ali-lab.co.uk/",
+   "focus": "The group maps how cancer cells and immune cells interact within individual breast tumours. Their aim is to understand heterocellular tumour ecosystems and predict who will respond to immunotherapy. The main method is imaging mass cytometry, a highly multiplexed single-cell spatial proteomic imaging technique. They also develop digital pathology and deep learning methods that work on routine stained slides. A current PhD studentship advertisement describes systems pathology and deep learning for finding therapeutic biomarkers in breast cancer.",
+   "topics": [
+    "spatial single-cell proteomics",
+    "imaging mass cytometry",
+    "breast cancer",
+    "tumour immune microenvironment",
+    "digital pathology / deep learning",
+    "immunotherapy response biomarkers"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "It overlaps with the student's interest in single-cell/spatial omics in cancer and in ML methods, but the work is protein-level imaging and pathology rather than whole-genome/transcriptome sequencing, structural variants or somatic mutation analysis. A UK visa would also likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at CRUK Cambridge Institute, University of Cambridge. No move found.",
+    "No postdocs are listed. The Research Associates (Atif Khan, Matteo Naldini, Shimrit Mayer) and Principal Scientific Associate (Neus Masqué-Soler) are staff-level roles, so I left them out. Matteo Naldini is an ESMO Research Fellow and Eric Jou is an NIHR Academic Clinical Fellow, and both are also l",
+    "The CRUK page labels Caroline Caruso Carter, Ellen Schrader and Lubna Ahmad as 'Postgraduate Student'. The lab's own page calls them PhD students.",
+    "The people pages give no years, research focus, individual profile links or emails.",
+    "The PhD studentship advertisement (found via search, not opened) gives a 16 October 2026 deadline, which has already passed."
+   ],
+   "sources": [
+    {
+     "title": "CRUK Cambridge Institute – Ali group",
+     "url": "https://www.cruk.cam.ac.uk/research-groups/ali/"
+    },
+    {
+     "title": "Ali Lab homepage",
+     "url": "https://www.ali-lab.co.uk/"
+    },
+    {
+     "title": "Ali Lab people",
+     "url": "https://www.ali-lab.co.uk/people/"
+    },
+    {
+     "title": "PhD studentship: systems pathology and deep learning in breast cancer",
+     "url": "https://www.cambridgenetwork.co.uk/jobs/phd-studentship-discovery-rational-therapeutic-biomarkers-breast-cancer-systems-pathology-and"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:50:50+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "CRUK Cambridge Institute",
-   "location": null
+   "pi_profile": {
+    "name": "Raza Ali",
+    "title": "Senior Group Leader and Associate Director of Clinical Academic Training; Honorary Consultant Pathologist, Addenbrooke's Hospital",
+    "profile_url": "https://www.cruk.cam.ac.uk/research-groups/ali/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Carolina Moretti Ierardi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Caroline Caruso Carter",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ellen Schrader",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lubna Ahmad",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Cancer Research UK Cambridge Institute; Systems Cancer Pathology group",
+   "location": "Cambridge, UK",
+   "current_institution": "University of Cambridge (Cancer Research UK Cambridge Institute)",
+   "members_page": "https://www.ali-lab.co.uk/people/"
   },
   {
    "name": "Computational evolution of development in plants",
@@ -22731,21 +24661,163 @@
    "department_hint": "Department of Genetics",
    "id": "cam-durbin",
    "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/durbin",
-   "focus": null,
-   "topics": [],
+   "focus": "The group uses modern and ancient genome sequences to infer human population history, including expansions, bottlenecks, separations and mergers. It studies adaptive speciation in the Lake Malawi cichlid radiation (over 500 species) with whole-genome sequencing. It produces long-read reference genomes for vertebrates as part of the Vertebrate Genomes Project, with a focus on fish, amphibians and some rodents. It also develops efficient software for genomic data, based on the Burrows-Wheeler Transform, suffix arrays (bwa) and variation graphs (vg).",
+   "topics": [
+    "population genomics",
+    "vertebrate reference genomes",
+    "cichlid evolution",
+    "pangenome / variation graphs",
+    "sequence alignment algorithms",
+    "ancient DNA"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Strong computational genomics and methods overlap (alignment, graph genomes, long-read assembly, structural variation in a general sense), but the group does no cancer, tumour sequencing, somatic mutation or single-cell/spatial work, and a UK role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at the University of Cambridge. No move was found, but I did not check a second source.",
+    "The members page gives no research focus, year or email for any member. Member focus fields are blank for that reason; only the PI's group-level focus is published.",
+    "The members page labels the students 'Postgraduate Student'. I treated them as PhD students, which is an assumption.",
+    "Hari Lakshmidevi is listed as both Research Assistant and Postgraduate Student, so the PhD status is uncertain.",
+    "Excluded as staff: Yucheng Wang (Assistant Research Professor), research assistants Luka Moritz Blumer and Bettina Fischer, and technicians Stella Pozzi and Ben Schneider."
+   ],
+   "sources": [
+    {
+     "title": "Durbin Group - Department of Genetics, Cambridge",
+     "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/durbin"
+    },
+    {
+     "title": "Durbin Group members",
+     "url": "https://www.gen.cam.ac.uk/durbin-group-members"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:52:29+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
+   "pi_profile": {
+    "name": "Richard Durbin",
+    "title": "Al Kindi Professor of Genetics, FRS",
+    "profile_url": "https://www.gen.cam.ac.uk/people/richard-durbin",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Bianca De Sanctis",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/staff/bianca-de-sanctis"
+    },
+    {
+     "name": "Chai Hao Chiu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/chai-hao-chiu"
+    },
+    {
+     "name": "Chenxi Zhou",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/chenxi-zhou"
+    },
+    {
+     "name": "Lucas Braga",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/staff/lucas-braga"
+    },
+    {
+     "name": "Zhe Xue",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/zhe-xue"
+    },
+    {
+     "name": "Abdul Khan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/abdul-khan"
+    },
+    {
+     "name": "Amanda Gardiner",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/amanda-gardiner"
+    },
+    {
+     "name": "Ashwin Sivakumar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/ashwin-sivakumar"
+    },
+    {
+     "name": "Dana Bao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/dana-bao"
+    },
+    {
+     "name": "Hari Lakshmidevi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page. Listed as both Research Assistant and Postgraduate Student.",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/hari-lakshmidevi"
+    },
+    {
+     "name": "Lara Ozkan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/lara-ozkan"
+    },
+    {
+     "name": "Sing Wei Lim",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/sing-wei-lim"
+    },
+    {
+     "name": "Xiaolan Sun",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/xiaolan-sun"
+    },
+    {
+     "name": "Zihao Huang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the members page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/zihao-huang"
+    }
+   ],
    "department": "Department of Genetics",
-   "location": null
+   "location": "Cambridge, UK",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.gen.cam.ac.uk/durbin-group-members"
   },
   {
    "name": "Computational Physics of Chromatin",
@@ -22757,22 +24829,54 @@
    "group": null,
    "department_hint": "Department of Genetics",
    "id": "cam-collepardo",
-   "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/collepardo-group",
-   "focus": null,
-   "topics": [],
+   "url": "http://www.collepardolab.org/",
+   "focus": "The group studies the molecular mechanisms that control 3D genome organisation at the nanoscale. It builds multiscale computational models of chromatin, combining all-atom molecular dynamics, coarse-graining and theory, with experiments from collaborators. Topics include the physicochemical forces that drive DNA packaging, liquid-liquid phase separation of chromatin, and how genome structure relates to gene regulation.",
+   "topics": [
+    "chromatin",
+    "3D genome organisation",
+    "molecular dynamics",
+    "coarse-grained modelling",
+    "phase separation",
+    "biophysics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "This is physics-based molecular simulation of chromatin, with no cancer genomics, sequencing, structural variant, ML or single-cell/spatial omics focus, so it overlaps little with the student's interests (and would need a UK visa)."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Lab members page (collepardolab.org/people) could not be opened: certificate expired, so no member list was verified",
+    "The Cambridge Genetics group page and the PI's profile list no postdocs or students",
+    "PI is still at Cambridge, with appointments in Genetics and Chemistry (also Clare College); no move found",
+    "No Google Scholar link was found on official pages"
+   ],
+   "sources": [
+    {
+     "title": "Genetics research group page",
+     "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/collepardo-group"
+    },
+    {
+     "title": "Professor Rosana Collepardo (Genetics)",
+     "url": "https://www.gen.cam.ac.uk/people/rosana-collepardo"
+    },
+    {
+     "title": "Chemistry person page",
+     "url": "https://www.ch.cam.ac.uk/person/rc597?page=7"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:51:58+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Rosana Collepardo-Guevara",
+    "title": "Professor of Computational and Molecular Biophysics",
+    "profile_url": "https://www.gen.cam.ac.uk/people/rosana-collepardo",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Department of Genetics",
-   "location": null
+   "department": "Department of Genetics and Department of Chemistry",
+   "location": "Cambridge, UK",
+   "current_institution": "University of Cambridge",
+   "members_page": "http://www.collepardolab.org/people/"
   },
   {
    "name": "Teichmann Group",
@@ -22811,22 +24915,71 @@
    "group": null,
    "department_hint": "Department of Computer Science and Technology",
    "id": "cam-holden",
-   "url": "https://www.cl.cam.ac.uk/research/ai/people/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.cl.cam.ac.uk/~sbh11/",
+   "focus": "Holden works on machine learning theory and algorithms, including computational learning theory and Bayesian inference with approximation methods such as Gaussian-process FITC. His recent applied work centres on machine learning for automated theorem proving, including the Connect++ connection prover and learned guidance of proof search. He also works on reinforcement learning for game AI. In biomedical applications, he uses graph neural networks and language models, for example protein graph embeddings. The AI people page lists organelle proteomics among his interests, but his personal page does not mention it.",
+   "topics": [
+    "machine learning theory",
+    "automated theorem proving",
+    "Bayesian inference / Gaussian processes",
+    "graph neural networks",
+    "protein / proteomics ML"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group is mostly ML theory and theorem proving, with only a peripheral protein/biomedical GNN link and no cancer genomics, sequencing, structural variant or single-cell work. A UK post would also likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: Holden is still listed at Cambridge, in the Department of Computer Science and Technology.",
+    "No dedicated Holden Group website or members page. The members list comes from the shared AI research people page, which does not list any postdocs under Holden.",
+    "The AI people page appears outdated: it still shows student titles and supervisors that are probably years old, so both students may already have graduated.",
+    "Organelle proteomics appears only in the AI people page's description of Holden. His own page lists theorem proving, reinforcement learning for games, and GNNs for biomedical data.",
+    "Holden's published email is sbh11@cl.cam.ac.uk. The two students have no email on the page I saw."
+   ],
+   "sources": [
+    {
+     "title": "Cambridge CST AI research people page",
+     "url": "https://www.cl.cam.ac.uk/research/ai/people/"
+    },
+    {
+     "title": "Sean Holden personal page",
+     "url": "https://www.cl.cam.ac.uk/~sbh11/"
+    },
+    {
+     "title": "Sean Holden Google Scholar",
+     "url": "https://scholar.google.co.uk/citations?user=VxoP840AAAAJ&hl=en&oi=ao"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:53:09+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Department of Computer Science and Technology",
-   "location": null
+   "pi_profile": {
+    "name": "Sean Holden",
+    "title": "University Associate Professor of Computer Science (Dr)",
+    "profile_url": "https://www.cl.cam.ac.uk/~sbh11/",
+    "scholar_url": "https://scholar.google.co.uk/citations?user=VxoP840AAAAJ&hl=en&oi=ao"
+   },
+   "members": [
+    {
+     "name": "Agnieszka Słowik",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for logical reasoning (co-supervised with M. Jamnik).",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~as2832/"
+    },
+    {
+     "name": "Chaitanya Mangla",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for automated theorem proving (co-supervised with L. Paulson).",
+     "email": null,
+     "profile_url": "https://www.cl.cam.ac.uk/~cm772/"
+    }
+   ],
+   "department": "Department of Computer Science and Technology (Computer Laboratory); Trinity College",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.cl.cam.ac.uk/research/ai/people/"
   },
   {
    "name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
@@ -22838,22 +24991,75 @@
    "group": null,
    "department_hint": "MRC Biostatistics Unit / Cardiovascular Epidemiology Unit",
    "id": "cam-burgess",
-   "url": "https://www.phpc.cam.ac.uk/education-and-training/doctoral-training/application-process/phd-supervisors-phd-public-health-and-primary-care",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.medschl.cam.ac.uk/people/stephen-burgess",
+   "focus": "The group develops statistical methods that use genetic variation to answer clinically relevant questions about disease aetiology and prevention. Its core method is Mendelian randomization, which uses genetic variants as instrumental variables to test whether risk factors causally affect disease. Work includes methods development as genetic data grow, applied analyses with disease-area experts, and dissemination to applied researchers. A stated application is drug-target validation and informing the design of clinical trials.",
+   "topics": [
+    "Mendelian randomization",
+    "causal inference",
+    "genetic epidemiology",
+    "statistical methods",
+    "drug target validation"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The group works on population-scale genetic epidemiology and causal-inference statistics, with no stated focus on tumour sequencing, somatic or structural variants, single-cell or spatial omics, or genomics machine learning."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No dedicated lab website or lab members page was found. The roster comes from the MRC BSU people directory (only page 1 of 7 was checked) and a job advert, so it is likely incomplete.",
+    "No current PhD students were identified. This does not show that none exist.",
+    "The PI's email is published on official pages, but this is the PI and not a member email. The Burgess address is stephen.burgess@mrc-bsu.cam.ac.uk. A phpc.cam.ac.uk page lists sb452@medschl.cam.ac.uk.",
+    "No move was found. The PI is still at Cambridge, with a split between the MRC BSU and the Cardiovascular Epidemiology Unit.",
+    "The Google Scholar URL was not verified."
+   ],
+   "sources": [
+    {
+     "title": "PHPC PhD supervisors page",
+     "url": "https://www.phpc.cam.ac.uk/education-and-training/doctoral-training/application-process/phd-supervisors-phd-public-health-and-primary-care"
+    },
+    {
+     "title": "Stephen Burgess profile, School of Clinical Medicine",
+     "url": "https://www.medschl.cam.ac.uk/people/stephen-burgess"
+    },
+    {
+     "title": "MRC BSU people directory",
+     "url": "https://www.medschl.cam.ac.uk/institutions/mrc-bsu/people-mrc-biostatistics-unit"
+    },
+    {
+     "title": "Research Associate job further particulars (Burgess group)",
+     "url": "https://www.jobs.cam.ac.uk/job/46218/file/Further+Particulars+%28SL41405%29.pdf"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T01:51:40+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "MRC Biostatistics Unit / Cardiovascular Epidemiology Unit",
-   "location": null
+   "pi_profile": {
+    "name": "Stephen Burgess",
+    "title": "Professor; Group Leader, MRC Biostatistics Unit",
+    "profile_url": "https://www.medschl.cam.ac.uk/people/stephen-burgess",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Emily Bassett",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Research Associate working with Stephen Burgess (listed on the MRC BSU people directory). The specific project was not verified.",
+     "email": null,
+     "profile_url": "https://www.medschl.cam.ac.uk/people/emily-bassett"
+    },
+    {
+     "name": "Janne Pott",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Named as a postdoctoral researcher in the group in a 2025 job advert. The specific project was not verified.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "MRC Biostatistics Unit; Cardiovascular Epidemiology Unit, Department of Public Health and Primary Care",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge",
+   "members_page": "https://www.medschl.cam.ac.uk/institutions/mrc-bsu/people-mrc-biostatistics-unit"
   },
   {
    "name": "Host-pathogen genomics group",

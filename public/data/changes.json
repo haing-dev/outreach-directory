@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T01:12:13+00:00",
+   "generated_at": "2026-10-22T01:55:21+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-butterworth",
+     "entry_name": "Butterworth Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-micklem",
+     "entry_name": "Bioinformatics and Genomics (Micklem Lab)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-li",
+     "entry_name": "Liò Group (ML and computational models for health, multi-omics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-collepardo",
+     "entry_name": "Computational Physics of Chromatin",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-holden",
+     "entry_name": "Holden Group (ML, organelle proteomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "other-alexandrov",
