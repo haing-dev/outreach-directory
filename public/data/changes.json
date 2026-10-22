@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T09:59:16+00:00",
+   "generated_at": "2026-10-22T10:56:31+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-seb-pedr-s",
+     "entry_name": "Sebé-Pedrós Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-lehner",
+     "entry_name": "Lehner Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-theis",
+     "entry_name": "Stegle and Theis Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-trynka",
+     "entry_name": "Trynka Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-lee-six",
+     "entry_name": "Lee-Six Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-martin",
+     "entry_name": "Martin Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-martincorena",
+     "entry_name": "Martincorena Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-meier",
+     "entry_name": "Meier Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-taipale",
+     "entry_name": "Taipale Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-nangalia",
+     "entry_name": "Nangalia Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-jaron",
+     "entry_name": "Jaron Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-garnett",
+     "entry_name": "Garnett Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-hurles",
+     "entry_name": "Hurles Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-stratton",
+     "entry_name": "Stratton Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-lotfollahi",
+     "entry_name": "Lotfollahi Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-haniffa",
+     "entry_name": "Haniffa Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-thomson",
+     "entry_name": "Thomson Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-soranzo",
+     "entry_name": "Soranzo Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-stegle",
+     "entry_name": "Stegle and Theis Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-jones",
+     "entry_name": "Jones Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-rahbari",
+     "entry_name": "Rahbari Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-vento-tormo",
+     "entry_name": "Vento-Tormo Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-lawley",
+     "entry_name": "Lawley Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-google-research",
+     "entry_name": "Google Research",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-anthropic",
+     "entry_name": "Anthropic",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-amazon",
+     "entry_name": "Amazon / AWS",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-calico",
+     "entry_name": "Calico (Alphabet)",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "nygc-zhu",
