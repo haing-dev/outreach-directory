@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T08:05:27+00:00",
+   "generated_at": "2026-10-22T09:05:31+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-thornton",
+     "entry_name": "Thornton Group (visiting)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-iossifov",
+     "entry_name": "Iossifov Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-sanjana",
+     "entry_name": "Sanjana Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "broad-shalek",

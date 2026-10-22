@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:05:27+00:00",
+ "generated_at": "2026-10-22T09:05:31+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -15042,21 +15042,57 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-petsalaki",
    "url": "https://www.ebi.ac.uk/research/petsalaki",
-   "focus": null,
-   "topics": [],
+   "focus": "The group is computational and works closely with experimental labs. It studies human cell signalling to understand what controls different cell responses under different conditions. Its long-term goal is whole-cell signalling models that explain cell function and disease. The lab's stated questions are how rewiring of signalling networks produces different cell phenotypes, what regulates that rewiring and through which molecular mechanisms, and how genome or transcriptome differences affect signalling networks.",
+   "topics": [
+    "cell signalling networks",
+    "network biology",
+    "computational systems biology",
+    "phosphoproteomics",
+    "genotype-to-phenotype"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's work on how genomic and transcriptomic variation rewires signalling networks, using computational methods, overlaps only loosely with the student's cancer genomics, structural variant and single-cell interests, and the pages show no cancer or sequencing focus."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The EBI members page labels the PI 'Incoming/Outgoing', which suggests a transition. No destination is stated. A search snippet showed GSK (Stevenage) first on her LinkedIn profile, with no dates or title, so I could not confirm a move. Verify directly before contacting.",
+    "I found no current PhD students on the members page. It lists only two postdocs, and the 'predoctoral fellows' mentioned in one search summary did not appear on the page. The page and the summary disagree on size (about two dozen people versus three), so the page may have been trimmed as the group w",
+    "Postdocs found (not PhD students, so not in the members array): Setareh Rahimi, Postdoctoral Fellow (EAZPOD), srahimi@ebi.ac.uk, https://www.ebi.ac.uk/people/person/setareh-rahimi. Thodoris Koutsandreas, Visiting Postdoctoral Fellow, tkoutsandreas@ebi.ac.uk, https://www.ebi.ac.uk/people/person/theod",
+    "The fellowships page says there are no open internally funded postdoc positions. PhD applicants are directed to the EMBL International PhD programme.",
+    "The group is a UK-based role, so the student may need a visa."
+   ],
+   "sources": [
+    {
+     "title": "Petsalaki Group main page (EMBL-EBI)",
+     "url": "https://www.ebi.ac.uk/research/petsalaki"
+    },
+    {
+     "title": "Petsalaki Group members (EMBL-EBI)",
+     "url": "https://www.ebi.ac.uk/research/petsalaki/members"
+    },
+    {
+     "title": "Petsalaki Group fellowships (EMBL-EBI)",
+     "url": "https://www.ebi.ac.uk/research/petsalaki/fellowships"
+    },
+    {
+     "title": "Evangelia Petsalaki LinkedIn",
+     "url": "https://uk.linkedin.com/in/epetsalaki"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:56:22+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Evangelia Petsalaki",
+    "title": "Group Leader (listed as 'Incoming/Outgoing')",
+    "profile_url": "https://www.ebi.ac.uk/people/person/evangelia-petsalaki",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "department": "Research, Whole Cell Signalling group",
+   "location": "Hinxton, Cambridgeshire, UK",
+   "current_institution": "EMBL-EBI (European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/petsalaki/members"
   },
   {
    "name": "Birney Group",
@@ -15274,21 +15310,58 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-thornton",
    "url": "https://www.ebi.ac.uk/research/thornton",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies the structure, function and evolution of proteins. It looks at how enzymes work and evolve new functions, and it builds computational tools for enzyme design. It uses protein structure, especially CATH domain classification, to interpret human coding variants. It also links protein variants and ligands to ageing and disease, including computational methods for finding small molecules that may affect ageing.",
+   "topics": [
+    "protein structure and function",
+    "enzyme evolution",
+    "CATH domains",
+    "variant interpretation",
+    "ageing",
+    "computational drug and small-molecule di"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does protein-structure and variant-interpretation computation, which only loosely touches the student's cancer genomics, structural variant, sequencing and single-cell interests. The group is closed to new students and postdocs, and the student would need a UK visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab page says the Thornton Group is no longer able to take on new students, trainees or postdoctoral fellows.",
+    "The members page was empty, with only a heading and no listings. No current postdocs or PhD students could be verified.",
+    "Search results conflict on the PI's retirement. One EMBL item says she retired in 2024, and an alumni profile says 2023. Both say she remains a regular visitor at EMBL-EBI. Her current status is therefore emeritus or visiting, not a full-time group leader.",
+    "A Danish academy listing gives her title as Senior Scientist and Director Emeritus at EMBL-EBI. I saw only the search snippet, not the page itself.",
+    "I found no move to another institution."
+   ],
+   "sources": [
+    {
+     "title": "Thornton Group - EMBL-EBI",
+     "url": "https://www.ebi.ac.uk/research/thornton"
+    },
+    {
+     "title": "Thornton Group members - EMBL-EBI",
+     "url": "https://www.ebi.ac.uk/research/thornton/members/"
+    },
+    {
+     "title": "Janet M. Thornton (Danish Academy listing)",
+     "url": "https://dg.dk/en/?p=50740"
+    },
+    {
+     "title": "Dame Janet Thornton awarded Royal Society's Croonian Medal and Lecture (EMBL alumni)",
+     "url": "https://www.embl.org/about/info/alumni/blog/2026/08/dame-janet-thornton-awarded-royal-societys-croonian-medal-and-lecture/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:56:44+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Janet Thornton",
+    "title": "Senior Scientist and Director Emeritus, EMBL-EBI",
+    "profile_url": null,
+    "scholar_url": null
+   },
    "members": [],
    "department": "EMBL-EBI Research",
-   "location": null
+   "location": "Hinxton (Wellcome Genome Campus), Cambridge, UK",
+   "current_institution": "EMBL-EBI (European Bioinformatics Institute, part of EMBL)",
+   "members_page": "https://www.ebi.ac.uk/research/thornton/members/"
   },
   {
    "name": "Ewald Group",
@@ -15438,21 +15511,139 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-lees",
    "url": "https://www.ebi.ac.uk/research/lees/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group uses bioinformatics and mathematical modelling to study how bacteria, especially pathogens, evolve to become more pathogenic and transmissible. Topics include genome and pangenome evolution, transmission, vaccine effects and antimicrobial resistance. They also develop methods that can run in a web browser, on a laptop or on GPUs. Their methods work draws on machine learning and population genomics. The work is on bacterial pathogens, not cancer.",
+   "topics": [
+    "bacterial population genomics",
+    "pangenome evolution",
+    "antimicrobial resistance",
+    "machine learning methods",
+    "mathematical modelling",
+    "vaccine impact"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's computational and machine-learning genomics methods overlap with the student's interests, but the work is on bacterial pathogens and has no cancer, structural-variant, somatic or single-cell/spatial content, and a UK role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at EMBL-EBI; no move found. EMBL news announced them as a new group leader.",
+    "The members page has no individual research descriptions and no dates, so the listing may be a stale snapshot. The page has no alumni section.",
+    "Excluded from the list: Jose Fierro (Trainee), and Samuel Horsfield and Varunika Savla (listed as Visitors).",
+    "The group's own website, www.bacpop.org, is described as the most up to date source, but /people/ on it returned 404 and I did not check it further.",
+    "Emails are as published on the EBI page, shown in '[at]' format. Scholar URL was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Lees Group main page",
+     "url": "https://www.ebi.ac.uk/research/lees/"
+    },
+    {
+     "title": "Lees Group members",
+     "url": "https://www.ebi.ac.uk/research/lees/members/"
+    },
+    {
+     "title": "John Lees EBI profile",
+     "url": "https://www.ebi.ac.uk/people/person/john-lees/"
+    },
+    {
+     "title": "EMBL news: Welcome John Lees",
+     "url": "https://www.embl.org/news/lab-matters/welcome-john-lees/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:56:15+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "pi_profile": {
+    "name": "John Lees",
+    "title": "Group Leader and Co-chair of Infection Biology Transversal Theme",
+    "profile_url": "https://www.ebi.ac.uk/people/person/john-lees",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Clara Rehmann",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the members page (group focus is pathogen informatics and modelling)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/clara-rehmann"
+    },
+    {
+     "name": "Matt Russell",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "ARISE2 postdoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/matthew-john-russell"
+    },
+    {
+     "name": "Neil MacAlasdair",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "EIPOD postdoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/neil-zhang-nian-zhong-macalasdair"
+    },
+    {
+     "name": "Ou-li Xie",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "ESPOD postdoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/ou-li-xie"
+    },
+    {
+     "name": "Víctor Rodríguez Bouza",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/victor"
+    },
+    {
+     "name": "Audrey Dickinson",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/audrey-dickinson"
+    },
+    {
+     "name": "Benjamin Maier",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/benjamin-maier"
+    },
+    {
+     "name": "Jackie Toussaint",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/lily-toussaint"
+    },
+    {
+     "name": "Leonie Johanna Lorenz",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/leonie-lorenz"
+    },
+    {
+     "name": "Marie Becker",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Predoctoral fellow; individual focus not listed",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/marie-viktoria-becker"
+    }
+   ],
+   "department": "Pathogen informatics and modelling; Infection Biology transversal theme",
+   "location": "Hinxton (Cambridge), United Kingdom",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory – European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/lees/members/"
   },
   {
    "name": "Saez-Rodriguez Group",
@@ -15465,21 +15656,331 @@
    "department_hint": "EMBL-EBI Research (Head of Research)",
    "id": "ebi-saez-rodriguez",
    "url": "https://www.ebi.ac.uk/research/saez/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies how cellular signalling and gene-regulatory networks are disrupted in disease, with an emphasis on cancer, auto-immune and fibrotic disease. They integrate large-scale omics data (including single-cell and spatial data) with prior mechanistic knowledge, using statistical and machine-learning methods. They release their tools as open-source packages and support DREAM crowdsourcing challenges. The aim is to find disease mechanisms and new therapeutics. The group has a large single-cell, spatial and multi-omics component. I did not find any work on whole-genome sequencing, structural variants or somatic mutation calling.",
+   "topics": [
+    "signalling networks",
+    "single-cell & spatial omics",
+    "multi-omics integration",
+    "machine learning for biomedicine",
+    "cancer & fibrosis",
+    "open-source software"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap with the student's interests in computational/ML methods and single-cell/spatial omics in cancer, but little work on WGS, structural variants or somatic mutation analysis; a UK or Germany role would also likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still Head of Research at EMBL-EBI. I found no move. The group also has a Heidelberg affiliation (Institute for Computational Biomedicine).",
+    "The EBI members page says saezlab.org has the most up-to-date information. The two rosters differ.",
+    "The EBI page labels students 'Predoctoral Fellow' or 'Visiting Predoctoral Fellow' and gives no research focus or year for anyone.",
+    "Several people appear as 'Visitor' on the EBI page but as postdoc or PhD student on saezlab.org (e.g. Ahmet Sureyya Rifaioglu, Chang Lu, Christina Schmidt, Yunfan Bai, Leonie Küchenhoff, Miguel Hernandez). I included only the last two as PhD students and left the rest out of the member list.",
+    "Emails are published on the EBI page in obfuscated 'name [at] ebi.ac.uk' form, so I rewrote them as name@ebi.ac.uk."
+   ],
+   "sources": [
+    {
+     "title": "Saez-Rodriguez group (EMBL-EBI)",
+     "url": "https://www.ebi.ac.uk/research/saez/"
+    },
+    {
+     "title": "Saez-Rodriguez group members (EMBL-EBI)",
+     "url": "https://www.ebi.ac.uk/research/saez/members/"
+    },
+    {
+     "title": "Saezlab home",
+     "url": "https://saezlab.org/"
+    },
+    {
+     "title": "Saezlab team",
+     "url": "https://saezlab.org/team"
+    },
+    {
+     "title": "Julio Saez Rodriguez, EMBL-EBI profile",
+     "url": "https://www.ebi.ac.uk/people/person/julio-saez-rodriguez/"
+    },
+    {
+     "title": "Saez-Rodriguez group: join us",
+     "url": "https://www.ebi.ac.uk/research/saez/join-us"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:56:56+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research (Head of Research)",
-   "location": null
+   "pi_profile": {
+    "name": "Julio Saez-Rodriguez",
+    "title": "Head of Research, EMBL-EBI; group also at the Institute for Computational Biomedicine, Heidelberg University",
+    "profile_url": "https://www.ebi.ac.uk/people/person/julio-saez-rodriguez/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Ajita Shree",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/ajita-shree"
+    },
+    {
+     "name": "Alicja Wojciechowska",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/alicja-wojciechowska"
+    },
+    {
+     "name": "Bertha Rueda",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/berthaguadalupe-ruedazarazua"
+    },
+    {
+     "name": "Charlotte Butterworth",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/charlotte-butterworth"
+    },
+    {
+     "name": "Daniel Guerrero Romero",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (EAZPOD fellow)",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/daniel-guerrero-romero"
+    },
+    {
+     "name": "Haoqi Chen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/haoqi-chen"
+    },
+    {
+     "name": "Heiko Horn",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/heiko-horn"
+    },
+    {
+     "name": "Iguaracy Pinheiro de Sousa",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/iguaracy-pinheiro-de-sousa"
+    },
+    {
+     "name": "Ines Rivero Garcia",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated; listed on saezlab.org/team only",
+     "email": null,
+     "profile_url": "https://saezlab.org/person/ines-rivero-garcia"
+    },
+    {
+     "name": "Jose Linares-Blanco",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (Visiting Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/jose-linares-blanco"
+    },
+    {
+     "name": "Lioba Ester",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (Visiting Postdoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/lioba-ester"
+    },
+    {
+     "name": "Luca Musella",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/luca-musella"
+    },
+    {
+     "name": "Lun Ai",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (EIPOD-LinC fellow)",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/lun-ai"
+    },
+    {
+     "name": "Marc-Antoine Jacques",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/marc-antoine-jacques"
+    },
+    {
+     "name": "Martín Garrido Rodríguez-Córdoba",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated; listed on saezlab.org/team only",
+     "email": null,
+     "profile_url": "https://saezlab.org/person/martín-garrido-rodríguez-córdoba"
+    },
+    {
+     "name": "Noam Galili Darnell",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (EIPOD fellow)",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/noam-galili-darnell"
+    },
+    {
+     "name": "Rory Maizels",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (ESPOD fellow)",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/rory-maizels"
+    },
+    {
+     "name": "Srijith Sasikumar",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/srijith-sasikumar"
+    },
+    {
+     "name": "Veronika Kedlian",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the members page (EIPOD fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/veronika-kedlian-1"
+    },
+    {
+     "name": "Amber Fijn",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the members page (listed as Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/amber-harmien-berthe-fijn"
+    },
+    {
+     "name": "Bárbara Zita Peters Couto",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; listed on saezlab.org/team only",
+     "email": null,
+     "profile_url": "https://saezlab.org/person/bárbara-zita-peters-couto"
+    },
+    {
+     "name": "Charlotte Boys",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; listed on saezlab.org/team only",
+     "email": null,
+     "profile_url": "https://saezlab.org/person/charlotte-boys"
+    },
+    {
+     "name": "Elias Farr",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Visiting Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/elias-farr"
+    },
+    {
+     "name": "Hugo Hakem",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the members page (listed as Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/hugo-valentin-hakem"
+    },
+    {
+     "name": "Jenna Keung",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the members page (listed as Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/jenna-keung"
+    },
+    {
+     "name": "Joao Cavalcante",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Visiting Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/joao-vitor-ferreira-cavalcante"
+    },
+    {
+     "name": "Leonie Küchenhoff",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; listed as Visitor at EBI and PhD student on saezlab.org",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/leoniefelicia-kuchenhoff"
+    },
+    {
+     "name": "Lucia Ghiretti",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Visiting Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/lucia-ghiretti"
+    },
+    {
+     "name": "Miguel Hernandez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; listed as Visitor at EBI and PhD student on saezlab.org",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/miguel-hernandez"
+    },
+    {
+     "name": "Philipp Schaefer",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; listed on saezlab.org/team only",
+     "email": null,
+     "profile_url": "https://saezlab.org/person/philipp-schaefer"
+    },
+    {
+     "name": "Riccardo Arnese",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated (Visiting Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/riccardo-arnese"
+    },
+    {
+     "name": "Robin Fallegger",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated; listed on saezlab.org/team only",
+     "email": null,
+     "profile_url": "https://saezlab.org/person/robin-fallegger"
+    },
+    {
+     "name": "Stanislaus Stein",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the members page (listed as Predoctoral Fellow)",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/viktor-stanislaus-august-stein-von-kamienski"
+    }
+   ],
+   "department": "EMBL-EBI Research; Institute for Computational Biomedicine (Heidelberg Medical Faculty); ELLIS Heidelberg",
+   "location": "Hinxton (Cambridge), UK and Heidelberg, Germany",
+   "current_institution": "EMBL-EBI (European Bioinformatics Institute), with a joint affiliation at Heidelberg University / Heidelberg University Hospital",
+   "members_page": "https://www.ebi.ac.uk/research/saez/members/"
   },
   {
    "name": "Goldman Group",
@@ -15492,21 +15993,86 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-goldman",
    "url": "https://www.ebi.ac.uk/research/goldman/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops mathematical, statistical and computational methods that extract information from genome data, infer the processes that produced it, and predict the biology encoded in genomes. Work centres on new evolutionary models, plus software and web services for other scientists. These methods are applied to biological questions, including next-generation sequencing data. The group's published methods work (from my background knowledge, not checked on the page) covers phylogenetics, molecular evolution and DNA data storage. The lab page itself does not mention cancer.",
+   "topics": [
+    "molecular evolution",
+    "phylogenetics",
+    "evolutionary models",
+    "statistical methods",
+    "sequence analysis software"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group's computational and statistical genomics methods overlap loosely with the student's interest in methods for genomics, but the lab page shows no cancer genomics, structural variant, single-cell or spatial work, and a UK role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move: Nick Goldman is still at EMBL-EBI (there since 2002, EMBL Senior Scientist since 2009).",
+    "The members page lists no 'PhD student' role. I treated the two 'Predoctoral Fellows' as PhD students, which is an assumption.",
+    "The members page has no dates, so I could not confirm how current it is.",
+    "Listed but excluded as non-postdoc/non-PhD: Samuel Martin (Scientist in Molecular Evolution) and five Visitors (Andrea Rubbi, Fajia Sun, Lukas Weilguny, Nicola De Maio, Roman Sokolovskii).",
+    "Emails appear on the members page only in obfuscated 'name [at] ebi.ac.uk' form. I left them null rather than reconstruct them."
+   ],
+   "sources": [
+    {
+     "title": "Goldman Group home page",
+     "url": "https://www.ebi.ac.uk/research/goldman/"
+    },
+    {
+     "title": "Goldman Group members",
+     "url": "https://www.ebi.ac.uk/research/goldman/members/"
+    },
+    {
+     "title": "Nick Goldman EMBL-EBI profile",
+     "url": "https://www.ebi.ac.uk/people/person/nick-goldman"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:55:41+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
+   "pi_profile": {
+    "name": "Nick Goldman",
+    "title": "Group Leader and EMBL Senior Scientist",
+    "profile_url": "https://www.ebi.ac.uk/people/person/nick-goldman",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Benjamin Bettisworth",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the members page (listed as Postdoctoral Fellow).",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/benjamin-bettisworth"
+    },
+    {
+     "name": "Yucai Shao",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not described on the members page (listed as Postdoctoral Fellow).",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/yucai-shao"
+    },
+    {
+     "name": "Anna Foix-Romero",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the members page (listed as Predoctoral Fellow).",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/anna-foix"
+    },
+    {
+     "name": "Isabel Marleen Haubro-Suppanz",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the members page (listed as Predoctoral Fellow).",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/isabel-poetzsch"
+    }
+   ],
    "department": "EMBL-EBI Research",
-   "location": null
+   "location": "Hinxton, Cambridge, UK",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory – European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/goldman/members/"
   },
   {
    "name": "Finn Group (Microbiome Informatics)",
@@ -15519,21 +16085,115 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-finn",
    "url": "https://www.ebi.ac.uk/research/finn/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group builds computational methods to reconstruct genomes from metagenomic data. It studies how microbes and their functions are distributed across environments. Current work covers the viral and eukaryotic fractions of the microbiome, mobile genetic elements, and long-read sequencing. The PI's team also leads the MGnify resource for metagenomic analysis.",
+   "topics": [
+    "metagenomics",
+    "metagenome-assembled genomes",
+    "viromes and mobile genetic elements",
+    "long-read sequencing",
+    "microbial dark matter",
+    "MGnify"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab works on environmental and host-associated microbiome informatics with no cancer, somatic-variant or single-cell/spatial focus. The only overlap is generic computational genomics and sequence-analysis methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No PI move found; Finn is still at EMBL-EBI.",
+    "Emails are published on the members page in obfuscated form ('name [at] ebi.ac.uk'); I rewrote them as standard addresses.",
+    "'Predoctoral Fellow' was treated as PhD student. The page does not state year or focus for anyone.",
+    "Visitors (Alejandro Reyes Bermudez, Ellen Cameron, Licheng Zong) were excluded because they are not postdocs or PhD students.",
+    "No Google Scholar link was found. The PI's ORCID is 0000-0001-8626-2148."
+   ],
+   "sources": [
+    {
+     "title": "Finn Group main page",
+     "url": "https://www.ebi.ac.uk/research/finn/"
+    },
+    {
+     "title": "Finn Group members",
+     "url": "https://www.ebi.ac.uk/research/finn/members/"
+    },
+    {
+     "title": "Robert Finn - EMBL-EBI profile",
+     "url": "https://www.ebi.ac.uk/people/person/rob-finn"
+    },
+    {
+     "title": "Robert Finn - EMBL profile",
+     "url": "https://www.embl.org/people/person/rob-finn/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:55:47+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "pi_profile": {
+    "name": "Robert (Rob) Finn",
+    "title": "Section Head, Team Leader and Senior Scientist",
+    "profile_url": "https://www.ebi.ac.uk/people/person/rob-finn",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Disha Tandon",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow (ARISE2); specific project not listed",
+     "email": null,
+     "profile_url": "https://www.embl.org/people/person/disha-tandon"
+    },
+    {
+     "name": "Fatemehsadat Fateminasrollahi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow (EIPOD); specific project not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/fatemehsadat-fateminasrollahi"
+    },
+    {
+     "name": "Vikram Shivakumar",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral Fellow (ESPOD); specific project not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/vikram-shankar-shivakumar"
+    },
+    {
+     "name": "Gino La Bella",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/gino-luciano-la-bella"
+    },
+    {
+     "name": "Johanna Helene von Wachsmann",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/johanna-von-wachsmann"
+    },
+    {
+     "name": "Peilun Xie",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/peilun-xie"
+    },
+    {
+     "name": "Soo-Jeong Kim",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Predoctoral Fellow; specific project not listed",
+     "email": null,
+     "profile_url": "https://www.ebi.ac.uk/people/person/soo-jeong-kim"
+    }
+   ],
+   "department": "Microbiome Informatics team (MGnify); EMBL-EBI Research",
+   "location": "Hinxton, Cambridge, UK",
+   "current_institution": "EMBL-EBI (European Bioinformatics Institute, part of EMBL)",
+   "members_page": "https://www.ebi.ac.uk/research/finn/members/"
   },
   {
    "name": "Keane Group (visiting)",
@@ -15546,21 +16206,61 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-keane",
    "url": "https://www.ebi.ac.uk/research/keane/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group works on computational comparative genomics. It studies the structure, regulation and evolutionary origins of the most diverse regions of the mouse genome, especially genes involved in immunity, pathogen response and sensory functions. It builds reference-quality genome assemblies for 16 mouse strains, to capture strain-specific diversity missed by the C57BL/6J reference. It also tests whether these regions are under selection in wild mouse populations. It sequences other rodents of biomedical or climate relevance, such as the Algerian mouse, African spiny mice (Acomys) and the Southern grasshopper mouse.",
+   "topics": [
+    "comparative genomics",
+    "mouse genomes",
+    "genome assembly",
+    "structural variation",
+    "rodent models",
+    "genomic data archives"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does assembly and structural-variation work on rodent genomes. It has little cancer, tumour-sequencing, single-cell or spatial focus. It is also in the UK, so the student would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Members page (https://www.ebi.ac.uk/research/keane/members/) returned only site navigation, so no postdocs or PhD students could be verified. Check it manually.",
+    "PI's current status is unconfirmed. The EMBL profile lists him as Team Leader for EGA/EVA, but one social-media listing calls him a 'Former Team Leader'. I found no evidence of a move to another institution.",
+    "The lab page does not name the PI. The PI link comes from EMBL-EBI group listings and search results.",
+    "The PI's profile and Google Scholar URLs were not verified, so they are null."
+   ],
+   "sources": [
+    {
+     "title": "Keane Group, EMBL-EBI",
+     "url": "https://www.ebi.ac.uk/research/keane/"
+    },
+    {
+     "title": "Keane Group members page",
+     "url": "https://www.ebi.ac.uk/research/keane/members/"
+    },
+    {
+     "title": "EMBL profile for Thomas Keane (search result; requires login)",
+     "url": "https://content.embl.org/node/87160"
+    },
+    {
+     "title": "CABANA profile for Thomas Keane",
+     "url": "https://www.cabana.online/node/242"
+    },
+    {
+     "title": "EMBL-EBI Groups",
+     "url": "https://www.ebi.ac.uk/Groups"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:55:44+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Thomas Keane",
+    "title": "Team Leader (EMBL-EBI; EGA/EVA lead per EMBL profile, status unconfirmed)",
+    "profile_url": null,
+    "scholar_url": null
+   },
    "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "department": "EMBL-EBI Research; Mouse Genomes Project (collaboration with Wellcome Sanger Institute)",
+   "location": "Hinxton, Cambridgeshire, UK",
+   "current_institution": "EMBL-EBI (European Molecular Biology Laboratory – European Bioinformatics Institute)",
+   "members_page": "https://www.ebi.ac.uk/research/keane/members/"
   },
   {
    "name": "Coorens Group",
@@ -15718,21 +16418,91 @@
    "department_hint": "EMBL-EBI Research",
    "id": "ebi-uhlmann",
    "url": "https://www.ebi.ac.uk/research/uhlmann",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops computational methods to quantify morphology from microscopy images. These work in 2D or 3D, static or dynamic, and across imaging modalities. Biological shapes are described with geometric models, and collections of those models are then analysed to support biological discovery. The PI's stated interests are approximation theory, machine learning and computational geometry, applied to general-purpose, modality-agnostic bioimage quantification. The work is purely computational and produces open-source software. It includes bioimage analysis infrastructure such as OME-Zarr. There is also a collaboration on multiplexed imaging of patient-derived pediatric leukemia models, but the date and details of that project are unverified.",
+   "topics": [
+    "bioimage analysis",
+    "morphometrics",
+    "computational geometry",
+    "deep learning for microscopy",
+    "open-source software",
+    "multiplexed imaging"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does computational and machine-learning image analysis, which overlaps loosely with the student's methods interests, but it does not work on sequencing, structural variants or somatic mutations, and its cancer link (a leukemia multiplexed-imaging collaboration) is peripheral to the student"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI has moved to the University of Zurich, where the tenure-track professorship runs from 2025 to the present. The EMBL-EBI page labels her 'Visiting Group Leader (outgoing)'.",
+    "The listed EMBL-EBI members page shows postdocs Ben Woodhams and Xiaofan Xiong and visitor Callum Tromans-Coia, with no PhD students. These are not included in the members list because the UZH page is the PI's current group. Their emails are published on the EBI page in obfuscated form (bwoodhams/xi",
+    "The UZH members page gives no research focus or emails, and Caterina Fuster Barceló also appears under alumni, so her current status is uncertain.",
+    "The student is at a Canadian university, so a role in Switzerland would probably need a visa or permit; check the details.",
+    "No Google Scholar URL was verified."
+   ],
+   "sources": [
+    {
+     "title": "Uhlmann group, EMBL-EBI",
+     "url": "https://www.ebi.ac.uk/research/uhlmann"
+    },
+    {
+     "title": "Uhlmann group members, EMBL-EBI",
+     "url": "https://www.ebi.ac.uk/research/uhlmann/members"
+    },
+    {
+     "title": "Prof. Dr. Virginie Uhlmann, UZH",
+     "url": "https://www.mls.uzh.ch/en/research/uhlmann/professor-uhlmann.html"
+    },
+    {
+     "title": "Uhlmann group members, UZH",
+     "url": "https://www.mls.uzh.ch/en/research/uhlmann/groupmembers.html"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:56:58+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "EMBL-EBI Research",
-   "location": null
+   "pi_profile": {
+    "name": "Virginie Uhlmann",
+    "title": "Assistant Professor (Tenure Track) in Bioimaging and Data Analysis, University of Zurich; Visiting Group Leader (outgoing) at EMBL-EBI",
+    "profile_url": "https://www.mls.uzh.ch/en/research/uhlmann/professor-uhlmann.html",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Dr. Caterina Fuster Barceló",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page; she also appears in the alumni list, so her current status needs confirming",
+     "email": null,
+     "profile_url": "https://www.mls.uzh.ch/en/research/uhlmann/groupmembers/dr-caterina-fuster-barcelo"
+    },
+    {
+     "name": "Dr. Daniel Krentzel",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Genevieve Laprade",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Justin Hehli",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Molecular Life Sciences, UZH (BioVisionCenter); EMBL-EBI Research",
+   "location": "Zurich, Switzerland (EMBL-EBI group: Hinxton, UK)",
+   "current_institution": "University of Zurich (PI's current primary affiliation); EMBL-EBI listing is a visiting/outgoing role",
+   "members_page": "https://www.mls.uzh.ch/en/research/uhlmann/groupmembers.html"
   },
   {
    "name": "Dynamics of Living Systems Laboratory",
@@ -15745,21 +16515,94 @@
    "department_hint": "Francis Crick Institute (Group Leader)",
    "id": "crick-fr-hlich",
    "url": "https://www.crick.ac.uk/research/labs/fabian-frohlich",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab combines mechanistic models, machine learning and high-throughput experiments to study cellular signalling and cell states across scales. A current job advert describes extending dynamical mechanistic models (DMMs) from population-level to single-cell data. The PI trained in mathematics at TU Munich (PhD 2018 with Fabian Theis and Jan Hasenauer) and was a postdoc with Peter Sorger at Harvard Medical School. The lab started at the Crick in 2023. I could not open the Crick pages, so this summary comes from search-result snippets and not from the lab page itself.",
+   "topics": [
+    "mechanistic modelling",
+    "scientific machine learning",
+    "cell signalling",
+    "single-cell data",
+    "systems biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab uses computational and machine learning methods and works on single-cell data, but it focuses on signalling dynamics and mechanistic modelling. I found no cancer genomics, whole-genome sequencing or structural variant work, and a UK role would probably need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The Crick website returned HTTP 403 to my fetches. I could not open the members page or the lab page, so the member list comes from search-result summaries only. Check it against the live page.",
+    "Member focus areas, profile links and emails are not verified. The PhD student years are unknown.",
+    "Staff on the page (Branwen Snelling, senior data scientist; Yoana Arroyo Berdugo, senior laboratory research scientist) are excluded as non-postdoc, non-student.",
+    "No sign that the PI has moved. The lab is still listed at the Crick, and a postdoc job advert closing on 24 Sep 2026 was found.",
+    "The PI's department or programme and Google Scholar URL were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Crick lab members page (via search result)",
+     "url": "https://www.crick.ac.uk/research/labs/fabian-frohlich/members"
+    },
+    {
+     "title": "Crick researcher profile: Fabian Fröhlich",
+     "url": "https://www.crick.ac.uk/research/find-a-researcher/fabian-frohlich"
+    },
+    {
+     "title": "Postdoctoral Fellow, Frohlich Lab (jobs.ac.uk)",
+     "url": "https://www.jobs.ac.uk/job/DSS396/postdoctoral-fellow-frohlich-lab"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:57:26+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Francis Crick Institute (Group Leader)",
-   "location": null
+   "pi_profile": {
+    "name": "Fabian Fröhlich",
+    "title": "Group Leader",
+    "profile_url": "https://www.crick.ac.uk/research/find-a-researcher/fabian-frohlich",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Sebastian Persson",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jana Zah",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Marta Sadlej",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tamara Hodgetts",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Theodore de Pomereu",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": null,
+   "location": "London, United Kingdom",
+   "current_institution": "Francis Crick Institute",
+   "members_page": "https://www.crick.ac.uk/research/labs/fabian-frohlich/members"
   },
   {
    "name": "Developmental Dynamics Laboratory",
@@ -15771,22 +16614,168 @@
    "group": null,
    "department_hint": "Francis Crick Institute",
    "id": "crick-briscoe",
-   "url": "https://www.crick.ac.uk/research/research-topics/computational-systems-biology",
-   "focus": null,
-   "topics": [],
+   "url": "https://briscoelab.org/people.html",
+   "focus": "The lab studies how gene regulatory networks and signalling dynamics control cell fate and tissue pattern during development, using the vertebrate neural tube/spinal cord as the main model. It combines chick, mouse and human stem-cell-derived systems, including optogenetic control of morphogen signalling, lineage tracing, and single-cell and chromatin profiling. It also studies developmental tempo, for example differences between species in how fast development proceeds. The group is interdisciplinary (developmental biologists, physicists, engineers, computational scientists). It uses mathematical modelling, information-theoretic analysis and machine learning to infer gene regulatory logic from high-dimensional data.",
+   "topics": [
+    "gene regulatory networks",
+    "neural tube development",
+    "morphogen signalling dynamics",
+    "single-cell genomics",
+    "developmental tempo",
+    "ML / mathematical modelling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab has strong computational and single-cell ML work, but it is developmental biology with no cancer genomics, tumour WGS or structural variant analysis, so it overlaps only with the student's methods interests."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I confirmed the PI is still at the Francis Crick Institute (Principal Group Leader and Deputy Research Director). No move found.",
+    "The lab members page shows no years and gives no focus for Tom Frith, Joao Silva or Hilary Knowles.",
+    "A search snippet of the Crick institutional members page named Jakes Cornwall Scoones and Maddy Demuth as PhD students. It also named Joaquina Delas Vives, Rory Maizels and Meritxell Saez Cornellana. None of them appear on the current lab site page, and I could not open the Crick page (403). Treat t",
+    "A search snippet listed Tom Frith, Joao Silva and Hannah Stuart, Ashley Libby, Tiago Rito among postdocs on a lab list. Of these, Hannah Stuart, Ashley Libby and Tiago Rito are not on the current people page and may be alumni.",
+    "The lab's 'join us' page was said to show no advertised positions, while a separate job listing with a 1 September 2026 closing date exists. I did not verify either."
+   ],
+   "sources": [
+    {
+     "title": "Briscoe Lab - People",
+     "url": "https://briscoelab.org/people.html"
+    },
+    {
+     "title": "Briscoe Lab - Join us",
+     "url": "https://briscoelab.org/join-us.html"
+    },
+    {
+     "title": "Crick - James Briscoe lab",
+     "url": "https://www.crick.ac.uk/research/labs/james-briscoe"
+    },
+    {
+     "title": "Crick - Briscoe lab members",
+     "url": "https://www.crick.ac.uk/research/labs/james-briscoe/members"
+    },
+    {
+     "title": "James Briscoe - Google Scholar",
+     "url": "https://scholar.google.co.uk/citations?user=VJ83sekAAAAJ&hl=en"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:57:28+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Francis Crick Institute",
-   "location": null
+   "pi_profile": {
+    "name": "James Briscoe",
+    "title": "Principal Group Leader and Deputy Research Director, Francis Crick Institute",
+    "profile_url": "https://www.crick.ac.uk/research/labs/james-briscoe",
+    "scholar_url": "https://scholar.google.co.uk/citations?user=VJ83sekAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Arthur Radley",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Information-theoretic methods that separate biological signal from technical noise in high-dimensional data",
+     "email": null,
+     "profile_url": "https://orcid.org/0000-0003-0047-257X"
+    },
+    {
+     "name": "Dimitris Volteras",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Machine learning and mathematical modelling to decode gene regulation and cell fate",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=8a1N-RUAAAAJ&hl=en"
+    },
+    {
+     "name": "Dirk Benzinger",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Optogenetic study of how morphogen exposure and signalling dynamics shape cell fate",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Eleftheria Parasyraki",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Chromatin and epigenetic regulation of neural cell fate in spinal cord development",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=1YMlvrIAAAAJ&hl=en"
+    },
+    {
+     "name": "Giulia Boezio",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Lineage relationships in developing human and chick spinal cord",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joao Silva",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jorge Lazaro Farre",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Control of developmental tempo in marsupial and avian systems",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=5DzCnjEAAAAJ&hl=es"
+    },
+    {
+     "name": "Tom Frith",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Usha Kadiyala",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "How cells integrate signalling and mechanics to build tissues",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=h8Q89OIAAAAJ&hl=en"
+    },
+    {
+     "name": "Virginia Vanni",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "How morphogens interact in the neural tube to activate the gene regulatory network that specifies progenitor domains, at single-cell level",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=Ey5UgX8AAAAJ&hl=it"
+    },
+    {
+     "name": "Vitalii Kleshchevnikov",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Mechanistic AI/ML modelling of how genome sequence and gene regulatory networks underpin cell types",
+     "email": null,
+     "profile_url": "https://scholar.google.co.uk/citations?user=NuhY6NIAAAAJ"
+    },
+    {
+     "name": "Hilary Knowles",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sujay Raj",
+     "role": "PhD student",
+     "year": null,
+     "focus": "How cells respond differently to signals in the embryo, and how signalling information is processed in gene regulation",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/sujay-raj-712972328/"
+    }
+   ],
+   "department": "Developmental Dynamics Laboratory; Crick research topic: Computational Systems Biology",
+   "location": "London, United Kingdom",
+   "current_institution": "Francis Crick Institute",
+   "members_page": "https://briscoelab.org/people.html"
   },
   {
    "name": "Bioinformatics and Computational Biology Laboratory",
@@ -15799,21 +16788,102 @@
    "department_hint": "Francis Crick Institute (Senior Group Leader)",
    "id": "crick-luscombe",
    "url": "https://www.crick.ac.uk/research/labs/nicholas-luscombe",
-   "focus": null,
-   "topics": [],
+   "focus": "The unit works at genomic scale on how transcription is regulated and how that regulatory system controls biological phenomena. Its older reports describe this as computational and experimental genomics of gene regulation. A current project studies gene regulation in the 'scrambled' genome of the marine planktonic tunicate Oikopleura dioica. The Crick-era group was a Bioinformatics and Computational Biology lab, which I could not open, so its specific cancer-related work is not confirmed here.",
+   "topics": [
+    "gene regulation",
+    "transcriptional regulation",
+    "comparative genomics",
+    "Oikopleura dioica",
+    "computational biology"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The group does computational genomics and gene regulation, which overlaps with the student's methods interest. I found no evidence of current cancer genomics, structural variant calling or single-cell/spatial cancer work, and the lab is now in Japan."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI appears to have moved: joined OIST as Professor in 2021 and was Dean of Research 2022-2024. The Crick page is likely out of date, and I could not confirm whether any Crick lab remains.",
+    "The Crick lab page returned HTTP 403, so no Crick roster was checked.",
+    "The member list comes from the OIST FY2025 annual report (dated May 2026). I could not read the PDF directly and relied on search-tool summaries, so verify it against the PDF.",
+    "The roster is not from a live lab people page. No emails or individual profile links were found.",
+    "luscombelab.org now redirects to an unrelated spam site, so I did not use it."
+   ],
+   "sources": [
+    {
+     "title": "Annual Report FY2025 Luscombe Unit (OIST)",
+     "url": "https://www.oist.jp/sites/default/files/2026-05/Annual_Report_FY2025_Luscombe_Unit.pdf"
+    },
+    {
+     "title": "Nicholas M. Luscombe (OIST)",
+     "url": "https://groups.oist.jp/node/882"
+    },
+    {
+     "title": "Nicholas M. Luscombe (OIST profile)",
+     "url": "https://oist.jp/node/37594"
+    },
+    {
+     "title": "FY2023 Annual Report (OIST)",
+     "url": "https://www.oist.jp/node/41801"
+    },
+    {
+     "title": "Crick lab page (not accessible, 403)",
+     "url": "https://www.crick.ac.uk/research/labs/nicholas-luscombe"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:09+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Francis Crick Institute (Senior Group Leader)",
-   "location": null
+   "pi_profile": {
+    "name": "Nicholas M. Luscombe",
+    "title": "Professor, Genomics and Regulatory Systems Unit (OIST); previously Senior Group Leader, Francis Crick Institute; Chair in Computational Biology, UCL Genetics Institute (older profile)",
+    "profile_url": "https://groups.oist.jp/node/882",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Gaspar Sanchez Serna",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified. Earlier a visiting PhD student from the University of Barcelona (FY2022 report).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nicolas Dierckxsens",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuri Belisario Yepez Mora",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Johannes Nicolaus Wibisana",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Gene regulation in the scrambled genome of Oikopleura dioica (2025 CSHL poster)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Kian Lee Murray",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Genomics and Regulatory Systems Unit (Luscombe Unit)",
+   "location": "Okinawa, Japan",
+   "current_institution": "Okinawa Institute of Science and Technology Graduate University (OIST)",
+   "members_page": "https://www.oist.jp/sites/default/files/2026-05/Annual_Report_FY2025_Luscombe_Unit.pdf"
   },
   {
    "name": "Cancer Dynamics Laboratory",
@@ -15826,21 +16896,62 @@
    "department_hint": "Francis Crick Institute (Group Leader)",
    "id": "crick-turajlic",
    "url": "https://www.crick.ac.uk/research/labs/samra-turajlic",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab applies evolutionary principles to predict the trajectory of individual cancers, with an emphasis on metastasis and drug resistance. It is a multidisciplinary team of cancer geneticists, computational biologists and clinician scientists. Main programmes are clear cell renal cell carcinoma (conserved evolutionary trajectories, patient-derived organoids, tumour immune response) and melanoma (evolution under therapy resistance). Featured projects include TRACERx Renal (nongenetic evolution in ccRCC), a whole-genome sequencing study of ccRCC, the MANIFEST immunotherapy biomarker platform, and a diet/obesity and kidney cancer collaboration with the Crick and MD Anderson.",
+   "topics": [
+    "cancer evolution",
+    "renal cell carcinoma",
+    "melanoma",
+    "whole-genome sequencing",
+    "immunotherapy biomarkers",
+    "patient-derived organoids"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's interests in cancer genomics, tumour WGS and somatic mutation or evolution analysis, though single-cell/spatial and ML methods are less clearly featured and a UK role would need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI MOVED/ADDED ROLE: Turajlic became Director of the CRUK Manchester Institute in 2025 (per search result and CRUK MI page). Her Crick affiliation seems to continue, with job ads saying the group operates across both sites. The current status of her Crick appointment is unconfirmed.",
+    "The Crick lab page returned HTTP 403, so the Crick people page could not be opened.",
+    "The CRUK MI group page lists only the PI, with no postdocs or PhD students. The members list is therefore empty, not confirmed as having no members. Check the Crick page manually.",
+    "Google Scholar URL not verified.",
+    "Job ads (a postdoctoral scientist post with visiting scientist status at the Crick, and an Associate Scientist post) suggest the group is recruiting."
+   ],
+   "sources": [
+    {
+     "title": "Samra Turajlić - CRUK Manchester Institute",
+     "url": "https://www.cruk.manchester.ac.uk/team-member/samra-turajlic/"
+    },
+    {
+     "title": "Cancer Dynamics group - CRUK Manchester Institute",
+     "url": "https://www.cruk.manchester.ac.uk/research-group/cancer-dynamics/"
+    },
+    {
+     "title": "Crick lab page (not accessible, 403)",
+     "url": "https://www.crick.ac.uk/research/labs/samra-turajlic"
+    },
+    {
+     "title": "MI/25/56 Postdoctoral Scientist",
+     "url": "https://www.cruk.manchester.ac.uk/career/mi-25-56-postdoctoral-scientist"
+    },
+    {
+     "title": "Associate Scientist (Cancer Dynamics Group)",
+     "url": "https://bionow.co.uk/jobs/associate-scientist-cancer-dynamics-group"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:01+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Samra Turajlić",
+    "title": "Director of Cancer Research UK Manchester Institute; Cancer Dynamics Group Leader; Senior Group Leader; Consultant Medical Oncologist at The Christie NHS Foundation Trust",
+    "profile_url": "https://www.cruk.manchester.ac.uk/team-member/samra-turajlic/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Francis Crick Institute (Group Leader)",
-   "location": null
+   "department": "Cancer Dynamics group (CRUK Manchester Institute); Cancer Dynamics Laboratory (Francis Crick Institute)",
+   "location": "Manchester, UK (CRUK MI) and London, UK (Francis Crick Institute)",
+   "current_institution": "Cancer Research UK Manchester Institute (University of Manchester). Her Crick Group Leader role appears to continue, with the lab running across both sites.",
+   "members_page": null
   },
   {
    "name": "Quantitative Stem Cell Biology Laboratory",
@@ -15853,21 +16964,57 @@
    "department_hint": "Francis Crick Institute (Senior Group Leader)",
    "id": "crick-santos",
    "url": "https://www.crick.ac.uk/research/labs/silvia-santos",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab studies how cells make decisions, focusing on the regulation of cell fate specification. It examines how the cell cycle is remodelled during differentiation and how metabolism, cell cycle and cell fate interact. It works in mouse and human embryonic stem cells, 3D organoid models of mouse and human development, and mouse embryos. Its methods include single-cell analysis, advanced live-cell imaging, multi-omics and computational modelling.",
+   "topics": [
+    "stem cell biology",
+    "cell fate decisions",
+    "cell cycle",
+    "live-cell imaging",
+    "single-cell analysis",
+    "multi-omics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Single-cell, multi-omics and computational methods overlap somewhat with the student's interests, but the lab studies developmental stem cell biology rather than cancer genomics, structural variants or tumour sequencing."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "Crick lab and people pages returned HTTP 403, so the roster could not be verified",
+    "A search summary named Joe Padgett and Oliver Inge (postdocs) and Elias Copin and Mirjam Verbeek (PhD students), but this was not confirmed by a second search; check the people page",
+    "No move by the PI was found; institution is inferred from the lab URL and search results",
+    "UK role would likely need a visa for a Canadian-based student"
+   ],
+   "sources": [
+    {
+     "title": "Crick lab page (not directly accessible)",
+     "url": "https://www.crick.ac.uk/research/labs/silvia-santos"
+    },
+    {
+     "title": "Crick lab people page (not directly accessible)",
+     "url": "https://www.crick.ac.uk/research/labs/silvia-santos/people"
+    },
+    {
+     "title": "Introducing ... Silvia Santos",
+     "url": "https://www.crick.ac.uk/news/2018-02-16_introducing-silvia-santos"
+    },
+    {
+     "title": "jobs.ac.uk Santos lab posting",
+     "url": "https://jobs.ac.uk/job/DHL486/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:57:54+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Silvia Santos",
+    "title": "Senior Group Leader",
+    "profile_url": "https://www.crick.ac.uk/research/labs/silvia-santos",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Francis Crick Institute (Senior Group Leader)",
-   "location": null
+   "department": "Quantitative Stem Cell Biology Laboratory",
+   "location": "London, United Kingdom",
+   "current_institution": "Francis Crick Institute",
+   "members_page": "https://www.crick.ac.uk/research/labs/silvia-santos/people"
   },
   {
    "name": "Mathematical and Physical Biology Laboratory",
@@ -15880,21 +17027,94 @@
    "department_hint": "Francis Crick Institute (Group Leader)",
    "id": "crick-hadjivasiliou",
    "url": "https://www.crick.ac.uk/research/labs/zena-hadjivasiliou",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab applies the physics and mathematics of biological self-organisation to questions of growth, patterning and development. Work is theoretical and computational, with mathematical modelling of patterning and of how patterns scale and stay robust. One lab member's talk was titled 'Evolving Pattern Scaling and Robustness'. I could not read the lab's own research page, so specific systems and methods are not confirmed.",
+   "topics": [
+    "mathematical biology",
+    "biophysics",
+    "developmental patterning",
+    "self-organisation",
+    "theoretical modelling"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "Theoretical and physical modelling of development and patterning has essentially no overlap with cancer genomics, structural variants, sequencing analysis or single-cell and spatial omics in cancer."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The Crick lab and members pages returned HTTP 403, so the roster comes from a search-engine summary, not from the page itself.",
+    "The members page date is unknown, so the roster may be out of date.",
+    "Dana Fakhreddine is listed as a visiting PhD student; I excluded this person as a non-standard role, so include them if visitors count.",
+    "No PI move found: the PI is still at the Crick, with a joint UCL appointment (a 2021 UCL announcement says the Crick lab runs for the first 6 years of the appointment, so it may end around 2027).",
+    "Google Scholar URL not verified."
+   ],
+   "sources": [
+    {
+     "title": "Crick lab members page (via search result)",
+     "url": "https://www.crick.ac.uk/research/labs/zena-hadjivasiliou/members"
+    },
+    {
+     "title": "Zena Hadjivasiliou appointed as UCL/Crick Physical Sciences Group Leader",
+     "url": "https://www.ucl.ac.uk/biophysics/news/2021/sep/zena-hadjivasiliou-appointed-uclcrick-physical-sciences-group-leader"
+    },
+    {
+     "title": "UCL Physics of Living Systems academics",
+     "url": "https://www.ucl.ac.uk/physics-living-systems/people/academics-and-research-fellows"
+    },
+    {
+     "title": "IPLS Meet-Up November 2024",
+     "url": "https://www.ucl.ac.uk/physics-living-systems/events/2024/nov/ipls-meet-november-2024"
+    },
+    {
+     "title": "London-NANO profile",
+     "url": "https://london-nano.com/people/zena-hadjivasiliou/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:57:22+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Francis Crick Institute (Group Leader)",
-   "location": null
+   "pi_profile": {
+    "name": "Zena Hadjivasiliou",
+    "title": "Group Leader (UCL/Crick Physical Sciences Group Leader)",
+    "profile_url": "https://www.crick.ac.uk/research/labs/zena-hadjivasiliou",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Diana Khoromskaia",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a postdoc secondment (attachment); specific focus not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Lewis Mosby",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Listed as a postdoc secondment (attachment); gave a talk on evolving pattern scaling and robustness",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Amy Bowen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Taniya Mandal",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not verified",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Francis Crick Institute; UCL Physics and Astronomy / Institute for the Physics of Living Systems",
+   "location": "London, United Kingdom",
+   "current_institution": "Francis Crick Institute (joint appointment with UCL)",
+   "members_page": "https://www.crick.ac.uk/research/labs/zena-hadjivasiliou/members"
   },
   {
    "name": "Manrai Lab",
@@ -22382,22 +23602,55 @@
    "group": null,
    "department_hint": "Neurobiology",
    "id": "lmb-cardona",
-   "url": "https://mrclmb.ac.uk/research-leaders/albert-cardona/",
-   "focus": null,
-   "topics": [],
+   "url": "https://syn.mrc-lmb.cam.ac.uk/",
+   "focus": "The group maps complete synaptic wiring diagrams (connectomes) using volume electron microscopy. The main model is the larval fruit fly Drosophila, focusing on learning and memory, vision and olfaction. They develop open-source computational tools, including computer vision and machine learning for image segmentation and reconstruction, and build circuit models linking wiring to behaviour. They also use optophysiology, electrophysiology and Drosophila transgenics. They extend connectomics to other small animals (pygmy squid, lancelet, flour beetle, small lizards) to compare connectomes across the animal phylogenetic tree.",
+   "topics": [
+    "connectomics",
+    "volume electron microscopy",
+    "Drosophila neural circuits",
+    "machine learning for image segmentation",
+    "comparative neuroanatomy",
+    "open-source software"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The lab does neuroscience connectomics with EM image analysis and has no cancer genomics, sequencing, structural variant or single-cell omics work. The only overlap is generic computational and ML methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still listed at the MRC LMB.",
+    "Neither the lab site nor the LMB page gives roles (postdoc, PhD student, staff), so the member list is unclassified. It may include staff, and some people may not be postdocs or PhD students.",
+    "The LMB page and the lab site give different member lists. The LMB page includes Andre Ferreira Castro, Peter Hague and Albert Pelinovsky. The lab site instead lists Damian Demarest and Saroja Ellendula, who are not in the table above. Neither list was dated, so I couldn't tell which is current.",
+    "No member emails are published on these pages.",
+    "The lab recruits postdocs and has advertised data scientist and electron microscopy specialist roles. UK visa requirements would apply to the student."
+   ],
+   "sources": [
+    {
+     "title": "MRC LMB: Albert Cardona",
+     "url": "https://mrclmb.ac.uk/research-leaders/albert-cardona/"
+    },
+    {
+     "title": "Cardona lab website",
+     "url": "https://syn.mrc-lmb.cam.ac.uk/"
+    },
+    {
+     "title": "Postdoctoral Scientist, Neurobiology, Dr Albert Cardona, LMB 2765",
+     "url": "https://www.cambridgenetwork.co.uk/jobs/postdoctoral-scientist-neurobiology-dr-albert-cardona-lmb-2765"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:25+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Albert Cardona",
+    "title": "Group Leader (Programme Leader), MRC LMB; Professor, University of Cambridge",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/albert-cardona/",
+    "scholar_url": "https://scholar.google.com/citations?user=hh9mnKisJrYC&hl=en"
+   },
    "members": [],
-   "department": "Neurobiology",
-   "location": null
+   "department": "Neurobiology division, MRC LMB",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "MRC Laboratory of Molecular Biology (with University of Cambridge appointment)",
+   "members_page": "https://syn.mrc-lmb.cam.ac.uk/"
   },
   {
    "name": "Murshudov Group (Computational structural biology)",
@@ -22410,21 +23663,54 @@
    "department_hint": "Structural Studies",
    "id": "lmb-murshudov",
    "url": "https://mrclmb.ac.uk/research-leaders/garib-murshudov/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group develops mathematical, statistical and computational methods for building reliable atomic models from noisy, incomplete experimental data, with an emphasis on automation. It uses Bayesian frameworks that combine crystallography and cryo-EM data with stereochemical and structural prior knowledge. Its software includes REFMAC5, AceDRG, ProSMART, EMDA, LIBG, Servalcat and MetalCoord. Paul Emsley leads an international team that develops Coot and the web-based model-building tool Moorhen.",
+   "topics": [
+    "macromolecular refinement",
+    "cryo-EM model building",
+    "X-ray crystallography methods",
+    "Bayesian statistics",
+    "structural biology software",
+    "ligand restraints and validation"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The work is methods and software for crystallography and cryo-EM atomic modelling, with no cancer genomics, sequencing, structural-variant, single-cell or spatial omics component. The only overlap is a general interest in computational methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I confirmed the PI is currently listed at MRC LMB (Cambridge). I found no sign of a move, and he reportedly joined the LMB in 2011.",
+    "The group page lists these people without roles, emails or profile links: Lucrezia Catapano, Jordan Dialpuri, Paul Emsley, Fei Long, Martin Maly and Alexander Shtyrov. I could not verify which of them are postdocs or PhD students. Paul Emsley leads the Coot team and is likely staff or a senior scien",
+    "An older cached version of the page omits Jordan Dialpuri, so the member list changes over time.",
+    "Emsley's personal page is https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/.",
+    "The Google Scholar link on the LMB page was malformed, so scholar_url is null."
+   ],
+   "sources": [
+    {
+     "title": "Garib Murshudov - MRC LMB",
+     "url": "https://mrclmb.ac.uk/research-leaders/garib-murshudov/"
+    },
+    {
+     "title": "LMB international PhD programme: Murshudov project",
+     "url": "https://www2.mrc-lmb.cam.ac.uk/students/international-phd-programme/projects/garib-murshudov/"
+    },
+    {
+     "title": "Paul Emsley personal page",
+     "url": "https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:59+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Garib Murshudov",
+    "title": "Group Leader, Computational structural biology",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/garib-murshudov/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Structural Studies",
-   "location": null
+   "department": "Structural Studies division",
+   "location": "Cambridge, UK",
+   "current_institution": "MRC Laboratory of Molecular Biology",
+   "members_page": "https://mrclmb.ac.uk/research-leaders/garib-murshudov/"
   },
   {
    "name": "Jefferis Group (connectomics)",
@@ -22436,22 +23722,112 @@
    "group": null,
    "department_hint": "Neurobiology",
    "id": "lmb-jefferis",
-   "url": "https://mrclmb.ac.uk/research-leaders/gregory-jefferis/",
-   "focus": null,
-   "topics": [],
+   "url": "https://flybrain.mrc-lmb.cam.ac.uk/",
+   "focus": "The group studies the neural circuit basis of behaviour, using the Drosophila olfactory system as its main model. It does comparative connectomics, looking at circuit differences between sexes and species. It also does molecular connectomics, which links connectivity patterns to the molecular identity of brain cell types. It also runs physiological and behavioural studies of innate, sexually dimorphic behaviours and of behaviours modified by experience. The group works with electron-microscopy connectome datasets and computational tools for neuron analysis.",
+   "topics": [
+    "connectomics",
+    "Drosophila neural circuits",
+    "olfaction",
+    "sexual dimorphism",
+    "comparative connectomics",
+    "neuroanatomy tools"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "This is a fly neural-circuit and connectomics lab with no cancer genomics, tumour sequencing or structural variant work. The only overlap is generic computational and data-analysis skills."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab people page has no date or last-updated stamp, so the roster may be out of date.",
+    "The MRC LMB page lists different names from the lab site: Hana Babić, Sebastian Cachero, Shahar Frechter, Florian Kampf, Myrto Mitletton, Philipp Schlegel, Tomke Stuerner, Catherine Whittle and Isabella Beckett. It gives no roles.",
+    "Philipp Schlegel is a visiting postdoc (Zoology) and Myrto Mitletton is an Investigator Scientist, so I left both out of the member list. Hana Babić appears only on the LMB page and her role is unverified, so I left her out too.",
+    "No individual emails or profile links are published. The only email is the lab contact, jefferis@mrc-lmb.cam.ac.uk.",
+    "The PI is still at MRC LMB, and I found no sign of a move."
+   ],
+   "sources": [
+    {
+     "title": "MRC LMB: Gregory Jefferis",
+     "url": "https://mrclmb.ac.uk/research-leaders/gregory-jefferis/"
+    },
+    {
+     "title": "Jefferis lab people page",
+     "url": "https://flybrain.mrc-lmb.cam.ac.uk/jefferislabwebsite/people/"
+    },
+    {
+     "title": "Jefferis lab website",
+     "url": "https://flybrain.mrc-lmb.cam.ac.uk/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:50+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Neurobiology",
-   "location": null
+   "pi_profile": {
+    "name": "Gregory Jefferis",
+    "title": "Group Leader, Neurobiology Division",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/gregory-jefferis/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Sebastian Cachero",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Shahar Frechter",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tomke Stürner",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Catherine Whittle",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Florian Kämpf",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Isabella Beckett",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Markus Pleijzier",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not stated on the people page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Neurobiology Division",
+   "location": "Cambridge, UK",
+   "current_institution": "MRC Laboratory of Molecular Biology",
+   "members_page": "https://flybrain.mrc-lmb.cam.ac.uk/jefferislabwebsite/people/"
   },
   {
    "name": "Greener Group (biomolecular simulation / force fields)",
@@ -22463,22 +23839,96 @@
    "group": null,
    "department_hint": "Structural Studies",
    "id": "lmb-greener",
-   "url": "https://mrclmb.ac.uk/research-leaders/joe-greener/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www2.mrc-lmb.cam.ac.uk/groups/greener/",
+   "focus": "The group works to make molecular dynamics simulations more accurate for biology. Current force fields can fail on disordered proteins and protein aggregation. One approach trains faster molecular mechanics force fields with graph neural networks, using quantum mechanics and experimental data. The aim is a reproducible method that works across all biomolecules. A second approach builds fast machine learning interatomic potentials for biomolecular systems, using simpler models and GPU programming, with the long-term goal of simulating enzyme reactions. The group also works on differentiable simulation (the Molly.jl package in Julia), protein design with simulation, protein folding and free-energy methods.",
+   "topics": [
+    "molecular dynamics",
+    "force fields",
+    "machine learning potentials",
+    "differentiable simulation",
+    "protein design",
+    "disordered proteins"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "The group does ML-driven biomolecular simulation and force-field development, with no cancer genomics, sequencing, structural variant or single-cell/spatial omics work, so it overlaps with the student only through general computational and ML methods."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is still at the MRC LMB, so no move. The LMB announced the Group Leader appointment in September 2023.",
+    "The members page does not give start years or emails. The PI's contact (jgreener at mrclmb.ac.uk) is shown only in obfuscated form or through a contact form.",
+    "Ben Lehner (Sanger Institute) is listed as an affiliated member and is not counted as a postdoc or student.",
+    "Postdoc adverts in 2024-2025 suggest the group may still be recruiting, including for computational protein design.",
+    "The student would need a UK visa for any role here."
+   ],
+   "sources": [
+    {
+     "title": "Joe Greener - MRC LMB research leader page",
+     "url": "https://mrclmb.ac.uk/research-leaders/joe-greener/"
+    },
+    {
+     "title": "Greener Group home page",
+     "url": "https://www2.mrc-lmb.cam.ac.uk/groups/greener/"
+    },
+    {
+     "title": "Greener Group members page",
+     "url": "https://www2.mrc-lmb.cam.ac.uk/groups/greener/members/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:41+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Structural Studies",
-   "location": null
+   "pi_profile": {
+    "name": "Joe Greener",
+    "title": "Group Leader, Structural Studies Division",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/joe-greener/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alexandre Blanco González",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Developing a universal biomolecular force field",
+     "email": null,
+     "profile_url": "https://github.com/allexandre97"
+    },
+    {
+     "name": "Evianne Rovers",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Protein design using molecular simulation",
+     "email": null,
+     "profile_url": "https://github.com/ERovers"
+    },
+    {
+     "name": "Thea Schulze",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Protein folding and free energy methods",
+     "email": null,
+     "profile_url": "https://github.com/theaschulze"
+    },
+    {
+     "name": "Giuseppe Gambini",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Fast machine learning interatomic potentials (MLIPs) for biomolecules",
+     "email": null,
+     "profile_url": "https://github.com/Peppone98"
+    },
+    {
+     "name": "Richard Geng",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Reactive force fields",
+     "email": null,
+     "profile_url": "https://github.com/geng-r"
+    }
+   ],
+   "department": "Structural Studies Division",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "MRC Laboratory of Molecular Biology",
+   "members_page": "https://www2.mrc-lmb.cam.ac.uk/groups/greener/members/"
   },
   {
    "name": "Kornfeld Group (connectomics)",
@@ -22490,22 +23940,115 @@
    "group": null,
    "department_hint": "Neurobiology",
    "id": "lmb-kornfeld",
-   "url": "https://mrclmb.ac.uk/research-leaders/joergen-kornfeld/",
-   "focus": null,
-   "topics": [],
+   "url": "https://kornfeldlab.org",
+   "focus": "The group studies how animals store learned behaviours in neural circuits and retrieve them, using the zebra finch and its learned song as the main model. They map the underlying circuits with high-throughput 3D electron microscopy, including expansion microscopy approaches. They use deep learning to reconstruct neurons and synapses from the image volumes, including flood-filling networks developed with Google Research and the SyConn2 synaptic connectivity pipeline. The long-term goal is to link an individual bird's specific behaviour to its connectome and to decode memory from circuit structure.",
+   "topics": [
+    "connectomics",
+    "3D electron microscopy",
+    "zebra finch song learning",
+    "deep learning segmentation",
+    "learning and memory circuits"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 1,
+    "reason": "Basic-neuroscience connectomics with no cancer genomics, sequencing, structural variant or single-cell omics work; the only overlap is general machine learning for large datasets."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI moved from the Max Planck Institute for Biological Intelligence (Germany) to the MRC LMB, Cambridge; LMB announced the appointment on 17 Sep 2024",
+    "The lab site team page and the LMB page list different members. Hemesath, Rieger and Willenberg are not on the LMB page, so their current location is unconfirmed",
+    "Alexandra Hovest is listed on the LMB page but has no role there and is not on the lab team page; she is excluded because her role is unverified",
+    "The LMB page gives no roles, so Aldea, Araujo, Medina and Sorokina take their roles from the lab team page",
+    "No member emails are published; the LMB page offers only a contact form"
+   ],
+   "sources": [
+    {
+     "title": "LMB research leader page: Joergen Kornfeld",
+     "url": "https://mrclmb.ac.uk/research-leaders/joergen-kornfeld/"
+    },
+    {
+     "title": "Kornfeld Lab website",
+     "url": "https://kornfeldlab.org"
+    },
+    {
+     "title": "Kornfeld Lab team page",
+     "url": "https://kornfeldlab.org/team"
+    },
+    {
+     "title": "The LMB welcomes new Group Leader Joergen Kornfeld",
+     "url": "https://mrclmb.ac.uk/?p=4872"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:59:41+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Neurobiology",
-   "location": null
+   "pi_profile": {
+    "name": "Joergen Kornfeld",
+    "title": "Group Leader, Neurobiology Division",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/joergen-kornfeld/",
+    "scholar_url": "https://scholar.google.com/citations?user=aT2MvAEAAAAJ&hl=en"
+   },
+   "members": [
+    {
+     "name": "Anastasia Sorokina",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Changes in circuit structure from development to adulthood and their link to motor behaviour",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nelson Medina",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Neuronal excitability and learned song in zebra finches; circuits of learning and memory",
+     "email": null,
+     "profile_url": "https://bsky.app/profile/neurofinch.bsky.social"
+    },
+    {
+     "name": "Andreea Aldea",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Sensory-motor learning, visual circuits in mouse models of autism, neuronal connectivity and synaptic organisation",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/andreea-aldea-917898170/"
+    },
+    {
+     "name": "Franz Rieger",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Machine learning for connectomics, including neuron instance segmentation benchmarks (not on the LMB page; may still be in Munich)",
+     "email": null,
+     "profile_url": "https://github.com/riegerfr"
+    },
+    {
+     "name": "Frederico Araujo",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Connectomics technologies and tools",
+     "email": null,
+     "profile_url": "https://github.com/fredericoaraujopt"
+    },
+    {
+     "name": "Jonas Hemesath",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Sample preparation for large connectomics datasets (not on the LMB page; may still be in Munich)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/jonas-hemesath-503720197/"
+    },
+    {
+     "name": "Sebastian Willenberg",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Data-driven network modelling of birdsong engrams in zebra finches (not on the LMB page; may still be in Munich)",
+     "email": null,
+     "profile_url": "https://github.com/swillenberg"
+    }
+   ],
+   "department": "Neurobiology Division",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "MRC Laboratory of Molecular Biology",
+   "members_page": "https://kornfeldlab.org/team"
   },
   {
    "name": "Clatworthy Group (tissue immunology, single-cell genomics)",
@@ -22518,21 +24061,66 @@
    "department_hint": "Molecular Immunity Unit",
    "id": "lmb-clatworthy",
    "url": "https://mrclmb.ac.uk/research-leaders/menna-clatworthy/",
-   "focus": null,
-   "topics": [],
+   "focus": "The group studies tissue immunity across human organs, using human tissue samples and model systems. Their methods are single-cell genomics (including single-cell RNA sequencing and antigen receptor sequencing), spatial transcriptomics and advanced imaging. They ask how tissue environments shape resident immune cells, and how this changes with disease and age. They also study immune links between organs, such as gut and brain. Cambridge job adverts describe clinical applications including blood and tissue immune responses in kidney disease.",
+   "topics": [
+    "tissue immunity",
+    "single-cell genomics",
+    "spatial transcriptomics",
+    "kidney disease immunology",
+    "B cells / humoral immunity",
+    "ageing and organ immune crosstalk"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab applies single-cell and spatial omics, which overlaps with the student's interest, but the focus is immunology in healthy and diseased tissue and kidney disease, not cancer genomics, structural variants or somatic mutations. The PI is also moving to Oxford in 2027, and a UK role may need a v"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI move: Oxford announced on 14 Oct 2026 that Clatworthy is appointed Regius Professor of Medicine, effective 1 March 2027, and she will become a fellow of Christ Church. Cambridge/LMB roles are current until then; the sources don't say when she leaves them.",
+    "The LMB page lists 34 group members by name only, with no roles (postdoc vs PhD student vs staff), profile links or emails. Roles could not be verified, so no members are listed. Only Nathan Richoz is marked 'senior postdoc' on that page. Other names on it include Tas Ahmed, Tho-Al Fakar Al-Aubodah,",
+    "I did not open the lab's Cambridge Department of Medicine page (med.cam.ac.uk/clatworthy) or the Cambridge Immunology Network member listings, which may separate postdocs from PhD students.",
+    "The PI's job title is not stated on the LMB page. The title above comes from Wikipedia and the Oxford announcement, which gives 'Professor of Translational Immunology' while Wikipedia says 'Professor of Translational Medicine'.",
+    "The group is a lab with a joint LMB/Cambridge affiliation, not an independent institute lab in the strict sense."
+   ],
+   "sources": [
+    {
+     "title": "MRC LMB: Menna Clatworthy",
+     "url": "https://mrclmb.ac.uk/research-leaders/menna-clatworthy/"
+    },
+    {
+     "title": "MRC LMB: Molecular Immunity Unit",
+     "url": "https://mrclmb.ac.uk/research-leaders/molecular-immunity-unit/"
+    },
+    {
+     "title": "Wikipedia: Menna Clatworthy",
+     "url": "https://en.wikipedia.org/wiki/Menna_Clatworthy"
+    },
+    {
+     "title": "University of Oxford news: Clatworthy appointed Regius Professor of Medicine",
+     "url": "https://www.ox.ac.uk/news/2026-10-16-professor-menna-clatworthy-appointed-new-regius-professor-of-medicine-at-the"
+    },
+    {
+     "title": "GOV.UK: Appointment of Regius Professorship of Medicine, 14 October 2026",
+     "url": "https://www.gov.uk/government/news/appointment-of-regius-professorship-of-medicine-in-the-university-of-oxford-14-october-2026"
+    },
+    {
+     "title": "CITIID Director page",
+     "url": "https://www.citiid.cam.ac.uk/director"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:58:41+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Menna Clatworthy",
+    "title": "Professor of Translational Medicine/Immunology, University of Cambridge; Director of CITIID; Research Leader, MRC LMB Molecular Immunity Unit; Regius Professor of Medicine at Oxford from 1 March 2027",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/menna-clatworthy/",
+    "scholar_url": "https://scholar.google.com/citations?user=A_ZX0xQAAAAJ"
+   },
    "members": [],
-   "department": "Molecular Immunity Unit",
-   "location": null
+   "department": "MRC LMB Molecular Immunity Unit; Cambridge Institute of Therapeutic Immunology & Infectious Disease (CITIID); Department of Medicine, Cambridge",
+   "location": "Cambridge, UK (Oxford, UK from March 2027)",
+   "current_institution": "University of Cambridge and MRC Laboratory of Molecular Biology (moving to the University of Oxford on 1 March 2027)",
+   "members_page": "https://mrclmb.ac.uk/research-leaders/menna-clatworthy/"
   },
   {
    "name": "Scheres Group (cryo-EM computational methods, RELION)",
@@ -22544,22 +24132,59 @@
    "group": null,
    "department_hint": "Structural Studies",
    "id": "lmb-scheres",
-   "url": "https://mrclmb.ac.uk/research-leaders/sjors-scheres/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www2.mrc-lmb.cam.ac.uk/groups/scheres",
+   "focus": "The group develops cryo-EM and cryo-ET image-processing methods, implemented in the open-source RELION software, which many cryo-EM labs use. They also determine atomic structures of amyloid filaments extracted from human brains. These include tau filaments in Alzheimer's disease and chronic traumatic encephalopathy, and the structures differ between diseases. This work is done in close collaboration with Michel Goedert's group. Computational work covers reconstruction algorithms and, on the methods side, machine-learning approaches to image analysis.",
+   "topics": [
+    "cryo-EM methods",
+    "RELION",
+    "cryo-ET",
+    "amyloid filaments",
+    "tau / neurodegeneration",
+    "image processing"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab's computational methods work is loosely related to the student's interest in ML for genomics, but its topics are structural biology and neurodegeneration, with no cancer genomics, sequencing, structural variants or single-cell omics; a UK role would also likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No move found: the PI is still at the MRC LMB, Cambridge.",
+    "The official page lists these nine people with no roles given: Chloe Fisher, Daniel Ji, Vinith Kishore, Simon Knoblauch, Sofia Lövestam, Alexey Murzin, Bogdan Toader, Kai Yi, Dongqi Zhang.",
+    "Postdoc and PhD student status could not be verified for any of them, so none are listed in 'members'.",
+    "No individual profile links or emails were published on the pages I read.",
+    "The old group site (www2.mrc-lmb.cam.ac.uk/groups/scheres) lists no members."
+   ],
+   "sources": [
+    {
+     "title": "MRC LMB – Sjors Scheres",
+     "url": "https://mrclmb.ac.uk/research-leaders/sjors-scheres/"
+    },
+    {
+     "title": "Scheres group (LMB legacy site)",
+     "url": "https://www2.mrc-lmb.cam.ac.uk/groups/scheres"
+    },
+    {
+     "title": "Sjors Scheres – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sjors_Scheres"
+    },
+    {
+     "title": "[3dem] Tenure track position at MRC-LMB",
+     "url": "https://mail.ncmir.ucsd.edu/pipermail/3dem/2026-March/012444.html"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:59:14+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Sjors Scheres",
+    "title": "Group Leader; co-leads the Structural Studies Division",
+    "profile_url": "https://mrclmb.ac.uk/research-leaders/sjors-scheres/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Structural Studies",
-   "location": null
+   "department": "Structural Studies Division",
+   "location": "Cambridge, UK",
+   "current_institution": "MRC Laboratory of Molecular Biology",
+   "members_page": "https://mrclmb.ac.uk/research-leaders/sjors-scheres/"
   },
   {
    "name": "Zhu Lab",
@@ -22598,22 +24223,224 @@
    "group": null,
    "department_hint": null,
    "id": "nygc-landau",
-   "url": "https://www.nygenome.org/science-technology/faculty-labs/landau-lab/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.landaulab.org/",
+   "focus": "The lab studies cancer evolution using both computational and experimental tools. It works with patient-derived samples and experimental models to find basic evolutionary principles, and uses them to design precision-medicine tools. Its technology work includes single-cell multi-omics and cell-free DNA analysis. These methods are used to study how somatic mutations affect cell behaviour and clonal evolution.",
+   "topics": [
+    "cancer evolution",
+    "clonal dynamics",
+    "single-cell multi-omics",
+    "cell-free DNA",
+    "somatic mutations",
+    "computational methods"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 4,
+    "reason": "Strong overlap with the student's cancer genomics, somatic mutation, single-cell omics and computational-methods interests. The lab is less focused on bulk tumour WGS and structural variants, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The PI has not moved. He is still at NYGC and Weill Cornell Medicine, and was announced as a 2026 ESMO Translational Research awardee in September 2026.",
+    "The members page gives no per-person research focus, start years, profile links or emails, so those fields are null or marked as not stated.",
+    "The page also lists two MS students (Peyton Allen, Wesley Lu). They are excluded because they are not PhD students.",
+    "The page does not say when it was last updated.",
+    "The Google Scholar URL was not verified."
+   ],
+   "sources": [
+    {
+     "title": "NYGC Landau Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/landau-lab/"
+    },
+    {
+     "title": "Landau Lab website",
+     "url": "https://www.landaulab.org/"
+    },
+    {
+     "title": "Landau Lab People page",
+     "url": "https://www.landaulab.org/about"
+    },
+    {
+     "title": "NYGC faculty profile, Dan A. Landau",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/dan-a-landau-md-phd/"
+    },
+    {
+     "title": "NYGC news: Landau receives 2026 ESMO Award",
+     "url": "https://www.nygenome.org/news-events/news/new-york-genome-center-core-faculty-member-dan-avi-landau-receives-2026-esmo-award-for-translational-research/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:00:52+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": null,
-   "location": null
+   "pi_profile": {
+    "name": "Dan A. Landau",
+    "title": "Professor of Medicine (Hematology and Medical Oncology) and of Physiology and Biophysics, Weill Cornell Medicine; Core Faculty Member, New York Genome Center; Tisch Chair, Dept. of Systems and Computa",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/dan-a-landau-md-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Andrew D'Avino",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Dennis Yuan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page. PhD in biomedical engineering.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Evrim Goskel",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Foteini (Fenia) Fotopoulou",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Husain Danish",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "MSKCC neuro-oncology fellow and postdoctoral research fellow (MD). Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jani Huuhtanen",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nir Erez",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Qing Luo",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ramon Massoni",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sang-Ho Yoon",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page. PhD in bioinformatics.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Saravanan Ganesan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tamara Prieto",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yiyun Lin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Yuelin Liu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Postdoctoral research associate with a computer science PhD. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Anders Rasmussen",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Tri-Institutional PhD Program in Computational Biology and Medicine. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Elliot Eton",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD-PhD student, Tri-Institutional MD-PhD Program. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jake Qiu",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Weill Cornell PBSB program. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Joe Pelt",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD-PhD student, Tri-Institutional MD-PhD Program. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Levan Mekerishvili",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Weill Cornell PBSB program. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Srinivas (Sri) Rajagopalan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Weill Cornell PBSB program. Specific project not stated.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Division of Hematology and Medical Oncology; Physiology and Biophysics; Systems and Computational Biomedicine (Weill Cornell Medicine)",
+   "location": "New York, NY, USA",
+   "current_institution": "New York Genome Center / Weill Cornell Medicine",
+   "members_page": "https://www.landaulab.org/about"
   },
   {
    "name": "Knowles Lab",
@@ -22626,21 +24453,135 @@
    "department_hint": "Computer Science, Columbia University (per search snippet)",
    "id": "nygc-knowles",
    "url": "https://www.nygenome.org/science-technology/faculty-labs/knowles-lab/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab uses statistical machine learning to analyze large genomic datasets. Its methods include probabilistic graphical models, deep learning, causal network inference and convex optimization. A central theme is transcriptomic dysregulation, especially aberrant RNA splicing, as a mediator of genetic risk in rare and common diseases. The lab combines computational method development with experimental validation. Disease areas are mainly neurological, both degenerative and psychiatric, and more recently cancer. Other work covers single-cell and spatial genomics, gene regulatory network inference and variant effect prediction.",
+   "topics": [
+    "RNA splicing",
+    "statistical machine learning",
+    "deep learning for genomics",
+    "single-cell and spatial omics",
+    "neurogenetics",
+    "gene regulatory networks"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab's ML-for-genomics and single-cell/spatial methods match the student's interests, and cancer is a newer focus. However, the lab mainly studies splicing and neurological disease, with little work on tumour WGS or structural variants, and the student would need a US visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The NYGC lab page does not list members. The roster comes from the lab site daklab.org (the #people section), and the page has no date, so I can't confirm it is current.",
+    "I read only the first 100,000 of about 230,000 characters of daklab.org. The people section was in that part, but I did not check the rest.",
+    "No member has a profile link or published email on the lab site, so those fields are null.",
+    "The PI's title differs between sources. His CV lists Associate Professor from 2025, while the NYGC page says Assistant Professor.",
+    "The PI's Google Scholar URL was not found, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "Knowles Lab, NYGC",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/knowles-lab/"
+    },
+    {
+     "title": "DAK Lab website (people)",
+     "url": "http://daklab.org/"
+    },
+    {
+     "title": "David A. Knowles, NYGC faculty profile",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/david-a-knowles-phd/"
+    },
+    {
+     "title": "David Knowles, Columbia Systems Biology",
+     "url": "https://systemsbiology.columbia.edu/faculty/david-knowles"
+    },
+    {
+     "title": "David A Knowles CV 2026",
+     "url": "https://www.engineering.columbia.edu/sites/default/files/2026-09/David%20A%20Knowles%20CV_2026_external.pdf"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:00:29+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Computer Science, Columbia University (per search snippet)",
-   "location": null
+   "pi_profile": {
+    "name": "David A. Knowles",
+    "title": "Associate Professor of Computer Science (Columbia University; per his 2026 CV from 2025, while some pages still say Assistant Professor); Core Faculty Member, New York Genome Center",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/david-a-knowles-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Aaron Zweig",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Geometric deep learning for causal inference of gene regulatory networks and spatial transcriptomics (joint with the Azizi lab).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Alex Tokolyi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Regulatory networks linking common variation to transcription and disease outcomes.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Aline Réal",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Mechanisms of gene expression regulation, used to interpret splicing-related variants.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Isabella (Izzy) Grabski",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Statistical and ML methods for single-cell genomics (joint with the Satija lab).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Scott Adamson",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Predicting and testing links between genotype, splicing and phenotype.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Tatsuhiko Naito",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "ML applied to human genomes to understand variants in neurological disease (joint with the Raj lab).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Arghamitra (Argha) Talukder",
+     "role": "PhD student",
+     "year": null,
+     "focus": "ML and statistical modeling of splicing regulation and isoforms (co-advised by Itsik Pe'er).",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Dan Meyer",
+     "role": "PhD student",
+     "year": null,
+     "focus": "ML for how common genetic and epigenetic variation contributes to disease.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sei Chang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Deep learning to analyze transcriptomic dysregulation in genetic diseases.",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Computer Science, Columbia University; interdisciplinary appointee in Systems Biology; affiliate of the Data Science Institute",
+   "location": "New York, NY, USA",
+   "current_institution": "New York Genome Center (joint with Columbia University)",
+   "members_page": "http://daklab.org/"
   },
   {
    "name": "Gürsoy Lab",
@@ -22652,22 +24593,156 @@
    "group": null,
    "department_hint": null,
    "id": "nygc-g-rsoy",
-   "url": "https://www.nygenome.org/science-technology/faculty-labs/",
-   "focus": null,
-   "topics": [],
+   "url": "https://g2lab.org",
+   "focus": "The lab develops computational methods for genomics and describes its scope on the site only as 'everything computational biology'. One main theme is privacy-preserving tools for large-scale omics data. This includes software, file formats and pipelines for sharing sensitive genotype and phenotype data, and work on privacy risks in microbiome data. A second theme is 3D genome organization: mapping the regulatory wiring of chromatin and studying how genome folding, repeat DNA, and regulatory elements shape molecular phenotypes. Individual members also work on how variants affect transcription factor regulation, and on the breast tumor microenvironment in obesity.",
+   "topics": [
+    "genomic privacy",
+    "3D genome / chromatin",
+    "regulatory variants",
+    "computational biology",
+    "microbiome data",
+    "tumor microenvironment"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Overlap is limited to computational genomics methods and, for one postdoc, a breast tumour microenvironment project. The lab does not centre on cancer genomics, structural variants, tumour WGS/transcriptome work or single-cell/spatial omics, and it is now in the UK, so a visa would likely be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI has moved: the lab site and the DAMTP directory now place her at the University of Cambridge. The NYGC faculty-labs page no longer lists a Gürsoy lab, and the Columbia DBMI profile still lists Columbia and NYGC affiliations and calls her 'Adjunct Assistant Professor'. I found no announcement of t",
+    "The lab is split between Cambridge and Columbia: the five postdocs and one PhD student have Cambridge emails, four PhD students are still at Columbia, and one is a visiting student.",
+    "The members page shows no last-updated date and gives no start years, so the 'year' field is null for everyone.",
+    "Yebin Kim is a visiting PhD student from Indiana University and has no profile page.",
+    "The people page also lists Kirill Nikitin as an Associate Research Scientist. I excluded this as staff."
+   ],
+   "sources": [
+    {
+     "title": "G2Lab home",
+     "url": "https://g2lab.org"
+    },
+    {
+     "title": "G2Lab people",
+     "url": "https://g2lab.org/people/"
+    },
+    {
+     "title": "G2Lab research",
+     "url": "https://g2lab.org/research/"
+    },
+    {
+     "title": "Columbia DBMI profile: Gamze Gürsoy",
+     "url": "https://www.dbmi.columbia.edu/profile/gamze-gursoy/"
+    },
+    {
+     "title": "DAMTP People directory",
+     "url": "https://www.damtp.cam.ac.uk/People"
+    },
+    {
+     "title": "NYGC faculty labs",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T08:59:53+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": null,
-   "location": null
+   "pi_profile": {
+    "name": "Gamze Gürsoy",
+    "title": "Assistant Professor, Department of Applied Mathematics and Theoretical Physics (title as listed on the lab people page)",
+    "profile_url": "https://g2lab.org/people/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alison Sutherland",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Biological encryption and genetic material permeation in soil",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/alison-sutherland/"
+    },
+    {
+     "name": "Bianca Brown",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Behavior and the microbiome, privacy implications of microbiome data, gut-brain crosstalk via extracellular vesicles",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/bianca-brown/"
+    },
+    {
+     "name": "Sydney Conner",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Obesity-related changes in the breast tumor microenvironment (from PhD work)",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/sydney-conner/"
+    },
+    {
+     "name": "V. Oğulcan Kaya",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Evolution of regulatory elements across species and their spatial interactions",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/v-o%c4%9fulcan-kaya/"
+    },
+    {
+     "name": "Xiaoting Li",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Genetic variant effects on transcription factor regulation",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/xiaoting-li/"
+    },
+    {
+     "name": "Abigail Newbury",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not specified on page (Biomedical Informatics, Columbia)",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/abigail-newbury/"
+    },
+    {
+     "name": "Carlos Angel",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational methods for how mutations and disease alter genome topology and epigenetic patterns (Pharmacology, Columbia)",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/carlos-angel/"
+    },
+    {
+     "name": "Jacob Blindenbach",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not specified on page (Computer Science, Columbia)",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/jacob-blindenbach/"
+    },
+    {
+     "name": "Rashid Al-Abri",
+     "role": "PhD student",
+     "year": null,
+     "focus": "3D genome, repeat DNA and its regulatory role (Computer Science, Columbia)",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/rashid-al-abri/"
+    },
+    {
+     "name": "Sobhan Shukueian Tabrizi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "3D genome organization and how genome folding shapes function (DAMTP, Cambridge)",
+     "email": null,
+     "profile_url": "https://g2lab.org/people/sobhan-shukueian-tabrizi/"
+    },
+    {
+     "name": "Yebin Kim",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Computational tools to predict individual disease causes or prognosis (visiting PhD student from Indiana University Bloomington)",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Applied Mathematics and Theoretical Physics (DAMTP), Computational Biology. Columbia DBMI and NYGC affiliations are still listed on the Columbia page, and some students are still at Colu",
+   "location": "Cambridge, United Kingdom",
+   "current_institution": "University of Cambridge (previously Columbia University / New York Genome Center)",
+   "members_page": "https://g2lab.org/people/"
   },
   {
    "name": "Iossifov Lab",
@@ -22679,22 +24754,59 @@
    "group": null,
    "department_hint": "Cold Spring Harbor Laboratory (joint appointment, per search snippet)",
    "id": "nygc-iossifov",
-   "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/ivan-iossifov-phd/",
-   "focus": null,
-   "topics": [],
+   "url": "https://iossifovlab.com/",
+   "focus": "The lab applies genomics and systems biology to the genetics of neuropsychiatric and neurodevelopmental disorders, mainly autism, and also schizophrenia. Much of the work is large-scale autism sequencing, including analysis of whole-genome and exome data from families, such as the SFARI cohorts. The lab builds computational tools, including the Genotype and Phenotypes in Families (GPF) platform for managing SFARI data. Methods include next-generation sequencing analysis, molecular network models, and machine learning and statistical modeling. Recent papers cover benchmarking genotyping-by-sequencing against whole-genome sequencing in families and the effects of CHD8 deletion on gene expression. The NYGC page also mentions cancer, but I found no evidence of an active cancer program.",
+   "topics": [
+    "autism genetics",
+    "family-based sequencing",
+    "de novo variants",
+    "genomics software (GPF)",
+    "molecular network models",
+    "machine learning"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "The lab has strong computational and sequencing-analysis methods, including de novo variant calling in whole-genome and exome data, but its focus is germline and neurodevelopmental genetics. It has little on cancer genomics, tumour transcriptomes, somatic structural variants, or single-cell and spat"
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "No postdocs or PhD students are listed on the NYGC profile, the NYGC lab page, or the lab homepage (iossifovlab.com), so the members list is empty because nothing was published, not because the lab has no members.",
+    "The lab homepage lists Iossifov as Professor at CSHL, with CSHL contact details. The NYGC page lists him as Associate Faculty with a joint CSHL professorship. The two pages weight the affiliations differently. I found no sign of a move to another institution, but I could not find a current CSHL facu",
+    "The lab's research page (iossifovlab.com/research) returned a 404 error.",
+    "Google Scholar profile not found, so scholar_url is null.",
+    "Contact: the lab homepage lists the PI's email as 'iossifov at cshl.edu' (obfuscated). I did not include it as a member email."
+   ],
+   "sources": [
+    {
+     "title": "NYGC profile: Ivan Iossifov, PhD",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/ivan-iossifov-phd/"
+    },
+    {
+     "title": "NYGC Iossifov Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/iossifov-lab/"
+    },
+    {
+     "title": "Iossifov Lab homepage",
+     "url": "https://iossifovlab.com/"
+    },
+    {
+     "title": "NYGC news: Ivan Iossifov joins the New York Genome Center",
+     "url": "https://www.nygenome.org/news-events/news/ivan-iossifov-joins-the-new-york-genome-center-as-associate-core-member-assistant-investigator/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:00:15+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Ivan Iossifov",
+    "title": "Professor, Cold Spring Harbor Laboratory; Associate Faculty Member, New York Genome Center",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/ivan-iossifov-phd/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Cold Spring Harbor Laboratory (joint appointment, per search snippet)",
-   "location": null
+   "department": "Neuropsychiatric Disease Research and Biology, Genomics & Technology programs at NYGC; Cold Spring Harbor Laboratory (CSHL) faculty",
+   "location": "Cold Spring Harbor / New York, NY, USA",
+   "current_institution": "Cold Spring Harbor Laboratory (primary, per the lab site) and New York Genome Center (associate faculty)",
+   "members_page": "https://iossifovlab.com/"
   },
   {
    "name": "Imielinski Lab",
@@ -22706,22 +24818,100 @@
    "group": null,
    "department_hint": "NYU Grossman School of Medicine (joint appointment, per search snippet)",
    "id": "nygc-imieli-ski",
-   "url": "https://www.nygenome.org/science-technology/faculty-labs/imielinski-lab/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.mskilab.org/",
+   "focus": "The lab uses cancer genome assembly and long-molecule sequencing (including Pore-C) to study chromosomal structure in cancer. It develops algorithms, machine-learning methods and genomic assays and applies them to clinical samples. A central theme is how complex somatic DNA rearrangements (structural variants, genome graphs, ecDNA) shape the tumour epigenome, and the reverse. The lab uses structural variation to study mutational processes in somatic evolution, from pre-cancer to metastasis. It also translates this work into clinical cancer whole-genome sequencing and interpretation through the Genome Oncology System (gOS) at NYU Langone.",
+   "topics": [
+    "cancer genome structure",
+    "structural variants",
+    "genome graphs",
+    "long-read / Pore-C sequencing",
+    "clinical whole-genome sequencing",
+    "computational methods / ML"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 5,
+    "reason": "Structural variants, somatic mutation analysis, tumour whole-genome sequencing and computational/ML methods overlap closely with the student's interests; single-cell and spatial omics is the weakest overlap, and a US visa may be needed."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The NYGC page lists the PI as Associate Professor at NYU Grossman and the lab site is branded NYU Langone, so NYU appears to be the primary home. The NYGC listing is a core faculty appointment and I saw no sign of a recent move.",
+    "The team page has no years or alumni section, and some entries have placeholder text. Check that it is current.",
+    "Emails are obfuscated on the team page, so none are included. The PI's email (marcin.imielinski@nyulangone.org) appeared only as decoded through the fetch tool, not as a visible address.",
+    "Vaughn Rogers (MD/PhD rotation student) is excluded because they are a rotation student. Staff are also excluded: Kevin Hadi and Aditya Deshpande (research scientists), Shihab Dider (bioinformatics engineer), Charalampos Xanthopoulakis (software architect), Cindy Lu and kuo-chieh lee (technicians), ",
+    "The student would likely need a US visa. The PhD students are in NYU programs, so a visiting or collaborative role is more realistic than a trainee role."
+   ],
+   "sources": [
+    {
+     "title": "NYGC Imielinski Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/imielinski-lab/"
+    },
+    {
+     "title": "NYGC faculty profile: Marcin Imieliński",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/marcin-imielinski-md-phd/"
+    },
+    {
+     "title": "Imielinski Lab (mskilab) home",
+     "url": "https://www.mskilab.org/"
+    },
+    {
+     "title": "mskilab team page",
+     "url": "https://www.mskilab.org/our-team"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:00:09+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "NYU Grossman School of Medicine (joint appointment, per search snippet)",
-   "location": null
+   "pi_profile": {
+    "name": "Marcin Imieliński",
+    "title": "Associate Professor, Department of Pathology, NYU Grossman School of Medicine; Core Faculty Member, New York Genome Center; Director of Cancer Genetics and Genomics, Perlmutter Cancer Center; Attendin",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/marcin-imielinski-md-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Iraj Eshghi",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Quantitative framework for the large-scale organization of cancer genomes",
+     "email": null,
+     "profile_url": "https://iraj.place"
+    },
+    {
+     "name": "Andrew Ma",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MD/PhD student working on complex structural variants in cancer genomes, genome graph tools and seq2fun models",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "David Wilson",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Cancer genome structure, spatial genome organization and chromatin biology using Pore-C",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Juan Sebastián Andrade Martínez",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Pan-cancer cell and tissue-of-origin identification; non-coding variant calling and annotation (NYU Vilcek Institute)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Stanley Clarke",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not provided on the team page",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Department of Pathology (NYU Grossman); Cancer Genomics Research Program (NYU Langone); Perlmutter Cancer Center; New York Genome Center",
+   "location": "New York, NY, USA",
+   "current_institution": "NYU Grossman School of Medicine / NYU Langone Health, with a core faculty appointment at the New York Genome Center",
+   "members_page": "https://www.mskilab.org/our-team"
   },
   {
    "name": "Sanjana Lab",
@@ -22734,21 +24924,54 @@
    "department_hint": "Biology / Neuroscience & Physiology, NYU (per search snippet)",
    "id": "nygc-sanjana",
    "url": "https://www.nygenome.org/science-technology/faculty-labs/sanjana-lab/",
-   "focus": null,
-   "topics": [],
+   "focus": "The lab develops technologies to understand how human genetic variants cause disease, with applications to the immune system, nervous system and cancer. Its methods include genome engineering (CRISPR and Cas13), pooled genetic screens, massively parallel DNA synthesis, single-cell multiomics and imaging. Disease areas named on the NYGC page are autism, autoimmunity and tumor evolution. Search snippets also mention Cas13 profiling of noncoding RNAs in human neurons, in vivo CRISPR screens for immune and cancer phenotypes, and protein design of new gene editors and cell therapies; I did not confirm these on an official page.",
+   "topics": [
+    "CRISPR screens",
+    "functional genomics",
+    "single-cell multiomics",
+    "Cas13 / RNA targeting",
+    "cancer and immune genetics",
+    "neurogenetics"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "The lab does cancer-relevant functional genomics and single-cell multiomics, but it is mainly experimental (CRISPR screens) rather than tumour WGS, structural variant or somatic mutation analysis, so overlap with the student's computational cancer genomics interests is partial."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The lab's own site (sanjanalab.org) was unreachable (connection refused), so no members list was verified; members is empty rather than guessed.",
+    "The NYGC page lists no members.",
+    "PI rank is inconsistent across sources (Professor on the NYGC page; older listings say Associate or Assistant Professor), so the NYGC page is probably the most current.",
+    "No PI move found; he is still at NYGC with an NYU appointment.",
+    "The lab appears to be recruiting postdocs, according to aggregator job postings that may be outdated, including one joint with Tuuli Lappalainen."
+   ],
+   "sources": [
+    {
+     "title": "NYGC Sanjana Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/sanjana-lab/"
+    },
+    {
+     "title": "Postdoctoral Research Associate, Sanjana Lab (job posting)",
+     "url": "https://www.careerbuilder.com/job-details/postdoctoral-research-associate-sanjana-lab-new-york-ny--c4196d7b-e4bf-4d54-aed3-6ee12c398582"
+    },
+    {
+     "title": "Dr. Neville Sanjana, QIAGEN Scientific Advisory Board",
+     "url": "https://www.qiagen.com/us/leadership/scientific-advisory-board/neville-sanjana"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:05:31+00:00",
    "error": null,
-   "pi_profile": {},
+   "pi_profile": {
+    "name": "Neville Sanjana",
+    "title": "Professor of Biology, Neuroscience and Physiology, NYU; Core Faculty Member, New York Genome Center",
+    "profile_url": "https://www.nygenome.org/science-technology/faculty-labs/sanjana-lab/",
+    "scholar_url": null
+   },
    "members": [],
-   "department": "Biology / Neuroscience & Physiology, NYU (per search snippet)",
-   "location": null
+   "department": "NYU Department of Biology; Neuroscience and Physiology",
+   "location": "New York, NY, USA",
+   "current_institution": "New York Genome Center and New York University",
+   "members_page": null
   },
   {
    "name": "Satija Lab",
@@ -22760,22 +24983,128 @@
    "group": null,
    "department_hint": null,
    "id": "nygc-satija",
-   "url": "https://www.nygenome.org/science-technology/faculty-labs/satija-lab/",
-   "focus": null,
-   "topics": [],
+   "url": "https://satijalab.org/",
+   "focus": "The lab studies the causes and consequences of cellular heterogeneity in complex biological systems. Its main approach is single-cell genomics. It combines statistical and machine learning methods with experimental work to understand how cells work together to drive biological processes. The lab is best known for the Seurat single-cell analysis toolkit. The pages I read did not give further detail on specific projects.",
+   "topics": [
+    "single-cell genomics",
+    "computational methods",
+    "machine learning",
+    "statistical modeling",
+    "cellular heterogeneity",
+    "multimodal data integration"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Single-cell methods and ML for genomics match the student's interests well, but the lab pages I read do not mention cancer, tumour whole-genome sequencing, or structural variants. A US role would also need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "I confirmed the PI is currently at NYGC, with an NYU appointment. I found no sign of a move.",
+    "The members page lists the two students only as graduate students. I labelled them PhD students, but did not confirm that on the page.",
+    "The members page gives no research focus or year for anyone, only degree background.",
+    "The members page has no individual profile links.",
+    "I could not verify a Google Scholar URL, so it is null."
+   ],
+   "sources": [
+    {
+     "title": "NYGC Satija Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/satija-lab/"
+    },
+    {
+     "title": "Satija Lab People",
+     "url": "https://satijalab.org/people/"
+    },
+    {
+     "title": "NYGC profile of Rahul Satija",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/rahul-satija-phd/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:01:16+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": null,
-   "location": null
+   "pi_profile": {
+    "name": "Rahul Satija",
+    "title": "Core Faculty Member, New York Genome Center; Associate Professor, Center for Genomics and Systems Biology, New York University",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/rahul-satija-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Chao Dong",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "PhD in cell biology (Peking Univ.); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Cyrillus Tan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "PhD in bioinformatics (UCLA); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Isabella (Izzy) Grabski",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "PhD in biostatistics (Harvard); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Longda Jiang",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "PhD in statistical genetics (Univ. of Queensland); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Nathan Nakatsuka",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "MD/PhD in systems, synthetic and quantitative biology (Harvard); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Ouyang Zhu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "PhD in statistics (Univ. of Notre Dame); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sourav Sarkar",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "PhD in theoretical physics (Humboldt Univ. of Berlin); the page does not state a project",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Isabella Mascio",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MS in cell and molecular biology (Fordham); listed as a graduate student, project not stated",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Junsuk Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "MS in bioengineering (Yonsei); listed as a graduate student, project not stated",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Core faculty at NYGC; Center for Genomics and Systems Biology, New York University",
+   "location": "New York, USA",
+   "current_institution": "New York Genome Center (with an NYU appointment)",
+   "members_page": "https://satijalab.org/people/"
   },
   {
    "name": "Technology Innovation Lab (Vicković)",
@@ -22787,22 +25116,136 @@
    "group": null,
    "department_hint": null,
    "id": "nygc-vickovi",
-   "url": "https://www.nygenome.org/science-technology/faculty-labs/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.vickovictechinnovation.com/",
+   "focus": "The lab develops and applies spatial genomics methods. It combines spatial transcriptomics and epigenomics with single-cell RNA-seq, long-read sequencing, CRISPR screening and advanced imaging. Application areas include cancer progression and evolution, the aging human gut, and neuronal circuits and neurological disease. The computational side covers machine-learning and generative models for spatial cell clustering, interpretable ML for regulatory networks, image-resolution enhancement, and modelling of the spatial distribution of molecules. The stated goal is to track disease progression and identify drug and therapeutic targets.",
+   "topics": [
+    "spatial transcriptomics",
+    "single-cell omics",
+    "cancer progression",
+    "machine learning for genomics",
+    "CRISPR screening",
+    "long-read sequencing"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 3,
+    "reason": "Strong overlap on single-cell and spatial omics in cancer and on ML methods, but little focus on tumour WGS or structural-variant and somatic-mutation analysis, and a US role would likely need a visa."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "The NYGC faculty-lab page (nygenome.org/.../vickovic-lab) lists no members. The roster comes from the lab's own site, vickovictechinnovation.com/ourteam.",
+    "The fetched team page was reported as truncated, so the roster may be incomplete. No years or dates are given, so the page's currency is unverified.",
+    "The lab's main page lists Mike Phuychareon as a postdoc, but he did not appear on the (possibly truncated) team page. His status is unverified, so he is not listed.",
+    "Cody Slater is described as a visiting researcher and a Columbia BME PhD candidate (the main page calls him a visiting MD-PhD student). He is included as a PhD student.",
+    "Several postdocs are tagged 'Vickovic Lab @UU' (Uppsala University), so they may be based in Sweden rather than New York."
+   ],
+   "sources": [
+    {
+     "title": "NYGC Faculty Labs",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/"
+    },
+    {
+     "title": "NYGC Vicković Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/vickovic-lab/"
+    },
+    {
+     "title": "Vicković Technology Innovation Lab website",
+     "url": "https://www.vickovictechinnovation.com/"
+    },
+    {
+     "title": "Vicković Lab - Meet Our Team",
+     "url": "https://www.vickovictechinnovation.com/ourteam"
+    },
+    {
+     "title": "NYGC profile of Sanja Vicković",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/sanja-vickovic-phd/"
+    },
+    {
+     "title": "Columbia Engineering directory: Sanja Vickovic",
+     "url": "https://www.engineering.columbia.edu/faculty-staff/directory/sanja-vickovic"
+    },
+    {
+     "title": "NYGC welcomes new core faculty member",
+     "url": "https://www.nygenome.org/news-events/news/nygc-welcomes-new-core-faculty-member-focused-on-developing-novel-digital-pathology-tools/"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:02:24+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": null,
-   "location": null
+   "pi_profile": {
+    "name": "Sanja Vicković",
+    "title": "Core Faculty and Director of Technology Innovation, New York Genome Center; Assistant Professor, Columbia University (Biomedical Engineering and the Irving Institute for Cancer Dynamics)",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/sanja-vickovic-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Alba Corman",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Phenotypic screening with multiomic and spatial analysis in neurological disorders (Sanjana Lab @NYU/NYGC; Vickovic Lab @UU)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/alba-corman-5887a553/"
+    },
+    {
+     "name": "Chuck Haggerty",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Spatially resolved epigenome mapping in cancer progression (Vickovic Lab @UU)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=gHdn6qcAAAAJ&view_op=list_works&sortby=pubdate"
+    },
+    {
+     "name": "Mateusz Garbulowski",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Interpretable ML and regulatory networks for omics data (Vickovic Lab @UU)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/mateusz-garbulowski"
+    },
+    {
+     "name": "Nathanael Andrews",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Single-cell, spatial and long-read sequencing to find cancer therapeutic vulnerabilities (Vickovic Lab @UU)",
+     "email": null,
+     "profile_url": "https://se.linkedin.com/in/nathanael-andrews-154872258"
+    },
+    {
+     "name": "Beatrice Grauman",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Spatial roadmap of cancer evolution using CRISPR screening and spatial transcriptomics (Columbia)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/beatrice-grauman-boss-82441119b/"
+    },
+    {
+     "name": "Cody Slater",
+     "role": "PhD student",
+     "year": null,
+     "focus": "AI-assisted transcriptomic engineering for cell-type-specific perturbation (Columbia BME PhD candidate, visiting researcher)",
+     "email": null,
+     "profile_url": "https://codyslater.github.io/"
+    },
+    {
+     "name": "James Lee",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Functional genomics technologies and computational/statistical methods (Columbia BME)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/jameshyojaelee/"
+    },
+    {
+     "name": "Ruiyang He",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Spatial transcriptomics and computational methods for spatial patterning (Vickovic Lab @NYGC/Columbia BME)",
+     "email": null,
+     "profile_url": "https://www.linkedin.com/in/ruiyang-he-62765b141"
+    }
+   ],
+   "department": "NYGC Technology Innovation; Columbia Biomedical Engineering (Fu Foundation School of Engineering and Applied Science) and the Herbert and Florence Irving Institute for Cancer Dynamics. Some lab member",
+   "location": "New York, NY, USA",
+   "current_institution": "New York Genome Center (with a joint appointment at Columbia University)",
+   "members_page": "https://www.vickovictechinnovation.com/ourteam"
   },
   {
    "name": "Lappalainen Lab",
@@ -22814,22 +25257,148 @@
    "group": null,
    "department_hint": "Senior Associate Faculty (per search snippet)",
    "id": "nygc-lappalainen",
-   "url": "https://www.nygenome.org/science-technology/faculty-labs/",
-   "focus": null,
-   "topics": [],
+   "url": "https://www.tllab.org/",
+   "focus": "The lab studies functional genetic variation in human populations. It looks especially at regulatory variation that affects the transcriptome, and at the cellular mechanisms linking genetic variants to disease. Methods combine computational analysis of genomic and transcriptomic data (eQTL, allele-specific expression, splicing, variant-effect prediction, statistical modelling) with population genetics and experimental work such as CRISPR perturbations, cellular models and long-read sequencing. Current projects include gene dosage and the regulatory genome, cell-type-specific allele-specific expression, RNA splicing, and gene regulation across human development and aging. The lab is not a cancer lab.",
+   "topics": [
+    "regulatory variation",
+    "eQTL / allele-specific expression",
+    "RNA splicing",
+    "functional genomics",
+    "population genetics",
+    "CRISPR perturbation"
+   ],
    "fit": {
-    "score": null,
-    "reason": null
+    "score": 2,
+    "reason": "Overlap is limited to computational and statistical methods for genomics and transcriptomics; the lab works on germline regulatory variation and population genomics, not cancer, somatic mutation, structural variants or tumour single-cell/spatial omics, and it is split between Sweden and the US."
    },
-   "flags": [],
-   "sources": [],
+   "flags": [
+    "PI is not at NYGC full-time. She moved her primary position to KTH/SciLifeLab in Stockholm around 2021 (Professor at KTH, Director of NGI) and keeps a second lab at NYGC as Senior Associate Faculty. The NYGC faculty page alone is misleading about her main base.",
+    "The team page has no explicit last-updated date. Its newest start date is September 2025, and the alumni list includes end dates in 2026, so it looks reasonably current.",
+    "The team page lists emails in obfuscated 'name at domain' form. They are converted to standard form here.",
+    "Marliette Matos is a collaborating PhD candidate from Albert Einstein College of Medicine, not a PhD student enrolled at KTH or NYGC.",
+    "Most Stockholm roles are at SciLifeLab/KTH, so a Canadian student would need to check Swedish visa and funding rules. The NYGC postdoc roles would need a US visa."
+   ],
+   "sources": [
+    {
+     "title": "NYGC Lappalainen Lab page",
+     "url": "https://www.nygenome.org/science-technology/faculty-labs/lappalainen-lab/"
+    },
+    {
+     "title": "NYGC faculty profile: Tuuli Lappalainen",
+     "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/tuuli-lappalainen-phd/"
+    },
+    {
+     "title": "Lappalainen Lab website",
+     "url": "https://www.tllab.org/"
+    },
+    {
+     "title": "Lappalainen Lab team page",
+     "url": "https://www.tllab.org/team"
+    },
+    {
+     "title": "SciLifeLab Group Leaders (human genetics)",
+     "url": "https://www.scilifelab.se/keywords/human-genetics/"
+    },
+    {
+     "title": "KTH news: new head of NGI",
+     "url": "https://www.kth.se/cbh/nyheter/hon-blir-ny-forestandare-for-ngi-1.1046730"
+    }
+   ],
    "broken_links": [],
-   "refreshed_at": null,
+   "refreshed_at": "2026-10-22T09:01:06+00:00",
    "error": null,
-   "pi_profile": {},
-   "members": [],
-   "department": "Senior Associate Faculty (per search snippet)",
-   "location": null
+   "pi_profile": {
+    "name": "Tuuli Lappalainen",
+    "title": "Senior Associate Faculty Member, New York Genome Center; Professor, KTH Royal Institute of Technology; Director, National Genomics Infrastructure (SciLifeLab)",
+    "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/tuuli-lappalainen-phd/",
+    "scholar_url": null
+   },
+   "members": [
+    {
+     "name": "Jasper Panten",
+     "role": "Postdoc",
+     "year": "joined 2024",
+     "focus": "Cell-type-specific allele-specific expression; gene regulation and dosage effects using cellular models and perturbations (Stockholm)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Josie Gleeson",
+     "role": "Postdoc",
+     "year": "joined early 2025",
+     "focus": "RNA splicing and gene function using long-read and newer technologies (computational, Stockholm)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Leah Rosen",
+     "role": "Postdoc",
+     "year": "joined 2024",
+     "focus": "Statistical modelling of functional genomics data; causal investigation of gene function and dosage (Stockholm)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Marielle Bond",
+     "role": "Postdoc",
+     "year": "joined 2025",
+     "focus": "How genetic variation affects gene regulation across human development (NYGC)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Omar Ahmed",
+     "role": "Postdoc",
+     "year": "recently joined",
+     "focus": "Pangenome software; functional genomics and CRISPR for disease (NYGC)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Philipp Rentzsch",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Finding and predicting variants that change gene expression and phenotype (computational, Stockholm)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Scott Adamson",
+     "role": "Postdoc",
+     "year": "joined fall 2021",
+     "focus": "Linking genotype, splicing and phenotype; co-supervised by David Knowles (NYGC)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Winona Oliveros",
+     "role": "Postdoc",
+     "year": "joined September 2025",
+     "focus": "Gene regulation and its variation across individuals (computational, Stockholm)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Marliette Matos",
+     "role": "PhD student",
+     "year": null,
+     "focus": "T cell aging; transcriptomic profiling and QTL/GWAS approaches (PhD candidate at Albert Einstein College of Medicine, collaborating with the lab, based at NYGC)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    },
+    {
+     "name": "Sulagna Dasgupta",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Interplay between the regulatory genome and gene dosage (Stockholm)",
+     "email": null,
+     "profile_url": "https://www.tllab.org/team"
+    }
+   ],
+   "department": "KTH School of Engineering Sciences in Chemistry, Biotechnology and Health; SciLifeLab National Genomics Infrastructure; NYGC (Senior Associate Faculty)",
+   "location": "Stockholm, Sweden and New York, USA",
+   "current_institution": "KTH Royal Institute of Technology / SciLifeLab (Stockholm), with a second lab at the New York Genome Center (NYGC)",
+   "members_page": "https://www.tllab.org/team"
   },
   {
    "name": "Raphael Group (computational cancer genomics)",
