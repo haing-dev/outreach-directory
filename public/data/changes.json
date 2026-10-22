@@ -2,9 +2,147 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T10:56:31+00:00",
-   "checked": 30,
+   "generated_at": "2026-10-22T11:54:51+00:00",
+   "checked": 23,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-microsoft",
+     "entry_name": "Microsoft Research",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-meta",
+     "entry_name": "Meta FAIR",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bt-ibm",
+     "entry_name": "IBM Research",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-illumina",
+     "entry_name": "Illumina",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-grail",
+     "entry_name": "GRAIL",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-fmi",
+     "entry_name": "Foundation Medicine",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "bio-recursion",
+     "entry_name": "Recursion",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-bioptimus",
+     "entry_name": "Bioptimus",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "sanger-seb-pedr-s",
