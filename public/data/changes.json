@@ -2,9 +2,189 @@
  "weeks": [
   {
    "week": "2026-10-22",
-   "generated_at": "2026-10-22T09:05:31+00:00",
+   "generated_at": "2026-10-22T09:59:16+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "new_entry",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-torkamani",
+     "entry_name": "Torkamani Lab (Genome Informatics, Translational Institute)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-peng",
+     "entry_name": "Peng Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics)",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group",
+     "text": "Added"
+    },
+    {
+     "type": "new_entry",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group",
+     "text": "Added"
+    },
     {
      "type": "new_entry",
      "entry_id": "ebi-petsalaki",
