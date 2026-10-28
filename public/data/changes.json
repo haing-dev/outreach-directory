@@ -2,9 +2,327 @@
  "weeks": [
   {
    "week": "2026-10-28",
-   "generated_at": "2026-10-28T17:59:40+00:00",
-   "checked": 5,
+   "generated_at": "2026-10-28T19:07:45+00:00",
+   "checked": 10,
    "items": [
+    {
+     "type": "members_changed",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "joined: Arielle Medford, Arvind Ravi"
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "No PI move found: the Broad bio still lists Broad, HMS and MGH affiliations. The bio has no date, so currency is not confirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "The team page has no 'last updated' date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "The lab team page lists no individual research focus or email. Per-person foci were not opened, so they are marked 'focus not verified'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "The members list comes from a page summary where the Current and Alumni sections were separated. Michael Vinyard, Ziao Lin and Sam Freeman appear under Alumni."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-getz",
+     "entry_name": "Getz Lab",
+     "text": "Arielle Medford, Arvind Ravi and Romanos Sklavenitis-Pistofidis are titled Instructor in Medicine. Medford and Ravi are listed under current postdocs; Sklavenitis-Pistofidis is listed under Alumni."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab",
+     "text": "No move found: the PI is still at Caltech."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab",
+     "text": "The people page gives no dates for current members and no individual project descriptions, so member focus is only the department or field label shown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab",
+     "text": "Displayed email addresses (e.g. jkanwal@caltech.edu) were extracted from the page, but the underlying mailto links all pointed to drmiller@caltech.edu, a former student's address. I left emails null until they can be checked."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab",
+     "text": "Yuriko Kishi is now listed as a former student (2018–2026) and is excluded. An earlier search snippet listed Kishi as current, which shows the page changes."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-parker",
+     "entry_name": "Parker Lab",
+     "text": "Albert Zhou (lab manager) is listed as former (2024–2026), and the roster is staff-heavy and in flux."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab",
+     "text": "The PI is still at Caltech. The BBE page lists her as Professor of Biology, so no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab",
+     "text": "The members page has no last-updated date. Aki Ohdera was already listed as a postdoc in a March 2019 news post, so that entry may be stale."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab",
+     "text": "Member emails are obfuscated by Cloudflare on the lab page, so none could be read. They are left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab",
+     "text": "I did not find a Google Scholar URL, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-goentoro",
+     "entry_name": "Goentoro Lab",
+     "text": "I fetched the lab's people page through the .html URL. The /people/ path only returned a directory listing."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab",
+     "text": "PI is still at Caltech as of the CMS profile page; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab",
+     "text": "The members page shows no last-updated date, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab",
+     "text": "The members page lists no current postdocs, only former postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab",
+     "text": "The members page gives no research focus, year or email for any student. I did not open the Caltech directory profiles."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pachter",
+     "entry_name": "Pachter Lab",
+     "text": "I did not verify a Google Scholar URL."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "left: Katsuya \"Lex\" Colon"
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "No move: Long Cai is still at Caltech, per the BBE profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "The team page has no explicit update date. Its footer reads ©2020, but a recent photo path suggests a 2026 update, so the roster may be partly out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "Katsuya 'Lex' Colon appears under both current students and alumni (now a Scientist at Twist Bioscience), so I left him out of the member list. Arun Chakravorty is listed only as an alumnus."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "Jose David Aguirre is listed under research-staff alumni as a Caltech graduate student. His current lab is unclear, so I left him out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-cai",
+     "entry_name": "Cai Lab",
+     "text": "The team page gives no enrollment years, so year is null for everyone. Emails come from the lab team page, which is an official lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab",
+     "text": "PI is still at Caltech. No move found; the Caltech BBE and APhMS pages list the same affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab",
+     "text": "The lab website (elowitz.caltech.edu) returned only its title through the fetch tool, so the member list could not be read. The members array is empty, not because the lab has no members. Check the site directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab",
+     "text": "The APhMS profile lists only an administrative assistant, no students or postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab",
+     "text": "The student may need a US visa for a Caltech role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-elowitz",
+     "entry_name": "Elowitz Lab",
+     "text": "Google Scholar URL not verified, so left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab",
+     "text": "The PI is still at Caltech; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab",
+     "text": "The submitted lab URL (?p=2530) is a 2017 news item, not the people page. The people page is /ourteam/."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab",
+     "text": "The people page shows no last-updated date and no student years, so year is null for everyone."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab",
+     "text": "Google Scholar profile links were mentioned on the page but I did not see the actual URLs, so they are left out. The PI's scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-guttman",
+     "entry_name": "Guttman Lab",
+     "text": "The student emails are on an lncrna.caltech.edu domain, as published on the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab",
+     "text": "No move: Pierce is still at Caltech."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab",
+     "text": "The people page lists no current postdocs. Its only postdoc entries are alumni."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab",
+     "text": "The people page gives no emails or individual research descriptions. Member focus is the department listed, and I did not check the page's update date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab",
+     "text": "Profile links for members are mostly LinkedIn, not official pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-pierce",
+     "entry_name": "Pierce Lab",
+     "text": "I did not find a Google Scholar URL."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "left: Zach Martinez"
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "PI is at Caltech; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "PI is on sabbatical through December 2026 and is not taking new students, postdocs, visitors or SURF students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "The Main Page group list names no postdocs. Miki Yun is listed as research staff, so was excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "The four students are inferred to be PhD students from the BE and CNS program labels and the 'co-advised' note. The page does not state their year, individual projects or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-murray",
+     "entry_name": "Murray Group",
+     "text": "The roster came from a cached Main Page revision (oldid=27281), so it may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab",
+     "text": "PI is still at Caltech according to the BBE profile; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab",
+     "text": "The people page has no 'last updated' date, so the roster may be outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab",
+     "text": "Member emails are not individually published. The page only states a first-name@caltech.edu convention, so none are listed. Only the PI's email (phillips@pboc.caltech.edu) is published."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab",
+     "text": "Member research focus and year are not on the page, so they are left empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-phillips",
+     "entry_name": "Phillips Lab",
+     "text": "Staff on the page, not included in the members list: Heun Jin Lee (Staff Scientist) and Melanie Tiangco (Administrative Assistant)."
+    },
     {
      "type": "flag",
      "entry_id": "stanford-curtis",
