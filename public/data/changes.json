@@ -2,9 +2,309 @@
  "weeks": [
   {
    "week": "2026-10-28",
-   "generated_at": "2026-10-28T20:03:31+00:00",
+   "generated_at": "2026-10-28T20:59:21+00:00",
    "checked": 10,
    "items": [
+    {
+     "type": "members_changed",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "joined: Morgan Sanchez; left: Thomas Buckley"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "The PI is still at Harvard Medical School. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "The lab website and people page could not be located. Guessed domains (manrailab.org, manrai.hms.harvard.edu) failed to resolve, and no official profile page lists a lab URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "The member list is incomplete and unverified. Postdocs could not be identified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "Tom Buckley (@tabuckley_ on X) is described by the PI as a PhD student who led the Dr. CaBot work. I did not verify this on an official page, so he is not listed above."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "Aashna Shah is described as a former PhD student (now Dr.), so she is an alumna and not listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "PI is still at Harvard Medical School (DBMI); no move found"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "Members page has no last-updated date, so the roster's currency is unverified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "Member profile URLs were built from relative links (./members/*.html) on the members page; I did not open them"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "No member years or emails are published on the members page"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "PI's Google Scholar URL was not seen, so it is left null"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "No PI move found: he is still at Harvard T.H. Chan School of Public Health."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "The people page shows no research focus, year or individual profile links for any member. Those fields are null or limited to joint-PI notes."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "The people page has no last-updated date, so some entries may be out of date. Also, the focus lines for members come only from joint-PI listings, not from the members themselves."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "Several postdocs use Broad Institute, MGH or Channing email addresses, so they are joint or affiliated appointments."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "Etienne Nzabarushimana is listed as a visiting postdoc (end date 07/06/2026), so I treated him as no longer current and left him out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab",
+     "text": "No move: the PI is still at Harvard Medical School and Dana-Farber."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab",
+     "text": "The team page gives no research focus or profile links for members, so the focus lines are inferred only from stated co-mentors and lab tools."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab",
+     "text": "The team page shows no last-updated date, but it lists people who joined as recently as July 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab",
+     "text": "Staff scientists (Ying Zhou, Ahsan Sanaullah), research assistants and master's students were excluded as out of scope."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-li",
+     "entry_name": "Li Lab",
+     "text": "Alumni on the page include Kar-Tong Tan (former PhD student, now NUS) and Haoyu Cheng (now at Yale)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "Could not access zaklab.org (HTTP 403), so the members list is unverified and left empty. Check the lab site manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "The DBMI profile lists only an Executive Coordinator (Samantha Lemos), who is staff and not included."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "The AAMI job board lists a Berkowitz postdoctoral fellow opening in the Kohane Lab. I did not open the posting, so the date and deadline are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "No move detected: PI is listed as Assistant Professor in HMS Biomedical Informatics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "The people page gives no years, no individual profile pages and no research focus for several members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "The people page shows the PI's email as loconnor@broadinstitute.org. It is omitted from the member list because the PI is not a member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "Master's student Qiuqi (Autumn) Xu is listed but excluded (not a postdoc or PhD student)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "The lab's postdoc page says no positions are currently available."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "joined: Anna Green, Grace Moore, Marwan Ghanem, Nikhil George, Roger Vargas"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "The members page and individual profile pages returned HTTP 403 when I tried to open them. The roster comes only from search-result snippets of those pages, so I could not confirm that each person is current. Please check it by hand."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "No years of study or emails were visible. Individual profile URLs were not confirmed, so they are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "Matthias Gröschel is listed as a research fellow, not a postdoc or PhD student, so he is excluded. Ratnam Srivastava and Ziming (Alex) Wei are staff/associates and also excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "Gunjan Thakur (now at Merck) and Akshith Doddi (now an MD candidate) are alumni and excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-farhat",
+     "entry_name": "Farhat Lab",
+     "text": "No institution move found. The PI is still at Harvard Medical School, and 2026 postdoc job postings are active."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE)",
+     "text": "The PI is still at Harvard Medical School (DBMI) according to the HMS faculty pages found. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE)",
+     "text": "The current members page lists no PhD students. It lists 3 postdocs, plus an MMSc student (Ryan Seaman), an undergraduate intern and staff, none of whom are included in the members list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE)",
+     "text": "The page gave no start dates, so years are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE)",
+     "text": "The lab's main site is now hidivelab.org. The discovery URL gehlenborglab.org could not be opened (connection reset)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-gehlenborg",
+     "entry_name": "Gehlenborg Lab (HIDIVE)",
+     "text": "Huyen N. Nguyen appeared in search results as a postdoc but is not on the current members page, so she is probably alumni and is left out."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "joined: Yujie Guo"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "The people page lists no research focus or email for members. I did not open the individual profile pages, so member focus is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Kyung Ah (Kate) Woo is listed as a Visiting Scholar and was left out of the postdoc list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Benedikt Geiger is listed in the alumni section as a master's student who is now a BIG PhD student. He is not on the current PhD list, so check whether he is a current lab member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Recent departures include postdoc Julia Markowski (2022–2026) and research scientist Dominik Glodzik (2021–2026, now faculty at BIDMC/HMS)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group",
+     "text": "No separate lab website was found. The PI's personal Google Sites page is used as the group page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group",
+     "text": "The students page has no dates, so its currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group",
+     "text": "The students page gives no research focus, year, email or profile links for any member. Those fields are left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group",
+     "text": "Several listed trainees are mentees from other institutions: Chang Lu at Yale, Victoria Mezger at Heidelberg, and Madhav Sankaranarayanan at the Broad Institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-ma",
+     "entry_name": "Ma Group",
+     "text": "MS and undergraduate mentees and alumni were excluded, including Tavor Baharav, who is now an Assistant Professor at Johns Hopkins."
+    },
     {
      "type": "flag",
      "entry_id": "caltech-wold",
