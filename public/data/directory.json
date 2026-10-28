@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:04:16+00:00",
+ "generated_at": "2026-10-28T17:59:40+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -13,53 +13,57 @@
    "group": null,
    "department_hint": null,
    "id": "stanford-curtis",
-   "url": "https://curtis-lab.com/",
-   "focus": "The lab uses AI/ML, computational modeling, high-throughput molecular profiling and experiments to study how tumours evolve, with the aim of improving cancer prevention, diagnosis and treatment. Current projects include early cancer evolution (for example Barrett's esophagus and intestinal metaplasia, using organoid models and multiomic profiling) and tissue ecology in ER+ breast cancer. A large part of the work is single-cell and spatial transcriptomics and spatial multiomics, including how cancer cells and the microenvironment coevolve. The lab also does computational pathology and builds prognostic biomarkers from genomic and imaging data. Evolutionary and mathematical modelling of tumour growth is also part of the group's approach.",
+   "url": "https://curtis-lab.com",
+   "focus": "The lab studies cancer as an evolving system, combining experimental, computational and AI/ML approaches. A central aim is to quantify and forecast tumour evolution, including very early evolution in precancer settings such as Barrett's esophagus and intestinal metaplasia. The lab also links genotype to phenotype in malignancy using multiomic profiling, single-cell and spatial transcriptomics, and organoid and computational models. A further goal is building reliable biomarkers to guide diagnosis, early detection and treatment decisions.",
    "topics": [
     "tumour evolution",
     "cancer genomics",
-    "spatial transcriptomics / single-cell",
-    "computational pathology / ML",
-    "early cancer detection",
-    "organoid models"
+    "single-cell and spatial transcriptomics",
+    "AI/ML for oncology",
+    "early detection / precancer",
+    "computational pathology"
    ],
    "fit": {
     "score": 4,
-    "reason": "Strong overlap with cancer genomics, computational/ML methods and single-cell and spatial omics in cancer. Less emphasis on WGS and structural-variant calling, and a US move would need a visa."
+    "reason": "Strong overlap on cancer genomics, computational/ML methods and single-cell and spatial omics in cancer, with less emphasis on structural variants or bulk WGS/transcriptome pipelines; a US visa would likely be needed."
    },
    "flags": [
-    "PI is still at Stanford; no move found.",
-    "The Stanford School of Medicine team page (med.stanford.edu/curtislab/team.html) could not be opened (certificate error). Members come from curtis-lab.com/people, which does not date its content or say whether students are PhD candidates. The two pages may differ.",
-    "Search snippets of the Stanford team page showed a different, possibly older roster (e.g. Kathleen Houlahan, Ryan Schenck, Noah Greenwald, Katherine Liu). I did not confirm whether they are still in the lab and did not include them.",
-    "Stanford Profiles (via search snippet) also listed postdoc sponsorships for Nicola Calonaci, Yufeng He and Seongyeol Park. Calonaci and He are not on curtis-lab.com, so their status is unverified.",
-    "Clinical fellows (Marni McClure, Audris Chiang, Colin Bergstrom, Zach Ziheng Xu), a medical student and a post-bacc were excluded."
+    "PI has not moved. She is still at Stanford, with expanded administrative roles. The old Stanford lab page now says the lab has moved to curtis-lab.com.",
+    "The people page lists students as 'Graduate Student' without confirming they are PhD students, though the listed programs (Genetics, Cancer Biology, Chemical Engineering) are PhD programs. It gives no years and no emails. Many members have no focus listed.",
+    "Four clinical fellows (Marni McClure, Audris Chiang, Colin Bergstrom, Zach Ziheng Xu) are listed under Postdocs. They hold clinical fellow titles, so I left them out of the members list.",
+    "The page content comes from a fetch summary. Its date of last update is unknown, so confirm the roster directly with the lab.",
+    "The PI's Google Scholar URL was not seen, so it is null."
    ],
    "sources": [
     {
-     "title": "Curtis Lab - People",
-     "url": "https://curtis-lab.com/people/"
+     "title": "Curtis Lab home",
+     "url": "https://curtis-lab.com"
     },
     {
-     "title": "Christina Curtis - Stanford Profiles",
-     "url": "https://profiles.stanford.edu/christina-curtis"
+     "title": "Curtis Lab people",
+     "url": "https://curtis-lab.com/people"
     },
     {
-     "title": "Curtis Lab - Meet the Team (Stanford Medicine)",
-     "url": "https://med.stanford.edu/curtislab/team.html"
+     "title": "Christina Curtis, Stanford Profiles",
+     "url": "https://profiles.stanford.edu/christina-curtis?tab=bio"
     },
     {
-     "title": "Christina Curtis - Google Scholar",
-     "url": "https://scholar.google.com/citations?user=HwcvnBEAAAAJ&hl=en"
+     "title": "Christina Curtis, Stanford Medicine profile",
+     "url": "https://med.stanford.edu/profiles/christina-curtis"
+    },
+    {
+     "title": "Old Stanford lab page (redirects to curtis-lab.com)",
+     "url": "https://med.stanford.edu/curtislab.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T17:10:29+00:00",
+   "refreshed_at": "2026-10-28T17:59:14+00:00",
    "error": null,
    "pi_profile": {
     "name": "Christina Curtis",
-    "title": "RZ Cao Professor of Medicine, Genetics and Biomedical Data Science; Director of AI and Cancer Genomics, Stanford Cancer Institute",
+    "title": "RZ Cao Professor of Medicine, Genetics and Biomedical Data Science; Senior Vice Chair of Research, Department of Medicine",
     "profile_url": "https://profiles.stanford.edu/christina-curtis",
-    "scholar_url": "https://scholar.google.com/citations?user=HwcvnBEAAAAJ&hl=en"
+    "scholar_url": null
    },
    "members": [
     {
@@ -90,7 +94,7 @@
      "name": "Lise Mangiante",
      "role": "Postdoc",
      "year": null,
-     "focus": "Tissue ecology in ER+ breast cancer progression using single-cell spatial transcriptomics",
+     "focus": "Tissue ecology in ER+ breast cancer using single-cell spatial transcriptomics",
      "email": null,
      "profile_url": "https://profiles.stanford.edu/lise-mangiante"
     },
@@ -106,7 +110,7 @@
      "name": "Seongyeol Park",
      "role": "Postdoc",
      "year": null,
-     "focus": "Cancer evolution; coevolution of cancer cells and the microenvironment using spatial omics",
+     "focus": "Cancer evolution, cancer omics, tumour microenvironment, cancer modeling",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=h7bzIdMAAAAJ&hl=en"
     },
@@ -138,7 +142,7 @@
      "name": "Brennan Simon",
      "role": "PhD student",
      "year": null,
-     "focus": "AI/ML for modelling the tumour microenvironment with spatial multiomics, prognostic biomarkers, computational pathology (Cancer Biology)",
+     "focus": "AI/ML for oncology, spatial multiomics, computational pathology, agentic AI (Cancer Biology)",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?hl=en&user=aIeHs-0AAAAJ"
     },
@@ -167,10 +171,10 @@
      "profile_url": null
     }
    ],
-   "department": "Departments of Medicine (Oncology) and Genetics; Biomedical Data Science; Stanford Cancer Institute",
+   "department": "Medicine (Oncology), Genetics, Biomedical Data Science",
    "location": "Stanford, California, USA",
-   "current_institution": "Stanford University (School of Medicine)",
-   "members_page": "https://curtis-lab.com/people/"
+   "current_institution": "Stanford University School of Medicine",
+   "members_page": "https://curtis-lab.com/people"
   },
   {
    "name": "Goodarzi Lab",
@@ -182,43 +186,43 @@
    "group": null,
    "department_hint": null,
    "id": "arc-goodarzi",
-   "url": "https://arcinstitute.org/labs/goodarzilab",
-   "focus": "The lab builds AI/ML models for functional genomics. These include interpretable neural networks of DNA and RNA regulation, and large language and foundation models for chemistry and genomics. It studies cancer evolution and tumour-environment interactions, including how cancer cells reprogram gene expression. A central example is orphan non-coding RNAs (oncRNAs), which are largely absent from normal tissue and promote metastasis. It also studies post-transcriptional regulation in cancer and neurodegeneration, for example tRNA fragments (tiRNAs) that suppress breast cancer metastasis. Its methods pair unbiased experimental screens with computational analysis.",
+   "url": "https://goodarzilab.ucsf.edu/",
+   "focus": "The lab builds AI/ML models for in silico functional genomics. These include interpretable models of DNA and RNA regulation, plus large language and foundation models for chemistry and genomics. In cancer biology, it studies how tumour cells evolve and interact with their environment, with a focus on metastatic progression. Its work includes orphan non-coding RNAs (oncRNAs) that promote metastasis, and tRNA-derived fragments (tiRNAs) that suppress breast cancer metastasis. It also studies post-transcriptional regulatory programs in disease, and applies the same approach to neurodegenerative diseases.",
    "topics": [
-    "oncRNAs",
+    "metastasis",
+    "non-coding RNA (oncRNA, tRNA fragments)",
+    "genomic foundation models",
+    "machine learning for genomics",
     "post-transcriptional regulation",
-    "ML/foundation models for genomics",
-    "cancer metastasis",
-    "tRNA fragments",
-    "functional genomics"
+    "neurodegeneration"
    ],
    "fit": {
     "score": 3,
-    "reason": "Strong overlap on computational and ML methods for genomics and on cancer transcriptomics, but the lab centres on RNA biology and model building rather than tumour WGS, structural variants or somatic mutation analysis, and a US role would likely need a visa."
+    "reason": "The lab's ML for genomics and its cancer transcriptome and non-coding RNA work overlap with the student's interests. Its focus is metastasis and RNA regulation, not tumour WGS, structural variants or somatic mutation analysis, and a US visa would likely be needed."
    },
    "flags": [
-    "The old UCSF lab site (goodarzilab.ucsf.edu) redirects to the Arc Institute lab page. The PI is now listed at Arc and still holds a UCSF professorship; he is not a clear move away from UCSF.",
-    "The page gives no year of study or individual research focus for members, and no member emails or profile links. Only the PI email (hani.goodarzi@arcinstitute.org) is published.",
-    "Member focus lines come from degree and program details on the page, not from project descriptions.",
-    "An Arc job listing shows a postdoc position in the Konermann & Goodarzi Labs, which suggests a joint lab.",
-    "Google Scholar URL not verified."
+    "The PI is now at Arc Institute in Palo Alto. He was named a Core Investigator in September 2023, when he was a UCSF Associate Professor, and he keeps a UCSF appointment. The Arc page lists him as Professor.",
+    "goodarzilab.ucsf.edu/people redirected to the Arc Institute home page, so the Arc lab page is the current roster.",
+    "The roster page gives no per-member profile links, emails, years or project descriptions, so those fields are null or generic. It also gives no date for the last update.",
+    "Staff (Lab Manager Ishwa Muzaffery, Junior Specialist Isabelle Liu) are excluded. A search also surfaced Trey Charbonneau as a research associate, who is likewise excluded.",
+    "Arc has advertised a computational postdoc position shared with the Konermann lab."
    ],
    "sources": [
     {
-     "title": "Goodarzi Lab - Arc Institute",
+     "title": "Arc Institute – Goodarzi Lab",
      "url": "https://arcinstitute.org/labs/goodarzilab"
     },
     {
-     "title": "Hani Goodarzi - Amplify Partners",
-     "url": "https://www.amplifypartners.com/team/hani-goodarzi"
+     "title": "UCSF News: AI, cancer, Arc Institute supports curiosity-driven science",
+     "url": "https://www.ucsf.edu/news/2023/09/426191/ai-cancer-arc-institute-supports-curiosity-driven-science-ucsf"
     },
     {
-     "title": "Arc Institute announces new cohort of Investigators",
-     "url": "https://chemistry.berkeley.edu/node/2400"
+     "title": "Goodarzi Lab website",
+     "url": "https://goodarzilab.ucsf.edu/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T17:10:17+00:00",
+   "refreshed_at": "2026-10-28T17:59:04+00:00",
    "error": null,
    "pi_profile": {
     "name": "Hani Goodarzi",
@@ -231,7 +235,7 @@
      "name": "Ali Emadi",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar; PhD in Electrical Engineering, NJIT.",
+     "focus": "PhD in Electrical Engineering, New Jersey Institute of Technology; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -239,7 +243,7 @@
      "name": "Benedict Choi",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar in Biochemistry & Biophysics and Urology (Helen Diller Cancer Center).",
+     "focus": "Not specified on the Arc page",
      "email": null,
      "profile_url": null
     },
@@ -247,7 +251,7 @@
      "name": "Buyeon Um",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar; DVM and PhD in Biological Science, Seoul National University.",
+     "focus": "DVM and PhD in Biological Science, Seoul National University; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -255,7 +259,7 @@
      "name": "Ivy Liu",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar; PhD in Computational & Systems Biology, MIT.",
+     "focus": "PhD in Computational and Systems Biology, MIT; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -263,7 +267,7 @@
      "name": "Jonathan Schmok",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar; PhD in Bioengineering, UC San Diego.",
+     "focus": "PhD in Bioengineering, UC San Diego; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -271,7 +275,7 @@
      "name": "Lishi Li",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar in Biochemistry & Biophysics and Urology (Helen Diller Cancer Center).",
+     "focus": "Not specified on the Arc page",
      "email": null,
      "profile_url": null
     },
@@ -279,7 +283,7 @@
      "name": "Shaopu Zhou",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar in Biochemistry & Biophysics and Urology (Helen Diller Cancer Center).",
+     "focus": "Not specified on the Arc page",
      "email": null,
      "profile_url": null
     },
@@ -287,7 +291,7 @@
      "name": "Siyu Chen",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar in Biochemistry & Biophysics and Urology (Helen Diller Cancer Center).",
+     "focus": "Not specified on the Arc page",
      "email": null,
      "profile_url": null
     },
@@ -295,7 +299,7 @@
      "name": "Winston Arney",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral scholar; PhD in Chemistry, UNC Chapel Hill.",
+     "focus": "PhD in Chemistry, UNC Chapel Hill; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -303,7 +307,7 @@
      "name": "Chris Thompson",
      "role": "PhD student",
      "year": null,
-     "focus": "Joint with Andrew Yang; UCSF Biological and Medical Informatics PhD Program, Gladstone Institutes.",
+     "focus": "Joint with Andrew Yang; UCSF Biological and Medical Informatics PhD Program, Gladstone Institutes",
      "email": null,
      "profile_url": null
     },
@@ -311,7 +315,7 @@
      "name": "Timmy Suh",
      "role": "PhD student",
      "year": null,
-     "focus": "Graduate student in the Biomedical Sciences Graduate Program; project not listed.",
+     "focus": "UCSF Biomedical Sciences Graduate Program; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -319,7 +323,7 @@
      "name": "Vishvak Subramanyam",
      "role": "PhD student",
      "year": null,
-     "focus": "UCSF Biological and Medical Informatics PhD Program; project not listed.",
+     "focus": "UCSF Biological and Medical Informatics PhD Program; specific project not listed",
      "email": null,
      "profile_url": null
     },
@@ -327,14 +331,14 @@
      "name": "Wenxi Zhang",
      "role": "PhD student",
      "year": null,
-     "focus": "Joint with Greg Allen; Tetrad Program.",
+     "focus": "Joint with Greg Allen; Tetrad Program",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Arc Institute Core Investigator; UCSF Biochemistry & Biophysics, and Urology (Helen Diller Cancer Center)",
+   "department": "Arc Institute Core Investigator; UCSF Department of Biochemistry and Biophysics",
    "location": "Palo Alto, California, USA",
-   "current_institution": "Arc Institute (with a joint appointment at UCSF)",
+   "current_institution": "Arc Institute (with a continuing faculty appointment at UCSF)",
    "members_page": "https://arcinstitute.org/labs/goodarzilab"
   },
   {
@@ -44936,102 +44940,109 @@
    "group": null,
    "department_hint": null,
    "id": "bt-deepmind",
-   "url": "https://deepmind.google/",
-   "focus": "DeepMind's science teams build AI models for biology, and AlphaFold is the best known. AlphaFold predicts protein structures and, in later versions, complexes with other biomolecules. AlphaGenome is a sequence-to-function model that predicts regulatory effects of DNA variants, including non-coding variants. It matched or beat other leading tools on 25 of 26 variant-effect tests. It was published in Nature, with model weights released and free noncommercial access. A September 2026 report says there is also an 'AlphaGenome Atlas' browser for mapping human genetic variation, which I did not verify against an official source.",
+   "url": "https://deepmind.google/about/student-researcher-program/",
+   "focus": "Google DeepMind's science work covers protein structure (AlphaFold, the 2024 Chemistry Nobel work of Demis Hassabis and John Jumper) and regulatory genomics (AlphaGenome, which predicts the effects of DNA sequence and variants). Reports from July 2026 (Financial Times, via The Decoder and Engadget) say the dedicated AlphaFold team was dissolved. Most of its authors were reassigned to Gemini projects, enzyme design, fusion, genomics or Isomorphic Labs, and John Jumper left for Anthropic in June 2026. Pushmeet Kohli's AI for Science group is moving toward Gemini-powered systems that assist or partly automate scientific discovery. A separate team under Shekoofeh Azizi builds AI systems for cancer discovery, and it has taken PhD student researchers for work on therapeutics and single-cell biology. The Decoder article does not mention AlphaGenome by name, so I could not confirm how that team ",
    "topics": [
-    "protein structure prediction",
-    "regulatory genomics",
-    "non-coding variant effect prediction",
-    "AlphaFold",
-    "AlphaGenome",
-    "AI for science"
+    "protein structure",
+    "regulatory genomics / variant effect pre",
+    "AI for cancer discovery",
+    "single-cell biology",
+    "foundation models for science",
+    "therapeutics"
    ],
    "fit": {
     "score": 3,
-    "reason": "AlphaGenome's non-coding and somatic variant-effect prediction and its ML methods for genomics overlap with the student's cancer genomics and computational interests. AlphaFold is further from them, and the programs are generic across Google, with no cancer-specific or single-cell/spatial track that"
+    "reason": "AlphaGenome-style variant-effect modelling and the cancer and single-cell AI work overlap with the student's genomics and ML interests, but nothing I found covers tumour WGS or structural-variant analysis. The student researcher route is competitive, is not biology-specific, and may need US/UK work "
    },
    "flags": [
-    "I verified little from deepmind.google team pages and found no dedicated DeepMind biology internship. Role titles, especially John Jumper's current title, and the lead lists come from press coverage.",
-    "The AlphaGenome Atlas claim comes from a syndicated news item.",
-    "The Student Researcher page says 5 days/week, while some postings say 4. Check the current posting.",
-    "I did not find a DeepMind-specific residency or visiting program. DeepMind's regular internship and full-time roles may exist on the careers site but were not checked."
+    "Reports from July 2026 say DeepMind dissolved the AlphaFold team, and John Jumper left for Anthropic in June 2026. Leadership and team structure are in flux.",
+    "I did not verify the current organisation of the AlphaGenome team or its leads, and I am not naming AlphaGenome leads.",
+    "The student researcher deadline is unverified. The official page lists none and secondary sources conflict.",
+    "The cancer-discovery placement details come from a secondary news article about a LinkedIn post, not an official DeepMind page.",
+    "Many roles require US or UK location and work authorization, and I could not verify visa sponsorship for a Canadian student."
    ],
    "sources": [
     {
-     "title": "DeepMind Student Researcher Program",
+     "title": "Google DeepMind Student Researcher Program",
      "url": "https://deepmind.google/about/student-researcher-program/"
     },
     {
-     "title": "Google careers: student researcher search",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/?q=student%20researcher%20program"
+     "title": "The Decoder: DeepMind dismantles its AlphaFold team",
+     "url": "https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/"
     },
     {
-     "title": "MIT Technology Review: AlphaGenome",
-     "url": "https://www.technologyreview.com/2025/06/25/1119345/google-deepmind-alphagenome-ai"
+     "title": "Engadget: Google shuts down AlphaFold project",
+     "url": "https://engadget.com/2225849/google-shuts-down-alphafold"
     },
     {
-     "title": "Smithsonian: AlphaGenome",
-     "url": "https://www.smithsonianmag.com/smart-news/google-researchers-say-their-new-ai-tool-alphagenome-can-help-decode-the-human-genetic-instruction-book-180988107/"
+     "title": "EdTech Innovation Hub: DeepMind student researcher roles for AI-driven cancer research",
+     "url": "https://edtechinnovationhub.com/news/google-deepmind-opens-student-researcher-roles-to-support-ai-driven-cancer-research"
     },
     {
-     "title": "U of Toronto SGS: Google PhD Fellowship",
+     "title": "UBC: Google PhD Fellowship",
+     "url": "https://www.grad.ubc.ca/node/16590"
+    },
+    {
+     "title": "U of T SGS: Google PhD Fellowship",
      "url": "https://www.sgs.utoronto.ca/awards/google-phd-fellowship/"
-    },
-    {
-     "title": "Waterloo: Google PhD Fellowship",
-     "url": "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/awards/google-phd-fellowship"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T17:10:47+00:00",
+   "refreshed_at": "2026-10-28T17:59:11+00:00",
    "error": null,
    "leads": [
     {
      "name": "Pushmeet Kohli",
-     "role": "VP, Science & Strategic Initiatives; head of AI for science",
-     "background": "Leads DeepMind's AI-for-science work, including the AlphaGenome effort. Reported in press coverage; I did not check an official profile page.",
-     "profile_url": null
+     "role": "VP of Research, Google DeepMind; founded and leads the AI for Science team (titled VP of Science and Strategic Initiatives in earlier coverage)",
+     "background": "Leads DeepMind's science programme, which covers AlphaFold, AlphaGenome and related work. Press reports say he is shifting the strategy toward Gemini-based systems that assist scientists.",
+     "profile_url": "https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/"
     },
     {
-     "name": "Žiga Avsec",
-     "role": "Research Scientist; leads the AlphaGenome research team",
-     "background": "Computational genomicist who is lead author of AlphaGenome. Press coverage names Avsec as a lead of the AlphaGenome team.",
-     "profile_url": null
-    },
-    {
-     "name": "John Jumper",
-     "role": "Director / AlphaFold lead. This title was not verified.",
-     "background": "AlphaFold 2 co-creator who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis and David Baker.",
-     "profile_url": null
+     "name": "Shekoofeh Azizi",
+     "role": "Staff Research Scientist, Google DeepMind (leads a team working on Med-PaLM, Med-Gemini and TxGemma, and an AI-for-cancer-discovery effort)",
+     "background": "Announced the cancer-discovery student researcher placements. Her team works on medical and therapeutics AI.",
+     "profile_url": "https://edtechinnovationhub.com/news/google-deepmind-opens-student-researcher-roles-to-support-ai-driven-cancer-research"
     }
    ],
    "programs": [
     {
      "name": "Student Researcher Program (Google DeepMind / Google Research)",
      "type": "student researcher",
-     "requirements": "Currently enrolled in a bachelor's, master's or PhD program. Postings ask for a relevant field such as CS, statistics, maths or natural sciences, plus experience in an area of computer science such as ML. They also ask for English proficiency, a CV and a transcript. Preferred: prior research experience, publications, returning to the degree programme afterwards. Applicants are matched across Google research teams, so a biology team is not guaranteed.",
-     "eligibility": "Applicants must be located in one of the countries listed for the role for the whole engagement. Check country listings, and check visa and work-authorization needs for US/UK roles, which were not verified. Applications are sorted by degree level (BS/MS/PhD) and location.",
+     "requirements": "Currently enrolled in a bachelor's, master's or PhD program. Postings ask for a relevant field (CS, statistics, maths, natural sciences) and experience in an area of computer science such as ML. They also ask for a CV, an English transcript, and English proficiency. Prior research experience and publications are preferred. Applicants are matched across Google AI teams, so a biology team is not guaranteed.",
+     "eligibility": "Applicants must be located in a country listed for the specific role for the whole engagement. Many US postings require being located in the US, and I did not verify visa sponsorship, so check each posting. The program page says applications are sorted by degree level and location.",
      "location": "In person at a Google office",
-     "duration": "12-24 weeks, full-time (about 5 days/week on the official page; some postings sa",
+     "duration": "12-24 weeks, full-time (5 days/week)",
      "deadline": null,
-     "deadline_text": "The official page for the 2026-2027 cycle gives no deadline. A 2026 posting I saw reportedly closed on 2026-03-31. Check",
+     "deadline_text": "The official 2026-27 page gives no deadline and does not say whether applications are open. Secondary sources conflict: ",
      "status": "unknown",
      "url": "https://deepmind.google/about/student-researcher-program/"
     },
     {
+     "name": "DeepMind cancer-discovery PhD student researcher placements (Azizi team)",
+     "type": "student researcher",
+     "requirements": "Enrolled in a PhD in CS, statistics, applied maths or a related field. Experience in ML, NLP or data science and prior research (papers or lab work) are expected. The roles are non-conversion, meaning they are not meant to lead to full-time employment.",
+     "eligibility": "Mainly North America, with Mountain View preferred. Candidates must be able to work from the US for the full placement, which would need a visa or work authorization for a Canadian student.",
+     "location": "Mountain View, CA (preferred) / North America",
+     "duration": "6-9 months",
+     "deadline": null,
+     "deadline_text": "The 2026 round (starting May-June 2026) has passed. Whether it will repeat is unknown. It was announced on LinkedIn by A",
+     "status": "closed",
+     "url": "https://edtechinnovationhub.com/news/google-deepmind-opens-student-researcher-roles-to-support-ai-driven-cancer-research"
+    },
+    {
      "name": "Google PhD Fellowship Program (US/Canada)",
      "type": "fellowship",
-     "requirements": "Applicants must have completed graduate coursework by the start of the fellowship academic year. They must stay enrolled full-time, and past awardees cannot reapply. The award is up to US$85K per year for up to two years.",
-     "eligibility": "PhD students at nominating universities in the US and Canada. Applicants cannot apply directly to Google. Each school runs an internal nomination process, and examples of internal deadlines in 2026 were March 27 at Toronto and April 10 at Waterloo. As a first-year student you probably won't have fin",
+     "requirements": "Applicants must have completed graduate coursework by the start of the fellowship year. They must stay enrolled full-time, and past awardees cannot reapply. UBC's package is a single PDF with a department-chair cover sheet, CV, supervisor CV, lay abstract, a 3-page proposal, 2-3 recommendation letters, essays on research impact and leadership, and transcripts. The award is up to US$85K per year for up to 2 years.",
+     "eligibility": "Full-time UBC PhD students, including Canadian citizens, permanent residents and international students. Students cannot apply to Google directly. UBC's Faculty of Graduate and Postdoctoral Studies nominates up to 4 students. A first-year student probably will not have finished coursework by the cut",
      "location": "Home university (UBC)",
      "duration": "Up to 2 years",
      "deadline": null,
-     "deadline_text": "The 2026 cycle has closed (Google portal around 2026-04-30). The next cycle usually opens in early spring, with internal",
+     "deadline_text": "The 2026 cycle closed: UBC's internal deadline was 2026-04-08 and Google's was 2026-04-30. The UBC page says the next de",
      "status": "closed",
-     "url": "https://www.sgs.utoronto.ca/awards/google-phd-fellowship/"
+     "url": "https://www.grad.ubc.ca/node/16590"
     }
    ],
-   "location": "London, UK (HQ); Google offices in the US and elsewhere"
+   "location": "London, UK (HQ); Mountain View, California, US; other Google offices"
   },
   {
    "name": "Google Research",
@@ -46302,64 +46313,68 @@
    "department_hint": null,
    "id": "bio-tempus",
    "url": "https://www.tempus.com/about-us/our-team/",
-   "focus": "Tempus is a precision-medicine and AI company that runs clinical-grade next-generation sequencing for cancer patients. The assays cover DNA and RNA, including tumour/normal and whole-exome or transcriptome profiling. It links the molecular data to de-identified clinical records, and uses that large multimodal dataset to train machine-learning models. These models support treatment matching, clinical-trial matching and biomarker discovery. It also licenses the data to pharma partners for drug development. The intern project I found in the 2026 summer posting was a somatic copy number model of the cancer genome, which fits its genomics-focused research work. I could not load the official team pages to confirm further detail on the research groups.",
+   "focus": "Tempus runs a large clinical sequencing and data business. It does tumour DNA and RNA profiling and builds a de-identified multimodal oncology database that links genomic, transcriptomic and clinical records. Its internal bioinformatics work includes somatic variant and copy number modelling of the cancer genome, which is the project named in the 2026 PhD internship posting. Tempus also develops machine-learning models on this data for diagnostics, biomarker discovery and pharma partnerships. I could not confirm the specific scope of its single-cell or spatial work from the sources I opened.",
    "topics": [
     "cancer genomics",
-    "clinical NGS",
-    "somatic copy number",
-    "multimodal real-world data",
-    "machine learning",
-    "precision oncology"
+    "tumour sequencing",
+    "copy number / somatic variants",
+    "clinical-genomic ML",
+    "precision oncology",
+    "real-world data"
    ],
    "fit": {
-    "score": 4,
-    "reason": "Its work centres on tumour sequencing, somatic variant and copy-number analysis, and ML on genomics, and there is a PhD bioinformatics internship. The costs are that it is US-based (Chicago, needs a visa), it requires graduation within about a year, and it has little single-cell or spatial emphasis."
+    "score": 3,
+    "reason": "The bioinformatics internship centres on somatic copy number modelling in cancer genomes and the company has strong tumour sequencing and ML work, but the internship targets students near graduation and US work authorization is unclear, and I found no clear single-cell or spatial program."
    },
    "flags": [
-    "I could not load Tempus's official careers or team pages (a 429 error). Program details come from job-board mirrors (Revolution, Lightbank, Simplify), so confirm them on Tempus's careers site.",
-    "I found no PhD fellowship, residency, student researcher or visiting programs.",
-    "The leads' backgrounds are partly unverified. I found no named head of a computational biology or AI-for-science team, so the three leads are company executives.",
-    "The 2026 internship asked for graduation within about a year, which excludes a first-year PhD student. The Translational Research and Scientific Solutions postings were not read in full.",
-    "The student would likely need US work authorization for these roles."
+    "Leadership titles conflict across sources, and a governance database lists other executives (Greg Fisbeck, Ezra Cohen) in science or technology roles. Check the current Tempus team page and SEC filings.",
+    "I found no dedicated head of a computational biology or AI-for-science team. The leads listed are company-level executives.",
+    "Tempus has no PhD fellowship, residency or visiting program that I could find. Only the summer internships turned up.",
+    "The Translational Research and Scientific Solutions entries were not re-opened this check, so their details are carried over from last week.",
+    "A first-year student would likely miss the graduation-window requirement in the 2026 PhD internship posting. Check whether the 2027 posting uses the same wording. A visa would probably be needed for a US role."
    ],
    "sources": [
     {
-     "title": "Tempus Bioinformatics Summer Associate (Revolution job board)",
+     "title": "Tempus our team",
+     "url": "https://www.tempus.com/about-us/our-team/"
+    },
+    {
+     "title": "Tempus Leadership Team",
+     "url": "https://www.tempus.com/?p=303"
+    },
+    {
+     "title": "Bioinformatics Summer Associate posting",
      "url": "https://jobs.revolution.com/companies/tempus/jobs/68104981-bioinformatics-summer-associate"
     },
     {
-     "title": "Tempus Translational Research Summer Associate",
-     "url": "https://jobs.revolution.com/companies/tempus/jobs/66213415-translational-research-summer-associate"
+     "title": "Extern Tempus AI internship guide",
+     "url": "https://www.extern.com/post/tempus-ai-internship-guide"
     },
     {
-     "title": "Tempus Scientific Solutions Summer Analyst",
-     "url": "https://jobs.revolution.com/companies/tempus/jobs/67376040-scientific-solutions-summer-analyst"
-    },
-    {
-     "title": "Tempus Our Team",
-     "url": "https://www.tempus.com/about-us/our-team/"
+     "title": "MarketScreener Tempus AI governance",
+     "url": "https://www.marketscreener.com/quote/stock/TEMPUS-AI-INC-171113321/company-governance/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T17:11:07+00:00",
+   "refreshed_at": "2026-10-28T17:59:33+00:00",
    "error": null,
    "leads": [
     {
      "name": "Eric Lefkofsky",
-     "role": "Founder and CEO",
-     "background": "Serial entrepreneur and co-founder of Groupon and the venture firm Lightbank. He founded Tempus in 2015.",
+     "role": "Founder, CEO and Chairman",
+     "background": "Founded Tempus to apply AI to clinical and molecular data in precision medicine. Controls the company through dual-class stock.",
      "profile_url": "https://www.tempus.com/about-us/our-team/"
     },
     {
      "name": "Kate Sasser, PhD",
-     "role": "Chief Scientific Officer",
-     "background": "Listed as CSO on Tempus's leadership page. I did not retrieve a bio, so her background is unverified.",
+     "role": "Chief Scientific Officer (per Tempus leadership page; title not re-verified against current filings)",
+     "background": "Leads Tempus science. I did not verify her background beyond the title.",
      "profile_url": "https://www.tempus.com/about-us/our-team/"
     },
     {
-     "name": "Shane Colley",
-     "role": "Chief Technology Officer",
-     "background": "Listed as CTO on Tempus's leadership page. A search summary says he previously led product and development at R1 RCM; I did not confirm this on an official page.",
+     "name": "Ryan Fukushima",
+     "role": "Chief Operating Officer on one page; the team page lists him as CEO, Data & Apps. The sources conflict.",
+     "background": "Senior operating leader whose remit includes the data and applications side. I did not verify more.",
      "profile_url": "https://www.tempus.com/about-us/our-team/"
     }
    ],
@@ -46367,31 +46382,31 @@
     {
      "name": "Bioinformatics Summer Associate (PhD intern)",
      "type": "internship",
-     "requirements": "Currently pursuing a PhD in bioinformatics, computational biology, biostatistics or a related field. Python is required, and coding and data analysis skills are assessed. Basic cancer genomics knowledge is required. Copy number modelling experience is highly desirable. A record of first-author conference presentations or publications is expected. Strong communication skills.",
-     "eligibility": "The 2026 posting asked for an expected PhD graduation between winter 2026 and summer 2027. A first-year student would likely not meet this. Work authorization is not stated in the posting I read. A separate Scientific Solutions listing said Tempus has historically provided H1B sponsorship, but that ",
+     "requirements": "Pursuing a PhD in bioinformatics, computational biology, biostatistics or a related field. Python required. Basic cancer genomics knowledge required. Copy number modelling experience desirable. Independent research shown by first-author conference presentations or publications. Strong written and verbal communication.",
+     "eligibility": "The 2026 posting asked for expected graduation between winter 2026 and summer 2027, so a first-year student would likely not qualify under that wording. Work authorization is not stated in the posting. A separate Scientific Solutions listing said H1B sponsorship has historically been provided, but t",
      "location": "Chicago, IL (hybrid, 3 days a week onsite)",
-     "duration": "9 or 11 weeks; pay was $35/hour",
+     "duration": "9 or 11 weeks; $35/hour (Illinois)",
      "deadline": null,
-     "deadline_text": "The Summer 2026 posting is closed. The next cycle has not been posted. The 2026 roles appeared from about January to Feb",
+     "deadline_text": "The Summer 2026 posting is closed (confirmed on the page). No Summer 2027 requisitions were live as of an August 2026 in",
      "status": "closed",
      "url": "https://jobs.revolution.com/companies/tempus/jobs/68104981-bioinformatics-summer-associate"
     },
     {
      "name": "Translational Research Summer Associate",
      "type": "internship",
-     "requirements": "Details not retrieved. It was posted in January 2026 at $35/hour.",
-     "eligibility": "Not verified. I did not open the posting.",
+     "requirements": "Not verified. I did not open the posting this time.",
+     "eligibility": "Not verified.",
      "location": "Chicago, IL (not verified)",
      "duration": "Not verified",
      "deadline": null,
-     "deadline_text": "Closed per a mirror site. Likely to reopen around January 2027, inferred.",
+     "deadline_text": "The 2026 posting was closed per a mirror site. It will likely reopen around January 2027, which is an inference.",
      "status": "closed",
      "url": "https://jobs.revolution.com/companies/tempus/jobs/66213415-translational-research-summer-associate"
     },
     {
-     "name": "Scientific Solutions Summer Intern",
+     "name": "Scientific Solutions Summer Intern / Analyst",
      "type": "internship",
-     "requirements": "Master's or PhD in a quantitative or computational field, with R or Python skills. Listed on an aggregator, not confirmed on Tempus's site.",
+     "requirements": "Master's or PhD in a quantitative or computational field, with R or Python skills. Listed on aggregators, not confirmed on Tempus's own site.",
      "eligibility": "Expected graduation winter 2026 or spring 2027. The listing said H1B sponsorship has historically been provided.",
      "location": "Chicago, IL (hybrid, 3 days a week onsite)",
      "duration": "Not verified",
@@ -46401,7 +46416,7 @@
      "url": "https://jobs.revolution.com/companies/tempus/jobs/67376040-scientific-solutions-summer-analyst"
     }
    ],
-   "location": "Chicago, IL (HQ). Other sites exist, but I did not verify them."
+   "location": "Chicago, IL (HQ)"
   },
   {
    "name": "Ginkgo Bioworks",
@@ -47564,24 +47579,25 @@
    "department_hint": null,
    "id": "st-noetik",
    "url": "https://www.noetik.ai",
-   "focus": "Noetik is an AI-native biotech, founded in 2022, that builds machine-learning models for cancer therapeutics. It generates large multimodal tumour datasets, with a focus on spatial biology (genomics, transcriptomics and proteomics). It trains self-supervised foundation models of patient tumour and tissue biology on this data. Its internal 'Data Foundry' is a lab-in-the-loop platform for large-scale spatial data. Its Therapeutics group uses the models for target discovery, patient stratification and diagnostics in oncology and immunotherapy. A 2023 seed round of $14M was led by DCVC; I did not check for later funding.",
+   "focus": "Noetik is an AI-native biotech company focused on cancer. It builds foundation models of patient tumour biology, trained on a large collection of multimodal tumour data. Its in-house \"Data Foundry\" is a lab-in-the-loop platform that generates large-scale multimodal spatial data, and the company's website describes it as spatial biology. The company applies the models to clinical trial enrichment, matching existing drugs to the right patients, and discovering new cancer targets. A 2023 press release described the earlier focus as cancer immunotherapy, with data covering 20+ molecular data types.",
    "topics": [
-    "cancer foundation models",
-    "spatial transcriptomics/proteomics",
-    "multimodal tumour data",
-    "self-supervised learning",
-    "immuno-oncology",
-    "target discovery"
+    "spatial omics",
+    "tumour foundation models",
+    "cancer immunotherapy",
+    "patient stratification",
+    "target discovery",
+    "multimodal data"
    ],
    "fit": {
-    "score": 3,
-    "reason": "Strong overlap with the student's interests in ML for cancer, spatial and single-cell omics and transcriptomics, but there is no student program, the company is US-based, and the work centres on spatial multimodal data rather than WGS or structural variants."
+    "score": 4,
+    "reason": "Its work on spatial and multimodal tumour data and ML methods matches the student's single-cell/spatial omics and computational interests; there is less emphasis on WGS and structural-variant analysis, and no student program is posted."
    },
    "flags": [
-    "No internship, fellowship, residency or student researcher programme was found on the Noetik careers page. It only offers 'Express interest' forms (via Greenhouse) for four areas: Artificial Intelligence, Engineering, Data Foundry and Therapeutics.",
-    "I could not see any individual job postings, so I could not check requirements, locations or deadlines.",
-    "Working in the US would likely need a visa for a Canadian student.",
-    "A cold outreach or general expression of interest to the AI research team is the realistic route; ask about a short-term or research-collaboration role."
+    "The careers page (noetik.ai/careers) lists no internship, fellowship, residency, student researcher or visiting programs. It only has 'Express interest' links under AI, Engineering, Data Foundry and Therapeutics.",
+    "I found no evidence of an annual intake cycle, so I can't say when a program usually opens. Contact the company directly, or use the Express interest links, to ask about student roles.",
+    "The company is hybrid and based in the US. A Canadian student would likely need a visa or work authorization for a US-based role.",
+    "The team page gave no individual profile URLs, so profile_url points to the shared team page.",
+    "Founder list: the 2023 press coverage names Jacob Rinaldi (Co-Founder and CSO), but he does not appear on the current team page, so I left him out. Leadership may have changed since then."
    ],
    "sources": [
     {
@@ -47597,45 +47613,45 @@
      "url": "https://www.noetik.ai/team"
     },
     {
-     "title": "DCVC leads $14 million seed round to support Noetik",
+     "title": "DCVC leads $14M seed round to support Noetik",
      "url": "https://www.dcvc.com/news-insights/dcvc-leads-14-million-seed-round-to-support-noetik/"
     },
     {
-     "title": "AWS Startups: Noetik powers precision cancer therapies with machine learning",
-     "url": "https://aws.amazon.com/aws-startups/learn/noetik-powers-precision-cancer-therapies-with-machine-learning/"
+     "title": "Noetik Raises $14 Million Seed Financing (Business Wire)",
+     "url": "https://businesswire.com/news/home/20230907509972/en"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T17:11:13+00:00",
+   "refreshed_at": "2026-10-28T17:59:40+00:00",
    "error": null,
    "leads": [
     {
-     "name": "Ron W. Alfa, MD, PhD",
-     "role": "Co-Founder and CEO",
-     "background": "Previously SVP, Head of Research at Recursion; Stanford MD and PhD (Neuroscience).",
+     "name": "Ron W. Alfa",
+     "role": "Co-Founder & CEO",
+     "background": "MD, PhD (Stanford). Former SVP and Head of Research at Recursion.",
      "profile_url": "https://www.noetik.ai/team"
     },
     {
-     "name": "Daniel Bear, PhD",
-     "role": "EVP, Chief AI Officer",
-     "background": "Former computer vision and AI researcher with a Stanford postdoc; founded a stealth self-supervised learning startup.",
-     "profile_url": "https://www.noetik.ai/team"
-    },
-    {
-     "name": "Lacey Padrón, PhD",
+     "name": "Lacey Padrón",
      "role": "Chief Technology Officer",
-     "background": "Previously VP of Informatics at the Parker Institute for Cancer Immunotherapy (multiomic immunotherapy data analysis).",
+     "background": "PhD. Former VP of Informatics at the Parker Institute for Cancer Immunotherapy, where she worked on multiomic data analysis.",
      "profile_url": "https://www.noetik.ai/team"
     },
     {
-     "name": "Meromit Singer, PhD",
+     "name": "Daniel Bear",
+     "role": "EVP, Chief AI Officer",
+     "background": "PhD (Harvard). Computer vision and AI researcher with a Stanford postdoc.",
+     "profile_url": "https://www.noetik.ai/team"
+    },
+    {
+     "name": "Meromit Singer",
      "role": "Head of Applied AI Research",
-     "background": "Previously led computational research at Guardant Health; former Assistant Professor at Harvard Medical School and Dana-Farber. (The PhD is not stated on the team page; I'm assuming it.)",
+     "background": "Former Head of Computational Research and Early Development at Guardant Health. Former Harvard/Dana-Farber faculty member.",
      "profile_url": "https://www.noetik.ai/team"
     }
    ],
    "programs": [],
-   "location": "South San Francisco, CA (2 Tower Place). Hybrid company with quarterly co-working weeks in San Francisco and an East Coa"
+   "location": "South San Francisco, CA (HQ); hybrid team with a New York City co-working presence"
   },
   {
    "name": "Generate:Biomedicines",

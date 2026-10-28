@@ -1,6 +1,183 @@
 {
  "weeks": [
   {
+   "week": "2026-10-28",
+   "generated_at": "2026-10-28T17:59:40+00:00",
+   "checked": 5,
+   "items": [
+    {
+     "type": "flag",
+     "entry_id": "stanford-curtis",
+     "entry_name": "Curtis Lab",
+     "text": "PI has not moved. She is still at Stanford, with expanded administrative roles. The old Stanford lab page now says the lab has moved to curtis-lab.com."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-curtis",
+     "entry_name": "Curtis Lab",
+     "text": "The people page lists students as 'Graduate Student' without confirming they are PhD students, though the listed programs (Genetics, Cancer Biology, Chemical Engineering) are PhD programs. It gives no years and no emails. Many members have no focus listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-curtis",
+     "entry_name": "Curtis Lab",
+     "text": "Four clinical fellows (Marni McClure, Audris Chiang, Colin Bergstrom, Zach Ziheng Xu) are listed under Postdocs. They hold clinical fellow titles, so I left them out of the members list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-curtis",
+     "entry_name": "Curtis Lab",
+     "text": "The page content comes from a fetch summary. Its date of last update is unknown, so confirm the roster directly with the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-curtis",
+     "entry_name": "Curtis Lab",
+     "text": "The PI's Google Scholar URL was not seen, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab",
+     "text": "The PI is now at Arc Institute in Palo Alto. He was named a Core Investigator in September 2023, when he was a UCSF Associate Professor, and he keeps a UCSF appointment. The Arc page lists him as Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab",
+     "text": "goodarzilab.ucsf.edu/people redirected to the Arc Institute home page, so the Arc lab page is the current roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab",
+     "text": "The roster page gives no per-member profile links, emails, years or project descriptions, so those fields are null or generic. It also gives no date for the last update."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab",
+     "text": "Staff (Lab Manager Ishwa Muzaffery, Junior Specialist Isabelle Liu) are excluded. A search also surfaced Trey Charbonneau as a research associate, who is likewise excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-goodarzi",
+     "entry_name": "Goodarzi Lab",
+     "text": "Arc has advertised a computational postdoc position shared with the Konermann lab."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "New program: DeepMind cancer-discovery PhD student researcher placements (Azizi team)",
+     "url": "https://edtechinnovationhub.com/news/google-deepmind-opens-student-researcher-roles-to-support-ai-driven-cancer-research"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "Reports from July 2026 say DeepMind dissolved the AlphaFold team, and John Jumper left for Anthropic in June 2026. Leadership and team structure are in flux."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "I did not verify the current organisation of the AlphaGenome team or its leads, and I am not naming AlphaGenome leads."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "The student researcher deadline is unverified. The official page lists none and secondary sources conflict."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "The cancer-discovery placement details come from a secondary news article about a LinkedIn post, not an official DeepMind page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-deepmind",
+     "entry_name": "Google DeepMind",
+     "text": "Many roles require US or UK location and work authorization, and I could not verify visa sponsorship for a Canadian student."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "New program: Scientific Solutions Summer Intern / Analyst",
+     "url": "https://jobs.revolution.com/companies/tempus/jobs/67376040-scientific-solutions-summer-analyst"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "No longer listed: Scientific Solutions Summer Intern"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "Leadership titles conflict across sources, and a governance database lists other executives (Greg Fisbeck, Ezra Cohen) in science or technology roles. Check the current Tempus team page and SEC filings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "I found no dedicated head of a computational biology or AI-for-science team. The leads listed are company-level executives."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "Tempus has no PhD fellowship, residency or visiting program that I could find. Only the summer internships turned up."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "The Translational Research and Scientific Solutions entries were not re-opened this check, so their details are carried over from last week."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-tempus",
+     "entry_name": "Tempus AI",
+     "text": "A first-year student would likely miss the graduation-window requirement in the 2026 PhD internship posting. Check whether the 2027 posting uses the same wording. A visa would probably be needed for a US role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-noetik",
+     "entry_name": "Noetik",
+     "text": "The careers page (noetik.ai/careers) lists no internship, fellowship, residency, student researcher or visiting programs. It only has 'Express interest' links under AI, Engineering, Data Foundry and Therapeutics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-noetik",
+     "entry_name": "Noetik",
+     "text": "I found no evidence of an annual intake cycle, so I can't say when a program usually opens. Contact the company directly, or use the Express interest links, to ask about student roles."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-noetik",
+     "entry_name": "Noetik",
+     "text": "The company is hybrid and based in the US. A Canadian student would likely need a visa or work authorization for a US-based role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-noetik",
+     "entry_name": "Noetik",
+     "text": "The team page gave no individual profile URLs, so profile_url points to the shared team page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-noetik",
+     "entry_name": "Noetik",
+     "text": "Founder list: the 2023 press coverage names Jacob Rinaldi (Co-Founder and CSO), but he does not appear on the current team page, so I left him out. Leadership may have changed since then."
+    }
+   ]
+  },
+  {
    "week": "2026-10-22",
    "generated_at": "2026-10-22T11:54:51+00:00",
    "checked": 23,
