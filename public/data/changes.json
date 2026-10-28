@@ -2,9 +2,315 @@
  "weeks": [
   {
    "week": "2026-10-28",
-   "generated_at": "2026-10-28T19:07:45+00:00",
+   "generated_at": "2026-10-28T20:03:31+00:00",
    "checked": 10,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab",
+     "text": "The members page was last edited 2025-01-06, so it may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab",
+     "text": "The page lists no current postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab",
+     "text": "The page gives the email in obfuscated form ('sgoh -> caltech.edu'); sgoh@caltech.edu is my reading of it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab",
+     "text": "The PI is still at Caltech; no move found. The BBE profile gives the research website as biology.caltech.edu/Members/Wold, which I could not open because of a certificate error. The lab's own site is woldlab.caltech.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-wold",
+     "entry_name": "Wold Lab",
+     "text": "I did not find a Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab",
+     "text": "The PI is still at Caltech. A search result also showed a theorg.com page placing him at the Allen Institute, which I did not verify. It is likely a stale or incidental affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab",
+     "text": "The team page gives no last-updated date. The footer says © 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab",
+     "text": "The team page gives no research focus, start year or profile link for any member. The focus fields hold program or degree information only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab",
+     "text": "Three people with postdoc titles (Uriah Israel, Erick Moen, Nitzan Raizen) appear under 'Alumni' and were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-valen",
+     "entry_name": "Van Valen Lab",
+     "text": "Emails come from the team page. Some were obfuscated and shown without a domain (Aihara, Dilip, Li, Mar'i), so I set those to null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "joined: Boyoung Shin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "PI is still at Caltech. Older pages still use the former title 'Albert Billings Ruddock Professor'. The Ruddock chair ran 2007–2021, and her current title is Edward B. Lewis Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "Boyoung Shin is listed on the people page, but their lab profile URL redirects to an Emory University directory page (med.emory.edu). That page showed no profile content. They may have moved to Emory, so verify before contacting."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "The people page shows no last-updated date, only a 2026 copyright notice."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "The page lists the two students as 'Graduate Students' without stating PhD status. They are assumed to be PhD students. No cohort years are given."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-rothenberg",
+     "entry_name": "Rothenberg Lab",
+     "text": "No emails are published on the lab pages. Sami Chang's email appears only as an obfuscated link."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "joined: Martin Holmes, Salvador Buse, Sandra Temgoua"
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "PI is still at Caltech; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "Members page says it was last updated 24 April 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "The members page gives no individual profile links or years in the program, so those are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "Emails are shown with an obfuscated '@' on the page, and I restored the '@'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-winfree",
+     "entry_name": "Winfree Lab",
+     "text": "I did not find a Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "joined: Binglun Shao, Jiayi Yin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "PI is still at Caltech. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "The members page does not show the date it was last updated, student years, or whether each person is current. The list reflects who appears under each heading."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "Binglun Shao and Jiayi Yin appear under PhD students with no details."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "James Gornet's listed email is a Gmail address, so I left it out. The page shows Alexander Detkov's email in a malformed format, but it reads as a Caltech address."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-thomson",
+     "entry_name": "Thomson Lab",
+     "text": "I did not find the PI's Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab",
+     "text": "No PI move: the Caltech BBE page still lists Sternberg at Caltech."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab",
+     "text": "No Google Scholar link was found on the official pages, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab",
+     "text": "The members page does not show a last-updated date, and I did not check each profile page. The roster may be stale."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab",
+     "text": "Most members have no research focus listed, and no emails were found on the members page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "caltech-sternberg",
+     "entry_name": "Sternberg Lab",
+     "text": "Any US role would likely need a visa for a Canadian-based student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-aryee",
+     "entry_name": "Aryee Lab",
+     "text": "PI's primary appointment moved from MGH Pathology to Dana-Farber Data Sciences (effective 2022-01-01), so the listed MGH/Pathology hint is outdated; he keeps an HMS Pathology appointment"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-aryee",
+     "entry_name": "Aryee Lab",
+     "text": "Lab people page could not be accessed (aryeelab.org DNS failure, www variant refused, aryee.mgh.harvard.edu certificate expired, Harvard profile pages 403), so no members were verified and the list is empty"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-aryee",
+     "entry_name": "Aryee Lab",
+     "text": "Google Scholar URL not verified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-aryee",
+     "entry_name": "Aryee Lab",
+     "text": "Check the lab site directly for the current roster"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab",
+     "text": "No PI move found: the lab site still lists Harvard Medical School, Department of Biomedical Informatics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab",
+     "text": "The members page shows no update date and no year of study for anyone, so the roster may be out of date. A search snippet suggested the page was last crawled long ago, and the only date on it is a PI CV dated 12/3/24."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab",
+     "text": "Emails come from the lab people page, which lists them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab",
+     "text": "Undergraduates (Sam Capehart, Thara Noel, Kesther Jean) and the postbac technician (Mariam Elawady) were excluded as out of scope."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-baym",
+     "entry_name": "Baym Lab",
+     "text": "Pronouns were not stated for anyone, so none are used."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-avillach",
+     "entry_name": "Avillach Lab",
+     "text": "Lab people page returned HTTP 403, so the current postdoc and PhD student roster could not be verified; members list left empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-avillach",
+     "entry_name": "Avillach Lab",
+     "text": "DBMI profile lists only a research/administrative coordinator (staff, excluded)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-avillach",
+     "entry_name": "Avillach Lab",
+     "text": "PI titles differ across DBMI pages (Associate vs Assistant Professor); the profile page lists Associate Professor of Biomedical Informatics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-avillach",
+     "entry_name": "Avillach Lab",
+     "text": "Visa needed for a US role; a DBMI postdoc listing for the lab exists but its date was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab)",
+     "text": "Could not verify a current roster of postdocs or PhD students. The official people page (celehs.hms.harvard.edu/people) returned only a redirect to my fetcher, so no member list was extracted."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab)",
+     "text": "The CELEHS Netlify mirror people page (copyright 2025) lists only the director and collaborators, with no roles given. Yuri Ahuja appeared in a search snippet as an MD-PhD (Biostatistics) student, but I could not confirm this on the page, so he is not listed as a member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab)",
+     "text": "No sign of a PI move: Cai remains at Harvard (HMS DBMI / HSPH Biostatistics)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab)",
+     "text": "The DBMI page for the Cai lab (positions) says there are no current openings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-cai",
+     "entry_name": "CELEHS (Cai Lab)",
+     "text": "Google Scholar URL not found, so it is left null."
+    },
     {
      "type": "members_changed",
      "entry_id": "other-getz",

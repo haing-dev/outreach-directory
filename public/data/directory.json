@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T19:07:45+00:00",
+ "generated_at": "2026-10-28T20:03:31+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -11978,43 +11978,43 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (functional genomics)",
    "id": "caltech-wold",
-   "url": "https://cistematic.caltech.edu/wiki/people",
-   "focus": "The lab studies transcriptional networks in mouse and human, using functional genomics. Its work includes long-read RNA-seq to find and quantify novel isoforms, for example in very large muscle genes. It also develops single-cell and single-nucleus methods such as LR-Split-seq, which combines combinatorial barcoding with long-read sequencing. The lab is a Caltech contributor to ENCODE, and its work on skeletal muscle and satellite-cell regulation is a recurring theme. It does not work on cancer.",
+   "url": "https://woldlab.caltech.edu",
+   "focus": "The lab studies how cell identity is regulated in mammalian development, regeneration and aging, using genome science. It asks how differentiation pathways are encoded in DNA and read out in the transcriptome, and its work centres on transcriptional networks in mouse and human. It develops new genomic technologies and helps build international reference transcriptome and regulatory-element databases (ENCODE-style resources). It also publishes software, including RNA-Seq tools, a ChIP-Seq peak finder and Cistematic. Collaborations increasingly address the genomics of human disease, including Alzheimer's dementia, cancer and Mendelian musculoskeletal disorders.",
    "topics": [
+    "transcriptional networks",
     "functional genomics",
-    "transcriptional regulation",
-    "long-read RNA-seq",
-    "single-cell transcriptomics",
-    "ENCODE",
-    "skeletal muscle"
+    "RNA-seq / ChIP-seq methods",
+    "regulatory element annotation",
+    "cell differentiation and regeneration",
+    "disease genomics"
    ],
    "fit": {
     "score": 2,
-    "reason": "There is some overlap in transcriptome sequencing, single-cell methods and computational genomics, but the lab does no cancer genomics, structural variant work or somatic mutation analysis."
+    "reason": "The lab is functional-genomics and regulatory-network focused, with computational tools and some cancer collaborations; it does not centre on tumour WGS, structural variants or somatic mutation analysis, and the roster is tiny and may need a US visa."
    },
    "flags": [
-    "I did not find a current official lab roster. The only members page I found is an old lab wiki, last edited 2025-01-06, so the member list may be out of date and incomplete.",
-    "The wiki lists no current postdocs. Say-Tar Goh is the only current graduate student it names. Other current members are staff (a staff scientist, software and systems staff, a visiting statistician) and were excluded.",
-    "The wiki shows Say-Tar Goh's email in obfuscated form (sgoh -> caltech.edu). I left the email field null instead of reconstructing the address.",
-    "The PI's Caltech profile page lists a separate 'Research Website' at biology.caltech.edu/Members/Wold. I could not open it because of a certificate error.",
-    "The PI is still at Caltech, and I found no sign of a move."
+    "The members page was last edited 2025-01-06, so it may be out of date.",
+    "The page lists no current postdocs.",
+    "The page gives the email in obfuscated form ('sgoh -> caltech.edu'); sgoh@caltech.edu is my reading of it.",
+    "The PI is still at Caltech; no move found. The BBE profile gives the research website as biology.caltech.edu/Members/Wold, which I could not open because of a certificate error. The lab's own site is woldlab.caltech.edu.",
+    "I did not find a Google Scholar URL, so scholar_url is null."
    ],
    "sources": [
     {
-     "title": "Barbara J. Wold - Caltech BBE profile",
+     "title": "Barbara J. Wold - Caltech BBE",
      "url": "https://www.bbe.caltech.edu/people/barbara-j-wold"
     },
     {
-     "title": "Wold Lab wiki - People",
-     "url": "https://cistematic.caltech.edu/wiki/people"
+     "title": "Wold Lab welcome page",
+     "url": "https://woldlab.caltech.edu"
     },
     {
-     "title": "A long-read RNA-seq approach to identify novel transcripts of very large genes",
-     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7370890/"
+     "title": "Wold Lab people",
+     "url": "https://woldlab.caltech.edu/wiki/people"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:49:18+00:00",
+   "refreshed_at": "2026-10-28T19:59:43+00:00",
    "error": null,
    "pi_profile": {
     "name": "Barbara J. Wold",
@@ -12027,15 +12027,15 @@
      "name": "Say-Tar Goh",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not stated on the wiki page.",
+     "focus": "Not listed on the people page",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Division of Biology and Biological Engineering",
+   "department": "Division of Biology and Biological Engineering; Functional Genomics Resource Center, Beckman Institute",
    "location": "Pasadena, California, USA",
    "current_institution": "California Institute of Technology (Caltech)",
-   "members_page": "https://cistematic.caltech.edu/wiki/people"
+   "members_page": "https://woldlab.caltech.edu/wiki/people"
   },
   {
    "name": "Van Valen Lab",
@@ -12048,46 +12048,45 @@
    "department_hint": "Biology and Biological Engineering (HMRI Investigator)",
    "id": "caltech-valen",
    "url": "https://www.vanvalen.caltech.edu/",
-   "focus": "The lab combines cell biology and physics with imaging, genomics and artificial intelligence to study how cells process information in human disease. A major strand is deep learning for biological image analysis, such as cell segmentation and tracking in live-cell imaging, tissue imaging and spatial omics. The lab also builds open software and data-labeling infrastructure for these tasks. Funders listed on the team page include the Rita Allen Foundation, the Moore Foundation and NIH HuBMAP. The team page gives no detailed research summary, so this description rests partly on the Caltech profile summary and my prior knowledge of the lab.",
+   "focus": "The lab asks how living systems and their viruses process information to sense their internal state and their environment. It combines imaging, machine learning and genomics to measure virus-host interactions. A major thread is deep-learning cell segmentation and tracking for imaging data, including the Mesmer whole-cell segmentation model (Nature Biotechnology, 2021) and work on segmenting whole cells in tissues. This tooling supports spatial and single-cell analysis of tissues, including cancer samples such as pancreatic cancer. The lab's homepage gives only brief method descriptions, so details beyond this come from its news items.",
    "topics": [
-    "deep learning for cell imaging",
-    "cell segmentation and tracking",
-    "spatial omics",
+    "deep learning for cell segmentation",
+    "spatial / multiplexed tissue imaging",
     "single-cell biology",
-    "computational tools and software",
-    "human disease cell signaling"
+    "virus-host interactions",
+    "machine learning software tools"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab's machine learning and spatial/single-cell imaging methods overlap with the student's computational and spatial-omics interests, but it does little cancer genomics, WGS or structural-variant work, and a US move would likely need a visa."
+    "reason": "Overlap is limited to ML methods and spatial or single-cell tissue analysis, including some cancer imaging. The lab does not do tumour whole-genome sequencing, structural variants or somatic mutation analysis. It is also a US lab, so the student may need a visa."
    },
    "flags": [
-    "PI is still at Caltech, so no move was detected.",
-    "The team page has no last-updated date. Its footer shows © 2026.",
-    "Uriah Israel, Erick Moen and Nitzan Raizen appear under the Alumni heading, so I excluded them.",
-    "The page gives no research focus or individual profile links for members, so the focus lines are program affiliations only.",
-    "Some emails appear on the page only as truncated strings (for example 'gaihara@caltech') or are obfuscated. I set all member emails to null rather than guess full addresses."
+    "The PI is still at Caltech. A search result also showed a theorg.com page placing him at the Allen Institute, which I did not verify. It is likely a stale or incidental affiliation.",
+    "The team page gives no last-updated date. The footer says © 2026.",
+    "The team page gives no research focus, start year or profile link for any member. The focus fields hold program or degree information only.",
+    "Three people with postdoc titles (Uriah Israel, Erick Moen, Nitzan Raizen) appear under 'Alumni' and were excluded.",
+    "Emails come from the team page. Some were obfuscated and shown without a domain (Aihara, Dilip, Li, Mar'i), so I set those to null."
    ],
    "sources": [
     {
-     "title": "Van Valen Lab - Group Members",
+     "title": "Van Valen Lab – Group Members",
      "url": "https://www.vanvalen.caltech.edu/team/"
     },
     {
-     "title": "Caltech Directory - David Van Valen",
-     "url": "https://directory.caltech.edu/personnel/vanvalen"
+     "title": "Van Valen Lab homepage",
+     "url": "https://www.vanvalen.caltech.edu/"
     },
     {
-     "title": "Two Biologists Named Freeman Hrabowski Scholars by the HHMI",
-     "url": "https://www.caltech.edu/about/news/two-biologists-named-freeman-hrabowski-scholars-by-the-hhmi"
+     "title": "Caltech Directory – Van Valen",
+     "url": "https://directory.caltech.edu/personnel/vanvalen"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:48:53+00:00",
+   "refreshed_at": "2026-10-28T19:59:55+00:00",
    "error": null,
    "pi_profile": {
     "name": "David Van Valen",
-    "title": "Assistant Professor of Biology and Biological Engineering; Heritage Medical Research Institute Investigator; HHMI Freeman Hrabowski Scholar",
+    "title": "Assistant Professor of Biology and Biological Engineering; Investigator, Heritage Medical Research Institute (HMRI); HHMI Freeman Hrabowski Scholar",
     "profile_url": "https://directory.caltech.edu/personnel/vanvalen",
     "scholar_url": null
    },
@@ -12096,7 +12095,7 @@
      "name": "Sam Holtzen",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Not stated on the team page (PhD in Molecular, Cellular and Developmental Biology, CU Boulder)",
      "email": null,
      "profile_url": null
     },
@@ -12104,7 +12103,7 @@
      "name": "Changhua Yu",
      "role": "PhD student",
      "year": null,
-     "focus": "Bioengineering program; research focus not stated",
+     "focus": "Not stated on the team page (PhD candidate, Bioengineering)",
      "email": null,
      "profile_url": null
     },
@@ -12112,7 +12111,7 @@
      "name": "Ellen Emerson",
      "role": "PhD student",
      "year": null,
-     "focus": "USC-Caltech MD/PhD candidate; research focus not stated",
+     "focus": "Not stated on the team page (USC-Caltech MD/PhD candidate)",
      "email": null,
      "profile_url": null
     },
@@ -12120,7 +12119,7 @@
      "name": "Gohta Aihara",
      "role": "PhD student",
      "year": null,
-     "focus": "Bioengineering program; research focus not stated",
+     "focus": "Not stated on the team page (PhD candidate, Bioengineering)",
      "email": null,
      "profile_url": null
     },
@@ -12128,7 +12127,7 @@
      "name": "Joud Mar'i",
      "role": "PhD student",
      "year": null,
-     "focus": "Computation and Neural Systems program; research focus not stated",
+     "focus": "Not stated on the team page (PhD candidate, Computation and Neural Systems)",
      "email": null,
      "profile_url": null
     },
@@ -12136,7 +12135,7 @@
      "name": "Qilin Li",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not stated",
+     "focus": "Not stated on the team page",
      "email": null,
      "profile_url": null
     },
@@ -12144,7 +12143,7 @@
      "name": "Rohit Dilip",
      "role": "PhD student",
      "year": null,
-     "focus": "Computer Science program; research focus not stated",
+     "focus": "Not stated on the team page (PhD candidate, Computer Science)",
      "email": null,
      "profile_url": null
     },
@@ -12152,7 +12151,7 @@
      "name": "Tiffany Hung",
      "role": "PhD student",
      "year": null,
-     "focus": "Chemistry program; research focus not stated",
+     "focus": "Not stated on the team page (PhD candidate, Chemistry)",
      "email": null,
      "profile_url": null
     },
@@ -12160,12 +12159,12 @@
      "name": "Xuefei (Julie) Wang",
      "role": "PhD student",
      "year": null,
-     "focus": "Computation and Neural Systems program; research focus not stated",
+     "focus": "Not stated on the team page (PhD candidate, Computation and Neural Systems)",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Division of Biology and Biological Engineering (BBE)",
+   "department": "Division of Biology and Biological Engineering; Heritage Medical Research Institute",
    "location": "Pasadena, California, USA",
    "current_institution": "California Institute of Technology (Caltech)",
    "members_page": "https://www.vanvalen.caltech.edu/team/"
@@ -12181,58 +12180,58 @@
    "department_hint": "Biology and Biological Engineering (gene regulatory network modelling; T-cell development)",
    "id": "caltech-rothenberg",
    "url": "https://rothenberglab.caltech.edu",
-   "focus": "The lab studies how multipotent blood progenitors become committed T lymphocytes, and how gene regulatory networks control that fate decision. Current projects look at the transcription factors Bcl11b and Lmo2, at how the developmental program changes with age (including transcription factor dosage effects on ILC and innate-like γδ T cell potential), and at protein-level regulatory networks measured by quantitative proteomics. The lab works on developing T cells, with a focus on gene network modelling and on the dynamics of single-cell fate choices. The lab pages do not list specific methods, so the approaches here are inferred from the PI's profile and members' project descriptions.",
+   "focus": "The lab studies how multipotent blood progenitors commit to the T-cell lineage in the thymus. They treat this as a problem in gene regulatory network (GRN) logic. They examine how transcription factors such as Bcl11b, Lmo2, Hhex and others change in dosage and timing to control lineage choice and developmental pace. Current projects include age-related shifts in thymocyte potential toward innate lymphoid cells (ILCs) and innate-like γδ T cells. Another project uses quantitative proteomics to map protein-level regulation. Methods combine mouse and in vitro T-cell differentiation systems, genomic and epigenomic profiling, perturbation experiments, and computational GRN modelling.",
    "topics": [
     "T-cell development",
     "gene regulatory networks",
-    "transcription factors",
+    "transcription factor dosage",
+    "Bcl11b",
     "lineage commitment",
-    "immune cell fate",
-    "proteomics"
+    "quantitative proteomics"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab does computational and single-cell gene regulatory network work, which overlaps a little with the student's computational and single-cell interests, but it is developmental immunology with no cancer genomics, structural variants or tumour sequencing focus, and the student would need a US vis"
+    "reason": "The lab is strong in computational and genomic GRN analysis, but it studies normal T-cell development rather than cancer genomics, tumour WGS, structural variants or somatic mutations, so the overlap is limited to general genomics methods."
    },
    "flags": [
-    "Boyoung Shin is still listed as a Senior Postdoc on the people page, but her lab profile URL redirects to an Emory University School of Medicine directory profile (https://med.emory.edu/directory/profile/?u=BSHIN26). I did not open that page. She has probably moved to Emory, so I left her out of the",
-    "The people page lists Chang and Jauhar only as 'Graduate Student'. I assumed they are PhD students. Their program start years are not given (BS completed in 2021 and 2022 respectively), so year is null.",
-    "No member emails are published on the lab pages. Only a general Contact Us page exists.",
-    "The PI's institution is confirmed as Caltech, with no move. Her title is now Edward B. Lewis Professor of Biology (since 2021), replacing the earlier Albert Billings Ruddock Professorship.",
-    "I did not verify the PI's Google Scholar URL, so it is null."
+    "PI is still at Caltech. Older pages still use the former title 'Albert Billings Ruddock Professor'. The Ruddock chair ran 2007–2021, and her current title is Edward B. Lewis Professor.",
+    "Boyoung Shin is listed on the people page, but their lab profile URL redirects to an Emory University directory page (med.emory.edu). That page showed no profile content. They may have moved to Emory, so verify before contacting.",
+    "The people page shows no last-updated date, only a 2026 copyright notice.",
+    "The page lists the two students as 'Graduate Students' without stating PhD status. They are assumed to be PhD students. No cohort years are given.",
+    "No emails are published on the lab pages. Sami Chang's email appears only as an obfuscated link."
    ],
    "sources": [
     {
-     "title": "Rothenberg Lab - People",
+     "title": "Rothenberg Lab – People",
      "url": "https://rothenberglab.caltech.edu/people"
     },
     {
-     "title": "Ellen V. Rothenberg",
+     "title": "Ellen V. Rothenberg – Rothenberg Lab",
      "url": "https://rothenberglab.caltech.edu/people/ellen-v-rothenberg"
     },
     {
-     "title": "Brendan MacNabb",
+     "title": "Brendan MacNabb profile",
      "url": "https://rothenberglab.caltech.edu/people/brendan-macnabb"
     },
     {
-     "title": "Tom Sidwell",
+     "title": "Tom Sidwell profile",
      "url": "https://rothenberglab.caltech.edu/people/tom-sidwell"
     },
     {
-     "title": "Samantha (Sami) Chang",
+     "title": "Samantha (Sami) Chang profile",
      "url": "https://rothenberglab.caltech.edu/people/samantha-sami-chang"
     },
     {
-     "title": "Abdullah Jauhar",
+     "title": "Abdullah Jauhar profile",
      "url": "https://rothenberglab.caltech.edu/people/abdullah-jauhar"
     },
     {
-     "title": "Rothenberg CV 26 July 2023",
+     "title": "Rothenberg CV (July 2023)",
      "url": "https://bbe.caltech.edu/documents/5496/Rothenberg_CV_26July2023.pdf"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:48:22+00:00",
+   "refreshed_at": "2026-10-28T19:59:03+00:00",
    "error": null,
    "pi_profile": {
     "name": "Ellen V. Rothenberg",
@@ -12242,10 +12241,18 @@
    },
    "members": [
     {
+     "name": "Boyoung Shin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": "https://rothenberglab.caltech.edu/people/boyoung-shin"
+    },
+    {
      "name": "Brendan MacNabb",
      "role": "Postdoc",
      "year": null,
-     "focus": "How the T-lineage developmental program changes across the lifespan, including how transcription factor dosage in the gene regulatory network shifts thymocyte potential toward ILCs and innate-like γδ T cells.",
+     "focus": "How the T-lineage program changes across lifespan. Studies how transcription factor dosage in the GRN shifts thymocyte potential toward ILCs and innate-like γδ T cells, and the modular structure of GRNs.",
      "email": null,
      "profile_url": "https://rothenberglab.caltech.edu/people/brendan-macnabb"
     },
@@ -12253,7 +12260,7 @@
      "name": "Tom Sidwell",
      "role": "Postdoc",
      "year": null,
-     "focus": "The role of Bcl11b in regulating fate choices of developing and mature T cells, inside and outside the thymus.",
+     "focus": "Role of Bcl11b in fate decisions of developing and mature T cells, inside and outside the thymus.",
      "email": null,
      "profile_url": "https://rothenberglab.caltech.edu/people/tom-sidwell"
     },
@@ -12261,7 +12268,7 @@
      "name": "Abdullah Jauhar",
      "role": "PhD student",
      "year": null,
-     "focus": "Using quantitative proteomics to define protein-level regulatory networks governing T cell lineage commitment.",
+     "focus": "Quantitative proteomics of protein-level regulatory networks in T-cell lineage commitment, and the role of Hhex.",
      "email": null,
      "profile_url": "https://rothenberglab.caltech.edu/people/abdullah-jauhar"
     },
@@ -12269,7 +12276,7 @@
      "name": "Samantha (Sami) Chang",
      "role": "PhD student",
      "year": null,
-     "focus": "How the transcription factor Lmo2 affects the pace of early T cell development.",
+     "focus": "How the transcription factor Lmo2 affects the pace of early T-cell development.",
      "email": null,
      "profile_url": "https://rothenberglab.caltech.edu/people/samantha-sami-chang"
     }
@@ -12290,42 +12297,42 @@
    "department_hint": "Computer Science / Computation and Neural Systems / Bioengineering (molecular programming)",
    "id": "caltech-winfree",
    "url": "http://www.dna.caltech.edu",
-   "focus": "The group studies biomolecular computation with a synthetic, engineering approach, using DNA as a building material for molecular machines and circuits. Topics include DNA strand-displacement circuits, in vitro biochemical circuits and chemical reaction networks, and algorithmic self-assembly (DNA tiles and origami). They also work on noise and fault tolerance, DNA/RNA folding, and the limits of what such systems can compute. Recent postdoc interests include equilibrium and non-equilibrium self-assembly, molecular motors, DNA condensates, and neural-network-like molecular computation. The work is mostly theory, design and wet-lab experiments in molecular programming, not genomics or sequencing analysis.",
+   "focus": "The group takes a synthetic approach to molecular programming. They build DNA- and RNA-based systems to find out what can be engineered with nucleic acids. Topics include algorithmic DNA self-assembly (tile assembly and DNA origami), in vitro biochemical circuits based on strand displacement, and chemical reaction networks. They also study DNA and RNA folding, fault-tolerant molecular computing, molecular self-replication, and the fundamental limits of computation in these systems. Current members also work on molecular motors, DNA condensates and liquid-liquid phase separation, and pattern formation in synthetic biology.",
    "topics": [
     "molecular programming",
-    "DNA strand displacement",
-    "algorithmic self-assembly",
-    "DNA origami",
+    "DNA self-assembly",
+    "strand displacement circuits",
     "chemical reaction networks",
-    "molecular computation"
+    "DNA origami",
+    "synthetic biology"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab works on DNA nanotechnology and molecular computation, with no overlap with cancer genomics, tumour sequencing, structural variants, genomic machine learning or single-cell/spatial omics."
+    "reason": "The lab does DNA nanotechnology and molecular computation, with no cancer genomics, sequencing, structural variant or single-cell/spatial omics work, so it overlaps almost nothing with the student's interests."
    },
    "flags": [
-    "PI is still at Caltech; the BBE profile confirms this, and no move was found.",
-    "The people page could not be opened (certificate rejected). The member list comes from search snippets only.",
-    "The member list is incomplete. PhD students were not retrieved, and a postdoc named Salvador Buse appeared in a truncated snippet but is unconfirmed. One snippet mentioned a BE graduate student co-advised with Lulu Qian, but no name was visible.",
-    "The snippet of the people page was about 180 days old, so the roster may be out of date.",
-    "A US institution would likely require a visa for a Canadian-based student."
+    "PI is still at Caltech; no move found.",
+    "Members page says it was last updated 24 April 2026.",
+    "The members page gives no individual profile links or years in the program, so those are null.",
+    "Emails are shown with an obfuscated '@' on the page, and I restored the '@'.",
+    "I did not find a Google Scholar URL, so scholar_url is null."
    ],
    "sources": [
     {
-     "title": "Erik Winfree - Caltech BBE",
-     "url": "https://www.bbe.caltech.edu/people/erik-winfree"
-    },
-    {
-     "title": "The DNA and Natural Algorithms Group",
+     "title": "Winfree Lab people page",
      "url": "https://www.dna.caltech.edu/DNApeople.html"
     },
     {
-     "title": "Erik Winfree's Home Page",
-     "url": "https://www.dna.caltech.edu/~winfree/"
+     "title": "Erik Winfree - Caltech BBE profile",
+     "url": "https://www.bbe.caltech.edu/people/erik-winfree"
+    },
+    {
+     "title": "DNA and Natural Algorithms Group",
+     "url": "http://www.dna.caltech.edu"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:49:11+00:00",
+   "refreshed_at": "2026-10-28T19:59:51+00:00",
    "error": null,
    "pi_profile": {
     "name": "Erik Winfree",
@@ -12338,7 +12345,7 @@
      "name": "Cameron Chalk",
      "role": "Postdoc",
      "year": null,
-     "focus": "Tile self-assembly theory, strand displacement circuits, chemical reaction networks, neural networks",
+     "focus": "Tile self-assembly theory, strand displacement circuits, CRNs, neural networks",
      "email": null,
      "profile_url": null
     },
@@ -12357,9 +12364,33 @@
      "focus": "Molecular motors, DNA origami, DNA condensates",
      "email": null,
      "profile_url": null
+    },
+    {
+     "name": "Martin Holmes",
+     "role": "PhD student",
+     "year": null,
+     "focus": "DNA strand displacement circuits, oscillating CRNs (co-advised with Lulu Qian)",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Salvador Buse",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Systems and synthetic biology, pattern formation and morphogenesis",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Sandra Temgoua",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Liquid-liquid phase separation",
+     "email": null,
+     "profile_url": null
     }
    ],
-   "department": "Division of Biology and Biological Engineering; Computation and Neural Systems; Computer Science",
+   "department": "Division of Biology and Biological Engineering; Computer Science; Computation and Neural Systems; Bioengineering",
    "location": "Pasadena, California, USA",
    "current_institution": "California Institute of Technology (Caltech)",
    "members_page": "https://www.dna.caltech.edu/DNApeople.html"
@@ -12886,29 +12917,29 @@
    "department_hint": "Biology and Biological Engineering (Professor of Computational Biology; HMRI Investigator)",
    "id": "caltech-thomson",
    "url": "https://thomsonlab.caltech.edu",
-   "focus": "The lab studies how biological systems self-organize and process information. It has three main strands. The first is active matter: reconstituted systems built from a few purified proteins that show cell-like force generation, motion and shape change. The second is machine learning, including bio-inspired developmental algorithms that grow and self-organize neural networks. The third is single-cell biology, where closed-loop ML (observe, build a model, predict, perturb) learns gene regulatory network models from single-cell perturbation data. Some members also work on protein language models and structure prediction, and on LLMs and ML for single-cell and spatial transcriptomics.",
+   "focus": "The lab works on three areas: cytoskeletal active matter, machine learning, and single-cell biology. The active matter work studies the mechanical self-organization of cellular structures. The machine learning work builds predictive models from high-dimensional data and uses them to reprogram and engineer biological systems. The single-cell work looks at cellular self-organization, for example in neural circuit development. Current members also work on LLMs and protein language models for single-cell genomics, predictive models of gene expression, and T-cell activation trajectories. One student works on tumour heterogeneity and cell-cell communication.",
    "topics": [
-    "single-cell genomics",
-    "machine learning",
     "active matter",
-    "gene regulatory networks",
+    "machine learning",
+    "single-cell genomics",
     "protein language models",
-    "spatial transcriptomics"
+    "computational biology",
+    "tumour heterogeneity"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab's single-cell ML and gene-regulation modelling overlaps with the student's computational-methods and single-cell interests, and Yunrui Lu works on single-cell and spatial transcriptomics for tumour heterogeneity. The lab has no focus on tumour WGS, structural variants or somatic mutation ana"
+    "reason": "Some overlap with the student's interest in ML and single-cell methods, and one student works on tumour heterogeneity. But the lab has no focus on cancer genomics, whole-genome sequencing or structural variants, and its main emphasis is active matter and general ML."
    },
    "flags": [
-    "PI is still at Caltech; no move found.",
-    "The members page gives no years of study and no last-updated date.",
-    "Binglun Shao and Jiayi Yin appear as bare names after the PhD list with no role stated. They are left out because their status is unverified.",
-    "James Gornet's listed email is a non-Caltech address, so it was not included.",
-    "The members page was read through an automated summary, not directly. Check emails before use."
+    "PI is still at Caltech. No move found.",
+    "The members page does not show the date it was last updated, student years, or whether each person is current. The list reflects who appears under each heading.",
+    "Binglun Shao and Jiayi Yin appear under PhD students with no details.",
+    "James Gornet's listed email is a Gmail address, so I left it out. The page shows Alexander Detkov's email in a malformed format, but it reads as a Caltech address.",
+    "I did not find the PI's Google Scholar URL, so it is null."
    ],
    "sources": [
     {
-     "title": "Caltech Directory - Matt Thomson",
+     "title": "Caltech Directory: Matt Thomson",
      "url": "https://directory.caltech.edu/personnel/mthomson"
     },
     {
@@ -12916,16 +12947,12 @@
      "url": "https://thomsonlab.caltech.edu"
     },
     {
-     "title": "Thomson Lab - Our Team",
+     "title": "Thomson Lab team",
      "url": "https://thomsonlab.caltech.edu/our-team/"
-    },
-    {
-     "title": "Thomson Lab - Research",
-     "url": "https://thomsonlab.caltech.edu/research/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:48:38+00:00",
+   "refreshed_at": "2026-10-28T19:59:18+00:00",
    "error": null,
    "pi_profile": {
     "name": "Matt Thomson",
@@ -12938,7 +12965,7 @@
      "name": "Arjuna Subramanian",
      "role": "Postdoc",
      "year": null,
-     "focus": "AI protein folding and structure prediction to study the evolution of cellular systems, including cytoskeletal active matter; protein design",
+     "focus": "Uses AI protein folding and structure prediction models to study the evolution of cellular systems, including cytoskeletal active matter.",
      "email": null,
      "profile_url": null
     },
@@ -12946,23 +12973,31 @@
      "name": "Fan Yang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Engineered protein machines that drive microfluidics; model-driven programming of flow control",
+     "focus": "Engineers protein machines to drive microfluidics.",
      "email": null,
-     "profile_url": "https://fy26.github.io"
+     "profile_url": "https://fy26.github.io/"
     },
     {
      "name": "Alexander Detkov",
      "role": "PhD student",
      "year": null,
-     "focus": "Intelligence through dynamical systems theory and predictive coding",
+     "focus": "Studies intelligence through dynamical systems and predictive coding.",
      "email": null,
      "profile_url": "https://alexanderdetkov.github.io"
+    },
+    {
+     "name": "Binglun Shao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the page.",
+     "email": null,
+     "profile_url": null
     },
     {
      "name": "David Larios",
      "role": "PhD student",
      "year": null,
-     "focus": "Active matter",
+     "focus": "Active matter.",
      "email": null,
      "profile_url": null
     },
@@ -12970,39 +13005,47 @@
      "name": "Fengqing (Grace) Yu",
      "role": "PhD student",
      "year": null,
-     "focus": "T-cell activation using ML and mechanistic models on single-cell data",
+     "focus": "Models T-cell activation trajectories.",
      "email": null,
-     "profile_url": "https://grace-fengqing-yu.github.io"
+     "profile_url": "https://grace-fengqing-yu.github.io/"
     },
     {
      "name": "Hao (Harry) Wang",
      "role": "PhD student",
      "year": null,
-     "focus": "Active matter tools with microfluidics and simulations; origin of broken asymmetry (co-advised by Magdalena Zernicka-Goetz)",
+     "focus": "Develops active matter tools with microfluidics; co-advised by Magdalena Zernicka-Goetz.",
      "email": null,
-     "profile_url": "https://harrywh11.github.io"
+     "profile_url": "http://harrywh11.github.io"
     },
     {
      "name": "Hunter Richards",
      "role": "PhD student",
      "year": null,
-     "focus": "Active matter, single-cell and ML",
+     "focus": "Active matter, single-cell and ML (no detail given).",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://scholar.google.com/citations?user=e6jTzMEAAAAJ&hl=en"
     },
     {
      "name": "James Gornet",
      "role": "PhD student",
      "year": null,
-     "focus": "Navigation in neural networks as a basis for intelligence and reasoning",
+     "focus": "Studies navigation in neural networks as a basis for reasoning.",
      "email": null,
-     "profile_url": "https://jamesgornet.com"
+     "profile_url": "https://www.jamesgornet.com/"
     },
     {
      "name": "Jiapei Miao",
      "role": "PhD student",
      "year": null,
-     "focus": "Protein language models combined with molecular dynamics simulations",
+     "focus": "Combines protein language models with molecular dynamics.",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jiayi Yin",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the page.",
      "email": null,
      "profile_url": null
     },
@@ -13010,15 +13053,15 @@
      "name": "Joe Boktor",
      "role": "PhD student",
      "year": null,
-     "focus": "Commensal microbiota immune modulators and synthetic microbial consortia (co-advised by Sarkis Mazmanian)",
+     "focus": "Repurposes microbial solutions with single-cell and ML methods; co-advised by Sarkis Mazmanian.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://scholar.google.com/citations?user=o8fbn9gAAAAJ&hl=en"
     },
     {
      "name": "Kevin Fleisher",
      "role": "PhD student",
      "year": null,
-     "focus": "Predictive models of gene expression; cell state transitions driven by gene perturbations",
+     "focus": "Builds predictive models of gene expression.",
      "email": null,
      "profile_url": null
     },
@@ -13026,7 +13069,7 @@
      "name": "Lydia Chen",
      "role": "PhD student",
      "year": null,
-     "focus": "LLMs for single-cell genomics analysis; gene programs that regulate cell morphology",
+     "focus": "Uses LLMs for single-cell genomics analysis.",
      "email": null,
      "profile_url": null
     },
@@ -13034,7 +13077,7 @@
      "name": "Meera Prasad",
      "role": "PhD student",
      "year": null,
-     "focus": "Tissue formation and breakdown in disease; RL and cell-simulation framework",
+     "focus": "Studies tissue formation and breakdown in disease.",
      "email": null,
      "profile_url": null
     },
@@ -13042,7 +13085,7 @@
      "name": "Meng Wang",
      "role": "PhD student",
      "year": null,
-     "focus": "Machine learning and neuroscience; reinforcement learning",
+     "focus": "Reinforcement learning at the ML-neuroscience interface.",
      "email": null,
      "profile_url": null
     },
@@ -13050,23 +13093,23 @@
      "name": "Shichen Liu",
      "role": "PhD student",
      "year": null,
-     "focus": "Non-equilibrium mechanisms in active matter; programmable biomaterials",
+     "focus": "Studies non-equilibrium mechanisms in active matter.",
      "email": null,
-     "profile_url": "https://shichenliu.caltech.edu"
+     "profile_url": "https://www.shichenliu.caltech.edu/"
     },
     {
      "name": "Surya Narayanan Hari",
      "role": "PhD student",
      "year": null,
-     "focus": "Bringing biological structures to machine learning",
+     "focus": "Brings biological structures into ML.",
      "email": null,
-     "profile_url": "https://surya-narayanan.github.io"
+     "profile_url": "http://surya-narayanan.github.io/"
     },
     {
      "name": "Timothy Zhang",
      "role": "PhD student",
      "year": null,
-     "focus": "How ML builds world models through prediction and action; internal representations",
+     "focus": "Studies how ML builds internal world models.",
      "email": null,
      "profile_url": null
     },
@@ -13074,7 +13117,7 @@
      "name": "Yunrui Lu",
      "role": "PhD student",
      "year": null,
-     "focus": "ML methods using single-cell and spatial transcriptomics for tumour heterogeneity and cell-cell communication",
+     "focus": "Studies tumor heterogeneity and cell-cell communication using single-cell and ML methods.",
      "email": null,
      "profile_url": null
     },
@@ -13082,12 +13125,12 @@
      "name": "Zachary Martinez",
      "role": "PhD student",
      "year": null,
-     "focus": "Synthetic biology and ML; open-source protein engineering tools such as TRILL (co-advised by Richard Murray)",
+     "focus": "Builds open-source protein engineering tools (TRILL); co-advised by Richard Murray.",
      "email": null,
-     "profile_url": "https://trill.readthedocs.io"
+     "profile_url": "https://orcid.org/0000-0002-7830-3162"
     }
    ],
-   "department": "Biology and Biological Engineering; also leads SPEC, the Beckman Center for Single Cell Profiling and Engineering",
+   "department": "Biology and Biological Engineering (BBE)",
    "location": "Pasadena, California, USA",
    "current_institution": "California Institute of Technology (Caltech)",
    "members_page": "https://thomsonlab.caltech.edu/our-team/"
@@ -13432,51 +13475,47 @@
    "group": null,
    "department_hint": "Biology and Biological Engineering (genomics and computational methods)",
    "id": "caltech-sternberg",
-   "url": "https://wormlab.caltech.edu/",
-   "focus": "The lab uses C. elegans and other nematodes to study how genomes control development, behavior and physiology. Its work combines molecular genetics with functional genomics and computation to study the systems biology of development, including WNT and EGF signalling, cis-regulatory elements and cell migration. It also studies the neural circuits behind sex and sleep behaviours, and nematode chemical ecology, especially ascaroside pheromones and the host-finding behaviour of insect-killing parasitic nematodes. A computational strand sequences other nematode genomes and develops text-mining tools for the literature, including WormBase and Textpresso.",
+   "url": "http://wormlab.caltech.edu/",
+   "focus": "The lab uses C. elegans molecular genetics and functional genomics to study how a genome controls development, behavior and physiology. Projects include the neural circuits underlying sex and sleep, and WNT and EGF signaling in vulval development. The lab also studies nematode genomics and chemical ecology, including ascaroside mating pheromones and insect-killing nematodes. Computational work includes cis-regulatory analysis, single-cell transcriptomics, and text mining and curation through WormBase and Textpresso.",
    "topics": [
-    "C. elegans",
-    "nematode genomics",
-    "developmental systems biology",
-    "neural circuits and behavior",
-    "ascaroside chemical ecology",
-    "text mining / WormBase"
+    "C. elegans genetics",
+    "functional genomics",
+    "single-cell transcriptomics",
+    "neurobiology",
+    "nematode chemical ecology",
+    "biocuration / text mining"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab has genomics and computational strands (nematode genome sequencing, Textpresso/WormBase), but the work is model-organism biology with no cancer, tumour sequencing, structural-variant, single-cell or spatial omics focus, so overlap with the student's interests is minimal."
+    "reason": "The lab has some genomics and single-cell transcriptomics work and some computational curation tools, but it studies model-organism developmental biology and neurobiology, with no cancer genomics, structural variant or tumour sequencing focus."
    },
    "flags": [
-    "No move: the PI is still at Caltech and has been Division Chair since 2024.",
-    "The members page has no last-updated date (it shows only a 2026 copyright). The roster is a snapshot of unknown date.",
-    "Research focus was listed for only one member, Mark Zhang. The page gave no individual descriptions for the others.",
-    "No emails are published on the members page. The PI's email is obfuscated on the BBE profile.",
-    "I did not verify the PI's Google Scholar URL, so it is null."
+    "No PI move: the Caltech BBE page still lists Sternberg at Caltech.",
+    "No Google Scholar link was found on the official pages, so scholar_url is null.",
+    "The members page does not show a last-updated date, and I did not check each profile page. The roster may be stale.",
+    "Most members have no research focus listed, and no emails were found on the members page.",
+    "Any US role would likely need a visa for a Canadian-based student."
    ],
    "sources": [
     {
-     "title": "Paul W. Sternberg - Caltech BBE profile",
+     "title": "Paul W. Sternberg - Caltech BBE",
      "url": "https://www.bbe.caltech.edu/people/paul-w-sternberg"
+    },
+    {
+     "title": "Sternberg Lab home",
+     "url": "http://wormlab.caltech.edu/"
     },
     {
      "title": "Sternberg Lab members",
      "url": "https://wormlab.caltech.edu/labmembers"
-    },
-    {
-     "title": "Sternberg Lab Alumni",
-     "url": "https://wormlab.caltech.edu/labmembers/alumni-table"
-    },
-    {
-     "title": "Paul Sternberg - lab page",
-     "url": "https://wormlab.caltech.edu/labmembers/paul-sternberg"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:48:14+00:00",
+   "refreshed_at": "2026-10-28T19:59:05+00:00",
    "error": null,
    "pi_profile": {
     "name": "Paul W. Sternberg",
-    "title": "Bren Professor of Biology; William K. Bowes Jr. Leadership Chair, Division of Biology and Biological Engineering (Division Chair since 2024)",
+    "title": "Bren Professor of Biology; William K. Bowes Jr. Leadership Chair, Division of Biology and Biological Engineering",
     "profile_url": "https://www.bbe.caltech.edu/people/paul-w-sternberg",
     "scholar_url": null
    },
@@ -13485,7 +13524,7 @@
      "name": "James Chieh-Hsiang Tan",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed on the members page (listed as Senior Postdoctoral Scholar Research Associate)",
+     "focus": "Not listed on the members page",
      "email": null,
      "profile_url": "https://wormlab.caltech.edu/labmembers/james-chien-hsiang-tan"
     },
@@ -13493,7 +13532,7 @@
      "name": "Mark Zhang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Factors governing C. elegans dauer exit and how they relate to dauer entry; how worms retain neurological memory of having gone through dauer",
+     "focus": "Factors governing dauer exit and how they relate to dauer entry; how C. elegans retains neurological memory of having gone through the dauer stage",
      "email": null,
      "profile_url": "https://wormlab.caltech.edu/labmembers/mark-zhang"
     },
@@ -13501,7 +13540,7 @@
      "name": "Olivia Xuan Wan",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed on the members page (listed as Senior Postdoctoral Scholar Research Associate)",
+     "focus": "Not listed on the members page",
      "email": null,
      "profile_url": "https://wormlab.caltech.edu/labmembers/olivia-xuan-wan"
     },
@@ -18349,54 +18388,54 @@
    "group": null,
    "department_hint": "Pathology, HMS / Massachusetts General Hospital",
    "id": "harvard-aryee",
-   "url": "https://aryee.mgh.harvard.edu",
-   "focus": "The lab develops statistical and computational methods for the genetic and epigenetic basis of cancer and other diseases. A major theme is cancer epigenomics, including DNA methylation analysis methods and the role of disordered chromatin organization in cancer. It studies spatial organization within tumors, from DNA folding to the tumor microenvironment. It also works on blood-based (cell-free DNA) tests for early cancer detection and on tools for the safe clinical translation of CRISPR genome editing, such as off-target and genome-rearrangement detection.",
+   "url": "https://aryeelab.org",
+   "focus": "The lab develops statistical and computational methods to study the genetic and epigenetic basis of cancer and other diseases. Projects include 3D genome organization and how DNA folding is disrupted in cancer cells. They also work on blood-based (cell-free DNA) epigenetic assays for early cancer detection. A further area is genome and epigenome editing, including off-target profiling and the use of editing to reverse disease-causing mutations. This description comes from secondary summaries, because the lab website could not be opened.",
    "topics": [
     "cancer epigenomics",
-    "DNA methylation",
-    "3D genome / chromatin organization",
+    "3D genome",
     "cell-free DNA early detection",
-    "genome editing safety",
-    "statistical genomics"
+    "genome editing",
+    "statistical genomics methods"
    ],
    "fit": {
     "score": 3,
-    "reason": "Strong overlap on computational and statistical genomics methods and on tumour spatial and epigenomic organisation, but less focus on tumour WGS/transcriptome somatic variant and structural variant calling; US visa needed."
+    "reason": "The lab's computational and statistical cancer genomics methods overlap with the student's interest in genomics ML and somatic/epigenomic analysis, but the focus is epigenomics, cfDNA and genome editing rather than tumour WGS, structural variants or single-cell/spatial work, and a US role would need"
    },
    "flags": [
-    "Could not verify the lab members list: aryee.mgh.harvard.edu has an expired TLS certificate, other lab domains did not resolve, and the HMS faculty page returned 403. Members left empty rather than guessed.",
-    "PI is listed at Dana-Farber Cancer Institute (Data Science) since Jan 1, 2022, with HMS Pathology appointment; the 'MGH' lab URL may be outdated.",
-    "Google Scholar URL not verified."
+    "PI's primary appointment moved from MGH Pathology to Dana-Farber Data Sciences (effective 2022-01-01), so the listed MGH/Pathology hint is outdated; he keeps an HMS Pathology appointment",
+    "Lab people page could not be accessed (aryeelab.org DNS failure, www variant refused, aryee.mgh.harvard.edu certificate expired, Harvard profile pages 403), so no members were verified and the list is empty",
+    "Google Scholar URL not verified",
+    "Check the lab site directly for the current roster"
    ],
    "sources": [
     {
-     "title": "Cancer Computational Methods Expert Martin Aryee, PhD Joins Data Science Faculty",
-     "url": "https://ds.dfci.harvard.edu/?p=3192"
-    },
-    {
-     "title": "Martin Aryee - Dana-Farber Data Science",
-     "url": "https://ds.dfci.harvard.edu/our-people/martin-aryee-phd/"
-    },
-    {
-     "title": "Martin Aryee - Broad Institute",
+     "title": "Martin Aryee - Broad Institute bio",
      "url": "https://www.broadinstitute.org/bios/martin-aryee"
     },
     {
-     "title": "Martin Aryee - HMS BMI PhD faculty",
+     "title": "Cancer Computational Methods Expert Martin Aryee, PhD Joins Data Science Faculty (DFCI)",
+     "url": "https://ds.dfci.harvard.edu/?p=3192"
+    },
+    {
+     "title": "Martin Aryee - HMS BMI PhD faculty profile",
      "url": "https://bmiphd.hms.harvard.edu/people/martin-aryee"
+    },
+    {
+     "title": "Martin Aryee - HMS OGE PhD profile",
+     "url": "https://ogephd.hms.harvard.edu/people/martin-aryee.md"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:49:35+00:00",
+   "refreshed_at": "2026-10-28T20:03:31+00:00",
    "error": null,
    "pi_profile": {
     "name": "Martin Aryee",
-    "title": "Associate Professor of Pathology (Harvard Medical School); faculty in Data Science, Dana-Farber Cancer Institute",
-    "profile_url": "https://ds.dfci.harvard.edu/our-people/martin-aryee-phd/",
+    "title": "Associate Professor, Department of Data Sciences, Dana-Farber Cancer Institute; Associate Professor of Pathology, Harvard Medical School",
+    "profile_url": "https://www.broadinstitute.org/bios/martin-aryee",
     "scholar_url": null
    },
    "members": [],
-   "department": "Department of Data Science (Dana-Farber); Department of Pathology (HMS); secondary appointment in Biostatistics (Harvard Chan School)",
+   "department": "Department of Data Sciences (DFCI); Pathology (HMS); secondary appointment in Biostatistics (Harvard T.H. Chan School of Public Health); Broad Institute associate member (on leave)",
    "location": "Boston, Massachusetts, USA",
    "current_institution": "Dana-Farber Cancer Institute / Harvard Medical School",
    "members_page": null
@@ -18412,45 +18451,46 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-baym",
    "url": "https://baymlab.hms.harvard.edu/",
-   "focus": "The lab studies microbial evolution using experiments, computation and theory. One main thread is how mobile genetic elements (plasmids, transposons, prophages) interact with each other and with their bacterial hosts. Another is how selection at the level of the cell, between cells and across populations drives microbial adaptability and innovation. Antibiotic resistance runs through all of it. The work spans synthetic lab systems, large-scale clinical and environmental sequencing, and new technologies.",
+   "focus": "The lab studies microbial evolution through experiment, computation and theory. A central question is how selection acts on mobile genetic elements (plasmids, transposons, prophages) within cells, between cells and across populations. Antibiotic resistance is a major theme. Methods include synthetic laboratory evolution systems, large-scale analysis of clinical and environmental sequencing data, and technology development.",
    "topics": [
     "microbial evolution",
     "mobile genetic elements",
     "plasmids and phages",
     "antibiotic resistance",
-    "bacterial computational genomics"
+    "evolutionary theory",
+    "microbial genomics"
    ],
    "fit": {
-    "score": 1,
-    "reason": "The lab works on bacterial evolution, plasmids and antibiotic resistance, with computational genomics as a method. It has no cancer, tumour sequencing, somatic variant or single-cell/spatial omics work, so it barely overlaps with the student's interests."
+    "score": 2,
+    "reason": "The lab uses computational genomics and sequencing analysis, but it works on bacterial evolution and antibiotic resistance, not cancer genomics, structural variants, somatic mutation or single-cell and spatial omics. The overlap is limited to general computational-genomics skills, and a US visa woul"
    },
    "flags": [
-    "No sign that the PI has moved: the lab site and HMS DBMI pages still list Baym at Harvard Medical School.",
-    "The members page gives no join or graduation years. The only date on it is a PI CV dated 12/3/24, so the roster may be out of date.",
-    "The members page lists the current postdocs and PhD students above. It also lists undergraduates, a postbac technician and alumni, which I left out.",
-    "Some older pages (Hertz Foundation, Harvard Data Science, OGE) still show Baym as Assistant Professor. The lab site shows Associate Professor, promoted March 2024.",
-    "The Harvard Medical School location is inferred from the HMS affiliation. I did not check an address page."
+    "No PI move found: the lab site still lists Harvard Medical School, Department of Biomedical Informatics.",
+    "The members page shows no update date and no year of study for anyone, so the roster may be out of date. A search snippet suggested the page was last crawled long ago, and the only date on it is a PI CV dated 12/3/24.",
+    "Emails come from the lab people page, which lists them.",
+    "Undergraduates (Sam Capehart, Thara Noel, Kesther Jean) and the postbac technician (Mariam Elawady) were excluded as out of scope.",
+    "Pronouns were not stated for anyone, so none are used."
    ],
    "sources": [
     {
-     "title": "Baym Lab home",
+     "title": "Baym Lab home page",
      "url": "https://baymlab.hms.harvard.edu/"
     },
     {
-     "title": "Baym Lab people",
+     "title": "Michael Baym Laboratory – People",
      "url": "https://baymlab.hms.harvard.edu/people.html"
     },
     {
-     "title": "HMS DBMI - Michael Baym",
-     "url": "https://dbmi.hms.harvard.edu/people/michael-baym?page=4"
+     "title": "Michael Baym Google Scholar",
+     "url": "https://scholar.google.com/citations?user=AKLIO9AAAAAJ&hl=en"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:49:51+00:00",
+   "refreshed_at": "2026-10-28T20:00:34+00:00",
    "error": null,
    "pi_profile": {
     "name": "Michael Baym",
-    "title": "Associate Professor of Biomedical Informatics",
+    "title": "Associate Professor of Biomedical Informatics (promoted March 2024)",
     "profile_url": "https://baymlab.hms.harvard.edu/people.html",
     "scholar_url": "https://scholar.google.com/citations?user=AKLIO9AAAAAJ&hl=en"
    },
@@ -18459,7 +18499,7 @@
      "name": "Blox Bloxham",
      "role": "Postdoc",
      "year": null,
-     "focus": "Competition between mobile genetic elements, and their ecology and evolution",
+     "focus": "How competition between mobile genetic elements shapes their ecology and evolution",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=x2SjE7sAAAAJ"
     },
@@ -18467,15 +18507,15 @@
      "name": "Laura C. Suttenfield",
      "role": "Postdoc",
      "year": null,
-     "focus": "Mobile genetic elements and the emergence of antibiotic resistance",
+     "focus": "Impact of mobile genetic elements on genome evolution and the emergence of antibiotic resistance",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://orcid.org/0009-0009-0423-609X"
     },
     {
      "name": "Tatiana Ruiz-Bedoya",
      "role": "Postdoc",
      "year": null,
-     "focus": "Rapid microbial adaptation and host–pathogen interactions (joint with the Desai Lab)",
+     "focus": "Rapid microbial adaptation and host-pathogen interactions, combining experiments and theory (joint with the Desai lab)",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=b1jN5OMAAAAJ"
     },
@@ -18483,15 +18523,15 @@
      "name": "Amy Zamora",
      "role": "PhD student",
      "year": null,
-     "focus": "Temperate phages, antibiotic resistance evolution and phage competition (SSQBio program)",
+     "focus": "Temperate bacteriophages, antibiotic resistance evolution and phage competition (SSQBio program)",
      "email": null,
-     "profile_url": null
+     "profile_url": "http://orcid.org/0000-0001-8796-9292"
     },
     {
      "name": "Kepler Mears",
      "role": "PhD student",
      "year": null,
-     "focus": "Plasmid–transposon interactions; CRISPR ancestors (BBS program)",
+     "focus": "Interactions between plasmids and transposons; CRISPR ancestors (BBS program)",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=yCqt8EAAAAAJ"
     },
@@ -18499,7 +18539,7 @@
      "name": "Shreyas Pai",
      "role": "PhD student",
      "year": null,
-     "focus": "Social evolution, evolutionary conflicts and levels of selection (SSQBio program)",
+     "focus": "Evolution, including social evolution, evolutionary conflicts and levels of selection (SSQBio program)",
      "email": null,
      "profile_url": null
     },
@@ -18507,14 +18547,14 @@
      "name": "Sophia Wiesenfeld",
      "role": "PhD student",
      "year": null,
-     "focus": "Not specified on the page (SSQBio program)",
+     "focus": "No research focus stated on the page (SSQBio program)",
      "email": null,
-     "profile_url": null
+     "profile_url": "http://orcid.org/0000-0003-0280-3838"
     }
    ],
-   "department": "Department of Biomedical Informatics; affiliate faculty in Microbiology; Harvard Program in Therapeutic Science; Associate Member of the Broad Institute",
+   "department": "Department of Biomedical Informatics; also Department of Microbiology, Harvard Program in Therapeutic Science, and the Broad Institute of Harvard and MIT",
    "location": "Boston, Massachusetts, USA",
-   "current_institution": "Harvard Medical School",
+   "current_institution": "Harvard Medical School (Harvard University)",
    "members_page": "https://baymlab.hms.harvard.edu/people.html"
   },
   {
@@ -18617,25 +18657,24 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-avillach",
    "url": "https://avillach-lab.hms.harvard.edu/",
-   "focus": "The lab works on translational bioinformatics. It integrates heterogeneous clinical cohorts, electronic health record data and several types of genomics data. It builds data-sharing and analysis infrastructure, including the BD2K PIC-SURE Center of Excellence. It also builds registries such as the Global Rare Diseases Registry. Applied projects include PCORI-funded work on Phelan-McDermid Syndrome and the ARCH project. A postdoctoral posting describes work on high-throughput phenotype extraction, harmonizing content with biomedical ontologies, and integrating clinical with molecular genomic data. The emphasis is on rare and neurodevelopmental disease and on data platforms, not on cancer.",
+   "focus": "The lab develops methods to integrate multiple heterogeneous clinical cohorts with electronic health records and several types of genomics data. Its stated research areas are biomedical discovery infrastructure and taxonomy of disease. Projects include the BD2K PIC-SURE Center of Excellence, the Global Rare Diseases Registry, and PCORI-funded work (ARCH and Phelan-McDermid Syndrome). The emphasis is on translational bioinformatics, data platforms and rare/pediatric disease rather than tumour sequencing.",
    "topics": [
     "translational bioinformatics",
-    "EHR and clinical data integration",
-    "PIC-SURE platform",
+    "EHR and genomic data integration",
+    "PIC-SURE data platform",
     "rare diseases",
-    "biomedical ontologies / phenotyping",
-    "genomic-clinical data harmonization"
+    "pediatric disease",
+    "clinical informatics"
    ],
    "fit": {
     "score": 2,
-    "reason": "There is some overlap through genomics data integration and computational methods, but the lab focuses on EHR, clinical and rare-disease data infrastructure, with no evident work on cancer genomics, structural variants, or single-cell and spatial omics."
+    "reason": "Genomic data integration and computational methods overlap slightly, but the lab focuses on clinical and EHR data and rare disease, not cancer genomics, structural variants or single-cell/spatial omics."
    },
    "flags": [
-    "Lab people/members page returned HTTP 403, so the postdoc and PhD student roster could not be verified and the list is empty, not confirmed empty",
-    "Search snippets showed staff (instructor Alba Gutiérrez-Sacristán, project manager, visiting scholars, software engineers) but no named PhD students",
-    "DBMI has an open postdoc posting for the lab; the posting date was not checked",
-    "No institution move found; the PI is still at HMS DBMI according to the DBMI profile (the fetch is undated)",
-    "The DBMI profile lists the PI as Assistant Professor in Pediatrics and Epidemiology but Associate Professor in Biomedical Informatics, and older cached lab pages say assistant professor, so titles may be out of date"
+    "Lab people page returned HTTP 403, so the current postdoc and PhD student roster could not be verified; members list left empty.",
+    "DBMI profile lists only a research/administrative coordinator (staff, excluded).",
+    "PI titles differ across DBMI pages (Associate vs Assistant Professor); the profile page lists Associate Professor of Biomedical Informatics.",
+    "Visa needed for a US role; a DBMI postdoc listing for the lab exists but its date was not verified."
    ],
    "sources": [
     {
@@ -18647,16 +18686,12 @@
      "url": "https://dbmi.hms.harvard.edu/node/243"
     },
     {
-     "title": "Avillach Lab people display",
-     "url": "https://avillach-lab.hms.harvard.edu/people-display"
-    },
-    {
-     "title": "Paul Avillach, MD, PhD - lab page",
-     "url": "https://avillach-lab.hms.harvard.edu/people/paul-avillach-md-phd"
+     "title": "Avillach Lab former members",
+     "url": "https://avillach-lab.hms.harvard.edu/former-members-1"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:50:04+00:00",
+   "refreshed_at": "2026-10-28T20:00:26+00:00",
    "error": null,
    "pi_profile": {
     "name": "Paul Avillach, MD, PhD",
@@ -18665,10 +18700,10 @@
     "scholar_url": null
    },
    "members": [],
-   "department": "Department of Biomedical Informatics (DBMI), HMS; also Boston Children's Hospital (Pediatrics) and Harvard T.H. Chan School of Public Health (Epidemiology)",
-   "location": "Boston, Massachusetts, USA",
-   "current_institution": "Harvard Medical School (Harvard University)",
-   "members_page": "https://avillach-lab.hms.harvard.edu/people-display"
+   "department": "Department of Biomedical Informatics (DBMI); also Boston Children's Hospital (Pediatrics) and Harvard T.H. Chan School of Public Health (Epidemiology)",
+   "location": "Boston, MA, USA",
+   "current_institution": "Harvard Medical School",
+   "members_page": null
   },
   {
    "name": "Park Lab",
@@ -19208,58 +19243,62 @@
    "department_hint": "Biomedical Informatics, HMS",
    "id": "harvard-cai",
    "url": "https://celehs.hms.harvard.edu/",
-   "focus": "The lab develops statistical and machine learning methods for mining electronic health record (EHR) data and building predictive models. Its work covers risk prediction and personalized medicine using biomarkers and genomic studies. It also covers clinical trials and real-world evidence that combine genomic and phenomic data. The emphasis is on population-scale clinical and EHR data rather than tumour sequencing or single-cell data.",
+   "focus": "The lab develops statistical and machine learning methods for biomedical data, especially electronic health record (EHR) data linked to biobanks. Its topics include risk prediction and personalized medicine using biomarkers and genomic data, clinical trials, and real-world evidence. It also works on EHR phenotyping and scalable analysis of large health-system data in support of a learning health system. Cai also provides statistical leadership on large NIH-funded projects such as the Undiagnosed Diseases Network.",
    "topics": [
-    "EHR data mining",
+    "EHR phenotyping",
     "risk prediction",
     "statistical machine learning",
-    "personalized medicine",
+    "precision medicine",
     "real-world evidence",
-    "learning health system"
+    "biobank / genomic data"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab does statistical and machine learning methods for genomic and EHR-based risk prediction, which overlaps the student's computational-methods interest. It has little focus on cancer WGS/transcriptome, structural variants or single-cell/spatial omics, and the student would need a US visa."
+    "reason": "The lab shares an interest in statistical and machine-learning methods with genomics, but its work centres on EHR and clinical data and risk prediction, with no published focus on cancer WGS, structural variants or single-cell/spatial omics."
    },
    "flags": [
-    "Could not verify the current member list. The lab people page (celehs.hms.harvard.edu/people.html) returned only a 'Redirecting...' stub to the fetch tool, so no postdocs or PhD students were confirmed.",
-    "The DBMI positions page says 'No current openings'.",
-    "No PI move found. Harvard DBMI profile and positions page still list Tianxi Cai at Harvard.",
-    "Google Scholar URL not found on official pages.",
-    "A Harvard Catalyst profile exists at connects.catalyst.harvard.edu/Profiles/display/Person/55356 (listed on the DBMI page)."
+    "Could not verify a current roster of postdocs or PhD students. The official people page (celehs.hms.harvard.edu/people) returned only a redirect to my fetcher, so no member list was extracted.",
+    "The CELEHS Netlify mirror people page (copyright 2025) lists only the director and collaborators, with no roles given. Yuri Ahuja appeared in a search snippet as an MD-PhD (Biostatistics) student, but I could not confirm this on the page, so he is not listed as a member.",
+    "No sign of a PI move: Cai remains at Harvard (HMS DBMI / HSPH Biostatistics).",
+    "The DBMI page for the Cai lab (positions) says there are no current openings.",
+    "Google Scholar URL not found, so it is left null."
    ],
    "sources": [
     {
-     "title": "Tianxi Cai – HMS DBMI profile",
+     "title": "CELEHS lab home",
+     "url": "https://celehs.hms.harvard.edu/"
+    },
+    {
+     "title": "Tianxi Cai lab page",
+     "url": "https://celehs.hms.harvard.edu/tcai"
+    },
+    {
+     "title": "DBMI profile: Tianxi Cai",
      "url": "https://dbmi.hms.harvard.edu/people/tianxi-cai"
     },
     {
-     "title": "Positions in the Lab of Tianxi Cai",
+     "title": "CELEHS Research Team (mirror)",
+     "url": "https://celehs.netlify.app/people"
+    },
+    {
+     "title": "Positions in the Lab of Tianxi Cai (DBMI)",
      "url": "https://dbmi.hms.harvard.edu/index.php/careers/fellows-associates/cai-lab"
-    },
-    {
-     "title": "CELEHS Research Team",
-     "url": "https://celehs.hms.harvard.edu/people.html"
-    },
-    {
-     "title": "Tianxi Cai CELEHS page",
-     "url": "https://celehs.hms.harvard.edu/tcai/index.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T19:50:09+00:00",
+   "refreshed_at": "2026-10-28T20:01:11+00:00",
    "error": null,
    "pi_profile": {
     "name": "Tianxi Cai",
-    "title": "Professor of Biomedical Informatics, Harvard Medical School; John Rock Professor of Population and Translational Data Sciences, Harvard T.H. Chan School of Public Health",
+    "title": "John Rock Professor of Population and Translational Data Science (Harvard University); Professor of Biostatistics, Harvard T.H. Chan School of Public Health; Professor of Biomedical Informatics, Harva",
     "profile_url": "https://dbmi.hms.harvard.edu/people/tianxi-cai",
     "scholar_url": null
    },
    "members": [],
-   "department": "Department of Biomedical Informatics (HMS); Department of Biostatistics (T.H. Chan School of Public Health)",
-   "location": "Boston, MA, USA",
-   "current_institution": "Harvard University (Harvard Medical School and Harvard T.H. Chan School of Public Health)",
-   "members_page": "https://celehs.hms.harvard.edu/people.html"
+   "department": "Department of Biomedical Informatics (HMS); Department of Biostatistics (HSPH)",
+   "location": "Boston, Massachusetts, USA",
+   "current_institution": "Harvard University (Harvard Medical School / Harvard T.H. Chan School of Public Health)",
+   "members_page": "https://celehs.netlify.app/people"
   },
   {
    "name": "Shalek Lab",
