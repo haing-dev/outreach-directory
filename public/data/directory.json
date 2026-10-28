@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T22:00:10+00:00",
+ "generated_at": "2026-10-28T22:55:21+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -19833,33 +19833,32 @@
    "department_hint": "Biological Engineering",
    "id": "mit-bryson",
    "url": "https://www.brysonlab.org/",
-   "focus": "The lab studies Mycobacterium tuberculosis infection and the host macrophage response. It builds tools and models that span scales, from single infected cells to whole animals, and draws on both immunology and microbiology. Two central questions drive the work. The first is which macrophage processes kill bacteria effectively, and how the bacteria resist that stress. The second is how macrophage plasticity can be manipulated to control macrophage function. The long-term goal is to modulate macrophage function and inform TB vaccine design. The group uses experimental and computational approaches, including single-cell methods, but its focus is infectious disease and immunology, not cancer.",
+   "focus": "The lab studies Mycobacterium tuberculosis (Mtb) infection. It asks how macrophages kill bacteria, how Mtb resists that killing, and how macrophage function might be reprogrammed. The work runs from single cells to infected animals and is meant to inform TB vaccine design. Methods are in the lab's own descriptions only in outline (I did not open a methods page): single-cell and systems-level measurements combined with computational modelling.",
    "topics": [
     "tuberculosis",
     "macrophage biology",
     "host-pathogen interaction",
-    "immunology",
-    "systems biology",
+    "systems immunology",
     "vaccine design"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab has some computational and single-cell work, but its focus is TB and macrophage immunology. It has little overlap with cancer genomics, structural variants or tumour sequencing, and the student would likely need a US visa."
+    "reason": "The lab is infectious-disease and immunology focused (TB host response), with only loose overlap with cancer genomics, structural variants or tumour sequencing, though its systems and computational approaches and single-cell work are somewhat relevant."
    },
    "flags": [
-    "The old URL brysonlab.mit.edu/team now redirects (301) to www.brysonlab.org.",
-    "The two sources disagree about Diana Gong and Owen Leddy. The brysonlab.org page lists them as current grad students, but the search summary of the older team page listed them as alumni. I left them out of the roster. Please verify them.",
-    "The lab page gives no research focus, year or profile links for any member.",
-    "The lab page's email listings are inconsistent, with some emails not matching the names beside them. I left all member emails null rather than risk wrong ones.",
-    "The PI's email bryand@mit.edu is published on the lab page."
+    "The old brysonlab.mit.edu/team URL now redirects (301) to www.brysonlab.org.",
+    "The PI is still at MIT. The csbphd.mit.edu page lists Assistant Professor, but the lab site lists Associate Professor, so I used the lab site. No move found.",
+    "The lab page's email links are scrambled (the same addresses appear against several names), so I listed no member emails. The only reliable contact is the PI's email, bryand@mit.edu, shown on the lab page.",
+    "The lab page appears to list Diana Gong and Owen Leddy as graduate students. A search summary of the old team page called them alumni. I excluded them, so please verify.",
+    "The members page shows only '© Copyright 2025' and has no update date. No member years, research focuses or profile links were listed."
    ],
    "sources": [
     {
-     "title": "Bryson Lab (brysonlab.org)",
+     "title": "Bryson Lab website",
      "url": "https://www.brysonlab.org/"
     },
     {
-     "title": "MIT CSB: Bryan Bryson faculty profile",
+     "title": "MIT CSB PhD faculty page: Bryan Bryson",
      "url": "https://csbphd.mit.edu/faculty/bryan-bryson/"
     },
     {
@@ -19867,16 +19866,16 @@
      "url": "https://brysonlab.mit.edu/team"
     },
     {
-     "title": "Blainey Lab team page",
+     "title": "Blainey Lab team page (Ni joint affiliation)",
      "url": "https://blainey.mit.edu/team"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:48:38+00:00",
+   "refreshed_at": "2026-10-28T22:53:54+00:00",
    "error": null,
    "pi_profile": {
     "name": "Bryan Bryson",
-    "title": "Associate Professor of Biological Engineering, MIT; Core Member, Ragon Institute",
+    "title": "Associate Professor of Biological Engineering; Core Member, Ragon Institute of MGH, MIT and Harvard",
     "profile_url": "https://csbphd.mit.edu/faculty/bryan-bryson/",
     "scholar_url": null
    },
@@ -19885,7 +19884,7 @@
      "name": "Jonathan Padilla Gomez",
      "role": "Postdoc",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page (lab theme is TB host-pathogen biology)",
      "email": null,
      "profile_url": null
     },
@@ -19893,7 +19892,7 @@
      "name": "Lerato Hlaka",
      "role": "Postdoc",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page (lab theme is TB host-pathogen biology)",
      "email": null,
      "profile_url": null
     },
@@ -19901,15 +19900,15 @@
      "name": "Ben Allsup",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page",
      "email": null,
      "profile_url": null
     },
     {
-     "name": "Cal Gunnarsson",
+     "name": "Cal Gunnarson",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page",
      "email": null,
      "profile_url": null
     },
@@ -19917,7 +19916,7 @@
      "name": "Christine Zheng",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page",
      "email": null,
      "profile_url": null
     },
@@ -19925,7 +19924,7 @@
      "name": "Heyuan (Michael) Ni",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering graduate student, joint with the Blainey Lab (per the Blainey Lab team page)",
+     "focus": "Jointly affiliated with the Blainey lab per its team page; not described on the Bryson page",
      "email": null,
      "profile_url": null
     },
@@ -19933,7 +19932,7 @@
      "name": "Jacob Hochfelder",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page",
      "email": null,
      "profile_url": null
     },
@@ -19941,13 +19940,13 @@
      "name": "Rachel McGinn",
      "role": "PhD student",
      "year": null,
-     "focus": "Research focus not listed on the lab page",
+     "focus": "Not listed on the lab page",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Department of Biological Engineering; Computational and Systems Biology (CSB) PhD program; Ragon Institute of Mass General, MIT and Harvard",
-   "location": "Cambridge, Massachusetts, USA",
+   "department": "Department of Biological Engineering; Computational and Systems Biology PhD program; Ragon Institute",
+   "location": "Cambridge, MA, USA",
    "current_institution": "Massachusetts Institute of Technology (MIT)",
    "members_page": "https://www.brysonlab.org/"
   },
@@ -20163,47 +20162,51 @@
    "department_hint": "Biology",
    "id": "mit-burge",
    "url": "https://www.genes.mit.edu/burgelab/",
-   "focus": "The lab uses computational and experimental methods to study how genes are expressed and regulated. A central question is how cells identify introns and splice sites in primary transcripts, including how splicing enhancer and repressor motifs work, which they test in vivo. The group develops algorithms for gene finding and microRNA identification, and studies alternative splicing and RNA regulation in disease. The work is mainly RNA biology and transcriptome-scale regulation, not tumour genomics.",
+   "focus": "The lab studies the computational biology of gene expression, with an emphasis on RNA splicing and its regulation. Recent work includes LUC7 proteins and the two major classes of 5′ splice sites in animals and plants, and intron-mediated enhancement, which uses thousands of random introns to separate sequence-dependent from sequence-independent effects on splicing. The lab also develops KATMAP, a method that infers splicing factor activity and regulatory targets from knockdown data. Work combines computational modelling and sequence analysis with high-throughput experiments.",
    "topics": [
-    "alternative splicing",
-    "RNA processing",
+    "RNA splicing",
     "gene regulation",
-    "microRNAs",
-    "computational genomics",
-    "gene finding algorithms"
+    "computational biology",
+    "5′ splice sites",
+    "splicing factor activity inference",
+    "transcriptomics"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab shares computational and transcriptomic methods with the student's interests, but its focus is splicing and RNA regulation. I found nothing on cancer genomics, structural variants, tumour WGS or spatial omics, and a US role would likely need a visa."
+    "reason": "The lab's computational and transcriptome-modelling methods overlap somewhat with the student's interests, but its focus is splicing regulation, not cancer genomics, structural variants or single-cell/spatial omics, and a US visa would likely be needed."
    },
    "flags": [
-    "No move found: the PI is still listed at MIT Biology.",
-    "The members page has no last-updated date, so the roster may be stale.",
-    "The page writes emails with '#' in place of '@'. I converted them to the evident intended form.",
-    "Individual profile pages give no research focus, only the lab tagline, so member focus is null or minimal.",
-    "A search surfaced older profiles (Kayla McCue, Maria Alexis) that are not on the current members page. I excluded them as likely alumni or outdated."
+    "PI is still at MIT; no move found.",
+    "The members page does not give research focus or student year, so those fields are null or 'Not listed'.",
+    "Emails are shown on the page in an obfuscated 'name#mit.edu' form. I rewrote them as @mit.edu.",
+    "The page has no 'last updated' date, so I couldn't check how current the roster is. Earlier search snippets mentioned Kayla McCue and Maria Alexis as CSB students, but they are not on the current page, so I left them out.",
+    "I did not find a Google Scholar URL."
    ],
    "sources": [
     {
-     "title": "MIT CSB PhD – Chris Burge faculty page",
-     "url": "https://csbphd.mit.edu/faculty/chris-burge/"
+     "title": "Lab members (current)",
+     "url": "https://www.genes.mit.edu/current"
     },
     {
      "title": "Burge Lab home",
-     "url": "https://www.genes.mit.edu/burgelab/"
+     "url": "http://genes.mit.edu/burgelab/"
     },
     {
-     "title": "Burge Lab current members",
-     "url": "https://www.genes.mit.edu/current"
+     "title": "MIT CSB PhD faculty page: Chris Burge",
+     "url": "https://csbphd.mit.edu/faculty/chris-burge/"
+    },
+    {
+     "title": "Christopher B. Burge",
+     "url": "https://www.genes.mit.edu/chris"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:49:13+00:00",
+   "refreshed_at": "2026-10-28T22:54:26+00:00",
    "error": null,
    "pi_profile": {
     "name": "Christopher B. Burge",
-    "title": "Professor of Biology",
-    "profile_url": "https://csbphd.mit.edu/faculty/chris-burge/",
+    "title": "Professor of Biology and Biological Engineering; Director, Computational and Systems Biology PhD Program",
+    "profile_url": "https://www.genes.mit.edu/chris",
     "scholar_url": null
    },
    "members": [
@@ -20211,7 +20214,7 @@
      "name": "David McWatters",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the profile page (PhD 2022, University of Lethbridge, Canada)",
+     "focus": "Not listed on the page (PhD 2022, University of Lethbridge)",
      "email": null,
      "profile_url": "https://www.genes.mit.edu/david"
     },
@@ -20219,15 +20222,15 @@
      "name": "Kuerbannisha Amahong",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated (PhD 2024, Zhejiang University). The profile page returned 404.",
+     "focus": "Not listed on the page (PhD 2024, Zhejiang University)",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.genes.mit.edu/Kuerbannisha"
     },
     {
      "name": "Michael McGurk",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the profile page (PhD 2019, Cornell)",
+     "focus": "Not listed on the page (PhD 2019, Cornell)",
      "email": null,
      "profile_url": "https://www.genes.mit.edu/michael2"
     },
@@ -20235,7 +20238,7 @@
      "name": "Tara Chari",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the profile page (PhD 2024, Caltech)",
+     "focus": "Not listed on the page (PhD 2024, Caltech)",
      "email": null,
      "profile_url": "https://www.genes.mit.edu/tara"
     },
@@ -20243,7 +20246,7 @@
      "name": "Aditya Wirawan",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the profile page (BA 2024, Harvard)",
+     "focus": "Not listed on the page (BA 2024, Harvard College)",
      "email": null,
      "profile_url": "https://www.genes.mit.edu/aditya"
     },
@@ -20251,14 +20254,14 @@
      "name": "Kira Patterson",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the profile page (BA 2018, Carleton College)",
+     "focus": "Not listed on the page (BA 2018, Carleton College)",
      "email": null,
      "profile_url": "https://www.genes.mit.edu/kira"
     }
    ],
-   "department": "Department of Biology; Computational and Systems Biology (CSB) PhD program",
+   "department": "Department of Biology; Biological Engineering; Computational and Systems Biology (CSB) PhD Program",
    "location": "Cambridge, MA, USA",
-   "current_institution": "Massachusetts Institute of Technology",
+   "current_institution": "Massachusetts Institute of Technology (MIT)",
    "members_page": "https://www.genes.mit.edu/current"
   },
   {
@@ -20341,25 +20344,25 @@
    "department_hint": "Chemical Engineering",
    "id": "mit-coley",
    "url": "https://coley.mit.edu",
-   "focus": "The lab develops machine learning and computational tools to make computer assistance more useful for chemical discovery. Work centres on computer-aided synthesis planning and retrosynthesis, reaction outcome and mechanism prediction, and generative models for small-molecule and 3D drug design. A second strand covers structure elucidation from tandem mass spectrometry data and computational metabolomics. The work is mostly computational, but the lab also uses laboratory automation and high-throughput experimentation to test predictions and generate data. Applications include drug discovery, chemical synthesis and materials science.",
+   "focus": "The lab combines chemical engineering, computer science and chemistry to make computer-assisted chemical discovery more useful. Most of the work is computational. It includes machine learning for reaction prediction, retrosynthesis and synthesis planning, and for reaction mechanism discovery. It also covers generative models and 3D design for small-molecule drug discovery, and ML for structure elucidation from mass spectra. Laboratory automation is used to test computational hypotheses and generate high-quality experimental data. The platform technologies apply to drug discovery, chemical synthesis and materials science.",
    "topics": [
-    "retrosynthesis and synthesis planning",
-    "reaction prediction",
+    "retrosynthesis / synthesis planning",
+    "reaction prediction ML",
     "generative molecular design",
-    "mass spectrometry / metabolomics ML",
+    "mass spectrometry structure elucidation",
     "lab automation",
     "drug discovery"
    ],
    "fit": {
-    "score": 1,
-    "reason": "The lab is about cheminformatics, ML for small molecules, and reaction and metabolomics modelling, with almost no overlap with cancer genomics, sequencing, structural variants, or single-cell/spatial omics, apart from a general ML-methods link and one cancer-nanoparticle project. Joining would also "
+    "score": 2,
+    "reason": "The lab's ML methods are strong, but it works on small-molecule chemistry rather than cancer genomics, sequencing, structural variants or single-cell/spatial omics. The only loose overlaps are ML-for-biology projects, such as nanoparticle cancer therapeutics and enzyme design."
    },
    "flags": [
     "No PI move found: still at MIT.",
-    "The CSB PhD page lists an older title (Henri Slezynger (1957) Career Development Assistant Professor); the lab people page lists Associate Professor, so the CSB page is outdated.",
-    "The members page does not give PhD years, so the year field is null for all members.",
-    "Anna Marija Sumrova is a visiting PhD student from Cambridge, so her email is a cam.ac.uk address.",
-    "Many students are co-advised with other labs."
+    "The CSB faculty page gives the title as 'Henri Slezynger (1957) Career Development Assistant Professor', but the lab people page says Associate Professor, Class of 1957 Career Development Professor. The lab page is likely newer.",
+    "Titles conflict between sources, and the Google Scholar URL was not verified, so it is null.",
+    "Year of study is not listed for any member.",
+    "Anna Marija Sumrova is a visiting student from Cambridge."
    ],
    "sources": [
     {
@@ -20369,18 +20372,14 @@
     {
      "title": "MIT CSB PhD - Connor W. Coley",
      "url": "https://csbphd.mit.edu/faculty/connor-w-coley/"
-    },
-    {
-     "title": "Coley Research Group",
-     "url": "https://coley.mit.edu"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:49:17+00:00",
+   "refreshed_at": "2026-10-28T22:54:30+00:00",
    "error": null,
    "pi_profile": {
     "name": "Connor W. Coley",
-    "title": "Associate Professor (Class of 1957 Career Development Professor), Chemical Engineering and Electrical Engineering & Computer Science",
+    "title": "Associate Professor, Class of 1957 Career Development Professor (Chemical Engineering; Electrical Engineering and Computer Science)",
     "profile_url": "https://csbphd.mit.edu/faculty/connor-w-coley/",
     "scholar_url": null
    },
@@ -20397,7 +20396,7 @@
      "name": "Jonas Rein",
      "role": "Postdoc",
      "year": null,
-     "focus": "Organic chemistry plus data-driven methods to find gaps in organic synthesis (co-advised with Masha Elkin)",
+     "focus": "Data-driven methods to find gaps in synthesis (co-advised with Masha Elkin)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/jonas-rein-68a59a23b"
     },
@@ -20405,7 +20404,7 @@
      "name": "Jordan Liles",
      "role": "Postdoc",
      "year": null,
-     "focus": "ML for catalyst design and automation-assisted reaction optimization; asymmetric methods",
+     "focus": "ML for catalyst design and automation-assisted reaction optimization",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/jordan-liles-934879126/"
     },
@@ -20413,7 +20412,7 @@
      "name": "Runzhong Wang",
      "role": "Postdoc",
      "year": null,
-     "focus": "ML and combinatorial optimization for computational metabolomics",
+     "focus": "ML and combinatorial optimization; computational metabolomics",
      "email": null,
      "profile_url": "https://twitter.com/runzhong_wang"
     },
@@ -20429,7 +20428,7 @@
      "name": "Anji Zhang",
      "role": "PhD student",
      "year": null,
-     "focus": "ML for reaction outcome prediction and data-driven reaction optimization (co-advised with Timothy Jamison)",
+     "focus": "ML for reaction outcome prediction and reaction optimization (co-advised with Timothy Jamison)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/anji-zhang/"
     },
@@ -20437,7 +20436,7 @@
      "name": "Anna Marija Sumrova",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational solutions for spectral data analysis (visiting PhD student from Cambridge, supervised by Jonathan Goodman)",
+     "focus": "Computational analysis of spectral data (visiting from Cambridge)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/amsumrova/"
     },
@@ -20453,7 +20452,7 @@
      "name": "Hongxuan Liu",
      "role": "PhD student",
      "year": null,
-     "focus": "Discrete diffusion generative models for small-molecule design; representation learning and structure elucidation from tandem MS",
+     "focus": "Discrete diffusion models for small-molecule design; structure elucidation from tandem MS",
      "email": null,
      "profile_url": "https://harrylaucngd.github.io"
     },
@@ -20461,7 +20460,7 @@
      "name": "Jihye Roh",
      "role": "PhD student",
      "year": null,
-     "focus": "Computer-aided multistep retrosynthesis for complex molecules",
+     "focus": "Computer-aided multistep retrosynthesis of complex molecules",
      "email": null,
      "profile_url": "http://www.linkedin.com/in/jihye-roh-77219a24a"
     },
@@ -20469,7 +20468,7 @@
      "name": "Joules Provenzano",
      "role": "PhD student",
      "year": null,
-     "focus": "Experimental and data-driven study of environmental degradation pathways of complex mixtures (co-advised with Desirée Plata)",
+     "focus": "Experimental and data-driven study of environmental degradation pathways (co-advised with Desirée Plata)",
      "email": null,
      "profile_url": null
     },
@@ -20477,7 +20476,7 @@
      "name": "Kenji Walker",
      "role": "PhD student",
      "year": null,
-     "focus": "AI/ML for small-molecule drug design (Harvard-MIT HST; co-advised with Angela Koehler)",
+     "focus": "AI/ML for small-molecule drug design (co-advised with Angela Koehler)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/kenjiwalker/"
     },
@@ -20493,7 +20492,7 @@
      "name": "Kevin Yu",
      "role": "PhD student",
      "year": null,
-     "focus": "Predictive chemistry, synthesis planning; ML and cheminformatics for reaction discovery (EECS)",
+     "focus": "Synthesis planning; ML and cheminformatics for reaction discovery",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/kevin-yu-854b09174/"
     },
@@ -20501,7 +20500,7 @@
      "name": "Magdalena Lederbauer",
      "role": "PhD student",
      "year": null,
-     "focus": "ML for structure elucidation from mass spectrometry and reaction discovery",
+     "focus": "ML for structure elucidation from mass spectrometry and for reaction discovery",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/magdalena-lederbauer/"
     },
@@ -20517,7 +20516,7 @@
      "name": "Mingrou Xie",
      "role": "PhD student",
      "year": null,
-     "focus": "Chemical reactivity in porous materials via computational chemistry and ML (co-supervised with Gómez-Bombarelli)",
+     "focus": "Reactivity in porous materials using computational chemistry and ML; green catalysis (co-supervised with Rafael Gómez-Bombarelli)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/xiemingrou/"
     },
@@ -20525,7 +20524,7 @@
      "name": "Mrunali Manjrekar",
      "role": "PhD student",
      "year": null,
-     "focus": "ML for small-molecule discovery and generation from mass spectra (Computational and Systems Biology)",
+     "focus": "ML for small-molecule discovery and generation from mass spectra",
      "email": null,
      "profile_url": null
     },
@@ -20541,7 +20540,7 @@
      "name": "Shitong Luo",
      "role": "PhD student",
      "year": null,
-     "focus": "Bridging ML and experiments (EECS)",
+     "focus": "Bridging ML and experiments",
      "email": null,
      "profile_url": "https://luost.me/"
     },
@@ -20565,7 +20564,7 @@
      "name": "Xiaoqi Sun",
      "role": "PhD student",
      "year": null,
-     "focus": "Autonomous data-driven synthesis and ML for reaction prediction",
+     "focus": "Autonomous data-driven synthesis; ML for reaction prediction",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/xiaoqisun29/"
     },
@@ -20586,7 +20585,7 @@
      "profile_url": "https://www.linkedin.com/in/zhengkai-tu-51554257/"
     }
    ],
-   "department": "Chemical Engineering; Electrical Engineering and Computer Science; Schwarzman College of Computing",
+   "department": "Chemical Engineering; Electrical Engineering and Computer Science; Schwarzman College of Computing; MIT Computational and Systems Biology PhD Program faculty",
    "location": "Cambridge, MA, USA",
    "current_institution": "Massachusetts Institute of Technology (MIT)",
    "members_page": "https://coley.mit.edu/people"
@@ -21146,43 +21145,51 @@
    "department_hint": "Biological Engineering",
    "id": "mit-fraenkel",
    "url": "https://fraenkel.mit.edu",
-   "focus": "The lab pairs computational and experimental methods to find new treatment strategies for disease. It integrates genome-wide data on gene activity, protein-DNA binding, genetic interactions and protein modifications. Network-based, machine-learning and AI methods reveal the signaling pathways and regulatory mechanisms behind disease. I could not read the lab's own research page, so this is based on the PI's MIT profile and search summaries. The member list covers neurodegeneration and cancer-related disease.",
+   "focus": "The lab develops computational and experimental methods to find new therapeutic strategies for disease. It integrates genome-wide data on transcription, protein-DNA interactions, genetic interactions and protein modifications. From these data it reconstructs signaling pathways and regulatory networks and works out the mechanisms behind disease. The program page lists its areas as regulatory genomics, epigenomics and proteomics, chemical biology and metabolomics, and evolutionary and computational biology. The lab's work on neurodegenerative disease and other complex diseases is not covered by the pages I fetched, so I left it out of this description.",
    "topics": [
-    "network biology",
+    "systems biology of disease",
+    "regulatory networks",
+    "signaling pathway reconstruction",
     "multi-omics integration",
-    "machine learning",
-    "signaling and regulatory networks",
-    "disease mechanisms",
-    "computational systems biology"
+    "proteomics and epigenomics",
+    "gene regulation"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab shares an interest in computational and machine-learning methods for omics data, but I found no sign of focus on cancer genomics, whole-genome sequencing, structural variants or single-cell/spatial work. It is also US-based, so a visa may be needed."
+    "reason": "The lab's network-based multi-omics integration and computational methods overlap loosely with the student's interest in computational genomics. Nothing I saw covers cancer genomics, tumour WGS, structural variants or single-cell/spatial omics, and the lab is in the US, so the student may need a vis"
    },
    "flags": [
-    "No move found: the PI is still at MIT, per the CSB faculty page and the lab site (footer shows © 2026).",
-    "The members page shows no update date and has no individual profile links, years or research focus.",
-    "Only Brian Kang's email is shown on the page. The other entries have empty mailto links.",
-    "The PI's Google Scholar URL was not verified.",
-    "The CSB faculty page says 'Associate Professor' and the lab members page says 'Professor'. I used the more recent title, Professor."
+    "The PI is still at MIT, so there is no move to flag.",
+    "The members page has no last-updated date. Its footer says © 2026.",
+    "The members page gives no research focus, year or profile link for any member. Only Brian Kang has a published email.",
+    "The page also lists research and administrative staff, who are excluded here.",
+    "Divya Ramamoorthy appears on an MIT 'belong' page as a BE PhD student in the lab. She is not on the current members page, so I did not include her."
    ],
    "sources": [
     {
-     "title": "Fraenkel Lab - Current Members",
+     "title": "Fraenkel Lab: Current Members",
      "url": "https://fraenkel.mit.edu/people"
     },
     {
-     "title": "MIT CSB PhD - Ernest Fraenkel",
+     "title": "MIT CSB PhD: Ernest Fraenkel",
      "url": "https://csbphd.mit.edu/faculty/ernest-fraenkel/"
+    },
+    {
+     "title": "MIT BE directory: Ernest Fraenkel",
+     "url": "http://be.mit.edu/directory/ernest-fraenkel"
+    },
+    {
+     "title": "Fraenkel Lab alumni (GitHub)",
+     "url": "https://fraenkel-lab.github.io/alumni"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:49:53+00:00",
+   "refreshed_at": "2026-10-28T22:55:11+00:00",
    "error": null,
    "pi_profile": {
     "name": "Ernest Fraenkel",
-    "title": "Professor of Biological Engineering; Grover M. Hermann Professor in Health Sciences and Technology; co-director of MIT's Computational and Systems Biology PhD program",
-    "profile_url": "https://csbphd.mit.edu/faculty/ernest-fraenkel/",
+    "title": "Professor of Biological Engineering (the CSB program page says Associate Professor; the lab members page says Professor)",
+    "profile_url": "http://be.mit.edu/directory/ernest-fraenkel",
     "scholar_url": null
    },
    "members": [
@@ -21190,7 +21197,7 @@
      "name": "Aneesh Donde",
      "role": "Postdoc",
      "year": null,
-     "focus": null,
+     "focus": "Not stated on the members page",
      "email": null,
      "profile_url": null
     },
@@ -21198,7 +21205,7 @@
      "name": "Stanislav Tsitkov",
      "role": "Postdoc",
      "year": null,
-     "focus": null,
+     "focus": "Not stated on the members page",
      "email": null,
      "profile_url": null
     },
@@ -21206,7 +21213,7 @@
      "name": "Alec Barrios",
      "role": "PhD student",
      "year": null,
-     "focus": "Biology PhD program; research focus not listed",
+     "focus": "Biology PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21214,7 +21221,7 @@
      "name": "Brian Kang",
      "role": "PhD student",
      "year": null,
-     "focus": "Biological Engineering PhD program; research focus not listed",
+     "focus": "Biological Engineering PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21222,7 +21229,7 @@
      "name": "Connie New",
      "role": "PhD student",
      "year": null,
-     "focus": "Biology PhD program; research focus not listed",
+     "focus": "Biology PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21230,7 +21237,7 @@
      "name": "Danielle Firer",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational and Systems Biology PhD program; research focus not listed",
+     "focus": "Computational and Systems Biology PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21238,7 +21245,7 @@
      "name": "Ifrah Tariq",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational and Systems Biology PhD program; research focus not listed",
+     "focus": "Computational and Systems Biology PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21246,7 +21253,7 @@
      "name": "Matthew Leventhal",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational and Systems Biology PhD program; research focus not listed",
+     "focus": "Computational and Systems Biology PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21254,7 +21261,7 @@
      "name": "Velina Kozareva",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational and Systems Biology PhD program; research focus not listed",
+     "focus": "Computational and Systems Biology PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     },
@@ -21262,12 +21269,12 @@
      "name": "Veronika Pister",
      "role": "PhD student",
      "year": null,
-     "focus": "Biological Engineering PhD program; research focus not listed",
+     "focus": "Biological Engineering PhD program; research focus not stated",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Department of Biological Engineering; Computational and Systems Biology (CSB) PhD program",
+   "department": "Department of Biological Engineering; Computational and Systems Biology (CSB) PhD Program",
    "location": "Cambridge, Massachusetts, USA",
    "current_institution": "Massachusetts Institute of Technology (MIT)",
    "members_page": "https://fraenkel.mit.edu/people"
@@ -21283,29 +21290,29 @@
    "department_hint": "Biological Engineering / IMES",
    "id": "mit-collins",
    "url": "https://www.collinslab.mit.edu/",
-   "focus": "The lab works in synthetic and systems biology. It uses network biology to study how antibiotics act, how bacteria defend themselves, and how resistance emerges. A major thrust, including the Antibiotics-AI Project, applies deep learning and generative models to discover and design new antibiotics against drug-resistant bacteria. The lab also builds synthetic gene circuits for diagnostics and therapeutics. Work combines wet-lab microbiology and synthetic biology with machine learning on chemical and biological data.",
+   "focus": "The lab combines synthetic biology and systems biology, with a strong emphasis on antibiotics. Through the Antibiotics-AI Project, it uses deep learning to discover new antibiotic classes, work out how they act, and design new antibiotics. It also develops combination treatments. The synthetic biology work engineers gene circuits and programmable cells for diagnostics and therapeutics, and uses deep learning to discover genetic parts.",
    "topics": [
     "antibiotic discovery",
-    "deep learning / generative AI",
+    "deep learning",
     "synthetic biology",
     "systems biology",
-    "antimicrobial resistance",
-    "gene circuits"
+    "gene circuits",
+    "antimicrobial resistance"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab has a strong machine-learning-for-biology component, but its focus is bacterial and antibiotic work, not cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics; a US visa would also be needed."
+    "reason": "The lab does substantial machine learning for biology, which loosely matches the student's interest in computational and ML methods. Its focus is bacterial antibiotic discovery and synthetic biology, not cancer genomics, structural variants, or single-cell/spatial omics, and a US role would likely n"
    },
    "flags": [
-    "No PI move: Collins is still at MIT (IMES / Biological Engineering), with Broad and Wyss affiliations.",
-    "The members page does not give research focus per person. The 'focus' fields show the program or PhD background listed on the page. Individual profile pages were not opened.",
-    "Emails appeared on the page in obfuscated form ('[at]' or split link text). I reconstructed them and they have not been checked, so verify before use.",
-    "Some students are enrolled at Harvard or DTU, not MIT.",
-    "Year of study is not listed."
+    "No move found. The IMES profile still lists Collins at MIT (Cambridge, MA).",
+    "The members page does not state research focus, year of study, or current/alumni status. I treated the Postdoctoral and Graduate Students sections as current. I did not open individual profile pages, so member focus is mostly unknown.",
+    "Emails appear on the page in obfuscated 'name [at] domain' form and are reconstructed here. One (direspi@mit.edu) was shown in plain form.",
+    "Several students are listed under Harvard, DTU, or other home programs, and some emails are wyss.harvard.edu or harvard.edu addresses.",
+    "No Google Scholar URL was verified, so it is null."
    ],
    "sources": [
     {
-     "title": "James Collins - MIT IMES profile",
+     "title": "James J. Collins, IMES profile",
      "url": "https://imes.mit.edu/people/collins-james"
     },
     {
@@ -21318,11 +21325,11 @@
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:49:26+00:00",
+   "refreshed_at": "2026-10-28T22:54:45+00:00",
    "error": null,
    "pi_profile": {
     "name": "James J. Collins",
-    "title": "Termeer Professor of Medical Engineering and Science; Professor of Biological Engineering",
+    "title": "Termeer Professor of Medical Engineering and Science; Professor of Biological Engineering, MIT",
     "profile_url": "https://imes.mit.edu/people/collins-james",
     "scholar_url": null
    },
@@ -21331,7 +21338,7 @@
      "name": "Cholpisit Ice Kiattisewee",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Univ. of Washington '23; research focus not listed",
+     "focus": "Not stated on the members page (PhD, University of Washington, 2023)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/cholpisit-ice-kiattisewee"
     },
@@ -21339,7 +21346,7 @@
      "name": "Conor Loynd",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Boston College '24; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Boston College, 2024)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/conor-loynd"
     },
@@ -21347,7 +21354,7 @@
      "name": "Giuliano De Carluccio",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Univ. of Naples Federico II '23; research focus not listed",
+     "focus": "Not stated on the members page (PhD, University of Naples Federico II, 2023)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/giuliano-de-carluccio"
     },
@@ -21355,7 +21362,7 @@
      "name": "James Robson",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Boston University '26; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Boston University, 2026)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/gcz4dn0s21897cij4uxw0zda7ev4v5"
     },
@@ -21363,7 +21370,7 @@
      "name": "Nayoung Kim",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Imperial College London '21; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Imperial College London, 2021)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/unnwtxqbxyb8736zeb88r7a5qg1bxb"
     },
@@ -21371,7 +21378,7 @@
      "name": "Rih-Sheng Huang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Univ. of Minnesota '26; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Minnesota, 2026)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/i4c7dqxnewbtxylqf1ley85pe61yuz"
     },
@@ -21379,7 +21386,7 @@
      "name": "Sebastian Palacios",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. MIT '21; research focus not listed",
+     "focus": "Not stated on the members page (PhD, MIT, 2021)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/sebastian-palacios"
     },
@@ -21387,7 +21394,7 @@
      "name": "Seyed Majed Modaresi",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Biozentrum, Univ. of Basel '23; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Biozentrum Basel, 2023)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/2024/11/8/d258dsuefj8din606q6twalq6qouja"
     },
@@ -21395,7 +21402,7 @@
      "name": "Thomas Fryer",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Univ. of Cambridge '22; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Cambridge, 2022)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/thomas-fryer"
     },
@@ -21403,7 +21410,7 @@
      "name": "William Schmidt",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. UCLA '25; research focus not listed",
+     "focus": "Not stated on the members page (PhD, UCLA, 2025)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/vbexb3khrkvttcm6sf357f6pstoxjh"
     },
@@ -21411,7 +21418,7 @@
      "name": "Yu Zhang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Ph.D. Johns Hopkins '24; research focus not listed",
+     "focus": "Not stated on the members page (PhD, Johns Hopkins, 2024)",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/postdocs/yu-zhang"
     },
@@ -21419,7 +21426,7 @@
      "name": "Andrew Hennes",
      "role": "PhD student",
      "year": null,
-     "focus": "Harvard Chemistry and Chemical Biology; research focus not listed",
+     "focus": "Harvard Chemistry and Chemical Biology; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/andrew-hennes"
     },
@@ -21427,7 +21434,7 @@
      "name": "Audrey Ory",
      "role": "PhD student",
      "year": null,
-     "focus": "Harvard Systems, Synthetic, and Quantitative Biology; research focus not listed",
+     "focus": "Harvard Systems, Synthetic, and Quantitative Biology; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/c3mloi2q3ineb7lxljlgz30kbepzhf"
     },
@@ -21435,7 +21442,7 @@
      "name": "Diego Ruiz Espi",
      "role": "PhD student",
      "year": null,
-     "focus": "DTU Digital Biotechnology Lab; research focus not listed",
+     "focus": "DTU Digital Biotechnology; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/4reopmz7n5b0niocvlipgf8saqnkj2"
     },
@@ -21443,7 +21450,7 @@
      "name": "Isabella (Izzy) Goodchild-Michelman",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; research focus not listed",
+     "focus": "MIT Biological Engineering; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/isabella-izzy-goodchildmichelman"
     },
@@ -21451,7 +21458,7 @@
      "name": "Jett Liu",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Microbiology; research focus not listed",
+     "focus": "MIT Microbiology; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/jett-liu"
     },
@@ -21459,7 +21466,7 @@
      "name": "Line Winther Gormsen",
      "role": "PhD student",
      "year": null,
-     "focus": "DTU Pharmaceutical Design and Engineering; research focus not listed",
+     "focus": "DTU Pharmaceutical Design and Engineering; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/2rndjy0fn83gs0gpw4wzxzg8kikyj5"
     },
@@ -21467,7 +21474,7 @@
      "name": "Mead Lockwood",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; research focus not listed",
+     "focus": "MIT Biological Engineering; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/mead-esrey-lockwood"
     },
@@ -21475,7 +21482,7 @@
      "name": "Mia Wesselkamper",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Microbiology; research focus not listed",
+     "focus": "MIT Microbiology; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/861sumha5spvlfzhyzjmlg5hwhl729"
     },
@@ -21483,7 +21490,7 @@
      "name": "Ronak Desai",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Chemistry program; research focus not listed",
+     "focus": "MIT Chemistry program; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/ronak-desai"
     },
@@ -21491,7 +21498,7 @@
      "name": "Thomas Marsland",
      "role": "PhD student",
      "year": null,
-     "focus": "Fulbright Scholar; B.S. Hons Univ. of Otago; research focus not listed",
+     "focus": "Fulbright Scholar; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/kh2xoh0dis9btmdxt22u9m8y3illdh"
     },
@@ -21499,7 +21506,7 @@
      "name": "Venkat S. Vege",
      "role": "PhD student",
      "year": null,
-     "focus": "Harvard Biophysics; research focus not listed",
+     "focus": "Harvard Biophysics; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/7o65vjrd2spqwaqo5h7i4wyc7v8x0d"
     },
@@ -21507,12 +21514,12 @@
      "name": "William Sun",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; research focus not listed",
+     "focus": "MIT Biological Engineering; focus not stated on the members page",
      "email": null,
      "profile_url": "https://www.collinslab.mit.edu/graduate_students/xthmukxkyh6iochymnmpq1d9dfgzk0"
     }
    ],
-   "department": "Institute for Medical Engineering and Science (IMES); Department of Biological Engineering; Harvard-MIT Health Sciences and Technology; also Broad Institute and Wyss Institute (Harvard)",
+   "department": "Institute for Medical Engineering and Science (IMES); Department of Biological Engineering; Harvard-MIT Health Sciences & Technology; also Broad Institute and Wyss Institute",
    "location": "Cambridge, MA, USA",
    "current_institution": "Massachusetts Institute of Technology (MIT)",
    "members_page": "https://www.collinslab.mit.edu/people"
@@ -21528,25 +21535,25 @@
    "department_hint": "Chemical Engineering",
    "id": "mit-galloway",
    "url": "https://gallowaylab.mit.edu",
-   "focus": "The lab integrates synthetic gene circuits to control mammalian cell behavior. It studies systems-level principles behind dynamic processes such as cellular reprogramming and cell-fate transitions. It also builds synthetic biology tools to examine these transitions, including work on genome architecture and gene circuits, and uses them to engineer cell therapies. The work is mainly experimental and engineering-driven, so the computational side is modeling of circuits and cell-state dynamics rather than cancer genomics.",
+   "focus": "The lab uses synthetic gene circuits to control cell behavior. It looks for general principles behind dynamic processes such as cellular reprogramming. It combines synthetic biology with molecular systems biology to build tools for studying how cells move between states. It also works on engineering cell-based therapies. The pages I read don't describe cancer genomics or sequencing-based methods.",
    "topics": [
     "synthetic biology",
     "gene circuits",
     "cellular reprogramming",
     "cell-fate transitions",
-    "genome architecture",
-    "cell therapy engineering"
+    "systems biology",
+    "cell therapy"
    ],
    "fit": {
     "score": 2,
-    "reason": "The overlap is limited to some computational and systems modeling of cell states and possible single-cell methods. The lab does not focus on cancer genomics, tumour sequencing, structural variants or somatic mutation analysis, and it would involve a US visa."
+    "reason": "The lab works on synthetic gene circuits and cell reprogramming, with some overlap in computational and single-cell methods, but it doesn't appear to cover cancer genomics, structural variants or tumour sequencing."
    },
    "flags": [
-    "PI is still at MIT, so no move was found. Her title differs by source: the lab site says Assistant Professor, the MIT CSB page says W.M. Keck Career Development Professor, and AIChE says Charles and Hilda Roddey Career Development Professor.",
-    "The people page gives no research focus or year for any member, and no individual emails. The only email is the PI's general address, katiegal@mit.edu.",
-    "The page has an unlabeled block after the Alumni heading. It lists Zahmiria Johnson, Christopher Johnstone, Sneha Kabaria and Emma Peterman as graduate students, and Richard Hongyi Li, Albert Blanch Asensio, Nat Wang, Joji Teves and Deon Ploessl as postdocs. I treated these as probable alumni and le",
-    "The Google Scholar URL was not verified.",
-    "The page is copyright 2026 and appears current."
+    "No move found: the PI is still at MIT, where she started in fall 2019.",
+    "Title sources conflict: the lab page says Assistant Professor, the MIT engineering directory says Associate Professor, and the CSB page lists the Keck Career Development Professorship. The lab CV (Feb 2026 and later) may settle it.",
+    "The people page lists students only as 'Graduate Student' and gives no years or individual research focus. I did not open the individual profile pages, so the focus and year fields are empty.",
+    "The only email on the page is the general lab inquiry address, katiegal@mit.edu. It is not listed for any individual member, so all member emails are null.",
+    "I did not verify the PI's Google Scholar page, so scholar_url is null."
    ],
    "sources": [
     {
@@ -21554,20 +21561,24 @@
      "url": "https://csbphd.mit.edu/faculty/katie-galloway/"
     },
     {
-     "title": "Galloway Lab - People",
+     "title": "Galloway Lab People",
      "url": "https://gallowaylab.mit.edu/people"
     },
     {
-     "title": "Galloway Lab",
-     "url": "https://gallowaylab.mit.edu"
+     "title": "Kate E. Galloway - Galloway Lab contact",
+     "url": "https://gallowaylab.mit.edu/contact"
+    },
+    {
+     "title": "Kate E. Galloway - MIT Engineering",
+     "url": "https://engineering.mit.edu/people/kate-e-galloway"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:50:12+00:00",
+   "refreshed_at": "2026-10-28T22:55:21+00:00",
    "error": null,
    "pi_profile": {
-    "name": "Katie Galloway",
-    "title": "W.M. Keck Career Development Professor in Biomedical Engineering and Chemical Engineering (the lab site calls her Assistant Professor of Chemical Engineering)",
+    "name": "Katie (Kate E.) Galloway",
+    "title": "W. M. Keck Career Development Professor in Biomedical Engineering and Chemical Engineering (Assistant Professor of Chemical Engineering per the lab page; the MIT engineering directory says Associate P",
     "profile_url": "https://csbphd.mit.edu/faculty/katie-galloway/",
     "scholar_url": null
    },
@@ -21576,7 +21587,7 @@
      "name": "Brittany Lende-Dorn",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page. She appears in both the current and the unlabeled lower block.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/brittany-lende/"
     },
@@ -21584,7 +21595,7 @@
      "name": "Huijin Lee",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/huijin-lee/"
     },
@@ -21592,7 +21603,7 @@
      "name": "Joey Huang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/joey-huang/"
     },
@@ -21600,7 +21611,7 @@
      "name": "Justin Paek",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/justin-paek/"
     },
@@ -21608,7 +21619,7 @@
      "name": "Rohan Thakur",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/rohan-thakur/"
     },
@@ -21616,7 +21627,7 @@
      "name": "Amy Oh",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed. Listed as 'Graduate Student', so the PhD status is not confirmed.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/amy-oh/"
     },
@@ -21624,7 +21635,7 @@
      "name": "Derin Gumustop",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed. Listed as 'Graduate Student', so the PhD status is not confirmed.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/derin-gumustop/"
     },
@@ -21632,7 +21643,7 @@
      "name": "Kasey Love",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed; the page gives only the lab-wide focus. Listed as 'Graduate Student', so the PhD status is not confirmed.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/kasey-love/"
     },
@@ -21640,7 +21651,7 @@
      "name": "Maria Castellanos",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed. Listed as 'Graduate Student', so the PhD status is not confirmed.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/maria-castellanos/"
     },
@@ -21648,7 +21659,7 @@
      "name": "Mary Ehmann",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed. Listed as 'Graduate Student', so the PhD status is not confirmed.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/mary-ehmann/"
     },
@@ -21656,12 +21667,12 @@
      "name": "Paulina Naydenkov",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page",
+     "focus": "Not listed. Listed as 'Graduate Student', so the PhD status is not confirmed.",
      "email": null,
      "profile_url": "https://gallowaylab.mit.edu/teams/paulina-naydenkov/"
     }
    ],
-   "department": "Department of Chemical Engineering; Computational and Systems Biology PhD program",
+   "department": "Chemical Engineering; Biomedical Engineering; Computational and Systems Biology (CSB) PhD program",
    "location": "Cambridge, MA, USA",
    "current_institution": "Massachusetts Institute of Technology",
    "members_page": "https://gallowaylab.mit.edu/people"
@@ -22399,46 +22410,46 @@
    "department_hint": "Biology",
    "id": "mit-corradin",
    "url": "https://www.corradinlab.org",
-   "focus": "The lab studies how inherited and epigenetic differences change gene expression and so influence human disease. It works out how disease-linked non-coding variants (including 'outside variants') act in specific cell types. Current disease areas are multiple sclerosis (oligodendrocytes and microglia) and opioid use disorder (medium spiny neurons). Methods include ChIP-seq, Hi-C, GWAS fine-mapping and Perturb-seq, combined with computational analysis.",
+   "focus": "The lab studies how genetic and epigenetic variation in noncoding DNA disrupts gene regulation and contributes to human disease. Its main disease areas are multiple sclerosis and substance use disorders, especially opioid use disorder. Methods include ChIP-seq, Hi-C, GWAS variant mapping and Perturb-seq. The work focuses on enhancers and cell types such as microglia, glia and medium spiny neurons. The lab uses a mix of wet-lab and computational work to link risk variants to target genes.",
    "topics": [
-    "non-coding variants",
-    "epigenomics / gene regulation",
+    "noncoding variants",
+    "enhancers / epigenomics",
     "multiple sclerosis",
     "opioid use disorder",
     "Perturb-seq",
-    "GWAS functional genomics"
+    "3D genome (Hi-C)"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab shares a computational-genomics and variant-interpretation angle with the student, but it works on neuro-immune and addiction genetics, not cancer genomics, tumour WGS or structural variants, and it is US-based, so a visa would likely be needed."
+    "reason": "The lab does computational and functional genomics of noncoding variants in neuro-immune disease and addiction. It has little overlap with cancer genomics, tumour WGS/transcriptome work or structural variants, and the only shared ground is general genomic methods, so the fit is modest."
    },
    "flags": [
-    "No move found: the PI is still at MIT and the Whitehead Institute (MIT Assistant Professor and Whitehead Member since 2021).",
-    "Roles for Wenjuan Du, Hannah Ramcharan and Yike Huang are not stated on the people page, so their Postdoc / PhD student labels are inferences.",
-    "The people page shows no explicit postdoc section, and I could not confirm it is up to date.",
-    "I did not find the PI's Google Scholar URL, so it is null.",
-    "Emails come from the lab's people page, and I did not check them against a separate university directory."
+    "The PI is still at MIT and the Whitehead Institute. No move was found.",
+    "The people page lists no postdocs. Wenjuan Du (joined 2021; glial cells, Perturb-seq) and Hannah Ramcharan (noncoding regions, ChIP-seq/GWAS) have no stated role, so they are left out of the member list and may be postdocs or students.",
+    "Yike Huang (PhD completed 2024) and Sofia Agudelo (technician) were excluded as alumni or staff.",
+    "Member emails come from the lab people page. I did not find a Google Scholar profile and did not verify one.",
+    "Individual members have no personal profile pages, so profile_url is null for each."
    ],
    "sources": [
     {
-     "title": "MIT CSB PhD faculty page: Olivia Corradin",
-     "url": "https://csbphd.mit.edu/faculty/olivia-corradin/"
-    },
-    {
-     "title": "Corradin Lab home",
-     "url": "https://www.corradinlab.org"
-    },
-    {
-     "title": "Corradin Lab people",
+     "title": "Corradin Lab - People",
      "url": "https://www.corradinlab.org/people"
     },
     {
-     "title": "Whitehead Institute appoints two new faculty members",
-     "url": "https://biology.mit.edu/?p=20240"
+     "title": "Corradin Lab - Home",
+     "url": "https://www.corradinlab.org"
+    },
+    {
+     "title": "MIT CSB PhD - Olivia Corradin",
+     "url": "https://csbphd.mit.edu/faculty/olivia-corradin/"
+    },
+    {
+     "title": "SFARI - Olivia Corradin",
+     "url": "https://www.sfari.org/people/olivia-corradin"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:49:46+00:00",
+   "refreshed_at": "2026-10-28T22:54:57+00:00",
    "error": null,
    "pi_profile": {
     "name": "Olivia Corradin",
@@ -22448,65 +22459,41 @@
    },
    "members": [
     {
-     "name": "Wenjuan Du",
-     "role": "Postdoc",
-     "year": "joined 2021",
-     "focus": "Glial cells in neuropsychiatric disorders, using genetic analysis and Perturb-seq (role not stated on the page; Postdoc is inferred and unverified)",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Yike Huang",
-     "role": "Postdoc",
-     "year": "joined June 2024",
-     "focus": "Early life adversity and susceptibility to opioid use disorder (page notes a PhD completed in 2024; Postdoc is inferred and unverified)",
-     "email": null,
-     "profile_url": null
-    },
-    {
      "name": "Chesna Apere",
      "role": "PhD student",
-     "year": "joined June 2024",
-     "focus": "Genetic aspects of opioid use disorder, using Perturb-seq in medium spiny neurons (MIT Biology)",
+     "year": null,
+     "focus": "Genetics of opioid use disorder; Perturb-seq in medium spiny neurons (MIT Biology)",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Chidera Okeke",
      "role": "PhD student",
-     "year": "2nd year (joined 2023)",
-     "focus": "Gene regulation dynamics in the brain, using ChIP-seq and Hi-C (MIT Biology graduate student)",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Hannah Ramcharan",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Non-coding regulatory regions (e.g. enhancers) in disease, using ChIP-seq and GWAS data (role not stated on the page; PhD student is inferred and unverified)",
+     "year": "2nd year",
+     "focus": "Brain gene regulation dynamics using ChIP-seq and Hi-C (MIT Biology)",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Xochitl Luna",
      "role": "PhD student",
-     "year": "joined 2023",
-     "focus": "Role of enhancers in microglia in multiple sclerosis (MIT Brain and Cognitive Sciences)",
+     "year": null,
+     "focus": "Enhancers in microglia in multiple sclerosis (Brain and Cognitive Sciences)",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Yasmine Sami",
      "role": "PhD student",
-     "year": "joined 2022",
-     "focus": "Epigenetic effects of opioid exposure (MIT Brain and Cognitive Sciences)",
+     "year": null,
+     "focus": "Epigenetic effects of opioid exposure and substance use disorders (Brain and Cognitive Sciences)",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "MIT Department of Biology; Whitehead Institute",
-   "location": "Cambridge, MA, USA",
-   "current_institution": "Massachusetts Institute of Technology (lab based at the Whitehead Institute for Biomedical Research)",
+   "department": "MIT Department of Biology; Whitehead Institute for Biomedical Research",
+   "location": "Cambridge, Massachusetts, USA",
+   "current_institution": "Massachusetts Institute of Technology (lab at the Whitehead Institute)",
    "members_page": "https://www.corradinlab.org/people"
   },
   {
@@ -22519,26 +22506,26 @@
    "group": null,
    "department_hint": "Civil and Environmental Engineering",
    "id": "mit-cordero",
-   "url": "https://www.corderolab.org/",
-   "focus": "The lab studies how microbes assemble into functional communities at small spatial scales, with the aim of designing more efficient and resilient microbiomes. It concentrates on communities that degrade biopolymers, where several bacterial species with different behaviours cluster densely and trigger ecological and metabolic shifts that break down complex organic material. Methods include synthetic ecology, computational modeling, genomics, high-throughput phenomics, microfluidics and imaging. Current projects include polysaccharide utilization in the gut microbiome, spatially structured consortia built with click chemistry, and microbiome engineering.",
+   "url": "https://corderolab.org/",
+   "focus": "The lab studies how microbial communities assemble into functional groups at small spatial scales. The goal is to design more efficient and resilient microbiomes. Much of the work is on communities that degrade complex organic matter such as plant and animal polysaccharides. Methods combine synthetic ecology, computational modeling and genomics, plus microfluidics, imaging and chemical tools such as click-chemistry surface functionalization. The lab applies these to natural communities (marine particles, gut, zooplankton-associated) and to lab-engineered consortia.",
    "topics": [
     "microbial ecology",
     "microbiome engineering",
     "synthetic ecology",
     "polysaccharide degradation",
-    "microbial genomics",
-    "community assembly"
+    "community assembly",
+    "microbial genomics"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab works on environmental and gut microbial ecology and microbiome engineering, with no cancer genomics, structural variant or tumour sequencing work; only the general computational and genomics methods overlap with the student's interests."
+    "reason": "The lab works on environmental and engineered microbiomes, with little overlap with cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics in cancer. The only shared ground is generic computational and genomics methods."
    },
    "flags": [
-    "The PI is still at MIT, with no sign of a move.",
-    "The members page does not show when it was last updated, and it lists no emails, individual profile links or student years.",
-    "I could not verify a Google Scholar URL, so it is null.",
-    "The title differs between sources: the MIT CSB page says Assistant Professor and a search snippet says Associate Professor, so check the current rank.",
-    "A US role would likely need a visa for a Canadian-based student."
+    "The PI is still at MIT, in CEE; no move found.",
+    "The people page carries a timestamp of 2025-02-03, so the roster may be out of date.",
+    "The page gave no emails, individual profile links or years for members.",
+    "No Google Scholar URL was verified.",
+    "The PI's title differs between sources (Doherty Assistant Professor on the CSB page; associate professor in a 2019 press profile)."
    ],
    "sources": [
     {
@@ -22546,20 +22533,20 @@
      "url": "https://csbphd.mit.edu/faculty/otto-x-cordero/"
     },
     {
-     "title": "Cordero Lab People",
-     "url": "https://corderolab.org/people/"
+     "title": "Cordero Lab home",
+     "url": "https://corderolab.org/"
     },
     {
-     "title": "Cordero Lab",
-     "url": "https://www.corderolab.org/"
+     "title": "Cordero Lab people",
+     "url": "https://corderolab.org/people/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:49:37+00:00",
+   "refreshed_at": "2026-10-28T22:54:52+00:00",
    "error": null,
    "pi_profile": {
     "name": "Otto X. Cordero",
-    "title": "Doherty Assistant Professor of Ocean Utilization (per the MIT CSB PhD faculty page; web search snippets call him an associate professor)",
+    "title": "Doherty Assistant Professor of Ocean Utilization (per the MIT CSB PhD faculty page; other sources describe him as an associate professor)",
     "profile_url": "https://csbphd.mit.edu/faculty/otto-x-cordero/",
     "scholar_url": null
    },
@@ -22568,7 +22555,7 @@
      "name": "Chandana Gopalakrishnappa",
      "role": "Postdoc",
      "year": null,
-     "focus": "High-throughput phenomics, resource utilization in heterotrophic bacteria, and microbiome engineering.",
+     "focus": "High-throughput phenomics; resource utilization dynamics in heterotrophic bacteria; microbiome engineering",
      "email": null,
      "profile_url": null
     },
@@ -22576,7 +22563,7 @@
      "name": "Michaela Jones",
      "role": "Postdoc",
      "year": null,
-     "focus": "Synthetic biology and chemical engineering, non-genetic metabolic augmentation, and polysaccharide utilization and waste valorization.",
+     "focus": "Synthetic biology and chemical engineering; non-genetic metabolic augmentation; polysaccharide utilization and waste valorization",
      "email": null,
      "profile_url": null
     },
@@ -22584,7 +22571,7 @@
      "name": "Stefany Moreno Gamez",
      "role": "Postdoc",
      "year": null,
-     "focus": "Polysaccharide utilization and niche partitioning in the human gut microbiome, community assembly in the infant gut, and microbiome engineering.",
+     "focus": "Polysaccharide utilization and niche partitioning in the gut microbiome; infant gut community assembly; microbiome engineering",
      "email": null,
      "profile_url": null
     },
@@ -22592,7 +22579,7 @@
      "name": "Gabriel Vercelli",
      "role": "PhD student",
      "year": null,
-     "focus": "Cell surface functionalization to enhance microbial metabolism and design spatially structured microbial consortia.",
+     "focus": "Cell surface functionalization to enhance microbial metabolism; spatially structured microbial consortia",
      "email": null,
      "profile_url": null
     },
@@ -22600,7 +22587,7 @@
      "name": "Kunying Li",
      "role": "PhD student",
      "year": null,
-     "focus": "Quantitative tools for microbiome engineering, and imaging methods for host-microbiome interactions in zooplankton.",
+     "focus": "Quantitative tools for microbiome engineering; imaging-based measurement of host-microbiome interactions in zooplankton",
      "email": null,
      "profile_url": null
     },
@@ -22608,7 +22595,7 @@
      "name": "Rashi Jeeda",
      "role": "PhD student",
      "year": null,
-     "focus": "Building spatially structured microbial consortia with click-chemistry methods.",
+     "focus": "Designing spatially structured microbial consortia with click-chemistry methods",
      "email": null,
      "profile_url": null
     },
@@ -22616,14 +22603,14 @@
      "name": "Teja Jammalamadaka",
      "role": "PhD student",
      "year": null,
-     "focus": "Spatiotemporal dynamics of microbial communities on nutrient surfaces, and microfluidic tools for observing community assembly in real time.",
+     "focus": "Spatiotemporal dynamics of microbial communities on nutrient surfaces; microfluidic tools for visualizing community assembly",
      "email": null,
      "profile_url": null
     }
    ],
    "department": "Civil and Environmental Engineering (CEE); Computational and Systems Biology (CSB) PhD program",
    "location": "Cambridge, MA, USA",
-   "current_institution": "Massachusetts Institute of Technology (MIT)",
+   "current_institution": "Massachusetts Institute of Technology",
    "members_page": "https://corderolab.org/people/"
   },
   {
@@ -22637,49 +22624,46 @@
    "department_hint": "Biological Engineering",
    "id": "mit-blainey",
    "url": "https://blainey.mit.edu/",
-   "focus": "The lab develops microfluidic, molecular and optical techniques that give new ways of measuring biology. One goal is to remove experimental bottlenecks so researchers can collect reliable data faster and at higher throughput. The other is to study how biomolecules, cells and organisms change over time, on their own and in response to perturbations, with an emphasis on very fast timescales. This is mainly wet-lab and instrumentation work, including single-cell and high-throughput platforms. Its computational work is mostly in support of those measurements. The listed material gave no specific cancer genomics project.",
+   "focus": "The lab builds microfluidic, molecular and optical tools that produce new kinds of biological measurements. One goal is to speed up collection of reliable, high-quality data by removing experimental bottlenecks and raising throughput. The other is to measure and explain how molecules, cells and whole organisms behave on fast timescales, either on their own or in response to perturbation. The work is mostly experimental method development: single-cell and microbial genomics, high-throughput imaging and screening. Computational analysis and machine learning support it, and several members are joint with computational groups.",
    "topics": [
     "microfluidics",
-    "single-cell measurement tools",
+    "single-cell genomics",
     "high-throughput screening",
-    "optical imaging and genomics methods",
-    "biomolecular dynamics"
+    "optical imaging tools",
+    "microbial genomics",
+    "measurement technology"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab mainly builds measurement technology (microfluidics, optical methods, single-cell tools), so it overlaps only loosely with the student's cancer WGS/transcriptome, structural-variant and ML interests. It is also US-based, so the student may need a visa."
+    "reason": "The lab is mainly experimental tool development (microfluidics, single-cell and optical methods), so it overlaps only loosely with the student's cancer genomics, structural variant and sequencing-analysis interests. The single-cell methods and some computational collaborations give modest relevance,"
    },
    "flags": [
     "No move: the PI is still at MIT Biological Engineering and the Broad Institute.",
-    "The team page gives no years or research descriptions, so member focus is mostly unspecified and years are null.",
-    "A search snippet listed Frances Keer as a graduate student, but the fetched team page lists Frances Keer under postdocs. I used the team page.",
-    "Emails come from the lab team page, where they appear in obfuscated 'name at broadinstitute dot org' form.",
-    "The team page fetch redirected between blainey.mit.edu and sites.mit.edu, so the page date is unverified."
+    "The members page gives no research descriptions or years, so member focus lines are limited to affiliations and joint-lab notes.",
+    "Frances Keer is a postdoc on the fetched page, but a search summary listed this person as a grad student. Verify.",
+    "The page does not show when it was last updated. The roster may be incomplete or out of date.",
+    "The PI's Google Scholar URL was not verified, so it is null."
    ],
    "sources": [
     {
-     "title": "MIT CSB PhD - Paul C. Blainey",
+     "title": "CSB PhD faculty profile: Paul C. Blainey",
      "url": "https://csbphd.mit.edu/faculty/paul-c-blainey/"
     },
     {
      "title": "Blainey Lab team page",
-     "url": "https://blainey.mit.edu/team-member"
+     "url": "https://blainey.mit.edu/team-member/"
     },
     {
-     "title": "Blainey Lab team (search result)",
-     "url": "https://blainey.mit.edu/team"
-    },
-    {
-     "title": "Blainey Lab past members",
-     "url": "https://blainey.mit.edu/?p=642"
+     "title": "Blainey Lab website",
+     "url": "https://blainey.mit.edu/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:48:36+00:00",
+   "refreshed_at": "2026-10-28T22:53:57+00:00",
    "error": null,
    "pi_profile": {
     "name": "Paul C. Blainey",
-    "title": "Associate Professor of Biological Engineering, MIT; Core Member, Broad Institute of MIT and Harvard",
+    "title": "Associate Professor of Biological Engineering; Core Member, Broad Institute of MIT and Harvard",
     "profile_url": "https://csbphd.mit.edu/faculty/paul-c-blainey/",
     "scholar_url": null
    },
@@ -22688,7 +22672,7 @@
      "name": "Frances Keer",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Not described on the page; listed with MIT Biological Engineering. A web search snippet listed this person as a graduate student, so the role needs checking.",
      "email": null,
      "profile_url": null
     },
@@ -22696,7 +22680,7 @@
      "name": "Kevin Bishop",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Not described on the page.",
      "email": null,
      "profile_url": "https://sites.mit.edu/bishop/"
     },
@@ -22704,7 +22688,7 @@
      "name": "Ming Zheng",
      "role": "Postdoc",
      "year": null,
-     "focus": "Joint with the Peng Lab; no project description on the team page",
+     "focus": "Joint with the Peng Lab.",
      "email": null,
      "profile_url": null
     },
@@ -22712,7 +22696,7 @@
      "name": "Mohamad Najia",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Not described on the page.",
      "email": null,
      "profile_url": "https://najia.io/"
     },
@@ -22720,7 +22704,7 @@
      "name": "Owen Andrews",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Not described on the page.",
      "email": null,
      "profile_url": null
     },
@@ -22728,7 +22712,7 @@
      "name": "Russell Walton",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Not described on the page; listed with MIT Biological Engineering.",
      "email": null,
      "profile_url": null
     },
@@ -22736,7 +22720,7 @@
      "name": "Yue Qin",
      "role": "Postdoc",
      "year": null,
-     "focus": "Eric and Wendy Schmidt Center Fellow; no project description on the team page",
+     "focus": "Eric and Wendy Schmidt Center Fellow; computational and systems biology.",
      "email": null,
      "profile_url": "https://yueqin-sysbio.github.io/"
     },
@@ -22744,7 +22728,7 @@
      "name": "Andy Saiz",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biology; project not stated",
+     "focus": "MIT Biology program.",
      "email": null,
      "profile_url": null
     },
@@ -22752,7 +22736,7 @@
      "name": "Brian Cheng",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; project not stated",
+     "focus": "MIT Biological Engineering.",
      "email": null,
      "profile_url": null
     },
@@ -22760,7 +22744,7 @@
      "name": "Heyuan \"Michael\" Ni",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; joint with the Bryson Lab; project not stated",
+     "focus": "MIT Biological Engineering; joint with the Bryson Lab.",
      "email": null,
      "profile_url": "http://heyuanmni.github.io/"
     },
@@ -22768,7 +22752,7 @@
      "name": "Julie Chen",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Microbiology program; project not stated",
+     "focus": "MIT Microbiology program.",
      "email": null,
      "profile_url": null
     },
@@ -22776,7 +22760,7 @@
      "name": "Justine Shih",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; project not stated",
+     "focus": "MIT Biological Engineering.",
      "email": null,
      "profile_url": null
     },
@@ -22784,7 +22768,7 @@
      "name": "Nick Godzik",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; project not stated",
+     "focus": "MIT Biological Engineering.",
      "email": null,
      "profile_url": null
     },
@@ -22792,7 +22776,7 @@
      "name": "Nikita Podobedov",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biological Engineering; project not stated",
+     "focus": "MIT Biological Engineering.",
      "email": null,
      "profile_url": null
     },
@@ -22800,7 +22784,7 @@
      "name": "Sarah-Luisa Dülk",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Biology; project not stated",
+     "focus": "MIT Biology program.",
      "email": null,
      "profile_url": null
     },
@@ -22808,15 +22792,15 @@
      "name": "Xianyi (Sen) Xiong",
      "role": "PhD student",
      "year": null,
-     "focus": "MIT Microbiology program; project not stated",
+     "focus": "MIT Microbiology program.",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Biological Engineering (MIT); Broad Institute core member",
+   "department": "Department of Biological Engineering (MIT); Broad Institute core member",
    "location": "Cambridge, Massachusetts, USA",
-   "current_institution": "Massachusetts Institute of Technology (MIT) and the Broad Institute",
-   "members_page": "https://blainey.mit.edu/team-member"
+   "current_institution": "Massachusetts Institute of Technology (MIT); Broad Institute of MIT and Harvard",
+   "members_page": "https://blainey.mit.edu/team-member/"
   },
   {
    "name": "Clinical Decision Making Group",
@@ -23304,58 +23288,50 @@
    "department_hint": "EECS / IDSS",
    "id": "mit-broderick",
    "url": "http://tamarabroderick.com/",
-   "focus": "The group develops methods to quantify uncertainty and robustness in data analysis within machine learning and statistics. Core areas are Bayesian inference and graphical models, especially scalable, nonparametric and unsupervised learning. Current student projects include variational inference, simulation-based inference, explaining group differences and causal inference, and evaluating AI systems. The work is primarily methodological and theoretical, with applications drawn from fields such as healthcare.",
+   "focus": "The group develops methods to quantify uncertainty and robustness in modern, complex data analysis. The main tools are Bayesian inference and graphical models, with an emphasis on scalable, nonparametric and unsupervised learning. Recent work covers scalable Bayesian machine learning and checking how sensitive conclusions are to the analysis choices made. Applications include genetics, economics and spatiotemporal data such as air pollution. The work is mostly statistical and machine-learning methodology rather than wet-lab or cancer-specific.",
    "topics": [
     "Bayesian inference",
-    "robustness and uncertainty quantificatio",
-    "variational inference",
-    "causal inference",
-    "scalable nonparametric methods",
-    "trustworthy ML"
+    "uncertainty quantification",
+    "robustness / sensitivity analysis",
+    "nonparametric Bayes",
+    "scalable machine learning",
+    "statistical genomics applications"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab is statistical-ML methodology with no focus on cancer genomics, sequencing or structural variants, so overlap is limited to general computational/ML methods and possible collaborations on robust inference."
+    "reason": "The group is a general Bayesian and ML methods lab; it has some genetics collaborations (a past student was co-advised with Aviv Regev) but no focus on cancer genomics, structural variants, or tumour sequencing, and the US location would likely need a visa."
    },
    "flags": [
-    "The PI homepage lists no current postdocs.",
-    "The group page at tamara-broderick.github.io returned 404, so member details come from the homepage and individual student pages.",
-    "Eric Weine's profile link is the generic LIDS students list, and his research focus is not verified.",
-    "Years in the PhD are given only for Jenny Huang and Manuel Quintero.",
-    "The discovery URL was the MIT CSB PhD faculty page; the lab site is tamarabroderick.com."
+    "The group page lists current members without labelling them as PhD student or postdoc. I assigned 'PhD student' to all five by assumption, so check each role. No postdocs were confirmed.",
+    "The page gives no member years, individual research focuses or emails.",
+    "The old people.csail.mit.edu/tbroderick URL redirects to tamarabroderick.com. The CSAIL group people page returned HTTP 403, so I could not check it.",
+    "David Burt appeared in a search result as a postdoc, but the group page now lists him as a past member and he is an assistant professor at UMass Amherst, so I excluded him.",
+    "Trevor Campbell, a former group member, is now at UBC, which is the student's home university."
    ],
    "sources": [
     {
-     "title": "Tamara Broderick homepage",
+     "title": "Tamara Broderick homepage / group",
      "url": "http://tamarabroderick.com/"
     },
     {
-     "title": "MIT CSB faculty page",
+     "title": "MIT CSB PhD faculty page: Tamara Broderick",
      "url": "https://csbphd.mit.edu/faculty/tamara-broderick/"
     },
     {
-     "title": "Madelyn Andersen",
-     "url": "https://madelynandersen.github.io/"
+     "title": "David R. Burt homepage",
+     "url": "https://davidrburt.github.io"
     },
     {
-     "title": "Jenny Huang",
-     "url": "https://jennyhuang19.github.io/"
-    },
-    {
-     "title": "Manuel Quintero",
-     "url": "https://manuelquinteroc.github.io/"
-    },
-    {
-     "title": "Shahzar Rizvi",
-     "url": "https://shahzarrizvi.github.io"
+     "title": "Google Scholar: Tamara Broderick",
+     "url": "https://scholar.google.com/citations?user=dPX0wQcAAAAJ"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-21T22:48:41+00:00",
+   "refreshed_at": "2026-10-28T22:53:55+00:00",
    "error": null,
    "pi_profile": {
     "name": "Tamara Broderick",
-    "title": "Associate Professor (with tenure), Electrical Engineering and Computer Science",
+    "title": "Associate Professor (with tenure), Electrical Engineering & Computer Science",
     "profile_url": "https://csbphd.mit.edu/faculty/tamara-broderick/",
     "scholar_url": "https://scholar.google.com/citations?user=dPX0wQcAAAAJ"
    },
@@ -23364,15 +23340,15 @@
      "name": "Eric Weine",
      "role": "PhD student",
      "year": null,
-     "focus": "Not verified; listed on the PI homepage as a group PhD student.",
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://lids.mit.edu/people/students"
     },
     {
      "name": "Jenny Y. Huang",
      "role": "PhD student",
-     "year": "final year",
-     "focus": "Surfacing false certainty in AI and AI evaluation, using statistics and probability.",
+     "year": null,
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://jennyhuang19.github.io/"
     },
@@ -23380,15 +23356,15 @@
      "name": "Madelyn Andersen",
      "role": "PhD student",
      "year": null,
-     "focus": "Improving variational inference, including robustness, normalizing flows and simulation-based inference.",
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://madelynandersen.github.io/"
     },
     {
      "name": "Manuel Quintero",
      "role": "PhD student",
-     "year": "4th year (2023-2027)",
-     "focus": "Explaining group differences, causal inference and interpretability, ML for healthcare.",
+     "year": null,
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://manuelquinteroc.github.io/"
     },
@@ -23396,15 +23372,15 @@
      "name": "Shahzar Rizvi",
      "role": "PhD student",
      "year": null,
-     "focus": "Bayesian inference, robust statistics and trustworthy data science.",
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://shahzarrizvi.github.io"
     }
    ],
-   "department": "Electrical Engineering and Computer Science (EECS); Institute for Data, Systems, and Society (IDSS); LIDS",
-   "location": "Cambridge, MA, USA",
+   "department": "EECS and the Institute for Data, Systems and Society (IDSS); also affiliated with CSAIL, LIDS and the MIT Statistics and Data Science Center",
+   "location": "Cambridge, Massachusetts, USA",
    "current_institution": "Massachusetts Institute of Technology (MIT)",
-   "members_page": "http://tamarabroderick.com/"
+   "members_page": "http://tamarabroderick.com/ (group section of the homepage)"
   },
   {
    "name": "Lieberman Lab",
