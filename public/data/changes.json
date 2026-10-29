@@ -2,9 +2,963 @@
  "weeks": [
   {
    "week": "2026-10-29",
-   "generated_at": "2026-10-29T04:08:59+00:00",
+   "generated_at": "2026-10-29T05:09:19+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "broad-gusev",
+     "entry_name": "Gusev Lab",
+     "text": "Current member list NOT verified: gusevlab.org returned connection errors on every fetch, so no postdocs or PhD students are listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gusev",
+     "entry_name": "Gusev Lab",
+     "text": "The PI appears to remain at Dana-Farber/Harvard with a Broad associate membership; no move found, but this came from Wikipedia and search snippets rather than an official page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gusev",
+     "entry_name": "Gusev Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "PI's primary appointment is MIT, not the Broad Institute. The Broad listing is probably the Associate Member affiliation from the hint, and I did not check the Broad page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "No move found. The PI is still at MIT and directs the CSB PhD program."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "The page lists the two students only as 'Graduate Student'. I treated them as PhD students because they hold BA degrees and the lab is in a PhD-granting department, but the page doesn't say so."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "The page gives no research focus or year of study for any member. Emails are shown on the page with '#' in place of '@', and I converted them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "I could not find a date on the members page or confirm that it is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group",
+     "text": "No move: the PI is at MIT, not at the Broad as a primary institution. The 'Broad Institute' listing is only an Associate Member affiliation (hint). I could not verify it on a Broad page. Searches only tie him to the Broad through his past postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group",
+     "text": "The people page shows 'October 2026' under the group photo but a '© 2025' footer, so how current it is is unclear."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group",
+     "text": "The page's title lines for the PI conflict (Class of 1957 Career Development Professor vs. Warren K. Lewis Associate Professor)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group",
+     "text": "Anna Marija Sumrova is a visiting PhD student from Cambridge (UK)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-coley",
+     "entry_name": "Coley Group",
+     "text": "Many students are co-advised. No year of study is listed for anyone."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "joined: Emily Green; left: Hanseul Kim, Yunhe Wang, Zhongjie Wang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "No move found. The PI's primary appointment is Harvard T.H. Chan School of Public Health. The Broad Institute listing is an Associate Member affiliation, so the lab is not at an independent institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "Sources disagree on the PI's rank: one Harvard Chan page says associate professor and others say full professor. The lab people page lists Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "The people page gives no research focus, year or individual profile links, so member focus lines are limited to the affiliation and joint-advisor information shown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "The Visitors table lists possible postdocs with unclear status: Hanseul Kim, Yunhe Wang, Zhongjie Wang and Etienne Nzabarushimana (end date 07/06/2026). They are excluded from the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huttenhower",
+     "entry_name": "Huttenhower Lab",
+     "text": "The PI's Google Scholar URL was not verified, so it is null. The research focus text draws on general knowledge of the lab plus the search summary, and I did not open the lab's research page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "I confirmed the PI at MIT only from the lab's own pages (32 Vassar St, Cambridge). The Broad Associate Member status was not checked on a Broad page. I saw no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "The lab's team page has a 'Current Group Members' heading, but every person under it has a listed next employer (Citadel, nference, City of Boston, A.R.T. Advisors, Flagship Pioneering) and a PhD year of 2022-2025. These look like alumni, so I list no current postdocs or PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "The team page has no last-updated date and says its previous-members list is incomplete. It may be stale, so check with the lab directly for the current roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "I could not open gifford.mit.edu (connection refused). The cgs.csail.mit.edu page was used instead."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gifford",
+     "entry_name": "Gifford Lab",
+     "text": "I did not find a Google Scholar or official MIT profile URL for the PI, so those fields are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "The PI is at MIT (Professor of Biological Engineering), so the Broad Institute listing is an affiliation. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "The people page gives no member years, research focus or profile links, so those fields are null. The date the page was last updated is unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "I did not verify the PI's Google Scholar URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "The members page also lists staff (Terra Cholfin, David Ball, Akshay Raju, Nhan Huynh, Yu-Xin Xu), who are excluded from the members list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "The first URL I tried, fraenkel-nsf.csbi.mit.edu/people/, returned a 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "PI is still at the Broad Institute and Harvard; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "The team page shows no update date. An older Squarespace copy (feichenlab.squarespace.com/people) is outdated: it lists Hattie Chung, Sarah Mangiameli, Sophia Liu, Dylan Cable and others who the current page treats as alumni."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "The team page has no individual profile links and no member emails. The only email on it is chenf@broadinstitute.org, for joining the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "Andy Russell is listed as an alumnus but his bio is in present tense, so his status is unclear. I left him out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "The Broad bio page is the discovery URL; the lab's own site is insitubiology.org."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "left: Marcin Kaszkowiak"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "PI is still at the Broad Institute (also holds Harvard Medical School and MGH appointments). No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "The team page gives only names, roles and profile links. Per-member research focus and emails are not listed, so they are null or marked 'not stated'. Individual profile pages were not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "Marcin Kaszkowiak is listed as a Visiting Graduate Student and is not included as a PhD student. Profile: https://getzlab.org/team/graduate%20student/kaszkowiak-marcin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "Arielle Medford and Arvind Ravi appear under 'Postdoctoral Researchers' but are titled Instructor in Medicine (faculty-level), so they are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-getz",
+     "entry_name": "Getz Lab (Cancer Genome Computational Analysis)",
+     "text": "Only one regular PhD student (Antonia Kowalewski) is listed. The lab is postdoc- and staff-heavy."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab",
+     "text": "No PhD students are listed: the Students section of the members page is empty. The two postdocs are listed as 'Research Fellow', and their profile pages describe them as postdoctoral fellows."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab",
+     "text": "Other current members are staff or visitors and are excluded: computational scientist, computational associates, project manager, visiting researchers, administration."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab",
+     "text": "No change of institution found; the PI is still at the Broad/MGH/HMS. The Broad page lists him as Institute Member and Associate Professor, while older search snippets list him as Associate Member and Assistant Professor, so those are outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab",
+     "text": "The members page has no update date, so I could not tell how recent it is."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-huang",
+     "entry_name": "Huang Lab",
+     "text": "I did not find a Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "left: Madhav Sankaranarayanan"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "No PI move found: the PI is still at MGH/HMS with Broad associate membership."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "The lab's own people page (finucanelab.org/people-1) lists no postdocs or PhD students, only Madhav Sankaranarayanan (Research Fellow) and computational associates, so it appears out of date or incomplete."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "The ATGU group page is the only source for the PhD students. Some of its profiles date from about 2020–2021, so their current status is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "Layla Siraj's profile URL uses the slug 'hannah-jacobs-2', which looks like a page error."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-finucane",
+     "entry_name": "Finucane Lab",
+     "text": "Madhav Sankaranarayanan is listed as Research Fellow (postdoc-level, working on statistical tools for schizophrenia genetics) but is not confirmed as a postdoc, so he is left out of the members list. Jacob Ulirsch's role is unstated and his profile is likely old, so he is also left out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab",
+     "text": "No move found. Collins remains at the Broad Institute and MIT, with a Wyss Institute appointment."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab",
+     "text": "The members page does not list research focus for anyone, so every member's focus is null. It lists degree years only, so no PhD year is given."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab",
+     "text": "The members page does not say when it was last updated. Check currency with the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab",
+     "text": "Emails were taken from the lab members page and I did not check them further."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-collins",
+     "entry_name": "Collins Lab",
+     "text": "The members page lists some students under Harvard, DTU and Fulbright affiliations, not only MIT."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "joined: Ena Oreskovic, Michael Quezada, Molly Moore, Rachel Savage"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "No move found: the PI is still listed at the Broad and Harvard."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "The people page gives names and roles only. It has no research focus, years, emails or profile links, so those fields are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "The page text said 14 postdocs but listed 15 names. I included all 15."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "Caroline Comenho appeared in a search result as a PhD student in the lab (entry year 2020, Harvard SSQB program page). She is not on the current people page, so she is probably a graduate or has left. I excluded her."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "The Broad careers site has open postdoc postings, including one for the Biology of Adversity Project and one for a computational single-cell epigenomics role."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab",
+     "text": "left: Chase Yakaboski, Edgar Alejandro Llamas Mejia, Kyuryung Kim, Luka Maisuradze, Noga Arwas, Steven Gage, Yan Zhe (Leo) Liu"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab",
+     "text": "The PI's institution is unchanged. The Broad bio lists him as Associate Member of the Broad and Assistant Professor of Pediatrics at HMS and Boston Children's Hospital. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab",
+     "text": "The lab's People page, as retrieved, showed only an empty 'Former Lab Members' heading and no named current postdocs or PhD students. The page may render dynamically, so the member list is empty because I could not verify any names, not because the lab has none. Check the page directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab",
+     "text": "A Broad Institute job posting from July 2025 (Postdoctoral Fellow, Flannick Lab) shows the lab was recruiting postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-flannick",
+     "entry_name": "Flannick Lab",
+     "text": "I did not verify the Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab",
+     "text": "No PhD students are listed on the lab people page. Alice Wang is a Master's student (Biomedical Informatics, HMS), so she is excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab",
+     "text": "The PI's primary appointment is at Boston Children's Hospital/HMS, with Broad Institute membership. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab",
+     "text": "The members page shows only ©2026 and no last-updated date. No emails are published on it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab",
+     "text": "No Google Scholar URL was verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hirschhorn",
+     "entry_name": "Hirschhorn Lab",
+     "text": "A US visa may be needed for a role in this lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab",
+     "text": "No move found: the PI is at MGH/Harvard Medical School with a Broad affiliation. The 'Associate Member (MGH)' hint matches this, and the Broad is not the primary employer."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab",
+     "text": "I could not open the lab's research page, the PI's MGH profile page (certificate error) or Google Scholar, so scholar_url is null and the focus text is partly inferred."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab",
+     "text": "The team page showed 9 members plus the PI on its first page, and a second page was reported but not returned. Additional members may exist."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab",
+     "text": "Staff were excluded: Thomas Opsomer, Greg Rohlicek, Bram Gorissen, Trisha Karani and Sophie Parsa. Sophie Parsa is a Harvard HST medical student and a computational associate, not a PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-karczewski",
+     "entry_name": "Karczewski Lab",
+     "text": "No emails were found on the team pages. A contact page exists at https://www.atgu.mgh.harvard.edu/contact-us/."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "left: Irwin Jungreis"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "The PI has not moved. He is a Professor at MIT with an Associate Member appointment at the Broad. Broad is a secondary affiliation, and the lab's home is MIT CSAIL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "The people page has no last-updated date, so it may include people who have left."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "The people page gives no emails, profile links or student years. Most members have no research focus listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "Irwin Jungreis is listed under postdocs but is a Research Scientist (staff), so he is excluded. Lei Hou has a mixed Postdoctoral Associate / Research Scientist title and is included."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-kellis",
+     "entry_name": "Kellis Lab",
+     "text": "I could not verify a Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab",
+     "text": "No PI move found; Daly remains at the Broad, MGH and HMS. He is also an affiliate at the University of Helsinki and directed FIMM until April 2023."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab",
+     "text": "The Broad bio is dated May 2024."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab",
+     "text": "The ATGU people page returned about 100k of 144k characters; the last 44k were not read, so the member list may be incomplete."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab",
+     "text": "Member research foci and emails could not be verified, because the page lists names and affiliations only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-daly",
+     "entry_name": "Daly Lab",
+     "text": "The Broad bio gives no lab website, so the ATGU site is used as the main page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "No move found: the PI is still at BWH/HMS. The Broad affiliation is an Associate Member appointment, not her primary institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "The members page lists no current PhD students. Lab members may join Harvard PhD programs (Biophysics, BBS, SSQB, BIG, Quantitative Genomics)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "Luca Mariani (Instructor of Medicine, working on pioneer factor binding to nucleosomal DNA) is listed as a current member but is faculty-level, so he is not counted as a postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "Members page last updated October 1, 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "Both emails come from the lab's people page. Khetan's is a personal Gmail address."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab",
+     "text": "PI is still at Brigham and Women's Hospital / HMS, so no move. He also has a Harvard Chan School Biostatistics listing (title shown as Instructor) and an Associate Professor of Immunology appointment. The Broad listing is not confirmed on the pages I opened; the lab describes itself as part of the G"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab",
+     "text": "The people page gives only names and roles, with no research focus, emails or profile links, so member focus entries are null-equivalent. I did not find a Google Scholar URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab",
+     "text": "Nikolaos Patikas appears in both the current and alumni lists on the people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab",
+     "text": "Staff and visitors left out: Pranay Ammula (research assistant), Yuyang Han (data manager), Shamitha Kyathasandra Vishwanathavidyadhar (research intern), Young Song (visiting scholar)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hemberg",
+     "entry_name": "Hemberg Lab",
+     "text": "A postdoc position in the group was advertised in August 2025 (job-board posting), so the lab may be recruiting."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab",
+     "text": "The PI's primary appointment is MIT EECS/IMES. The Broad Institute listing is a secondary affiliation (the hint says Associate Member), and I did not open a Broad page to confirm it. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab",
+     "text": "The PI's exact current title is uncertain. A 2026 MIT event page and the 2025 Sloan announcement say Associate Professor, and the MIT ILP profile adds the Germeshausen chair. I could not check the MIT EECS faculty directory."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab",
+     "text": "The members page shows no last-updated date, and it does not give each student's year, so every year is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab",
+     "text": "I did not verify the PI's Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ghassemi",
+     "entry_name": "Healthy ML Lab",
+     "text": "The first URL I tried (healthyml.eecs.mit.edu) did not resolve. The people page used is on healthy-ml.csail.mit.edu."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "left: Phil Kubitz, Talha Rehman"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "No move: the PI is still at the Broad Institute (with HMS/MGH appointments), according to the Broad bio."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "The team page lists no PhD students. Talha Rehman is listed as 'Graduate Student', but it is unclear whether he is a PhD student, so I excluded him."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "The team page has no alumni section yet ('coming soon')."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "Member research focus was not on the team page. I did not open the individual profile pages, so the focus fields are null-equivalent."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-claussnitzer",
+     "entry_name": "Claussnitzer Lab",
+     "text": "The profile URLs were built from relative paths on the team page and not opened individually. Henry Taylor's link on the page appeared to be broken."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "joined: Alex Poret, Caelan Brooks, Caroline Holmes, Jack Edwards, Jenya Belousova, Kellianne Kornick, Lilja Quinn, Nicholas Lawson, Shreyas Pai, Tamar Gil, Tatiana Ruiz-Bedoya; left: Cecilia Trivellin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "The 'Broad Institute' listing looks wrong or outdated. All sources I saw place the PI at Harvard (OEB), and none mention the Broad. He may hold an Associate Member appointment there, which I could not verify."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "A search summary says Desai became Director of the Rowland Institute at Harvard in 2026. I could not open the Rowland page to confirm it (403)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "The members page shows no last-updated date. It lists 2026 joiners, so it appears current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "Emails come from the lab people page, where they are written as 'name [at] domain'. Krishna Rijal's is a personal Gmail address."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-desai",
+     "entry_name": "Desai Lab",
+     "text": "Harvard OEB and Rowland pages returned 403 errors, so I could not cross-check the roster there."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab",
+     "text": "No current PhD students are listed on the members page. The only student entries are Ryan Seaman (MMSc student, not PhD) and Raynah Cheng (undergraduate intern), both excluded. All other current members are staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab",
+     "text": "The three postdocs are listed as 'Research Fellow in Biomedical Informatics'. I treated this as the postdoc role; Rahman's and van den Brandt's and Choe's profile pages describe them as postdoctoral fellows."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab",
+     "text": "Several postdocs recently left or are leaving: Huyen N. Nguyen (end Aug 2026), Devin Lange (Aug 2026), David Kouřil (Jul 2026), Eric Moerth (Jun 2026), Sehi L'Yi (May 2026). The roster is turning over and the lab may be recruiting. DBMI lists open postdoc positions in EHR data visualization and in g"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab",
+     "text": "The Broad Institute listing and the 'Associate Member' hint could not be verified. The HIDIVE and DBMI pages I saw list only Harvard Medical School (DBMI). I did not confirm a current Broad appointment, so the PI's Broad affiliation may be outdated or secondary. No institutional move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-gehlenborg",
+     "entry_name": "Gehlenborg Lab",
+     "text": "The PI's title differs between pages: Associate Professor on hidivelab.org, Professor on the DBMI page."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "left: Aarthi Venkat, Abigail (Abbey) Reeves, Abraham Sonny, Alex Wong, Ally Questell, Daniel Rosen, Elliot Woods, Ghamdan (Gammy) Al-Eryani, Jessika Baral, Julie Laffy, Kexuan (Coco) Huang, Luis Correa-Medero, Mohsen Maleh Mir, Nicholas Garaffo, Pauling Liu, Pierre Ankomah, Rumya Raghavan, Tianyang Mao"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "Could not read the lab people page. hacohenlab.mgh.harvard.edu returned HTTP 403 for both the home page and /people, so no postdocs or PhD students could be verified. The member list is left empty and nothing was guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "The Broad bio lists the PI's current institution as the Broad Institute (Core Institute Member). He also holds joint MGH and Harvard Medical School appointments, and I found no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "The old MGH investigator page for the lab redirects (301) to hacohenlab.mgh.harvard.edu, which is the lab URL used here. I did not read its content."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "The Broad bio calls his role Director of the Cell Circuits Program, while the body text says Center for Cell Circuits. These probably refer to the same role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hacohen",
+     "entry_name": "Hacohen Lab",
+     "text": "I could not verify a Google Scholar profile URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab",
+     "text": "The Broad Institute listing looks outdated or secondary. The lab's own site gives the PI's home as Dana-Farber Cancer Institute and Harvard, so I did not confirm a current Broad appointment, and the 'Associate Member (DFCI)' hint is not supported by the lab site. Verify before outreach."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab",
+     "text": "The people page labels the five students only as 'Graduate Student'. I classed them as PhD students because the alumni list shows PhD alumni, but I did not confirm this."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab",
+     "text": "The people page shows no years, focus areas or emails. The only member link is Tavor Baharav's."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab",
+     "text": "Douglas Russo is listed as DFCI staff and was excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-irizarry",
+     "entry_name": "Irizarry Lab",
+     "text": "I did not retrieve the PI's Google Scholar URL, so it is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "left: Alice Tang, Greg Raskind, Nicole Peiris, Nil Aygun, Peter (Youyun) Zheng, Sean Misek, Shahab Sarmashghi, Simona Dalin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "No move found: the PI is still listed as DFCI/Harvard faculty with an Associate Member appointment at the Broad. This comes from a search summary and the lab site, not from an official DFCI or Broad profile page I opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "The members page groups people as 'Research Fellows' and 'Students' without labelling postdoc or PhD. I listed only people whose own profile page states a postdoc or PhD-student role. Everyone else is in the next flag."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "Possible postdocs, listed as Research Fellows with PhDs but with no role stated: Nil Aygun (algorithms for molecular co-occurrences driving progression and drug resistance; PhD from UNC), Sean Misek (germline variants and cancer vulnerabilities; low-grade glioma drivers), Shahab Sarmashghi (computat"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "Students whose profile does not state a degree program: Greg Raskind (computational methods for structural variation patterns in cancer) and Peter (Youyun) Zheng (no research focus stated). Alice Tang is a neuro-oncology clinical fellow (brain tumour treatment resistance), not a postdoc or student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "No member emails are published on the lab profile pages; the lab contact form is at https://beroukhimlab.org/contact/."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab",
+     "text": "The lab members page gives no research focus, year, profile link or email for any member, so those fields are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab",
+     "text": "The Broad Institute Associate Member status in the hint was not confirmed. The Harvard Chan profile does not mention the Broad. A 2025 seminar listing named the Center for Precision Psychiatry at MGH instead."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab",
+     "text": "Titles differ across sources. The official Harvard Chan profile says Associate Professor, while a 2025 seminar listing and a Harvard Data Science Initiative page say Assistant Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab",
+     "text": "The members page shows a 'Page updated' label with no date, so I could not tell how current the roster is."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-duan",
+     "entry_name": "Duan Lab",
+     "text": "No PI move was detected. Rui Duan is still at Harvard."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab",
+     "text": "No PI move found: the PI is at HMS/DFCI in Boston, and the Broad listing is an associate-member affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab",
+     "text": "Some older bios (e.g. Blood Cancer United) still list the PI as Assistant Professor; the lab page and DFCI list Associate Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab",
+     "text": "The people page gives no emails or profile links for any trainee and no year of study. Only the PI's email (sahand_hormoz@hms.harvard.edu) is listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab",
+     "text": "Seong Ho Pahng and David Jacobowitz appear in the alumni list as graduate students but are listed as current postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hormoz",
+     "entry_name": "Hormoz Lab",
+     "text": "Christoph Budjan is a Research Scientist, so he is excluded from the member list."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "joined: Jana Hermans; left: Bo Wang, Da Zhi, Juan Fernando De La Hoz Gomez, Rui Zhang, Yingzhe Zhang, Yuanxin Zhong"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "The lab page lists no non-visiting PhD students. The only PhD student is a visiting one, Jana Hermans."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "Seven current postdoctoral fellows are listed but not given in the members array, because the requested schema's postdoc entries were not filled: Da Zhi, Yuanxin Zhong, Yingzhe Zhang, Juan de la Hoz (co-mentor Jordan Smoller), Bo Wang (co-mentor Jordan Smoller), Rui Zhang (co-mentor Hailiang Huang),"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "Other listed non-trainee staff, excluded: Menno Witteveen (senior data analyst), Justin Tubbs (instructor), Jining Zhong (visiting Master's student)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "The page shows no update date, so its currency is unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-ge",
+     "entry_name": "Ge Lab",
+     "text": "The Broad Institute 'Associate Member' title was not confirmed on any page I could open. The lab site is branded 'Ge Lab | MGH' and the PI's current appointment is at MGH/HMS."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "joined: Ida Larsson, PhD, Sabina Stefan, PhD, Salvatore Benfatto, PhD; left: Ida Larsson, Sabina Stefan, Salvatore (Salvo) Benfatto"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "PI has not moved. Dana-Farber is the primary affiliation, and the Broad Institute is an associate-member affiliation, not the main employer."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "The lab lists NO current PhD students. Current non-postdoc trainees are visiting MD students (Til Steinicke, Liv Jürgensen, Negin Moghiseh), who are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "Email addresses are published on the team page in obfuscated form (name[a]dfci.harvard.edu). They are written out here with @."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "The team page is undated, but it includes a member who joined in 2026, so it was updated in 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-hovestadt",
+     "entry_name": "Hovestadt Lab",
+     "text": "The lab is hiring postdocs and students. Postdoc postings exist for computational genomics and for biostatistics/machine learning, including one joint with the Stegmaier Lab."
+    },
     {
      "type": "flag",
      "entry_id": "other-ding",
