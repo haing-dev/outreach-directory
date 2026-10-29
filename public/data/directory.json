@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T12:04:16+00:00",
+ "generated_at": "2026-10-29T13:18:34+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -48112,25 +48112,23 @@
    "department_hint": null,
    "id": "st-isomorphic",
    "url": "https://www.isomorphiclabs.com",
-   "focus": "Isomorphic Labs is a drug discovery company that spun out of DeepMind in 2021. It builds on AlphaFold, and co-released AlphaFold 3 with DeepMind in May 2024. AlphaFold 3 predicts the structures and interactions of proteins, nucleic acids and small molecules. The company is building a unified AI drug design engine to generate small-molecule therapeutics across several disease areas. The 2025 announcement of its Chief Medical Officer said he would oversee clinical translation of its AI-designed compounds. That announcement named no specific programs. The company raised $600M in 2025. Its work is structure and chemistry-centred rather than genomics-centred.",
+   "focus": "Isomorphic Labs is an Alphabet/DeepMind spin-out that applies AI to drug discovery. It builds on AlphaFold-style structure prediction to model how small molecules and proteins interact. The aim is to design therapeutic molecules computationally, and the work is chemistry- and structure-centred. It is not genomics-centred. It runs a research and discovery pipeline with pharma partners, and its work is most directly relevant to oncology and immunology targets. Its offices are in London, Lausanne and Cambridge, MA.",
    "topics": [
-    "AI drug design",
-    "protein structure prediction (AlphaFold)",
-    "small-molecule therapeutics",
-    "machine learning",
-    "oncology drug development",
-    "clinical translation"
+    "AI drug discovery",
+    "protein structure prediction",
+    "small-molecule design",
+    "structure-based drug design",
+    "machine learning"
    ],
    "fit": {
     "score": 2,
-    "reason": "The work is structure-based, ML-driven small-molecule design, which overlaps only loosely with cancer genomics, structural variants and single-cell or spatial omics. The company also lists no internships or student programs."
+    "reason": "The work is structure-based drug design and ML for molecules, which overlaps only loosely with cancer genomics, structural variants and single-cell omics. The ML focus and Yakneen's OICR/EMBL genomics background give some connection, and no student program exists."
    },
    "flags": [
-    "Isomorphic Labs states it has no internships, graduate schemes or work placements as of this check (2026-10-22). Watch its X and LinkedIn for announcements.",
-    "The leadership titles come from the May 2022 and June 2025 announcements and may be out of date. I did not confirm that Congreve and Yakneen still hold those roles. A third-party directory (komo.ai) lists Max Jaderberg as President, but the company's own team page lists Colin Murdoch as President. I",
-    "I could not fetch Colin Murdoch's team page (the profile URL returned 404 in one fetch). The search snippet describes him as President and a cofounder.",
-    "The company publishes no dedicated biology or computational-biology team page. The leads listed are company executives, not heads of a specific genomics team.",
-    "Sergei Yakneen's background at OICR and in cancer genomics could make him a warm networking contact, but he is not a contact for hiring."
+    "I re-checked the job openings page on 2026-10-29. It is unchanged from last week: no internships, graduate schemes or work placements.",
+    "The leadership titles come from the 2022 management announcement. I could not open the official team page (the /about and /people/colin-murdoch URLs returned 404). Search snippets suggest Colin Murdoch is now President and Ben Wolf is Chief Medical Officer, but I did not confirm these on an official",
+    "Nobody listed is a head of a biology or genomics team. The company is primarily chemistry and ML, so contacts there would be indirect.",
+    "I did not verify the third-party claim that roles are senior and PhD-preferred."
    ],
    "sources": [
     {
@@ -48138,70 +48136,58 @@
      "url": "https://www.isomorphiclabs.com/job-openings"
     },
     {
-     "title": "How to get a job at Isomorphic Labs",
-     "url": "https://www.isomorphiclabs.com/articles/how-to-get-a-job-at-isomorphic-labs"
-    },
-    {
      "title": "Isomorphic Labs announces first phase of management team",
      "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-first-phase-of-management-team"
     },
     {
-     "title": "Isomorphic Labs appoints Ben Wolf as CMO, expands to US hub in Cambridge (BiopharmaTrend)",
+     "title": "BioPharma Trend: Ben Wolf appointed CMO",
      "url": "https://www.biopharmatrend.com/news/isomorphic-labs-appoints-ben-wolf-as-chief-medical-officer-expands-to-us-hub-in-cambridge-1296/"
-    },
-    {
-     "title": "Colin Murdoch, Isomorphic Labs team page",
-     "url": "https://www.isomorphiclabs.com/people/colin-murdoch"
-    },
-    {
-     "title": "Extern: Isomorphic Labs internship guide (third-party)",
-     "url": "https://www.extern.com/post/isomorphic-labs-internship-guide"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:53:59+00:00",
+   "refreshed_at": "2026-10-29T13:17:23+00:00",
    "error": null,
    "leads": [
     {
      "name": "Demis Hassabis",
      "role": "Founder and CEO",
-     "background": "Founded Isomorphic Labs in 2021 as a DeepMind spinout. He also leads Google DeepMind, and the company builds on AlphaFold.",
+     "background": "Co-founder and CEO of Google DeepMind. He founded Isomorphic Labs as an Alphabet company.",
      "profile_url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-first-phase-of-management-team"
     },
     {
      "name": "Miles Congreve",
-     "role": "Chief Scientific Officer (as announced May 2022)",
-     "background": "Previously CSO at Sosei Heptares, a pioneer of structure-based drug design for GPCRs. He was also at Astex and GSK and co-invented Kisqali (ribociclib).",
+     "role": "Chief Scientific Officer (as announced in 2022; not re-checked for 2026)",
+     "background": "Previously CSO at Sosei Heptares and director of chemistry at Astex. Structure-based drug design for GPCRs. Co-inventor of Kisqali.",
      "profile_url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-first-phase-of-management-team"
     },
     {
      "name": "Sergei Yakneen",
-     "role": "Chief Technology Officer (as announced May 2022)",
-     "background": "Previously CTO of SOPHiA GENETICS. Earlier roles include the Ontario Institute for Cancer Research and EMBL, and he has degrees from the University of Toronto and Heidelberg University. His genomics and Canadian cancer-research background is relevant to this student.",
+     "role": "Chief Technology Officer (as announced in 2022; not re-checked for 2026)",
+     "background": "Previously CTO of SOPHiA GENETICS. Earlier roles at the Ontario Institute for Cancer Research and EMBL, with genomics and ML experience.",
      "profile_url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-first-phase-of-management-team"
     },
     {
-     "name": "Ben Wolf",
-     "role": "Chief Medical Officer (appointed June 2025)",
-     "background": "Previously led oncology precision-medicine programs at Relay Therapeutics and KSQ Therapeutics. He also worked at Blueprint Medicines, where he helped register Ayvakit and Gavreto.",
-     "profile_url": "https://www.biopharmatrend.com/news/isomorphic-labs-appoints-ben-wolf-as-chief-medical-officer-expands-to-us-hub-in-cambridge-1296/"
+     "name": "Max Jaderberg",
+     "role": "Director of Machine Learning (as announced in 2022; title may have changed)",
+     "background": "Former DeepMind research scientist who led the Open-Ended Learning team. Co-founded Vision Factory, which Google acquired.",
+     "profile_url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-first-phase-of-management-team"
     }
    ],
    "programs": [
     {
-     "name": "No internship, PhD fellowship or student program currently offered; General Application / Register Your Interest as the only route",
+     "name": "No internship, PhD fellowship or student program offered; General Application is the only route",
      "type": "other",
-     "requirements": "The job openings page says the company does not currently offer internships, graduate schemes or work-experience placements. Open roles are described as technical and operational. A third-party guide (Extern) says current roles are senior-level and PhD-preferred. I did not verify that guide against an official source.",
-     "eligibility": "The page states no eligibility rules. Roles are hybrid, with three office days a week, so a Canadian student would need UK, Swiss or US work authorization. I found no visa-sponsorship terms.",
+     "requirements": "The job openings page says internships, graduate schemes and work-experience placements are not offered ('Not at the moment'). Candidates are directed to a General Application. No specific requirements are stated.",
+     "eligibility": "No eligibility rules are stated. Roles are tagged by location (London, Lausanne, Cambridge MA), so a Canadian student would likely need UK, Swiss or US work authorization. I found no visa-sponsorship terms.",
      "location": "London / Lausanne / Cambridge, MA",
      "duration": "n/a",
      "deadline": null,
-     "deadline_text": "No programs listed. The site says 'Not at the moment. We'll update this website', with any updates announced on X and Li",
+     "deadline_text": "No programs listed. The site says it will update the website and announce any change on X and LinkedIn. No usual opening",
      "status": "closed",
      "url": "https://www.isomorphiclabs.com/job-openings"
     }
    ],
-   "location": "London, UK (King's Cross); Lausanne, Switzerland (Le Flon); Cambridge, MA, USA (Kendall Square)"
+   "location": "London (King's Cross, HQ); Lausanne (Le Flon); Cambridge, MA (Kendall Square)"
   },
   {
    "name": "Chai Discovery",
@@ -48214,91 +48200,86 @@
    "department_hint": null,
    "id": "st-chai",
    "url": "https://www.chaidiscovery.com",
-   "focus": "Chai Discovery builds AI foundation models that predict and reprogram interactions between biochemical molecules, aiming to make molecule design a computer-aided process. Chai-1 is a structure-prediction model. Chai-2 is an all-atom generative model for zero-shot de novo antibody and binder design, and the company reports roughly 16–20% hit rates on previously unaddressed targets. The company works with pharma partners including Eli Lilly, Pfizer, Novartis and argenx. Its work is on therapeutic biologics and protein design, not genomics or cancer sequencing.",
+   "focus": "Chai Discovery builds foundation models for molecular design and is based in San Francisco. Its Chai-2 model designs antibodies and nanobodies de novo, with no starting template. Reports put the success rate at about 16% across 52 targets in a preprint, and about 20% in podcast coverage. The company works on therapeutic biologics, specifically binders and antibodies, and has partnerships and a growing scientist team doing wet-lab antibody engineering and protein design. It has no stated focus on cancer genomics or sequencing analysis.",
    "topics": [
     "de novo antibody design",
     "protein structure prediction",
-    "generative models for biologics",
-    "foundation models for molecules",
-    "drug discovery"
+    "generative models",
+    "biologics discovery",
+    "protein design"
    ],
    "fit": {
-    "score": 1,
-    "reason": "Chai works on protein and antibody design and structure-based generative ML. That overlaps only loosely with the student's cancer genomics, structural variant, and single-cell/spatial omics interests, apart from a shared ML-methods angle."
+    "score": 2,
+    "reason": "It is a strong machine-learning-for-biology group, but it works on protein and antibody design rather than cancer genomics, structural variants, or single-cell and spatial omics. Only the general ML-methods interest overlaps."
    },
    "flags": [
-    "No structured PhD fellowship, residency, student researcher or visiting program was found.",
-    "The only internship-type entry is ambiguous. The careers page lists it, but an aggregator copy says Chai does not offer internships. Confirm with the company before relying on it.",
-    "All roles are in person in San Francisco, so a US visa would likely be needed.",
-    "Jacques Boitreaud's co-founder status differs between sources, and the Series B funding figure is single-sourced.",
-    "I did not check individual founder profile pages or Google Scholar. Profile URLs are press articles."
+    "No fellowship, residency, or structured student program is listed. The careers page shows 21 roles, including the 'Internship' and 'Opportunistic' open-application entries.",
+    "I did not open the Ashby application pages, so requirements and eligibility for the internship entry are unverified.",
+    "Founder details come from a third-party research profile and news coverage, not from the Chai website. Sources disagree on the Chai-2 success rate (16% vs about 20%) and on the spelling of Boitreaud's name.",
+    "The company has not listed a separate computational biology head. The co-founders lead the AI research."
    ],
    "sources": [
-    {
-     "title": "Chai Discovery homepage",
-     "url": "https://www.chaidiscovery.com"
-    },
     {
      "title": "Chai Discovery careers",
      "url": "https://www.chaidiscovery.com/careers"
     },
     {
-     "title": "SiliconANGLE: Chai Discovery raises $70M",
-     "url": "https://siliconangle.com/2025/08/07/chai-discovery-raises-70m-build-molecular-discovery-foundation-ai-models/"
+     "title": "Contrary Research: Chai Discovery",
+     "url": "https://research.contrary.com/company/chai-discovery"
     },
     {
-     "title": "PharmExec: Menlo Ventures-led $70M Series A",
-     "url": "https://www.pharmexec.com/view/menlo-ventures-led-70-million-series-a-fundraiser-chai-discovery-transform-molecular-design"
+     "title": "GEN: Chai's the limit for AI antibody designer after $130M Series B",
+     "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/"
     },
     {
-     "title": "Aggregator copy of internship listing",
-     "url": "https://www.leadnear.com/jobs/internship-5928343"
+     "title": "Business Wire: Chai Discovery announces $70 million Series A",
+     "url": "https://www.businesswire.com/news/home/20250806670137/en"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:52:53+00:00",
+   "refreshed_at": "2026-10-29T13:16:51+00:00",
    "error": null,
    "leads": [
     {
      "name": "Joshua Meier",
-     "role": "Co-founder and CEO",
-     "background": "Previously Chief AI Officer at Absci, and a researcher at OpenAI and Facebook AI (per press coverage).",
-     "profile_url": "https://siliconangle.com/2025/08/07/chai-discovery-raises-70m-build-molecular-discovery-foundation-ai-models/"
-    },
-    {
-     "name": "Matthew McPartlon",
-     "role": "Co-founder (AI researcher)",
-     "background": "AI researcher in molecular/protein modelling. Press coverage names them as a co-founder but gives no title.",
-     "profile_url": "https://siliconangle.com/2025/08/07/chai-discovery-raises-70m-build-molecular-discovery-foundation-ai-models/"
-    },
-    {
-     "name": "Jacques Boitreaud",
-     "role": "Co-founder (AI researcher)",
-     "background": "AI researcher. Several outlets list them as a co-founder, but one source omits them.",
-     "profile_url": "https://www.pharmexec.com/view/menlo-ventures-led-70-million-series-a-fundraiser-chai-discovery-transform-molecular-design"
+     "role": "Co-founder & CEO",
+     "background": "Previously at Absci, Meta and OpenAI; helped develop an early protein language model.",
+     "profile_url": "https://research.contrary.com/company/chai-discovery"
     },
     {
      "name": "Jack Dent",
-     "role": "Co-founder",
-     "background": "Previously an engineer at Stripe (per press coverage).",
-     "profile_url": "https://www.pharmexec.com/view/menlo-ventures-led-70-million-series-a-fundraiser-chai-discovery-transform-molecular-design"
+     "role": "Co-founder & President",
+     "background": "Former Stripe engineer and product leader (Stripe Link, Stripe Capital).",
+     "profile_url": "https://research.contrary.com/company/chai-discovery"
+    },
+    {
+     "name": "Matthew McPartlon",
+     "role": "Co-founder (AI research)",
+     "background": "Previously on Absci's AI research team, working on de novo antibody design modeling.",
+     "profile_url": "https://research.contrary.com/company/chai-discovery"
+    },
+    {
+     "name": "Jacques Boitreaud",
+     "role": "Co-founder (AI research)",
+     "background": "Graduate-level work on generative models for molecular affinity optimization.",
+     "profile_url": "https://research.contrary.com/company/chai-discovery"
     }
    ],
    "programs": [
     {
-     "name": "Internship (listed on careers page as 'Internship, Outliers & Polymaths')",
+     "name": "Internship (Outliers & Polymaths) / Opportunistic open application",
      "type": "internship",
-     "requirements": "No details on the official page. An aggregator copy of the listing says Chai does not offer internships because of the pace and sensitivity of its work, but invites people who share its passion to get in touch.",
+     "requirements": "No details on the official page. An aggregator copy of the listing, which I did not re-verify, says Chai does not offer structured internships but invites people who share its passion to get in touch.",
      "eligibility": "Not stated. Roles are in person in San Francisco, so a Canadian student would likely need US work authorization (unverified).",
      "location": "San Francisco, CA",
      "duration": null,
      "deadline": null,
-     "deadline_text": "No deadline stated. This looks like an open expression-of-interest rather than a structured program.",
+     "deadline_text": "No deadline stated. Looks like an open expression of interest rather than a structured program. Still listed on the care",
      "status": "unknown",
      "url": "https://www.chaidiscovery.com/careers"
     }
    ],
-   "location": "San Francisco, California (in-person)"
+   "location": "San Francisco, CA (all listed roles in person)"
   },
   {
    "name": "Xaira Therapeutics",
@@ -48311,112 +48292,118 @@
    "department_hint": null,
    "id": "st-xaira",
    "url": "https://xaira.com",
-   "focus": "Xaira is an AI-driven drug discovery and development company. Its stated mission is to decode disease, design therapies and deliver cures. Its platform has three layers: AI models (X-Cell, X-Design, X-Patient), AI accelerators (X-Scientist, X-Automate) and AI-derived therapeutics (X-Pipeline). Core protein-design technology builds on work from the University of Washington Institute for Protein Design. Open roles in functional genomics, proteomics, biomarkers and experimental medicine, pharmacology and translational science suggest the company also generates large-scale perturbation and patient data to train its models. I did not verify specific disease areas or whether it works on cancer.",
+   "focus": "Xaira is an AI-driven drug discovery company that raised more than $1B at launch. It builds generative models to design protein and antibody therapeutics, and foundation models for biology and disease. Its platform modules include X-Cell (AI target discovery), X-Design (AI molecule design), X-Patient (patient selection), X-Scientist (agentic AI) and X-Automate (lab robotics). The company says it learns causal disease mechanisms by measuring cellular responses to perturbations at scale. That work uses high-throughput biology, functional genomics and single-cell assay development in South San Francisco. It also runs an oncology-focused clinical development effort.",
    "topics": [
-    "AI drug discovery",
-    "protein and antibody design",
+    "generative protein design",
+    "antibody therapeutics",
     "foundation models for biology",
-    "functional genomics / perturbation data",
-    "lab automation",
-    "translational science"
+    "perturbation / functional genomics",
+    "single-cell assays",
+    "lab automation"
    ],
    "fit": {
     "score": 2,
-    "reason": "Xaira's focus is AI-based therapeutic and protein design, with some overlap with the student's ML-for-genomics interest through functional genomics and patient-data models. It has no visible cancer WGS, structural variant or somatic mutation work, and the student's lab is not an obvious match."
+    "reason": "The company's main focus is protein and antibody design and perturbation biology, and only loosely touches the student's cancer genomics and structural variant interests (some overlap in ML for genomics, single-cell and functional genomics, and an oncology clinical role). The only student-facing rol"
    },
    "flags": [
-    "The xaira.com careers page lists no internship, fellowship or residency program, and no recurring cycle. Check the Greenhouse board directly for current openings.",
-    "Both programs came from job-board aggregators, not an official program page. Dates, pay and status are unverified.",
-    "Leadership details come mostly from press coverage. David Baker is associated with Xaira's origins, but I found no formal title for him, so I left him out.",
-    "Fit is low because Xaira is a therapeutics-design company, not a cancer genomics group. It may still be useful for ML-for-biology networking.",
-    "Visa or work authorization is likely required for US and UK roles."
+    "Last week's 'Lab Automation – Vision AI Engineer Intern' listing does not appear on the Xaira Greenhouse board's current list of 32 openings, so it was dropped as possibly closed. I did not re-verify it directly.",
+    "A new program not in last week's list: AI Scientist Intern, Computational Protein Design. It is the most realistic fit for a PhD student, but it targets protein design ML, not cancer genomics.",
+    "The residency requirements were read from a job-board mirror (Menlo Ventures) and not from the Greenhouse page itself.",
+    "I could not verify any visa or work-authorization policy for any role.",
+    "Leader titles come from launch-era press and secondary sources. The xaira.com homepage names no leaders, and I did not check its /our-team page."
    ],
    "sources": [
     {
-     "title": "Xaira Therapeutics homepage",
+     "title": "Xaira Therapeutics home page",
      "url": "https://xaira.com"
     },
     {
-     "title": "Xaira careers (work with us)",
-     "url": "https://xaira.com/work-with-us"
+     "title": "Xaira Greenhouse job board",
+     "url": "https://job-boards.greenhouse.io/xairatherapeutics"
     },
     {
-     "title": "BiopharmaTrend: Xaira expands leadership team",
-     "url": "https://biopharmatrend.com/post/1068-xaira-therapeutics-expands-leadership-team-and-moves-to-new-headquarters"
-    },
-    {
-     "title": "BiopharmaTrend: Bo Wang appointed Head of Biomedical AI",
-     "url": "https://www.biopharmatrend.com/post/1192-1b-ai-drug-discovery-startup-xaira-therapeutics-appoints-foundation-model-expert-bo-wang-as-head-of-biomedical-ai"
-    },
-    {
-     "title": "BioSpace: Xaira launch",
-     "url": "https://www.biospace.com/xaira-therapeutics-launches-to-deliver-transformative-medicines-by-advancing-and-harnessing-ai-for-drug-discovery-and-development"
-    },
-    {
-     "title": "Menlo Ventures job board: AI in Residence",
+     "title": "AI in Residence (Menlo Ventures job board)",
      "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/72183162-ai-in-residence"
     },
     {
-     "title": "startup.jobs: Lab Automation Vision AI Engineer Intern",
-     "url": "https://startup.jobs/lab-automation-vision-ai-engineer-intern-xaira-therapeutics-8615980"
+     "title": "AI in Residence, Computational Protein Design (Menlo Ventures job board)",
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/90739798-ai-in-residence-computational-protein-design"
+    },
+    {
+     "title": "AI Scientist Intern, Computational Protein Design (Menlo Ventures job board)",
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/91582784-ai-scientist-intern-computational-protein-design"
+    },
+    {
+     "title": "Xaira launch announcement (BioSpace)",
+     "url": "https://www.biospace.com/xaira-therapeutics-launches-to-deliver-transformative-medicines-by-advancing-and-harnessing-ai-for-drug-discovery-and-development"
+    },
+    {
+     "title": "Xaira expands leadership team (BiopharmaTrend)",
+     "url": "https://www.biopharmatrend.com/news/xaira-therapeutics-expands-leadership-team-and-moves-to-new-headquarters-1068/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:54:39+00:00",
+   "refreshed_at": "2026-10-29T13:18:22+00:00",
    "error": null,
    "leads": [
     {
      "name": "Marc Tessier-Lavigne",
      "role": "Founding CEO",
-     "background": "Former Chief Scientific Officer of Genentech and former President of Rockefeller and Stanford Universities (per launch coverage).",
+     "background": "Former Chief Scientific Officer of Genentech and former president of Rockefeller University and Stanford University (per launch coverage).",
      "profile_url": "https://www.biospace.com/xaira-therapeutics-launches-to-deliver-transformative-medicines-by-advancing-and-harnessing-ai-for-drug-discovery-and-development"
     },
     {
      "name": "Hetu Kamisetty",
-     "role": "Co-founder and Chief Technology Officer",
-     "background": "Machine learning expert, formerly at Meta and the Institute for Protein Design (per secondary coverage).",
-     "profile_url": "https://biopharmatrend.com/post/1068-xaira-therapeutics-expands-leadership-team-and-moves-to-new-headquarters"
+     "role": "Co-founder; listed as Chief Technology Officer",
+     "background": "Previously at Meta, where he led generative AI work. Leads AI model development for drug discovery. The CTO title comes from secondary sources and I did not confirm it on the official site.",
+     "profile_url": "https://www.biopharmatrend.com/news/xaira-therapeutics-expands-leadership-team-and-moves-to-new-headquarters-1068/"
     },
     {
-     "name": "Bo Wang",
-     "role": "Chief AI Scientist (previously SVP, Head of Biomedical AI)",
-     "background": "Foundation-model expert recruited to lead biomedical AI. The title is from the July 2026 announcement on xaira.com.",
-     "profile_url": "https://www.biopharmatrend.com/post/1192-1b-ai-drug-discovery-startup-xaira-therapeutics-appoints-foundation-model-expert-bo-wang-as-head-of-biomedical-ai"
-    },
-    {
-     "name": "Ci Chu",
-     "role": "Chief Discovery Officer",
-     "background": "Promoted to Chief Discovery Officer per the July 2026 announcement on xaira.com. I did not verify the rest of their background.",
-     "profile_url": "https://xaira.com"
+     "name": "Arvind Rajpal",
+     "role": "Named executive at launch. Secondary sources disagree on the exact title.",
+     "background": "Formerly at Genentech, in drug discovery and development.",
+     "profile_url": "https://www.biopharmatrend.com/news/xaira-therapeutics-expands-leadership-team-and-moves-to-new-headquarters-1068/"
     }
    ],
    "programs": [
     {
-     "name": "AI in Residence (including a Computational Protein Design track)",
-     "type": "residency",
-     "requirements": "Intended for exceptional researchers and engineers as an industry alternative to a postdoc. Postings ask for technical depth, independence and research judgment, plus evidence of delivered work such as publications, open-source contributions or production systems. Residents own projects end-to-end, from problem framing to deployment. Not designed for first-year PhD students.",
-     "eligibility": "Not stated in the sources I could read. Roles are US-based, so a Canadian would likely need work authorization or a visa. I could not verify the visa policy.",
-     "location": "South San Francisco and Seattle",
-     "duration": "6–12 months (one listing)",
+     "name": "AI Scientist Intern, Computational Protein Design",
+     "type": "internship",
+     "requirements": "Work with scientists and engineers on generative AI models for protein and antibody design. Build deep learning models for structure, sequence and property prediction, and train them on GPUs with PyTorch. Formal degree requirements were not visible in the snippets I read.",
+     "eligibility": "Not stated in what I read. The role is US-based, so a Canadian student would likely need work authorization or a visa. I could not verify the visa policy.",
+     "location": "Seattle, WA and South San Francisco, CA",
+     "duration": "Not stated in the sources I could read",
      "deadline": null,
-     "deadline_text": "No deadline found. The postings are on job boards (Menlo Ventures, compbiojobs) and the Xaira Greenhouse board. I did no",
+     "deadline_text": "No deadline found. Job boards show it posted around late August 2026. It is listed on the Xaira Greenhouse board and no ",
      "status": "unknown",
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/91582784-ai-scientist-intern-computational-protein-design"
+    },
+    {
+     "name": "AI in Residence (BioMedical AI)",
+     "type": "residency",
+     "requirements": "Recent MS or PhD graduates, or people with equivalent research experience, in ML/AI, computational biology, biomedical engineering or a related field. Applicants need evidence of research excellence (publications, preprints, open-source work or shipped systems) and a record of leading substantial technical work. A brief cover letter is also required. The role is an industry alternative to a postdoc and is not suited to a first-year PhD student.",
+     "eligibility": "The posting does not mention visa sponsorship or work authorization. The role is US-based, so a Canadian would likely need a visa.",
+     "location": "South San Francisco, CA",
+     "duration": "6–12 months",
+     "deadline": null,
+     "deadline_text": "No deadline. The posting says it is accepting applications for Fall 2026 and Winter/Spring 2027 starts. It also shows as",
+     "status": "rolling",
      "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/72183162-ai-in-residence"
     },
     {
-     "name": "Lab Automation – Vision AI Engineer Intern",
-     "type": "internship",
-     "requirements": "Build vision and multimodal AI systems for autonomous lab work, with mentorship from engineers. The detailed requirements page returned a 403, so I could not read them.",
-     "eligibility": "Not verified. The role is US-based, so a Canadian student would probably need a visa or work authorization.",
-     "location": "Not verified (likely a US site)",
+     "name": "AI in Residence, Computational Protein Design",
+     "type": "residency",
+     "requirements": "Similar to the BioMedical AI residency: exceptional researchers and engineers with technical depth, independence and evidence of delivered work. Not suited to a first-year PhD student.",
+     "eligibility": "Not stated. The role is US-based, so a Canadian would likely need a visa.",
+     "location": "Seattle, WA",
      "duration": "Not verified",
      "deadline": null,
-     "deadline_text": "Not verified. This is a single listing and the company has no general internship program page. The search summary gave p",
+     "deadline_text": "No deadline found. Aggregator listings describe it as a contractor role at about $10–15k/month.",
      "status": "unknown",
-     "url": "https://startup.jobs/lab-automation-vision-ai-engineer-intern-xaira-therapeutics-8615980"
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/90739798-ai-in-residence-computational-protein-design"
     }
    ],
-   "location": "HQ in South San Francisco, CA (700 Gateway Blvd). Other sites: Seattle, Brisbane CA and London (per job postings and com"
+   "location": "South San Francisco, CA (HQ, 700 Gateway Blvd); Seattle, WA. Secondary sources also mention London."
   },
   {
    "name": "EvolutionaryScale",
@@ -48429,24 +48416,25 @@
    "department_hint": null,
    "id": "st-evoscale",
    "url": "https://biohub.org/team/alex-rives/",
-   "focus": "EvolutionaryScale builds frontier generative foundation models for biology. Its best-known model is ESM3, a multimodal model of protein sequence, structure and function, and it also released ESM C. The ESM line began as transformer language models trained on protein sequences, and these models are used for protein design and for predicting structure and function. In 2025 the team joined Biohub, the CZI-backed research organization. Biohub says the AI group now works on next-generation biological foundation models and on AI agents that can formulate hypotheses and design experiments. The work is protein- and molecule-centric. I found no cancer-genomics or sequencing-analysis focus.",
+   "focus": "EvolutionaryScale built the ESM family of protein language models, which are large transformer models trained on protein sequences to predict structure and function. In late 2025 the team joined Biohub (backed by the Chan Zuckerberg Initiative), where Alex Rives sets scientific strategy across experimental biology, data and AI. Under Biohub the team released ESMFold2 and the ESM Atlas in May 2026. The ESM Atlas maps about 6.8 billion sequences and 1.1 billion predicted structures to protein function. Current Biohub AI postings describe biological foundation models, pre-training pipelines, post-training (RL, reward modeling, reasoning, multi-agent orchestration) and evaluation frameworks, as well as 'biological world models'. The work is mostly protein and molecular modelling, not cancer genomics.",
    "topics": [
     "protein language models",
-    "generative protein design",
     "biological foundation models",
-    "AI agents for science",
-    "ESM3 / ESM C"
+    "protein structure prediction",
+    "generative AI for biology",
+    "virtual cell / world models",
+    "AI safety for biology"
    ],
    "fit": {
     "score": 2,
-    "reason": "The team works on protein and sequence foundation models and generative design. That overlaps only loosely with the student's ML-for-genomics interest and not with tumour WGS, structural variants, or single-cell/spatial cancer omics."
+    "reason": "The work is on protein and foundation-model ML, which overlaps with the student's interest in ML methods for genomics, but there is little on cancer genomics, structural variants, tumour sequencing or single-cell/spatial data. The Biohub 'Computational Biologist, Immune Cell Repolarization' role hin"
    },
    "flags": [
-    "EvolutionaryScale was acquired by, or joined, Biohub (CZI) in November 2025. Sources differ on the wording, so careers and programs now sit under Biohub. The old evolutionaryscale.ai/careers URL returned 404.",
-    "I could not open the intern posting itself, so requirements, eligibility, duration and deadline are not confirmed. The Greenhouse board URL I fetched returned 404, and the Peerlist page returned 403.",
-    "The only official pages I confirmed were Alex Rives's Biohub profile and the Biohub Greenhouse board. Sal Candido's and Tom Sercu's roles come from secondary sources and may be out of date.",
-    "The Biohub Summer 2026 internship dates and deadline came from a search summary, not a page I opened.",
-    "The team is AI/protein-focused, so a cancer-genomics student has weak topical overlap. Biohub's other science groups may be a better match."
+    "The intern posting was NOT confirmed as currently open. The fetch showed 12 Biohub openings, and none was an intern role.",
+    "The EvolutionaryScale Greenhouse board (job-boards.greenhouse.io/EvolutionaryScale) returned 404 and the third-party listing pages could not be read, so the requirements and deadline come from snippets only.",
+    "EvolutionaryScale now operates inside Biohub. Some sources call it an acquisition by CZI, while the law-firm note says the team joined Biohub. The komo.ai directory lists Rives as CEO, which conflicts with other sources.",
+    "Only Alex Rives could be verified as a lead. I did not find other named leads on official pages.",
+    "No evidence of PhD fellowship, residency or visiting programs was found."
    ],
    "sources": [
     {
@@ -48454,60 +48442,44 @@
      "url": "https://biohub.org/team/alex-rives/"
     },
     {
-     "title": "Biohub job posting (AI Research roles)",
+     "title": "Biohub careers (Greenhouse job 7530395, listing page)",
      "url": "https://job-boards.greenhouse.io/biohub/jobs/7530395"
     },
     {
-     "title": "EvolutionaryScale Openings + Frontier AI Intern Program (Greenhouse, from search results)",
-     "url": "https://job-boards.greenhouse.io/EvolutionaryScale"
-    },
-    {
      "title": "Gunderson: EvolutionaryScale team joins Biohub",
-     "url": "https://www.gunder.com/en/news-insights/client-news/gunderson-client-evolutionaryscale-team-joins-biohub-in-strategic-transaction-with-chan-zuckerberg-initiative"
+     "url": "https://www.gunder.com/print/v2/content/23848/gunderson-client-evolutionaryscale-team-joins-biohub-in-strategic-transaction-with-chan-zuckerberg-initiative.pdf"
     },
     {
-     "title": "TechCrunch: EvolutionaryScale raises $142M",
-     "url": "https://techcrunch.com/2024/06/25/evolutionaryscale-backed-by-amazon-and-nvidia-raises-142m-for-protein-generating-ai/"
+     "title": "AI Research Intern (PhD) listing (aggregator, not opened)",
+     "url": "https://resumegeni.com/jobs/ai-research-intern-phd-ai-research-science-biohub-31efad0dba"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:53:57+00:00",
+   "refreshed_at": "2026-10-29T13:18:23+00:00",
    "error": null,
    "leads": [
     {
      "name": "Alex Rives",
-     "role": "Co-founder and Chief Scientist, EvolutionaryScale; Head of Science at Biohub",
-     "background": "Started and led the ESM protein language model project at Meta FAIR. Former MIT EECS assistant professor and Broad Institute core member. PhD in computer science from NYU.",
+     "role": "Co-founder of EvolutionaryScale; now Head of Science at Biohub",
+     "background": "Started and led the ESM protein language model project at Meta AI. Co-founded EvolutionaryScale. Reported to keep Broad Institute and MIT EECS affiliations.",
      "profile_url": "https://biohub.org/team/alex-rives/"
-    },
-    {
-     "name": "Sal Candido",
-     "role": "Co-founder and CTO (per secondary sources only)",
-     "background": "Ex-Meta and Loon. Not confirmed on an official page.",
-     "profile_url": null
-    },
-    {
-     "name": "Tom Sercu",
-     "role": "Co-founder (per secondary sources only)",
-     "background": "Worked with Rives on ESM at Meta. Not confirmed on an official page.",
-     "profile_url": null
     }
    ],
    "programs": [
     {
      "name": "AI Research Intern (PhD), AI Research / Science (Biohub; includes the EvolutionaryScale team)",
      "type": "internship",
-     "requirements": "Search snippets say the role is for PhD students. The posting text I could open gave no detailed requirements. Other Biohub PhD internships require full-time enrolment as a graduate student. Check the posting for skills and publication expectations.",
-     "eligibility": "Not stated in the pages I could read. Work authorization for the US is unverified. A Canadian student would likely need a visa (for example J-1 or CPT-type sponsorship), so confirm with Biohub.",
+     "requirements": "Search snippets say the role is for PhD students. I could not open the posting text, so detailed requirements are unverified. Check the posting for skills and publication expectations. Biohub's other PhD internships may require full-time graduate enrolment. An aggregator lists pay of about $64-88/hour, which is unverified.",
+     "eligibility": "Not stated in any page I could read. US work authorization is unverified. A Canadian student would likely need visa sponsorship (e.g. J-1 or CPT-type), so confirm with Biohub.",
      "location": "Redwood City, CA or New York, NY (hybrid)",
-     "duration": "About 3 months per a search snippet (listings elsewhere mention 12+ weeks, with ",
+     "duration": "About 3 months per a search snippet (unverified)",
      "deadline": null,
-     "deadline_text": "No dated deadline found. The EvolutionaryScale Greenhouse page said it had launched a highly selective AI Research Inter",
+     "deadline_text": "No dated deadline found. The posting URL I fetched this session returned a Biohub careers page that did not list the int",
      "status": "unknown",
      "url": "https://job-boards.greenhouse.io/biohub/jobs/7530395"
     }
    ],
-   "location": "Redwood City, CA and New York, NY (hybrid; Biohub offices)"
+   "location": "Biohub: Redwood City, CA; New York, NY (hybrid); also Chicago, IL (onsite for wet-lab and some roles)"
   },
   {
    "name": "Noetik",
@@ -48604,69 +48576,68 @@
    "group": null,
    "department_hint": null,
    "id": "st-generate",
-   "url": "https://generatebiomedicines.com/",
-   "focus": "Generate:Biomedicines uses machine learning and generative AI to design protein therapeutics (antibodies and other biologics) computationally. The Generate Platform models protein sequence, structure and function to create new drug candidates, and it combines this with high-throughput wet-lab experiments. The pipeline centres on immunology and inflammation, oncology and infectious disease/vaccines. The leadership page lists no separate head of machine learning, so computational work sits under the CTO.",
+   "url": "https://generatebiomedicines.com",
+   "focus": "Generate:Biomedicines is a clinical-stage biotech that uses generative AI and machine learning to design protein therapeutics, such as antibodies, from scratch. Its Computational Sciences teams work on generative models of protein sequence and structure, computational structure determination, and ML or data science, linked to wet-lab validation. The company's work is mostly in immunology/inflammation and oncology. I could not confirm details of its current pipeline from the pages I fetched. The student's cancer genomics work is not the company's focus.",
    "topics": [
     "generative protein design",
     "antibody therapeutics",
-    "machine learning for biologics",
-    "protein structure/function",
-    "immunology & oncology drug development",
-    "vaccines/infectious disease"
+    "machine learning",
+    "protein structure",
+    "immunology and oncology"
    ],
    "fit": {
     "score": 2,
-    "reason": "The ML-methods overlap is real, but the company works on protein design and therapeutics, not cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics. The only student role found is a protein-focused ML internship."
+    "reason": "The company's ML and computational biology work overlaps with the student's interest in ML methods, but it centres on protein design rather than cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics."
    },
    "flags": [
-    "I found no official fellowship, residency, student researcher or visiting program.",
-    "The internship details come from a third-party aggregator (Simplify), not Generate's own site. Generate's Open Positions page needs cookies enabled and returned no roles to my fetch.",
-    "The leadership page lists no dedicated head of ML or computational biology. Grigoryan is the closest match.",
-    "The investors page mentions a 2026 IPO. That came from a summary I did not verify further.",
-    "US work authorization is likely needed for any role."
+    "The company's open-positions page needs cookies enabled, so I could not read live listings from it. Check https://generatebiomedicines.com/careers/ directly for any 2027 internship.",
+    "Program details come from third-party aggregators (Built In, Simplify, Teal), not an official posting, and the pay figures vary between them.",
+    "I found no PhD fellowship, residency, student researcher or visiting program.",
+    "US work authorization for a Canadian student is unconfirmed.",
+    "The leadership page has no individual profile links or backgrounds for the people I list, so the 'background' lines are thin."
    ],
    "sources": [
     {
-     "title": "Generate:Biomedicines Leadership Team",
+     "title": "Leadership Team - Generate:Biomedicines investors",
      "url": "https://investors.generatebiomedicines.com/?p=30"
     },
     {
      "title": "Generate:Biomedicines Careers",
-     "url": "https://generatebiomedicines.com/careers"
+     "url": "https://generatebiomedicines.com/careers/"
     },
     {
      "title": "Generate:Biomedicines Open Positions",
      "url": "https://generatebiomedicines.com/open-positions/"
     },
     {
-     "title": "Machine Learning Intern, Summer 2026 (Simplify)",
-     "url": "https://simplify.jobs/p/7cdc0d1f-531e-4bd7-ac9d-1c579061b982"
+     "title": "Machine Learning Intern (Built In)",
+     "url": "https://builtin.com/job/machine-learning-intern/8175540"
     },
     {
-     "title": "MIT News: Creating Crossroads, Gevorg Grigoryan",
-     "url": "https://news.mit.edu/2024/creating-crossroads-gevorg-grigoryan-0628"
+     "title": "Machine Learning Intern (Simplify, 2026)",
+     "url": "https://simplify.jobs/p/7cdc0d1f-531e-4bd7-ac9d-1c579061b982"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:53:42+00:00",
+   "refreshed_at": "2026-10-29T13:17:20+00:00",
    "error": null,
    "leads": [
     {
-     "name": "Gevorg Grigoryan, PhD",
+     "name": "Gevorg Grigoryan",
      "role": "Co-Founder & Chief Technology Officer",
-     "background": "Former Dartmouth professor (computer science, biophysics, molecular biology) who works on protein sequence, structure and function. He has over 50 peer-reviewed papers and leads development of the Generate Platform.",
+     "background": "Co-founded Generate with Flagship Pioneering. Leads the computational and machine-learning platform for protein design.",
      "profile_url": "https://investors.generatebiomedicines.com/?p=30"
     },
     {
-     "name": "Aarif Khakoo, MD",
+     "name": "Aarif Khakoo",
      "role": "Chief Scientific Officer",
-     "background": "Physician-scientist who directs science and strategy across the platform and pipeline. Previously CSO at Scribe Therapeutics and CMO at Calico Life Sciences.",
+     "background": "Leads the company's science and drug discovery. Listed on the leadership page.",
      "profile_url": "https://investors.generatebiomedicines.com/?p=30"
     },
     {
-     "name": "Dinesh de Alwis, PhD",
-     "role": "SVP, Head of Clinical Drug Development",
-     "background": "Runs clinical development and IND submissions in immunology and oncology. He has a PhD in population PK/PD and previously worked on oncology dose-finding at Merck.",
+     "name": "Michael Nally",
+     "role": "Chief Executive Officer",
+     "background": "Runs the company. Listed as CEO on the leadership page and in company press releases.",
      "profile_url": "https://investors.generatebiomedicines.com/?p=30"
     }
    ],
@@ -48674,17 +48645,17 @@
     {
      "name": "Machine Learning Intern (PhD), Summer 2026",
      "type": "internship",
-     "requirements": "Current PhD student in applied math, computer science, computational biology, statistics or a related field. Needs experience developing novel ML methods (generative modeling or LLM-based workflows), a deep learning framework (PyTorch/JAX/TensorFlow), and Python with NumPy/SciPy or R. Protein sequence/structure data experience and agentic LLM-tool applications are preferred. Interns do a mentored summer project, present to the Computational Sciences team, and give a capstone talk at the ML Inter",
-     "eligibility": "The posting does not mention visa sponsorship or work authorization. A Canadian student would likely need US work authorization, so confirm with the company. The role is onsite, and the pay listed was $55.29–$71.88/hr.",
+     "requirements": "Current PhD student in applied math, computer science, computational biology, statistics or a related field. Needs experience developing novel ML methods (generative modeling or LLM-based workflows), a deep learning framework (PyTorch/JAX/TensorFlow), and Python with NumPy/SciPy or R. Protein sequence/structure data experience and agentic LLM-tool applications are preferred. Interns do a mentored summer project and present to the Computational Sciences team. A capstone presentation is also part ",
+     "eligibility": "The postings I saw do not mention visa sponsorship or work authorization. A Canadian student would likely need US work authorization, so confirm with the company. The role is onsite. Aggregators list pay of about $55–$72/hr.",
      "location": "Onsite, Somerville, MA (the listing header says Cambridge, MA)",
      "duration": "About 3 months (June–August)",
      "deadline": null,
-     "deadline_text": "The 2026 posting (made March 2, 2026) is now inactive. The next cycle has not been posted, and 2027 timing is unknown. T",
+     "deadline_text": "The 2026 posting is closed or inactive, and one aggregator showed it removed in February 2026. I found no 2027 posting. ",
      "status": "closed",
      "url": "https://simplify.jobs/p/7cdc0d1f-531e-4bd7-ac9d-1c579061b982"
     }
    ],
-   "location": "Somerville, MA (HQ, 101 South Street); Andover, MA"
+   "location": "Somerville, MA, USA. The 2026 listing header said Cambridge, MA."
   },
   {
    "name": "Profluent",
@@ -48696,31 +48667,39 @@
    "group": null,
    "department_hint": null,
    "id": "st-profluent",
-   "url": "https://www.profluent.bio",
-   "focus": "Profluent is an AI-first protein design company. It trains large generative protein language models (the ProGen family) on very large sequence datasets to design functional proteins, either from natural scaffolds or from scratch. Its main biology programme is gene editing: it released OpenCRISPR, which it calls the first AI-designed gene editor. It also works on recombinases for genetic medicine, with a Lilly deal reported at up to $2.25B (April 2026), and on therapeutics with BioMarin (September 2026). Wet-lab teams cover CRISPR specificity and genomic safety, screening, and lipid nanoparticle (tLNP) delivery. A bioinformatics team mines metagenomic data.",
+   "url": "https://profluent.bio",
+   "focus": "Profluent is an AI lab for biology that trains generative protein language models, including the ProGen family, to design new proteins. Its first focus area is gene editing. The team mines metagenomic data computationally to find new CRISPR and other editing enzymes, then designs bespoke editors. These are tested in a high-throughput wet lab with automated screening in Emeryville. The company also works on models and partnerships for biologics.",
    "topics": [
     "protein language models",
     "generative protein design",
-    "CRISPR / gene editing",
+    "gene editing / CRISPR",
     "metagenomics mining",
-    "reinforcement learning for biomolecular ",
-    "genomic safety / off-target analysis"
+    "high-throughput screening",
+    "biologics"
    ],
    "fit": {
     "score": 2,
-    "reason": "The company's main work is generative protein and gene-editor design, not cancer genomics. The overlap with this student is ML for genomics, large-scale sequence analysis, and possibly off-target and genomic-safety analysis. The internship also requires US travel or a visa, and the student would lik"
+    "reason": "The company does ML and genomics-flavoured protein and gene-editor design, and the student has ML-for-genomics and large-scale sequence analysis skills. It does no cancer genomics, structural variants, somatic mutation work or single-cell/spatial omics, and its roles are on-site in the US."
    },
    "flags": [
-    "No dedicated PhD fellowship, residency, or visiting programme was found. Only internships appear on the careers board.",
-    "The internship deadline came from a third-party aggregator, not from Profluent's own page. The URL I give for it is the Greenhouse board, which lists 15 roles. The fetch of /careers returned 404.",
-    "The Intern, Software Engineering listing is on the board, but I did not verify its details.",
-    "Work authorization and visa support were not stated for any role.",
-    "Full-time ML Scientist roles are open (BioML, Pretraining, Reinforcement Learning) but are not student programmes."
+    "Correction to last week's list: the Greenhouse URL used for both internships (…/4738934008) is not either internship's current posting. The current postings are 5441954008 (Computational Research) and 5441955008 (Software Engineering).",
+    "The Computational Research requirements changed from last week's version. The current posting says MS or PhD student or recent graduate (BS is no longer listed) and has no resume or cover letter statement.",
+    "Software Engineering internship details are now verified. It is a software-focused role and a weak fit for a genomics PhD student.",
+    "The 2026-11-01 deadline for the Computational Research internship is from a third-party site only. It is not on the official page.",
+    "No PhD fellowship, residency, student researcher or visiting program was found on the careers board."
    ],
    "sources": [
     {
-     "title": "Profluent home",
-     "url": "https://www.profluent.bio"
+     "title": "Profluent careers (Greenhouse)",
+     "url": "https://job-boards.greenhouse.io/profluent"
+    },
+    {
+     "title": "Intern, Computational Research",
+     "url": "https://job-boards.greenhouse.io/profluent/jobs/5441954008"
+    },
+    {
+     "title": "Intern, Software Engineering",
+     "url": "https://job-boards.greenhouse.io/profluent/jobs/5441955008"
     },
     {
      "title": "Profluent team",
@@ -48729,46 +48708,34 @@
     {
      "title": "Profluent about",
      "url": "https://profluent.bio/about"
-    },
-    {
-     "title": "Profluent Greenhouse job board",
-     "url": "https://job-boards.greenhouse.io/profluent/jobs/4738934008"
-    },
-    {
-     "title": "Intern, Computational Research (xtalks)",
-     "url": "https://xtalks.com/job/intern-computational-research/"
-    },
-    {
-     "title": "Profluent $35M funding press release",
-     "url": "https://www.synbiobeta.com/read/profluent-secures-35m-funding-led-by-spark-capital-to-advance-ai-first-protein-design"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:54:51+00:00",
+   "refreshed_at": "2026-10-29T13:18:34+00:00",
    "error": null,
    "leads": [
     {
      "name": "Ali Madani",
      "role": "Co-founder and CEO",
-     "background": "ML PhD from UC Berkeley. Previously led the ProGen protein language model project at Salesforce AI Research.",
+     "background": "ML researcher with a PhD from UC Berkeley. Architect of the ProGen protein language model project at Salesforce AI Research.",
      "profile_url": "https://profluent.bio/team"
     },
     {
      "name": "Stephen Nayfach",
      "role": "Leads Bioinformatics",
-     "background": "PhD in Bioinformatics from UCSF. Previously a Research Scientist at the Joint Genome Institute (metagenomics).",
+     "background": "PhD in Bioinformatics from UCSF. Former Research Scientist at the Joint Genome Institute.",
      "profile_url": "https://profluent.bio/team"
     },
     {
      "name": "Peter Cameron",
-     "role": "VP of Gene Editing",
-     "background": "More than 10 years in CRISPR technology development at Caribou Biosciences and Scripps Research.",
+     "role": "VP of Gene Editing (listed as SVP on the team page)",
+     "background": "More than 10 years in CRISPR gene editing at Caribou Biosciences and Scripps Research Institute.",
      "profile_url": "https://profluent.bio/team"
     },
     {
-     "name": "Alex Meeske",
-     "role": "Co-founder; advisor to the Experimental Biology team",
-     "background": "Runs a CRISPR-Cas microbiology lab at the University of Washington. The team page lists him as an advisor, not a full-time leader.",
+     "name": "Sam Curran",
+     "role": "Leads Technology Development",
+     "background": "Works across biology, automation, informatics and ML. Previously at Amyris and Berkeley National Lab.",
      "profile_url": "https://profluent.bio/team"
     }
    ],
@@ -48776,29 +48743,29 @@
     {
      "name": "Intern, Computational Research",
      "type": "internship",
-     "requirements": "Enrolled in a BS, MS, or PhD programme in bioinformatics, computational biology, computer science, statistics, or a related quantitative field. Strong Python skills and familiarity with NumPy, pandas, and Jupyter. Experience in at least one of machine learning, large-scale data analysis, genomics, or protein bioinformatics. Resume (PDF) required; cover letter optional.",
-     "eligibility": "Must be a current student. The listing I saw does not mention work authorization or visa sponsorship, so confirm this with Profluent. A Canadian student would likely need a US work authorization for an on-site role.",
+     "requirements": "Current MS or PhD student, or recent graduate, in bioinformatics, computational biology, ML, computer science, statistics or a related quantitative field. Strong Python and familiarity with NumPy, pandas and Jupyter. Experience in at least one of ML, large-scale data analysis, genomics or protein bioinformatics. Strong problem-solving, scientific curiosity, and the ability to work independently and in a team.",
+     "eligibility": "The posting does not state a visa or sponsorship policy. The application asks whether you are legally authorized to work in the US, whether you will need sponsorship, and whether you are on OPT or CPT. A Canadian student would likely need US work authorization, so confirm with Profluent.",
      "location": "Emeryville, CA (hybrid, 2-3 days on-site per week)",
-     "duration": "About 12 weeks, flexible start dates",
-     "deadline": "2026-11-01",
-     "deadline_text": "Closes 2026-11-01 according to a third-party job board (xtalks). The Greenhouse page I fetched did not show a date, so v",
+     "duration": "Typically 12 weeks, flexible start dates",
+     "deadline": null,
+     "deadline_text": "No deadline on the official Greenhouse posting. An earlier note cited 2026-11-01 from a third-party board (xtalks), whic",
      "status": "open",
-     "url": "https://job-boards.greenhouse.io/profluent/jobs/4738934008"
+     "url": "https://job-boards.greenhouse.io/profluent/jobs/5441954008"
     },
     {
      "name": "Intern, Software Engineering",
      "type": "internship",
-     "requirements": "Not verified. The Greenhouse board lists the title only, and I did not open the posting.",
-     "eligibility": "Unknown",
-     "location": "Emeryville, CA",
-     "duration": null,
+     "requirements": "Current MS or PhD student, or recent graduate, in bioinformatics, computational biology, ML, computer science, statistics or a related field. Strong Python and familiarity with AI-assisted coding tools. Experience with one or more of web applications, data visualization, APIs, databases or scientific computing. Biology experience is not required.",
+     "eligibility": "The posting does not state a visa or sponsorship policy. The application asks about US work authorization, sponsorship needs, and OPT or CPT status.",
+     "location": "Emeryville, CA (hybrid, 2-3 days on-site per week)",
+     "duration": "Typically 12 weeks, flexible start dates",
      "deadline": null,
-     "deadline_text": "Not stated",
-     "status": "unknown",
-     "url": "https://job-boards.greenhouse.io/profluent/jobs/4738934008"
+     "deadline_text": "No deadline stated",
+     "status": "open",
+     "url": "https://job-boards.greenhouse.io/profluent/jobs/5441955008"
     }
    ],
-   "location": "Emeryville / Berkeley, California, USA (Boston business development presence)"
+   "location": "Emeryville, CA (HQ)"
   },
   {
    "name": "Latent Labs",
@@ -48811,63 +48778,68 @@
    "department_hint": null,
    "id": "st-latent",
    "url": "https://www.latentlabs.com",
-   "focus": "Latent Labs is a frontier AI lab building generative models of biology to make biology programmable. Its products include Latent-X, a web-based model for de novo protein design that targets nanobodies and antibodies. It also offers Latent-X2, aimed at high-affinity antibodies with drug-like properties, and Latent-Y. Its stated work covers creating new antibodies, optimizing existing enzymes, and advancing genetic engineering. Foundation-model work is in London. San Francisco has a wet lab and a computational protein design team that test designs experimentally.",
+   "focus": "Latent Labs is a frontier AI lab building generative foundation models of biology, with the stated mission of making biology programmable. Its products include Latent-X1, an atom-level model for de novo protein binder design, and Latent-X2, a model for drug-like antibodies with low immunogenicity. It also offers Latent-Y, described as a lab-validated agent for drug design, and a Latent-Y Research Tier for academic researchers. Partners use the models to design antibodies, optimize enzymes and support genetic engineering. Model development is in London, and a San Francisco wet lab tests the designed proteins.",
    "topics": [
     "generative protein design",
-    "antibody/nanobody design",
-    "biological foundation models",
-    "enzyme optimization",
-    "wet-lab validation"
+    "de novo binder design",
+    "antibody design",
+    "foundation models for biology",
+    "AI drug discovery",
+    "enzyme engineering"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The work is generative protein and antibody design, which has little overlap with cancer genomics, structural variants, or single-cell and spatial omics. The only overlap is general ML for biology."
+    "score": 1,
+    "reason": "Latent Labs works on generative protein and antibody design, which has almost no overlap with cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics. Only the general ML-for-biology angle is shared, and no student programs exist."
    },
    "flags": [
-    "No internship, PhD fellowship, residency, student researcher or visiting program is listed on the Latent Labs opportunities section as of 2026-10-22. All listed roles are full-time.",
-    "Current full-time roles: London: Member of Technical Staff (Applied AI and Foundation Models), Forward Deployed AI Engineer, Computational Protein Designer. San Francisco: Research Assistant (Biology), Member of Technical Staff (Applied AI and Machine Learning), Forward Deployed AI Engineer, Computa",
-    "A student would need a visa for the UK or US roles. No sponsorship information was verified.",
-    "The team page names only operations and strategy leaders besides the CEO. Co-founders and heads of the research team were not confirmed from official sources. Other London members appear in press coverage: Alex Bridgland, Agrin Hilmkil, Henry Kenlay and Krishan Bhatt.",
-    "Speculative outreach to the computational protein design team is the only route. The fit is weak for this student's interests."
+    "No internship, PhD fellowship, residency, student researcher or visiting program was found on the official site. The homepage lists only full-time roles (London: MTS Applied AI, Forward Deployed AI Engineer, Computational Protein Designer, MTS Foundation Models; San Francisco: Research Assistant (Bi",
+    "latentlabs.com/careers returned a 404. The nav 'Opportunities' link points to the homepage section #opportunities_section, and I did not see a separate jobs-board URL.",
+    "The Research Assistant (Biology) role in San Francisco is the closest entry-level role. I could not verify its requirements or eligibility, and it is full-time, not a student program.",
+    "A speculative approach would be to contact the team directly, but I found no evidence they take PhD interns. The student would likely need US or UK work authorization for any role.",
+    "The 'Labs Fellows' program in search results belongs to Bain Capital Ventures, not Latent Labs."
    ],
    "sources": [
     {
-     "title": "Latent Labs homepage and opportunities section",
-     "url": "https://www.latentlabs.com/#opportunities_section"
+     "title": "Latent Labs homepage",
+     "url": "https://www.latentlabs.com"
     },
     {
      "title": "Latent Labs team page",
      "url": "https://www.latentlabs.com/team"
     },
     {
-     "title": "TechCrunch: Latent Labs launches with $50M",
+     "title": "TechCrunch: Founded by DeepMind alumnus, Latent Labs launches with $50M",
      "url": "https://techcrunch.com/2025/02/12/founded-by-deepmind-alumnus-latent-labs-launches-with-50m-to-make-biology-programmable"
     },
     {
-     "title": "BiopharmaTrend: Latent Labs comes out of stealth",
+     "title": "BioPharmaTrend: Latent Labs comes out of stealth with $50M",
      "url": "https://www.biopharmatrend.com/post/1136-ai-for-protein-design-deepmind-alums-startup-comes-out-of-stealth-with-50m/"
+    },
+    {
+     "title": "Pharmaphorum: Ex-DeepMind scientist launches drug discovery company",
+     "url": "https://pharmaphorum.com/news/ex-deepmind-scientist-launches-drug-discovery-company"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:54:13+00:00",
+   "refreshed_at": "2026-10-29T13:17:55+00:00",
    "error": null,
    "leads": [
     {
      "name": "Simon Kohl",
      "role": "Founder & CEO",
-     "background": "Co-developed AlphaFold 2 and started and co-led DeepMind's protein design team.",
+     "background": "Co-developed AlphaFold 2 at DeepMind, then started and co-led DeepMind's protein design team.",
      "profile_url": "https://www.latentlabs.com/team"
     },
     {
      "name": "Annette Obika-Mbatha",
      "role": "Head of Operations",
-     "background": "Former Program Manager on Google DeepMind's AI for Science team (genomics, biochemistry, quantum chemistry projects).",
+     "background": "Former Program Manager on Google DeepMind's AI for Science team, working on genomics, biochemistry and quantum chemistry projects.",
      "profile_url": "https://www.latentlabs.com/team"
     },
     {
      "name": "Sandy Nelson",
      "role": "Strategy & Talent",
-     "background": "Founded DeepMind's Science Team; previously led personalisation teams at Amazon for ten years.",
+     "background": "Founded DeepMind's Science Team and spent ten years leading personalisation teams at Amazon.",
      "profile_url": "https://www.latentlabs.com/team"
     }
    ],
@@ -48982,59 +48954,65 @@
    "group": null,
    "department_hint": null,
    "id": "st-inceptive",
-   "url": "https://inceptive.com/",
-   "focus": "Inceptive builds AI foundation models for designing sequence-based biological medicines. These include mRNA, siRNA, antisense oligonucleotides and peptides. The models are trained on diverse data and combine deep learning with scalable biochemistry experiments run in an in-house wet lab in Palo Alto. Designs are validated in vitro and in vivo. The company also works with drugmakers to customize models and co-design medicines. Its focus is RNA and sequence design, not cancer genomics.",
+   "url": "https://www.inceptive.life",
+   "focus": "Inceptive describes itself as building 'biological software'. It uses deep learning to design mRNA and other RNA molecules for vaccines and therapeutics. It trains foundation and generative models for biomolecules on data from its own high-throughput wet-lab experiments, so the models and the lab loop feed each other. Its current job postings cover data selection and quality evaluation for biological foundation models, and computational design of experiments for model development. Designed molecules are tested in the lab and licensed to pharma partners.",
    "topics": [
-    "RNA medicine design",
-    "biological foundation models",
+    "mRNA design",
+    "RNA foundation models",
     "generative models for biomolecules",
-    "mRNA/siRNA/ASO",
     "high-throughput data generation",
-    "ML-driven experimental design"
+    "biological software",
+    "vaccines and therapeutics"
    ],
    "fit": {
     "score": 2,
-    "reason": "Inceptive is strong in computational methods and ML for biological sequence, which overlaps with the student's ML-for-genomics interest. It does RNA-therapeutic design, not cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics, and it lists no student roles."
+    "reason": "Their work on ML for RNA/mRNA design shares the student's interest in computational and ML methods, but it has little overlap with cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics, and it offers no student programs."
    },
    "flags": [
-    "No internship, PhD fellowship, residency, student researcher or visiting program was found on the official careers board (Greenhouse) as of 2026-10-22. The 'Open Apply' posting is a general application for full-time roles, not a student program.",
-    "Only the two co-founders are listed. The Team section of inceptive.com was not readable, so no head of computational biology was verified.",
-    "Rhiju Das has no verified profile URL. I did not open his Stanford page.",
-    "Third-party aggregators warned that some Inceptive postings may be long-standing. Confirm directly on the Greenhouse board.",
-    "I did not open the 'Open Apply' posting itself, so its requirements are unverified. Its URL came from a search result."
+    "Re-checked 2026-10-29: the Open Apply posting is still live. It is the only general route; the careers page lists 8 openings and none is an internship, PhD fellowship, residency or student role.",
+    "I found no official internship, fellowship, residency or visiting program page. Do not assume one exists.",
+    "The other openings are experienced-hire roles, e.g. Foundation and generative models for biomolecules (https://job-boards.greenhouse.io/inceptive/jobs/4961579007) and Data selection and quality evaluation for biological foundation models (https://job-boards.greenhouse.io/inceptive/jobs/5182394007). ",
+    "I did not confirm a current head of the computational biology team beyond the founders. Founder roles come from press coverage, not the official team page.",
+    "Rhiju Das is at Stanford. Contacting his lab directly may be a more realistic route for students than Inceptive itself."
    ],
    "sources": [
-    {
-     "title": "Inceptive homepage",
-     "url": "https://inceptive.com/"
-    },
     {
      "title": "Inceptive careers (Greenhouse)",
      "url": "https://job-boards.greenhouse.io/inceptive"
     },
     {
-     "title": "Inceptive Open Apply posting",
+     "title": "Inceptive Open apply posting",
      "url": "https://job-boards.greenhouse.io/inceptive/jobs/4085997007"
     },
     {
-     "title": "Obvious Ventures: creating biological software",
-     "url": "https://obvious.com/ideas/creating-biological-software-to-solve-the-biggest-questions-in-medicine/"
+     "title": "VentureBeat: ex-Googler wants to reinvent vaccines",
+     "url": "https://venturebeat.com/ai/this-ex-googler-helped-launch-the-gen-ai-boom-now-he-wants-to-reinvent-vaccines"
+    },
+    {
+     "title": "Maginative: Inceptive raises $100 Million",
+     "url": "https://www.maginative.com/article/inceptive-raises-100-million-to-design-new-vaccines-and-therapies-with-ai"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-10-22T11:53:24+00:00",
+   "refreshed_at": "2026-10-29T13:16:50+00:00",
    "error": null,
    "leads": [
     {
      "name": "Jakob Uszkoreit",
-     "role": "Co-founder and CEO",
-     "background": "Co-author of the 2017 'Attention Is All You Need' Transformer paper; founded Inceptive in 2021.",
-     "profile_url": "https://obvious.com/ideas/creating-biological-software-to-solve-the-biggest-questions-in-medicine/"
+     "role": "Co-founder & CEO",
+     "background": "Former Google researcher and co-author of the 2017 Transformer paper; founded Inceptive in 2021.",
+     "profile_url": "https://venturebeat.com/ai/this-ex-googler-helped-launch-the-gen-ai-boom-now-he-wants-to-reinvent-vaccines"
     },
     {
      "name": "Rhiju Das",
      "role": "Co-founder",
-     "background": "Stanford associate professor and computational biochemist (RNA structure and design).",
+     "background": "Stanford biochemist who works on RNA structure and design (Eterna/OpenKnot) and co-founded Inceptive.",
+     "profile_url": "https://www.maginative.com/article/inceptive-raises-100-million-to-design-new-vaccines-and-therapies-with-ai"
+    },
+    {
+     "name": "Kevin Heyries",
+     "role": "Chief Business Officer",
+     "background": "AbCellera co-founder who joined Inceptive. This is a business role, not a science lead.",
      "profile_url": null
     }
    ],
@@ -49042,17 +49020,17 @@
     {
      "name": "Open Apply (general application)",
      "type": "other",
-     "requirements": "Not stated in the content I retrieved. Inceptive is looking for ML, computational and biochemistry talent. I could not open the full posting.",
-     "eligibility": "The search summary says the open application is global and can be submitted from any location. Inceptive prefers candidates who can work in person at one office and be available across time zones. No student or visa details were verified, so US/UK/Swiss work authorization would likely be needed.",
-     "location": "Palo Alto, Berlin or Zurich",
+     "requirements": "No degree, experience or skill requirements are listed. The form asks for name, email, phone, country, city, CV and cover letter. Applicants must be available for 1-2 meetings a week starting at 8am PT or ending at 7pm CET, and must be able to travel several times a year for retreats and events. The company is looking for scientists, deep learning researchers, engineers and entrepreneurs.",
+     "eligibility": "The posting says it is global and you may apply from any location. The company prefers people who can regularly work in person at one of its offices. It does not say anything about students or visas, so US/UK/Swiss work authorization would likely be needed for an on-site role. This is a general (ful",
+     "location": "Palo Alto, Berlin or Zurich (applying from elsewhere is allowed)",
      "duration": null,
      "deadline": null,
-     "deadline_text": "Rolling",
+     "deadline_text": "Rolling (evergreen posting, still open on 2026-10-29)",
      "status": "rolling",
      "url": "https://job-boards.greenhouse.io/inceptive/jobs/4085997007"
     }
    ],
-   "location": "Palo Alto (CA, USA; wet lab at 3440 Hillview Ave), Berlin (Germany), Zurich (Switzerland)"
+   "location": "Palo Alto (US), Berlin (Germany), Zurich (Switzerland)"
   }
  ]
 }

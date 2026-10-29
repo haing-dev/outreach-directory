@@ -2,9 +2,303 @@
  "weeks": [
   {
    "week": "2026-10-29",
-   "generated_at": "2026-10-29T12:04:16+00:00",
-   "checked": 30,
+   "generated_at": "2026-10-29T13:18:34+00:00",
+   "checked": 8,
    "items": [
+    {
+     "type": "new_program",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "New program: No internship, PhD fellowship or student program offered; General Application is the only route",
+     "url": "https://www.isomorphiclabs.com/job-openings"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "No longer listed: No internship, PhD fellowship or student program currently offered; General Application / Register Your Interest as the only route"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "I re-checked the job openings page on 2026-10-29. It is unchanged from last week: no internships, graduate schemes or work placements."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "The leadership titles come from the 2022 management announcement. I could not open the official team page (the /about and /people/colin-murdoch URLs returned 404). Search snippets suggest Colin Murdoch is now President and Ben Wolf is Chief Medical Officer, but I did not confirm these on an official"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "Nobody listed is a head of a biology or genomics team. The company is primarily chemistry and ML, so contacts there would be indirect."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "I did not verify the third-party claim that roles are senior and PhD-preferred."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "New program: Internship (Outliers & Polymaths) / Opportunistic open application",
+     "url": "https://www.chaidiscovery.com/careers"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "No longer listed: Internship (listed on careers page as 'Internship, Outliers & Polymaths')"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "No fellowship, residency, or structured student program is listed. The careers page shows 21 roles, including the 'Internship' and 'Opportunistic' open-application entries."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "I did not open the Ashby application pages, so requirements and eligibility for the internship entry are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "Founder details come from a third-party research profile and news coverage, not from the Chai website. Sources disagree on the Chai-2 success rate (16% vs about 20%) and on the spelling of Boitreaud's name."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "The company has not listed a separate computational biology head. The co-founders lead the AI research."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "New program: AI Scientist Intern, Computational Protein Design",
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/91582784-ai-scientist-intern-computational-protein-design"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "New program: AI in Residence (BioMedical AI)",
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/72183162-ai-in-residence"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "New program: AI in Residence, Computational Protein Design",
+     "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/90739798-ai-in-residence-computational-protein-design"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "No longer listed: AI in Residence (including a Computational Protein Design track)"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "No longer listed: Lab Automation – Vision AI Engineer Intern"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "Last week's 'Lab Automation – Vision AI Engineer Intern' listing does not appear on the Xaira Greenhouse board's current list of 32 openings, so it was dropped as possibly closed. I did not re-verify it directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "A new program not in last week's list: AI Scientist Intern, Computational Protein Design. It is the most realistic fit for a PhD student, but it targets protein design ML, not cancer genomics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "The residency requirements were read from a job-board mirror (Menlo Ventures) and not from the Greenhouse page itself."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "I could not verify any visa or work-authorization policy for any role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "Leader titles come from launch-era press and secondary sources. The xaira.com homepage names no leaders, and I did not check its /our-team page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "The intern posting was NOT confirmed as currently open. The fetch showed 12 Biohub openings, and none was an intern role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "The EvolutionaryScale Greenhouse board (job-boards.greenhouse.io/EvolutionaryScale) returned 404 and the third-party listing pages could not be read, so the requirements and deadline come from snippets only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "EvolutionaryScale now operates inside Biohub. Some sources call it an acquisition by CZI, while the law-firm note says the team joined Biohub. The komo.ai directory lists Rives as CEO, which conflicts with other sources."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "Only Alex Rives could be verified as a lead. I did not find other named leads on official pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "No evidence of PhD fellowship, residency or visiting programs was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "The company's open-positions page needs cookies enabled, so I could not read live listings from it. Check https://generatebiomedicines.com/careers/ directly for any 2027 internship."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "Program details come from third-party aggregators (Built In, Simplify, Teal), not an official posting, and the pay figures vary between them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "I found no PhD fellowship, residency, student researcher or visiting program."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "US work authorization for a Canadian student is unconfirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "The leadership page has no individual profile links or backgrounds for the people I list, so the 'background' lines are thin."
+    },
+    {
+     "type": "date_changed",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Intern, Computational Research: 2026-11-01 → n/a",
+     "url": "https://job-boards.greenhouse.io/profluent/jobs/5441954008"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Correction to last week's list: the Greenhouse URL used for both internships (…/4738934008) is not either internship's current posting. The current postings are 5441954008 (Computational Research) and 5441955008 (Software Engineering)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "The Computational Research requirements changed from last week's version. The current posting says MS or PhD student or recent graduate (BS is no longer listed) and has no resume or cover letter statement."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Software Engineering internship details are now verified. It is a software-focused role and a weak fit for a genomics PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "The 2026-11-01 deadline for the Computational Research internship is from a third-party site only. It is not on the official page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "No PhD fellowship, residency, student researcher or visiting program was found on the careers board."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "No internship, PhD fellowship, residency, student researcher or visiting program was found on the official site. The homepage lists only full-time roles (London: MTS Applied AI, Forward Deployed AI Engineer, Computational Protein Designer, MTS Foundation Models; San Francisco: Research Assistant (Bi"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "latentlabs.com/careers returned a 404. The nav 'Opportunities' link points to the homepage section #opportunities_section, and I did not see a separate jobs-board URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "The Research Assistant (Biology) role in San Francisco is the closest entry-level role. I could not verify its requirements or eligibility, and it is full-time, not a student program."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "A speculative approach would be to contact the team directly, but I found no evidence they take PhD interns. The student would likely need US or UK work authorization for any role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "The 'Labs Fellows' program in search results belongs to Bain Capital Ventures, not Latent Labs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "Re-checked 2026-10-29: the Open Apply posting is still live. It is the only general route; the careers page lists 8 openings and none is an internship, PhD fellowship, residency or student role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "I found no official internship, fellowship, residency or visiting program page. Do not assume one exists."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "The other openings are experienced-hire roles, e.g. Foundation and generative models for biomolecules (https://job-boards.greenhouse.io/inceptive/jobs/4961579007) and Data selection and quality evaluation for biological foundation models (https://job-boards.greenhouse.io/inceptive/jobs/5182394007). "
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "I did not confirm a current head of the computational biology team beyond the founders. Founder roles come from press coverage, not the official team page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "Rhiju Das is at Stanford. Contacting his lab directly may be a more realistic route for students than Inceptive itself."
+    },
     {
      "type": "flag",
      "entry_id": "sanger-seb-pedr-s",
