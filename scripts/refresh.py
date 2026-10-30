@@ -52,6 +52,7 @@ DATA_DIR = ROOT / "public" / "data"
 DIRECTORY = DATA_DIR / "directory.json"
 CHANGES = DATA_DIR / "changes.json"
 USAGE = DATA_DIR / "usage.json"
+INST_PROGRAMS = DATA_DIR / "institution_programs.json"
 BATCH = ROOT / "config" / "batch.yaml"
 USAGE_LOG: list[dict] = []
 _usage_lock = threading.Lock()
@@ -423,6 +424,50 @@ def run_discovery(names: list[str]) -> list[dict]:
     return added
 
 
+INST_PROGRAMS_PROMPT = """List every CURRENT opportunity at {inst} that a PhD student from another university
+(the student is based in Canada) could apply to in bioinformatics, computational biology, genomics or ML for biology:
+visiting student / visiting researcher schemes, summer research programs, internships, fellowships open to external
+PhD students, upcoming postdoc fellowship schemes, funded summer schools, courses and workshops.
+Skip programs only for the institution's own undergraduates. Use official pages only.
+
+The student: {student}
+
+Return:
+```json
+{{"programs": [{{"name": "", "type": "visiting | internship | fellowship | summer school | workshop | course | other",
+  "requirements": "what applicants need", "eligibility": "who can apply, incl. international eligibility",
+  "location": "", "duration": "", "deadline": "YYYY-MM-DD or null", "deadline_text": "",
+  "status": "open|opens_soon|rolling|closed|unknown", "url": ""}}]}}
+```"""
+
+
+def run_institution_programs() -> None:
+    profile = load_yaml(PROFILE)
+
+    def one(inst):
+        try:
+            text, _ = call_claude(SYSTEM.format(today=TODAY.isoformat()),
+                                  INST_PROGRAMS_PROMPT.format(inst=inst["name"], student=json.dumps(profile, ensure_ascii=False)),
+                                  max_searches=12)
+            progs = clean_company(extract_json(text), [])["programs"]
+            print(f"  programs {inst['name']}: {len(progs)}")
+            return {**inst, "programs": progs, "refreshed_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+        except Exception as e:  # noqa: BLE001
+            print(f"  programs {inst['name']}: FAILED ({e})", file=sys.stderr)
+            return None
+
+    prev = json.loads(INST_PROGRAMS.read_text()) if INST_PROGRAMS.exists() else {"institutions": []}
+    prev_by = {i["name"]: i for i in prev.get("institutions", [])}
+    with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        results = list(pool.map(one, institutions()))
+    out = []
+    for inst, res in zip(institutions(), results):
+        out.append(res or prev_by.get(inst["name"]) or {**inst, "programs": []})
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    INST_PROGRAMS.write_text(json.dumps({"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                                         "institutions": out}, ensure_ascii=False, indent=1))
+
+
 # ----------------------------------------------------------------------------- cleaning
 
 def _url(u) -> bool:
@@ -500,8 +545,8 @@ def clean_company(raw: dict, cited: list[dict]) -> dict:
             status = "closed"
         programs.append({
             "name": _s(p.get("name"), 200), "type": _s(p.get("type"), 40) or "other",
-            "requirements": _s(p.get("requirements"), 500), "eligibility": _s(p.get("eligibility"), 300),
-            "location": _s(p.get("location"), 120), "duration": _s(p.get("duration"), 80),
+            "requirements": _s(p.get("requirements"), 1000), "eligibility": _s(p.get("eligibility"), 700),
+            "location": _s(p.get("location"), 200), "duration": _s(p.get("duration"), 160),
             "deadline": dl, "deadline_text": _s(p.get("deadline_text"), 120), "status": status,
             "url": p.get("url") if _url(p.get("url")) else None,
         })
@@ -612,9 +657,15 @@ def main():
     ap.add_argument("--request", help="YAML run request (CI)")
     ap.add_argument("--next", type=int, default=0, help="research the next N entries (never researched first, then stalest)")
     ap.add_argument("--batch", action="store_true", help="hourly batch mode: read config/batch.yaml")
+    ap.add_argument("--institution-programs", action="store_true", help="research programs at each university/institute, then exit")
     ap.add_argument("--skeleton", action="store_true", help="no API calls; rebuild from seeds + last data")
     args = ap.parse_args()
 
+    if args.institution_programs:
+        if not TOKEN:
+            sys.exit("Missing Claude token: add the CLAUDE_TOKEN secret in GitHub.")
+        run_institution_programs()
+        return
     only = set(args.only.split(",")) if args.only else set()
     category, discover_names, skip = args.category, list(args.discover), args.skip_refresh
     if args.request:

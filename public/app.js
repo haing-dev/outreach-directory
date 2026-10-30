@@ -9,6 +9,7 @@
     { id: "biotech", label: "Biotech & pharma", lab: false },
     { id: "startup", label: "Startups", lab: false },
   ];
+  const BULK = new Set(["new_entry", "discovered"]);
   const PSTATUS = { open: "Open", opens_soon: "Opens soon", rolling: "Rolling", closed: "Closed", unknown: "Check page" };
   const TODAY = new Date().toISOString().slice(0, 10);
   const LS = { get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
@@ -16,7 +17,7 @@
 
   const S = Object.assign({ view: "directory", group: "academic", q: "", decision: "all", inst: "", sortKey: "score", sortDir: -1, hideClosed: true },
     LS.get("od.ui2", {}));
-  let DATA = { entries: [] }, CHANGES = { weeks: [] }, NOTES = {}, REMOTE = true;
+  let DATA = { entries: [] }, CHANGES = { weeks: [] }, INST = { institutions: [] }, NOTES = {}, REMOTE = true;
   const saveUI = () => LS.set("od.ui2", { view: S.view, group: S.group, sortKey: S.sortKey, sortDir: S.sortDir, hideClosed: S.hideClosed });
 
   // ------------------------------------------------------------------ utils
@@ -59,15 +60,16 @@
 
   // ------------------------------------------------------------------ boot
   async function boot() {
-    const [d, c] = await Promise.all([
+    const [d, c, ip] = await Promise.all([
       fetch("data/directory.json", { cache: "no-store" }).then((r) => r.json()).catch(() => ({ entries: [] })),
       fetch("data/changes.json", { cache: "no-store" }).then((r) => r.json()).catch(() => ({ weeks: [] })),
+      fetch("data/institution_programs.json", { cache: "no-store" }).then((r) => r.json()).catch(() => ({ institutions: [] })),
     ]);
-    DATA = d; CHANGES = c;
+    DATA = d; CHANGES = c; INST = ip;
     await loadNotes();
     const last = DATA.entries.map((e) => e.refreshed_at).filter(Boolean).sort().pop();
     $("#refreshInfo").textContent = last ? `Updated ${fmtDate(last.slice(0, 10))}` : "Not refreshed yet";
-    const n = CHANGES.weeks?.[0]?.items?.length || 0;
+    const n = (CHANGES.weeks?.[0]?.items || []).filter((i) => !BULK.has(i.type)).length;
     if (n) { $("#newsCount").hidden = false; $("#newsCount").textContent = n; }
     $("#nav").onclick = (e) => { const a = e.target.closest("[data-view]"); if (a) { S.view = a.dataset.view; saveUI(); render(); } };
     $("#scrim").onclick = closeDrawer;
@@ -146,7 +148,14 @@
         <td style="min-width:160px">${(e.leads || []).slice(0, 3).map((l) => `<div>${esc(l.name)}<div class="sub">${esc(l.role || "")}</div></div>`).join("") || '<span class="pending">–</span>'}</td>
         <td>${focusCell(e)}</td><td style="min-width:220px">${programsCell(e)}</td><td style="width:220px">${noteCell(e.id)}</td></tr>`;
     }).join("");
+    const researched = DATA.entries.filter((e) => e.category === S.group && e.refreshed_at);
+    const strong = researched.filter((e) => (e.fit?.score || 0) >= 4).length;
+    const title = g.lab
+      ? `${strong} of ${counts[S.group]} ${g.label.toLowerCase()} score 4 or 5 for fit with your research`
+      : `${strong} of ${counts[S.group]} ${{ bigtech: "big tech teams", biotech: "biotech and pharma companies", startup: "startups" }[S.group]} score 4 or 5 for fit with your research`;
     return `
+      <div class="pagehead"><h1>${esc(title)}</h1><p>Mark each one fit or not fit, and keep notes beside it. Scores are 1–5, where 5 is the strongest overlap with cancer genomics and computational biology.</p></div>
+      <hr class="keyline">
       <div class="groups">${GROUPS.map((x) => `<button class="group ${x.id === S.group ? "on" : ""}" data-group="${x.id}">${x.label}<span class="n">${counts[x.id]}</span></button>`).join("")}</div>
       <div class="toolbar">
         <input class="search" id="q" placeholder="Search names, topics, people, notes…" value="${esc(S.q)}">
@@ -154,31 +163,35 @@
         <span class="count">${list.length} ${g.lab ? "labs" : "companies"}</span>
       </div>
       ${insts.length > 1 ? `<div class="chips"><button class="chipbtn ${!S.inst ? "on" : ""}" data-inst="">All</button>${insts.map((i) => `<button class="chipbtn ${S.inst === i ? "on" : ""}" data-inst="${esc(i)}">${esc(i)}</button>`).join("")}</div>` : ""}
-      <div class="card tablewrap">${list.length ? `<table><thead><tr>${head.join("")}</tr></thead><tbody>${body}</tbody></table>` : `<div class="empty">Nothing here yet.</div>`}</div>`;
+      <div class="tablewrap">${list.length ? `<table><thead><tr>${head.join("")}</tr></thead><tbody>${body}</tbody></table>` : `<div class="empty">Nothing here yet.</div>`}</div>`;
   }
 
   // ------------------------------------------------------------------ programs
   function viewPrograms() {
-    let ps = DATA.entries.flatMap((e) => (e.programs || []).map((p) => ({ ...p, e })));
+    let ps = DATA.entries.flatMap((e) => (e.programs || []).map((p) => ({ ...p, e })))
+      .concat((INST.institutions || []).flatMap((i) => (i.programs || []).map((p) => ({ ...p, e: { id: "", name: i.name, institution: i.name } }))));
     const total = ps.length;
     if (S.hideClosed) ps = ps.filter((p) => p.status !== "closed");
     const k = (p) => (p.deadline && p.deadline >= TODAY ? "0" + p.deadline : p.status === "opens_soon" ? "1" : p.status === "rolling" ? "2" : "3");
     ps.sort((a, b) => k(a).localeCompare(k(b)) || a.e.name.localeCompare(b.e.name));
-    return `<div class="toolbar"><div class="seg"><button class="${S.hideClosed ? "on" : ""}" data-closed="1">Open &amp; upcoming</button><button class="${!S.hideClosed ? "on" : ""}" data-closed="0">All (${total})</button></div><span class="count">${ps.length} programs · by deadline</span></div>
-      <div class="card tablewrap">${ps.length ? `<table><thead><tr><th>Deadline</th><th>Program</th><th>Company</th><th>Type</th><th>Requirements</th><th>Eligibility</th><th>Status</th></tr></thead><tbody>
-      ${ps.map((p) => `<tr data-open="${p.e.id}"><td class="name" style="white-space:nowrap">${p.deadline ? fmtDate(p.deadline) : `<span class="${p.status}">${esc(p.deadline_text || PSTATUS[p.status])}</span>`}</td>
+    const openNow = ps.filter((p) => p.status === "open").length;
+    return `<div class="pagehead"><h1>${openNow} program${openNow === 1 ? " is" : "s are"} open now, with ${ps.length - openNow} more rolling or opening soon</h1><p>Internships, fellowships, residencies and visiting schemes from every company and institution, sorted by deadline.</p></div><hr class="keyline">
+      <div class="toolbar"><div class="seg"><button class="${S.hideClosed ? "on" : ""}" data-closed="1">Open &amp; upcoming</button><button class="${!S.hideClosed ? "on" : ""}" data-closed="0">All (${total})</button></div><span class="count">${ps.length} programs · by deadline</span></div>
+      <div class="tablewrap">${ps.length ? `<table><thead><tr><th>Deadline</th><th>Program</th><th>Organization</th><th>Type</th><th>Requirements</th><th>Eligibility</th><th>Status</th></tr></thead><tbody>
+      ${ps.map((p) => `<tr ${p.e.id ? `data-open="${p.e.id}"` : 'style="cursor:default"'}><td class="name" style="white-space:nowrap">${p.deadline ? fmtDate(p.deadline) : `<span class="${p.status}">${esc(p.deadline_text || PSTATUS[p.status])}</span>`}</td>
         <td>${link(p.url, p.name, "name")}</td><td>${esc(p.e.name)}</td><td>${esc(p.type)}</td>
         <td style="max-width:360px">${esc(p.requirements || "")}</td><td style="max-width:260px" class="sub">${esc(p.eligibility || "")}</td><td class="st ${p.status}">${PSTATUS[p.status]}</td></tr>`).join("")}
-      </tbody></table>` : `<div class="empty">No programs yet. They appear once companies are researched.</div>`}</div>`;
+      </tbody></table>` : `<div class="empty">No programs yet.</div>`}</div>`;
   }
 
   // ------------------------------------------------------------------ news
   function viewNews() {
     const weeks = CHANGES.weeks || [];
-    if (!weeks.length) return `<div class="card empty">The change log starts after the first refresh.</div>`;
-    return weeks.map((w) => `<div class="card week"><h2>Week of ${fmtDate(w.week)}<span class="sub">${w.items.length} changes</span></h2>
-      ${w.items.length ? w.items.map((it) => `<div class="item"><span class="kind ${it.type === "needs_review" ? "warn" : ""}">${esc(it.type.replace(/_/g, " "))}</span>
-        <div><a data-open="${esc(it.entry_id)}" class="name" style="cursor:pointer">${esc(it.entry_name)}</a><div class="sub">${esc(it.text)} ${okUrl(it.url) ? link(it.url, "source") : ""}</div></div></div>`).join("") : `<div class="empty">No changes.</div>`}</div>`).join("");
+    const head = `<div class="pagehead"><h1>What changed in the directory each week</h1><p>New labs, programs, deadline changes and people joining or leaving, newest first.</p></div><hr class="keyline">`;
+    if (!weeks.length) return head + `<div class="empty">The change log starts after the first refresh.</div>`;
+    return head + weeks.map((w) => { const bulk = w.items.filter((i) => BULK.has(i.type)).length; const items = w.items.filter((i) => !BULK.has(i.type)); return `<div class="week"><h2>Week of ${fmtDate(w.week)}</h2><div class="sub" style="margin-bottom:8px">${items.length} changes${bulk ? ` · ${bulk} labs and companies added or first researched` : ""}</div>
+      ${items.length ? items.map((it) => `<div class="item"><span class="kind ${it.type === "needs_review" ? "warn" : ""}">${esc(it.type.replace(/_/g, " "))}</span>
+        <div><a data-open="${esc(it.entry_id)}" class="name" style="cursor:pointer">${esc(it.entry_name)}</a><div class="sub">${esc(it.text)} ${okUrl(it.url) ? link(it.url, "source") : ""}</div></div></div>`).join("") : `<div class="empty">No other changes.</div>`}</div>`; }).join("");
   }
 
   // ------------------------------------------------------------------ drawer
@@ -189,8 +202,8 @@
     const lab = group(e.category).lab;
     const pi = e.pi_profile || {};
     const d = $("#drawer");
-    const people = lab ? `<section><h3>Postdocs &amp; PhD students (${(e.members || []).length})</h3>
-      ${(e.members || []).length ? `<div class="card"><table class="mini"><thead><tr><th>Name</th><th>Role</th><th>Works on</th><th>Contact</th></tr></thead><tbody>
+    const people = lab ? `<section><h3>Postdocs and PhD students (${(e.members || []).length})</h3>
+      ${(e.members || []).length ? `<div class="tablewrap"><table class="mini"><thead><tr><th>Name</th><th>Role</th><th>Works on</th><th>Contact</th></tr></thead><tbody>
       ${e.members.map((m) => `<tr><td>${link(m.profile_url, m.name, "name")}</td><td class="sub" style="white-space:nowrap">${esc(m.role)}${m.year ? " · " + esc(m.year) : ""}</td><td>${esc(m.focus || "")}</td>
         <td>${m.email ? `<a href="mailto:${esc(m.email)}">${esc(m.email)}</a>` : okUrl(m.profile_url) ? link(m.profile_url, "Profile") : '<span class="pending">–</span>'}</td></tr>`).join("")}
       </tbody></table></div>${okUrl(e.members_page) ? `<div class="links">${link(e.members_page, "Lab members page ↗")}</div>` : ""}` : `<div class="pending">${e.refreshed_at ? "No current postdocs or PhD students listed." : "Not researched yet."}</div>`}</section>` : "";
@@ -199,17 +212,17 @@
         <dl><dt>Type</dt><dd>${esc(p.type)}</dd>${p.requirements ? `<dt>Requirements</dt><dd>${esc(p.requirements)}</dd>` : ""}${p.eligibility ? `<dt>Eligibility</dt><dd>${esc(p.eligibility)}</dd>` : ""}
         ${p.location ? `<dt>Location</dt><dd>${esc(p.location)}</dd>` : ""}${p.duration ? `<dt>Duration</dt><dd>${esc(p.duration)}</dd>` : ""}
         <dt>Deadline</dt><dd>${p.deadline ? fmtDate(p.deadline) : esc(p.deadline_text || "Not posted")}</dd></dl></div>`).join("") || `<div class="pending">${e.refreshed_at ? "No programs found." : "Not researched yet."}</div>`}</section>` : "";
-    const leads = !lab && (e.leads || []).length ? `<section><h3>Leads &amp; founders</h3>${e.leads.map((l) => `<div style="margin-bottom:10px">${link(l.profile_url, l.name, "name")}<div class="sub">${esc([l.role, l.background].filter(Boolean).join(" · "))}</div></div>`).join("")}</section>` : "";
+    const leads = !lab && (e.leads || []).length ? `<section><h3>Leads and founders</h3>${e.leads.map((l) => `<div style="margin-bottom:10px">${link(l.profile_url, l.name, "name")}<div class="sub">${esc([l.role, l.background].filter(Boolean).join(" · "))}</div></div>`).join("")}</section>` : "";
     d.innerHTML = `<button class="close" data-close>Close</button>
       <div class="eyebrow">${esc(group(e.category).label)}${e.group ? " · " + esc(e.group) : ""}</div>
       <h1>${link(e.url, e.name)}</h1>
       <div class="sub">${lab ? `${link(pi.profile_url, pi.name || e.pi || "")}${pi.title ? " · " + esc(pi.title) : ""}<br>` : ""}${esc([e.current_institution || e.institution, e.department, e.location].filter(Boolean).join(" · "))}</div>
       <div class="links">${okUrl(e.url) ? link(e.url, "Website ↗") : ""}${okUrl(pi.scholar_url) ? link(pi.scholar_url, "Google Scholar ↗") : ""}</div>
-      ${(e.flags || []).map((f) => `<div class="flag">${esc(f)}</div>`).join("")}
       <section><div class="row">${fitToggle(e.id)}${scoreCell(e)}</div>${e.fit?.reason ? `<div class="reason">${esc(e.fit.reason)}</div>` : ""}</section>
       <section><h3>Focus</h3><div class="lead">${esc(e.focus || "Not researched yet.")}</div><div class="tags">${(e.topics || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div></section>
       ${leads}${people}${programs}
       <section><h3>My notes</h3><textarea class="note" data-note="${e.id}" placeholder="Add a note…">${esc(note(e.id).body)}</textarea></section>
+      ${(e.flags || []).length ? `<section><h3>Research notes</h3>${e.flags.map((f) => `<p class="sub" style="margin:0 0 6px;max-width:72ch">${esc(f)}</p>`).join("")}</section>` : ""}
       ${(e.sources || []).length ? `<section><h3>Sources</h3><div class="links" style="flex-direction:column;gap:4px">${e.sources.map((s) => link(s.url, s.title || s.url)).join("")}</div></section>` : ""}
       <div class="sub" style="margin-top:24px">${e.refreshed_at ? "Researched " + fmtDate(e.refreshed_at.slice(0, 10)) : ""}</div>`;
     d.hidden = false; $("#scrim").hidden = false; d.scrollTop = 0;

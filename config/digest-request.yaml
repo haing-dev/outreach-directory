@@ -1,0 +1,3 @@
+# Pushing a change to this file sends the programs email now (Claude does this from chat).
+request: 1
+scrape_institutions: true

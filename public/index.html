@@ -5,24 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Outreach Directory</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="top">
-  <div class="top-inner">
-    <div class="brand"><span class="logo"></span>Outreach</div>
-    <nav class="nav" id="nav">
-      <a data-view="directory">Directory</a>
-      <a data-view="programs">Programs</a>
-      <a data-view="news">What's new <span class="badge" id="newsCount" hidden></span></a>
-    </nav>
-    <div class="meta" id="refreshInfo"></div>
+  <div class="wrap">
+    <div class="top-inner">
+      <div class="brand">Outreach Directory</div>
+      <nav class="nav" id="nav">
+        <a data-view="directory">Directory</a>
+        <a data-view="programs">Programs</a>
+        <a data-view="news">What's new <span class="badge" id="newsCount" hidden></span></a>
+      </nav>
+      <div class="meta" id="refreshInfo"></div>
+    </div>
+    <div id="banner" class="banner" hidden></div>
   </div>
 </header>
-<div id="banner" class="banner" hidden></div>
-<main id="app"></main>
+<main id="app" class="wrap"></main>
 <aside id="drawer" class="drawer" hidden></aside>
 <div id="scrim" class="scrim" hidden></div>
 <div id="toast" class="toast" hidden></div>

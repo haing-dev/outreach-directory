@@ -1,0 +1,5 @@
+# Weekly programs email (Mondays, after the programs scrape)
+recipients:
+  - lisaa.tran2501@gmail.com
+  - haing.penn@gmail.com
+site_url: https://outreach-directory.pages.dev

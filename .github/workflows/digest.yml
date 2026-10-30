@@ -1,0 +1,61 @@
+name: Weekly programs email
+
+on:
+  schedule:
+    - cron: "30 14 * * 1"   # Mondays 14:30 UTC (7:30 Pacific)
+  push:
+    branches: [main]
+    paths: ["config/digest-request.yaml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh          # shares the lock with the refresh job so commits don't collide
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install -g @anthropic-ai/claude-code
+
+      - name: Scrape programs at universities and institutes
+        env:
+          CLAUDE_TOKEN: ${{ secrets.CLAUDE_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          CLAUDE_EFFORT: ${{ vars.CLAUDE_EFFORT }}
+        run: python scripts/refresh.py --institution-programs
+
+      - name: Send email with programs not sent before
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/digest.py --send
+
+      - name: Save what was sent
+        if: always()
+        run: |
+          git config user.name "outreach-bot"
+          git config user.email "outreach-bot@users.noreply.github.com"
+          git add public/data config/digest_sent.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Programs email $(date -u +%F)"
+          git pull --rebase origin main
+          git push
+
+  deploy:
+    needs: digest
+    if: always()
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
