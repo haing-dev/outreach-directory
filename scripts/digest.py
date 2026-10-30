@@ -5,7 +5,8 @@ Weekly email: new internships / placements / fellowships found by the scraper.
 Collects programs from companies (public/data/directory.json) and from universities /
 institutes (public/data/institution_programs.json), drops closed ones and anything already
 emailed (config/digest_sent.json), emails the rest, then records what was sent.
-A program that was sent as "opens soon"/"rolling"/"dates not posted" is sent once more when it opens.
+Only programs accepting applications (open or rolling) are sent; anything not open yet is held
+until a later scan finds it open.
 
 Usage:
   python scripts/digest.py --preview        # write public/data/last-digest.html, don't send
@@ -61,65 +62,62 @@ def collect() -> list[dict]:
     return keep
 
 
+OPEN = {"open", "rolling"}
+
+
 def select_new(programs: list[dict], sent: dict) -> list[dict]:
-    new = []
-    for p in programs:
-        prev = sent.get(p["key"])
-        if prev is None:
-            p["why"] = "new"
-            new.append(p)
-        elif prev.get("status") != "open" and p.get("status") == "open":
-            p["why"] = "now open"
-            new.append(p)
-    return new
+    """Only programs accepting applications now, never sent before as open."""
+    return [p for p in programs if p.get("status") in OPEN and (sent.get(p["key"]) or {}).get("status") not in OPEN]
 
 
-def when(p) -> str:
-    if p.get("deadline"):
-        return "Deadline " + dt.date.fromisoformat(p["deadline"]).strftime("%-d %b %Y")
-    return p.get("deadline_text") or {"rolling": "Rolling", "opens_soon": "Opens soon"}.get(p.get("status"), "Dates not posted")
+def short_eligibility(programs: list[dict]) -> None:
+    """One short line per program (<= 10 words) via Claude; falls back to the first clause."""
+    def fallback(p):
+        e = (p.get("eligibility") or p.get("requirements") or "").split(".")[0]
+        words = e.split()
+        return " ".join(words[:12]) + ("…" if len(words) > 12 else "")
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import refresh  # noqa: E402
+        if not refresh.TOKEN:
+            raise RuntimeError("no token")
+        items = [{"i": i, "program": p["name"], "org": p["org"], "eligibility": p.get("eligibility"),
+                  "requirements": p.get("requirements")} for i, p in enumerate(programs)]
+        prompt = ("For each program below, write who can apply in at most 10 words: plain, concrete, no repetition of "
+                  "the program or organization name, no filler (e.g. 'PhD students, any country, ML/comp-bio background'). "
+                  "Use only the given text. Return ```json {\"items\": [{\"i\": 0, \"who\": \"...\"}]}```\n\n"
+                  + json.dumps(items, ensure_ascii=False))
+        text, _ = refresh.call_claude("You condense text precisely. Do not use tools.", prompt, max_searches=0)
+        got = {int(x["i"]): str(x["who"]).strip() for x in refresh.extract_json(text).get("items", [])}
+        for i, p in enumerate(programs):
+            p["who"] = got.get(i) or fallback(p)
+    except Exception as e:  # noqa: BLE001
+        print(f"Short eligibility via Claude failed ({e}); using first clause", file=sys.stderr)
+        for p in programs:
+            p["who"] = fallback(p)
 
 
 def render(new: list[dict], site_url: str) -> tuple[str, str, str]:
-    open_now = sorted([p for p in new if p.get("status") == "open"], key=lambda p: p.get("deadline") or "9999")
-    soon = [p for p in new if p.get("status") in ("opens_soon", "rolling")]
-    other = [p for p in new if p not in open_now and p not in soon]
-    n_open = len(open_now)
-    subject = f"{len(new)} new program{'s' if len(new) != 1 else ''} this week" + (f", {n_open} open now" if n_open else "")
-    title = (f"{n_open} program{'s are' if n_open != 1 else ' is'} open now, and {len(new) - n_open} more are coming up"
-             if n_open else f"{len(new)} new program{'s' if len(new) != 1 else ''} to watch")
-
-    def section(name, items):
-        if not items:
-            return ""
-        rows = []
-        for p in items:
-            name_html = (f'<a href="{html.escape(p["url"])}" style="color:#1F40E6;text-decoration:none;font-weight:bold">{html.escape(p["name"])}</a>'
-                         if p.get("url") else f'<b>{html.escape(p["name"])}</b>')
-            tag = ' <span style="color:#1F40E6">(now open)</span>' if p.get("why") == "now open" else ""
-            details = " · ".join(x for x in [p.get("type"), p.get("location"), p.get("duration")] if x)
-            req = f'<div style="margin-top:4px"><b>Requirements:</b> {html.escape(p["requirements"])}</div>' if p.get("requirements") else ""
-            elig = f'<div style="margin-top:2px"><b>Eligibility:</b> {html.escape(p["eligibility"])}</div>' if p.get("eligibility") else ""
-            rows.append(f'''<tr><td style="padding:14px 0;border-bottom:1px solid #D0D0D0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;color:#000">
-              {name_html}{tag}<div style="color:#4D4D4D">{html.escape(p["org"])} · {html.escape(p["kind"])}{' · ' + html.escape(details) if details else ''}</div>
-              <div style="margin-top:4px"><b>{html.escape(when(p))}</b></div>{req}{elig}</td></tr>''')
-        return (f'<h2 style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;margin:28px 0 0;padding-bottom:8px;'
-                f'border-bottom:1px solid #7F7F7F;color:#000">{name}</h2><table width="100%" cellpadding="0" cellspacing="0" '
-                f'style="border-collapse:collapse">{"".join(rows)}</table>')
-
+    new = sorted(new, key=lambda p: (p.get("deadline") or "9999", p["org"]))
+    n = len(new)
+    subject = f"{n} program{'s' if n != 1 else ''} open now"
+    td = "padding:9px 12px 9px 0;border-bottom:1px solid #D0D0D0;vertical-align:top;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#000"
+    th = "padding:0 12px 8px 0;border-bottom:1px solid #7F7F7F;text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold"
+    rows = "".join(
+        f'<tr><td style="{td}"><b>{html.escape(p["name"])}</b><br><span style="color:#4D4D4D">{html.escape(p["org"])}'
+        f'{" · due " + dt.date.fromisoformat(p["deadline"]).strftime("%-d %b") if p.get("deadline") else ""}</span></td>'
+        f'<td style="{td}">{html.escape(p.get("who") or "")}</td>'
+        f'<td style="{td};white-space:nowrap">{f"""<a href="{html.escape(p["url"])}" style="color:#1F40E6;text-decoration:none">Apply</a>""" if p.get("url") else "–"}</td></tr>'
+        for p in new)
     body = f'''<!doctype html><html><head><meta charset="utf-8"></head><body style="margin:0;background:#fff">
 <table width="100%" cellpadding="0" cellspacing="0"><tr><td align="center">
-<table width="640" cellpadding="0" cellspacing="0" style="max-width:640px;width:100%;padding:28px 20px">
-<tr><td style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4D4D4D">Outreach Directory · weekly programs · {TODAY.strftime("%-d %b %Y")}</td></tr>
-<tr><td style="font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;line-height:1.25;color:#000;padding:10px 0 8px">{html.escape(title)}</td></tr>
-<tr><td style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#4D4D4D;padding-bottom:14px;border-bottom:1px solid #000">
-Only programs you haven't been sent before. Check each official page before applying, since dates can change.</td></tr>
-<tr><td>{section("Open now", open_now)}{section("Rolling or opening soon", soon)}{section("Dates not posted yet", other)}</td></tr>
-<tr><td style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4D4D4D;padding-top:24px">
-{f'All programs: <a href="{html.escape(site_url)}/#programs" style="color:#1F40E6;text-decoration:none">{html.escape(site_url)}</a>' if site_url else ''}</td></tr>
+<table width="680" cellpadding="0" cellspacing="0" style="max-width:680px;width:100%;padding:24px 16px">
+<tr><td style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#000;padding-bottom:14px">{html.escape(subject)}</td></tr>
+<tr><td><table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+<tr><th style="{th}">Program</th><th style="{th}">Eligibility</th><th style="{th}">Link</th></tr>{rows}</table></td></tr>
+<tr><td style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4D4D4D;padding-top:16px">{f'<a href="{html.escape(site_url)}" style="color:#1F40E6;text-decoration:none">All programs</a>' if site_url else ""}</td></tr>
 </table></td></tr></table></body></html>'''
-    text = title + "\n\n" + "\n\n".join(
-        f"{p['name']} ({p['org']}) - {when(p)}\n{p.get('url') or ''}\nRequirements: {p.get('requirements') or '-'}" for p in open_now + soon + other)
+    text = subject + "\n\n" + "\n".join(f"- {p['name']} ({p['org']}): {p.get('who') or ''} {p.get('url') or ''}" for p in new)
     return subject, body, text
 
 
@@ -152,6 +150,7 @@ def main():
     if not new:
         print("Nothing new this week; no email sent.")
         return
+    short_eligibility(new)
     subject, body, text = render(new, cfg.get("site_url", ""))
     PREVIEW.write_text(body)
     if args.send:

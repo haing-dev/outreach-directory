@@ -43,6 +43,7 @@ jobs:
 
       - name: Send email with programs not sent before
         env:
+          CLAUDE_TOKEN: ${{ secrets.CLAUDE_TOKEN }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python scripts/digest.py --send
