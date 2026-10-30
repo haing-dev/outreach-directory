@@ -35,7 +35,11 @@ jobs:
           CLAUDE_TOKEN: ${{ secrets.CLAUDE_TOKEN }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
           CLAUDE_EFFORT: ${{ vars.CLAUDE_EFFORT }}
-        run: python scripts/refresh.py --institution-programs
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && grep -q "scrape_institutions: false" config/digest-request.yaml; then
+            echo "Skipping institution scrape for this send"; exit 0
+          fi
+          python scripts/refresh.py --institution-programs
 
       - name: Send email with programs not sent before
         env:
