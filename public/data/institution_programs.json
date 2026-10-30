@@ -1,0 +1,1013 @@
+{
+ "generated_at": "2026-10-30T06:24:45+00:00",
+ "institutions": [
+  {
+   "name": "Stanford University",
+   "region": "US",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Visiting Student Researcher (VSR) / Graduate Visiting Researcher via a Stanford faculty host (Genetics, Biomedical Data Science, Biomedical Informatics labs)",
+     "type": "visiting",
+     "requirements": "A Stanford faculty host who agrees to sponsor and initiate the appointment. Registration fee and visa paperwork (for example J-1 DS-2019) are needed. Fees vary by school.",
+     "eligibility": "Graduate students enrolled at other universities doing research at Stanford for more than 30 days. International students need a visa. Some labs say they welcome applications from external graduate students with deep learning, computational biology or bioinformatics experience. Other labs only take students through Stanford's PhD programs.",
+     "location": "Stanford, CA, USA",
+     "duration": "Set with the host, typically months",
+     "deadline": null,
+     "deadline_text": "No fixed deadline. Contact a faculty host, then the department graduate office.",
+     "status": "unknown",
+     "url": "https://ed.stanford.edu/scholars/vsr"
+    },
+    {
+     "name": "Stanford Data Science Postdoctoral Fellows (HAI / Stanford Data Science)",
+     "type": "fellowship",
+     "requirements": "Not confirmed. I could not read the program page.",
+     "eligibility": "Postdoctoral scheme. It would only apply to the student after the PhD. International eligibility was not confirmed.",
+     "location": "Stanford, CA, USA",
+     "duration": "Not confirmed",
+     "deadline": "2026-02-16",
+     "deadline_text": "The Autumn 2026 cohort call closed 16 Feb 2026. The next cycle's dates are unannounced.",
+     "status": "closed",
+     "url": "https://datascience.stanford.edu/news/applications-open-autumn-2026-data-science-postdoctoral-fellows"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:20:42+00:00"
+  },
+  {
+   "name": "Harvard University",
+   "region": "US",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "HMS Visiting Graduate Student appointment (department-sponsored)",
+     "type": "visiting",
+     "requirements": "A Harvard Medical School department head (or designee) must request and sponsor the appointment. The department submits a QuickHire form, your CV, a nominating letter and a Visitor Participation Agreement. The Office for Faculty Affairs approves it. The work must support your degree research, not clerical or technical tasks. You need a host lab, which you would arrange by contacting an HMS or DBMI faculty member yourself.",
+     "eligibility": "Graduate students registered in a degree program at another institution during the academic year. The page does not mention nationality, but you would probably need a US visa, and the host department would handle that.",
+     "location": "Harvard Medical School, Boston, MA, USA",
+     "duration": "A limited period such as a summer or one semester. The page gives no maximum for graduate students; general visiting appointments are limited to two years.",
+     "deadline": null,
+     "deadline_text": "No fixed deadline. It is arranged with a host lab and department.",
+     "status": "rolling",
+     "url": "https://facultyhandbook.hms.harvard.edu/?p=3435"
+    },
+    {
+     "name": "Harvard Chan Bioinformatics Core (HBC) workshops: NGS analysis (scRNA-seq, pseudobulk, spatial transcriptomics, differential expression, reproducible research)",
+     "type": "workshop",
+     "requirements": "Registration opens about 3 weeks before each workshop. Most need a working knowledge of R (Introduction to R), though this can be waived with enough prior knowledge. They run on Zoom and are fee-based. Upcoming sessions: Tools for Reproducible Research (Oct 27, 30 and Nov 3, 2026), Introduction to scRNA-seq (Feb 16–26, 2027), Pseudobulk (Mar 16–26, 2027), Spatial Transcriptomics (Jan 26–Feb 5 and Jul 13–23, 2027), Differential Gene Expression (May 25–Jun 4, 2027).",
+     "eligibility": "The pricing page has an 'external academic' tier for people whose PI is at another academic institution or hospital. This should cover UBC. The training schedule page does not state outright that outsiders can register, so confirm with bioinformatics@hsph.harvard.edu. External academic prices are $338 for Tools for Reproducible Research and $405 for each of the scRNA-seq, pseudobulk, spatial and differential expression workshops.",
+     "location": "Online (Zoom), run by Harvard T.H. Chan School of Public Health",
+     "duration": "About 4 sessions of 2–2.5 hours each, over 1–2 weeks",
+     "deadline": null,
+     "deadline_text": "Registration closes before each workshop. The 2027 spatial transcriptomics dates are still TBD.",
+     "status": "open",
+     "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+    },
+    {
+     "name": "HBC boot camp: Cells to Insights (Intro to R and scRNA-seq)",
+     "type": "course",
+     "requirements": "A week-long hands-on boot camp covering R and single-cell RNA-seq analysis. Dates are Dec 7–11, 2026 (registration open) and Jun 7–11, 2027 (registration TBD). The pricing page also lists other boot camps (R ggplot2/Shiny and spatial transcriptomics in Seurat) that are not on the current schedule.",
+     "eligibility": "The pricing page applies external academic pricing to people employed by an academic or research institution without a Harvard email domain. External academic price is $1,125 early bird or $1,250 regular. Confirm external access with the HBC.",
+     "location": "Online (Zoom)",
+     "duration": "5 days",
+     "deadline": null,
+     "deadline_text": "The early-bird deadline is not stated on the pages I read.",
+     "status": "open",
+     "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+    },
+    {
+     "name": "HBC Current Topics in Bioinformatics (free monthly modules, including Multiomics series)",
+     "type": "workshop",
+     "requirements": "Free monthly Zoom modules from 9:30am to 12:30pm. The Multiomics series starts Nov 11, 2026 (Part I, needs Foundations in R), then Dec 16, 2026 and Jan 20, 2027. Other dates: Feb 17 and Mar 17, 2027 (topics TBD), Foundations in R (Apr 14, 2027), Foundations in Quarto (May 26, 2027) and RShiny visualization (Jun 16, 2027).",
+     "eligibility": "The schedule page says it is open to the 'greater Harvard community'. It is unclear whether outside students can join, so check with the HBC.",
+     "location": "Online (Zoom)",
+     "duration": "One half-day per month",
+     "deadline": null,
+     "deadline_text": "Registration for the Multiomics modules is TBD.",
+     "status": "unknown",
+     "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+    },
+    {
+     "name": "Susanne E. Churchill Summer Institute in Biomedical Informatics (SIBMI), HMS DBMI",
+     "type": "internship",
+     "requirements": "A 9-week summer research internship in June–August. A 2026 listing gave an application window of Nov 1–Jan 31 and BMIsummer@hms.harvard.edu as the contact. The official page says 2027 application details are 'coming soon' and admissions are rolling.",
+     "eligibility": "The official page describes it as for undergraduates, so a PhD student probably does not qualify. A DBMI FAQ snippet suggested US citizen or permanent resident status is required, but I did not confirm that on the page I read. Listed only for completeness; confirm with the contact before spending time on it.",
+     "location": "Harvard Medical School, Boston, MA, USA",
+     "duration": "9 weeks (June–August)",
+     "deadline": null,
+     "deadline_text": "2027 dates not posted",
+     "status": "unknown",
+     "url": "https://dbmi.hms.harvard.edu/education/sibmi"
+    },
+    {
+     "name": "Kempner Institute Research Fellowship (postdoc, AI/ML incl. scientific applications)",
+     "type": "fellowship",
+     "requirements": "Postdoctoral fellowship for the 2027 cohort, starting Sept 2027. Applications are made through Harvard Academic Positions. The deadline reported by an aggregator was Oct 1, 2026, and one listing said late applications may be reviewed on a rolling basis. I could not confirm this on an official page.",
+     "eligibility": "A PhD received between Sept 1, 2024 and Sept 1, 2027. This is a future option for you after your PhD, not something for a first-year student now. I could not check international eligibility.",
+     "location": "Harvard University, Cambridge/Boston, MA, USA",
+     "duration": "Multi-year postdoc",
+     "deadline": "2026-10-01",
+     "deadline_text": "Reported as Oct 1, 2026 (aggregator source); confirm at kempnerapplications@harvard.edu",
+     "status": "closed",
+     "url": "https://www.cienciapr.org/es/postdoctoral-fellowship-aiml-harvards-kempner-institute"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:20:49+00:00"
+  },
+  {
+   "name": "MIT",
+   "region": "US",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Eric and Wendy Schmidt Center Postdoctoral Fellowship (Broad Institute of MIT and Harvard)",
+     "type": "fellowship",
+     "requirements": "Experience in machine learning, statistics or applied mathematics is critical. Biology or medicine exposure is helpful but not required. Applicants apply through the AJO portal (broad.io/ewsc-postdoc). Fellows choose a computational mentor and a biomedical mentor from Broad-, MIT- or Harvard-affiliated faculty.",
+     "eligibility": "Postdoc scheme, so it is relevant to the student only after they finish the PhD. The page does not list international eligibility rules, and a US visa would likely be needed. The Schmidt Center is hosted at the Broad Institute, not MIT itself.",
+     "location": "Cambridge, MA, USA (Broad Institute)",
+     "duration": "1 year, renewable for a 2nd and 3rd year",
+     "deadline": null,
+     "deadline_text": "Applications for the 2027 cohort are open. Rolling review begins after 2026-12-22, with appointments starting on or afte",
+     "status": "open",
+     "url": "https://ericandwendyschmidtcenter.org/become-a-fellow"
+    },
+    {
+     "name": "MIT visiting graduate student (research visit hosted by an individual lab or PI)",
+     "type": "visiting",
+     "requirements": "No central application exists. A host PI must invite you, and the PI then submits a Visiting Student request for approval. Visa paperwork goes through the MIT International Students Office. Visiting students cannot take classes. Labs typically require the visitor to have full external funding and to cover MIT visiting student fees and travel. One source gave a fee of $625 per month for AY 2023-24, which I did not confirm for the current year. You would contact PIs in computational biology and genomics directly.",
+     "eligibility": "Graduate students currently enrolled in a degree program at another institution, doing research that counts toward their home degree. International students are eligible but need a visa.",
+     "location": "Cambridge, MA, USA",
+     "duration": "Varies by lab. Examples seen were 6 months or longer, and 3 weeks to 12 months in the Math department.",
+     "deadline": null,
+     "deadline_text": "No fixed deadline. Arranged with the host lab.",
+     "status": "rolling",
+     "url": "https://oge.mit.edu/graduate-admissions/programs/exchange-special-visiting-students"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:20:30+00:00"
+  },
+  {
+   "name": "Princeton University",
+   "region": "US",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Visiting Student Research Collaborator (VSRC), Princeton Graduate School",
+     "type": "visiting",
+     "requirements": "Application submitted directly to the Princeton Graduate School, with approval from a Princeton faculty sponsor, the sponsoring department and the Graduate School. Postdocs, research scholars and emeriti cannot sponsor.",
+     "eligibility": "Advanced degree candidates at other institutions. Open to students from any institution that enrolls graduate students. Full-time in-person research only. No courses for credit, no transcript, no TA roles. A visa is likely needed for a Canadian student. Monthly enrolment fees apply, and a department page cites about $850 per month (unconfirmed). The sponsor or the visitor may be charged.",
+     "location": "Princeton, NJ, USA",
+     "duration": "1 to 12 months (per the Economics department page)",
+     "deadline": null,
+     "deadline_text": "Not verified. Contact a Princeton faculty host (for example in Lewis-Sigler/QCB or Computer Science) and check the Gradu",
+     "status": "rolling",
+     "url": "https://gradschool.princeton.edu/admission-onboarding/nondegree-programs/research-collaborators"
+    },
+    {
+     "name": "Postdoctoral Research Associate in Computational Biology, Pritykin Lab (Lewis-Sigler Institute)",
+     "type": "other",
+     "requirements": "PhD in a relevant field. Apply through Princeton's academic positions site. Questions go to Dr. Yuri Pritykin.",
+     "eligibility": "Postdoctoral level only, so not open to current PhD students. Listed as a future contact for computational functional genomics.",
+     "location": "Princeton, NJ, USA",
+     "duration": "Postdoctoral appointment",
+     "deadline": "2026-11-02",
+     "deadline_text": "Closing date reported as Nov 2, 2026 in a Nature Careers/jobRxiv listing, not checked on an official Princeton page.",
+     "status": "open",
+     "url": "https://www.nature.com/naturecareers/job/12863254/"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:21:03+00:00"
+  },
+  {
+   "name": "Caltech",
+   "region": "US",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Visiting Student Researcher (VSR)",
+     "type": "visiting",
+     "requirements": "Invitation and sponsorship by a Caltech faculty member; request submitted via the Caltech Graduate Office. Confirm exact documents with the Graduate Office. No academic credit and no Caltech payroll stipend. A Special Student appointment is the separate category for a stipend or transcript credit.",
+     "eligibility": "Current graduate students at another institution who hold a bachelor's degree. International students are not excluded on the page I saw, but a visa would likely be needed. Confirm with the Graduate Office.",
+     "location": "Pasadena, CA, USA",
+     "duration": "1 month to 1 year, not renewable",
+     "deadline": null,
+     "deadline_text": "No fixed deadline found; arranged with a Caltech faculty host",
+     "status": "rolling",
+     "url": "https://gradoffice.caltech.edu/academics/otherprograms/visiting-student-researcher-vsr"
+    },
+    {
+     "name": "Caltech Presidential Postdoctoral Fellowship (for future postdoc, after PhD)",
+     "type": "fellowship",
+     "requirements": "Cover or purpose statement, CV, research statement (1-2 pages), diversity statement (1-2 pages), and three letters including one from the future Caltech advisor. Requirements are from the 2023 cycle and may have changed.",
+     "eligibility": "Postdocs in Caltech divisions including Biology and Biological Engineering. Strong preference for candidates who have not yet started a postdoc at Caltech. Preference for scholars from groups underrepresented in academia, and all applicants may apply. Not open to current PhD students; relevant only once you have finished your PhD.",
+     "location": "Pasadena, CA, USA",
+     "duration": "2 years, up to $90,000 from the fellowship",
+     "deadline": null,
+     "deadline_text": "Listed deadlines (2023-01-20 and 2023-07-14) are past; the page says it is offered multiple times a year; no current cyc",
+     "status": "unknown",
+     "url": "https://fundingopportunities.caltech.edu/opportunities/detail/1541"
+    },
+    {
+     "name": "BBE Postdoctoral Research (division postdoc positions, with external fellowships)",
+     "type": "other",
+     "requirements": "Apply to a specific faculty member. See the BBE FAQ for how to apply for a postdoc position.",
+     "eligibility": "PhD holders. This is a general information page, not a fellowship call, and I found no deadline on it.",
+     "location": "Pasadena, CA, USA",
+     "duration": "Varies",
+     "deadline": null,
+     "deadline_text": "Rolling, by lab",
+     "status": "rolling",
+     "url": "https://www.bbe.caltech.edu/academics/postdoctoral-research"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:21:17+00:00"
+  },
+  {
+   "name": "University of Cambridge",
+   "region": "UK",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Cambridge Visiting Research Student (informal or formal), hosted by a department or institute (for example Genetics, Cancer Research UK Cambridge Institute, Sanger or EMBL-EBI groups)",
+     "type": "visiting",
+     "requirements": "Agree a host supervisor first, then follow the department's process. Apply through the Applicant Portal only if you need college affiliation, formal recognition or transcript, or funding that requires formal registration.",
+     "eligibility": "Students already studying at another institution who want supervised research at Cambridge. Admission is not guaranteed. The page does not say anything specific about international students. You stay registered at your home university and do not earn a Cambridge degree. A visa may be needed.",
+     "location": "Cambridge, UK",
+     "duration": "Fixed period, typically up to 1 year. Longer needs Postgraduate Committee approval.",
+     "deadline": null,
+     "deadline_text": "No fixed deadline on the page. Contact the host department. Informally registered visitors may pay a department fee. For",
+     "status": "rolling",
+     "url": "https://www.postgraduate.study.cam.ac.uk/apply/how/visiting-students"
+    },
+    {
+     "name": "EMBL-EBI–Sanger Postdoctoral (ESPOD) Fellowship Programme",
+     "type": "fellowship",
+     "requirements": "Cover letter, CV and two recent reference letters. Projects must involve at least one EMBL-EBI group and one Sanger group. Applicants may propose their own project.",
+     "eligibility": "Postdoctoral level, so not open to a current PhD student. The page does not state nationality or PhD-completion rules. The 2026 call is closed, with interviews on 10 Dec 2026. A 2027 call has not been announced. Calls have opened in summer.",
+     "location": "Wellcome Genome Campus, Hinxton (Cambridge), UK",
+     "duration": "36 months",
+     "deadline": null,
+     "deadline_text": "2026 call closed. One third-party listing gives 27 Sep 2026, which the official page does not confirm. Watch the page fo",
+     "status": "closed",
+     "url": "https://www.ebi.ac.uk/research/postdocs/espods"
+    },
+    {
+     "name": "Cambridge Bioinformatics Training courses (Single-cell RNA-seq analysis, Spatial transcriptomics, Bulk RNA-seq, Nextflow/pipelines, HPC, Python/R, statistics, Principles of Machine Learning)",
+     "type": "course",
+     "requirements": "Register through the event detail pages. Dates, status and booking links are on the events schedule. Single-cell RNA-seq is 12 Jan 2027 (online, places available). Bulk RNA-seq is 25 Nov 2026 (online, places available). Spatial transcriptomics is 2 Nov 2026 (waiting list).",
+     "eligibility": "The schedule does not state eligibility or fees. Check the eligibility and fees page and each event's detail page for whether external or non-Cambridge participants can attend. Many courses run online via Zoom, so no visa is needed.",
+     "location": "Cambridge (in person) or online",
+     "duration": "0.5 to 4 days per course",
+     "deadline": null,
+     "deadline_text": "Varies by course. Many 2027 courses are at 'Register interest' stage.",
+     "status": "open",
+     "url": "https://cambiotraining.github.io/events/"
+    },
+    {
+     "name": "Wellcome Connecting Science online courses: Bioinformatics for Biologists (Linux, Bash, R; and Analysing and Interpreting Genomics Datasets)",
+     "type": "course",
+     "requirements": "Online registration. The Linux/Bash/R course runs 23 Mar 2026 to 21 Mar 2027. The Genomics Datasets course has a registration deadline of 4 Apr 2027. These dates come from search-result snippets, not from the page itself.",
+     "eligibility": "Online, open to external learners. I did not verify any restrictions or fees.",
+     "location": "Online (Wellcome Genome Campus, Hinxton)",
+     "duration": "Self-paced or facilitated online course",
+     "deadline": "2027-03-21",
+     "deadline_text": "Registration deadline 21 Mar 2027 (Linux/Bash/R). 4 Apr 2027 (Analysing and Interpreting Genomics Datasets).",
+     "status": "open",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/online-courses/"
+    },
+    {
+     "name": "Wellcome Genome Campus Advanced Courses and Scientific Conferences (cancer genomics, genomics and data science events, with bursaries)",
+     "type": "workshop",
+     "requirements": "Apply or register per event. Bursaries cover up to 50% of the fee for UK courses and conferences, awarded on merit. They do not cover travel. The 2027 calendar was not visible to me. The page I fetched showed only 2025–26 events, and the Cancer Genomic Epidemiology course (16–18 Feb 2026) has passed.",
+     "eligibility": "Generally open to researchers worldwide, including PhD students. Check each event page. A UK visit may need a visa.",
+     "location": "Wellcome Genome Campus, Hinxton, UK",
+     "duration": "2 to 5 days per event",
+     "deadline": null,
+     "deadline_text": "Varies by event. Check the site for 2027 listings.",
+     "status": "unknown",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/technologies-and-approaches-courses-conferences-and-training/"
+    },
+    {
+     "name": "CRUK Cambridge Institute Summer Research Programme",
+     "type": "internship",
+     "requirements": "Application for a 9-week project. The 2026 run was 6 Jul to 4 Sep 2026. Applications for 2026 are closed.",
+     "eligibility": "Not available to you. The standard route is for undergraduates registered at a UK higher education institution. The other route is for students from the Uganda Cancer Institute or eastern Africa. I included it so you can rule it out.",
+     "location": "Cambridge, UK",
+     "duration": "9 weeks",
+     "deadline": null,
+     "deadline_text": "2026 closed. The 2027 call has not been announced.",
+     "status": "closed",
+     "url": "https://www.cruk.cam.ac.uk/jobs-and-studentships/undergraduate-summer-research-programme"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:22:08+00:00"
+  },
+  {
+   "name": "University College London",
+   "region": "UK",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Independent Visiting Research Student (UCL, host department in e.g. Cancer Institute / Genetics Institute / Computer Science)",
+     "type": "visiting",
+     "requirements": "Registered overseas PhD student; evidence of PhD registration and home-institution confirmation; agreement from a UCL supervisor in the relevant department; apply via UCL online portal as 'Visiting Research'; pro-rata tuition fees; self-funded",
+     "eligibility": "Students enrolled in an overseas PhD programme (international applicants accepted); visa needs depend on length of stay",
+     "location": "London, UK",
+     "duration": "3-12 months",
+     "deadline": null,
+     "deadline_text": "No fixed central deadline seen; some departments require supervisor approval first",
+     "status": "rolling",
+     "url": "https://www.ucl.ac.uk/prospective-students/international/study-abroad-and-exchange/applying-independent-visiting-research-student"
+    },
+    {
+     "name": "UCL Summer School - Cancer: Science and Impact",
+     "type": "summer school",
+     "requirements": "Application via UCL Summer School; fee about GBP 2,995 for the 2026 session",
+     "eligibility": "Open to external students; the 2026 listing gave 7.5 EC credits; 2027 details not verified",
+     "location": "London, UK",
+     "duration": "3 weeks (2026: 29 June-17 July)",
+     "deadline": null,
+     "deadline_text": "2027 deadline not verified",
+     "status": "unknown",
+     "url": "https://www.ucl.ac.uk/short-courses/search-courses/ucl-summer-school"
+    },
+    {
+     "name": "Sir Henry Wellcome Postdoctoral Fellowships (UCL host, via UCL research fellowships)",
+     "type": "fellowship",
+     "requirements": "Final-year PhD or at most 1 year of postdoctoral experience; need a UCL host and Dean/faculty approval",
+     "eligibility": "External applicants through a UCL host; check Wellcome rules for nationality",
+     "location": "London, UK",
+     "duration": "Up to 4 years (per funder; not verified on the UCL page)",
+     "deadline": null,
+     "deadline_text": "Check Wellcome and the UCL research office",
+     "status": "unknown",
+     "url": "https://www.ucl.ac.uk/research/research-fellowships"
+    },
+    {
+     "name": "Marie Sklodowska-Curie Postdoctoral Fellowships (UCL host)",
+     "type": "fellowship",
+     "requirements": "PhD completed; mobility rules apply; UCL host and faculty support",
+     "eligibility": "Any nationality, with international mobility required",
+     "location": "London, UK",
+     "duration": "1-2 years (per funder; not verified on the UCL page)",
+     "deadline": null,
+     "deadline_text": "No UCL-specific 2026/27 deadline seen",
+     "status": "unknown",
+     "url": "https://www.ucl.ac.uk/research/research-fellowships"
+    },
+    {
+     "name": "UCL Cancer Institute BLIC - Learn Bioinformatics",
+     "type": "course",
+     "requirements": "None stated",
+     "eligibility": "Aimed at UCL wet-lab researchers; external access not stated",
+     "location": "London, UK / online",
+     "duration": "Self-paced",
+     "deadline": null,
+     "deadline_text": null,
+     "status": "unknown",
+     "url": "https://ucl-blic.github.io/LearnBioinformatics"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:21:31+00:00"
+  },
+  {
+   "name": "University of Oxford",
+   "region": "UK",
+   "category": "academic",
+   "programs": [
+    {
+     "name": "Oxford Statistical Genomics Summer School (Dept for Continuing Education, with Big Data Institute, Wellcome Centre for Human Genetics and Dept of Statistics)",
+     "type": "summer school",
+     "requirements": "Past editions asked for an application to the course; exact current requirements not verified",
+     "eligibility": "Past editions were aimed at Master's and PhD students, including international applicants; 2027 eligibility not verified",
+     "location": "Oxford, UK (residential, previously at St Hilda's College)",
+     "duration": "About one week (2022: 19–24 June; 2023: 18–24 June)",
+     "deadline": null,
+     "deadline_text": "No 2027 call found; the 2023 edition's deadline was 9 May 2023",
+     "status": "unknown",
+     "url": "https://demography.ox.ac.uk/news/oxford-statistical-genomics-summer-school"
+    },
+    {
+     "name": "University of Oxford international visiting researchers",
+     "type": "visiting",
+     "requirements": "Not verified: the page was blocked (403). Visits are generally arranged through a host group or department.",
+     "eligibility": "Not verified. The Oxford page describes visiting-researcher arrangements for international academics.",
+     "location": "Oxford, UK",
+     "duration": "Not verified; a search snippet mentions a short stay of under a month, and a separate departmental scheme of 1–12 months",
+     "deadline": null,
+     "deadline_text": "Not verified",
+     "status": "unknown",
+     "url": "https://www.ox.ac.uk/research/engage-with-us/international-visiting-researchers"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:22:07+00:00"
+  },
+  {
+   "name": "Arc Institute",
+   "region": "US",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Arc Science Fellows (early-career PI fellowship; postdoc-stage)",
+     "type": "fellowship",
+     "requirements": "PhD, MD or MD/PhD training completed or expected between spring 2024 and summer 2026; independent, higher-risk research proposal. Focus areas this cycle include computational science/ML, human genetics, immunology, chemical biology, neurobiology and technology development.",
+     "eligibility": "Open to candidates from any organization, including those needing US visa sponsorship. A first-year PhD student does not currently meet the training-completion window.",
+     "location": "Arc Institute, Stanford Research Park, Palo Alto, CA, USA",
+     "duration": "5-year appointment with a check-in after year 3",
+     "deadline": null,
+     "deadline_text": "No fixed deadline; applications reviewed until positions are filled (plans to hire 1-2 Fellows in 2026)",
+     "status": "rolling",
+     "url": "https://arcinstitute.org/programs/science-fellows"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:22:01+00:00"
+  },
+  {
+   "name": "Broad Institute",
+   "region": "US",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Eric and Wendy Schmidt Center Postdoctoral Fellowship (2027 cycle)",
+     "type": "fellowship",
+     "requirements": "Postdoc-level researcher with machine learning, statistics or applied mathematics experience aimed at biomedical problems. Biology or medicine background is helpful but not required. Applicants choose a computational mentor and a biomedical mentor from Broad, MIT or Harvard faculty. Apply via the AJO portal at broad.io/ewsc-postdoc.",
+     "eligibility": "Postdocs. A PhD is presumably needed, so it suits you after you finish. International eligibility is not stated on the page; contact ericandwendyschmidtcenter@broadinstitute.org.",
+     "location": "Broad Institute, Cambridge, MA, USA",
+     "duration": "1 year, renewable for a 2nd and 3rd year based on performance; start on or after 2027-07-01 (flexible)",
+     "deadline": null,
+     "deadline_text": "Applications for 2027 are open; review is rolling after 2026-12-22. No closing date is given.",
+     "status": "open",
+     "url": "https://www.ericandwendyschmidtcenter.org/become-a-fellow"
+    },
+    {
+     "name": "Visiting Scientist Program (Broad brain research site)",
+     "type": "visiting",
+     "requirements": "Not verified. The page only redirected, so I could not read the requirements.",
+     "eligibility": "Described in search results as a flexible-length sabbatical programme for researchers. Whether PhD students can apply is unknown.",
+     "location": "Broad Institute, Cambridge, MA, USA",
+     "duration": "Flexible (per search snippet)",
+     "deadline": null,
+     "deadline_text": "Not listed",
+     "status": "unknown",
+     "url": "https://brain.broadinstitute.org/jobs/visiting_scientists_program"
+    },
+    {
+     "name": "Models, Inference & Algorithms (MIA) seminar series (Fall 2026)",
+     "type": "workshop",
+     "requirements": "Join the mailing list by emailing mia-team@broadinstitute.org for event updates and Zoom links.",
+     "eligibility": "Not stated. Talks are held in person and virtually, and the MIA site describes its primers and talk videos as free public resources. This is not a formal training programme.",
+     "location": "Broad Institute, Cambridge, MA, USA, and virtual",
+     "duration": "Weekly talks, September to December 2026",
+     "deadline": null,
+     "deadline_text": "No application",
+     "status": "rolling",
+     "url": "https://www.broadinstitute.org/talks/fall-2026/mia"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:22:41+00:00"
+  },
+  {
+   "name": "Scripps Research",
+   "region": "US",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Scripps Research Visiting Student (thesis/dissertation research internship, J-1)",
+     "type": "visiting",
+     "requirements": "An offer from a Scripps Research PI, who must agree to host you and contact the International Services Office (ISO) to start visa sponsorship. You must also show financial support and stay enrolled at your home university. Visa paperwork includes a passport, DS-2019, invitation letter, financial documents, SEVIS fee receipt, DS-160 and a CV. The ISO does not place students, so you must contact PIs yourself. A computational PI such as one in genomics or ML would be the target.",
+     "eligibility": "International graduate students enrolled in a degree program outside the US. The J-1 Short-term/Research Scholar category applies if you hold a bachelor's degree, are enrolled as a graduate student abroad, and get most of your funding from your home university. J-1 Intern applies to graduate students funded mainly by personal or family funds, and the ISO refers them to a third-party sponsor that charges substantial fees. A Canadian PhD student is eligible but needs a US J-1 visa.",
+     "location": "La Jolla, California, USA",
+     "duration": "Not specified on the page; agree it with the host PI",
+     "deadline": null,
+     "deadline_text": "No fixed deadline; arranged individually with a host PI",
+     "status": "rolling",
+     "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
+    },
+    {
+     "name": "Scripps Research Fellows Program (independent postdoctoral fellowship, a later-stage option)",
+     "type": "fellowship",
+     "requirements": "Submit through Interfolio: cover letter, CV with training record and publications, three recommendation letters, a Benefits of Research Program form, a 1-page diversity/broadening-participation statement, and a research statement of up to 3 pages. The fellow holds their primary appointment at Scripps Research and leads their own team with dedicated lab space and three years of funding.",
+     "eligibility": "People who have recently received or are about to receive a PhD, MD, DVM or equivalent, or who have under 1 year of postdoc experience. International applicants are eligible and Scripps Research helps with visas. This is not available to a first-year PhD student now; it is a possible route after the PhD, and later cycles would need checking. The current cycle starts in Fall 2027.",
+     "location": "La Jolla, California, USA (the page does not say whether Florida is included)",
+     "duration": "3 years of funding",
+     "deadline": "2026-12-31",
+     "deadline_text": "Applications by December 31, 2026 get first review; accepted until the position is filled or the close of May 2027; inte",
+     "status": "open",
+     "url": "https://www.scripps.edu/fellows-program/"
+    },
+    {
+     "name": "Scripps Research Translational Institute (SRTI) Student Research Internship Program",
+     "type": "internship",
+     "requirements": "Online application, which is separate from the SURF application. A third-party source lists unofficial transcripts and a statement of purpose, but I could not verify this on an official page. It places students on teams in genomics, computational biology and mHealth, and ends with a poster symposium.",
+     "eligibility": "The official page says it is open to high school, undergraduate and professional students. A search summary said graduate students are eligible, but I could not confirm this on the official page. Whether external graduate students can apply is unclear, so confirm with SRTI. One listing says international students need F-1 or J-1 status. I could not open the current official program page, and I found no flyer or deadline for the 2027 cycle.",
+     "location": "La Jolla, California, USA",
+     "duration": "About 10 weeks in summer (early June to mid-August in recent cycles)",
+     "deadline": null,
+     "deadline_text": "The 2025 flyer listed March 31, 2025; the 2026 deadline appears to have been around the end of March 2026; the 2027 date",
+     "status": "unknown",
+     "url": "https://education.scripps.edu/undergraduate/summer-research/other-programs/"
+    },
+    {
+     "name": "Scripps Research Postdoctoral Associate positions (lab-specific, including computational labs)",
+     "type": "other",
+     "requirements": "Apply to individual postings on the Scripps careers site. Typical requirements are a PhD in computational biology, bioinformatics, computer science or a related field, a CV and references. These are paid jobs, not fellowships, and the postings I saw came from third-party job boards. The Prospective Postdocs page confirms that labs post positions on the Scripps careers site, but I did not verify any specific current posting.",
+     "eligibility": "Completed PhD required, so this is relevant only after your degree. International applicants are generally possible with visa sponsorship.",
+     "location": "La Jolla, California, USA, and Jupiter, Florida",
+     "duration": "Varies by lab",
+     "deadline": null,
+     "deadline_text": "Mostly open until filled",
+     "status": "rolling",
+     "url": "https://education.scripps.edu/cpdo/students-and-postdocs/prospective-postdocs/index.html"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:23:01+00:00"
+  },
+  {
+   "name": "New York Genome Center",
+   "region": "US",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Summer Internship Program (8-week; undergraduate-focused)",
+     "type": "internship",
+     "requirements": "Authorized to work in the US without sponsorship; enrolled as an undergraduate in a related course of study; available full-time for all 8 weeks.",
+     "eligibility": "Undergraduates only, with no visa sponsorship. A Canadian PhD student is almost certainly NOT eligible. Listed only for completeness.",
+     "location": "New York, NY, USA",
+     "duration": "8 weeks (summer)",
+     "deadline": null,
+     "deadline_text": "2026 applications are closed. The page says to check back for opportunities in 2027 and gives no 2027 deadline.",
+     "status": "closed",
+     "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/internship-program/"
+    },
+    {
+     "name": "Genomic AI Fellows",
+     "type": "fellowship",
+     "requirements": "PhD in computer science, computational biology, genomics or a related quantitative field. Deep expertise in deep learning, foundation models and large-scale model training. Interest in or experience with gene regulation, epigenomics or the genetic basis of complex disease. Track record of leading original research and working with multi-modal datasets.",
+     "eligibility": "Aimed at early-career scientists who already hold a PhD. A first-year PhD student is not eligible now, but this is a possible route after graduation. The page does not mention visa sponsorship.",
+     "location": "New York Genome Center, New York, NY, USA",
+     "duration": "Not stated",
+     "deadline": null,
+     "deadline_text": "No deadline stated. Applications go through the NYGC job portal.",
+     "status": "unknown",
+     "url": "https://www.nygenome.org/careers/genomicaifellows/"
+    },
+    {
+     "name": "NYGC Postdoctoral Training Program (postdoc positions in individual labs)",
+     "type": "fellowship",
+     "requirements": "Hold, or have completed the requirements for, a PhD. Candidates apply to posted openings or contact faculty directly. The process includes interviews, a research seminar and references.",
+     "eligibility": "Open to international candidates. NYGC typically sponsors postdocs on J-1 (BridgeUSA Research Scholar), supports visa costs and offers up to $3,000 relocation reimbursement. Not available to current PhD students; relevant after the PhD.",
+     "location": "New York, NY, USA",
+     "duration": "Typically an initial 3-year term, which may be extended",
+     "deadline": null,
+     "deadline_text": "No fixed deadline. Positions are posted on a rolling basis.",
+     "status": "rolling",
+     "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:22:45+00:00"
+  },
+  {
+   "name": "Chan Zuckerberg Biohub",
+   "region": "US",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Biohub Summer Internship Program (SF / Chicago / NY)",
+     "type": "internship",
+     "requirements": "Application via Biohub internship job boards; 2026 postings were mainly for full-time undergraduates; paid; housing not provided in some sites",
+     "eligibility": "2026 postings targeted undergraduates; PhD-student eligibility not confirmed; no 2027 call found",
+     "location": "San Francisco/Redwood City, Chicago, New York (USA)",
+     "duration": "approx. 10-11 weeks (mid-June to late August in 2026)",
+     "deadline": null,
+     "deadline_text": "2026 cycle closed (applications opened 2026-01-16); 2027 dates not yet announced",
+     "status": "closed",
+     "url": "https://job-boards.greenhouse.io/biohubchicagointernship/jobs/4535672005"
+    },
+    {
+     "name": "AI Research Intern (PhD), AI Research, Science",
+     "type": "internship",
+     "requirements": "Enrolment in a PhD in ML/AI, computational biology, physics, applied math or similar (per third-party listings); no biology background required",
+     "eligibility": "Active PhD students; a listing said Biohub cannot sponsor work authorization, so a Canadian student's eligibility is unclear. Not seen on the official current-openings list.",
+     "location": "New York, NY or Redwood City, CA (hybrid)",
+     "duration": "approx. 12 weeks or longer",
+     "deadline": null,
+     "deadline_text": "Not verified on an official page",
+     "status": "unknown",
+     "url": "https://job-boards.greenhouse.io/biohub/jobs/7530398"
+    },
+    {
+     "name": "Global Science Scholars Postdoctoral Fellowship (Biohub–SSF, US–Japan)",
+     "type": "fellowship",
+     "requirements": "PhD conferred between 2021-07-01 and 2025-07-01; English proficiency; visa eligibility",
+     "eligibility": "Postdoc only; US placement required a Japanese degree, Japan placement required a US degree, so it excludes Canadian PhD students",
+     "location": "CZ Biohub partner universities (SF, Chicago, NY areas) or Japan",
+     "duration": "up to 2 years",
+     "deadline": "2025-05-27",
+     "deadline_text": "RFA closed; portal closed 2025-05-27, 3 p.m. PT",
+     "status": "closed",
+     "url": "https://biohub.org/funding/program-ssfcz-global-science-scholars/"
+    },
+    {
+     "name": "Biohub SF Collaborative Postdoctoral Fellowship",
+     "type": "fellowship",
+     "requirements": "Joint mentors: one at Biohub SF and one faculty member at UC Berkeley, UCSF or Stanford",
+     "eligibility": "Early-stage postdocs, so relevant after the PhD. International eligibility not verified.",
+     "location": "San Francisco Bay Area, USA",
+     "duration": "unknown",
+     "deadline": null,
+     "deadline_text": "Search snippets said rolling with no fixed deadline; the official page returned a 404, so unverified",
+     "status": "unknown",
+     "url": "https://www.czbiohub.org/sf/?p=4817"
+    },
+    {
+     "name": "Postdoctoral Fellow, Multimodal Modeling (Biohub Chicago)",
+     "type": "other",
+     "requirements": "Details are on the individual posting; not retrieved",
+     "eligibility": "Postdoc position; relevant after the PhD",
+     "location": "Chicago, IL (onsite)",
+     "duration": "unknown",
+     "deadline": null,
+     "deadline_text": "Not stated",
+     "status": "open",
+     "url": "https://job-boards.greenhouse.io/biohub/jobs/7530398"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:23:42+00:00"
+  },
+  {
+   "name": "Wellcome Sanger Institute",
+   "region": "UK",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Genome Informatics (conference, Wellcome Genome Campus)",
+     "type": "workshop",
+     "requirements": "Registration (abstract submission for talks or posters is a separate process). Fees apply. I did not check whether bursaries exist.",
+     "eligibility": "Open to researchers generally. The listing doesn't say if international or PhD-student registration is restricted.",
+     "location": "Wellcome Genome Campus, Hinxton, UK (in-person or virtual)",
+     "duration": "3 days (2–4 Dec 2026)",
+     "deadline": "2026-11-02",
+     "deadline_text": "In-person registration 2 Nov 2026; virtual registration 23 Nov 2026",
+     "status": "open",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/"
+    },
+    {
+     "name": "Virus Genomics, Evolution and Bioinformatics (conference)",
+     "type": "workshop",
+     "requirements": "Registration. Only virtual registration is still open.",
+     "eligibility": "Not stated on the listing page.",
+     "location": "Wellcome Genome Campus, Hinxton, UK (virtual option)",
+     "duration": "3 days (11–13 Nov 2026)",
+     "deadline": "2026-11-02",
+     "deadline_text": "Virtual registration closes 2 Nov 2026. The listing doesn't give the in-person status.",
+     "status": "open",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/virus-genomics-evolution-and-bioinformatics-20261111/"
+    },
+    {
+     "name": "Cancer Genomic Epidemiology (course)",
+     "type": "course",
+     "requirements": "Application through the course page. Relevant to cancer genomics.",
+     "eligibility": "The listing says it targets research scientists, clinicians and healthcare professionals. International eligibility and funding aren't stated.",
+     "location": "Wellcome Genome Campus, Hinxton, UK (the venue isn't confirmed on the listing)",
+     "duration": "4 days (15–18 Mar 2027)",
+     "deadline": "2026-11-16",
+     "deadline_text": "Application deadline 16 Nov 2026",
+     "status": "open",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/"
+    },
+    {
+     "name": "Long read sequencing: platforms, approaches and applications (course)",
+     "type": "course",
+     "requirements": "Application. A bursary option exists, but its details aren't given. The course is mainly laboratory-based.",
+     "eligibility": "Not stated on the listing page.",
+     "location": "Wellcome Genome Campus, Hinxton, UK (the venue isn't confirmed on the listing)",
+     "duration": "6 days (14–19 Mar 2027)",
+     "deadline": "2026-11-23",
+     "deadline_text": "Application and bursary deadline 23 Nov 2026",
+     "status": "open",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/long-read-sequencing-platforms-approaches-and-applications-20270314/"
+    },
+    {
+     "name": "Biodiversity Genomics Academy (EU) (computational course)",
+     "type": "course",
+     "requirements": "Registration will open later.",
+     "eligibility": "Not stated. It is a biodiversity course, so it is only loosely relevant to cancer genomics.",
+     "location": "Not stated",
+     "duration": "3 days (23–25 Feb 2027)",
+     "deadline": null,
+     "deadline_text": "Registration opening soon; no deadline announced",
+     "status": "opens_soon",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/courses/"
+    },
+    {
+     "name": "Applied Bioinformatics and Public Health Microbiology (conference)",
+     "type": "workshop",
+     "requirements": "Registration and an optional abstract. A bursary is available with the early-bird in-person registration.",
+     "eligibility": "Not stated. The focus is microbial and public health, so it is only loosely relevant to cancer genomics.",
+     "location": "Wellcome Genome Campus, Hinxton, UK (virtual option)",
+     "duration": "3 days (16–18 Jun 2027)",
+     "deadline": "2027-03-22",
+     "deadline_text": "Bursary and early-bird in-person 22 Mar 2027; abstracts 19 Apr 2027; in-person 17 May 2027; virtual 7 Jun 2027. No dedic",
+     "status": "opens_soon",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/conferences/"
+    },
+    {
+     "name": "Organoids and Beyond: From Development to Disease (conference)",
+     "type": "workshop",
+     "requirements": "Registration and an optional abstract. A bursary is available with the early-bird in-person registration.",
+     "eligibility": "Not stated on the listing page.",
+     "location": "Wellcome Genome Campus, Hinxton, UK (virtual option)",
+     "duration": "3 days (20–22 Sep 2027)",
+     "deadline": "2027-06-28",
+     "deadline_text": "Bursary and early-bird in-person 28 Jun 2027; abstract and in-person 26 Jul 2027; virtual 13 Sep 2027",
+     "status": "opens_soon",
+     "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/organoids-and-beyond-from-development-to-disease-20270920/"
+    },
+    {
+     "name": "Sanger Core Postdoctoral Fellowships (faculty-recruited roles, via Workday)",
+     "type": "fellowship",
+     "requirements": "A PhD, or a PhD expected within 6 months of starting, plus role-specific skills. Roles are advertised on Workday.",
+     "eligibility": "Recruited year-round by faculty teams. The page doesn't state international eligibility. It says visa requirements can be difficult for speculative routes. This is a future option after the PhD, not available now.",
+     "location": "Hinxton, UK",
+     "duration": "Per role",
+     "deadline": null,
+     "deadline_text": "Year-round; deadlines vary by role",
+     "status": "rolling",
+     "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+    },
+    {
+     "name": "EMBL-EBI–Sanger Postdoctoral (ESPOD) Fellowship",
+     "type": "fellowship",
+     "requirements": "A PhD is required (per Sanger's postdoc page). Apply to a predefined project or a self-proposed one with EMBL-EBI and Sanger supervisors.",
+     "eligibility": "Postdoctoral level, so not open to current PhD students. The 2026 call is closed. Up to 2 fellows are recruited per year, and the next call date isn't announced.",
+     "location": "Hinxton, UK",
+     "duration": "Not verified",
+     "deadline": "2026-09-27",
+     "deadline_text": "2026 call closed 27 Sep 2026; interviews provisionally 10 Dec 2026",
+     "status": "closed",
+     "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+    },
+    {
+     "name": "Third-party personal fellowships hosted at Sanger (e.g. EMBO, Marie Curie)",
+     "type": "fellowship",
+     "requirements": "Secure a Sanger faculty host before applying. Sanger doesn't match applicants to faculty, so contact faculty directly.",
+     "eligibility": "Postdoctoral level. This is a future option after the PhD.",
+     "location": "Hinxton, UK",
+     "duration": "Depends on the funder",
+     "deadline": null,
+     "deadline_text": "Depends on the external funder",
+     "status": "unknown",
+     "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+    },
+    {
+     "name": "Wellcome Sanger Institute 4-Year PhD Programme (2027 intake)",
+     "type": "other",
+     "requirements": "Application to the programme. See the programme page for details.",
+     "eligibility": "Open to overseas applicants. It is a full PhD, so it is relevant only if the student wanted to change programmes, not as a visiting scheme.",
+     "location": "Hinxton, UK (Cambridge-registered)",
+     "duration": "4 years",
+     "deadline": "2026-11-24",
+     "deadline_text": "24 Nov 2026, 09:00 GMT. Online Q&A on 4 Nov 2026, 10:00–10:45. Queries: gradoffice@sanger.ac.uk",
+     "status": "open",
+     "url": "https://www.sanger.ac.uk/about/study/phd-programmes/"
+    },
+    {
+     "name": "Visiting PhD student / visiting researcher scheme",
+     "type": "visiting",
+     "requirements": "I found no standing official visiting-student scheme. The PhD and postdoc pages don't mention one. Contact a Sanger faculty member whose work fits your interests, such as cancer or somatic genomics.",
+     "eligibility": "Unknown. Arrangements are likely made individually through faculty. A UK visa would likely be needed.",
+     "location": "Hinxton, UK",
+     "duration": "Unknown",
+     "deadline": null,
+     "deadline_text": "No official scheme found",
+     "status": "unknown",
+     "url": "https://www.sanger.ac.uk/about/study/phd-programmes/"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:23:34+00:00"
+  },
+  {
+   "name": "Francis Crick Institute",
+   "region": "UK",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Single-cell genomics: from bench to bioinformatics",
+     "type": "course",
+     "requirements": "Application form; own laptop; pre-course Python module must be completed. Combines 10x Genomics wet-lab work with Python-based analysis. Fee about £1,000, and the Crick does not fund attendance.",
+     "eligibility": "Open to external participants. The Crick reviews applications in rounds. I did not see any restriction on international applicants.",
+     "location": "The Francis Crick Institute, London, UK (in person)",
+     "duration": "5 days (16-20 Nov 2026)",
+     "deadline": null,
+     "deadline_text": "Not seen in search results. Applications are reviewed in rounds, so check the course page. The course starts 16 Nov 2026",
+     "status": "unknown",
+     "url": "https://www.crick.ac.uk/whats-on/single-cell-genomics-from-bench-to-bioinformatics-0"
+    },
+    {
+     "name": "CBIAS napari workshop 2026 (bioimage analysis)",
+     "type": "workshop",
+     "requirements": "Coding experience. Fee about £250. Enquiries to techtraining@crick.ac.uk.",
+     "eligibility": "External attendees can apply. It covers image analysis, so it is only loosely related to your genomics interests.",
+     "location": "The Francis Crick Institute, London, UK",
+     "duration": "2 days (25-26 Nov 2026)",
+     "deadline": null,
+     "deadline_text": "Not seen in search results",
+     "status": "unknown",
+     "url": "https://www.crick.ac.uk/whats-on/cbias-napari-workshop-2026"
+    },
+    {
+     "name": "Crick technical training (external courses)",
+     "type": "course",
+     "requirements": "Varies by course. Registration is through the Crick online learning platform. The Crick does not fund attendance at external technical training events.",
+     "eligibility": "Open to external attendees. Terms vary by course and the page may be out of date.",
+     "location": "The Francis Crick Institute, London, UK",
+     "duration": "Varies by course",
+     "deadline": null,
+     "deadline_text": "Varies by course",
+     "status": "rolling",
+     "url": "https://www.crick.ac.uk/careers-and-study/technical-training"
+    },
+    {
+     "name": "Crick PACE Postdoctoral Fellowship (future option after your PhD)",
+     "type": "fellowship",
+     "requirements": "Postdoctoral applicants. Combines a Crick group with a partner-university group. 4-year programme. Details not verified on the official page.",
+     "eligibility": "Postdoctoral researchers only, so not open to you as a current PhD student. International eligibility not verified.",
+     "location": "Crick, London, plus a partner university (UK)",
+     "duration": "4 years",
+     "deadline": null,
+     "deadline_text": "Crick pages say 6 January with no year shown. A Nature Careers listing says 30 Nov 2026.",
+     "status": "unknown",
+     "url": "https://www.crick.ac.uk/careers-and-study/postdocs/postdoc-recruitment"
+    },
+    {
+     "name": "Crick Summer Student Training Programme (Crick-Calleva)",
+     "type": "internship",
+     "requirements": "UK undergraduates in the correct year with a 2:1 or higher, and at least one widening-participation criterion.",
+     "eligibility": "Not eligible. UK undergraduates only, and students at universities outside the UK cannot apply.",
+     "location": "The Francis Crick Institute, London, UK",
+     "duration": "9 weeks",
+     "deadline": "2026-02-04",
+     "deadline_text": "The 2026 deadline was 12 noon GMT, 4 Feb 2026. I found no 2027 call.",
+     "status": "closed",
+     "url": "https://www.crick.ac.uk/careers-and-study/students/summer-students"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:23:36+00:00"
+  },
+  {
+   "name": "EMBL-EBI",
+   "region": "UK",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "EMBL Scientific Visitor Programme – visiting predoctoral fellow (hosted at EMBL-EBI group)",
+     "type": "visiting",
+     "requirements": "Contact the EMBL-EBI group leader or core facility head with a letter of motivation (research topic) and a detailed CV. Once the host accepts, the Scientific Visitor Programme provides logistics (vp@embl.org). The page does not describe funding for predoctoral visitors.",
+     "eligibility": "PhD students registered at an external institution and not in the EMBL International PhD Programme. The student must want to use EMBL technologies or methods for part of the thesis. Total time at EMBL must be under half of the PhD period. Visits over 6 months need approval from the Dean of Graduate Studies. The page does not state nationality restrictions. I did not check visa needs for the UK.",
+     "location": "EMBL-EBI, Hinxton, UK (or other EMBL sites)",
+     "duration": "Agreed with the host; over 6 months needs approval",
+     "deadline": null,
+     "deadline_text": "No specific deadline; apply directly to a host group",
+     "status": "rolling",
+     "url": "https://www.embl.org/about/info/scientific-visitor-programme/visits-embl/"
+    },
+    {
+     "name": "EIPOD-LinC postdoctoral fellowship (2026 call)",
+     "type": "fellowship",
+     "requirements": "One interdisciplinary project spanning two or more fields. It needs two EMBL group leaders, or one EMBL group leader plus a partner lab in an EMBL Member, Associate Member or Prospect Member State. Applications are in English with references.",
+     "eligibility": "Open to all nationalities. Applicants need a PhD by the call deadline (defended but not yet awarded is accepted) and up to 8 years of research experience since the PhD. This is a later-career option, not for current PhD students.",
+     "location": "EMBL sites (including EMBL-EBI) plus a partner lab; 3 months to 1 year secondment",
+     "duration": "3 years, fully funded",
+     "deadline": "2027-02-01",
+     "deadline_text": "Info webinar 19 Nov 2026; application opens 25 Nov 2026; closes 1 Feb 2027; latest start 1 Sep 2027",
+     "status": "opens_soon",
+     "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context"
+    },
+    {
+     "name": "EMBL-EBI course: Single-cell RNA-seq analysis with Python (April 2027, virtual)",
+     "type": "course",
+     "requirements": "Application via the EMBL-EBI training page once opened. I could not verify the deadline or fees.",
+     "eligibility": "Not verified. The 2026 edition ran as an open-application course.",
+     "location": "Virtual",
+     "duration": "5 days (12–16 April 2027)",
+     "deadline": null,
+     "deadline_text": "Not found. The 2026 edition closed applications about 3 months before it started, so expect roughly early 2027.",
+     "status": "unknown",
+     "url": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/20260824_GenericPoster_2027_Update-screen.pdf"
+    },
+    {
+     "name": "EMBL-EBI course: Cancer genomics and transcriptomics (recurring; 2027 edition not confirmed)",
+     "type": "course",
+     "requirements": "Application via the EMBL-EBI training page. The 2025 edition had a 9 Feb 2025 deadline and ran 12–16 May 2025.",
+     "eligibility": "Open application in past years; not verified for 2027.",
+     "location": "Virtual or on-site (varies by edition)",
+     "duration": "About 5 days",
+     "deadline": null,
+     "deadline_text": "No 2027 dates found. Check the page for the next edition.",
+     "status": "unknown",
+     "url": "https://www.ebi.ac.uk/training/events/cancer-genomics-transcriptomics"
+    },
+    {
+     "name": "EMBL-EBI Training events (courses, workshops, webinars)",
+     "type": "workshop",
+     "requirements": "Varies by event; apply or register through each event page. For application questions, contact courses@ebi.ac.uk.",
+     "eligibility": "Varies by event. Many are open to external researchers worldwide, but check each listing.",
+     "location": "EMBL-EBI Hinxton, virtual, or at host institutions",
+     "duration": "Varies",
+     "deadline": null,
+     "deadline_text": "Varies by event",
+     "status": "rolling",
+     "url": "https://www.ebi.ac.uk/training/events"
+    },
+    {
+     "name": "Primer for Predocs 2026 (EMBL-EBI)",
+     "type": "course",
+     "requirements": "Not verified. I only saw a TeSS listing, not the official page.",
+     "eligibility": "Not verified; likely aimed at new predoctoral students.",
+     "location": "EMBL-EBI, Hinxton, UK",
+     "duration": "Unknown",
+     "deadline": null,
+     "deadline_text": "Unknown. The 2026 edition may already have passed.",
+     "status": "unknown",
+     "url": "https://tess.elixir-europe.org/events/primer-for-predocs-2026"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:24:29+00:00"
+  },
+  {
+   "name": "The Institute of Cancer Research",
+   "region": "UK",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "ICR Fellowships (postdoctoral / early-career fellowship routes)",
+     "type": "fellowship",
+     "requirements": "Not verified. Page content could not be read; search snippets mention postdoctoral training fellow posts and clinical training fellowships.",
+     "eligibility": "Not verified. Likely requires a completed PhD, so not available to a current first-year PhD student. International eligibility unknown.",
+     "location": "London / Sutton, UK",
+     "duration": "unknown",
+     "deadline": null,
+     "deadline_text": "Not verified; check the page and jobs.icr.ac.uk",
+     "status": "unknown",
+     "url": "https://icr.ac.uk/careers/types-of-positions/fellowships"
+    },
+    {
+     "name": "ICR Postdocs (careers at the ICR)",
+     "type": "other",
+     "requirements": "Not verified. General postdoc careers page; I could not read its content.",
+     "eligibility": "Postdoctoral researchers (post-PhD). Not for current PhD students.",
+     "location": "London / Sutton, UK",
+     "duration": "unknown",
+     "deadline": null,
+     "deadline_text": "Not verified",
+     "status": "unknown",
+     "url": "https://icr.ac.uk/study-and-careers/careers-at-the-icr/postdocs"
+    },
+    {
+     "name": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship (joint with ICR, Imperial-led)",
+     "type": "fellowship",
+     "requirements": "For a joint fellowship, the principal mentor must be at Imperial and a secondary supervisor at ICR (or CNRS). Application details are on the Imperial page.",
+     "eligibility": "Postdoc level, so you could apply only after finishing your PhD. The Imperial page describes Research Associate (recently post-PhD) and Research Fellow (several years post-PhD) levels. International eligibility not verified.",
+     "location": "London, UK (Imperial, with ICR co-supervision)",
+     "duration": "2 years",
+     "deadline": null,
+     "deadline_text": "Current-round deadline not verified. The only ICR internal deadline seen was 26 Aug 2024, from an older round.",
+     "status": "unknown",
+     "url": "https://www.imperial.ac.uk/ix-ai-in-science/apply/"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:24:08+00:00"
+  },
+  {
+   "name": "MRC Laboratory of Molecular Biology",
+   "region": "UK",
+   "category": "institute",
+   "programs": [
+    {
+     "name": "Rising Talent Fellowship (LMB postdoctoral fellowship for scientists of Black heritage)",
+     "type": "fellowship",
+     "requirements": "Application form, covering letter and CV; choose up to three research areas or Group Leaders; interview includes a research presentation. PhD or postdoc experience in a relevant area.",
+     "eligibility": "Self-identify as Black heritage, including mixed Black heritage. Postdoc experience or a PhD; current PhD students must be within 6 months of their expected thesis submission date. The page does not state any nationality restriction.",
+     "location": "MRC Laboratory of Molecular Biology, Cambridge, UK",
+     "duration": "3 years",
+     "deadline": null,
+     "deadline_text": "The 2026 round opened 13 April 2026 and closed 17 May 2026. No date is given for the next round, which would probably op",
+     "status": "closed",
+     "url": "https://mrclmb.ac.uk/careers-and-people/postdocs/rising-talent-fellowship/"
+    },
+    {
+     "name": "LMB postdoctoral positions and fellowships (group-level posts and external fellowship applications)",
+     "type": "other",
+     "requirements": "Contact Group Leaders directly. The page says external fellowship applications are welcomed and encouraged. Current postdoc vacancies are advertised under Current Vacancies.",
+     "eligibility": "For people who have finished a PhD, so not open to a first-year PhD student now. It is a route for later. A visa is likely needed for UK roles.",
+     "location": "Cambridge, UK",
+     "duration": "Varies by post",
+     "deadline": null,
+     "deadline_text": "No general deadline. Individual vacancies have their own closing dates.",
+     "status": "rolling",
+     "url": "https://mrclmb.ac.uk/careers-and-people/postdocs/"
+    }
+   ],
+   "refreshed_at": "2026-10-30T06:24:45+00:00"
+  }
+ ]
+}
