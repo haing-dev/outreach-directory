@@ -34,6 +34,11 @@
   "status": "rolling",
   "url": "https://arcinstitute.org/programs/science-fellows"
  },
+ "arc institute|arc science fellows program": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://arcinstitute.org/programs/science-fellows"
+ },
  "astrazeneca|postdoctoral fellow, epigenetic mechanisms of anti-cancer drug resistance": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -64,6 +69,11 @@
   "status": "rolling",
   "url": "https://job-boards.eu.greenhouse.io/bioptimus8/jobs/4918287101"
  },
+ "broad institute|eric and wendy schmidt center postdoctoral fellowship (2027 cohort)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://ericandwendyschmidtcenter.org/become-a-fellow"
+ },
  "broad institute|eric and wendy schmidt center postdoctoral fellowship (2027 cycle)": {
   "sent": "2026-10-30",
   "status": "open",
@@ -73,6 +83,11 @@
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://www.broadinstitute.org/talks/fall-2026/mia"
+ },
+ "broad institute|models, inference & algorithms (mia) seminar series, fall 2026": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.broadinstitute.org/scientific-community/science/mia/models-inference-algorithms"
  },
  "broad institute|visiting scientist program (broad brain research site)": {
   "sent": "2026-10-30",
@@ -98,6 +113,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://fundingopportunities.caltech.edu/opportunities/detail/1541"
+ },
+ "caltech|visiting graduate student / visiting student researcher (arranged via caltech faculty, e.g. quantitative and systems biology groups)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://qse.caltech.edu/qseopportunities/visiting-students"
  },
  "caltech|visiting student researcher (vsr)": {
   "sent": "2026-10-30",
@@ -139,6 +159,16 @@
   "status": "opens_soon",
   "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context"
  },
+ "embl-ebi|embl courses and conferences 2027 programme (embl-ebi and embl courses, workshops)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/20261009_GenericPoster_2027_Digital.pdf"
+ },
+ "embl-ebi|embl scientific visitor programme (phd student visits to embl-ebi groups)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.embl.org/about/info/scientific-visitor-programme/fellowships/"
+ },
  "embl-ebi|embl scientific visitor programme – visiting predoctoral fellow (hosted at embl-ebi group)": {
   "sent": "2026-10-30",
   "status": "rolling",
@@ -158,6 +188,16 @@
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://www.ebi.ac.uk/training/events"
+ },
+ "embl-ebi|embl-ebi: introduction to rna-seq and functional interpretation (2027, virtual course)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://www.ebi.ac.uk/training/events/introduction-rna-seq-and-functional-interpretation-2027/"
+ },
+ "embl-ebi|embo practical course: multi-omics data integration and visualisation (2027)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/20260729_GenericPoster_2027_digital.pdf"
  },
  "embl-ebi|primer for predocs 2026 (embl-ebi)": {
   "sent": "2026-10-30",
@@ -183,6 +223,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://www.crick.ac.uk/whats-on/cbias-napari-workshop-2026"
+ },
+ "francis crick institute|crick pace postdoctoral fellowship (crick + partner university: kcl, ucl or imperial)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://www.jobs.ac.uk/job/DTC966/crick-pace-postdoctoral-fellowship"
  },
  "francis crick institute|crick pace postdoctoral fellowship (future option after your phd)": {
   "sent": "2026-10-30",
@@ -249,6 +294,11 @@
   "status": "unknown",
   "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
  },
+ "harvard university|hms division of medical sciences visiting fellows program (gsas non-degree status)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://www.hms.harvard.edu/DMS/Prospective%20Students/visitingfellows.html"
+ },
  "harvard university|hms visiting graduate student appointment (department-sponsored)": {
   "sent": "2026-10-30",
   "status": "rolling",
@@ -299,10 +349,25 @@
   "status": "open",
   "url": "https://ericandwendyschmidtcenter.org/become-a-fellow"
  },
+ "mit|eric and wendy schmidt center postdoctoral fellowship (broad institute of mit and harvard) - for future postdoc stage": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://ericandwendyschmidtcenter.org/become-a-fellow"
+ },
  "mit|mit visiting graduate student (research visit hosted by an individual lab or pi)": {
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://oge.mit.edu/graduate-admissions/programs/exchange-special-visiting-students"
+ },
+ "mit|mit visiting student (research visit, pi-invited)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://oge.mit.edu/graduate-admissions/programs/exchange-special-visiting-students"
+ },
+ "mrc laboratory of molecular biology|lmb phd studentship 2027 entry (open competition; includes computational project e.g. david barford 'machine learning for finding macromolecules in cells')": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://mrclmb.ac.uk/careers-and-people/phd-students/research-projects/"
  },
  "mrc laboratory of molecular biology|lmb postdoctoral positions and fellowships (group-level posts and external fellowship applications)": {
   "sent": "2026-10-30",
@@ -313,6 +378,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://www.nygenome.org/careers/genomicaifellows/"
+ },
+ "new york genome center|nygc postdoctoral training program": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
  },
  "new york genome center|nygc postdoctoral training program (postdoc positions in individual labs)": {
   "sent": "2026-10-30",
@@ -394,10 +464,20 @@
   "status": "rolling",
   "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
  },
+ "stanford university|guolan lu lab: visiting graduate students (biomedical imaging, ai and computational biology)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://med.stanford.edu/guolanlulab/Joining.html"
+ },
  "stanford university|visiting student researcher (vsr) / graduate visiting researcher via a stanford faculty host (genetics, biomedical data science, biomedical informatics labs)": {
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://ed.stanford.edu/scholars/vsr"
+ },
+ "stanford university|visiting student researcher (vsr) status at stanford (faculty-hosted)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://doresearch.stanford.edu/policies/research-policy-handbook/non-faculty-research-appointments/visiting-student-researchers"
  },
  "the institute of cancer research|eric and wendy schmidt ai in science postdoctoral fellowship (joint with icr, imperial-led)": {
   "sent": "2026-10-30",
@@ -434,6 +514,11 @@
   "status": "unknown",
   "url": "https://ucl-blic.github.io/LearnBioinformatics"
  },
+ "university college london|ucl independent visiting research student (central scheme)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.ucl.ac.uk/prospective-students/international/study-abroad-and-exchange/applying-independent-visiting-research-student"
+ },
  "university college london|ucl summer school - cancer: science and impact": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -449,6 +534,31 @@
   "status": "rolling",
   "url": "https://www.postgraduate.study.cam.ac.uk/apply/how/visiting-students"
  },
+ "university of cambridge|cancer genomic epidemiology (wellcome connecting science course)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/"
+ },
+ "university of cambridge|genome informatics (wellcome connecting science conference)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/"
+ },
+ "university of cambridge|long read sequencing: platforms, approaches and applications (wellcome connecting science course)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/long-read-sequencing-platforms-approaches-and-applications-20270314/"
+ },
+ "university of cambridge|university of cambridge visiting phd students (department-by-department; no central scheme)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.postgraduate.study.cam.ac.uk/apply/how/visiting-students"
+ },
+ "university of cambridge|wellcome connecting science courses and conferences (full catalogue)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/courses/"
+ },
  "university of cambridge|wellcome connecting science online courses: bioinformatics for biologists (linux, bash, r; and analysing and interpreting genomics datasets)": {
   "sent": "2026-10-30",
   "status": "open",
@@ -463,6 +573,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://demography.ox.ac.uk/news/oxford-statistical-genomics-summer-school"
+ },
+ "university of oxford|recognised student status for visiting graduate research students (oxford graduate admissions)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://www.ox.ac.uk/students/new/visiting"
  },
  "university of oxford|university of oxford international visiting researchers": {
   "sent": "2026-10-30",
@@ -484,6 +599,16 @@
   "status": "open",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/"
  },
+ "wellcome sanger institute|cancer genomic epidemiology (wellcome connecting science course)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/"
+ },
+ "wellcome sanger institute|genome informatics (conference)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/"
+ },
  "wellcome sanger institute|genome informatics (conference, wellcome genome campus)": {
   "sent": "2026-10-30",
   "status": "open",
@@ -494,6 +619,11 @@
   "status": "open",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/long-read-sequencing-platforms-approaches-and-applications-20270314/"
  },
+ "wellcome sanger institute|long read sequencing: platforms, approaches and applications (wellcome connecting science laboratory course)": {
+  "sent": "2026-11-02",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/long-read-sequencing-platforms-approaches-and-applications-20270314/"
+ },
  "wellcome sanger institute|organoids and beyond: from development to disease (conference)": {
   "sent": "2026-10-30",
   "status": "opens_soon",
@@ -501,6 +631,11 @@
  },
  "wellcome sanger institute|sanger core postdoctoral fellowships (faculty-recruited roles, via workday)": {
   "sent": "2026-10-30",
+  "status": "rolling",
+  "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+ },
+ "wellcome sanger institute|sanger institute core postdoctoral fellowships and posts (via workday)": {
+  "sent": "2026-11-02",
   "status": "rolling",
   "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
  },
@@ -518,6 +653,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://www.sanger.ac.uk/about/study/phd-programmes/"
+ },
+ "wellcome sanger institute|wellcome connecting science financial support (bursaries for courses and conferences)": {
+  "sent": "2026-11-02",
+  "status": "rolling",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/about-us/financial-support/"
  },
  "wellcome sanger institute|wellcome sanger institute 4-year phd programme (2027 intake)": {
   "sent": "2026-10-30",
