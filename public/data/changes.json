@@ -2,9 +2,957 @@
  "weeks": [
   {
    "week": "2026-11-06",
-   "generated_at": "2026-11-06T08:03:33+00:00",
+   "generated_at": "2026-11-06T16:05:20+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "other-ding",
+     "entry_name": "Ding Lab",
+     "text": "PI is still at Washington University in St. Louis, with no move found. This rests on the lab people page and the WashU oncology faculty page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ding",
+     "entry_name": "Ding Lab",
+     "text": "The members page does not say who is current, so the list assumes the Postdocs and Graduate Students sections are current. I did not check the page's last-updated date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ding",
+     "entry_name": "Ding Lab",
+     "text": "No individual profile links, years or emails are published on the members page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ding",
+     "entry_name": "Ding Lab",
+     "text": "Evan Peng is listed as an MD, so their status as a PhD student is uncertain."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ding",
+     "entry_name": "Ding Lab",
+     "text": "Yizhe Song and Kyowon Koo have no research focus stated, and their roles are as the page lists them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "No move: the PI holds a joint appointment at Arc Institute and Stanford."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "The members page lists no postdocs, although Stanford's postdoc site advertises an open postdoc position under Hie."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "Yasa Baig (Stanford Bioengineering) is listed only as a PhD rotation student, so I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "The page has no per-member research descriptions, profile links or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "The page has no update date, so I could not check how recent the roster is."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab",
+     "text": "The fetched Arc lab page gave no individual profile links or member emails. The only contact is the lab address join-hsulab@arcinstitute.org, with a requested subject format of [POSITION] - [RESEARCH INTEREST] - Your Name - Brief Description."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab",
+     "text": "Affiliation is inconsistent across sources. The current Arc page says Assistant Professor of Pathology at Stanford. Cached or older Arc page snapshots in search results say Assistant Professor of Bioengineering at UC Berkeley. I treated Stanford as current but could not confirm a move or the exact d"
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab",
+     "text": "Search snapshots of older or alternate Arc pages list other people, including Kiki Chu (lab manager), Vincent Tran, Sita Chandrasekaran, Alison Fanton, Nicholas Perry and several senior scientists. I could not confirm their current status, so they are left out. Some of these may be current students "
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab",
+     "text": "The page does not state members' degree status or year. The graduate students are listed with their home PhD programs only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-hsu",
+     "entry_name": "Hsu Lab",
+     "text": "Arc is advertising 2026 postdoc openings in the Hsu Lab: ML for Biology, Biological Design, and Bridge editing. The ML for Biology role may suit a computational student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab",
+     "text": "No move detected: the PI is still at Arc Institute and Stanford."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab",
+     "text": "The lab page lists only 1 postdoc and 1 PhD student. Fangping Wan (ML Research Scientist) and several scientists are staff, so they are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab",
+     "text": "A search snippet from an Arc preview site lists Jingyi Wei as a Stanford Bioengineering graduate student. I did not see this on the official page, so Wei is not included. This may be a stale or new listing."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab",
+     "text": "The official page has no individual member profile links or personal emails. The only contact is join-konermannlab@arcinstitute.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-konermann",
+     "entry_name": "Konermann Lab",
+     "text": "Arc has posted a computational postdoc role shared between the Konermann and Goodarzi labs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab",
+     "text": "I could not verify the Arc Institute listing. Song's Berkeley statistics profile does not mention Arc, and the search found no Arc page naming him. The hint says he is an Arc Ignite awardee, which may be a grant and not an appointment. His institution is still UC Berkeley."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab",
+     "text": "The members page gives no research focus or emails, and no year of study for anyone, so those fields are null or 'Not listed'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab",
+     "text": "Chengzhong Ye appears as both a postdoc and a former PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab",
+     "text": "I could not verify a Google Scholar URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "arc-song",
+     "entry_name": "Song Lab",
+     "text": "I did not open the Arc Institute pages or the Ignite award announcement."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab",
+     "text": "PI's primary appointment is MIT (Mathematics/EECS, CSAIL); the Broad listing is an associate-member affiliation. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab",
+     "text": "Lab members page shows no start years or dates, so the 'year' field is null and the page's currency could not be confirmed. Several names match a 2019-era roster, so some students may be near graduation or already graduated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab",
+     "text": "No individual member emails are published on the page. The general lab contact is bab@mit.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab",
+     "text": "David Kwabi-Addo was excluded because he is listed as an MEng student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-berger",
+     "entry_name": "Berger Lab",
+     "text": "The Broad Institute page was not checked directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "The Broad Institute listing is not supported by what I found. The lab pages I opened list the PI only as MIT faculty (Biology and Biological Engineering). I did not check Broad's own site, so an Associate Member appointment there is unconfirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "The members page was reached through an automated page-to-text fetch. It shows emails as 'name#mit.edu', which I converted to '@'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "I could not tell when the members page was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "Individual profile pages have empty 'Research focus' sections, so member research topics and years are unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-burge",
+     "entry_name": "Burge Lab",
+     "text": "I could not find a Google Scholar URL for the PI."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "joined: Ahmed Roman, PhD, Doris Fu, MS, Josephine Yates, PhD, Maha Shady, PhD, Riccardo Conci, MD, MPhil, Shreya Johri, PhD, Wenbin Mei, PhD; left: Ahmed Roman, Doris Fu, Josephine Yates, Maha Shady, Riccardo Conci, Shreya Johri, Wenbin Mei"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "No PI move: the PI is still at Dana-Farber/HMS with a Broad Institute Institute Member appointment. The lab's own site is hosted at Dana-Farber."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "The people page has no 'last updated' date. The footer reads ©2026 and the newest image folder is dated 2026-08."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "Profile links exist for only some members, and I could not see their URLs, so profile_url is null for everyone. No emails are published on the page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "The people page gives titles and programs but no research focus for members, so member focus entries are mostly 'not listed'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-allen",
+     "entry_name": "Van Allen Lab",
+     "text": "Year of study is not given for any member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "PI is still at the Broad Institute (Core Institute Member) with a Harvard appointment; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "The team page gives no start years, individual profile links or individual emails. The only email is the general lab contact, chenf@broadinstitute.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "An older mirror of the people page (feichenlab.squarespace.com/people) is outdated: it lists people now shown as alumni (Hattie Chung, Ehsan Habibi, Andy Russell, Sophia Liu, Jeremy Koob, Dawn Chen). I used the current insitubiology.org/team page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "Some Harvard programs are named on the team page, but I did not check them against other sources."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-chen",
+     "entry_name": "Chen Lab",
+     "text": "The Google Scholar URL was not verified, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "No move: the PI holds a dual Broad Institute and Harvard (Stem Cell and Regenerative Biology) appointment. The Broad listing says 'Core Institute Member'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "The people page gives no research focus, year, profile links or emails, so those fields are null. The page is a text list that I could not date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "The 'Graduate Student' entries are listed as PhD students, which I assumed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-buenrostro",
+     "entry_name": "Buenrostro Lab",
+     "text": "Search results mention a lab coordinator (staff, excluded) and say the PI is an HHMI investigator (from a social media post, not checked on an official page)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "PI has not moved. She is still at Harvard Medical School / Brigham and Women's Hospital, so the 'Associate Member (Broad)' listing is a secondary affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "The members page lists no current PhD students. The only graduate student named, Julian Segert, is under alumni."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "The members page has no update date, and it may be out of date. Other sources name Brent Carroll as a lab member and Kaia Mattioli as having moved to the lab, and neither appears on the page I fetched. I could not confirm their roles or whether they are current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "Luca Mariani is listed as an instructor, not a postdoc, so I excluded him."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-bulyk",
+     "entry_name": "Bulyk Lab",
+     "text": "The lab website had no individual profile pages for members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab",
+     "text": "I found no dedicated people/members page. The URLs /people, /team, /members and /lab-members all returned 404. The home page has no navigation menu or roster, so I could not verify any postdoc or PhD student roles and left the members list empty rather than guess."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab",
+     "text": "The home page news mentions first names only, with no roles: Amy, Thara, Hue, Arya Kaul (defended his PhD in April 2026, so now an alumnus), Fernando, Kepler, Ellie Rand, Sam, Karel Brinda, Simone, Natalia Quinones-Olvera, Siân, Laura and others. Mariam joined as a postbac technician in September 20"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab",
+     "text": "The PI is still at Harvard Medical School, so I found no institutional move. The Broad Institute is a secondary affiliation, consistent with the 'Associate Member' hint."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab",
+     "text": "The home page says an NIH R35 and two NSF grants were terminated in May 2025. This may affect the lab's capacity to take new trainees, so check funding with the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-baym",
+     "entry_name": "Baym Lab",
+     "text": "The home page was recently updated (news through September 2026)."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "joined: Alice Tang, Greg Raskind, Nicole Peiris, Nil Aygun, Peter (Youyun) Zheng, Sean Misek, Shahab Sarmashghi, Simona Dalin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "No move detected: PI remains at Dana-Farber/Harvard with an Associate Member appointment at the Broad. The Broad listing is secondary, not the primary employer."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "The Broad listing hint says 'Associate Member (DFCI)', which matches this."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "The PI's title appears as 'Assistant Professor' in one search summary but 'Associate Professor' on the lab site; verify the current rank on the Dana-Farber page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "The 'Students' section does not explicitly state PhD status; I treated them as PhD students, so please verify. Some may be rotation, master's or other trainees."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-beroukhim",
+     "entry_name": "Beroukhim Lab",
+     "text": "Postdocs are labelled 'Research Fellows' on the page; some may be clinical fellows (e.g., Tamar Berger)."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "left: Joel Hochstetter, Tal Agranov"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "PI is still at the University of Cambridge; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "The members page lists 11 names with no roles: Tal Agronov, Lemonia Chatzeli, Joel Hochstetter, Hyeryun Kwon, Qiuyu Lian, Ivan Lobaskin, Shay Melamed, Sanne van Neerven, Laurien van de Weijer, Yanbo Yin, Sebastiaan Zijl."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "The members list is empty because the page gives no roles, so I couldn't separate postdocs and PhD students from staff. A search snippet listed Joel Hochstetter as a PhD student, from a possibly outdated physics directory. It also named Sanne van Neerven in a job ad, with no role given."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "The Gurdon Institute pages returned 403, and the physbiol directory and simons.group.gurdon.cam.ac.uk could not be loaded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-simons",
+     "entry_name": "Simons Group",
+     "text": "The PI's published email (bds10@cam.ac.uk) appears on the stemcells.cam.ac.uk page."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "joined: Alan Jeffares, Hao Sun, Jeroen Berrevoets, Nabeel Seedat, Sam Holt, Yangming Li; left: Anita Kriz, Antonin Berthon, Benjamin Lapostolle, Chris Chiu, David Nelischer, Haaris Mian, Harry Amad, Jackson Harmon, Luca Muscarnera, Qinghao Wen"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "No current postdocs could be verified. The only page I could read is titled 'research team old', and the postdocs on it are all listed as alumni (Imrie and Qian left in 2024). The current team page at /team/ is password-protected."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "The PhD list comes from that 'old' page, so some students may have graduated. A 2025 graduates page exists (https://www.vanderschaar-lab.com/2025-phd-graduates/) and names Marika Niihori, who is not on the list. I did not open it, so check the roster before contacting anyone."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "The page showed no emails (the links are placeholders), and the contact page is https://www.vanderschaar-lab.com/contact-us/."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "The page's social links for Paulius Rauba look duplicated from Alan Jeffares, so I left his profile blank."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-schaar",
+     "entry_name": "van der Schaar Lab / Cambridge Centre for AI in Medicine",
+     "text": "The lab URL from discovery (eng.cam.ac.uk/node/5873) was showing a maintenance notice."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group",
+     "text": "Could not open the official people/members page (403 errors), so no current postdocs or PhD students were verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group",
+     "text": "Jocelyn Quistrebert, Zhiqing Wang, Yuguang Zhao and Emily Rowland were listed as speakers from the Ansari and Jones groups at a 2023 lunchtime talk. I could not confirm their roles or whether they are current, so I left them out of the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group",
+     "text": "The PI's Oxford affiliation was confirmed by a 2024 seminar listing and by Oxford staff pages that appear in search results. No move was found. The pages themselves were not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group",
+     "text": "The group's own website URL and the PI's Google Scholar URL were not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ansari",
+     "entry_name": "Host-pathogen genomics group",
+     "text": "The only dated information is a 2022-23 GMS project profile and a May 2024 seminar. Re-check the group's current status."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "left: Alina Nicheperovich, Irdina Nadziruddin, Lan Xue, Mohamed R. Shoeb, Thomas McMahon, Zhengkuan Tang, Zohar Etzioni"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "Members page could not be opened (HTTP 403 on all ludwig.ox.ac.uk and ox.ac.uk pages), so current postdocs and PhD students are unverified and the list is empty. Check the page manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "No PI move found: the Ludwig Oxford and Ludwig Cancer Research pages still list him at Oxford, leading the group since 2013. I could not open the Oxford news item that was the original source."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "Google Scholar profile not found, so scholar_url is null. His ORCID is https://orcid.org/0000-0002-8892-5133."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "Public contact address from the Ludwig Cancer Research page: benjamin.schuster-boeckler@ludwig.ox.ac.uk (PI only)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-schuster-b-ckler",
+     "entry_name": "Computational Genomics Group",
+     "text": "A senior postdoc ad (genomics of myeloid disorders) closed in June 2025, and a DPhil studentship on single-molecule detection of mutations in non-clonal cells (co-supervised with Skirmantas Kriaucionis) was listed. I did not check whether either is still open."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism)",
+     "text": "Members page could not be opened (403 from CHG/Wellcome, BDI and NDM pages), so no current postdocs or PhD students were verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism)",
+     "text": "A search-result summary of the Wellcome/CHG page named DPhil students Jenny Censin and Peter Strain, but this is unverified and may be outdated, so they are not listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism)",
+     "text": "Sources disagree on the PI's title and affiliation: Big Data Institute Director per a Leverhulme page and the discovery news item, versus Director 2021 to early 2024 per an Oxford Statistics page. One search summary mentioned a newer BDI director appointment, which I couldn't verify. No move away fr"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism)",
+     "text": "Lab URL supplied by discovery (a BDI news article) is not a lab page; the CHG group page is used instead."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-lindgren",
+     "entry_name": "Lindgren Group (Genomic Endocrinology & Metabolism)",
+     "text": "Google Scholar URL not verified, so left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG)",
+     "text": "PI has taken a senior external role: UKRI lists Charlotte Deane as Executive Chair of EPSRC. Search results say she remains affiliated with Oxford and still leads OPIG, but her day-to-day availability for new students is uncertain."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG)",
+     "text": "Still at the University of Oxford (Department of Statistics), so no institutional move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG)",
+     "text": "The members page shows no start years and no last-updated date, so the 'year' field is null for everyone. Its most recent dated item is a blog post from April 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG)",
+     "text": "No emails are published on the members page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-deane",
+     "entry_name": "Oxford Protein Informatics Group (OPIG)",
+     "text": "Several profile links are LinkedIn pages rather than official pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics)",
+     "text": "The BDI team pages (bdi.ox.ac.uk/Team and /Team/chris-holmes) returned 403 errors, so the group's own people page was not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics)",
+     "text": "The student list comes from the Statistics department profile and may be outdated. Some of these students may have graduated, and the postdoc list is empty on that page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics)",
+     "text": "No move found. Holmes is still at Oxford (Statistics and BDI)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics)",
+     "text": "PI email published on the Statistics page: cholmes@stats.ox.ac.uk."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-holmes",
+     "entry_name": "Holmes Group (Biostatistics in Genomics)",
+     "text": "Visa note: a UK role would likely need a visa for a Canadian student."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "left: Adam Fowler, Francesco Di Lauro, Hsu Hnin (Sandra) Mon"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "The group, PI profile and people pages returned HTTP 403, so no current postdoc or PhD student list could be verified. Members are left empty rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "Search snippets show the PI with Pandemic Sciences Institute and NDM affiliations alongside the older Big Data Institute listing. This suggests a shift of primary affiliation to PSI, but I could not confirm it on the pages themselves."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "Snippets of undated profiles give conflicting group sizes: 5 postdocs and 5 PhD students in one, 9 postdocs in another."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "The UK role would likely need a visa for a Canadian student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-fraser",
+     "entry_name": "Pathogen Dynamics Group",
+     "text": "The Google Scholar URL was not found, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance",
+     "text": "The PI's current institution is Oxford (Big Data Institute). I did not see a move away from Oxford. A search summary said he moved from the Sanger Institute to Oxford around 2021, and his Sanger profile is historical."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance",
+     "text": "The BDI profile page returned 403, so the PI's title comes from the search snippet and the team page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance",
+     "text": "The team page lists no one with a postdoc title. Sophia David (Senior Research Fellow) is the closest, but I treated her as staff and did not include her."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance",
+     "text": "Only one PhD student was found. The page may be incomplete or out of date, and I could not verify when it was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-aanensen",
+     "entry_name": "Centre for Genomic Pathogen Surveillance",
+     "text": "No individual emails are published. The only contact is the general address info@pathogensurveillance.net."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab",
+     "text": "The PI is still at the University of Oxford, so no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab",
+     "text": "The team page gives no research focus, year or email for any member. Individual profile pages were not opened, so the focus lines are mostly unfilled."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab",
+     "text": "The team page lists the first six students' names as given; the page spells one student 'Mudith Jayasekera', while his IBME profile URL uses 'jayasekara'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab",
+     "text": "Other staff such as Senior Research Associates, a Departmental Lecturer, a Kellogg Research Fellow and an NIHR clinical fellow are on the page but excluded because they are not postdocs or PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-clifton",
+     "entry_name": "Computational Health Informatics (CHI) Lab",
+     "text": "Yu Liu appeared in search results as a postdoc working with Tingting Zhu but is not on the CHI team page, so is not listed."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "joined: Sophie Ding; left: Henry Lloyd-Laney, Xuefei (Sophie) Ding"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "No PI move found: Gavaghan is still listed at Oxford Computer Science."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "The people page only groups people under 'Research' and 'Students'. Postdoc and PhD roles are inferred from those headings, and I did not open the individual profiles. The 'Research' group could include non-postdoc research staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "No emails, years or research focus were published on the people page. Individual profile pages were not checked, so emails and focus could be added from them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "No Google Scholar profile is linked from the PI's page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-gavaghan",
+     "entry_name": "Computational Biology Group",
+     "text": "The student may need a UK visa for an Oxford role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group",
+     "text": "Members page could not be fetched (HTTP 403), so no current postdocs or PhD students were verified; the list is empty rather than complete."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group",
+     "text": "The group site has a 'Current and former group members' section that should be checked manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group",
+     "text": "PI still appears at Oxford (Wellcome Centre for Human Genetics) in the listings found; no move detected, but the lab pages were not readable and the supervisor listing may be dated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group",
+     "text": "Emilie Wigdor was named as a speaker with the group in Oxford lab-talk listings (2024-2025), but her role is unconfirmed, so she is not listed as a member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-band",
+     "entry_name": "Statistical Genomics Group",
+     "text": "A supervisor listing gives the contact email gavin.band@well.ox.ac.uk, but I could not open the page to verify it."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "left: Daiki Tagami"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "The listed page is only a PI profile. It has no group members section, and I found no official lab people page, so no members are listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "The BDI profile page (bdi.ox.ac.uk/Team/jerome-kelleher) returned 403, so I could not read it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "The tskit.dev/community page lists Oxford-affiliated contributors, such as Duncan Robertson (DPhil student, BDI), Daiki Tagami (Statistics PhD student) and Hossameldin Ali (postdoctoral research assistant). It does not say they are in Kelleher's group, so I excluded them. Check them manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "A search result for the Oxford NDM page for Kelleher (ndm.ox.ac.uk/team/jerome-kelleher) suggests an NDM associate professorship. I did not open it, so his current title is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-kelleher",
+     "entry_name": "Kelleher Group (Biomedical Data Science / tskit)",
+     "text": "The PI appears to remain at Oxford with no move found, but the title and any recent changes need checking against the official BDI profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics)",
+     "text": "The PI is still at Oxford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics)",
+     "text": "The lab people page does not list research focus or email addresses, and I did not open the individual profile pages. Member focus fields are therefore unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics)",
+     "text": "The Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics)",
+     "text": "The discovery URL is a department listing of Computational Biology and Bioinformatics people, not the lab's own page. The lab site is palamaralab.github.io."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-palamara",
+     "entry_name": "Palamara Group (Statistical and Population Genetics)",
+     "text": "Research software engineers Fergus Cooper and James Briant are staff and are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems)",
+     "text": "The members page is undated and appears outdated. It lists 3 postdocs and 4 DPhil students (Dobramysl, Robinson, Sturrock; Franz, Liao, Kursawe, Plesa) that I could not confirm are current, so I left the member list empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems)",
+     "text": "The page gives no individual links, emails or start years."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems)",
+     "text": "No PI institutional move found; the Oxford Mathematical Institute affiliation is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems)",
+     "text": "PI email published on his Oxford page: erban@maths.ox.ac.uk"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-erban",
+     "entry_name": "Erban Group (mathematical and computational methods for biological systems)",
+     "text": "Google Scholar URL not seen, so left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics)",
+     "text": "The lab people page has no last-updated date. Its footer says 2024, so the roster may be out of date. Verify the current members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics)",
+     "text": "The Oxford Statistics group page (stats.ox.ac.uk/people-computational-biology-and-bioinformatics/8) lists other DPhil students who are not on the lab page and may not be Myers students: Daniel de Vassimon Manela, Sam Money-Kyrle, Fabian Spoendlin, Daiki Tagami, Isak Valsson, Oliver Turnbull (SABS CD"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics)",
+     "text": "Brynelle Myers is listed as a lab-based experimental researcher, not a postdoc or PhD student, so she is excluded from members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics)",
+     "text": "I found no sign that the PI has moved. He is still listed at Oxford (Statistics and the Centre for Human Genetics)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-myers",
+     "entry_name": "Myers Group (Mathematical Genomics)",
+     "text": "I did not verify a Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI)",
+     "text": "PI move: Ideker has been appointed Director of the Oxford Big Data Institute (2026), succeeding Interim Director Eva Morris. He keeps UCSD adjunct ties, and most members are still listed at UCSD."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI)",
+     "text": "The members page shows no last-updated date. It lists some members with Oxford affiliations (Agbaedeng, Chen, Halmos), which suggests a transition."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI)",
+     "text": "The main lab site idekerlab.ucsd.edu redirected to idekerlab.org, which pointed back to the idekerlab.ucsd.edu people pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI)",
+     "text": "The members page gives no individual research focus, year, or personal pages. The profile links are LinkedIn and Google Scholar only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ox-ideker",
+     "entry_name": "Ideker Group (systems biology, AI)",
+     "text": "Sungjoon Park is listed as a Research Scientist, not a postdoc, so is excluded."
+    },
     {
      "type": "members_changed",
      "entry_id": "ucl-zaccaria",
