@@ -2,9 +2,945 @@
  "weeks": [
   {
    "week": "2026-11-07",
-   "generated_at": "2026-11-07T08:58:52+00:00",
+   "generated_at": "2026-11-07T15:52:51+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab",
+     "text": "The PI's primary appointment is Mass Eye and Ear / Harvard Ophthalmology. The Broad affiliation is only an associate membership, so the lab is not Broad-based. I found no move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab",
+     "text": "The PI's rank differs between Harvard and Mass Eye and Ear pages (assistant vs associate professor). Confirm the current title."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab",
+     "text": "The team page shows 'Page updated' with no date, so its currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab",
+     "text": "Only one PhD student is listed. The postdocs' research focus is not stated on the page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-segre",
+     "entry_name": "Segre Lab",
+     "text": "I did not find a verified Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab",
+     "text": "The lab's own site (lareaulab.org) was unreachable, so the roster comes from the CCB profile page and is unverified and possibly outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab",
+     "text": "The CCB page lists no postdocs. The lab site may list some."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab",
+     "text": "Maria McSharry is listed as a Designated Emphasis student, not a primary PhD student, so she is excluded from members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab",
+     "text": "No member emails were checked. The only published email found is the PI's: lareau@berkeley.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-lareau",
+     "entry_name": "Lareau Lab",
+     "text": "The CZ Biohub news page (undated) calls her an assistant professor. Her Bioengineering profile lists Associate Professor from 2025, so I used that title."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting)",
+     "text": "The PI is labelled 'Incoming/Outgoing' on the EMBL-EBI pages. No destination or date is given, and no move to another institution was found in searches. Check with the PI directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting)",
+     "text": "The members page lists no PhD students (no predoctoral fellows), only two postdocs, and gives no update date. It may be outdated or incomplete."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting)",
+     "text": "Emails were published on the page in the form 'name [at] ebi.ac.uk' and are converted here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting)",
+     "text": "The PI's Google Scholar URL was not found, so it is null. The PI's ORCID is 0000-0002-8294-2995."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-petsalaki",
+     "entry_name": "Petsalaki Group (visiting)",
+     "text": "The page gives no focus for any member, so the two postdoc entries have no stated research topic."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-thornton",
+     "entry_name": "Thornton Group (visiting)",
+     "text": "The members page loaded but showed no member names, so no postdocs or PhD students could be verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-thornton",
+     "entry_name": "Thornton Group (visiting)",
+     "text": "The group site says it is no longer able to take on new students, trainees or postdoctoral fellows."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-thornton",
+     "entry_name": "Thornton Group (visiting)",
+     "text": "Janet Thornton is listed as Director Emeritus and Senior Scientist (Royal Society and EMBL profiles). I found no move away from EMBL-EBI."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-thornton",
+     "entry_name": "Thornton Group (visiting)",
+     "text": "The PI's Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group",
+     "text": "The PI is still at EMBL-EBI as Head of Research. No move was found. The group runs a second site at Heidelberg University, so some members may sit there and not appear on the EBI page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group",
+     "text": "The EBI members page has no last-updated date (footer says Copyright EMBL 2026). The lab says saezlab.org has the most up-to-date information. I could not retrieve its team page, so the roster is unverified against it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group",
+     "text": "The members page gives no years or research focus for anyone, so those fields are null or 'not stated'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group",
+     "text": "Emails are shown on the official page as 'name [at] ebi.ac.uk'. I converted them to standard form."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-saez-rodriguez",
+     "entry_name": "Saez-Rodriguez Group",
+     "text": "PhD students are listed as 'Predoctoral Fellow'. Several are 'Visiting' fellows. Visiting postdocs and predocs are included but may be short-term."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "joined: Xiaofan Xiong"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "PI is moving or has moved from EMBL-EBI to the University of Zurich. The EBI page labels her 'Visiting Group Leader (outgoing)', and her UZH bio describes the group as transitioning from EMBL-EBI to UZH."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "The UZH members page is the more complete roster. The EBI members page now lists only the PI, one visitor (Callum Tromans-Coia, not a postdoc or PhD student) and Xiaofan Xiong."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "The EBI page shows the email as 'xiaofan [at] ebi.ac.uk'. I wrote it out as xiaofan@ebi.ac.uk."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "The UZH page doesn't give research focus or email addresses for members, and I didn't look up individual profiles."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-uhlmann",
+     "entry_name": "Uhlmann Group (visiting)",
+     "text": "No Google Scholar URL was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory",
+     "text": "I could not open the members page or the lab page (HTTP 403). The member names and roles come from a search-result summary of the members page. I did not check them against the page, and I could not get research focus, profile links or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory",
+     "text": "No PI move found. The Crick still lists Fröhlich as Group Leader."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory",
+     "text": "A postdoc position in the lab was advertised with a 24 September 2026 deadline, so the roster may have changed or be about to change."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory",
+     "text": "Non-target staff left out: Branwen Snelling (Senior Data Scientist) and Yoana Arroyo Berdugo (Senior Laboratory Research Scientist)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-fr-hlich",
+     "entry_name": "Dynamics of Living Systems Laboratory",
+     "text": "The lab's own site, frohlichlab.com, would not load."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "joined: Bailey Tischer, Laura Menendez Kury; left: Joao Silva, Tom Frith"
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "No PI move: Briscoe is still listed at the Francis Crick Institute (Principal Group Leader and Deputy Research Director)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "The Crick's own member page (crick.ac.uk/research/labs/james-briscoe) returned 403, so I could not cross-check the list against it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "A search snippet named Maddy Demuth and Jake Cornwall Scoones as PhD students and Rory Maizels as a postdoc. They are not on briscoelab.org/people.html, so they may be former members. I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "The members page has no date, so I can't tell how recent it is."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-briscoe",
+     "entry_name": "Developmental Dynamics Laboratory",
+     "text": "The page shows no start years, and it gives no focus for three of the four PhD students."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "left: Gaspar Sanchez-Serna, Nicolas Dierckxsens, Yuri Yepez (Yuri Belisario Yepez Mora)"
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "PI appears to have moved from the Francis Crick Institute/UCL to OIST (Okinawa, Japan). The OIST bio says he joined OIST in 2021 and was Dean of Research 2022-2024. The Crick listing is likely outdated. I could not open the Crick lab page (403) and found no source giving his exact Crick departure da"
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "The OIST members page lists no postdocs. Dr Nicolas Dierckxsens is a Research Scientist whose bio describes him as an interdisciplinary postdoc, so he is excluded here and could be treated as a postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "Excluded from the list: two rotation students (Kian Murray, Liudmila Poliushkevich), one undergraduate (Zikun Yang), and staff (technicians, staff scientist, research scientists)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "The members page does not publish emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-luscombe",
+     "entry_name": "Bioinformatics and Computational Biology Laboratory",
+     "text": "I could not confirm that the Crick 'Bioinformatics and Computational Biology Laboratory' still exists. Any remaining Crick roster is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory",
+     "text": "PI MOVED: Turajlic became Director of Cancer Research UK Manchester Institute in 2025, and the CRUK MI page lists her as leading the Cancer Dynamics group there. The Crick lab URL given in discovery may be outdated or only partly active, and I could not confirm whether the Crick lab is still running"
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory",
+     "text": "The Crick lab page returned HTTP 403, so I could not open its people page. I listed no members rather than guess."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory",
+     "text": "The CRUK MI Cancer Dynamics group page lists only the PI, with no postdocs or PhD students named."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory",
+     "text": "The Crick vacancies page (seen only in search results) says the group recruits PhD students, postdocs and bioinformaticians, but also says no vacancies are currently available. Its contact is samra.turajlic@crick.ac.uk. I did not confirm this email on the page itself, so treat it as unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-turajlic",
+     "entry_name": "Cancer Dynamics Laboratory",
+     "text": "I did not find a Google Scholar profile, so scholar_url is null. The PI's ORCID is https://orcid.org/0000-0001-8846-136X."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "left: Joe Padgett, Oliver Inge"
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "The Crick lab and people pages returned HTTP 403, so the roster comes from search-engine summaries of those pages, not from the pages themselves. Verify it directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "A search summary of the people page also listed Joe Padgett (postdoc), but I could not confirm him elsewhere, so I left him out. Check whether he is a current postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "Oliver Inge is listed in the summary of the people page as a postdoctoral research assistant, but another source says he was the lab's first Crick PhD student and has moved to the Morris lab at Harvard. I treated him as not current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "Alexandra Gunne-Braden co-led the early-commitment study and was a postdoc at the time. Her current status is unknown, so I did not list her."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-santos",
+     "entry_name": "Quantitative Stem Cell Biology Laboratory",
+     "text": "A lab Bluesky post mentions a PhD student named Isabela, who works on the cell cycle and cell fate in 2D and 3D stem cell models. I could not verify her full name or her place on the roster."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "joined: Dana Fakhreddine"
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "Crick pages returned 403, so the members page was not opened; the roster comes from search snippets and may be outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "PI's current institution (Crick, with a joint UCL appointment) is confirmed only by search snippets. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "A Bluesky post from the PI says the group is recruiting a PhD student. The group is based across UCL and the Crick."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "Harry Booth is listed as a Senior Laboratory Research Scientist, so I excluded him as staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "crick-hadjivasiliou",
+     "entry_name": "Mathematical and Physical Biology Laboratory",
+     "text": "No emails or Google Scholar URL were verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics)",
+     "text": "PI has not moved. He is still at the MRC LMB and holds a joint professorship at the University of Cambridge."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics)",
+     "text": "Neither the lab members page nor the LMB page states who is a postdoc and who is a PhD student. Both list current names without roles, years, research focus or emails. Members are therefore left empty rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics)",
+     "text": "Names listed as current on the lab page (roles unverified): Elizabeth Barsotti, Jiaqi Chen, Marc Corrales, Ana Correia, Damian Demarest, Saroja Ellendula, Daniel Franco Barranco, Samia Mohinta, Viggo Tröback, Scott Wilson, Yudi Wu, Yijie Yin."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics)",
+     "text": "The LMB page also lists Andre Ferreira Castro, Peter Hague, Albert Pelinovsky and Ana Jesus Correia Da Silva (Ana Correia on the lab page). The two rosters differ."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-cardona",
+     "entry_name": "Cardona Group (connectomics)",
+     "text": "Some current members have personal pages: Elizabeth Barsotti https://www.stepwide.org/posts/ebarsotti/, Marc Corrales https://histonemark.github.io/, Daniel Franco Barranco https://danifranco.github.io/, Yijie Yin https://yijieyin.github.io/index.html."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology)",
+     "text": "The official group page lists these people without roles, so I could not confirm who is a postdoc or PhD student and left the members list empty: Lucrezia Catapano, Jordan Dialpuri, Paul Emsley, Fei Long, Martin Maly, Alexander Shtyrov. Paul Emsley is a staff-level software lead with a personal page"
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology)",
+     "text": "Jordan Dialpuri appeared in one fetch of the group page but not in the search summary, so check the list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology)",
+     "text": "The PI is still at the MRC LMB, so I found no move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology)",
+     "text": "The Google Scholar link is on the LMB page, but I did not see the URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-murshudov",
+     "entry_name": "Murshudov Group (Computational structural biology)",
+     "text": "No separate lab website exists. Contact is through an LMB web form, and no email is published."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics)",
+     "text": "The PI is still at the MRC LMB, so there is no move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics)",
+     "text": "The lab people page has no date, and neither the lab page nor the LMB page gives individual focus areas, years or profile links. The roles in the members list come from the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics)",
+     "text": "The lab page and the LMB page disagree. The LMB page also lists Hana Babić, whose role is unknown, so I left her out. Myrto Mitletton is listed as an Investigator Scientist (staff), so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics)",
+     "text": "Markus Pleijzier appears on the lab page but not on the LMB group page. Check that they are current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-jefferis",
+     "entry_name": "Jefferis Group (connectomics)",
+     "text": "The lab's Bluesky feed says LMB was recruiting PhD students for October 2026, and applications closed in December 2025. New students may not yet be on the lab page, and some listed students may be near graduation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields)",
+     "text": "No PI move found: Joe Greener is still a Group Leader at the MRC LMB, in the Structural Studies Division. He joined the LMB as a Senior Investigator Scientist in Sept 2021 and became a Group Leader in Sept 2023."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields)",
+     "text": "The members page was last modified March 2026, and it gives no start years for current members, so year is null for all."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields)",
+     "text": "No member emails are published on the members page. The PI's address appears obfuscated on the LMB page and probably follows the form jgreener@mrclmb.ac.uk, but I inferred that and have not listed it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields)",
+     "text": "Ben Lehner (Wellcome Sanger Institute) is listed as an affiliated LMB Fellow. He is not a lab member, so I left him out of the members list. His work on genomics and generative models is more relevant to the student's interests."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-greener",
+     "entry_name": "Greener Group (biomolecular simulation / force fields)",
+     "text": "I did not find a Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics)",
+     "text": "PI moved from the Max Planck Institute for Biological Intelligence (Germany; he also has LMU Munich ties) to the MRC LMB in Cambridge as a Group Leader, announced September 2024."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics)",
+     "text": "The lab team page lists Hemesath, Rieger and Willenberg as current doctoral students. The LMB page does not list them, so they may still be at the Max Planck group or be out of date. Verify before contacting."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics)",
+     "text": "The LMB page listing is inconsistent: the search summary shows Teresa Wood, and the page fetch showed Alexandra Hovest. Neither is on the lab team page, and their roles are not stated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics)",
+     "text": "The team page gives no emails or start years. The PI's LMB contact is only an obfuscated web form."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-kornfeld",
+     "entry_name": "Kornfeld Group (connectomics)",
+     "text": "UK roles may need a visa for a Canadian student. The research is far from the student's cancer genomics interests."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics)",
+     "text": "The LMB page lists 33 names with no roles, so the postdoc and PhD student split could not be confirmed from it. The members list above is therefore incomplete and partly unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics)",
+     "text": "Other likely current members on the LMB page, with roles not confirmed: Tas Ahmed, Tho-Al Fakar Al-Aubodah, Kasra Bahadori, Ruzaika Cader, Michael Chen-Xu, Mark Cheng, Lioba Ester, Colin Lee, Sylvia Ling ZeQi, Nadia Mannion, Griffith Perkins, Benjy Tan, Giorgio Trivioli, Daisuke Tsukui, Joshua Wade,"
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics)",
+     "text": "Clinical lecturers and staff are excluded: Benjamin Stewart, Andrew Stewart, Ondrej Suchanek, James McCaffrey, Patrick Trotter, Kevin Loudon, Yang Cao (lab manager), Dimple Patel (assistant) and Rory Fitzroy (research assistant). Their roles come from the old lab members page, so they may have chang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics)",
+     "text": "The lab's own members page (clatworthylab.github.io) is dated around 2021–2022, so it is stale. I did not use it to list members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-clatworthy",
+     "entry_name": "Clatworthy Group (tissue immunology, single-cell genomics)",
+     "text": "The LMB page is the current institutional listing. The lab's older pages list the University of Cambridge and CITIID, so check how the two affiliations now relate."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION)",
+     "text": "No move: the PI is still listed at the MRC LMB, Cambridge."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION)",
+     "text": "The group people page lists no PhD students. The page has no update date, but it mentions April 2026, so it is at least that recent."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION)",
+     "text": "Simon Knoblauch's role is ambiguous: the page headings say postdoc and the text says he joined as a PhD student in 2025. He may be a PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION)",
+     "text": "The LMB research-leader page also lists Chloe Fisher, Daniel Ji, Alexey Murzin and Bogdan Toader, who are not on the group people page. Their roles were not verified, so I left them out. Toader appears on RELION materials as a postdoc working on deep-learning priors and optimisation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "lmb-scheres",
+     "entry_name": "Scheres Group (cryo-EM computational methods, RELION)",
+     "text": "No member emails are published. Postdoc enquiries go to Scheres by email, but no address is given."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab",
+     "text": "The PI has no institutional move. He is still a core member of NYGC and is now also Chair of the Department of Systems and Computational Biomedicine at Weill Cornell Medicine."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab",
+     "text": "The NYGC lab page lists no members. The members list comes from landaulab.org/about."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab",
+     "text": "The members page gives only each person's degree background. It lists no per-person project, start year, email or profile link, so year, email and profile_url are null and the focus field mostly records training background."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab",
+     "text": "Elliot Eton and Joe Pelt are Tri-Institutional MD-PhD students and are included as PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-landau",
+     "entry_name": "Landau Lab",
+     "text": "The page also lists MS students, technicians, a bioinformatics analyst, a data scientist, a lab manager and staff. These were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab",
+     "text": "No PI move found: still at the New York Genome Center with a Columbia University appointment. The search snippet's Columbia CS affiliation is a joint appointment, not a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab",
+     "text": "The NYGC page lists no members. The roster comes from the #people section of the lab homepage, which redirects from daklab.github.io to daklab.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab",
+     "text": "The roster page is very long, and only its first 100,000 of about 230,000 characters were read. Some members or alumni sections may have been missed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab",
+     "text": "No individual profile links or emails are published on the page. The only contact is the PI's general address, daknowles@nygenome.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-knowles",
+     "entry_name": "Knowles Lab",
+     "text": "Several members have no start dates listed, so currency of the roster could not be checked."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab",
+     "text": "PI MOVED: the University of Cambridge reporter lists Gürsoy as appointed in DAMTP from 1 April 2026. The NYGC faculty-labs page no longer lists her lab. The NYGC lab URL (nygenome.org/labs/gursoy-lab) redirects to a page that returns 404. The Columbia DBMI page still shows her as adjunct and a Core "
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab",
+     "text": "The directory's NYGC listing is outdated; the current lab site is g2lab.org, which describes the lab as at the University of Cambridge."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab",
+     "text": "Emails are published on the lab people page only in obfuscated 'name at domain' form. I left them null rather than reconstruct addresses. The pattern is cam.ac.uk for the Cambridge-based members and columbia.edu for the Columbia-based ones."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab",
+     "text": "The people page gives no student years. Several members still have Columbia affiliations, so the roster may be mid-transition between the two institutions."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-g-rsoy",
+     "entry_name": "Gürsoy Lab",
+     "text": "Kirill Nikitin (Associate Research Scientist) is excluded as staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-iossifov",
+     "entry_name": "Iossifov Lab",
+     "text": "No lab members page found. The NYGC lab page, the NYGC faculty page and iossifovlab.com list no postdocs or students, and iossifovlab.com/people and /research returned 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-iossifov",
+     "entry_name": "Iossifov Lab",
+     "text": "Hint confirmed: NYGC lists him as Associate Faculty Member with a joint Professor appointment at CSHL. No move found, but titles differ across sources (NYGC 'associate faculty' vs. 'core faculty' elsewhere, SFARI and The Transmitter list CSHL only), so confirm his current rank directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-iossifov",
+     "entry_name": "Iossifov Lab",
+     "text": "Only public email found is the PI's: iossifov at cshl.edu, shown on iossifovlab.com."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-iossifov",
+     "entry_name": "Iossifov Lab",
+     "text": "The student could contact the PI directly, or check the CSHL School of Biological Sciences pages for any students co-supervised by him."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "joined: Iraj Eshghi; left: Iraj Eshghi, PhD, Vaughn Rogers"
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "The NYGC lab page lists no members. The roster comes from the lab's own site, mskilab.org/our-team."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "The team page shows no years and marks no alumni, so currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "Emails on the team page are obfuscated, so none are recorded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "Vaughn Rogers, an MD/PhD rotation student, was excluded because they are not yet a PhD student in the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-imieli-ski",
+     "entry_name": "Imielinski Lab",
+     "text": "The PI holds a joint NYGC and NYU Grossman appointment. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab",
+     "text": "No PI move found: the NYGC page lists Satija at NYGC with an NYU Associate Professor appointment."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab",
+     "text": "The members page shows no individual research focus, profile links or last-updated date. The focus lines above give each person's degree background only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab",
+     "text": "The two graduate students are listed only as 'Graduate Student', with no PhD confirmation or year. The lab's join page says Biology program students are welcome."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab",
+     "text": "Emails come from the lab's people page, an official lab page, and were taken from a fetch summary."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-satija",
+     "entry_name": "Satija Lab",
+     "text": "Scholar URL not verified."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "joined: Andreas Torell"
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "The nygenome.org lab page lists no members. The roster comes from the lab's own site (vickovictechinnovation.com/ourteam)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "The team page gives no years or dates, so its last-updated date and the member years are unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "Member emails are taken from the lab team page. They are listed there, not on a nygenome.org people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "The Alumni section of the team page was truncated, so alumni could not be checked against the current lists."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-vickovi",
+     "entry_name": "Technology Innovation Lab (Vicković)",
+     "text": "Several members have dual or visiting affiliations: Uppsala University/SciLifeLab, NYU Sanjana Lab, and guest or visiting students."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "left: Jasper Panten, Josie Gleeson, Kristina Buschur, Leah Rosen, Marielle Bond, Marliette Matos, Omar Ahmed, Philipp Rentzsch, Scott Adamson, Winona Oliveros"
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "PI is listed at NYGC as Senior Associate Faculty, but she is a Professor at KTH and Director of SciLifeLab's National Genomics Infrastructure in Stockholm. Her past Columbia appointment (2014-2021) is no longer current, so this is a partial move away from New York."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "The team page has no last-updated date. It lists postdocs who joined as recently as Sept 2025."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "The team page gives emails in obfuscated 'at' form. They are transcribed here and were not checked beyond the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "Only one PhD student is listed as lab-based: Sulagna Dasgupta. Marliette Matos is a PhD candidate at Albert Einstein College of Medicine who collaborates with the lab, and she is not a lab-based student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-lappalainen",
+     "entry_name": "Lappalainen Lab",
+     "text": "The team page shows no individual profile URLs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab",
+     "text": "No PI move detected: the Scripps Research faculty page still lists Briney in the Department of Immunology and Microbiology at La Jolla."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab",
+     "text": "The people page labels them 'Graduate Student'. I recorded them as PhD students, but the page doesn't say PhD, so this is an assumption."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab",
+     "text": "The people page gives no years, research focus, emails or individual profile links. I read it through a page summarizer and didn't see the raw page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab",
+     "text": "The PI's title is inconsistent on the Scripps profile: the header says Professor and the experience section says Associate Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-briney",
+     "entry_name": "Briney Lab",
+     "text": "No Google Scholar link was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab",
+     "text": "No PI move found: Scripps Research is still listed as the PI's institution. The lab site itself doesn't name the PI, so this rests on the Scripps profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab",
+     "text": "The members page labels the three students 'Graduate Student' without saying PhD. Treating them as PhD students is an assumption, since they are listed as joint with other labs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab",
+     "text": "No individual profile links, emails or start years are published on the members page; only a general obfuscated lab email appears."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab",
+     "text": "Google Scholar URL not verified, so left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-andersen",
+     "entry_name": "Andersen Lab",
+     "text": "A US visa would likely be needed for the student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab",
+     "text": "The members page shows only first names (Pei, Tongkun, Chao, Shuhong, Fred, Ben) as photos. It gives no roles, so I could not tell postdocs from PhD students or staff, and I listed no members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab",
+     "text": "The institution comes from the logo and the scripps.edu navigation link. I did not find an official current Scripps page that confirms it, and the Scripps faculty profile URL returned a 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab",
+     "text": "I found no evidence of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab",
+     "text": "Older press images name Daniela Roth (research associate) and Darren Hutt (staff scientist). Both are staff, not trainees."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-balch",
+     "entry_name": "Balch Lab",
+     "text": "The student would need a US visa for a role here."
+    },
     {
      "type": "flag",
      "entry_id": "broad-shalek",
