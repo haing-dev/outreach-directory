@@ -2,9 +2,939 @@
  "weeks": [
   {
    "week": "2026-11-07",
-   "generated_at": "2026-11-07T02:13:16+00:00",
+   "generated_at": "2026-11-07T08:58:52+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "Could not verify current roles: the team page text did not tie names to roles and was truncated, so the member list is empty"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "Roster snapshots at ragoninstitute.org/shalek (about 2020) and ragonstaging.partners.org/shalek are outdated or staging pages"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "PI affiliations unchanged at the Broad Institute and MIT; no move found"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "Scholar URL, emails and individual profile links not verified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-shalek",
+     "entry_name": "Shalek Lab",
+     "text": "Focus and fit score come from prior knowledge, not from a lab page opened this session"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab",
+     "text": "No move found: the PI is at MIT Chemistry with a Broad Institute Associate Member appointment, so the Broad is a secondary affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab",
+     "text": "The team page lists Bojun Liu with the same email as Yumeng Zhang, which is probably an error, so Bojun's email is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab",
+     "text": "The team page gives no individual research focus or profile links for members; their focus fields are not filled in."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab",
+     "text": "The site footer reads © 2020 and the page shows no update date, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhang",
+     "entry_name": "Zhang Lab",
+     "text": "The PI's Scholar and MIT profile URLs were not seen, so they are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab",
+     "text": "The Broad Institute lists Smillie only as an Associate Member. The primary appointment is at MGH/HMS, so the Broad is not the main institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab",
+     "text": "No institutional move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab",
+     "text": "Emails come from the MGH CCIB lab page (ccib.mgh.harvard.edu/smillie), not from smillielab.org/people, which lists none."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab",
+     "text": "The members pages show no start years, and I did not find a dated 'last updated' marker."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-smillie",
+     "entry_name": "Smillie Lab",
+     "text": "I did not find a Google Scholar profile, so scholar_url is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "joined: Lea Urpa"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "No move found: the PI is still listed at the Broad and MGH, with a Harvard Chan affiliation. Sources differ on her Harvard Chan title (associate vs. assistant professor)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "The people page footer reads ©2019 and has no dates, so I could not confirm that the roster is current. The lab website has a separate alumni page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "Michelle Zhan and Emily Hang are listed only as 'Graduate Student'. I assumed PhD but the page does not say."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "Lea Urpa is a visiting postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-robinson",
+     "entry_name": "Robinson Lab",
+     "text": "The people page gives no emails, research focus, or years for any member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab",
+     "text": "The member list is INCOMPLETE. I could not locate or open an official lab people page, so only one postdoc, named in a Feb 2026 Harvard Gazette article, is verified. No PhD students were verified. Check the lab site directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab",
+     "text": "The lab website URL was not confirmed. rheinbaylab.org did not resolve, and the MGH investigator page redirected to a generic page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab",
+     "text": "The Broad Institute listing is an associate-member affiliation. The PI's primary appointment is at MGH/Harvard Medical School, and she moved from the Broad to MGH in 2019."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab",
+     "text": "The Harvard profile pages returned 403 errors, so the PI's title comes from search-result summaries of those pages and the Gazette article."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rheinbay",
+     "entry_name": "Rheinbay Lab",
+     "text": "The lab is at a hospital/university cancer center, not an independent research institute. The Broad is the independent institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "No PI move found. The primary appointment is Harvard Medical School, and the Broad Institute is an affiliation (faculty affiliate), not the main institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "The HMS DBMI page lists an older rank (Assistant Professor); the lab and Kempner pages list Associate Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "The people page gives no research focus per member, and I did not open the individual profile pages. Member focus fields are limited to the program or fellowship shown on the page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "No member emails are published on the people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "Amy Dong appears in both the current and alumni sections; confirm her status."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab",
+     "text": "The listing says Broad Institute, but the PI's primary appointment is Harvard Medical School, Dept. of Systems Biology. I could not confirm a Broad affiliation on an official Broad page. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab",
+     "text": "The old domain springerlab.org redirects (301) to springerlabhms.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab",
+     "text": "The people page gives names and roles only. It has no research focus, profile links or emails for members, and no page date was visible."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab",
+     "text": "Not counted as current trainees: Michael Cory (HIVE Fellow), Amogh P. Jalihal (Research Scientist), Neil Dalvie and Simon d'Oelsnitz (HIVE Fellows, affiliated), and Taylor Lanosky (affiliated/collaborator grad student)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-springer",
+     "entry_name": "Springer Lab",
+     "text": "The page lists the first member as a postdoctoral researcher. Several students are marked co-advised."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "joined: Matthew Neville, Robert Wang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "No move: the PI is still at MGH/HMS and the Broad. The lab page gives Broad Institute Member since 2018 and CGM Director since 2020."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "The Broad bio says Associate Professor, but the lab team page says Professor. The title is inconsistent between sources."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "The Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "Individual people have no separate profile pages. They are sections of the team page, so profile_url points to it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-talkowski",
+     "entry_name": "Talkowski Lab",
+     "text": "Several people appear as both current and alumni (Yadav, Tai, Brand, Gao, Zhao, Jana). Those listed as Instructors, Affiliated Faculty or Staff were excluded from the postdoc and PhD lists."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab",
+     "text": "PI's current affiliation confirmed from the Broad bio page: still at Broad Institute (Core Institute Member) and Harvard. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab",
+     "text": "The lab's team page (sabetilab.org/team/) lists no postdocs or graduate students. Every roster section shows a count of 0, so it looks outdated or stripped. I could not verify any current postdocs or PhD students, so members is empty rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab",
+     "text": "A Harvard HMS page lists the lab size as about 30. The Harvard OEB profile says Sabeti is accepting graduate students for 2027-28. I did not open either page directly; both come from search-result snippets."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab",
+     "text": "The lab's Bluesky feed mentions people such as Marietou Paye, Ian Baudi, Tomi Siyanbade and Jon Arizti Sanz. Their roles are unverified, so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sabeti",
+     "entry_name": "Sabeti Lab",
+     "text": "Pardis Sabeti's Google Scholar profile URL was not seen, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab",
+     "text": "No PI move: Rigollet is still at MIT Mathematics. The Broad Institute listing is an affiliation (Associate Member), not his primary appointment."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab",
+     "text": "PhD students are admitted only through the MIT Mathematics department. They are not recruited directly by the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab",
+     "text": "The members page gives no per-person research descriptions, no start years and no emails. Member focus fields are mostly unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab",
+     "text": "Postdoc roles are inferred from fellowship and instructor titles (C.L.E. Moore, Wiener, Tayebati, EWSC). The Tayebati Fellow role is unconfirmed as a postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-rigollet",
+     "entry_name": "Rigollet Lab",
+     "text": "The Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "left: Carles Boix, Evan Koch, Misha (Mikhail) Moldovan, Ryan McGinty, Vova (Vladimir) Seplyarskiy"
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "No PI move: Sunyaev remains at HMS/BWH with a Broad Institute Institute Member appointment."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "The members page has no visible update date, so it may be out of date. Confirm the roster directly with the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "The lab main page returned HTTP 403 to my fetch. The members list was read through the wiki's export view."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "Five other people on the page (Carles Boix, Evan Koch, Ryan McGinty, Misha Moldovan, Vova Seplyarskiy) are listed as 'Member' with no role. They are probably postdocs or staff, but this is unverified, so I left them out. Their research interests are germline mutation and selection."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "The lab has had open HMS postdoctoral fellow (Biomedical Informatics, Sunyaev Lab) postings, one dated around June 2026, via third-party job boards."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab",
+     "text": "The lab lists no PhD students. Only three postdocs are listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab",
+     "text": "The page also lists computational associates and a research assistant (Linfeng Hu, Christiana Liu, Junkai Zhang, Feng Lu). These are staff, so I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab",
+     "text": "The member page shows no individual profile links or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab",
+     "text": "The Broad listing is a secondary affiliation. Her primary base is MGH, and the Broad role is Associate Member. This is not a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "broad-zhou",
+     "entry_name": "Zhou Lab",
+     "text": "Titles are inconsistent: Instructor (ATGU page), Assistant Professor of Psychiatry (HMS), and Assistant Investigator (MGH)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-streets",
+     "entry_name": "Streets Lab",
+     "text": "No PI move found: the lab page lists UC Berkeley Bioengineering, with a CZ Biohub investigator affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-streets",
+     "entry_name": "Streets Lab",
+     "text": "The people page labels students 'Graduate Student', not explicitly 'PhD'. I assumed PhD, based on their program listings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-streets",
+     "entry_name": "Streets Lab",
+     "text": "The people page gives no research focus, individual profile links, or emails. I did not search beyond the lab pages, so I found no Google Scholar URL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-streets",
+     "entry_name": "Streets Lab",
+     "text": "Only the lab pages were checked, and no web searches were run."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab",
+     "text": "The members page lists 'Current Graduate Students and Post-Docs' together in one list with no roles, years, focus areas or last-updated date. I listed all six as PhD students, but any of them could be a postdoc or an MA student, and I could not verify this."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab",
+     "text": "No current postdocs are identifiable. A postdoc application page exists at stat.berkeley.edu/~epurdom, but no postdoc is named."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab",
+     "text": "The page at statistics.berkeley.edu/node/8186 is a January 2022 news item about the CZ Biohub Investigator award ($1M over 5 years from March 1, 2022). It is not a lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab",
+     "text": "The PI is still at UC Berkeley, with no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-purdom",
+     "entry_name": "Purdom Lab",
+     "text": "The lab has no cancer-genomics focus now. The tumour mutation spectra work is listed as a past project."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "left: Mars Liyao Gao, Renato Berlinghieri"
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "The Biohub link is an Investigator award (2022 cohort), not a separate CZ Biohub lab. The PI's institution is Stanford, and no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "The PI is also Chief Technical Advisor for AI and Machine Learning at insitro, per insitro's leadership page. Some reports say she became SVP of AI/ML there in 2024. Her current Stanford time commitment is unclear."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "The lab website (https://emilybfox.su.domains/, listed on her Stanford Statistics profile) was unreachable, so the people page could not be opened. No current postdocs or PhD students were verified, and the members list is empty rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "The only roster found was an old University of Washington page (about 2010s), which is historical and was not used."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-fox",
+     "entry_name": "Fox Group",
+     "text": "Next step: open the lab site manually, or check recent paper author lists, to find current members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York)",
+     "text": "The people page lists no postdocs or PhD students. It lists only the PI and 5 staff scientists: Diane Adjavon (AI Scientist), Rowan Cassius (AI Scientist), Elise Flynn (Data Lead), Alireza Karbalayghareh (Senior AI Scientist) and Andrew Moorman (AI Scientist). These were excluded as staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York)",
+     "text": "The members page has no research focus, profile links or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York)",
+     "text": "Paull's earlier background, from a search summary only: PhD at UC Santa Cruz, postdoc at Columbia with Andrea Califano, then Schrödinger and BenevolentAI. I did not verify this on a primary page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York)",
+     "text": "I found no sign that Paull has moved. Biohub has consolidated its teams, so the group's naming may change."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-paull",
+     "entry_name": "AI and Computational Biology group (Biohub New York)",
+     "text": "I did not find a Google Scholar profile for Paull."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group",
+     "text": "PI did not move: Stanford profile shows a continuing Associate Professor appointment in Biomedical Data Science, plus a CZ Biohub Investigator award, so the 'CZ Biohub' listing is an investigator affiliation rather than the primary employer."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group",
+     "text": "The members page has no dates, per-member research focus, profile links or emails, so all of those fields are null. The page footer reads '© 2019', so it may not be up to date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group",
+     "text": "The alternate page zou-group.github.io/team is clearly outdated (it lists former members such as Abubakar Abid and Ruishan Liu), so I did not use it for the roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group",
+     "text": "Batu El's program appears as 'ICML' on the page, probably a typo for ICME."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-zou",
+     "entry_name": "Zou Group",
+     "text": "I could not verify a Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab",
+     "text": "No PI move found: she is still at Gladstone/UCSF/CZ Biohub. The 'Chan Zuckerberg Biohub' listing is one of several concurrent appointments, and her primary base is Gladstone."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab",
+     "text": "Members page has no 'last updated' date (footer shows ©2026), so currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab",
+     "text": "Start years or cohort years are not given on the team page, so 'year' is null for all members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab",
+     "text": "Shari Kennedy's profile lists the email 'Sharon.kennedy@gladstone.ucsf.edu', which doesn't match her listed name. I left it null; verify before using it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-pollard",
+     "entry_name": "Pollard Lab",
+     "text": "Veronika Dubinkina's profile URL and email use the spelling 'dubinika'. The name spelling follows the team page link."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "left: Bridget Chak, Cecily Choy, Ellen Ketter, João Barroso Batista, Matthew Schechter, Raúl Aguirre-Gamboa, Tauras Vilgalys, Tyler Hansen, Veronica Locher"
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "Could not open the lab website: its TLS certificate has expired, so the member roster is unverified and the members list is empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "The only Chan Zuckerberg Biohub link I found is that the CZ Biohub network site lists a Chicago location. I found no page that names Barreiro or his lab as a Biohub investigator, and the UChicago faculty page doesn't mention Biohub. The Biohub listing is therefore unconfirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "The PI's current institution is the University of Chicago and I saw no sign of a move. A Frontiers profile still lists him as Associate Professor, which is likely out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "A UChicago Chicago Fellows page lists Raul Aguirre-Gamboa as a fellow mentored by Barreiro. I did not confirm whether that is current, so I did not list them as a member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-barreiro",
+     "entry_name": "Barreiro Lab",
+     "text": "Eligibility: a US role would likely need a visa for a Canadian PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab",
+     "text": "https://www.altemoselab.org/ redirects to a Stanford Google Site (sites.google.com/stanford.edu/altemoselab)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab",
+     "text": "The PI is at Stanford and is also a CZ Biohub Investigator (award 2023-2028). No move to the Biohub was found, so the 'Chan Zuckerberg Biohub' listing reflects an affiliation, not a different institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab",
+     "text": "The team page gives no start years or dates, so the page's last-update date is unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab",
+     "text": "Member emails are not recorded. The page fetch showed stanford.edu usernames, but I could not confirm they are published as email addresses."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-altemose",
+     "entry_name": "Altemose Lab",
+     "text": "I did not see the PI's Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group",
+     "text": "No dedicated Ioannidis Group website or lab members page was found. The roster comes only from the CCB profile page and a Pollard lab page, so it is likely incomplete or outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group",
+     "text": "The CCB search snippet also named PhD students Pooja Kathail, Eyes Robson and Daniel Lewinsohn, and DE students Ayesha Bajwa, Oberon Dixon-Luinenburg and Aniketh Reddy. When I fetched the page, only Sergio Mares was listed as a PhD student, so I could not verify the others and left them out. Ayesha "
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group",
+     "text": "A Yosef lab page lists Ruchir Rastogi (EECS graduate student) as joint with Nilah Ioannidis. I did not verify this on an official page, so he is not included."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group",
+     "text": "No postdocs are listed on any page I checked."
+    },
+    {
+     "type": "flag",
+     "entry_id": "czb-ioannidis",
+     "entry_name": "Ioannidis Group",
+     "text": "The EECS page lists her as Adjunct Assistant Professor, while the CCB page says Assistant Professor. The Biohub listing may reflect her CZ Biohub Investigator Award (2022-2027) rather than a move. I found no Biohub announcement of a move, so confirm her current status directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group",
+     "text": "PI has not moved: still at EMBL-EBI, having joined from the Wellcome Sanger Institute in about 2012."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group",
+     "text": "The members page does not label anyone 'PhD student'. I treated the two 'Predoctoral Fellows' as PhD students, which is an inference."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group",
+     "text": "Andrew Green is titled 'Research Fellow (ARISE/Marie Curie)'. I counted him as a postdoc, which is an inference."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group",
+     "text": "The members page gives no research focus or year for any member, and I could not confirm when it was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-bateman",
+     "entry_name": "Bateman Group",
+     "text": "The page also lists Loic Lannelongue as a Visitor, which I excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group",
+     "text": "Sources disagree on the PI's role. The lab page and his EBI profile say Director of EMBL-EBI. A search result summarising the EMBL-EBI staff page says he was EBI Director 2015–2025 and is now Interim Director General of EMBL. His position is still at EMBL, but check his current title before contacti"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group",
+     "text": "The members page does not give research focus or start year for anyone, so those fields are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group",
+     "text": "The members page labels the students 'Predoctoral Fellows'. Tim Dang is a 'Visiting Predoctoral Fellow'. Saul Pierotti and Xiaolei Zhang are 'Visiting Postdoctoral Fellows'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group",
+     "text": "The members page has no alumni section."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-birney",
+     "entry_name": "Birney Group",
+     "text": "I did not open the individual profile pages, so member focus areas are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-cortes-ciriano",
+     "entry_name": "Cortes-Ciriano Group",
+     "text": "PI MOVED: a 1 July 2026 announcement says he was appointed the first Little Princess Trust Professor of Paediatric Oncology at the University of Oxford, leading a new childhood cancer programme in the Department of Paediatrics. The EMBL-EBI page still lists him as Research Group Leader, so it may be"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-cortes-ciriano",
+     "entry_name": "Cortes-Ciriano Group",
+     "text": "The EMBL-EBI members page lists only one person, Carolin M. Sauer, with the role 'Visitor'. She is not a postdoc or PhD student, so she is excluded from the members list. Her EMBL-EBI profile is https://www.ebi.ac.uk/people/person/carolin-sauer. Her email csauer [at] ebi.ac.uk is published there, bu"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-cortes-ciriano",
+     "entry_name": "Cortes-Ciriano Group",
+     "text": "No current postdocs or PhD students could be verified from official pages. Check the new Oxford group page, which I did not find, before contacting anyone."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-cortes-ciriano",
+     "entry_name": "Cortes-Ciriano Group",
+     "text": "No Google Scholar URL was seen, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-cortes-ciriano",
+     "entry_name": "Cortes-Ciriano Group",
+     "text": "The ERC BrokenChromosomes grant status after the move is unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-ewald",
+     "entry_name": "Ewald Group",
+     "text": "Emails are written in the form 'name [at] ebi.ac.uk' on the official EBI members page; I converted them to normal addresses."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-ewald",
+     "entry_name": "Ewald Group",
+     "text": "The members page gives no per-person research focus or year, so the focus fields are mostly 'Not stated'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-ewald",
+     "entry_name": "Ewald Group",
+     "text": "Pre-doctoral fellows were treated as PhD students, and Daniel Ehrlich is a visiting predoctoral fellow."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-ewald",
+     "entry_name": "Ewald Group",
+     "text": "The PI joined EMBL-EBI as a Research Group Leader (announced September 2025). The EMBL people directory lists her as 'Visitor', which conflicts with the EBI pages. No move away from EMBL-EBI was found."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "joined: Benjamin Maier, Leonie Johanna Lorenz, Ou-li Xie; left: Johanna von Wachsmann, Leonie Lorenz, Ouli Xie"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "PI is still at EMBL-EBI; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "The members page gives no individual research focus or year of study. Check the EMBL-EBI profile pages for details."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "Emails are published in obfuscated '[at]' format on the official members page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "The page also lists a trainee (Jose Fierro) and visitors (David Abelson, Samuel Horsfield, Varunika Savla). These are excluded from the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-lees",
+     "entry_name": "Lees Group",
+     "text": "The page says bacpop.org has the most up-to-date group information."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "joined: Veysel Kaya"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "No move found: the PI is still listed as Group Leader at EMBL-EBI."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "The members page gives no research focus for anyone, so member focus lines are null-equivalent. The Current Projects page (https://www.ebi.ac.uk/research/goldman/current-projects/) may have more detail."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "The page labels no one 'PhD student'. The two 'Predoctoral Fellows' are treated as PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "Emails are published in obfuscated form (name [at] ebi.ac.uk) and are reconstructed here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-goldman",
+     "entry_name": "Goldman Group",
+     "text": "Visitors (Andrea Rubbi, Fajia Sun, Lukas Weilguny, Nicola De Maio, Roman Sokolovskii) and staff scientist Samuel Martin were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics)",
+     "text": "PI is still at EMBL-EBI; no move found. The EMBL and EBI profile pages confirm this."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics)",
+     "text": "The members page uses the title 'Predoctoral Fellow', which I treated as PhD student. It does not say so explicitly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics)",
+     "text": "The members page gives no start years or individual research focus, so year is null and the focus lines are generic."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics)",
+     "text": "Emails are published in obfuscated form (e.g. 'bella [at] ebi.ac.uk'). I converted them to normal addresses."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-finn",
+     "entry_name": "Finn Group (Microbiome Informatics)",
+     "text": "Ellen Cameron (Visitor) and Licheng Zong (Unpaid Visitor) are on the page. I excluded them as non-postdoc, non-PhD."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting)",
+     "text": "Members page could not be read (no names returned), so no current postdocs or PhD students were verified; check it manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting)",
+     "text": "No PI move found: Keane is at EMBL-EBI (joined 2016 from the Wellcome Sanger Institute)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting)",
+     "text": "EMBL-EBI is an intergovernmental research institute, and it is in the UK, so Canadian students may need a visa."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting)",
+     "text": "An undated FEMS-listed postdoc advert for comparative genomics may be linked to the group."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-keane",
+     "entry_name": "Keane Group (visiting)",
+     "text": "Google Scholar profile not verified, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-coorens",
+     "entry_name": "Coorens Group",
+     "text": "PI joined EMBL-EBI as Research Group Leader in May 2025, after a postdoc at the Broad Institute and a PhD at the Wellcome Sanger Institute/University of Cambridge. EMBL-EBI is still the current institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-coorens",
+     "entry_name": "Coorens Group",
+     "text": "The members page gives no per-person research focus or start year, so those fields are generic or null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-coorens",
+     "entry_name": "Coorens Group",
+     "text": "Emails come from the members page, which shows them as 'name [at] ebi.ac.uk'. I converted them to normal addresses."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-coorens",
+     "entry_name": "Coorens Group",
+     "text": "I treated 'Predoctoral Fellow' as PhD student. The two 'Visiting Postdoctoral Fellows' are listed as postdocs, but they may be short-term visitors."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ebi-coorens",
+     "entry_name": "Coorens Group",
+     "text": "I did not find the PI's Google Scholar profile, so scholar_url is null."
+    },
     {
      "type": "flag",
      "entry_id": "broad-palotie",
