@@ -20,9 +20,14 @@
   "url": "https://amazon.jobs/en/jobs/2793817/2025-applied-science-internship-canada-phd-student-science-recruiting"
  },
  "anthropic|ai for science api credits program": {
-  "sent": "2026-10-30",
-  "status": "unknown",
+  "sent": "2026-11-09",
+  "status": "rolling",
   "url": "https://www.anthropic.com/news/ai-for-science-program"
+ },
+ "anthropic|anthropic fellows program (ai safety & security; ml systems & rl; economics & policy tracks)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/"
  },
  "anthropic|anthropic fellows program (ai safety / ml research)": {
   "sent": "2026-10-30",
@@ -68,6 +73,11 @@
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://job-boards.eu.greenhouse.io/bioptimus8/jobs/4918287101"
+ },
+ "broad institute|eric and wendy schmidt center (ewsc) postdoctoral fellowship, 2027 cohort": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://ericandwendyschmidtcenter.org/become-a-fellow"
  },
  "broad institute|eric and wendy schmidt center postdoctoral fellowship (2027 cohort)": {
   "sent": "2026-11-02",
@@ -124,6 +134,11 @@
   "status": "rolling",
   "url": "https://gradoffice.caltech.edu/academics/otherprograms/visiting-student-researcher-vsr"
  },
+ "caltech|visiting student researcher (vsr), caltech graduate studies office": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://gradoffice.caltech.edu/academics/otherprograms/visiting-student-researcher-vsr"
+ },
  "chai discovery|internship (outliers & polymaths) / opportunistic open application": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -169,6 +184,11 @@
   "status": "rolling",
   "url": "https://www.embl.org/about/info/scientific-visitor-programme/fellowships/"
  },
+ "embl-ebi|embl scientific visitor programme – external phd student visits (visiting predoctoral fellow)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.embl.org/about/info/scientific-visitor-programme/fellowships/"
+ },
  "embl-ebi|embl scientific visitor programme – visiting predoctoral fellow (hosted at embl-ebi group)": {
   "sent": "2026-10-30",
   "status": "rolling",
@@ -188,6 +208,11 @@
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://www.ebi.ac.uk/training/events"
+ },
+ "embl-ebi|embl-ebi training: single-cell rna-seq analysis in python (virtual)": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-python-2027"
  },
  "embl-ebi|embl-ebi: introduction to rna-seq and functional interpretation (2027, virtual course)": {
   "sent": "2026-11-02",
@@ -238,6 +263,11 @@
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://www.crick.ac.uk/careers-and-study/technical-training"
+ },
+ "francis crick institute|crick-pace postdoctoral fellowship (collaborative, with kcl/ucl/imperial)": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://www.crick.ac.uk/careers-and-study/postdocs/postdoc-recruitment"
  },
  "francis crick institute|single-cell genomics: from bench to bioinformatics": {
   "sent": "2026-10-30",
@@ -293,6 +323,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+ },
+ "harvard university|hms division of medical sciences (gsas) visiting fellows": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://www.hms.harvard.edu/dms/Prospective Students/visitingfellows.html"
  },
  "harvard university|hms division of medical sciences visiting fellows program (gsas non-degree status)": {
   "sent": "2026-11-02",
@@ -356,6 +391,11 @@
  },
  "mit|mit visiting graduate student (research visit hosted by an individual lab or pi)": {
   "sent": "2026-10-30",
+  "status": "rolling",
+  "url": "https://oge.mit.edu/graduate-admissions/programs/exchange-special-visiting-students"
+ },
+ "mit|mit visiting student (non-degree research visit, faculty-invited)": {
+  "sent": "2026-11-09",
   "status": "rolling",
   "url": "https://oge.mit.edu/graduate-admissions/programs/exchange-special-visiting-students"
  },
@@ -439,10 +479,30 @@
   "status": "unknown",
   "url": "https://job-boards.greenhouse.io/valencelabs/jobs/7822909"
  },
+ "regeneron genetics center|2027 summer intern, ai/ml & data engineering": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://www.compbiojobs.com/jobs/8322/2027-summer-intern-ai-ml-data-engineering"
+ },
+ "regeneron genetics center|2027 summer intern, biostatistics & statistical programming": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://www.compbiojobs.com/jobs/8323/2027-summer-intern-biostatistics-statistical-programming"
+ },
+ "regeneron genetics center|2027 summer intern, genomics, computational biology & translational data science": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Genomics--Computational-Biology---Translational-Data-Science_R52557-1"
+ },
  "regeneron genetics center|regeneron summer intern / co-op program (not rgc-specific; phd/masters tracks such as biostatistics and omics data science have appeared in past years)": {
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://careers.regeneron.com"
+ },
+ "scripps research|scripps research fellows program (independent postdoctoral fellowship)": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://www.scripps.edu/fellows-program/"
  },
  "scripps research|scripps research fellows program (independent postdoctoral fellowship, a later-stage option)": {
   "sent": "2026-10-30",
@@ -464,10 +524,20 @@
   "status": "rolling",
   "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
  },
+ "scripps research|visiting student (thesis/dissertation research internship, arranged with a host pi)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
+ },
  "stanford university|guolan lu lab: visiting graduate students (biomedical imaging, ai and computational biology)": {
   "sent": "2026-11-02",
   "status": "rolling",
   "url": "https://med.stanford.edu/guolanlulab/Joining.html"
+ },
+ "stanford university|stanford postdoctoral affairs: open postdoctoral positions board (lab-specific openings, including genomics and ml-for-biology pis)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://postdocs.stanford.edu/prospective/opportunities"
  },
  "stanford university|visiting student researcher (vsr) / graduate visiting researcher via a stanford faculty host (genetics, biomedical data science, biomedical informatics labs)": {
   "sent": "2026-10-30",
@@ -509,6 +579,11 @@
   "status": "unknown",
   "url": "https://www.ucl.ac.uk/research/research-fellowships"
  },
+ "university college london|ucl biosciences: visiting postgraduate research students (departmental process)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.ucl.ac.uk/biosciences/gee/gee-staff-intranet/gee-academics/visiting-post-graduate-research-students"
+ },
  "university college london|ucl cancer institute blic - learn bioinformatics": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -524,6 +599,11 @@
   "status": "unknown",
   "url": "https://www.ucl.ac.uk/short-courses/search-courses/ucl-summer-school"
  },
+ "university college london|ucl visiting research student (independent application)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.ucl.ac.uk/study/international/study-abroad-and-exchange/visiting-research-students"
+ },
  "university of cambridge|cambridge bioinformatics training courses (single-cell rna-seq analysis, spatial transcriptomics, bulk rna-seq, nextflow/pipelines, hpc, python/r, statistics, principles of machine learning)": {
   "sent": "2026-10-30",
   "status": "open",
@@ -538,6 +618,11 @@
   "sent": "2026-11-02",
   "status": "open",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/"
+ },
+ "university of cambridge|cruk cambridge institute – visiting students": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.cruk.cam.ac.uk/students/visiting-students/"
  },
  "university of cambridge|genome informatics (wellcome connecting science conference)": {
   "sent": "2026-11-02",
@@ -573,6 +658,16 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://demography.ox.ac.uk/news/oxford-statistical-genomics-summer-school"
+ },
+ "university of oxford|oxford visiting researchers: doctoral researchers visiting oxford": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.ox.ac.uk/research/collaborate-with-us/visiting-academics-and-visiting-researchers"
+ },
+ "university of oxford|recognised student status (visiting research student, graduate research)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.ndcn.ox.ac.uk/study-with-us/recognised-students"
  },
  "university of oxford|recognised student status for visiting graduate research students (oxford graduate admissions)": {
   "sent": "2026-11-02",
@@ -629,6 +724,16 @@
   "status": "opens_soon",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/organoids-and-beyond-from-development-to-disease-20270920/"
  },
+ "wellcome sanger institute|organoids and beyond: from development to disease (conference, with virtual option)": {
+  "sent": "2026-11-09",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/organoids-and-beyond-from-development-to-disease-20270301/"
+ },
+ "wellcome sanger institute|sanger core postdoctoral fellow positions (rolling; workday)": {
+  "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://sanger.wd103.myworkdayjobs.com/WellcomeSangerInstitute"
+ },
  "wellcome sanger institute|sanger core postdoctoral fellowships (faculty-recruited roles, via workday)": {
   "sent": "2026-10-30",
   "status": "rolling",
@@ -670,8 +775,8 @@
   "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/72183162-ai-in-residence"
  },
  "xaira therapeutics|ai in residence, computational protein design": {
-  "sent": "2026-10-30",
-  "status": "unknown",
+  "sent": "2026-11-09",
+  "status": "rolling",
   "url": "https://jobs.menlovc.com/companies/xaira-therapeutics/jobs/90739798-ai-in-residence-computational-protein-design"
  },
  "xaira therapeutics|ai scientist intern, computational protein design": {
