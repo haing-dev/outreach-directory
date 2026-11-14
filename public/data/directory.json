@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T19:21:41+00:00",
+ "generated_at": "2026-11-14T23:20:58+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -24480,25 +24480,25 @@
    "department_hint": null,
    "id": "nygc-zhu",
    "url": "https://czhulab.github.io/",
-   "focus": "The lab studies gene regulation in development, aging and disease, especially in the brain. It builds multimodal single-cell genomics tools that combine chemical, molecular and computational biology to measure several regulatory layers in the same cell. These layers include genome and epigenome features and instabilities. The tools are used to study how the layers work together in cell fate and maintenance, and in age- and disease-related molecular change. The lab is recruiting wet-dry hybrid graduate students and dry-lab postdocs. Cancer is not a stated focus.",
+   "focus": "The lab studies gene regulation in development, aging and disease, with a particular emphasis on the brain. It builds single-cell multiomics tools, such as SIMPLE-seq (Nature Biotechnology, 2024), to profile several molecular modalities in the same cell. Its central theme is how genome and epigenome instability affects gene regulation. The approach combines chemical, molecular and computational biology. The lab is recruiting wet-dry hybrid graduate students and dry-lab postdocs.",
    "topics": [
     "single-cell multiomics",
     "epigenomics",
-    "spatial omics",
     "gene regulation",
-    "aging and neurodegeneration",
-    "computational method development"
+    "genome and epigenome instability",
+    "brain development and aging",
+    "method development"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab's single-cell/spatial multiomics methods and computational development partly match the student's interests, but its focus is brain, aging and development rather than cancer genomics, WGS/structural variants or somatic mutation, and the role would need a US visa."
+    "reason": "The lab shares the student's interest in single-cell omics and computational methods for genomics, but its focus is on neuro, development and aging epigenomics and technology development. It does little cancer genomics, tumour WGS or structural-variant work, and a US move would need a visa."
    },
    "flags": [
-    "The NYGC lab page lists no members. The roster comes from the lab's GitHub Pages site (czhulab.github.io), which looks current: it lists 2026 alumni and has a 2022–2026 footer, but no explicit update date.",
-    "The PI has not moved. They are still at NYGC with a Weill Cornell appointment.",
-    "Research Associate Robert Tan is staff and is excluded from the member list.",
-    "Member emails are from the lab team page, which is not an official NYGC page.",
-    "Member research focus lines are mostly unavailable because the team page does not describe them."
+    "No PI move found. Chenxu Zhu is still at NYGC with a joint Weill Cornell Medicine appointment (appointed 2022).",
+    "The NYGC lab page lists no members. The members come from the lab's own site, czhulab.github.io/team.html, which has no last-updated date. Its footer reads 2022-2026.",
+    "The team page gives no year or individual research focus for any member. I did not open the individual profile pages.",
+    "I did not find a Google Scholar URL, so scholar_url is null.",
+    "The lab says it is recruiting graduate students and postdocs. A postdoc posting for single-cell epigenomics also appeared in search results."
    ],
    "sources": [
     {
@@ -24506,41 +24506,37 @@
      "url": "https://www.nygenome.org/science-technology/faculty-labs/zhu-lab/"
     },
     {
-     "title": "NYGC PI profile",
+     "title": "NYGC faculty profile: Chenxu Zhu",
      "url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/chenxu-zhu-phd/"
+    },
+    {
+     "title": "Zhu Lab website",
+     "url": "https://czhulab.github.io/"
     },
     {
      "title": "Zhu Lab team page",
      "url": "https://czhulab.github.io/team.html"
     },
     {
-     "title": "Zhu Lab homepage",
-     "url": "https://czhulab.github.io/"
-    },
-    {
-     "title": "Zhu Lab news",
-     "url": "https://czhulab.github.io/news.html"
-    },
-    {
-     "title": "Weill Cornell Graduate School faculty profile",
+     "title": "Weill Cornell Graduate School profile",
      "url": "https://gradschool.weill.cornell.edu/faculty/chenxu-zhu"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:16:28+00:00",
+   "refreshed_at": "2026-11-14T23:02:46+00:00",
    "error": null,
    "pi_profile": {
     "name": "Chenxu Zhu",
-    "title": "Core Faculty Member, New York Genome Center; Assistant Professor of Physiology and Biophysics, Weill Cornell Medicine",
+    "title": "Core Faculty Member, New York Genome Center; Assistant Professor of Physiology and Biophysics (and Institute for Computational Biomedicine), Weill Cornell Medicine",
     "profile_url": "https://www.nygenome.org/about-us/our-people/faculty-scientists/chenxu-zhu-phd/",
-    "scholar_url": "https://scholar.google.com/citations?user=e3Y5y-UAAAAJ"
+    "scholar_url": null
    },
    "members": [
     {
      "name": "Boshi Fu",
      "role": "Postdoc",
      "year": null,
-     "focus": "Multi-omics and spatial-omics tools (from the lab news page; joined Feb 2023)",
+     "focus": "Not listed on the team page",
      "email": null,
      "profile_url": "https://czhulab.github.io/team/boshi.html"
     },
@@ -24548,7 +24544,7 @@
      "name": "Sihao Huang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed on the team page (PhD from the University of Chicago)",
+     "focus": "Not listed on the team page",
      "email": null,
      "profile_url": "https://czhulab.github.io/team/sihao.html"
     },
@@ -24580,12 +24576,12 @@
      "name": "Zhenkun Cao",
      "role": "PhD student",
      "year": null,
-     "focus": "Weill Cornell PBSB graduate student, co-mentored by Ruslan Soldatov; project not listed",
+     "focus": "Weill Cornell PBSB program student, co-mentored by Ruslan Soldatov. Specific project not listed.",
      "email": null,
      "profile_url": "https://czhulab.github.io/team/zhenkun.html"
     }
    ],
-   "department": "Physiology and Biophysics (Weill Cornell Medicine); Weill Cornell Graduate School of Medical Sciences",
+   "department": "Physiology and Biophysics and Institute for Computational Biomedicine (Weill Cornell Medicine); graduate programs: PBSB and Tri-I CBM",
    "location": "New York, NY, USA",
    "current_institution": "New York Genome Center (joint appointment with Weill Cornell Medicine)",
    "members_page": "https://czhulab.github.io/team.html"
@@ -25167,7 +25163,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-07T20:22:32+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 12:10am (UTC)",
    "pi_profile": {
     "name": "Neville Sanjana",
     "title": "Core Faculty Member, New York Genome Center; Professor of Biology, Neuroscience and Physiology, NYU",
@@ -26869,25 +26865,25 @@
    "department_hint": "Integrative Structural and Computational Biology (joint Translational Medicine)",
    "id": "scripps-su",
    "url": "https://sulab.org",
-   "focus": "The Su Lab does bioinformatics at the intersection of biology, computer science and statistics. A central theme is building open-source tools and infrastructure to organize, integrate and mine biomedical knowledge at scale, including knowledge graphs, crowdsourcing and citizen-science projects such as Mark2Cure. The lab also applies computational methods to generate testable hypotheses. Current student projects include computational drug repurposing for Alzheimer's disease, probabilistic and deep-learning models with viral genomics, and transcriptomic decay in aging.",
+   "focus": "The lab builds and applies bioinformatics tools and infrastructure for biomedical discovery. Its main emphasis is knowledge graphs, both centralized and federated, that link data across biomedical resources. Related work includes graph neural networks for predicting missing links in these graphs, with applications to drug repurposing and disease mechanisms. The lab has also begun developing retrieval-augmented generation methods that combine federated knowledge retrieval with large language models. Disease areas include rare diseases, osteoarthritis, Alzheimer's disease and type 1 diabetes. The lab emphasizes open source, open data and open science, and it co-hosts the Wu Lab's BioThings/API infrastructure.",
    "topics": [
-    "biomedical knowledge graphs",
-    "open science",
+    "knowledge graphs",
+    "graph neural networks",
     "drug repurposing",
-    "deep learning",
-    "viral genomics",
-    "aging transcriptomics"
+    "biomedical data infrastructure",
+    "LLMs / RAG",
+    "open science"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab is general bioinformatics and knowledge mining, with only a loose link to the student's interests in computational and ML methods. It has no visible work on cancer genomics, structural variants, tumour sequencing, or single-cell and spatial omics."
+    "reason": "The lab's computational and machine-learning methods overlap loosely with the student's interests, but the work centers on knowledge graphs and drug repurposing. I found no cancer genomics, structural variant, tumour sequencing or single-cell/spatial work, and a US role would likely need a visa."
    },
    "flags": [
-    "The team page lists no current postdocs.",
-    "Lucy Zhang is listed as a PhD student under the collaborating Wu Lab section, not the Su Lab, so I left her out. I did not open her profile.",
-    "The PI has not moved. He is still at Scripps Research and is now listed in Integrative Structural and Computational Biology; his earlier department was Molecular and Experimental Medicine.",
-    "I could not verify a Google Scholar URL, so it is null.",
-    "Only Andrew Su's address (asu@scripps.edu) appears on the lab pages. No student emails are published."
+    "PI is still at Scripps Research. No move found. The lab site lists the ISCB department. The hint also mentions Translational Medicine, which I did not verify.",
+    "The team page lists no postdocs.",
+    "The team page has no last-updated date. The footer says © 2026.",
+    "The page links to a separate Alumni page that I did not open. Alumni are excluded from the member list.",
+    "The team page also lists the Wu Lab (Chunlei Wu), which shares the site. Its PhD student Lucy Zhang is not a Su Lab member and is excluded."
    ],
    "sources": [
     {
@@ -26897,6 +26893,10 @@
     {
      "title": "Su Lab team page",
      "url": "https://sulab.org/team/"
+    },
+    {
+     "title": "Andrew Su profile",
+     "url": "https://sulab.org/members/andrew-su.html"
     },
     {
      "title": "Chrissy Aceves profile",
@@ -26911,29 +26911,25 @@
      "url": "https://sulab.org/members/janet-joy.html"
     },
     {
-     "title": "Scripps faculty page: Andrew Su",
-     "url": "https://www.scripps.edu/faculty/su/"
-    },
-    {
-     "title": "Scripps Translational Institute: Andrew Su",
-     "url": "https://scripps.edu/science-and-medicine/translational-institute/about/people/andrew-su/index.html"
+     "title": "Andrew Su Google Scholar",
+     "url": "https://scholar.google.com/citations?user=xPGhKkoAAAAJ"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:40+00:00",
+   "refreshed_at": "2026-11-14T23:03:54+00:00",
    "error": null,
    "pi_profile": {
     "name": "Andrew Su",
-    "title": "Professor; Elden and Verna Strahm Chair for Medical Research; Director of Bioinformatics, Scripps Research Translational Institute",
-    "profile_url": "https://www.scripps.edu/faculty/su/",
-    "scholar_url": null
+    "title": "Professor and Principal Investigator",
+    "profile_url": "https://sulab.org/members/andrew-su.html",
+    "scholar_url": "https://scholar.google.com/citations?user=xPGhKkoAAAAJ"
    },
    "members": [
     {
      "name": "Chrissy Aceves",
      "role": "PhD student",
-     "year": "Joined 2023",
-     "focus": "Probabilistic and deep learning models; viral genomics",
+     "year": "joined 2023",
+     "focus": "Probabilistic and deep learning models, and viral genomics.",
      "email": null,
      "profile_url": "https://sulab.org/members/chrissy-aceves.html"
     },
@@ -26941,7 +26937,7 @@
      "name": "Ian Newman",
      "role": "PhD student",
      "year": null,
-     "focus": "How different types of transcriptomic decay affect aging, to inform drug discovery for human healthspan",
+     "focus": "Thesis on how different types of transcriptomic decay contribute to aging, to inform drug discovery for longer human healthspan.",
      "email": null,
      "profile_url": "https://sulab.org/members/ian-newman.html"
     },
@@ -26949,12 +26945,12 @@
      "name": "Janet Joy",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational drug repurposing for Alzheimer's disease",
+     "focus": "Computational drug repurposing approaches for Alzheimer's disease.",
      "email": null,
      "profile_url": "https://sulab.org/members/janet-joy.html"
     }
    ],
-   "department": "Integrative Structural and Computational Biology; Scripps Research Translational Institute",
+   "department": "Department of Integrative Structural and Computational Biology (ISCB)",
    "location": "La Jolla, California, USA",
    "current_institution": "Scripps Research",
    "members_page": "https://sulab.org/team/"
@@ -26970,25 +26966,25 @@
    "department_hint": "Neuroscience",
    "id": "scripps-kennedy",
    "url": "https://www.kennedylab.org",
-   "focus": "The lab uses mathematical modeling and model-informed data analysis to study how the structure of nervous systems gives rise to function, from single neurons to social groups. Its methods include dynamical systems, control theory, reinforcement learning, statistical modeling and machine learning. Biological questions centre on neural circuits for fear, survival and social behaviour, and on how those circuits malfunction in social dysfunction or excessive anxiety. They examine how neural populations represent sensory and internal information in the hypothalamus, basal ganglia and hippocampus. The lab also builds computer-vision and behaviour-analysis tools and puts weight on open science.",
+   "focus": "The lab uses mathematical modeling and model-informed data analysis to study how the structure of the nervous system gives rise to function. Its methods come from dynamical systems, control theory, reinforcement learning and machine learning. It applies them to neural dynamics and behavior across scales, brain regions and model organisms. Topics include fear, survival and social behavior, and how the brain learns, makes decisions and pursues goals. The lab also builds computational methods for analyzing animal behavior and its link to neural activity.",
    "topics": [
     "theoretical neuroscience",
     "dynamical systems",
-    "hypothalamic circuits",
-    "computational behavior analysis",
     "neural population dynamics",
-    "machine learning"
+    "computational behavior analysis",
+    "reinforcement learning",
+    "hypothalamic circuits"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab does theoretical and systems neuroscience, with no cancer genomics, sequencing, structural variants or omics. The only overlap with the student's interests is generic machine-learning methodology."
+    "reason": "The lab does theoretical and computational neuroscience and behavior modeling. It has no cancer genomics, sequencing, structural variant or omics work, so the only overlap with the student's interests is general machine learning."
    },
    "flags": [
-    "PI moved from Northwestern University Feinberg School of Medicine (assistant professor, 2020–2024) to Scripps Research in 2024. The Scripps listing is current.",
-    "Several students are still listed with Northwestern emails, so they may be remote or in transition. The page gives no year for any student.",
-    "Two undergraduates (Sofina Yang, Siya Sathaye) were excluded as out of scope.",
-    "No individual profile pages for members, and no Google Scholar link on the Scripps page.",
-    "The student would likely need a US visa for any role here."
+    "The PI moved from Northwestern Feinberg School of Medicine (2020-2024) to Scripps Research in 2024. The Scripps listing is current.",
+    "The members page shows no last-updated date. Several students still have Northwestern emails or affiliations, so the roster may be partly out of date.",
+    "Two undergraduates (Sofina Yang, Siya Sathaye) are on the page and were excluded.",
+    "No individual profile pages were found for members.",
+    "The Google Scholar URL was not found."
    ],
    "sources": [
     {
@@ -27000,16 +26996,12 @@
      "url": "https://www.kennedylab.org/lab-members"
     },
     {
-     "title": "Scripps Research faculty page: Ann Kennedy",
+     "title": "Scripps faculty profile: Ann Kennedy",
      "url": "https://www.scripps.edu/faculty/kennedy/"
-    },
-    {
-     "title": "Pew Biomedical Scholars: Ann Kennedy",
-     "url": "https://www.pew.org/en/projects/pew-biomedical-scholars/directory-of-pew-scholars/2024/ann-kennedy"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:16:54+00:00",
+   "refreshed_at": "2026-11-14T23:03:05+00:00",
    "error": null,
    "pi_profile": {
     "name": "Ann Kennedy",
@@ -27022,7 +27014,7 @@
      "name": "Bharadwaj Vemparala",
      "role": "Postdoc",
      "year": "Joined May 2026",
-     "focus": "Multiscale theories of brain and behavior",
+     "focus": "Theories of multi-scale processes underlying brain and behavior",
      "email": null,
      "profile_url": null
     },
@@ -27030,7 +27022,7 @@
      "name": "Richard Gast",
      "role": "Postdoc",
      "year": "Joined 2022",
-     "focus": "Computation through dynamics in spiking networks, especially neural heterogeneity",
+     "focus": "Computation through dynamics in spiking networks; the role of neural heterogeneity",
      "email": null,
      "profile_url": null
     },
@@ -27038,7 +27030,7 @@
      "name": "Shotaro Takasu",
      "role": "Postdoc",
      "year": "Joined 2025",
-     "focus": "Neural dynamics and representation learning; theoretical views of mental disorders",
+     "focus": "Neural dynamics and representation learning; theoretical aspects of mental disorders",
      "email": null,
      "profile_url": null
     },
@@ -27046,7 +27038,7 @@
      "name": "Caelen Hilty",
      "role": "PhD student",
      "year": null,
-     "focus": "How neuromodulation reshapes network dynamics (UCSD Neuroscience)",
+     "focus": "How neuromodulation reconfigures network dynamics for flexible behavior (UCSD Neuroscience)",
      "email": null,
      "profile_url": null
     },
@@ -27054,7 +27046,7 @@
      "name": "Max Weinberg",
      "role": "PhD student",
      "year": null,
-     "focus": "Information coding in neuron populations over time (UCSD Neuroscience)",
+     "focus": "How information is encoded in neural populations over time (UCSD Neuroscience)",
      "email": null,
      "profile_url": null
     },
@@ -27062,7 +27054,7 @@
      "name": "Ruize Yang",
      "role": "PhD student",
      "year": null,
-     "focus": "Methods for analyzing animal behavior and its link to neural activity",
+     "focus": "Methods for animal behavior and its link to neural activity (Northwestern)",
      "email": null,
      "profile_url": null
     },
@@ -27070,7 +27062,7 @@
      "name": "Ryan Lu",
      "role": "PhD student",
      "year": null,
-     "focus": "Network models of neural computation and behavior (MD/PhD)",
+     "focus": "Network models of neural computation and behavior (MD/PhD, Northwestern)",
      "email": null,
      "profile_url": null
     },
@@ -27078,7 +27070,7 @@
      "name": "Sebastian Malagon Perez",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational analysis of animal behavior and hypothalamic circuits (Northwestern NUIN)",
+     "focus": "Computational analysis of animal behavior across timescales; hypothalamus circuits (Northwestern NUIN program)",
      "email": null,
      "profile_url": null
     },
@@ -27086,7 +27078,7 @@
      "name": "Tiange Hou",
      "role": "PhD student",
      "year": null,
-     "focus": "Animal survival in dynamic environments; computational behavior and neural studies (Scripps)",
+     "focus": "Animal survival in dynamic environments; computational study of behavior and neural computation (Scripps)",
      "email": null,
      "profile_url": null
     }
@@ -27106,42 +27098,43 @@
    "group": null,
    "department_hint": "Integrative Structural and Computational Biology",
    "id": "scripps-olson",
-   "url": "https://mgl.scripps.edu",
-   "focus": "The lab develops computational and visualization methods to study how biomolecules interact. It is best known for AutoDock and AutoDock Vina, the widely used ligand-protein docking programs. Other work includes mesoscale models of cellular environments (cellPACK, cellPAINT), the Python Molecular Viewer, and 3D printing and augmented reality for research and education. Applied work focuses on structure-based design of anti-HIV inhibitors and chemical probes, including covalent inhibitors and drug resistance.",
+   "url": "https://ccsb.scripps.edu/",
+   "focus": "The lab develops and applies computational and visualization methods to study biomolecular interactions. It created AutoDock and AutoDock Vina for docking flexible ligands into protein active sites. These tools are applied to anti-HIV drug design, including covalent inhibitors of HIV-1 proteins, and to drug resistance. The lab also does mesoscale modeling of cellular environments, such as whole HIV virions, bacterial nucleoids and secretory vesicles, using cellPACK, Mesoscope and cellPAINT. A further strand is visualization and education, including ePMV, tangible interfaces, 3D printing and augmented reality.",
    "topics": [
     "molecular docking (AutoDock)",
     "structure-based drug design",
-    "mesoscale cell modeling",
+    "HIV-1",
+    "mesoscale cellular modeling",
     "molecular visualization",
-    "HIV therapeutics"
+    "tangible interfaces / 3D printing"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab works on structure-based docking, mesoscale modeling and visualization, with no cancer genomics, sequencing, structural-variant or single-cell/spatial omics work, and only a weak link through computational methods and a cancer mention in Forli's drug-design applications."
+    "reason": "The lab works on docking, structural modeling and visualization. It does no cancer genomics, sequencing, structural-variant analysis or single-cell/spatial omics, so the only overlap is general computational methods."
    },
    "flags": [
-    "mgl.scripps.edu redirects (302) to ccsb.scripps.edu. The MGL was succeeded by the CCSB, created in 2018.",
-    "The PI is still at Scripps Research, so no move was found.",
-    "The CCSB people page lists no postdocs or PhD students. It lists only the PIs (Olson, Forli, Goodsell), a staff scientist, research associates/assistants, a programmer and an administrator, so members is empty. Some listed research associates could hold postdoc-type roles, but the page does not say.",
-    "David Goodsell retired in January 2025 but is still listed on the people page.",
-    "The Google Scholar URL was not verified, so it is null."
+    "mgl.scripps.edu redirects to ccsb.scripps.edu. The Molecular Graphics Laboratory was reorganized into the CCSB in 2018, and Olson directed the MGL from 1981 to 2018.",
+    "No move found: Olson is still listed as faculty at Scripps Research.",
+    "The people page lists no postdocs or PhD students, so the members list is empty and nothing was invented. It lists six Research Associates, and the page does not say whether any of them are postdocs: Brett Barbaro, Giulia Bianco, Jerome Eberhardt, Vera Prytkova, Diogo Santos Martins and Yuqi (Gary) ",
+    "David Goodsell retired in January 2025.",
+    "The CCSB also includes Stefano Forli's lab (forlilab.org) and Ludovic Autin. Forli's lab may be the better place to look for trainees."
    ],
    "sources": [
     {
-     "title": "CCSB home (mgl.scripps.edu redirect target)",
+     "title": "CCSB (successor to MGL)",
      "url": "https://ccsb.scripps.edu/"
     },
     {
-     "title": "CCSB people",
+     "title": "CCSB people page",
      "url": "http://ccsb.scripps.edu/people"
     },
     {
-     "title": "Arthur Olson, Scripps Research faculty profile",
+     "title": "Arthur Olson faculty page, Scripps Research",
      "url": "https://www.scripps.edu/faculty/olson"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:30+00:00",
+   "refreshed_at": "2026-11-14T23:03:41+00:00",
    "error": null,
    "pi_profile": {
     "name": "Arthur J. Olson",
@@ -27150,7 +27143,7 @@
     "scholar_url": null
    },
    "members": [],
-   "department": "Department of Integrative Structural and Computational Biology; Center for Computational Structural Biology (CCSB)",
+   "department": "Department of Integrative Structural and Computational Biology; Center for Computational Structural Biology",
    "location": "La Jolla, California, USA",
    "current_institution": "Scripps Research",
    "members_page": "http://ccsb.scripps.edu/people"
@@ -27315,25 +27308,25 @@
    "department_hint": "Integrative Structural and Computational Biology",
    "id": "scripps-quer",
    "url": "https://www.scripps.edu/faculty/quer/",
-   "focus": "The group develops AI and machine-learning algorithms for wearable-sensor data from smartwatches, single-lead ECG patches and other portable devices. A flagship project is the DETECT study, a prospective COVID-19 and viral-infection detection study with about 40,000 participants. The group also runs retrospective analyses of datasets with more than 100,000 individuals, including atrial fibrillation detection and modelling from single-lead ECG. Quer also leads the Data Science and Analytics team in the NIH All of Us Research Program's Participant Center.",
+   "focus": "The group applies digital medicine and AI to wearable sensor data. The DETECT study is a prospective project that uses wearables to detect COVID-19 and other viral infections, with about 40,000 participants. The group also analyses retrospective wearable datasets from more than 100,000 people, including single-lead ECG patches and smartwatches. Other work covers atrial fibrillation detection and modelling from single-lead ECG signals, and algorithm development for pregnancy monitoring and diabetes risk detection. Quer also leads the Data Science and Analytics team for the NIH All of Us Research Program's Participant Center. The work centres on signal processing and machine learning on physiological time-series data. I found no genomics or cancer component.",
    "topics": [
     "digital medicine",
     "wearable sensors",
     "machine learning",
     "ECG / atrial fibrillation",
     "infectious disease detection",
-    "population-scale cohorts"
+    "All of Us"
    ],
    "fit": {
     "score": 1,
-    "reason": "The work is wearable-sensor and ECG machine learning for population health, with no cancer genomics, structural variants, sequencing or single-cell/spatial omics, so the only overlap is general ML methods."
+    "reason": "The group works on machine learning for wearable and ECG data. It has no cancer genomics, sequencing, structural variant or single-cell work, so it overlaps with the student's interests only through general ML methods."
    },
    "flags": [
-    "No lab people/members page was found, so no postdocs or PhD students could be verified and the members list is empty, not confirmed as zero.",
-    "Scripps pages describe Quer as Assistant Professor of Digital Medicine, but a search summary also called him a Senior Staff Scientist, so the title is inconsistent across pages.",
-    "No PI move found: Scripps Research is still listed as his institution.",
-    "The faculty page does not list a separate lab website or a Google Scholar link.",
-    "A US role would likely need a visa for a Canadian PhD student."
+    "The PI is still at Scripps Research as far as I could verify. I found no sign of a move.",
+    "The faculty page lists no lab members, postdocs or PhD students. The only other person named is Michael Ko, in a photo caption, and I could not confirm their role.",
+    "I did not find a Google Scholar URL, so scholar_url is null.",
+    "Digital Trials Center team page lists Quer with other staff (Topol, Baca-Motes and others). These are not identified as his postdocs or students.",
+    "The faculty page has a contact email, but it is obfuscated in the page source, so I did not record it."
    ],
    "sources": [
     {
@@ -27345,12 +27338,16 @@
      "url": "https://www.scripps.edu/science-and-medicine/translational-institute/about/people/giorgio-quer/index.html"
     },
     {
-     "title": "Giorgio Quer – Digital Trials Center",
+     "title": "Scripps Research Digital Trials Center – Giorgio Quer",
      "url": "https://digitaltrials.scripps.edu/portfolio/giorgio-quer/"
+    },
+    {
+     "title": "Scripps Research Digital Trials Center – About",
+     "url": "https://digitaltrials.scripps.edu/about"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:26+00:00",
+   "refreshed_at": "2026-11-14T23:03:21+00:00",
    "error": null,
    "pi_profile": {
     "name": "Giorgio Quer",
@@ -27359,7 +27356,7 @@
     "scholar_url": null
    },
    "members": [],
-   "department": "Integrative Structural and Computational Biology; Scripps Research Translational Institute",
+   "department": "Integrative Structural and Computational Biology (ISCB); Scripps Research Translational Institute",
    "location": "La Jolla, California, USA",
    "current_institution": "Scripps Research",
    "members_page": null
@@ -27375,57 +27372,66 @@
    "department_hint": "Molecular and Cellular Biology",
    "id": "scripps-hogenesch",
    "url": "https://hogeneschlab.org/",
-   "focus": "The lab studies human circadian timing and how biological time relates to physiology, pharmacology and treatment. Its work covers molecular clock output and systems-level chronobiology across tissues, using temporal genomics. It also works on human genetics, including circadian and sleep phenotypes linked to MTOR variants and a DLG4-related model. The lab also builds public data resources and works on circadian medicine, and current members use patient-derived disease models. It is not a cancer genomics lab.",
+   "focus": "The lab studies the mammalian circadian clock and how to apply it to medicine, including time of day as a guide for when to give medication. Its work is in genome biology and temporal genomics. It also builds public data resources, including gene atlases of mouse, human and rat transcriptomes. Other areas are noncoding RNAs, cell-based screening, and functional models of rare genetic disease and sleep genetics, which use patient-derived models.",
    "topics": [
     "circadian biology",
     "temporal genomics",
+    "transcriptome atlases",
     "circadian medicine",
-    "sleep genetics",
-    "public data resources",
-    "rare disease models"
+    "rare disease models",
+    "sleep genetics"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab's computational and genomics-heavy approach to circadian biology overlaps only loosely with the student's methods interests, and it has no cancer, structural variant or single-cell/spatial focus. The lab also appears to have few or no current PhD students or postdocs."
+    "reason": "The lab's genomics and transcriptome-atlas work gives some computational overlap, but it does not cover cancer genomics, structural variants, somatic mutation analysis or single-cell/spatial cancer omics."
    },
    "flags": [
-    "The PI's institution is inconsistent between sources. The lab site (hogeneschlab.org) lists him as Thomas F. Boat Chair at Cincinnati Children's, while the Scripps faculty page lists him as Professor of Molecular & Cellular Biology. The Scripps logo appears on the lab site, but no move is announced.",
-    "The lab site has no stated last-updated date.",
-    "The current members list on the lab site names only Jiffin Paulose, PhD (Research Scientist, so not eligible for this list) and Sharon Tamir (Graduate Student, listed under Cincinnati Children's). It shows no email addresses.",
-    "I could not verify Sharon Tamir's PhD year or a profile link, so I have not added her to the members list. She is the only current graduate student named. Her focus is human genetics, sleep and patient-derived disease models.",
-    "No current postdocs are listed. All postdocs on the page are alumni."
+    "The discovery listing (Scripps Research) looks wrong or outdated. The lab site and the Cincinnati Children's page both place the PI at Cincinnati Children's. The Scripps faculty page did show Hogenesch as a Professor in Molecular & Cellular Biology, but I could not reconcile it with the other two pa",
+    "The people page lists only one current PhD student and no current postdocs. Anand Venkataraman and Gang Wu appear as Postdoctoral Fellows, but the page's wording is ambiguous and they are probably alumni, so I left them out.",
+    "Jiffin Paulose is a Research Scientist (staff), so I excluded them.",
+    "The people page gave no date for its last update, and no emails are published.",
+    "A US role would likely need a visa for a Canadian-based student."
    ],
    "sources": [
     {
-     "title": "Scripps Research faculty page - Hogenesch",
-     "url": "https://www.scripps.edu/faculty/hogenesch/"
-    },
-    {
-     "title": "Hogenesch Lab home",
-     "url": "https://hogeneschlab.org/"
-    },
-    {
-     "title": "Hogenesch Lab people",
+     "title": "Hogenesch Lab - People",
      "url": "https://hogeneschlab.org/people.html"
     },
     {
-     "title": "Cincinnati Children's Hogenesch lab page",
-     "url": "https://www.cincinnatichildrens.org/research/divisions/h/genetics/labs/hogenesch"
+     "title": "Hogenesch Lab",
+     "url": "https://hogeneschlab.org/"
+    },
+    {
+     "title": "Cincinnati Children's - John Hogenesch",
+     "url": "https://cincinnatichildrens.org/bio/h/john-hogenesch"
+    },
+    {
+     "title": "Scripps Research - Hogenesch faculty page",
+     "url": "https://www.scripps.edu/faculty/hogenesch/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:16:40+00:00",
+   "refreshed_at": "2026-11-14T23:02:37+00:00",
    "error": null,
    "pi_profile": {
     "name": "John B. Hogenesch",
-    "title": "Thomas F. Boat Chair, Cincinnati Children's Hospital Medical Center (the Scripps faculty page lists him as Professor of Molecular & Cellular Biology)",
-    "profile_url": "https://www.scripps.edu/faculty/hogenesch/",
+    "title": "Professor, Department of Pediatrics (University of Cincinnati); Thomas F. Boat Chair, Cincinnati Children's Hospital Medical Center",
+    "profile_url": "https://cincinnatichildrens.org/bio/h/john-hogenesch",
     "scholar_url": "https://scholar.google.com/citations?user=GseT2dUAAAAJ&hl=en&oi=ao"
    },
-   "members": [],
-   "department": "Cincinnati Children's: Human Genetics, Pulmonary Medicine and Immunobiology. Scripps page: Molecular and Cellular Biology.",
-   "location": "Cincinnati, Ohio, USA (per lab site); La Jolla, California, USA (per Scripps page)",
-   "current_institution": "Unresolved. The lab's own site says Cincinnati Children's Hospital Medical Center. The Scripps faculty page lists him at Scripps Research (La Jolla).",
+   "members": [
+    {
+     "name": "Sharon Tamir",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Human genetics, sleep, and patient-derived disease models",
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Division of Human Genetics; Department of Pediatrics, University of Cincinnati College of Medicine",
+   "location": "Cincinnati, Ohio, USA",
+   "current_institution": "Cincinnati Children's Hospital Medical Center (not Scripps Research, per the lab site and the CCHMC page)",
    "members_page": "https://hogeneschlab.org/people.html"
   },
   {
@@ -27536,24 +27542,24 @@
    "department_hint": "Integrative Structural and Computational Biology",
    "id": "scripps-mravic",
    "url": "https://mmravic314.github.io",
-   "focus": "The lab uses protein design and integrative computational approaches to study how proteins work within cell membranes. One area is building small synthetic transmembrane proteins as simple model systems for basic biophysics. These designs draw on chemical rules from bioinformatics, simulations and energy calculations. A second area is designing chemical biology tools that target membrane proteins in their lipid-embedded regions. A third area is molecular modeling and dynamics simulations that combine experimental data to study key events at cell membranes.",
+   "focus": "The lab uses protein design and integrative computational approaches to study how proteins work, mainly inside cell membranes. It designs small synthetic membrane proteins as simple models for testing biophysical questions. It also designs and engineers chemical-biology tools that target the lipid-embedded region of membrane proteins. A third area is molecular modeling and dynamics simulation that incorporates experimental data.",
    "topics": [
-    "membrane protein design",
-    "transmembrane domains",
-    "chemical biology tools",
-    "molecular dynamics simulation",
-    "protein biophysics"
+    "membrane proteins",
+    "protein design",
+    "molecular dynamics",
+    "chemical biology",
+    "structural biology"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab works on computational membrane protein design and biophysics, with no cancer genomics, sequencing, structural variants, single-cell or spatial omics. The only overlap is general computational methods, and a US visa would likely be needed."
+    "reason": "The lab does computational protein design and membrane biophysics, with no cancer genomics, sequencing, structural-variant, single-cell or spatial omics work, so it barely overlaps with the student's interests."
    },
    "flags": [
-    "PI is still at Scripps Research, so no move was found.",
-    "No lab people or members page was found. The lab site (mmravic314.github.io) has Home, Research, Publications and Join pages only, so no postdocs or PhD students could be verified and the members list is empty.",
-    "The Scripps faculty page gives no member list or email. The PI's email, mmravic (AT) scripps.edu, is on the lab site.",
-    "The Google Scholar URL was not found, so it is null.",
-    "The lab site says the lab is recruiting (/join), but the postings link is a placeholder."
+    "No lab members page found. The lab site (mmravic314.github.io) and the Scripps faculty page list only the PI, so no postdocs or PhD students could be verified.",
+    "https://www.scripps.edu/mravic redirects (301) to mmravic314.github.io, so the lab site is hosted on GitHub Pages.",
+    "PI confirmed at Scripps Research, with no move found. The lab site lists the PI as Scripps Fellow, and the faculty page lists Assistant Professor.",
+    "The PI's public email on the lab site is mmravic (AT) scripps.edu, which is not a member email.",
+    "The student would likely need a US visa for a role here."
    ],
    "sources": [
     {
@@ -27566,11 +27572,11 @@
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:16:58+00:00",
+   "refreshed_at": "2026-11-14T23:03:03+00:00",
    "error": null,
    "pi_profile": {
     "name": "Marco Mravic",
-    "title": "Assistant Professor (Scripps Fellow), Integrative Structural and Computational Biology",
+    "title": "Assistant Professor; Scripps Fellow",
     "profile_url": "https://www.scripps.edu/faculty/mravic/",
     "scholar_url": null
    },
@@ -27591,50 +27597,50 @@
    "department_hint": "Integrative Structural and Computational Biology",
    "id": "scripps-ken",
    "url": "https://kenrna.com/index.html",
-   "focus": "The lab combines computational and experimental methods to study RNA structure-function relationships, with a current focus on viral RNAs and antiviral drug development. Projects include quantitative modeling of the HIV 5'-leader genomic RNA and its interaction with the Gag polyprotein during genome packaging. The lab also targets rare, non-functional RNA conformations with small molecules, using mutational strategies and NMR. Computational work covers molecular dynamics, RNA structure prediction and AutoDock-based virtual screening against RNA.",
+   "focus": "The lab combines computational and experimental methods to study how RNA structure and dynamics determine function, mainly in viral RNAs. Current projects model how the HIV-1 5' leader genomic RNA interacts with the Gag polyprotein during genome packaging. The lab also develops small-molecule drugs that target rare, high-energy RNA conformations, using mutational strategies and NMR. On the computational side, it builds tools for molecular dynamics, RNA structure prediction and docking (AutoDock). It collaborates with Calibr to find RNA-binding antiviral compounds.",
    "topics": [
     "RNA structure and dynamics",
-    "HIV genome packaging",
+    "HIV-1 genome packaging",
     "RNA-targeted small molecules",
     "NMR",
-    "molecular docking and virtual screening",
-    "molecular dynamics"
+    "molecular dynamics and docking",
+    "antiviral drug discovery"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab works on RNA structural biophysics and antiviral drug discovery, with no cancer genomics, sequencing, structural-variant or single-cell work. The only overlap is generic computational modelling, and the student would also face US visa issues."
+    "reason": "The lab works on structural biophysics and drug discovery for viral RNA, with essentially no overlap with cancer genomics, tumour sequencing, structural variants, or single-cell and spatial omics. The only link is its computational modelling, which is not genomic."
    },
    "flags": [
-    "No PI move found: Scripps Research is still the current institution.",
-    "No year of study is listed for any member.",
-    "The team page does not explicitly label Jessica Vance and William Guo as PhD students. They are listed as graduate fellows, so I included them as graduate trainees.",
-    "The profile links are LinkedIn pages. The team page gave no lab-hosted personal pages.",
-    "I did not verify the PI's Google Scholar URL, so it is null."
+    "PI is still at Scripps Research. I found no move.",
+    "The faculty page names no lab members. The lab's own Team page was used.",
+    "The Team page lists no years for members.",
+    "Google Scholar profile not found, so scholar_url is null.",
+    "Student eligibility: US roles may need a visa."
    ],
    "sources": [
     {
-     "title": "Scripps Research faculty profile: Megan Ken",
+     "title": "Scripps Research faculty page: Megan Ken",
      "url": "https://www.scripps.edu/faculty/ken/"
     },
     {
-     "title": "Ken Lab home page",
+     "title": "Ken Lab home",
      "url": "https://kenrna.com/index.html"
     },
     {
-     "title": "Ken Lab team page",
+     "title": "Ken Lab Team page",
      "url": "https://kenrna.com/Team_Page.html"
     },
     {
-     "title": "Scripps Research news: Jardine, Ran and Ken join the faculty (2023)",
-     "url": "https://www.scripps.edu/news-and-events/press-room/2023/20230113-jardine-ran-ken-faculty.html"
+     "title": "Scripps Research news: new faculty 2023",
+     "url": "https://www.scripps.edu/news-events/news/20230113-jardine-ran-ken-faculty/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:15+00:00",
+   "refreshed_at": "2026-11-14T23:03:42+00:00",
    "error": null,
    "pi_profile": {
     "name": "Megan Ken",
-    "title": "Assistant Professor (MD, PhD)",
+    "title": "Assistant Professor (Scripps Research Fellow), MD, PhD",
     "profile_url": "https://www.scripps.edu/faculty/ken/",
     "scholar_url": null
    },
@@ -27643,41 +27649,41 @@
      "name": "Deng Li",
      "role": "Postdoc",
      "year": null,
-     "focus": "RNA dynamics and interactions with proteins and small molecules, combining computation with NMR and cryo-EM",
+     "focus": "RNA dynamics and interactions with proteins and small molecules, using computation with NMR and cryo-EM",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/deng-li-589068127/"
+     "profile_url": "https://orcid.org/0009-0002-3030-8009"
     },
     {
      "name": "Jeet Chakraborty",
      "role": "Postdoc",
      "year": null,
-     "focus": "How HIV capsid-RNA interactions govern genome packaging and early infection; RNA regulation in viral replication",
+     "focus": "HIV capsid RNA interactions in genome packaging and early infection; RNA regulation in viral replication",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/jeet-chakraborty-6b386b121/"
+     "profile_url": "https://orcid.org/0000-0003-4405-242X"
     },
     {
      "name": "Suraj Ugrani",
      "role": "Postdoc",
      "year": null,
-     "focus": "Limits of molecular docking for RNA targets, RNA therapeutic discovery, RNA structure prediction",
+     "focus": "Molecular docking for RNA targets, RNA therapeutic discovery, RNA structure prediction",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/surajugrani/"
+     "profile_url": "https://orcid.org/0000-0002-4377-8168"
     },
     {
      "name": "Catherine Li",
      "role": "PhD student",
      "year": null,
-     "focus": "RNA structural dynamics of HIV in biologically relevant models, linked to RNA-targeted drug development (Kellogg Graduate Fellow)",
+     "focus": "RNA structural dynamics of HIV using biologically relevant models (Kellogg Graduate Fellow)",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/catherine-li-b3a6ba227/"
+     "profile_url": "https://orcid.org/0000-0001-9357-2902"
     },
     {
      "name": "Jessica Vance",
      "role": "PhD student",
      "year": null,
-     "focus": "Rare RNA conformational changes by NMR; folding pathway of the HIV genome (ChemBio T32 fellow, co-advised by Jamie Williamson)",
+     "focus": "Rare RNA conformational changes by NMR and the folding pathway of the HIV genome (ChemBio T32 Fellow; co-advised by Jamie Williamson). The page does not state PhD status explicitly.",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/jessica-vance-574419219/"
+     "profile_url": "https://orcid.org/0009-0002-6300-9646"
     },
     {
      "name": "Lui Suzuki-Williams",
@@ -27685,26 +27691,26 @@
      "year": null,
      "focus": "Structural and biophysical approaches to HIV pathogenesis and RNA dynamics (UCSD MSTP MD/PhD student)",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/lui-suzuki-williams-6a23a3166/"
+     "profile_url": "https://orcid.org/0009-0003-3100-9091"
     },
     {
      "name": "Sara Vardabasso",
      "role": "PhD student",
      "year": null,
-     "focus": "NMR studies of miRNA and target RNA dynamics, how structure affects AGO cleavage, and siRNA design (Skaggs Graduate Fellow, co-advised by Ian MacRae)",
+     "focus": "NMR of RNA structural dynamics, including how miRNA and target structure affect AGO cleavage, to inform siRNA design (co-advised by Ian MacRae)",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/sara-vardabasso-750323247/"
+     "profile_url": "https://orcid.org/0009-0008-1007-7737"
     },
     {
      "name": "William Guo",
      "role": "PhD student",
      "year": null,
-     "focus": "Nucleic acids and tools for studying them (A*STAR Graduate Fellow, co-advised by Jamie Williamson)",
+     "focus": "Nucleic acids and tools for studying them (A*STAR Graduate Fellow; co-advised by Jamie Williamson). The page does not state PhD status explicitly.",
      "email": null,
-     "profile_url": "https://www.linkedin.com/in/william-guo-9b622b25a/"
+     "profile_url": "https://orcid.org/0009-0005-1885-5757"
     }
    ],
-   "department": "Integrative Structural and Computational Biology (joint appointment in Immunology and Microbiology)",
+   "department": "Integrative Structural and Computational Biology (joint appointment in Immunology and Microbiology; Skaggs Graduate School)",
    "location": "La Jolla, California, USA",
    "current_institution": "Scripps Research",
    "members_page": "https://kenrna.com/Team_Page.html"
@@ -27720,25 +27726,25 @@
    "department_hint": "Integrative Structural and Computational Biology",
    "id": "scripps-sanner",
    "url": "https://sannerlab.github.io",
-   "focus": "The lab develops computational methods for predicting how biological molecules bind one another and releases them as open-source software. Its current focus is peptide docking with AutoDock CrankPep (ADCP), which folds and docks flexible linear and cyclic peptides. The lab is also combining physics-based docking with AI structure predictors such as AlphaFold. Other work covers small-molecule docking, molecular surfaces and visualization, using tools such as MGLTools, MSMS, and the web-based ADapt and WEWoS.",
+   "focus": "The lab develops computational methods for predicting, analyzing, visualizing and optimizing molecular interactions, and releases them as open-source software. Current work centers on peptide docking with AutoDock CrankPep, which combines physics-based methods with AI structure predictors. The lab also maintains protein–ligand docking tools such as AutoDock4 and AutoDockFR, along with molecular surface (MSMS) and F2Dock tools and graphical user interfaces. Its other areas are binding-site analysis and scientific software engineering.",
    "topics": [
-    "peptide docking",
-    "AutoDock / ADCP",
     "molecular docking",
-    "molecular surfaces and visualization",
-    "AlphaFold integration",
+    "peptide docking",
+    "AutoDock",
+    "molecular surfaces",
+    "structure-based drug design",
     "scientific software"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab works on structure-based docking and molecular visualization software, with no cancer genomics, sequencing, structural-variant, or single-cell/spatial omics work, so it overlaps with the student's interests only slightly through general computational methods."
+    "reason": "The lab works on structure-based docking and molecular modelling software. It has almost no overlap with cancer genomics, sequencing, structural variants, single-cell/spatial omics or genomic ML. It is also in the US, so the student would need a visa."
    },
    "flags": [
-    "No PhD students are listed on the lab page.",
-    "The PI is still at Scripps Research. The faculty page and the lab page both confirm this, and no move was found.",
-    "The members page shows no update date. The lab site's latest news item is dated 2026-11-06, so the site is actively maintained.",
-    "The two postdocs' focus areas are not published, and their profile links go to LinkedIn, not to official pages.",
-    "The PI's email, sanner@scripps.edu, is published on the lab page."
+    "The lab page lists no current PhD students.",
+    "The lab page has no last-updated date.",
+    "The page gives no research focus for either postdoc. The only published email is the PI's (sanner@scripps.edu).",
+    "The PI's Google Scholar URL was not verified, so it is null.",
+    "No PI move was found. The Scripps faculty page still lists the PI at Scripps Research."
    ],
    "sources": [
     {
@@ -27746,29 +27752,29 @@
      "url": "https://www.scripps.edu/faculty/sanner/"
     },
     {
-     "title": "Sanner Lab home page",
+     "title": "Sanner Lab home",
      "url": "https://sannerlab.github.io"
     },
     {
-     "title": "Sanner Lab members page",
+     "title": "Sanner Lab members",
      "url": "https://sannerlab.github.io/lab.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:54+00:00",
+   "refreshed_at": "2026-11-14T23:04:09+00:00",
    "error": null,
    "pi_profile": {
-    "name": "Michel Sanner",
+    "name": "Michel F. Sanner",
     "title": "Professor of Molecular Biology",
     "profile_url": "https://www.scripps.edu/faculty/sanner/",
-    "scholar_url": "https://scholar.google.com/citations?user=lGVSqeYAAAAJ"
+    "scholar_url": null
    },
    "members": [
     {
      "name": "Jiahui Wang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed on the lab page",
+     "focus": null,
      "email": null,
      "profile_url": "https://www.linkedin.com/in/jiahui-wang-54219b327/"
     },
@@ -27776,12 +27782,12 @@
      "name": "Kandarp Sojitra",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed on the lab page",
+     "focus": null,
      "email": null,
      "profile_url": "https://www.linkedin.com/in/kandarp-a-sojitra-63938963/"
     }
    ],
-   "department": "Integrative Structural and Computational Biology",
+   "department": "Department of Integrative Structural and Computational Biology",
    "location": "La Jolla, California, USA",
    "current_institution": "Scripps Research",
    "members_page": "https://sannerlab.github.io/lab.html"
@@ -27797,37 +27803,37 @@
    "department_hint": "Neuroscience",
    "id": "scripps-peng",
    "url": "https://www.scripps.edu/faculty/peng/",
-   "focus": "The lab uses algorithms and statistics to study the biological basis of mental health. Its main focus is the genomic and epigenomic roots of addiction and related comorbid disorders. It uses multi-omics and integrative computational methods. It also studies how ancestry and gene-gene interactions affect risk or protection for addictive and comorbid mental disorders.",
+   "focus": "The lab studies the biological determinants of mental health using algorithms and statistics. Its main focus is the genomic and epigenomic basis of addiction, using multi-omics and computational approaches. It also examines how ancestral background and genetic interactions affect risk for addictive and comorbid mental disorders. The PI trained in computer science (PhD, UC San Diego), so the work is mostly computational and statistical genetics.",
    "topics": [
-    "addiction genetics",
+    "addiction genomics",
     "epigenomics",
-    "multi-omics integration",
+    "multi-omics",
     "statistical genetics",
-    "ancestry and risk",
-    "computational psychiatry"
+    "psychiatric genetics",
+    "ancestry and genetic interactions"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab does computational genomics and statistical methods, which overlaps with the student's methods interests. Its focus is addiction and psychiatric genetics, not cancer, tumour sequencing, structural variants or single-cell/spatial oncology."
+    "reason": "The lab does computational and statistical genomics, which overlaps with the student's methods interests. Its focus is addiction and psychiatric genetics, not cancer, tumour sequencing, structural variants or single-cell oncology, and the student would likely need a US visa."
    },
    "flags": [
-    "The PI's Scripps faculty page, the only official page found, lists no lab members and links to no separate lab website, so no postdocs or PhD students could be verified.",
-    "The PI is still at Scripps Research and has not moved. The faculty page lists her as Associate Professor. An older NIDA-NIAAA bio listing her as Assistant Professor is out of date.",
-    "Google Scholar profile not verified, so scholar_url is null.",
-    "Check with the department or the PI directly for the current roster. A US role would likely need a visa."
+    "No lab members page was found on the Scripps faculty page or in search, so no postdocs or PhD students could be verified.",
+    "The PI's institution (Scripps Research) was confirmed only from the faculty page, which has no date. No move was found.",
+    "The Google Scholar profile was not found.",
+    "The PI's faculty page lists the email qpeng@scripps.edu."
    ],
    "sources": [
     {
-     "title": "Scripps Research faculty profile: Qian Peng",
+     "title": "Qian Peng faculty page, Scripps Research",
      "url": "https://www.scripps.edu/faculty/peng/"
     },
     {
-     "title": "NIDA-NIAAA Frontiers 2018 biography (outdated title)",
+     "title": "Biography Peng (NIDA Frontiers 2018)",
      "url": "https://apps1.seiservices.com/nida-niaaa/frontiers2018/Bio/Biography_Peng.pdf"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:12+00:00",
+   "refreshed_at": "2026-11-14T23:03:08+00:00",
    "error": null,
    "pi_profile": {
     "name": "Qian Peng",
@@ -27852,25 +27858,25 @@
    "department_hint": "Integrative Structural and Computational Biology",
    "id": "scripps-forli",
    "url": "https://forlilab.org/",
-   "focus": "The lab builds computational tools for structure-based drug discovery and uses them on therapeutic targets. A central effort is the AutoDock suite, including GPU-accelerated docking engines, improved force fields and scoring functions, and search algorithms. The lab also works on covalent inhibitor discovery, including proteome-wide ligand discovery with SuFEx chemistry, and on protein flexibility using MD simulations and ensemble docking. Newer work applies machine learning to virtual screening and neural-network force fields (AMOEBA/Tinker-GPU). Many projects are joint with experimental labs and cover membrane proteins, ion channels, neurodegeneration and the unfolded protein response.",
+   "focus": "The lab develops computational methods for structure-based drug discovery and applies them to therapeutically relevant targets. Its main areas are molecular docking, including the GPU-accelerated AutoDock engines, and covalent inhibitor design. It also works on protein flexibility, using molecular dynamics simulations and ensemble docking. Current members work on virtual screening of membrane proteins, MD-based drug discovery, HIV inhibitors, and machine learning for polarizable force fields. Many projects are joint with experimental labs at Scripps.",
    "topics": [
     "molecular docking",
     "AutoDock",
     "virtual screening",
-    "covalent inhibitors",
     "molecular dynamics",
-    "ML force fields"
+    "covalent inhibitors",
+    "computational drug discovery"
    ],
    "fit": {
     "score": 1,
-    "reason": "The lab does structure-based drug discovery and docking. It has no cancer genomics, sequencing, structural-variant or single-cell/spatial work, so the only overlap with the student's interests is general computational and ML methods. A US visa would also be needed."
+    "reason": "The lab does structure-based drug design and docking, with no cancer genomics, sequencing, structural-variant, or single-cell work, so the only overlap is a general computational/ML link."
    },
    "flags": [
-    "PI is still at Scripps Research (no move found).",
-    "The members page lists no emails and no start years for current members, so year is null for everyone.",
-    "Most graduate students are joint with other Scripps labs.",
-    "The members page lists Boyuan Ma with a LinkedIn URL that appears to be Alessandra Riccio's, so I left it out.",
-    "Staff scientists, research programmers and a scientific associate were excluded, as were alumni and an undergraduate intern."
+    "No move found: the PI is still at Scripps Research.",
+    "The Scripps pages disagree on the PI's title (Professor vs Associate Professor), and I could not confirm which is current.",
+    "The members page lists 'Graduate Student' and does not say PhD. I labelled them PhD students because they are Scripps graduate students, which is an assumption.",
+    "The members page lists no start years or emails. It was timestamped 2026-10-20.",
+    "The LinkedIn link on Boyuan Ma's entry matches Alessandra Riccio's profile, so I left it out."
    ],
    "sources": [
     {
@@ -27882,25 +27888,29 @@
      "url": "https://forlilab.org/members/"
     },
     {
-     "title": "Stefano Forli - Google Scholar",
-     "url": "https://scholar.google.com/citations?user=HQEzI8kAAAAJ&hl=en"
+     "title": "Scripps faculty page: Forli",
+     "url": "https://www.scripps.edu/faculty/forli/"
+    },
+    {
+     "title": "Scripps Research ISCB department",
+     "url": "https://www.scripps.edu/science-and-medicine/research-departments/integrative-structural-and-computational-biology/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:16:39+00:00",
+   "refreshed_at": "2026-11-14T23:02:44+00:00",
    "error": null,
    "pi_profile": {
     "name": "Stefano Forli",
-    "title": "Professor, Integrative Structural and Computational Biology; Director, Resource for Structure-based Computational Drug Discovery and Design (RSCD3)",
-    "profile_url": "https://forlilab.org/members/",
-    "scholar_url": "https://scholar.google.com/citations?user=HQEzI8kAAAAJ&hl=en"
+    "title": "Professor (a more recent Scripps page says Professor, an older page and a 2023 article say Associate Professor), Department of Integrative Structural and Computational Biology; Director, NIH-funded Na",
+    "profile_url": "https://www.scripps.edu/faculty/forli/",
+    "scholar_url": null
    },
    "members": [
     {
      "name": "Alessandra Riccio",
      "role": "Postdoc",
      "year": null,
-     "focus": "HIV inhibitor development; immune checkpoint and protein-protein interactions",
+     "focus": "HIV inhibitor development",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/alessandra-riccio-456848214/"
     },
@@ -27908,7 +27918,7 @@
      "name": "Batuujin Burendei",
      "role": "Postdoc",
      "year": null,
-     "focus": "Virtual screening of membrane proteins (OTOP1, STING); cryo-EM background; joint with Ward Lab",
+     "focus": "Virtual screening of membrane proteins (OTOP1, STING); joint with the Ward Lab",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/batuujin-burendei-611803158/"
     },
@@ -27916,7 +27926,7 @@
      "name": "Manuel Llanos",
      "role": "Postdoc",
      "year": null,
-     "focus": "MD simulations for drug discovery; ion channel and epilepsy-related modulators",
+     "focus": "MD simulations for drug discovery projects",
      "email": null,
      "profile_url": "http://www.linkedin.com/in/manuel-llanos"
     },
@@ -27932,7 +27942,7 @@
      "name": "Yanxing Wang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Machine learning in virtual screening; neural networks in the AMOEBA force field; Tinker-GPU",
+     "focus": "Machine learning and neural networks in polarizable force fields (AMOEBA, Tinker-GPU)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/ywangsprofile/"
     },
@@ -27940,7 +27950,7 @@
      "name": "Allison Barkdull",
      "role": "PhD student",
      "year": null,
-     "focus": "Methods to discover molecules that bind membrane proteins; joint with Ward Lab",
+     "focus": "Discovering molecules that bind membrane proteins; joint with the Ward Lab",
      "email": null,
      "profile_url": null
     },
@@ -27948,7 +27958,7 @@
      "name": "Boyuan Ma",
      "role": "PhD student",
      "year": null,
-     "focus": "Small-molecule discovery for cytoskeleton proteins; joint with Grotjahn Lab",
+     "focus": "Cytoskeleton protein cryo-EM and structure-based small-molecule discovery; joint with the Grotjahn Lab",
      "email": null,
      "profile_url": null
     },
@@ -27964,7 +27974,7 @@
      "name": "Peter Rory Hall",
      "role": "PhD student",
      "year": null,
-     "focus": "Membrane protein virtual screening and cryo-EM; joint with Ward and Parker Labs",
+     "focus": "Membrane protein virtual screening and cryo-EM; joint with the Ward and Parker Labs",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/peteroryhall/"
     },
@@ -27972,7 +27982,7 @@
      "name": "Renhao Luo",
      "role": "PhD student",
      "year": null,
-     "focus": "Identifying druggable targets for diseases; joint with Patapoutian Lab",
+     "focus": "Translational work identifying druggable disease targets; joint with the Patapoutian Lab",
      "email": null,
      "profile_url": null
     },
@@ -27980,7 +27990,7 @@
      "name": "Richard Hou",
      "role": "PhD student",
      "year": null,
-     "focus": "Docking and MD targeting the unfolded protein response; joint with Wiseman Lab",
+     "focus": "Docking and MD targeting the unfolded protein response; joint with the Wiseman Lab",
      "email": null,
      "profile_url": null
     },
@@ -27988,13 +27998,13 @@
      "name": "Yuting Zhang",
      "role": "PhD student",
      "year": null,
-     "focus": "MD and docking for neurodegenerative diseases; joint with Kelly Lab; also manages the lab website",
+     "focus": "MD and docking for neurodegenerative disease drug discovery; joint with the Kelly Lab",
      "email": null,
      "profile_url": null
     }
    ],
    "department": "Department of Integrative Structural and Computational Biology",
-   "location": "La Jolla, CA, USA",
+   "location": "La Jolla, California, USA",
    "current_institution": "Scripps Research",
    "members_page": "https://forlilab.org/members/"
   },
@@ -34502,52 +34512,60 @@
    "department_hint": "Division of Molecular Pathology",
    "id": "icr-sadanandam",
    "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/systems-and-precision-cancer-medicine-team",
-   "focus": "The group stratifies cancer patients into clinically relevant subtypes, with work on pancreatic, colorectal, breast and other cancers. It develops AI and machine-learning models that integrate multi-omics data with phenome data. Its published work includes subtype-guided treatment selection in colorectal, pancreatic and triple-negative breast cancer, and tumour-immune and immunotherapy research. These details come from search-result snippets and page titles only, because the group page itself could not be opened.",
+   "focus": "The group classifies patients with pancreatic, colorectal, breast and other cancers into clinically relevant molecular subtypes. It uses computational and systems-biology approaches on transcriptomic data from national and international clinical trial and tissue resources. It identifies and validates subtype-specific drug targets and therapies, including immune and stroma pathways, with work on drug resistance and immunotherapy response in bowel cancer. It also coordinates cancer projects in low- and middle-income countries, including India, and takes part in the COLOSSUS consortium.",
    "topics": [
     "cancer subtyping",
     "precision oncology",
-    "machine learning",
-    "multi-omics integration",
-    "colorectal and pancreatic cancer",
-    "immunotherapy"
+    "colorectal cancer",
+    "pancreatic cancer",
+    "transcriptomics",
+    "immunotherapy and tumour microenvironmen"
    ],
    "fit": {
     "score": 3,
-    "reason": "Computational multi-omics and machine-learning work on cancer subtypes overlaps with the student's interests, but I found no evidence of structural-variant, whole-genome sequencing or single-cell/spatial focus, and the role would need a UK visa."
+    "reason": "The group's transcriptome-based subtyping and computational precision oncology overlap with the student's transcriptome and computational methods interests, but I found no evidence of whole-genome sequencing, structural-variant or single-cell/spatial focus, and a UK role may need a visa."
    },
    "flags": [
-    "ICR pages returned HTTP 403, so the members list could not be verified and is empty; check the 'Researchers in this group' section manually",
-    "No PI move found: search results still list him at ICR (82 publications, latest dated 12/2025). His earlier EPFL affiliation is listed as past",
-    "No Google Scholar profile was found; his ORCID is 0000-0001-8485-5150 (from csauthors.net)",
-    "PI title 'Professor' comes from search-result text and was not checked on the profile page",
-    "The group's page URL has been restructured on the ICR site (two URL variants seen)"
+    "No move found: the PI is still at the ICR (Group Leader since 2013, tenured 2018).",
+    "Member roster NOT verified: ICR pages returned HTTP 403 and search snippets showed an empty 'Researchers in this group' section. Check the members page manually.",
+    "The PI's title varies by source (Professor / Associate Professor / Reader).",
+    "No Google Scholar URL was seen. A lab site, sadanandam-lab.com, was mentioned but not verified.",
+    "The group page cites 82 publications, most recent dated 12/2025."
    ],
    "sources": [
-    {
-     "title": "Systems and Precision Cancer Medicine Group (ICR, Molecular Pathology)",
-     "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/systems-and-precision-cancer-medicine-team"
-    },
     {
      "title": "Systems and Precision Cancer Medicine Group (ICR)",
      "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/systems-and-precision-cancer-medicine-team"
     },
     {
-     "title": "Anguraj Sadanandam (csauthors)",
-     "url": "https://www.csauthors.net/anguraj-sadanandam"
+     "title": "Systems and Precision Cancer Medicine Team (ICR, Division of Molecular Pathology path)",
+     "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/systems-and-precision-cancer-medicine-team"
+    },
+    {
+     "title": "Professor Anguraj Sadanandam (ICR)",
+     "url": "https://www.icr.ac.uk/our-research/researchers-and-teams/dr-anguraj-sadanandam"
+    },
+    {
+     "title": "Research overview (ICR)",
+     "url": "https://www.icr.ac.uk/our-research/researchers-and-teams/dr-anguraj-sadanandam/research-overview"
+    },
+    {
+     "title": "Speaker profile (Convenzis)",
+     "url": "https://www.convenzis.co.uk/speakers/dr-anguraj-sadanandam"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:18:49+00:00",
+   "refreshed_at": "2026-11-14T23:04:52+00:00",
    "error": null,
    "pi_profile": {
     "name": "Anguraj Sadanandam",
-    "title": "Professor, Group Leader",
+    "title": "Professor; Group Leader; Director, Centre for Global Oncology (ICR lists him as Associate Professor/Reader in older text)",
     "profile_url": "https://www.icr.ac.uk/our-research/researchers-and-teams/dr-anguraj-sadanandam",
     "scholar_url": null
    },
    "members": [],
-   "department": "Division of Molecular Pathology (the group page now also sits under a 'Cancer Biology' division URL)",
-   "location": "Sutton, UK",
+   "department": "Division of Molecular Pathology (the older ICR URL path; a newer path files the group under Cancer Biology)",
+   "location": "Sutton / London, United Kingdom",
    "current_institution": "The Institute of Cancer Research (ICR), London",
    "members_page": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/systems-and-precision-cancer-medicine-team"
   },
@@ -34561,54 +34579,59 @@
    "group": null,
    "department_hint": "Division of Cancer Biology",
    "id": "icr-bakal",
-   "url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-chris-bakal",
-   "focus": "The group uses functional genomic, proteomic and computational approaches to describe cellular signalling systems. One area is how cancer cells change shape and move during metastasis, and which genes drive those changes. A second area is the control of reactive oxygen species and the systems biology of the unfolded protein response. A third area is the networks that regulate cell division, with mathematical modelling of the cell cycle. These descriptions come from search-result snippets of the ICR research-projects page, which I could not open in full.",
+   "url": "https://icr.ac.uk/our-research/research-divisions/division-of-cancer-biology/dynamical-cell-systems",
+   "focus": "The group studies how cell shape and morphodynamics relate to cancer progression and metastasis. It combines functional genomics, proteomics, high-content imaging and computational modelling to describe cellular signalling systems. Its work covers three areas: changes in cancer cell shape during metastasis, reactive oxygen species and the unfolded protein response, and the networks that control cell division. Bakal is also Chief Scientific Officer of the spinout Sentinal4D (precision oncology), which suggests translational work on cell-morphology-based phenotyping.",
    "topics": [
-    "cell morphodynamics",
+    "cell morphology",
     "metastasis",
-    "functional genomics",
+    "high-content imaging",
+    "signalling networks",
     "systems biology",
-    "cell cycle modelling",
-    "unfolded protein response"
+    "functional genomics"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group does computational and systems cell biology with imaging and functional genomics, but the snippets showed no tumour whole-genome or transcriptome sequencing, structural-variant analysis or single-cell/spatial omics, so overlap with the student's interests is limited."
+    "reason": "The group is mainly imaging-based cell biology and systems modelling of cell shape; it overlaps with the student's interest in computational methods and machine learning only through image-based phenotyping. It has little overlap with tumour WGS, structural variants or single-cell/spatial omics, and"
    },
    "flags": [
-    "ICR pages returned HTTP 403, so the people page was not viewed and no members could be verified.",
-    "The PI's current ICR affiliation is supported only by a search-result snippet and a Technology Networks profile; no move was seen, but I did not confirm it on a current official page.",
-    "The student may need a UK visa for this role.",
-    "The Google Scholar URL was not verified."
+    "Could not verify the current member list: the ICR site returned HTTP 403 to every fetch, so the people page was never read.",
+    "PI's current institution (ICR) is confirmed only from search-result summaries; no move was seen, but this is not verified on the page itself.",
+    "PI title is inconsistent across sources (Professor vs Reader); check the ICR staff page.",
+    "Bakal is also CSO of the spinout Sentinal4D.",
+    "ResearchGate lists Lucas Dent, Matthew De Vries and Olga Fourkioti as lab members. The list looks outdated, and none is confirmed as a current postdoc or PhD student."
    ],
    "sources": [
     {
-     "title": "ICR – Bakal research projects",
+     "title": "Dynamical Cell Systems - ICR",
+     "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cell-and-molecular-biology/dynamical-cell-systems"
+    },
+    {
+     "title": "Research projects - ICR",
      "url": "https://www.icr.ac.uk/our-research/researchers-and-teams/dr-chris-bakal/research-projects"
     },
     {
-     "title": "ICR – Bakal research projects (alternate URL)",
-     "url": "https://icr.ac.uk/our-research/researchers-and-groups/professor-chris-bakal/research-projects"
+     "title": "Sentinal4D launch - ICR news",
+     "url": "https://www.icr.ac.uk/about-us/icr-news/detail/precision-oncology-company-sentinal4d-completes-pre-seed-funding-round-and-launches-to-the-public"
     },
     {
-     "title": "Technology Networks – Chris Bakal profile",
-     "url": "https://www.technologynetworks.com/tn/editor/chris-bakal-phd"
+     "title": "Chris Bakal's lab - ResearchGate",
+     "url": "https://www.researchgate.net/lab/Chris-Bakal-Lab"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:18:23+00:00",
+   "refreshed_at": "2026-11-14T23:04:35+00:00",
    "error": null,
    "pi_profile": {
     "name": "Chris Bakal",
-    "title": "Professor of Cancer Morphodynamics",
+    "title": "Professor of Cancer Morphodynamics (some sources list Reader of Cell Form; not verified on the ICR staff page)",
     "profile_url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-chris-bakal",
     "scholar_url": null
    },
    "members": [],
    "department": "Division of Cancer Biology",
    "location": "London, United Kingdom",
-   "current_institution": "The Institute of Cancer Research",
-   "members_page": null
+   "current_institution": "The Institute of Cancer Research, London",
+   "members_page": "https://icr.ac.uk/our-research/researchers-and-teams/professor-chris-bakal"
   },
   {
    "name": "Translational Genetics Group",
@@ -34621,24 +34644,25 @@
    "department_hint": "Division of Genetics and Epidemiology",
    "id": "icr-turnbull",
    "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/genetics-and-epidemiology/translational-genetics",
-   "focus": "The group works on optimising next-generation sequencing technologies and the analysis of the resulting data. The aim is to identify novel cancer predisposition genes. Search snippets from ICR pages also link the team to germline testing and cancer predisposition work, including sarcoma and breast cancer susceptibility. The group is clinically oriented and its focus is inherited (germline) variation, not tumour somatic profiling. I could not open the ICR pages directly because they returned 403 errors. This description comes only from search-result summaries, so detail on methods is limited.",
+   "focus": "The group works on sequencing methods and analysis to find new cancer predisposition genes. Its wider aim is to use cancer susceptibility genetics for risk stratification and early diagnosis, through molecular, statistical and population-level analyses. Published work covers polygenic risk scores, including testicular cancer and modelling of PRS in UK cancer screening, and rare-variant germline studies. The group also does clinical variant interpretation in cancer susceptibility genes through the CanVIG-UK network, and runs NHS genetic testing programmes such as retrospective testing and Jewish BRCA testing. The focus is germline and population genetics, not tumour genomics.",
    "topics": [
     "cancer predisposition genes",
-    "germline sequencing",
-    "clinical cancer genetics",
-    "variant interpretation",
-    "sarcoma and breast cancer susceptibility"
+    "germline variant interpretation",
+    "polygenic risk scores",
+    "CanVIG-UK",
+    "population genetic testing",
+    "cancer screening and risk stratification"
    ],
    "fit": {
     "score": 2,
-    "reason": "The overlap is limited to cancer genomics and sequencing analysis. The group centres on germline predisposition and clinical genetics, not on tumour WGS/transcriptome, somatic structural variants, ML methods, or single-cell/spatial omics."
+    "reason": "The overlap is limited to computational genomics and statistical methods. The work is germline, population and clinical genetics, with little tumour WGS/transcriptome, somatic structural variant or single-cell/spatial work. The student would also need a UK visa."
    },
    "flags": [
-    "The ICR pages (including the lab URL, the group page and the member profile) returned HTTP 403, so I could not open them. Everything here comes from search-result summaries and is unverified.",
-    "The member list is probably incomplete. No postdocs were identified, which does not show that none exist. Please check the ICR group page manually.",
-    "Alice Garrett's status conflicts between two ICR pages (current PhD student vs. completed PhD). Verify before contacting.",
-    "The PI's current institution is the ICR according to the search results. No move was found, but I did not verify this on the page itself.",
-    "Staff seen in the results and deliberately excluded because they are not postdocs or PhD students: Zeid Kuzbari (bioinformatician), Subin Choi (bioinformatician), Nicki Bell (genomics practitioner), Sarah Lane (project manager) and others."
+    "I could not open the ICR pages directly (HTTP 403). Everything here comes from search-result snippets, so the member roster is unverified and probably incomplete.",
+    "No current postdocs were found in the search results. Check the lab page directly.",
+    "Alice Garrett (earlier described as a clinical research fellow and PhD student) has completed her PhD and is now a consultant and honorary clinical lecturer, so she is excluded.",
+    "Zeid Kuzbari is a bioinformatician who has completed a PhD, so he is staff and excluded.",
+    "The PI is still at the ICR. No move was found."
    ],
    "sources": [
     {
@@ -34650,43 +34674,35 @@
      "url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-clare-turnbull"
     },
     {
-     "title": "Dr Alice Garrett (ICR)",
-     "url": "https://www.icr.ac.uk/research-and-discoveries/find-a-researcher/detail/alice-garrett"
+     "title": "Professor Clare Turnbull (ICR find a researcher)",
+     "url": "https://www.icr.ac.uk/research-and-discoveries/find-a-researcher/test-researcher-profile-detail/professor-clare-turnbull"
     },
     {
-     "title": "Predisposition genetics (ICR)",
-     "url": "https://icr.ac.uk/our-research/research-divisions/division-of-genetics-and-epidemiology/predisposition-genetics"
+     "title": "CanVIG-UK update (ICR repository)",
+     "url": "https://repository.icr.ac.uk/items/6302d400-3b09-4f0e-a856-4f17b6fa24ac"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:19:26+00:00",
+   "refreshed_at": "2026-11-14T23:05:23+00:00",
    "error": null,
    "pi_profile": {
     "name": "Clare Turnbull",
-    "title": "Professor of Translational Cancer Genetics (title not confirmed on the page; the ICR lists her as Professor)",
+    "title": "Professor of Translational Cancer Genetics",
     "profile_url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-clare-turnbull",
     "scholar_url": null
    },
    "members": [
     {
-     "name": "Alice Garrett",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Clinical Research Fellow and Clinical Genetics trainee. One ICR profile lists her as a PhD student, with work on breast cancer predisposition. Another says she completed a PhD on sarcoma susceptibility and is now an honorary clinical lecturer. Her cu",
-     "email": null,
-     "profile_url": "https://www.icr.ac.uk/research-and-discoveries/find-a-researcher/detail/alice-garrett"
-    },
-    {
      "name": "Sophie Allen",
      "role": "PhD student",
      "year": null,
-     "focus": "Part-time PhD student who also works as the team's Data Manager. Her thesis topic is not verified.",
+     "focus": "Part-time PhD student and data manager. Quantifies evidence for variant interpretation in inherited cancers and supports the CanVIG-UK network.",
      "email": null,
      "profile_url": null
     }
    ],
    "department": "Division of Genetics and Epidemiology",
-   "location": "London, United Kingdom",
+   "location": "London (Sutton), United Kingdom",
    "current_institution": "The Institute of Cancer Research (ICR), London",
    "members_page": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/genetics-and-epidemiology/translational-genetics"
   },
@@ -34701,61 +34717,57 @@
    "department_hint": "Division of Molecular Pathology",
    "id": "icr-shipley",
    "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/computational-pathology-and-integrative-genomics",
-   "focus": "The group reconstructs 2D or 3D tumour models from images of tumour sections and studies cancer tissue ecosystems. It also looks at how selective pressures drive cancer development. Methods include digital pathology and AI, such as the ANORAK model for grading lung cancer growth patterns, combined with integrative genomics. Under Shipley's interim lead, the associated Sarcoma Molecular Pathology team focuses on molecular markers and mechanisms of high-risk sarcomas, notably rhabdomyosarcoma and desmoplastic small round cell tumours.",
+   "focus": "The group develops computational approaches that combine statistical modelling with automated image analysis of tumour pathology samples. It aims to train algorithms to identify cancer cells automatically in clinical pathology samples. It studies tumour tissue ecosystems and the selective pressures that promote cancer development. It also reconstructs 2D or 3D tumour models from images of tumour sections and develops AI models that predict patient outcomes, for example in lung cancer. The group was founded and previously led by Yinyin Yuan, who moved to MD Anderson. The interim lead, Janet Shipley, is a sarcoma molecular pathologist.",
    "topics": [
     "computational pathology",
     "digital pathology / AI",
-    "integrative genomics",
     "tumour ecosystems",
-    "sarcoma molecular pathology",
-    "cancer evolution"
+    "integrative genomics",
+    "tumour evolution",
+    "sarcoma"
    ],
    "fit": {
     "score": 3,
-    "reason": "Computational and ML work on tumour histology plus integrative genomics overlaps with the student's interests, but the emphasis is on pathology images rather than whole-genome sequencing, structural variants or single-cell/spatial omics, and the UK role may need a visa."
+    "reason": "The group's computational and ML work on tumour pathology and integrative genomics overlaps with the student's cancer genomics and ML interests, but it is centred on histology images rather than whole-genome or structural-variant analysis, and I could not verify the current team or its spatial/singl"
    },
    "flags": [
-    "Group leadership changed: founding leader Yinyin Yuan has moved to MD Anderson Cancer Center, and Janet Shipley is interim lead.",
-    "The PI's current institution is still ICR (London), so the PI has not moved.",
-    "ICR pages returned HTTP 403, so I could not open the people page and could not verify any current postdocs or PhD students.",
-    "Former postdoc Simon Castillo (ICR 2020-2023) is now at MD Anderson, so he is not a current member.",
-    "The lab is in a leadership transition, so check whether it is recruiting before reaching out. The UK role may need a visa."
+    "ICR pages returned HTTP 403, so the people page could not be opened; no current postdocs or PhD students were verified",
+    "Group was previously led by Yinyin Yuan, who is now at MD Anderson (per search summaries); Janet Shipley is interim lead, with no date given for the change",
+    "Janet Shipley's current institution is ICR, per ICR pages as summarised in search results; no move found",
+    "Group's future direction and stability are unclear given the interim leadership",
+    "UK role would likely need a visa for a Canadian student"
    ],
    "sources": [
     {
      "title": "Computational Pathology and Integrative Genomics Group (ICR)",
-     "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/computational-pathology-and-integrative-genomics"
-    },
-    {
-     "title": "Computational Pathology and Integrative Genomics Group (ICR, cancer-biology page)",
      "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/computational-pathology-and-integrative-genomics"
     },
     {
-     "title": "Professor Janet Shipley (ICR)",
-     "url": "https://www.icr.ac.uk/our-research/researchers-and-groups/professor-janet-shipley"
+     "title": "Computational Pathology and Integrative Genomics Group (ICR, lab URL)",
+     "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/computational-pathology-and-integrative-genomics"
     },
     {
-     "title": "Sarcoma Molecular Pathology Team (ICR)",
-     "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/sarcoma-molecular-pathology"
+     "title": "Research overview (ICR)",
+     "url": "https://ICR.ac.uk/our-research/research-divisions/division-of-molecular-pathology/computational-pathology-and-integrative-genomics/research-overview"
     },
     {
-     "title": "Yuan Lab members (MD Anderson)",
+     "title": "Yuan Laboratory Lab Members (MD Anderson)",
      "url": "https://www.mdanderson.org/research/departments-labs-institutes/labs/yuan-laboratory/lab-members.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:19:19+00:00",
+   "refreshed_at": "2026-11-14T23:05:05+00:00",
    "error": null,
    "pi_profile": {
-    "name": "Janet Shipley",
-    "title": "Professor; Head of the Division of Molecular Pathology; leader of the Sarcoma Molecular Pathology Team; interim lead of this group",
-    "profile_url": "https://www.icr.ac.uk/our-research/researchers-and-groups/professor-janet-shipley",
+    "name": "Janet Shipley (interim lead)",
+    "title": "Professor; Group Leader, Sarcoma Molecular Pathology",
+    "profile_url": null,
     "scholar_url": null
    },
    "members": [],
-   "department": "Division of Molecular Pathology; Centre for Molecular Pathology; Centre for Evolution and Cancer",
+   "department": "Division of Molecular Pathology; Centre for Evolution and Cancer; Centre for Molecular Pathology",
    "location": "London, UK",
-   "current_institution": "The Institute of Cancer Research (ICR)",
+   "current_institution": "The Institute of Cancer Research",
    "members_page": null
   },
   {
@@ -34769,24 +34781,25 @@
    "department_hint": "Division of Genetics and Epidemiology",
    "id": "icr-garcia-closas",
    "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/genetics-and-epidemiology/integrative-cancer-epidemiology",
-   "focus": "The group studies the causes and prevention of cancer, with a strong emphasis on breast cancer. It integrates epidemiologic, genetic and tissue-based biomarker data from large population cohorts, notably the Generations Study. Work includes polygenic and multifactorial risk prediction models, lifestyle and hormonal risk factors, and studies of benign breast biopsies as markers of future cancer. These are population-scale statistical and epidemiological methods, not tumour sequencing. They are being extended with AI and data-science projects.",
+   "focus": "The group uses epidemiological methods to understand carcinogenic processes and improve risk assessment for precision cancer prevention. The PI's expertise is in genetic susceptibility, etiologic heterogeneity and risk prediction, mainly for breast cancer. A core resource is the Breast Cancer Now Generations Study, a cohort now in its 20th year. It supports work on risk models, hormonal and lifestyle risk factors, and tissue-based biomarkers in benign breast biopsies. The work is population-scale epidemiology, with polygenic and risk-model development and some AI/data-driven risk projects. It is not primarily tumour sequencing.",
    "topics": [
-    "cancer epidemiology",
-    "breast cancer risk prediction",
-    "polygenic risk scores",
+    "breast cancer epidemiology",
+    "risk prediction models",
+    "genetic susceptibility",
     "Generations Study cohort",
     "tissue biomarkers",
-    "AI and population data"
+    "cancer prevention"
    ],
    "fit": {
     "score": 2,
-    "reason": "Their genetic and risk-modelling work touches computational methods for genomics. They do population epidemiology rather than tumour WGS, structural variants, or single-cell and spatial omics, and a UK role would likely need a visa."
+    "reason": "The overlap is limited to risk prediction and some computational and genetic modelling. The group is epidemiology-focused and has little tumour WGS, structural-variant, single-cell or spatial work. A UK role would also likely need a visa."
    },
    "flags": [
-    "The ICR site blocked direct access (HTTP 403), so the people page was not opened. Members come from search-result snippets only.",
-    "The member list is incomplete and probably out of date. No one was clearly labelled a postdoc. Daniel Adams joined in 2023, Nathalie in 2025 and Tal in 2025, but their roles were not confirmed, so they are left out. Please check the live page.",
-    "The PI moved to the ICR from the US National Cancer Institute (DCEG) in May 2023. No later move was found.",
-    "The Google Scholar URL was not found."
+    "ICR pages returned HTTP 403, so the people page was not opened and the member list is incomplete and unverified. Check it manually.",
+    "The PI's institution is confirmed as the ICR. She has led the group since 2023, after the US National Cancer Institute (a move from the NCI to the ICR).",
+    "The PhD student entry is from a search snippet only. No full surname, profile link or email was verified.",
+    "Dr Daniel Adams (Epidemiology Research Fellow) and Reuben Frost (Epidemiology Research Associate) appeared in search results. Their roles do not clearly match 'postdoc', so I left them out.",
+    "Another PhD candidate, June, appeared in the results. She is supervised by Professor Berrington, not Garcia-Closas, so I left her out."
    ],
    "sources": [
     {
@@ -34798,8 +34811,8 @@
      "url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-montserrat-garcia-closas"
     },
     {
-     "title": "NCI DCEG: Garcia-Closas departure",
-     "url": "https://dceg.cancer.gov/news-events/news/2023/garcia-closas-departure"
+     "title": "The Generations Study (ICR)",
+     "url": "https://www.icr.ac.uk/research-and-discoveries/other-strategic-partner-centres/the-generations-study"
     },
     {
      "title": "Montserrat García-Closas (Wikipedia)",
@@ -34807,27 +34820,27 @@
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:17:59+00:00",
+   "refreshed_at": "2026-11-14T23:04:16+00:00",
    "error": null,
    "pi_profile": {
     "name": "Montserrat Garcia-Closas",
-    "title": "Professor of Epidemiology and Group Leader",
+    "title": "Professor of Epidemiology and Group Leader, Integrative Cancer Epidemiology",
     "profile_url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-montserrat-garcia-closas",
     "scholar_url": null
    },
    "members": [
     {
-     "name": "Irina",
+     "name": "Irina (surname not verified)",
      "role": "PhD student",
-     "year": "Started 2024",
-     "focus": "Tissue-based biomarkers on benign breast biopsies and their association with future breast cancer (Generations Study). Surname not seen.",
+     "year": "Joined 2024",
+     "focus": "Tissue-based biomarkers in benign breast biopsies and their association with future breast cancer (Generations Study).",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Division of Genetics and Epidemiology; co-leads the Cancer Epidemiology and Prevention Research Unit (joint ICR and Imperial College London)",
+   "department": "Division of Genetics and Epidemiology; Cancer Epidemiology and Prevention Research Unit (co-directed, in collaboration with Imperial College London)",
    "location": "London, United Kingdom",
-   "current_institution": "The Institute of Cancer Research (ICR), London",
+   "current_institution": "The Institute of Cancer Research, London",
    "members_page": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/genetics-and-epidemiology/integrative-cancer-epidemiology"
   },
   {
@@ -34840,59 +34853,63 @@
    "group": null,
    "department_hint": "Division of Genetics and Epidemiology",
    "id": "icr-houlston",
-   "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/genetics-and-epidemiology/cancer-genomics",
-   "focus": "The group works on identifying and characterising inherited genetic susceptibility to cancer. It uses large-scale genome-wide association and germline sequencing studies in cancers such as colorectal cancer and multiple myeloma. It also looks at how genetic and environmental factors jointly affect cancer incidence, using statistical genetics and epidemiological approaches. Related projects have studied the role of the non-coding genome in myeloma evolution. This summary rests on search-result snippets only, because the official pages could not be opened.",
+   "url": "http://www.houlston.group/",
+   "focus": "The group uses large-scale sequencing datasets, up to petabyte scale, to find the inherited and somatic genetic changes that influence cancer predisposition and development. Its main work is germline risk: GWAS and rare-variant studies in colorectal cancer, multiple myeloma and childhood cancers, followed by functional annotation of risk variants, including 3D chromatin. It also analyses somatic alterations and the immune landscape of tumours using 100,000 Genomes Project data. The team mixes molecular biology, bioinformatics, statistics, mathematics and physics, and develops new statistical and computational methods for these studies.",
    "topics": [
-    "cancer predisposition genetics",
-    "GWAS",
-    "colorectal cancer",
+    "cancer predisposition GWAS",
+    "germline genetics",
+    "somatic genomics (100,000 Genomes)",
     "multiple myeloma",
-    "statistical genetics",
-    "non-coding genome"
+    "colorectal cancer",
+    "3D chromatin / functional annotation"
    ],
    "fit": {
     "score": 3,
-    "reason": "Cancer genomics and statistical or computational genetics overlap with the student's interests, but the emphasis on germline susceptibility and population genetics appears to cover less tumour WGS, structural variant, single-cell and spatial work, and that is unverified."
+    "reason": "Large-scale cancer WGS and somatic or computational analysis overlap with the student's interests, but the emphasis is germline predisposition and GWAS rather than structural variants, machine learning, or single-cell and spatial omics, and a UK role would need a visa."
    },
    "flags": [
-    "ICR website returned HTTP 403 to automated fetches, so the members page could not be read and no current postdocs or PhD students were verified",
-    "PI institution shown as ICR only in search listings; no move seen",
-    "Richard Culliford and Jacob Househam appeared in search results but their roles and group membership are unconfirmed",
-    "A PhD fellowship co-supervised by Houlston and Wojciech Niedzwiedz on DNA damage response biomarkers appeared on jobs.icr.ac.uk; its status is unknown",
-    "Student may need a UK visa"
+    "The ICR pages returned 403 errors, so the lab's own site (houlston.group) was the only members page I could read. It uses a redirected URL, http://www.houlston.group/.",
+    "The PI's current institution (ICR, Sutton) is confirmed by the lab site and ICR search listings. No move was found.",
+    "The team page does not label anyone as 'Postdoc' or 'PhD student', and it gives no years or emails. I left members empty rather than guess.",
+    "Current members listed with no formal role: Mahmoud Ahmed (rare childhood cancer genetics), Andrea Gunnell (myeloma GWAS), Jessica Hislop (bioinformatician), Philip Law (bioinformatician, colorectal germline), Charlie Mills (somatic and immune landscape, 100,000 Genomes), Jayaram Vijayakrishnan, Mol",
+    "Other current members: Sina Beer (clinical research fellow, myeloma), Peter Broderick (lab manager), Richard Culliford (statistician), Janet Nwaoshai (administration and data management) and Michalina Lubiatowska (role not stated)."
    ],
    "sources": [
     {
-     "title": "Cancer Genomics Group (ICR)",
+     "title": "Houlston Lab home page",
+     "url": "http://www.houlston.group/"
+    },
+    {
+     "title": "Houlston Lab team page",
+     "url": "http://www.houlston.group/team"
+    },
+    {
+     "title": "ICR profile: Professor Richard Houlston",
+     "url": "https://www.icr.ac.uk/our-research/researchers-and-teams/professor-richard-houlston"
+    },
+    {
+     "title": "ICR Cancer Genomics Group",
      "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/genetics-and-epidemiology/cancer-genomics"
     },
     {
-     "title": "Richard Houlston (ICR profile)",
-     "url": "https://icr.ac.uk/our-research/researchers-and-teams/richard-houlston"
-    },
-    {
-     "title": "Molecular and population genetics (ICR)",
-     "url": "https://ICR.ac.uk/our-research/research-divisions/division-of-genetics-and-epidemiology/molecular-and-population-genetics"
-    },
-    {
-     "title": "ICR jobs: Clinical research fellow",
+     "title": "ICR clinical research fellow vacancy (Houlston/Niedzwiedz)",
      "url": "https://jobs.icr.ac.uk/vacancies/913/clinical-research-fellow.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:18:55+00:00",
+   "refreshed_at": "2026-11-14T23:05:32+00:00",
    "error": null,
    "pi_profile": {
     "name": "Richard Houlston",
-    "title": "Professor of Molecular and Population Genetics; Head of the Division of Genetics and Epidemiology",
-    "profile_url": "https://icr.ac.uk/our-research/researchers-and-teams/richard-houlston",
+    "title": "Professor of Molecular and Population Genetics; Head of the Division of Genetics and Epidemiology (FRS, FMedSci)",
+    "profile_url": "https://www.icr.ac.uk/our-research/researchers-and-teams/professor-richard-houlston",
     "scholar_url": null
    },
    "members": [],
-   "department": "Division of Genetics and Epidemiology; Cancer Genomics group",
-   "location": "London, United Kingdom",
-   "current_institution": "The Institute of Cancer Research",
-   "members_page": null
+   "department": "Division of Genetics and Epidemiology (Cancer Genomics team)",
+   "location": "Sutton (London), UK",
+   "current_institution": "The Institute of Cancer Research, London",
+   "members_page": "http://www.houlston.group/team"
   },
   {
    "name": "Genomics and Evolutionary Dynamics Lab",
@@ -34904,47 +34921,46 @@
    "group": null,
    "department_hint": "Centre for Evolution and Cancer / Division of Molecular Pathology",
    "id": "icr-graham",
-   "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/genomics-and-evolutionary-dynamics",
-   "focus": "The group uses evolutionary principles and AI to improve cancer prevention, diagnosis and treatment. Its work combines evolutionary theory, mathematical modelling and bioinformatics with wet-lab methods. Reported topics include chromosomal instability and cancer evolution, circulating tumour DNA (cfDNA) evolutionary dynamics, early-onset colorectal cancer, and immune/TCR-seq methods on archival samples. This summary comes from search-result snippets, not from the lab page itself.",
+   "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/genomics-and-evolutionary-dynamics",
+   "focus": "The group combines evolutionary theory, mathematical modelling and bioinformatics with wet-lab genomics, single-cell sequencing and molecular pathology. It studies how cancers evolve, from pre-malignant lesions through to treatment resistance. Its work covers bowel (colorectal), oesophageal and ovarian cancers. Its published outputs include predicting resistance to bowel cancer drugs, estimating years in advance when treatment will be needed, and an algorithm for identifying patients likely to respond to immunotherapy. It describes its approach as using AI and the principles of evolution to improve cancer prevention, diagnosis and treatment.",
    "topics": [
     "cancer evolution",
-    "chromosomal instability",
-    "cfDNA / ctDNA",
+    "tumour genomics",
+    "single-cell sequencing",
     "mathematical modelling",
     "colorectal cancer",
-    "cancer genomics"
+    "drug resistance"
    ],
    "fit": {
     "score": 4,
-    "reason": "Strong overlap with cancer genomics, somatic mutation and copy-number analysis, and computational/ML methods; single-cell/spatial and structural-variant work is less clearly documented, and the UK role would likely need a visa."
+    "reason": "Strong overlap with cancer genomics, somatic mutation analysis, computational methods and single-cell work, but the UK location may need a visa and I could not confirm structural-variant or spatial-omics specifics."
    },
    "flags": [
-    "ICR pages returned 403 to my fetch tool, so I could not open the members page. The roster is incomplete and unverified.",
-    "Chloe Colson's name and role come from a search-result summary of the group page, not from a page I opened. Her profile URL and email are unknown.",
-    "No current PhD students could be identified. The list is likely missing members, and the page itself may be around 19 months old.",
-    "Not counted as postdocs or PhD students: Ann-Marie Baker (Senior Staff Scientist), Claire Lynn (bioinformatician), and honorary members Giulio Caravagna, George Cresswell and Eszter Lakatos.",
-    "The ICR has advertised postdoctoral roles (early-onset colorectal cancer 'Boomers' project; computational Postdoctoral Training Fellow). Dates are unconfirmed."
+    "ICR pages returned HTTP 403, so the people page could not be opened and no members were verified",
+    "Search snippets named Dr Annie Baker (Senior Staff Scientist, staff, so excluded) and Dr Konstantin Braeutigam (role unknown). Chloé Colson appears as a Postdoctoral Training Fellow on a review with Graham as senior author. None of these was confirmed as a current lab postdoc or PhD student, so I le",
+    "The profile page reports Graham as Director of the Centre for Evolution and Cancer since spring 2022. A search result also lists him on Genomics England governance. No move away from ICR was found.",
+    "Google Scholar URL not verified"
    ],
    "sources": [
     {
-     "title": "Genomics and Evolutionary Dynamics - ICR",
-     "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/genomics-and-evolutionary-dynamics"
-    },
-    {
-     "title": "Professor Trevor Graham - ICR",
+     "title": "Trevor Graham profile (ICR)",
      "url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-trevor-graham"
     },
     {
-     "title": "Centre for Evolution and Cancer - Team Leaders",
-     "url": "https://www.icr.ac.uk/our-research/centres-and-collaborations/centres-at-the-icr/centre-for-evolution-and-cancer/team-leaders"
+     "title": "Genomics and Evolutionary Dynamics (ICR division page)",
+     "url": "https://icr.ac.uk/our-research/research-divisions/division-of-molecular-pathology/genomics-and-evolutionary-dynamics"
     },
     {
-     "title": "PhD Project Proposal (Graham, cfDNA)",
-     "url": "https://www.icr.ac.uk/docs/default-source/studying-and-training/phds-for-science-graduates/graham_cfdna_proposal.pdf?sfvrsn=2ffe94ef_1"
+     "title": "Genomics and Evolutionary Dynamics Group (ICR)",
+     "url": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/genomics-and-evolutionary-dynamics"
+    },
+    {
+     "title": "Centre for Evolution and Cancer (ICR)",
+     "url": "https://www.icr.ac.uk/our-research/our-research-centres/centre-for-evolution-and-cancer"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:18:25+00:00",
+   "refreshed_at": "2026-11-14T23:04:38+00:00",
    "error": null,
    "pi_profile": {
     "name": "Trevor Graham",
@@ -34952,20 +34968,11 @@
     "profile_url": "https://icr.ac.uk/our-research/researchers-and-teams/professor-trevor-graham",
     "scholar_url": null
    },
-   "members": [
-    {
-     "name": "Chloe Colson",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Chromosomal instability and cancer evolution (Postdoctoral Training Fellow)",
-     "email": null,
-     "profile_url": null
-    }
-   ],
-   "department": "Centre for Evolution and Cancer; Division of Molecular Pathology (the ICR URL now sits under Cancer Biology)",
-   "location": "London, United Kingdom",
-   "current_institution": "The Institute of Cancer Research (ICR), London",
-   "members_page": "https://www.icr.ac.uk/research-and-discoveries/icr-divisions/cancer-biology/genomics-and-evolutionary-dynamics"
+   "members": [],
+   "department": "Division of Molecular Pathology; Centre for Evolution and Cancer",
+   "location": "London, UK",
+   "current_institution": "The Institute of Cancer Research (ICR)",
+   "members_page": null
   },
   {
    "name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
@@ -42148,25 +42155,25 @@
    "department_hint": "Human Genetics",
    "id": "sanger-anderson",
    "url": "https://www.sanger.ac.uk/group/anderson-group/",
-   "focus": "The group studies why inflammatory bowel disease (IBD) develops, why it varies between patients, and why treatments work for some people and not others. It combines large-scale human genetic studies with molecular data from patient samples. It uses AI and machine learning to model disease course and treatment response. Its main projects are IBDverse, IBD-RESPONSE, Open-IBD, the IBD BioResource and somatic mutation studies.",
+   "focus": "The group studies the statistical genetics of inflammatory bowel disease (Crohn's disease and ulcerative colitis). It runs large-scale genetic association studies and combines them with single-cell genomics and computational methods. The aim is to understand disease biology, identify therapeutic targets and explain variation in treatment response. The work is mostly germline and population-scale genetics of a complex immune disease. It does not centre on cancer.",
    "topics": [
-    "IBD genetics",
+    "inflammatory bowel disease",
     "statistical genetics",
-    "machine learning",
+    "GWAS",
+    "single-cell genomics",
     "treatment response",
-    "somatic mutation",
-    "functional genomics"
+    "computational methods"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group's computational and ML genomics and its somatic mutation work overlap somewhat with the student's interests, but the focus is germline genetics of IBD and immunity, with no cancer, tumour WGS or structural variant work, and a UK role would likely need a visa."
+    "reason": "Overlap is limited to computational methods and single-cell genomics; the group works on germline IBD genetics, not cancer genomics, tumour WGS, structural variants or somatic mutation."
    },
    "flags": [
-    "No move: the PI is still at the Wellcome Sanger Institute.",
-    "Sources differ on the PI's title: the group page says Head of Human Genetics, while a search snippet of the Sanger profile says Interim Head.",
-    "A search result listed Tobi Alegbe as an Anderson Group PhD student in the Sanger people directory, but they are not on the group page core team list, so they were not included. Verify their status.",
-    "Member focus lines and years were not available from the group page, and individual profiles were not opened.",
-    "No emails appeared on the group page."
+    "I did not open the individual profile pages, so member research focuses are not verified.",
+    "No emails are published on the group page.",
+    "Tobi Alegbe appeared as an Anderson Group PhD student in a search snippet of the Sanger people directory but is not on the current group page. Their status is unverified and they may be an alumnus.",
+    "Sanger staff page snippets give Anderson's title as 'Interim Head of Human Genetics', while the group page says 'Head of Human Genetics'. Check which is current.",
+    "The group's own site, andersonlab.info, could not be fetched because of a certificate error."
    ],
    "sources": [
     {
@@ -42174,21 +42181,21 @@
      "url": "https://www.sanger.ac.uk/group/anderson-group/"
     },
     {
-     "title": "Dr Carl Anderson",
-     "url": "https://sanger.ac.uk/person/anderson-carl"
+     "title": "MPhil and PhD student supervisors - Sanger",
+     "url": "https://sanger.ac.uk/about/study/mphil-and-phd-student-supervisors"
     },
     {
-     "title": "Sanger people directory",
-     "url": "https://sanger.ac.uk/people/people-directory"
+     "title": "Sanger scientific groups",
+     "url": "https://www.sanger.ac.uk/science/scientific-groups"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:19:45+00:00",
+   "refreshed_at": "2026-11-14T23:05:27+00:00",
    "error": null,
    "pi_profile": {
     "name": "Carl Anderson",
-    "title": "Head of Human Genetics and Senior Group Leader (a search snippet says 'Interim Head')",
-    "profile_url": "https://sanger.ac.uk/person/anderson-carl",
+    "title": "Senior Group Leader and Head of Human Genetics (one search snippet says Interim Head)",
+    "profile_url": "https://www.sanger.ac.uk/person/anderson-carl/",
     "scholar_url": null
    },
    "members": [
@@ -42196,7 +42203,7 @@
      "name": "Bradley Harris",
      "role": "Postdoc",
      "year": null,
-     "focus": "Senior Postdoctoral Fellow; the focus was not checked on the profile.",
+     "focus": "Not described on the group page (listed as Senior Postdoctoral Fellow)",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/harris-bradley/"
     },
@@ -42204,7 +42211,7 @@
      "name": "Isaac Garcia-Salinas",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the group page; the focus was not checked on the profile.",
+     "focus": "Not described on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/garcia-salinas-isaac/"
     },
@@ -42212,7 +42219,7 @@
      "name": "Qian Zhang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the group page; the focus was not checked on the profile.",
+     "focus": "Not described on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/zhang-qian/"
     },
@@ -42220,7 +42227,7 @@
      "name": "Saniya Khullar",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the group page; the focus was not checked on the profile.",
+     "focus": "Not described on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/khullar-saniya/"
     },
@@ -42228,7 +42235,7 @@
      "name": "Tom Snelling",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the group page; the focus was not checked on the profile.",
+     "focus": "Not described on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/snelling-tom/"
     },
@@ -42236,7 +42243,7 @@
      "name": "Lucia Ramirez Navarro",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the group page; the focus was not checked on the profile.",
+     "focus": "Not described on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/ramirez-navarro-lucia/"
     },
@@ -42244,12 +42251,12 @@
      "name": "Omar El Garwany",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the group page; the focus was not checked on the profile.",
+     "focus": "Not described on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/el-garwany-omar/"
     }
    ],
-   "department": "Human Genetics Programme",
+   "department": "Human Genetics programme",
    "location": "Hinxton, Cambridge, UK",
    "current_institution": "Wellcome Sanger Institute",
    "members_page": "https://www.sanger.ac.uk/group/anderson-group/"
@@ -42265,56 +42272,57 @@
    "department_hint": "Associate Faculty",
    "id": "sanger-buckee",
    "url": "https://www.sanger.ac.uk/external_person/buckee-caroline/",
-   "focus": "The group builds mathematical and statistical models of how infectious diseases spread through populations. It combines these with pathogen genomic data and large-scale mobile phone and satellite data. A major focus is the malaria parasite Plasmodium falciparum, covering both within-host disease processes and population-level transmission. Other work tracks how travellers carry infections and drug-resistant parasites, and predicts and contains the spatial spread of emerging epidemics. The group also works with National Malaria Control Programs and with communities in India.",
+   "focus": "The lab uses mathematical and statistical models of infectious disease transmission. It combines these with pathogen genomic data and large-scale mobile phone and satellite data. A major focus is the malaria parasite Plasmodium falciparum, at both the within-host and population levels. This includes how human mobility and labour migration spread malaria and drug-resistant parasites. The group also works on dengue and on predicting and containing the spatial spread of emerging epidemics, and it supports national malaria control programmes with surveillance and analytical approaches for targeting interventions. It co-leads the COVID-19 Mobility Data Network. The work is population-level epidemiology and modelling, not tumour or cancer genomics.",
    "topics": [
     "malaria epidemiology",
     "human mobility data",
     "infectious disease modelling",
     "pathogen genomics",
-    "spatial spread of epidemics"
+    "dengue",
+    "epidemic surveillance"
    ],
    "fit": {
     "score": 1,
-    "reason": "The group does infectious-disease epidemiology and mobility modelling, with only light pathogen genomics, and has little overlap with cancer genomics, structural variants, somatic mutation analysis or single-cell and spatial omics."
+    "reason": "The lab does infectious-disease epidemiology and mobility modelling; it has almost no overlap with cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics. The only link is a loose one through computational methods and pathogen genomics."
    },
    "flags": [
-    "The PI's primary appointment is Harvard T.H. Chan School of Public Health. The Sanger listing is only an external Associate Faculty entry, so the group is not based at Sanger and this is not an independent-institute lab.",
-    "The Sanger page lists her as Associate Professor, but the Harvard profile says Professor since 2021, so the Sanger page is out of date on title.",
-    "I found no official lab people or members page and no lab website. The members list is empty because I couldn't verify any postdocs or PhD students, not because the lab has none.",
-    "A MIDAS Network page lists Hsiao-Han Chang as a Visiting Scientist at Harvard. I couldn't confirm that they are in this lab, so I left them out.",
-    "I did not find a Google Scholar URL."
+    "The Sanger page lists Buckee only as Associate Faculty; her primary appointment is at Harvard, so the Sanger listing is not her home lab.",
+    "No lab website or current people page was found. The Sanger and Harvard profiles list no lab members, and the old CCDD people URL redirected to a page that returned 404. Postdocs and PhD students are therefore unverified, not confirmed absent.",
+    "The older HSPH faculty page gives the Associate Professor title, while the Salata Institute page says she became Professor in 2022. The Harvard profile says Professor of Epidemiology.",
+    "Visa note: US-based lab; the student would likely need a visa.",
+    "Google Scholar URL not seen, so left null."
    ],
    "sources": [
     {
-     "title": "Dr Caroline Buckee - Wellcome Sanger Institute",
+     "title": "Sanger profile: Caroline Buckee",
      "url": "https://www.sanger.ac.uk/external_person/buckee-caroline/"
     },
     {
-     "title": "Caroline Buckee - Harvard Chan School profile",
+     "title": "Harvard Chan profile: Caroline Buckee",
      "url": "https://hsph.harvard.edu/profile/caroline-buckee"
     },
     {
-     "title": "Malaria and mobility - Northeastern News",
-     "url": "https://news.northeastern.edu/2012/10/11/malaria-and-mobility"
+     "title": "Salata Institute: Caroline Buckee",
+     "url": "https://salatainstitute.harvard.edu/faculty/caroline-buckee/"
     },
     {
-     "title": "MIDAS Network: Mapping imported malaria in Bangladesh",
-     "url": "https://midasnetwork.us/papers/mapping-imported-malaria-in-bangladesh-using-parasite-genetic-and-human-mobility-data/"
+     "title": "Harvard Catalyst Profiles: Caroline Buckee",
+     "url": "https://connects.catalyst.harvard.edu/Profiles/display/Person/91143"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:21:02+00:00",
+   "refreshed_at": "2026-11-14T23:06:24+00:00",
    "error": null,
    "pi_profile": {
     "name": "Caroline Buckee",
-    "title": "Professor of Epidemiology (Harvard Chan; promoted 2021); Associate Faculty, Wellcome Sanger Institute",
+    "title": "Professor of Epidemiology (Harvard Chan School; the Salata Institute page says promoted to Professor in 2022); Associate Faculty at the Wellcome Sanger Institute",
     "profile_url": "https://hsph.harvard.edu/profile/caroline-buckee",
     "scholar_url": null
    },
    "members": [],
-   "department": "Department of Epidemiology; Center for Communicable Disease Dynamics (Associate Director)",
+   "department": "Department of Epidemiology; Center for Communicable Disease Dynamics (associate director); Sanger Parasites and Microbes programme (associate faculty)",
    "location": "Boston, Massachusetts, USA",
-   "current_institution": "Harvard T.H. Chan School of Public Health (primary); Wellcome Sanger Institute (Associate Faculty, external)",
+   "current_institution": "Harvard T.H. Chan School of Public Health (primary); Associate Faculty at the Wellcome Sanger Institute",
    "members_page": null
   },
   {
@@ -42327,60 +42335,52 @@
    "group": null,
    "department_hint": "Associate Faculty",
    "id": "sanger-colijn",
-   "url": "https://carolinecolijn.ca",
-   "focus": "The group works on the mathematics, evolution and epidemiology of infectious pathogens, linking sequence data to infection ecology and evolution. Topics include how co-infection, competition and selection drive antimicrobial resistance, and how genomic data can guide interventions such as resistance control or vaccine strain replacement. Methods include phylogenetic tree comparison, tree space and branching processes, and ecological and epidemiological models that account for diversity. The group also does pandemic modelling, including COVID-19 forecasting and genomic epidemiology, for public health bodies. The focus is pathogen genomics, not cancer.",
+   "url": "https://www.sfu.ca/magpie.html",
+   "focus": "The group develops mathematical and statistical tools that link pathogen sequence data to infection ecology and evolution. Topics include phylogenetic tree analysis and tree distributions, phylodynamics, and branching-process and transmission models. They apply these to antimicrobial resistance, interacting pathogens, and vaccine strain replacement (e.g. S. pneumoniae, M. tuberculosis). They also do pandemic modelling for public health agencies. The work centres on infectious disease genomics rather than cancer genomics.",
    "topics": [
-    "pathogen genomic epidemiology",
-    "phylogenetics / tree space",
+    "pathogen genomics",
+    "phylogenetics / phylodynamics",
+    "transmission modelling",
     "antimicrobial resistance",
-    "infectious disease modelling",
-    "COVID-19 forecasting",
-    "statistical / ML methods"
+    "infectious disease epidemiology",
+    "mathematical biology"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group offers computational and ML-flavoured genomics methods, and it is in Canada, which suits eligibility. But it works on pathogen phylogenetics and epidemiology, with no cancer, somatic variant, structural variant or single-cell/spatial work."
+    "reason": "The group offers strong computational and statistical genomics methods and is local to Canada (SFU, near UBC), but it works on pathogen phylogenetics and epidemiology, with no cancer, structural-variant, tumour sequencing or single-cell/spatial work."
    },
    "flags": [
-    "The PI's primary appointment is at SFU, Canada. The Sanger Institute lists her only as Associate Faculty, so she has not moved. The Sanger listing is not her home lab.",
-    "The team page gives no research focus, start dates or last-updated date (footer says © 2026), so I can't confirm the roster is current.",
-    "The older SFU MAGPIE pages (sfu.ca/magpie/people/...) returned 'Page Not Found' or 404.",
-    "Javad Valizadeh is listed as an MSc student, so I excluded him.",
-    "Simon Gamboa Levi appeared in search results as an SFU Biological Sciences PhD student linked to MAGPIE, but he is not on the current team page, so I left him out."
+    "Colijn's primary appointment is SFU (Burnaby, Canada). Sanger lists her only as Associate Faculty, so the discovery listing at Sanger is misleading.",
+    "The search tool returned 'Page Not Found' for several SFU MAGPIE people URLs, but a direct fetch of /magpie/people/our-group.html worked. The page has no visible date, so the roster may be out of date.",
+    "No Google Scholar URL for the PI was verified.",
+    "The members page lists no emails for students or postdocs. The group contact, ccolijn@sfu.ca, appeared on that page for the PI only.",
+    "The page gives no years of study for students."
    ],
    "sources": [
     {
-     "title": "Sanger: Prof Caroline Colijn",
+     "title": "Prof Caroline Colijn - Wellcome Sanger Institute",
      "url": "https://www.sanger.ac.uk/external_person/colijn-caroline/"
     },
     {
-     "title": "SFU Mathematics: Caroline Colijn",
-     "url": "https://www.sfu.ca/math/people/faculty/ccolijn.html"
-    },
-    {
-     "title": "Colijn lab site",
-     "url": "https://carolinecolijn.ca"
-    },
-    {
-     "title": "Colijn lab team page",
-     "url": "https://carolinecolijn.ca/team"
-    },
-    {
-     "title": "SFU MAGPIE",
+     "title": "About MAGPIE",
      "url": "https://www.sfu.ca/magpie.html"
     },
     {
-     "title": "SFU PIPPS team",
-     "url": "https://www.sfu.ca/pipps/about/team.html"
+     "title": "MAGPIE - Our Group",
+     "url": "https://www.sfu.ca/magpie/people/our-group.html"
+    },
+    {
+     "title": "About MAGPIE (SFU Math)",
+     "url": "https://www.sfu.ca/math/research/magpie.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:21:55+00:00",
+   "refreshed_at": "2026-11-14T23:06:57+00:00",
    "error": null,
    "pi_profile": {
     "name": "Caroline Colijn",
-    "title": "Professor of Mathematics and Canada 150 Research Chair, Simon Fraser University; Associate Faculty, Wellcome Sanger Institute",
-    "profile_url": "https://www.sfu.ca/math/people/faculty/ccolijn.html",
+    "title": "Professor of Mathematics, Canada 150 Research Chair (SFU); Associate Faculty, Wellcome Sanger Institute",
+    "profile_url": "https://www.sanger.ac.uk/external_person/colijn-caroline/",
     "scholar_url": null
    },
    "members": [
@@ -42388,71 +42388,127 @@
      "name": "Alex Beams",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Epidemiology and evolution of TB and respiratory viruses using dynamical systems and statistical phylogenetics",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/alex/"
+     "profile_url": "https://www.sfu.ca/~abeams/"
     },
     {
-     "name": "Brad Jones",
+     "name": "Aniket Mane",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Discrete mathematics and combinatorial optimization for bioinformatics",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/brad/"
+     "profile_url": "https://scholar.google.com/citations?user=n0K0iy8AAAAJ&hl=en&oi=ao"
+    },
+    {
+     "name": "Bradley Jones",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Phylogenetic trees to study pathogen dynamics and evolution (HIV, TB)",
+     "email": null,
+     "profile_url": "https://scholar.google.com/citations?user=rtp2ymcAAAAJ&hl=en&oi=ao"
     },
     {
      "name": "Lars Berling",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Phylogenetics, distributions of phylogenetic time trees, BEAST2",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/lars/"
+     "profile_url": "https://lars-b.github.io/"
+    },
+    {
+     "name": "Laurinne Balstad",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Theoretical ecology and eco-evolutionary outcomes of management in wildlife host-pathogen systems",
+     "email": null,
+     "profile_url": "https://lauriebalstad.github.io/"
     },
     {
      "name": "Renny Doig",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Statistical methods for genomic surveillance of pathogens",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/renny/"
+     "profile_url": "https://scholar.google.com/citations?user=Yy2zOtwAAAAJ&hl=en"
     },
     {
      "name": "Tanu Saroha",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Pathogen transmission using genomics, especially S. pneumoniae and M. tuberculosis",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/tanu/"
+     "profile_url": "https://scholar.google.com/citations?hl=en&user=er39uckAAAAJ&view_op=list_works&sortby=pubdate"
+    },
+    {
+     "name": "Amin Afshari",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not described on the members page",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Javad Meghrazi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Theoretical biology; evolution of host-symbiont associations",
+     "email": null,
+     "profile_url": null
     },
     {
      "name": "Jennifer McNichol",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the team page; see her personal site",
+     "focus": "Statistical methods to infer transmission from genomic data",
      "email": null,
-     "profile_url": "https://jmcnichol.netlify.app/"
+     "profile_url": null
+    },
+    {
+     "name": "Mahdi Salehzadeh",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Epidemiology and evolution of bark beetle infestations",
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Mina Moeini",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Operations research for healthcare equity (homelessness, Indigenous healthcare, long-term care)",
+     "email": null,
+     "profile_url": null
     },
     {
      "name": "Shab Molan",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the team page. The SFU PIPPS team page lists Shab Molan under mathematical modelling of infectious diseases.",
+     "focus": "Phylodynamics and evaluation of interventions such as vaccination",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/shab/"
+     "profile_url": null
+    },
+    {
+     "name": "Simon Gamboa Levi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Insect genetic diversity and agricultural intensification (conservation macrogenetics), Biological Sciences",
+     "email": null,
+     "profile_url": null
     },
     {
      "name": "Yexuan Song",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Ancestral state reconstruction in phylogenetics; infectious disease models and coalescent theory",
      "email": null,
-     "profile_url": "https://carolinecolijn.ca/authors/yexuan/"
+     "profile_url": null
     }
    ],
-   "department": "Department of Mathematics, Faculty of Science (MAGPIE group); Sanger Parasites and Microbes programme (associate)",
-   "location": "Burnaby (Vancouver area), British Columbia, Canada",
-   "current_institution": "Simon Fraser University (primary); Wellcome Sanger Institute (Associate Faculty only)",
-   "members_page": "https://carolinecolijn.ca/team"
+   "department": "Department of Mathematics, SFU; Parasites and Microbes programme at Sanger (associate)",
+   "location": "Burnaby, British Columbia, Canada",
+   "current_institution": "Simon Fraser University (primary); Associate Faculty at Wellcome Sanger Institute",
+   "members_page": "https://www.sfu.ca/magpie/people/our-group.html"
   },
   {
    "name": "Fraser Group",
@@ -42465,25 +42521,25 @@
    "department_hint": "Associate Faculty",
    "id": "sanger-fraser",
    "url": "https://www.bdi.ox.ac.uk/research/fraser-pathogen-dynamics-group",
-   "focus": "The group studies how epidemic pathogens spread, evolve and are controlled, using mathematical modelling and pathogen genomics. Main topics are HIV virulence, genomics and treatment (BEEHIVE, HPTN071 PopART, PANGEA), pneumococcal genomics and antibiotic resistance. It also covers outbreak response, including COVID-19 contact-tracing and the COG-UK consortium. Current postdoc work includes modelling vaccine trial designs (CEPI-funded PRESTO) and HIV epidemic spread in sub-Saharan Africa. The methods are phylogenetics, transmission inference and epidemic modelling.",
+   "focus": "The group studies the population dynamics, spread, evolution and control of epidemic pathogens. Its main tools are mathematical modelling and pathogen genomics, including phylogenetics and transmission inference. Topics listed on the Sanger page are HIV virulence, genomics and treatment, pneumococcal genomics, antibiotic resistance and outbreak responses. This is an infectious-disease epidemiology group, not a cancer genomics one.",
    "topics": [
-    "infectious disease modelling",
     "pathogen genomics",
+    "infectious disease epidemiology",
+    "mathematical modelling",
     "phylogenetics",
-    "HIV epidemiology",
-    "antimicrobial resistance",
-    "outbreak response"
+    "HIV",
+    "antimicrobial resistance"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The group does computational genomics and phylogenetics, but on pathogen epidemiology and transmission. It does not cover cancer, tumour sequencing, structural variants or single-cell/spatial omics, so overlap with the student's interests is only at the level of general methods."
+    "score": 1,
+    "reason": "The group does pathogen genomics and epidemiological modelling, so it has almost no overlap with cancer genomics, tumour WGS/transcriptome work, somatic structural variants or single-cell/spatial omics. The only link is general computational genomics methods."
    },
    "flags": [
-    "PI's primary base is the University of Oxford (Big Data Institute / Pandemic Sciences Institute). The Sanger is only an Associate Faculty listing, and the Sanger page lists no group members.",
-    "The Oxford group page and the PSI and BDI pages returned 403 to my fetcher, so I could not open the full roster. The member list is based on search-result snippets only and is likely incomplete.",
-    "The group page also names Bienfait Igiraneza, Caitlin Pley, Charlie Hamilton, Jana Lipčakóva, Lucie Abeler-Dörner, Matthew Hall, Michelle Kendall, Rhys Inward, Rob Hinch and Sandra Mon. I could not confirm whether any of them are current postdocs or PhD students, so I left them out. Chris Wymant is ",
-    "Year of study and the dates of the member pages are unknown. The PI's own profile mentions about five postdocs and five PhD students, so more students are probably missing from the list.",
-    "No member emails were verified. The only published address I saw was Jana Lipčakóva's on Fraser's PSI profile, and her role is unknown."
+    "The PI's primary institution is the University of Oxford (Big Data Institute). The Sanger listing is an Associate Faculty affiliation only, so this is not an independent-institute lab.",
+    "The Sanger page lists no group members and no lab website.",
+    "I could not read the BDI group page, the NDM page or the PSI page (HTTP 403, plus one DNS failure on the non-www BDI host), so no current postdocs or PhD students are listed and no emails were found. Search snippets gave conflicting team sizes: one says about nine postdocs, another says five postdoc",
+    "One source reports a 2022 chair at the Pandemic Sciences Institute (Moh Family Foundation Professor of Infectious Disease Epidemiology). I did not confirm this on an official page.",
+    "Google Scholar profile not verified."
    ],
    "sources": [
     {
@@ -42491,80 +42547,35 @@
      "url": "https://www.sanger.ac.uk/external_person/fraser-christophe/"
     },
     {
-     "title": "Fraser Pathogen Dynamics Group - Oxford Big Data Institute",
+     "title": "Christophe Fraser - Nuffield Department of Medicine",
+     "url": "https://www.ndm.ox.ac.uk/team/christophe-fraser"
+    },
+    {
+     "title": "Fraser Pathogen Dynamics Group - Big Data Institute",
      "url": "https://www.bdi.ox.ac.uk/research/fraser-pathogen-dynamics-group"
     },
     {
-     "title": "Christophe Fraser - Oxford Big Data Institute",
-     "url": "https://www.bdi.ox.ac.uk/Team/christophe-fraser"
+     "title": "Christophe Fraser - Wellcome Centre for Human Genetics",
+     "url": "https://www.well.ox.ac.uk/people/christophe-fraser"
     },
     {
      "title": "Christophe Fraser - Pandemic Sciences Institute",
      "url": "https://www.psi.ox.ac.uk/our-team/christophe-fraser-3"
-    },
-    {
-     "title": "Ben Young - Pandemic Sciences Institute",
-     "url": "https://www.psi.ox.ac.uk/our-team/ben-young"
-    },
-    {
-     "title": "Ian Roberts - Pandemic Sciences Institute",
-     "url": "https://www.psi.ox.ac.uk/our-team/ian-roberts"
-    },
-    {
-     "title": "Adam Fowler - Pandemic Sciences Institute",
-     "url": "https://www.psi.ox.ac.uk/our-team/adam-fowler"
-    },
-    {
-     "title": "Francesco Di Lauro - Oxford Big Data Institute",
-     "url": "https://www.bdi.ox.ac.uk/Team/francesco-di-lauro"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:22:42+00:00",
+   "refreshed_at": "2026-11-14T23:07:28+00:00",
    "error": null,
    "pi_profile": {
     "name": "Christophe Fraser",
-    "title": "Professor of Infectious Disease Epidemiology (Moh Family Foundation Professorship); Senior Group Leader, Pathogen Dynamics",
-    "profile_url": "https://www.bdi.ox.ac.uk/Team/christophe-fraser",
+    "title": "Senior Group Leader in Pathogen Dynamics (Big Data Institute); Professor, Nuffield Department of Medicine; Associate Faculty, Wellcome Sanger Institute",
+    "profile_url": "https://www.ndm.ox.ac.uk/team/christophe-fraser",
     "scholar_url": null
    },
-   "members": [
-    {
-     "name": "Ben Young",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Infectious disease modelling on the CEPI-funded PRESTO project, building a framework to compare vaccine trial designs",
-     "email": null,
-     "profile_url": "https://www.psi.ox.ac.uk/our-team/ben-young"
-    },
-    {
-     "name": "Francesco Di Lauro",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Infectious disease modelling of HIV epidemic spread in sub-Saharan Africa using PopART trial data",
-     "email": null,
-     "profile_url": "https://www.bdi.ox.ac.uk/Team/francesco-di-lauro"
-    },
-    {
-     "name": "Ian Roberts",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Postdoctoral research scientist on the PRESTO vaccine trial modelling project",
-     "email": null,
-     "profile_url": "https://www.psi.ox.ac.uk/our-team/ian-roberts"
-    },
-    {
-     "name": "Adam Fowler",
-     "role": "PhD student",
-     "year": null,
-     "focus": "DPhil in Clinical Medicine on how consumer technology could be used to disrupt disease spread",
-     "email": null,
-     "profile_url": "https://www.psi.ox.ac.uk/our-team/adam-fowler"
-    }
-   ],
-   "department": "Nuffield Department of Medicine; Pandemic Sciences Institute; Big Data Institute",
+   "members": [],
+   "department": "Nuffield Department of Medicine; Big Data Institute (Sanger affiliation is Associate Faculty only)",
    "location": "Oxford, United Kingdom",
-   "current_institution": "University of Oxford (Big Data Institute / Pandemic Sciences Institute); Associate Faculty at the Wellcome Sanger Institute",
+   "current_institution": "University of Oxford (Big Data Institute)",
    "members_page": "https://www.bdi.ox.ac.uk/research/fraser-pathogen-dynamics-group"
   },
   {
@@ -42578,33 +42589,33 @@
    "department_hint": null,
    "id": "sanger-davenport",
    "url": "https://www.sanger.ac.uk/group/davenport-group/",
-   "focus": "The group integrates functional genomic data with clinical data to understand how human genetics drives patient-to-patient differences in disease severity and treatment response. Much of the work is in immune-mediated and inflammatory conditions such as sepsis, acute infection, lupus and other autoimmune diseases. Methods include analysing gene expression datasets (bulk and single-cell RNA-seq), expression QTL mapping, transcript splicing analysis, and MHC region transcriptomics across populations and cell types. The group works with clinical and industry partners, with an emphasis on host immune response variation and its relevance to drug development.",
+   "focus": "The group combines functional genomics with clinical data to study how genetic variation drives patient-to-patient differences in disease severity and treatment response. It profiles transcriptomes from patient cohorts with systemic inflammation, such as sepsis, to find signatures that predict severity and treatment response. It maps eQTLs, including single-cell eQTLs in systemic lupus erythematosus (with Open Targets) and splicing and MHC-region expression effects, to prioritise drug targets. The work is mainly computational statistical genetics on bulk and single-cell RNA-seq in immune-mediated and infectious disease.",
    "topics": [
-    "functional genomics",
-    "eQTL / splicing",
-    "host immune response",
-    "single-cell transcriptomics",
-    "sepsis and lupus",
-    "pharmacogenomics"
+    "eQTL mapping",
+    "sepsis transcriptomics",
+    "single-cell genomics in lupus",
+    "immune response variation",
+    "statistical genetics",
+    "drug target prioritisation"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group offers transcriptomics, single-cell analysis and computational genomics methods, but it focuses on germline genetics of immune and infectious disease. It does not cover cancer, tumour WGS, structural variants or somatic mutations, and a UK role would likely need a visa."
+    "reason": "Methodological overlap exists (transcriptome analysis, single-cell omics, computational genomics), but the lab works on immune and infectious disease and germline eQTLs, with no cancer genomics, structural variants or somatic mutation work."
    },
    "flags": [
-    "No move found: the PI is still a Group Leader at the Wellcome Sanger Institute (Hinxton). She joined in October 2018 from Harvard Medical School, Brigham and Women's Hospital and the Broad Institute.",
-    "The Sanger group page lists Alex Tokolyi under 'Previous core team member', but the external lab site (davenportlab.com/people) still lists him as a current PhD student. His status may be outdated, so check it before reaching out.",
-    "The Sanger group page lists no postdocs or PhD students as current. The member list comes from the external lab site, whose update date is unknown.",
-    "Other current staff, left out as non-trainees: Katie Burnham and Wanseon Lee (Senior Staff Scientists) and Catherine Sutherland (Computational Senior Staff Scientist, listed on the Sanger page only). Phumrapee Boonklang is a Masters student.",
-    "No member emails or individual profile URLs were published on the pages checked, apart from Alex Tokolyi's Sanger profile."
+    "The lab's own site (davenportlab.com) has a footer dated 2018-2023, so the member list may be out of date.",
+    "The Sanger group page lists Alex Tokolyi as a 'previous core team member' PhD student, so check whether they are still current.",
+    "The Sanger group page shows only Burnham, Sutherland and Tokolyi besides the PI. The postdoc and other PhD students come only from davenportlab.com and are unconfirmed on the Sanger page.",
+    "The PI is still at the Wellcome Sanger Institute (faculty since Oct 2018) and no move was found. The search result did not give a current status update.",
+    "Excluded: Katie Burnham, Wanseon Lee and Catherine Sutherland (staff scientists) and Phumrapee Boonklang (Master's student)."
    ],
    "sources": [
     {
-     "title": "Davenport Group - Wellcome Sanger Institute",
+     "title": "Davenport Group - Sanger",
      "url": "https://www.sanger.ac.uk/group/davenport-group/"
     },
     {
-     "title": "Dr Emma Davenport - Sanger profile",
+     "title": "Dr Emma Davenport - Sanger",
      "url": "https://www.sanger.ac.uk/person/davenport-emma/"
     },
     {
@@ -42612,20 +42623,20 @@
      "url": "https://davenportlab.com/people"
     },
     {
-     "title": "Davenport Lab - home",
+     "title": "Davenport Lab",
      "url": "https://davenportlab.com/"
     },
     {
      "title": "Emma Davenport and Hilary Martin to lead research groups in the Human Genetics Programme",
-     "url": "https://www.sanger.ac.uk/news_item/emma-davenport-and-hilary-martin-lead-research-groups-human-genetics-programme"
+     "url": "https://www.sanger.ac.uk/news/view/emma-davenport-and-hilary-martin-lead-research-groups-human-genetics-programme"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:21:55+00:00",
+   "refreshed_at": "2026-11-14T23:06:57+00:00",
    "error": null,
    "pi_profile": {
     "name": "Emma Davenport",
-    "title": "Group Leader",
+    "title": "Group Leader (Faculty)",
     "profile_url": "https://www.sanger.ac.uk/person/davenport-emma/",
     "scholar_url": null
    },
@@ -42634,7 +42645,7 @@
      "name": "Niek de Klein",
      "role": "Postdoc",
      "year": null,
-     "focus": "Genetic effects on gene expression across cell types, tissues and disease states, with a focus on single-cell effects in lupus.",
+     "focus": "Genetic effects on gene expression across cell types, tissues and disease states, especially single-cell effects in lupus",
      "email": null,
      "profile_url": null
     },
@@ -42642,7 +42653,7 @@
      "name": "Alex Tokolyi",
      "role": "PhD student",
      "year": null,
-     "focus": "Individual differences in immune response, transcript splicing, and interactions with pathogens and commensal microbes.",
+     "focus": "Inter-individual immune response differences, including transcript splicing and interactions with pathogens and commensal microbes",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/tokolyi-alex/"
     },
@@ -42650,7 +42661,7 @@
      "name": "Dhupal Patel",
      "role": "PhD student",
      "year": null,
-     "focus": "Host genetics and variation in response to acute infection and sepsis (Wellcome Trust Clinician PhD).",
+     "focus": "Host genetics and variation in response to acute infection and sepsis",
      "email": null,
      "profile_url": null
     },
@@ -42658,7 +42669,7 @@
      "name": "Haerin Jang",
      "role": "PhD student",
      "year": null,
-     "focus": "Heterogeneity in disease phenotypes and drug response, using single-cell transcriptomics in lupus.",
+     "focus": "Heterogeneity in disease phenotypes and drug response; single-cell transcriptomics in lupus",
      "email": null,
      "profile_url": null
     },
@@ -42666,13 +42677,13 @@
      "name": "Thomas Vanderstichele",
      "role": "PhD student",
      "year": null,
-     "focus": "Genetic and environmental influences on immune gene expression and inter-individual variation.",
+     "focus": "How genetic and environmental factors influence immune-related gene expression",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Human Genetics Programme",
-   "location": "Hinxton, Cambridge, UK",
+   "department": "Human Genetics Programme (Functional Genomics group); linked to Open Targets",
+   "location": "Hinxton, Cambridgeshire, UK",
    "current_institution": "Wellcome Sanger Institute",
    "members_page": "https://davenportlab.com/people"
   },
@@ -43303,57 +43314,53 @@
    "department_hint": "Associate Faculty",
    "id": "sanger-corander",
    "url": "https://www.med.uio.no/imb/english/?vrtx=unit-view&areacode=511503",
-   "focus": "The group works on statistical machine learning and probabilistic inference for microbial genomics. Topics include bacterial population structure and evolution (BAPS, hierBAPS, fastbaps), bacterial GWAS (SEER, pyseer), and genome-wide epistasis (SuperDCA, SpydrPick). They also develop likelihood-free inference methods (ELFI) and transmission models for large-scale genomic surveillance of pathogens. Applied projects include BATTALION (colonization and resistance in E. coli) and CARDAMOM (antibiotic effects on infant gut and nasopharyngeal bacteria, with Oxford). The work concerns bacterial pathogens, antimicrobial resistance and vaccine impact, not cancer.",
+   "focus": "The group works on microbial evolution and transmission modelling, using statistical machine learning and population genomics. They develop inference algorithms for large-scale genomic surveillance of bacterial pathogens. Methods include bacterial population structure analysis, GWAS and GWES (genome-wide epistasis studies), and likelihood-free inference, the last through the ELFI software. The applications are antimicrobial resistance, vaccine impact and pathogen epidemiology. The work is not on cancer.",
    "topics": [
     "bacterial population genomics",
-    "antimicrobial resistance",
-    "bacterial GWAS",
     "statistical machine learning",
+    "antimicrobial resistance",
+    "GWAS/GWES",
     "likelihood-free inference",
-    "genomic epidemiology"
+    "genomic surveillance"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group's methods (statistical ML, GWAS, genomic software) are relevant to the student's computational interests, but its focus is bacterial genomics and epidemiology with no cancer, somatic variant, SV or single-cell/spatial work, and the roles would be in Norway or the UK."
+    "reason": "The group shares the student's computational and machine-learning approach to genomics, but its work is on microbial pathogen genomics and not on cancer, structural variants, or single-cell/spatial omics."
    },
    "flags": [
-    "The Sanger page lists Corander as Associate Faculty only. His primary current affiliation appears to be the University of Oslo (Biostatistics), and he is also listed at the University of Helsinki.",
-    "The UiO group page lists 6 staff, all labelled 'Researcher' (Jessica Kate Calland, Rebecca Ashley Gladstone, Tommi Mäklin, Anna Kaarina Pöntinen, Harry Thorpe, plus Corander). It does not say who is a postdoc or PhD student and lists no students. I therefore left the members list empty rather than g",
-    "A University of Helsinki group page (Data Science and Evolution) lists PhD students, but it does not mention Corander. I did not attribute them to him.",
-    "No Google Scholar profile URL was seen, so scholar_url is null.",
-    "An email format of firstname.lastname@medisin.uio.no is published on the UiO page for these staff, but I did not list any as members."
+    "The Sanger page lists Corander as Associate Faculty; his primary appointment is Professor at the University of Oslo. This is a dual affiliation, not a confirmed move.",
+    "The UIO unit page lists 6 staff (1 Professor and 5 Researchers) and labels no one as a postdoc or PhD student, so no members could be confirmed under your criteria. The 'Researcher' titles may include postdocs, but the page does not say. Researchers listed: Jessica Kate Calland, Rebecca Ashley Glads",
+    "A search result also showed a UiT (Tromsø) staff page and an Aalto University visitor page for Corander. I did not verify either and they may be outdated.",
+    "I did not find a Google Scholar URL, so it is left null.",
+    "The roster may be incomplete: I checked only the UIO unit page, and PhD students may be listed elsewhere, for example on a separate lab website."
    ],
    "sources": [
     {
-     "title": "Sanger Institute – Jukka Corander",
+     "title": "Sanger Institute - Jukka Corander",
      "url": "https://www.sanger.ac.uk/external_person/corander-jukka/"
     },
     {
-     "title": "UiO IMB – Corander group (STAT-PIL) unit page",
+     "title": "UiO IMB - Corander group (STAT-PIL) unit page",
      "url": "https://www.med.uio.no/imb/english/?vrtx=unit-view&areacode=511503"
     },
     {
-     "title": "UiO – Jukka Corander profile",
+     "title": "UiO profile - Jukka Corander",
      "url": "https://www.med.uio.no/imb/english/people/aca/jukkac/index.html"
-    },
-    {
-     "title": "University of Helsinki – Data Science and Evolution people (not confirmed as Corander's group)",
-     "url": "https://www.helsinki.fi/en/researchgroups/data-science-and-evolution/people"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:20:47+00:00",
+   "refreshed_at": "2026-11-14T23:06:11+00:00",
    "error": null,
    "pi_profile": {
     "name": "Jukka Corander",
-    "title": "Professor of Biostatistics, Institute of Basic Medical Sciences, University of Oslo; Associate Faculty, Wellcome Sanger Institute",
+    "title": "Professor of Biostatistics, Faculty of Medicine, University of Oslo; Associate Faculty, Wellcome Sanger Institute",
     "profile_url": "https://www.med.uio.no/imb/english/people/aca/jukkac/index.html",
     "scholar_url": null
    },
    "members": [],
-   "department": "Department of Biostatistics, Institute of Basic Medical Sciences, Faculty of Medicine; Wellcome Sanger Institute (associate)",
-   "location": "Oslo, Norway (also affiliated with Hinxton, UK and Helsinki, Finland)",
-   "current_institution": "University of Oslo (Sanger Institute is an Associate Faculty affiliation only; his bio also lists a University of Helsinki professorship)",
+   "department": "Institute of Basic Medical Sciences (IMB), Faculty of Medicine, University of Oslo; Wellcome Sanger Institute (Associate Faculty)",
+   "location": "Oslo, Norway (with Sanger affiliation in Hinxton, UK)",
+   "current_institution": "University of Oslo (primary); Wellcome Sanger Institute (Associate Faculty)",
    "members_page": "https://www.med.uio.no/imb/english/?vrtx=unit-view&areacode=511503"
   },
   {
@@ -43637,25 +43644,25 @@
    "department_hint": "Tree of Life",
    "id": "sanger-blaxter",
    "url": "https://www.sanger.ac.uk/group/blaxter-group/",
-   "focus": "The group studies how genomic novelty evolves and how opportunity and constraint shape present-day diversity. It produces high-quality reference genome assemblies, mainly for animals but also for plants, fungi, protists and their bacterial symbionts, within the Tree of Life Programme. Research topics include gene and species phylogenies, horizontal gene transfer versus introgression, eukaryote–bacteria and parasite–host symbioses, and the evolution of chromosome structure. It also studies meiofauna (tardigrades, nematodes and other Ecdysozoa) and the genomics of extremophilia. The group develops software for genome assembly, validation and analysis.",
+   "focus": "The group studies evolutionary genomics: how genomic novelty arises and how opportunity and constraint shape present-day diversity. Most work is on animals, with some on plants, fungi, protists and their bacterial symbionts. It also develops software for genome assembly, validation and analysis. The group is closely tied to the Darwin Tree of Life project, which generates reference genomes for species in Britain and Ireland.",
    "topics": [
     "evolutionary genomics",
-    "genome assembly",
-    "chromosome evolution",
-    "symbiosis",
-    "tardigrades and nematodes",
-    "bioinformatics tools"
+    "reference genome assembly",
+    "Darwin Tree of Life",
+    "biodiversity genomics",
+    "symbionts",
+    "assembly and validation software"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group does computational genomics and genome-structure work, which touches the student's interest in methods and structural variation, but it has no cancer, tumour sequencing, somatic mutation or single-cell/spatial omics focus, and it is UK-based."
+    "reason": "The group's genome assembly and bioinformatics tooling is loosely relevant to the student's computational methods interest, but the work is non-human evolutionary and biodiversity genomics with no cancer, somatic mutation or single-cell focus, and a UK role may need a visa."
    },
    "flags": [
-    "No PhD students are currently listed on the group page. Amjad Khalaf appears only under 'previous core team members'.",
-    "Member profile URLs are relative paths on the group page; I joined them to the sanger.ac.uk domain and did not open each one.",
-    "Postdoc research foci were not described on the group page, so they are not given here.",
-    "No emails are published on the group page.",
-    "The PI is still at the Wellcome Sanger Institute, so no move was found."
+    "The PI is still at the Wellcome Sanger Institute, so no move. He joined from the University of Edinburgh earlier.",
+    "The group page lists no current PhD students. Amjad Khalaf is listed only under previous members.",
+    "Individual research foci and emails are not published on the group page, and I did not open the individual profile pages. All member foci are therefore null-equivalent.",
+    "Richard Challis (Senior Bioinformatician), Witold Morek (Advanced Research Assistant) and Claudia Weber (former) are staff or alumni and are excluded.",
+    "Google Scholar URL not verified."
    ],
    "sources": [
     {
@@ -43663,21 +43670,21 @@
      "url": "https://www.sanger.ac.uk/group/blaxter-group/"
     },
     {
-     "title": "Professor Mark Blaxter - Wellcome Sanger Institute",
+     "title": "Professor Mark Blaxter - Sanger",
      "url": "https://sanger.ac.uk/person/blaxter-mark"
     },
     {
-     "title": "MPhil and PhD student supervisors - Wellcome Sanger Institute",
-     "url": "https://www.sanger.ac.uk/about/study/mphil-and-phd-student-supervisors/"
+     "title": "Darwin Tree of Life Project - Sanger",
+     "url": "https://sanger.ac.uk/collaboration/darwin-tree-of-life-project"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:20:29+00:00",
+   "refreshed_at": "2026-11-14T23:05:52+00:00",
    "error": null,
    "pi_profile": {
     "name": "Mark Blaxter",
     "title": "Professor; Head of the Tree of Life Programme and Senior Group Leader",
-    "profile_url": "https://www.sanger.ac.uk/person/blaxter-mark/",
+    "profile_url": "https://sanger.ac.uk/person/blaxter-mark",
     "scholar_url": null
    },
    "members": [
@@ -43685,61 +43692,61 @@
      "name": "Charlotte Wright",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral Fellow; specific project not stated on the group page",
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/wright-charlotte/"
     },
     {
-     "name": "Erna King",
+     "name": "Dr Erna King",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral Fellow; specific project not stated on the group page",
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/king-erna/"
     },
     {
-     "name": "Jessica A Thomas Thorpe",
+     "name": "Dr Jessica A Thomas Thorpe",
      "role": "Postdoc",
      "year": null,
-     "focus": "Janet Thornton Postdoctoral Fellow; specific project not stated on the group page",
+     "focus": "Not stated on the group page (listed as Janet Thornton Postdoctoral Fellow)",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/thomas-thorpe-jessica/"
     },
     {
-     "name": "Julien Martinez",
+     "name": "Dr Julien Martinez",
      "role": "Postdoc",
      "year": null,
-     "focus": "Senior Postdoctoral Fellow; specific project not stated on the group page",
+     "focus": "Not stated on the group page (listed as Senior Postdoctoral Fellow)",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/martinez-julien/"
+    },
+    {
+     "name": "Dr Maggie N Georgieva",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the group page (listed as Janet Thornton Fellow, so the postdoc classification is approximate)",
+     "email": null,
+     "profile_url": "https://www.sanger.ac.uk/person/georgieva-maggie/"
+    },
+    {
+     "name": "Dr Merce Montoliu Nerin",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not stated on the group page",
+     "email": null,
+     "profile_url": "https://www.sanger.ac.uk/person/montoliu-nerin-merce/"
     },
     {
      "name": "Lewis Stevens",
      "role": "Postdoc",
      "year": null,
-     "focus": "Postdoctoral Fellow; specific project not stated on the group page",
+     "focus": "Not stated on the group page",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/stevens-lewis/"
-    },
-    {
-     "name": "Maggie N Georgieva",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Janet Thornton Fellow in the group; specific project not stated on the group page",
-     "email": null,
-     "profile_url": "https://www.sanger.ac.uk/person/georgieva-maggie/"
-    },
-    {
-     "name": "Merce Montoliu Nerin",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Postdoctoral Fellow; specific project not stated on the group page",
-     "email": null,
-     "profile_url": "https://www.sanger.ac.uk/person/montoliu-nerin-merce/"
     }
    ],
    "department": "Tree of Life Programme",
-   "location": "Hinxton (Cambridge), United Kingdom",
+   "location": "Hinxton, Cambridgeshire, UK",
    "current_institution": "Wellcome Sanger Institute",
    "members_page": "https://www.sanger.ac.uk/group/blaxter-group/"
   },
@@ -44223,62 +44230,55 @@
    "group": null,
    "department_hint": null,
    "id": "sanger-croucher",
-   "url": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/disease-areas/bacterial-pathogens/",
-   "focus": "The group studies multi-strain bacterial populations, mainly Streptococcus pneumoniae (the pneumococcus). Its aim is to explain how genomic diversity arises and persists, and how bacteria evolve and spread in response to vaccines, antibiotics and host immunity. Methods combine laboratory molecular microbiology, analysis of large bacterial genomic datasets and computational or population modelling. The group is bacterial and population-genomic. It does not work on cancer or human somatic genomics.",
+   "url": "https://profiles.imperial.ac.uk/n.croucher",
+   "focus": "The lab studies the biology of multi-strain bacterial populations, mainly Streptococcus pneumoniae (the pneumococcus). It examines variation in antibiotic resistance, virulence and vaccine-target antigens. Methods combine laboratory molecular microbiology, analysis of large bacterial genomic datasets and computational modelling. Work includes predicting the effects of vaccine design on population composition.",
    "topics": [
-    "pneumococcus",
     "bacterial genomics",
-    "bacterial evolution",
-    "vaccine and antibiotic response",
-    "computational modelling",
-    "molecular microbiology"
+    "pneumococcus",
+    "antimicrobial resistance",
+    "vaccine evolution",
+    "population genomics",
+    "computational modelling"
    ],
    "fit": {
-    "score": 1,
-    "reason": "The group does bacterial population genomics and evolutionary modelling, which shares only a general computational-genomics overlap with the student's cancer genomics, structural variant, somatic mutation and single-cell/spatial interests. It also requires a UK visa."
+    "score": 2,
+    "reason": "Computational and genomic methods overlap loosely with the student's interests, but the work is bacterial population genomics and epidemiology, with no cancer, structural-variant, somatic mutation or single-cell/spatial focus."
    },
    "flags": [
-    "Institution discrepancy: the discovery listing (Sanger external_person page) shows him at the Wellcome Sanger Institute, but the Imperial profile (profiles.imperial.ac.uk/n.croucher) still lists him as Associate Professor at Imperial. The Sanger page summary also mentioned earlier Imperial roles. He",
-    "Imperial's MRC GIDA pages list his title inconsistently (Associate Professor on the profile, Senior Lecturer on older pages).",
-    "No official current members page was found. The Imperial bacterial-pathogens page names no group members. The only team list I saw was a staging/test copy of the MRC GIDA page, so it may be out of date. It lists Josh D'Aeth, Tamsin Dewé, Sam Horsfield and Ben Jeffrey as research postgraduates, and M",
-    "No member emails were verified. The general centre contact is mrc.gida@imperial.ac.uk."
+    "Affiliation conflict: the Sanger page calls him 'Group Leader' (Parasites and Microbes) with no start date, while the Imperial profile lists him as Associate Professor. Imperial appears to be his current base; the Sanger listing is likely stale or external, and no official page states a move.",
+    "The Sanger pneumococcus team page lists Croucher under previous members, and its current members (Neil MacAlasdair, PhD student; Christine Boinett) belong to Stephen Bentley's group, so they are not included here.",
+    "No current people page for the Croucher group could be opened (the Imperial team page returned 404). Members list is empty, not confirmed to be empty. Check the Imperial MRC GIDA site directly.",
+    "The Google Scholar URL was not seen. His ORCID is 0000-0001-6303-8768.",
+    "The UK role would likely require a visa for a Canadian student."
    ],
    "sources": [
     {
-     "title": "Sanger Institute: Croucher Nicholas",
+     "title": "Sanger: Croucher Nicholas profile",
      "url": "https://www.sanger.ac.uk/external_person/croucher-nicholas/"
     },
     {
-     "title": "Imperial profile: Dr Nicholas Croucher",
+     "title": "Imperial College profile: Dr Nicholas Croucher",
      "url": "https://profiles.imperial.ac.uk/n.croucher"
     },
     {
-     "title": "Imperial MRC GIDA: Bacterial pathogens",
-     "url": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/disease-areas/bacterial-pathogens/"
-    },
-    {
-     "title": "Imperial MRC GIDA team page (staging copy, possibly outdated)",
-     "url": "https://imperialacuk-cms01-test.terminalfour.net/medicine/departments/school-public-health/infectious-disease-epidemiology/mrc-global-infectious-disease-analysis/about-us/people/team-dr-nicholas-croucher"
-    },
-    {
-     "title": "Google Scholar: Nicholas Croucher",
-     "url": "https://scholar.google.com/citations?user=SNWxvx8AAAAJ&hl=en"
+     "title": "Sanger: Genomics of Pneumonia, Meningitis and Neonatal Sepsis",
+     "url": "https://sanger.ac.uk/group/genomics-of-pneumonia-meningitis-and-neonatal-sepsis"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:21:21+00:00",
+   "refreshed_at": "2026-11-14T23:06:39+00:00",
    "error": null,
    "pi_profile": {
     "name": "Nicholas Croucher",
     "title": "Associate Professor in Bacterial Genomics",
     "profile_url": "https://profiles.imperial.ac.uk/n.croucher",
-    "scholar_url": "https://scholar.google.com/citations?user=SNWxvx8AAAAJ&hl=en"
+    "scholar_url": null
    },
    "members": [],
    "department": "School of Public Health, Faculty of Medicine; MRC Centre for Global Infectious Disease Analysis",
    "location": "London, United Kingdom",
-   "current_institution": "Imperial College London",
-   "members_page": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/disease-areas/bacterial-pathogens/"
+   "current_institution": "Imperial College London (per Imperial profile; Sanger still lists him as an external Group Leader)",
+   "members_page": null
   },
   {
    "name": "Thomson Group",
@@ -44491,25 +44491,25 @@
    "department_hint": null,
    "id": "sanger-bayraktar",
    "url": "https://www.sanger.ac.uk/group/bayraktar-group/",
-   "focus": "The group maps human brain cell types using large-scale spatial transcriptomics, imaging and functional screening. They study neural cell diversity in health and disease, and how glial cells shape neuronal circuits. They also study cellular pathways affected in neurodevelopmental disorders. Members also work on single-nucleus and spatial profiling of neurodegeneration, and on optical pooled screens that identify selectively vulnerable neuron subpopulations. The focus is neuroscience, not cancer.",
+   "focus": "The group maps human brain cell diversity using large-scale spatial transcriptomics, imaging and functional screens. It concentrates on the cerebral cortex and neurodevelopmental disorders. Main directions are mapping human tissues at single-cell resolution, cortical cell types in health and disease, and glial function. Members also work on single-nucleus and spatial genomics of neurodegeneration, and on optical pooled screens to find selectively vulnerable neuronal subpopulations.",
    "topics": [
     "spatial transcriptomics",
-    "human brain cell types",
-    "glia and neuronal circuits",
+    "human cortex cell types",
+    "glia",
+    "neurodevelopmental disorders",
     "neurodegeneration",
-    "optical pooled screens",
-    "single-nucleus omics"
+    "optical pooled screens"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group overlaps with the student's interest in single-cell and spatial omics and computational analysis, but its work is on brain and neurodegeneration, not cancer genomics, WGS, structural variants or somatic mutations, and the role would need a UK visa."
+    "reason": "The group's single-cell and spatial omics methods overlap with the student's interest in single-cell and spatial omics in cancer, but its focus is neuroscience, with no cancer genomics, structural variants or somatic mutation work."
    },
    "flags": [
-    "The PI is still at the Wellcome Sanger Institute, so no move was found. The group page also links an external UCSF profile for him, which may be a past or adjunct affiliation. I did not check it.",
-    "No current postdocs are listed on the group page. The postdocs I saw named (Qianqian Zhang, Yeliz Demirci, Ben Woodhams) are listed as previous team members.",
-    "Kwa's profile says he started his PhD in 2019, so he may be finishing or have finished. Check before contacting.",
-    "Perez is an MD-PhD candidate and is included as a PhD student.",
-    "The page has no focus statements for individual members. The foci above come from the individual profile pages, and Gould's profile gives none."
+    "No move found: the PI is still at the Wellcome Sanger Institute.",
+    "No current postdocs are listed. Qianqian Zhang, Yeliz Demirci and Ben Woodhams appear under 'Previous core team members'.",
+    "Current staff (Jimmy Lee, Senior Data Scientist; Tong Li, Senior Software Developer; Fani Memi and others) were excluded because they are staff, not postdocs or PhD students. Jimmy Lee and Tong Li may be useful computational contacts.",
+    "Perez is an MD-PhD candidate, also affiliated with the Cellular and Gene Editing Research group.",
+    "PhD years are not listed on the page."
    ],
    "sources": [
     {
@@ -44517,28 +44517,24 @@
      "url": "https://www.sanger.ac.uk/group/bayraktar-group/"
     },
     {
-     "title": "Dr Omer Bayraktar",
-     "url": "https://www.sanger.ac.uk/person/bayraktar-omer/"
-    },
-    {
-     "title": "Oliver Gould",
+     "title": "Oliver Gould - Sanger",
      "url": "https://www.sanger.ac.uk/person/gould-oliver/"
     },
     {
-     "title": "Jing Eugene Kwa",
-     "url": "https://www.sanger.ac.uk/external_person/kwa-jing-eugene/"
+     "title": "Mathieu Perez - Sanger",
+     "url": "https://www.sanger.ac.uk/person/perez-mathieu/"
     },
     {
-     "title": "Mathieu Perez",
-     "url": "https://www.sanger.ac.uk/person/perez-mathieu/"
+     "title": "Jing Eugene Kwa - Sanger",
+     "url": "https://www.sanger.ac.uk/external_person/kwa-jing-eugene/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:20:00+00:00",
+   "refreshed_at": "2026-11-14T23:06:00+00:00",
    "error": null,
    "pi_profile": {
     "name": "Omer Bayraktar",
-    "title": "Group Leader (Faculty Group)",
+    "title": "Group Leader (Cellular Genomics programme)",
     "profile_url": "https://www.sanger.ac.uk/person/bayraktar-omer/",
     "scholar_url": null
    },
@@ -44546,8 +44542,8 @@
     {
      "name": "Jing Eugene Kwa",
      "role": "PhD student",
-     "year": "Started at Sanger in 2019, so probably a",
-     "focus": "Applies single-nucleus transcriptomics and spatial genomics to neurodegenerative diseases. Interests include vulnerable cortical cell populations, their circuits and disease-specific cell-cell interactions.",
+     "year": null,
+     "focus": "Neurodegenerative disease using single-nucleus transcriptomics and spatial genomics. Studies vulnerable cortical cell populations, their circuits and cell-cell interactions.",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/external_person/kwa-jing-eugene/"
     },
@@ -44555,7 +44551,7 @@
      "name": "Mathieu Perez",
      "role": "PhD student",
      "year": null,
-     "focus": "MD-PhD candidate. Builds optical pooled screens that combine imaging, perturbation and single-cell/spatial omics to find selectively vulnerable neuron subpopulations. Works across the Bayraktar and Bassett labs at Sanger and the Ward lab at NINDS-NIH",
+     "focus": "MD-PhD candidate. Builds optical pooled screens that combine biophysical measurements, perturbation, high-throughput imaging and single-cell/spatial omics to find neuronal subpopulations selectively vulnerable in neurodegeneration.",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/perez-mathieu/"
     },
@@ -44563,12 +44559,12 @@
      "name": "Oliver Gould",
      "role": "PhD student",
      "year": null,
-     "focus": "No individual research focus is listed on his profile. He is in the Bayraktar Group within the Cellular Genomics Programme.",
+     "focus": "Member of the Bayraktar Group (Cellular Genomics). The profile does not describe his specific project.",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/gould-oliver/"
     }
    ],
-   "department": "Cellular Genomics Programme",
+   "department": "Cellular Genomics programme",
    "location": "Hinxton, Cambridgeshire, UK",
    "current_institution": "Wellcome Sanger Institute",
    "members_page": "https://www.sanger.ac.uk/group/bayraktar-group/"
@@ -44753,139 +44749,175 @@
    "department_hint": "Associate Faculty",
    "id": "sanger-durbin",
    "url": "https://www.sanger.ac.uk/group/durbin-group/",
-   "focus": "The group develops computational, statistical and modelling methods for whole-genome sequence data. Current projects include long-read reference genome assembly for the Vertebrate Genomes Project, Darwin Tree of Life and 25 Genomes for 25 Years. Other projects cover the evolution of Antarctic notothenioid fishes and speciation in Lake Malawi cichlids. The group also works on human population history from modern and ancient DNA, using large datasets such as 1000 Genomes, UK10K and HGDP. It builds software and data structures for large-scale genomic data, including graph-based reference genomes in the vg package. None of this is cancer work.",
+   "focus": "The group does evolutionary and computational genomics on whole-genome sequence data, using computational, statistical and mathematical methods. Its projects include long-read, high-quality vertebrate reference genome assembly (Vertebrate Genomes Project, Darwin Tree of Life, 25 Genomes for 25 Years). They also cover the speciation and genomic evolution of Lake Malawi cichlids and Antarctic notothenioid fish. Human population history and ancient DNA inference form another strand. The group also develops genomics software and data structures, including BWT/suffix-array tools such as bwa and the vg variation-graph toolkit.",
    "topics": [
+    "reference genome assembly",
     "population genomics",
-    "genome assembly",
-    "pangenome graphs",
-    "evolutionary genomics",
     "ancient DNA",
-    "genomic software"
+    "variation graphs / pangenomics",
+    "cichlid and fish evolution",
+    "genomic algorithms"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group's computational genomics methods (graph genomes, long-read assembly, variant analysis) overlap loosely with the student's interest in methods and structural variants, but it does no cancer, tumour sequencing, somatic mutation, or single-cell/spatial work."
+    "reason": "The group's strengths in genomic algorithms, long-read assembly and graph genomes overlap only loosely with the student's interest in computational methods and structural variants, and it does little cancer, somatic mutation, single-cell or spatial omics work."
    },
    "flags": [
-    "Durbin's primary appointment is at the University of Cambridge (Department of Genetics). The Sanger Institute lists him as Associate Faculty and he was Sanger Faculty from 1992 to 2017. This is a dual affiliation rather than a move.",
-    "The Sanger group page does not label current members as postdocs or PhD students and gives no emails or profile links. Only Durbin and Shane McCarthy (Tree of Life Assembly Team Lead, staff) have profile pages there.",
-    "The Cambridge group members page (linked as /durbin-group-members from the Cambridge group page) returned 404 on every URL I tried, so I could not open the official roster.",
-    "The member list above comes from search-result summaries of the Cambridge Genetics people directory, not from a page I opened. It may be outdated or incomplete, and roles and current status need checking before outreach.",
-    "No member emails or individual profile URLs were verified, so all are null. Per-member research focus was not verified."
+    "Durbin's primary appointment is the University of Cambridge (Al Kindi Professor of Genetics). The Sanger Institute lists him as Associate Faculty. He left Sanger faculty in 2017, so the Sanger listing is not his main affiliation.",
+    "The Sanger group page names people by project but gives no roles, and it appears dated (e.g. Eric Dawson is listed as a previous core team member). I used the Cambridge Genetics members page for the roster.",
+    "The Cambridge page says 'Postgraduate Student'. I treated these as PhD students, but some could be MPhil or other postgraduate students, which is unverified.",
+    "Individual focus areas, years and emails are not published on the members page. I did not open the individual profile pages.",
+    "Yucheng Wang (Assistant Research Professor), research assistants and technicians were excluded as not postdoc or PhD."
    ],
    "sources": [
     {
-     "title": "Durbin Group, Wellcome Sanger Institute",
+     "title": "Durbin Group - Wellcome Sanger Institute",
      "url": "https://www.sanger.ac.uk/group/durbin-group/"
     },
     {
-     "title": "Professor Richard Durbin, Cambridge Department of Genetics",
-     "url": "https://www.gen.cam.ac.uk/people/richard-durbin"
-    },
-    {
-     "title": "Durbin Group, Cambridge Department of Genetics",
+     "title": "Durbin group - Dept of Genetics, Cambridge",
      "url": "https://www.gen.cam.ac.uk/research-groups/research-groups/durbin"
     },
     {
-     "title": "Cambridge Genetics directory (D)",
-     "url": "https://www.gen.cam.ac.uk/directory/d"
+     "title": "Durbin group members - Dept of Genetics, Cambridge",
+     "url": "https://www.gen.cam.ac.uk/durbin-group-members"
     },
     {
-     "title": "Cambridge Genetics research staff",
-     "url": "https://www.gen.cam.ac.uk/people/research-staff"
+     "title": "Professor Richard Durbin - Dept of Genetics, Cambridge",
+     "url": "https://www.gen.cam.ac.uk/people/richard-durbin"
     },
     {
-     "title": "Cambridge Genetics people",
-     "url": "https://www.gen.cam.ac.uk/people?page=3"
+     "title": "Richard Durbin - Sanger profile",
+     "url": "https://www.sanger.ac.uk/person/durbin-richard/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:22:47+00:00",
+   "refreshed_at": "2026-11-14T23:07:39+00:00",
    "error": null,
    "pi_profile": {
     "name": "Richard Durbin",
     "title": "Al Kindi Professor of Genetics, University of Cambridge; Associate Faculty, Wellcome Sanger Institute",
     "profile_url": "https://www.gen.cam.ac.uk/people/richard-durbin",
-    "scholar_url": "https://scholar.google.co.uk/citations?user=5UfPNmQAAAAJ&hl=en&oi=ao"
+    "scholar_url": null
    },
    "members": [
-    {
-     "name": "Ariella Weinberg-Shukron",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Not verified (appears with a Durbin Group postdoc title in a search summary of the Cambridge directory)",
-     "email": null,
-     "profile_url": null
-    },
     {
      "name": "Bianca De Sanctis",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not verified (listed as Postdoctoral Research Associate in the Durbin Group in the Cambridge Genetics directory)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/staff/bianca-de-sanctis"
+    },
+    {
+     "name": "Chai Hao Chiu",
+     "role": "Postdoc",
+     "year": null,
+     "focus": "Not listed on the department page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/chai-hao-chiu"
     },
     {
      "name": "Chenxi Zhou",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not verified (appears with a Durbin Group postdoc title in a search summary of the Cambridge directory)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/people/chenxi-zhou"
     },
     {
      "name": "Lucas Braga",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not verified (listed as Postdoctoral Research Associate in the Durbin Group in the Cambridge Genetics directory)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/staff/lucas-braga"
     },
     {
      "name": "Zhe Xue",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not verified (reported as a Durbin Group postdoc in a search summary of the Cambridge directory)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/people/zhe-xue"
     },
     {
      "name": "Abdul Khan",
      "role": "PhD student",
      "year": null,
-     "focus": "Not verified (listed as Postgraduate Student in the Durbin Group)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/people/abdul-khan"
     },
     {
-     "name": "Luka Blumer",
+     "name": "Amanda Gardiner",
      "role": "PhD student",
      "year": null,
-     "focus": "Not verified (listed as Postgraduate Student and Research Assistant in the Durbin Group)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/people/amanda-gardiner"
+    },
+    {
+     "name": "Ashwin Sivakumar",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the department page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/ashwin-sivakumar"
+    },
+    {
+     "name": "Dana Bao",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the department page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/dana-bao"
+    },
+    {
+     "name": "Hari Lakshmidevi",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Listed as Research Assistant and Postgraduate Student; focus not listed",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/hari-lakshmidevi"
+    },
+    {
+     "name": "Lara Ozkan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the department page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/lara-ozkan"
     },
     {
      "name": "Sing Wei Lim",
      "role": "PhD student",
      "year": null,
-     "focus": "Not verified (listed as Postgraduate Student in the Durbin Group)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/people/sing-wei-lim"
     },
     {
      "name": "Xiaolan Sun",
      "role": "PhD student",
      "year": null,
-     "focus": "Not verified (listed as Postgraduate Student in the Durbin Group)",
+     "focus": "Not listed on the department page",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.gen.cam.ac.uk/people/xiaolan-sun"
+    },
+    {
+     "name": "Zihao Huang",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Not listed on the department page",
+     "email": null,
+     "profile_url": "https://www.gen.cam.ac.uk/people/zihao-huang"
     }
    ],
    "department": "Department of Genetics, University of Cambridge; Tree of Life programme, Wellcome Sanger Institute",
-   "location": "Cambridge, UK (Sanger campus in Hinxton, Cambridgeshire)",
-   "current_institution": "University of Cambridge (primary); Associate Faculty at Wellcome Sanger Institute",
-   "members_page": "https://www.sanger.ac.uk/group/durbin-group/"
+   "location": "Cambridge, UK (Sanger site: Hinxton, Cambridgeshire, UK)",
+   "current_institution": "University of Cambridge (primary appointment); Wellcome Sanger Institute (Associate Faculty)",
+   "members_page": "https://www.gen.cam.ac.uk/durbin-group-members"
   },
   {
    "name": "Vento-Tormo Group",
@@ -45083,24 +45115,25 @@
    "department_hint": null,
    "id": "sanger-behjati",
    "url": "https://www.sanger.ac.uk/group/behjati-group/",
-   "focus": "The group studies the origin and identity of cancer cells, with an emphasis on childhood cancers. It combines somatic genomic changes (mutations) with bulk and single-cell transcriptomics. It also uses mathematical modelling to work out cell of origin and developmental context. The work is computational and data-driven and is tied to paediatric tumour samples.",
+   "focus": "The group works on the theme 'connecting human development and disease'. It studies cancer genomics and single-cell transcriptomics, with an emphasis on childhood cancers. A central question is the cell of origin of paediatric tumours such as nephroblastoma (Wilms tumour). The group compares tumour genomes and transcriptomes with normal developing human tissues.",
    "topics": [
-    "childhood cancer genomics",
+    "paediatric cancer genomics",
     "single-cell transcriptomics",
-    "somatic mutation",
     "cell of origin",
-    "mathematical modelling"
+    "Wilms tumour",
+    "human development",
+    "somatic mutation"
    ],
    "fit": {
     "score": 4,
-    "reason": "Strong overlap with cancer genomics, somatic mutation analysis and single-cell transcriptomics, but the focus is paediatric and cell-of-origin biology rather than structural variants or ML methods, and a UK visa may be needed."
+    "reason": "Strong overlap with cancer genomics, tumour sequencing and single-cell omics in cancer, but the group is paediatric-focused and appears to have no current PhD students, and the UK location would probably need a visa."
    },
    "flags": [
-    "No institution move found: Behjati is still listed as Group Leader at the Wellcome Sanger Institute.",
-    "No current PhD students are listed. Thomas R. W. Oliver (PhD student) appears only under previous team members.",
-    "Conor Parks (Scientific Manager) is staff and was excluded. Sarah Farndon (Clinical Masters' student) is listed as a team member but is not a postdoc or PhD student, so she was excluded.",
-    "A search snippet mentioned a Tarryn Porter as a scientific manager. I could not verify whether that is a current role, and it is staff in any case.",
-    "The group page says prospective PhD applicants should apply via the Sanger PhD programme, and prospective postdocs are encouraged to seek independent funding."
+    "PI is still at the Wellcome Sanger Institute; no move found.",
+    "No current PhD students are listed on the group page. Thomas RW Oliver is listed only under previous core team.",
+    "Sarah Farndon is listed as a Clinical Masters' student, so she is excluded. Conor Parks and Tarryn Porter are managers, so they are excluded.",
+    "Individual members' research foci are not given on the group page, and I did not open their profile pages. The member profile URLs are built from relative links on the group page.",
+    "No emails are published on the group page."
    ],
    "sources": [
     {
@@ -45110,14 +45143,18 @@
     {
      "title": "MPhil and PhD student supervisors - Sanger",
      "url": "https://sanger.ac.uk/about/study/mphil-and-phd-student-supervisors"
+    },
+    {
+     "title": "PhD Programmes - Sanger",
+     "url": "https://www.sanger.ac.uk/about/study/phd-programmes/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-07T20:20:04+00:00",
+   "refreshed_at": "2026-11-14T23:05:46+00:00",
    "error": null,
    "pi_profile": {
     "name": "Sam Behjati",
-    "title": "Group Leader & Wellcome Senior Research Fellow",
+    "title": "Group Leader & Wellcome Senior Research Fellow (Paediatrician Scientist)",
     "profile_url": "https://www.sanger.ac.uk/person/behjati-sam/",
     "scholar_url": null
    },
@@ -45126,7 +45163,7 @@
      "name": "Anna Wenger",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the group page.",
+     "focus": "Not described on the group page (listed as Postdoctoral Fellow).",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/wenger-anna/"
     },
@@ -45134,7 +45171,7 @@
      "name": "Holly J. Whitfield",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the group page.",
+     "focus": "Not described on the group page (listed as Postdoctoral Fellow).",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/whitfield-holly/"
     },
@@ -45142,13 +45179,13 @@
      "name": "Natalie Andersson",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the group page.",
+     "focus": "Not described on the group page (listed as Postdoctoral Fellow).",
      "email": null,
      "profile_url": "https://www.sanger.ac.uk/person/andersson-natalie/"
     }
    ],
-   "department": "Cancer, Ageing and Somatic Mutation / Cellular Genomics (the Sanger PhD supervisor list places Behjati under Cellular Genomics). I could not confirm the programme name on the group page itself.",
-   "location": "Hinxton (Wellcome Genome Campus), Cambridgeshire, UK",
+   "department": "Cellular Genomics programme (works across Cellular Genetics and Cancer)",
+   "location": "Hinxton, Cambridgeshire, UK",
    "current_institution": "Wellcome Sanger Institute",
    "members_page": "https://www.sanger.ac.uk/group/behjati-group/"
   },

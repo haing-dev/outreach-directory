@@ -2,9 +2,915 @@
  "weeks": [
   {
    "week": "2026-11-14",
-   "generated_at": "2026-11-14T19:21:41+00:00",
+   "generated_at": "2026-11-14T23:20:58+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab",
+     "text": "No PI move found. Chenxu Zhu is still at NYGC with a joint Weill Cornell Medicine appointment (appointed 2022)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab",
+     "text": "The NYGC lab page lists no members. The members come from the lab's own site, czhulab.github.io/team.html, which has no last-updated date. Its footer reads 2022-2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab",
+     "text": "The team page gives no year or individual research focus for any member. I did not open the individual profile pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab",
+     "text": "I did not find a Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "nygc-zhu",
+     "entry_name": "Zhu Lab",
+     "text": "The lab says it is recruiting graduate students and postdocs. A postdoc posting for single-cell epigenomics also appeared in search results."
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "nygc-sanjana",
+     "entry_name": "Sanjana Lab",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your 5-hour limit · resets 12:10am (UTC))"
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab",
+     "text": "PI is still at Scripps Research. No move found. The lab site lists the ISCB department. The hint also mentions Translational Medicine, which I did not verify."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab",
+     "text": "The team page lists no postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab",
+     "text": "The team page has no last-updated date. The footer says © 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab",
+     "text": "The page links to a separate Alumni page that I did not open. Alumni are excluded from the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-su",
+     "entry_name": "Su Lab",
+     "text": "The team page also lists the Wu Lab (Chunlei Wu), which shares the site. Its PhD student Lucy Zhang is not a Su Lab member and is excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab",
+     "text": "The PI moved from Northwestern Feinberg School of Medicine (2020-2024) to Scripps Research in 2024. The Scripps listing is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab",
+     "text": "The members page shows no last-updated date. Several students still have Northwestern emails or affiliations, so the roster may be partly out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab",
+     "text": "Two undergraduates (Sofina Yang, Siya Sathaye) are on the page and were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab",
+     "text": "No individual profile pages were found for members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-kennedy",
+     "entry_name": "Kennedy Lab",
+     "text": "The Google Scholar URL was not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory",
+     "text": "mgl.scripps.edu redirects to ccsb.scripps.edu. The Molecular Graphics Laboratory was reorganized into the CCSB in 2018, and Olson directed the MGL from 1981 to 2018."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory",
+     "text": "No move found: Olson is still listed as faculty at Scripps Research."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory",
+     "text": "The people page lists no postdocs or PhD students, so the members list is empty and nothing was invented. It lists six Research Associates, and the page does not say whether any of them are postdocs: Brett Barbaro, Giulia Bianco, Jerome Eberhardt, Vera Prytkova, Diogo Santos Martins and Yuqi (Gary) "
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory",
+     "text": "David Goodsell retired in January 2025."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-olson",
+     "entry_name": "Molecular Graphics Laboratory",
+     "text": "The CCSB also includes Stefano Forli's lab (forlilab.org) and Ludovic Autin. Forli's lab may be the better place to look for trainees."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute)",
+     "text": "The PI is still at Scripps Research as far as I could verify. I found no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute)",
+     "text": "The faculty page lists no lab members, postdocs or PhD students. The only other person named is Michael Ko, in a photo caption, and I could not confirm their role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute)",
+     "text": "I did not find a Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute)",
+     "text": "Digital Trials Center team page lists Quer with other staff (Topol, Baca-Motes and others). These are not identified as his postdocs or students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-quer",
+     "entry_name": "Digital Medicine / AI (Translational Institute)",
+     "text": "The faculty page has a contact email, but it is obfuscated in the page source, so I did not record it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab",
+     "text": "The discovery listing (Scripps Research) looks wrong or outdated. The lab site and the Cincinnati Children's page both place the PI at Cincinnati Children's. The Scripps faculty page did show Hogenesch as a Professor in Molecular & Cellular Biology, but I could not reconcile it with the other two pa"
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab",
+     "text": "The people page lists only one current PhD student and no current postdocs. Anand Venkataraman and Gang Wu appear as Postdoctoral Fellows, but the page's wording is ambiguous and they are probably alumni, so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab",
+     "text": "Jiffin Paulose is a Research Scientist (staff), so I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab",
+     "text": "The people page gave no date for its last update, and no emails are published."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-hogenesch",
+     "entry_name": "Hogenesch Lab",
+     "text": "A US role would likely need a visa for a Canadian-based student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab",
+     "text": "No lab members page found. The lab site (mmravic314.github.io) and the Scripps faculty page list only the PI, so no postdocs or PhD students could be verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab",
+     "text": "https://www.scripps.edu/mravic redirects (301) to mmravic314.github.io, so the lab site is hosted on GitHub Pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab",
+     "text": "PI confirmed at Scripps Research, with no move found. The lab site lists the PI as Scripps Fellow, and the faculty page lists Assistant Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab",
+     "text": "The PI's public email on the lab site is mmravic (AT) scripps.edu, which is not a member email."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-mravic",
+     "entry_name": "Mravic Lab",
+     "text": "The student would likely need a US visa for a role here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab",
+     "text": "PI is still at Scripps Research. I found no move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab",
+     "text": "The faculty page names no lab members. The lab's own Team page was used."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab",
+     "text": "The Team page lists no years for members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab",
+     "text": "Google Scholar profile not found, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-ken",
+     "entry_name": "Ken Lab",
+     "text": "Student eligibility: US roles may need a visa."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab",
+     "text": "The lab page lists no current PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab",
+     "text": "The lab page has no last-updated date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab",
+     "text": "The page gives no research focus for either postdoc. The only published email is the PI's (sanner@scripps.edu)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab",
+     "text": "The PI's Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-sanner",
+     "entry_name": "Sanner Lab",
+     "text": "No PI move was found. The Scripps faculty page still lists the PI at Scripps Research."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-peng",
+     "entry_name": "Peng Lab",
+     "text": "No lab members page was found on the Scripps faculty page or in search, so no postdocs or PhD students could be verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-peng",
+     "entry_name": "Peng Lab",
+     "text": "The PI's institution (Scripps Research) was confirmed only from the faculty page, which has no date. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-peng",
+     "entry_name": "Peng Lab",
+     "text": "The Google Scholar profile was not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-peng",
+     "entry_name": "Peng Lab",
+     "text": "The PI's faculty page lists the email qpeng@scripps.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab",
+     "text": "No move found: the PI is still at Scripps Research."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab",
+     "text": "The Scripps pages disagree on the PI's title (Professor vs Associate Professor), and I could not confirm which is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab",
+     "text": "The members page lists 'Graduate Student' and does not say PhD. I labelled them PhD students because they are Scripps graduate students, which is an assumption."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab",
+     "text": "The members page lists no start years or emails. It was timestamped 2026-10-20."
+    },
+    {
+     "type": "flag",
+     "entry_id": "scripps-forli",
+     "entry_name": "Forli Lab",
+     "text": "The LinkedIn link on Boyuan Ma's entry matches Alessandra Riccio's profile, so I left it out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group",
+     "text": "No move found: the PI is still at the ICR (Group Leader since 2013, tenured 2018)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group",
+     "text": "Member roster NOT verified: ICR pages returned HTTP 403 and search snippets showed an empty 'Researchers in this group' section. Check the members page manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group",
+     "text": "The PI's title varies by source (Professor / Associate Professor / Reader)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group",
+     "text": "No Google Scholar URL was seen. A lab site, sadanandam-lab.com, was mentioned but not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-sadanandam",
+     "entry_name": "Systems and Precision Cancer Medicine Group",
+     "text": "The group page cites 82 publications, most recent dated 12/2025."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group",
+     "text": "Could not verify the current member list: the ICR site returned HTTP 403 to every fetch, so the people page was never read."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group",
+     "text": "PI's current institution (ICR) is confirmed only from search-result summaries; no move was seen, but this is not verified on the page itself."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group",
+     "text": "PI title is inconsistent across sources (Professor vs Reader); check the ICR staff page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group",
+     "text": "Bakal is also CSO of the spinout Sentinal4D."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-bakal",
+     "entry_name": "Dynamical Cell Systems Group",
+     "text": "ResearchGate lists Lucas Dent, Matthew De Vries and Olga Fourkioti as lab members. The list looks outdated, and none is confirmed as a current postdoc or PhD student."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "left: Alice Garrett"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "I could not open the ICR pages directly (HTTP 403). Everything here comes from search-result snippets, so the member roster is unverified and probably incomplete."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "No current postdocs were found in the search results. Check the lab page directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "Alice Garrett (earlier described as a clinical research fellow and PhD student) has completed her PhD and is now a consultant and honorary clinical lecturer, so she is excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "Zeid Kuzbari is a bioinformatician who has completed a PhD, so he is staff and excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-turnbull",
+     "entry_name": "Translational Genetics Group",
+     "text": "The PI is still at the ICR. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead)",
+     "text": "ICR pages returned HTTP 403, so the people page could not be opened; no current postdocs or PhD students were verified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead)",
+     "text": "Group was previously led by Yinyin Yuan, who is now at MD Anderson (per search summaries); Janet Shipley is interim lead, with no date given for the change"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead)",
+     "text": "Janet Shipley's current institution is ICR, per ICR pages as summarised in search results; no move found"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead)",
+     "text": "Group's future direction and stability are unclear given the interim leadership"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-shipley",
+     "entry_name": "Computational Pathology and Integrative Genomics Group (interim lead)",
+     "text": "UK role would likely need a visa for a Canadian student"
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "joined: Irina (surname not verified); left: Irina"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "ICR pages returned HTTP 403, so the people page was not opened and the member list is incomplete and unverified. Check it manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "The PI's institution is confirmed as the ICR. She has led the group since 2023, after the US National Cancer Institute (a move from the NCI to the ICR)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "The PhD student entry is from a search snippet only. No full surname, profile link or email was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "Dr Daniel Adams (Epidemiology Research Fellow) and Reuben Frost (Epidemiology Research Associate) appeared in search results. Their roles do not clearly match 'postdoc', so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-garcia-closas",
+     "entry_name": "Integrative Cancer Epidemiology Group",
+     "text": "Another PhD candidate, June, appeared in the results. She is supervised by Professor Berrington, not Garcia-Closas, so I left her out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics)",
+     "text": "The ICR pages returned 403 errors, so the lab's own site (houlston.group) was the only members page I could read. It uses a redirected URL, http://www.houlston.group/."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics)",
+     "text": "The PI's current institution (ICR, Sutton) is confirmed by the lab site and ICR search listings. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics)",
+     "text": "The team page does not label anyone as 'Postdoc' or 'PhD student', and it gives no years or emails. I left members empty rather than guess."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics)",
+     "text": "Current members listed with no formal role: Mahmoud Ahmed (rare childhood cancer genetics), Andrea Gunnell (myeloma GWAS), Jessica Hislop (bioinformatician), Philip Law (bioinformatician, colorectal germline), Charlie Mills (somatic and immune landscape, 100,000 Genomes), Jayaram Vijayakrishnan, Mol"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-houlston",
+     "entry_name": "Houlston Group (Cancer Genomics)",
+     "text": "Other current members: Sina Beer (clinical research fellow, myeloma), Peter Broderick (lab manager), Richard Culliford (statistician), Janet Nwaoshai (administration and data management) and Michalina Lubiatowska (role not stated)."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab",
+     "text": "left: Chloe Colson"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab",
+     "text": "ICR pages returned HTTP 403, so the people page could not be opened and no members were verified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab",
+     "text": "Search snippets named Dr Annie Baker (Senior Staff Scientist, staff, so excluded) and Dr Konstantin Braeutigam (role unknown). Chloé Colson appears as a Postdoctoral Training Fellow on a review with Graham as senior author. None of these was confirmed as a current lab postdoc or PhD student, so I le"
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab",
+     "text": "The profile page reports Graham as Director of the Centre for Evolution and Cancer since spring 2022. A search result also lists him on Genomics England governance. No move away from ICR was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "icr-graham",
+     "entry_name": "Genomics and Evolutionary Dynamics Lab",
+     "text": "Google Scholar URL not verified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group",
+     "text": "I did not open the individual profile pages, so member research focuses are not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group",
+     "text": "No emails are published on the group page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group",
+     "text": "Tobi Alegbe appeared as an Anderson Group PhD student in a search snippet of the Sanger people directory but is not on the current group page. Their status is unverified and they may be an alumnus."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group",
+     "text": "Sanger staff page snippets give Anderson's title as 'Interim Head of Human Genetics', while the group page says 'Head of Human Genetics'. Check which is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-anderson",
+     "entry_name": "Anderson Group",
+     "text": "The group's own site, andersonlab.info, could not be fetched because of a certificate error."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group",
+     "text": "The Sanger page lists Buckee only as Associate Faculty; her primary appointment is at Harvard, so the Sanger listing is not her home lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group",
+     "text": "No lab website or current people page was found. The Sanger and Harvard profiles list no lab members, and the old CCDD people URL redirected to a page that returned 404. Postdocs and PhD students are therefore unverified, not confirmed absent."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group",
+     "text": "The older HSPH faculty page gives the Associate Professor title, while the Salata Institute page says she became Professor in 2022. The Harvard profile says Professor of Epidemiology."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group",
+     "text": "Visa note: US-based lab; the student would likely need a visa."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-buckee",
+     "entry_name": "Buckee Group",
+     "text": "Google Scholar URL not seen, so left null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "joined: Amin Afshari, Aniket Mane, Bradley Jones, Javad Meghrazi, Laurinne Balstad, Mahdi Salehzadeh, Mina Moeini, Simon Gamboa Levi; left: Brad Jones"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "Colijn's primary appointment is SFU (Burnaby, Canada). Sanger lists her only as Associate Faculty, so the discovery listing at Sanger is misleading."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "The search tool returned 'Page Not Found' for several SFU MAGPIE people URLs, but a direct fetch of /magpie/people/our-group.html worked. The page has no visible date, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "No Google Scholar URL for the PI was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "The members page lists no emails for students or postdocs. The group contact, ccolijn@sfu.ca, appeared on that page for the PI only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-colijn",
+     "entry_name": "Colijn Group",
+     "text": "The page gives no years of study for students."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "left: Adam Fowler, Ben Young, Francesco Di Lauro, Ian Roberts"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "The PI's primary institution is the University of Oxford (Big Data Institute). The Sanger listing is an Associate Faculty affiliation only, so this is not an independent-institute lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "The Sanger page lists no group members and no lab website."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "I could not read the BDI group page, the NDM page or the PSI page (HTTP 403, plus one DNS failure on the non-www BDI host), so no current postdocs or PhD students are listed and no emails were found. Search snippets gave conflicting team sizes: one says about nine postdocs, another says five postdoc"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "One source reports a 2022 chair at the Pandemic Sciences Institute (Moh Family Foundation Professor of Infectious Disease Epidemiology). I did not confirm this on an official page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-fraser",
+     "entry_name": "Fraser Group",
+     "text": "Google Scholar profile not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group",
+     "text": "The lab's own site (davenportlab.com) has a footer dated 2018-2023, so the member list may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group",
+     "text": "The Sanger group page lists Alex Tokolyi as a 'previous core team member' PhD student, so check whether they are still current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group",
+     "text": "The Sanger group page shows only Burnham, Sutherland and Tokolyi besides the PI. The postdoc and other PhD students come only from davenportlab.com and are unconfirmed on the Sanger page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group",
+     "text": "The PI is still at the Wellcome Sanger Institute (faculty since Oct 2018) and no move was found. The search result did not give a current status update."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-davenport",
+     "entry_name": "Davenport Group",
+     "text": "Excluded: Katie Burnham, Wanseon Lee and Catherine Sutherland (staff scientists) and Phumrapee Boonklang (Master's student)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group",
+     "text": "The Sanger page lists Corander as Associate Faculty; his primary appointment is Professor at the University of Oslo. This is a dual affiliation, not a confirmed move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group",
+     "text": "The UIO unit page lists 6 staff (1 Professor and 5 Researchers) and labels no one as a postdoc or PhD student, so no members could be confirmed under your criteria. The 'Researcher' titles may include postdocs, but the page does not say. Researchers listed: Jessica Kate Calland, Rebecca Ashley Glads"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group",
+     "text": "A search result also showed a UiT (Tromsø) staff page and an Aalto University visitor page for Corander. I did not verify either and they may be outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group",
+     "text": "I did not find a Google Scholar URL, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-corander",
+     "entry_name": "Corander Group",
+     "text": "The roster may be incomplete: I checked only the UIO unit page, and PhD students may be listed elsewhere, for example on a separate lab website."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "joined: Dr Erna King, Dr Jessica A Thomas Thorpe, Dr Julien Martinez, Dr Maggie N Georgieva, Dr Merce Montoliu Nerin; left: Erna King, Jessica A Thomas Thorpe, Julien Martinez, Maggie N Georgieva, Merce Montoliu Nerin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "The PI is still at the Wellcome Sanger Institute, so no move. He joined from the University of Edinburgh earlier."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "The group page lists no current PhD students. Amjad Khalaf is listed only under previous members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "Individual research foci and emails are not published on the group page, and I did not open the individual profile pages. All member foci are therefore null-equivalent."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "Richard Challis (Senior Bioinformatician), Witold Morek (Advanced Research Assistant) and Claudia Weber (former) are staff or alumni and are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-blaxter",
+     "entry_name": "Blaxter Group",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group",
+     "text": "Affiliation conflict: the Sanger page calls him 'Group Leader' (Parasites and Microbes) with no start date, while the Imperial profile lists him as Associate Professor. Imperial appears to be his current base; the Sanger listing is likely stale or external, and no official page states a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group",
+     "text": "The Sanger pneumococcus team page lists Croucher under previous members, and its current members (Neil MacAlasdair, PhD student; Christine Boinett) belong to Stephen Bentley's group, so they are not included here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group",
+     "text": "No current people page for the Croucher group could be opened (the Imperial team page returned 404). Members list is empty, not confirmed to be empty. Check the Imperial MRC GIDA site directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group",
+     "text": "The Google Scholar URL was not seen. His ORCID is 0000-0001-6303-8768."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-croucher",
+     "entry_name": "Croucher Group",
+     "text": "The UK role would likely require a visa for a Canadian student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group",
+     "text": "No move found: the PI is still at the Wellcome Sanger Institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group",
+     "text": "No current postdocs are listed. Qianqian Zhang, Yeliz Demirci and Ben Woodhams appear under 'Previous core team members'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group",
+     "text": "Current staff (Jimmy Lee, Senior Data Scientist; Tong Li, Senior Software Developer; Fani Memi and others) were excluded because they are staff, not postdocs or PhD students. Jimmy Lee and Tong Li may be useful computational contacts."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group",
+     "text": "Perez is an MD-PhD candidate, also affiliated with the Cellular and Gene Editing Research group."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-bayraktar",
+     "entry_name": "Bayraktar Group",
+     "text": "PhD years are not listed on the page."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "joined: Amanda Gardiner, Ashwin Sivakumar, Chai Hao Chiu, Dana Bao, Hari Lakshmidevi, Lara Ozkan, Zihao Huang; left: Ariella Weinberg-Shukron, Luka Blumer"
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "Durbin's primary appointment is the University of Cambridge (Al Kindi Professor of Genetics). The Sanger Institute lists him as Associate Faculty. He left Sanger faculty in 2017, so the Sanger listing is not his main affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "The Sanger group page names people by project but gives no roles, and it appears dated (e.g. Eric Dawson is listed as a previous core team member). I used the Cambridge Genetics members page for the roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "The Cambridge page says 'Postgraduate Student'. I treated these as PhD students, but some could be MPhil or other postgraduate students, which is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "Individual focus areas, years and emails are not published on the members page. I did not open the individual profile pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-durbin",
+     "entry_name": "Durbin Group",
+     "text": "Yucheng Wang (Assistant Research Professor), research assistants and technicians were excluded as not postdoc or PhD."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group",
+     "text": "PI is still at the Wellcome Sanger Institute; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group",
+     "text": "No current PhD students are listed on the group page. Thomas RW Oliver is listed only under previous core team."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group",
+     "text": "Sarah Farndon is listed as a Clinical Masters' student, so she is excluded. Conor Parks and Tarryn Porter are managers, so they are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group",
+     "text": "Individual members' research foci are not given on the group page, and I did not open their profile pages. The member profile URLs are built from relative links on the group page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "sanger-behjati",
+     "entry_name": "Behjati Group",
+     "text": "No emails are published on the group page."
+    },
     {
      "type": "flag",
      "entry_id": "broad-segre",
