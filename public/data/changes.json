@@ -2,9 +2,656 @@
  "weeks": [
   {
    "week": "2026-11-15",
-   "generated_at": "2026-11-15T02:51:43+00:00",
-   "checked": 30,
+   "generated_at": "2026-11-15T11:24:41+00:00",
+   "checked": 22,
    "items": [
+    {
+     "type": "needs_review",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your 5-hour limit · resets 11:20am (UTC))"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-microsoft",
+     "entry_name": "Microsoft Research",
+     "text": "I found no 2027 Health Futures or genomics internship posting, and the genomics postings I saw date from 2024-2025."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-microsoft",
+     "entry_name": "Microsoft Research",
+     "text": "I found no PhD fellowship, residency or visiting program on the MSR careers page. I did not search for a separate Microsoft Research fellowship program."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-microsoft",
+     "entry_name": "Microsoft Research",
+     "text": "Hoifung Poon's title is from 2024 and may be outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-microsoft",
+     "entry_name": "Microsoft Research",
+     "text": "Leadership titles come from search snippets and were not checked on official org pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-microsoft",
+     "entry_name": "Microsoft Research",
+     "text": "I did not fetch the Health Futures opportunities page, the AI for Science lab page, or the individual leadership profile pages, only search results and the careers page."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "New program: PhD Research Intern, Fundamental Generative AI – 2027 (general; mentions AI for science)"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "No longer listed: PhD Research Intern, Fundamental Generative AI – 2027 (general, mentions AI for science)"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "The re-check was incomplete because the tool hit its usage limit. The fellowship page and the 2027 internship postings were not re-fetched today."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "The program details come from last week's list and are unverified today."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "The third program's URL and details were truncated in the input, so its URL is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "Anthony Costa's title comes from a search-result summary only. Kimberly Powell's and Costa's profile URLs were not seen."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-nvidia",
+     "entry_name": "NVIDIA",
+     "text": "Only 2 leads are listed. No research-team lead for the genomics/bio foundation model group was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-meta",
+     "entry_name": "Meta FAIR",
+     "text": "Search quota ran out; the internship postings were not re-checked and the third search never ran."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-meta",
+     "entry_name": "Meta FAIR",
+     "text": "No official Meta page listing current FAIR Chemistry leadership was found. Zitnick's title comes from an LBL news release, and Brandon Wood's lead status is inferred from the OMol25 paper and release."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-meta",
+     "entry_name": "Meta FAIR",
+     "text": "Zachary Ulissi appears only as an OMol25 co-author; I could not verify his current role, so I left him out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-meta",
+     "entry_name": "Meta FAIR",
+     "text": "Samuel Blau is a Berkeley Lab researcher, not Meta staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-meta",
+     "entry_name": "Meta FAIR",
+     "text": "Fellowship dates and amounts come from aggregators that contradict each other. Check research.facebook.com directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "The previous Prescient Design URL, gene.com/scientists/our-scientists/prescient-design, returned 404 in this check, and I used gene.com/prescient instead. It appeared in search results, but I did not fetch it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "I did not open careers.gene.com directly. Posting status comes from search snippets and third-party aggregators, so no 2027 gRED computational or Prescient Design posting was confirmed. Re-check the official careers site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "Bonneau's title differs between Genentech's page and the Simons Foundation profile. I could not verify his exact current title."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "Cho's NYU affiliation and co-founder role come from search snippets only, and I have no official profile URL for him."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "US visa and work authorization requirements for a Canadian student are unclear. Confirm them with Genentech university recruiting."
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "bio-genentech",
+     "entry_name": "Genentech",
+     "text": "Link not found (404)",
+     "url": "https://gene.com/prescient"
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your 5-hour limit · resets 11:20am (UTC))"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "New program: Automation Scientist Graduate Intern, RAC Operations",
+     "url": "https://www.compbiojobs.com/jobs/7746/automation-scientist-graduate-intern-rac-operations"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "No named head of the AI / computational biology team was found. Only the CEO and co-founder are listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "All Handshake links are share previews with no posting dates, so every program status is unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "Every program found requires US enrolment or US work authorization, and the student is at a Canadian university."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "Reshma Shetty's current role and focus were not verified beyond a news headline."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-ginkgo",
+     "entry_name": "Ginkgo Bioworks",
+     "text": "The Automation Scientist Graduate Intern listing comes from a search snippet and was not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-illumina",
+     "entry_name": "Illumina",
+     "text": "I could not load the Workday portal (the page returned empty), so I did not check live postings. The internship timing comes from a third-party estimate."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-illumina",
+     "entry_name": "Illumina",
+     "text": "I found no official Illumina page listing a fellowship, residency or visiting program for PhD students. Only the internship and the closed Singapore industry PhD turned up."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-illumina",
+     "entry_name": "Illumina",
+     "text": "Work authorization (US/UK) is the main barrier for a Canadian student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-illumina",
+     "entry_name": "Illumina",
+     "text": "Kyle Farh's exact title varies by source (VP, Distinguished Scientist, AI vs. VP of BioInsight AI Lab). I did not find an official Illumina bio page, so his profile link is a conference profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-illumina",
+     "entry_name": "Illumina",
+     "text": "The leads list has two people; I did not verify other AI Lab or BioInsight leaders."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "New program: Postdoctoral Fellow, Regeneron Genetics Center (within the Regeneron Postdoctoral Training Program)",
+     "url": "https://www.regeneron.com/postdoctoral-training-program"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "No longer listed: Postdoctoral Fellow, Regeneron Genetics Center"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "The Workday internship page returned no content, so I couldn't confirm that the postings are still live or what the deadlines are."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "I didn't open the two compbiojobs listings, so those requirements are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "The postdoc program is for PhD graduates, not current students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "The RGC focuses on germline population genetics, not cancer genomics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-regeneron",
+     "entry_name": "Regeneron Genetics Center",
+     "text": "The leadership titles come from the RGC factsheet and a January 2026 Regeneron story. I found no later changes, but I didn't search for them."
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "Refresh failed, showing last known data (Claude Code error: You've hit your 5-hour limit · resets 11:20am (UTC))"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-grail",
+     "entry_name": "GRAIL",
+     "text": "No internship, fellowship or student role is currently posted on the Lever board (16 postings, all full-time)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-grail",
+     "entry_name": "GRAIL",
+     "text": "The next summer internship cycle is probably posted around January-March 2027. This comes from third-party guides, not from GRAIL."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-grail",
+     "entry_name": "GRAIL",
+     "text": "Leadership information conflicts. GRAIL's own pages may predate the CEO change, and Simply Wall St lists a different CSO (Harpal Kumar). Confirm current titles on grail.com."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-grail",
+     "entry_name": "GRAIL",
+     "text": "I did not verify the leadership page at grail.com/about-us/leadership/ (404). The profile links use grail.com/?p= URLs that appeared in search results."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-grail",
+     "entry_name": "GRAIL",
+     "text": "Past internship details come from third-party aggregators. The program status in last week's list was 'unknown'. I changed it to 'closed' because no internship posting is currently live."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-fmi",
+     "entry_name": "Foundation Medicine",
+     "text": "The internship-program page returned HTTP 404 when fetched directly this session. Its details come from search snippets and last week's check, so re-verify before relying on them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-fmi",
+     "entry_name": "Foundation Medicine",
+     "text": "I found no 2027 internship postings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-fmi",
+     "entry_name": "Foundation Medicine",
+     "text": "Leadership titles come from third-party sites (TheOrg, me.sh) and a 2019 press release. The official leadership page for Mia Levy (listed on foundationmedicine.com/leadership) returned 404, so I could not confirm current executive roles. Please verify on LinkedIn or the company site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-fmi",
+     "entry_name": "Foundation Medicine",
+     "text": "The R&D rotation program mentioned on the careers blog is for current employees, not students, so I left it out of the programs list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-fmi",
+     "entry_name": "Foundation Medicine",
+     "text": "No PhD fellowship, residency or visiting program was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-recursion",
+     "entry_name": "Recursion",
+     "text": "Neither program is open as of 2026-11-15. Sign up for the Talent Network and the Valence Labs job alert."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-recursion",
+     "entry_name": "Recursion",
+     "text": "Leadership changed on 2026-01-01: Najat Khan became CEO and Chris Gibson moved to Chair. Older pages still show earlier titles."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-recursion",
+     "entry_name": "Recursion",
+     "text": "I did not find a named head of Valence Labs or of the biology/computational teams from official pages, so only three leaders are listed. The student should check recursion.com/teams/biology and the Valence Labs site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-recursion",
+     "entry_name": "Recursion",
+     "text": "The Greenhouse page for Valence Labs job 7416936 now shows only the general 'no openings' state, so its requirements come from older snippets."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-recursion",
+     "entry_name": "Recursion",
+     "text": "Ben Mabey's profile_url points to the leadership page, not his own page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "Re-checked the job openings page. It still lists no internships, PhD fellowships or student programs, so last week's result is unchanged."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "Leadership titles other than Hassabis's come from search snippets and third-party directories. Titles for Jaderberg, Congreve and Yakneen should be checked against isomorphiclabs.com/about-us. The page fetch for /about returned 404, and I did not open /about-us."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "An older source lists Colin Murdoch as President. The November 2025 announcement appears to be the more recent."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-isomorphic",
+     "entry_name": "Isomorphic Labs",
+     "text": "The directory asks for the biology or computational team's leaders. These are the company's top executives, because I did not find a named head of a separate biology team."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "New program: Internship (Outliers & Polymaths) / Opportunistic",
+     "url": "https://www.chaidiscovery.com/careers"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "No longer listed: Internship, Outliers & Polymaths / Opportunistic, Outliers & Polymaths"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "No fellowship, residency, student researcher or visiting programs are listed; the careers page lists only the Internship and Opportunistic entries under Outliers & Polymaths."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "I did not open the Ashby postings for the Internship or Opportunistic entries, so their requirements and eligibility are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "Founder backgrounds come from secondary sources (Contrary Research, press), not an official team page. Check them on LinkedIn or the company site before outreach."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "Boitreaud's name is spelled inconsistently across sources, and his role was not confirmed on an official page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-chai",
+     "entry_name": "Chai Discovery",
+     "text": "The Series B figure ($130M, Dec 2025) comes from press coverage that I did not check against the company."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "All three postings were re-checked. Each still showed content, with no closing dates, but none could be confirmed as live today. The Menlo VC job-board pages are mirrors, so check Xaira's own Greenhouse board before applying."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "The sources disagree on founders. Some name Tessier-Lavigne, Nelsen, Bajaj and Kamisetty, while others name Baker. Bajaj is listed as president by one source, but Jeff Jonker was later appointed President and COO."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "Kamisetty's CTO title comes from a single trade report. Verify it on Xaira's site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "Xaira has no publicly listed PhD fellowship or visiting program, and none is aimed at a first-year student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-xaira",
+     "entry_name": "Xaira Therapeutics",
+     "text": "One aggregator said the AI in Residence 'AI Scientist' listing offers $120–180k, which conflicts with the $10–15k per month on the postings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "The Greenhouse URL from last week now returns the Biohub careers listing, not the intern posting. The internship is not among the featured openings, so its closed status rests on that and on aggregators."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "A Canadian student needs US work authorization, because one listing says Biohub cannot sponsor visas for this role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "Biohub runs a separate 10-week Summer Internship Program for PhD students (June 16 to Aug 21 in 2026). It is a different track from the AI Research intern role, and I did not verify its details."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "Only Alex Rives was verified as a team lead. Other EvolutionaryScale leaders were not confirmed from official pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-evoscale",
+     "entry_name": "EvolutionaryScale",
+     "text": "Current Biohub openings include a Postdoctoral Fellow, Multimodal Modeling (Chicago) and a Computational Biologist, Immune Cell Repolarization (New York). Neither is a student role."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "New program: Machine Learning Intern (PhD), Summer (recurring annual internship; Summer 2026 cycle posted)",
+     "url": "https://generatebiomedicines.com/careers/"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "No longer listed: Machine Learning Intern (PhD), Summer 2026 (recurring annual internship)"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "I could not read the official open-positions list, because it loads only after cookies are accepted. The internship details come from aggregator listings (Simplify, Built In), not the company site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "No 2027 internship posting found as of 2026-11-15. The 2026 posting is closed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "Pay of about $55–72/hr comes from aggregator listings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "Visa and work authorization are unstated, so a Canadian student should confirm US work authorization with the company."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-generate",
+     "entry_name": "Generate:Biomedicines",
+     "text": "I found no PhD fellowship, residency or visiting program at Generate."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Both internships were re-checked on 2026-11-15 and are still live with no deadline. They look like rolling or evergreen postings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "No PhD fellowship, residency, student researcher or visiting program was found on the Greenhouse board. It lists 12 roles, and only the two internships are student-oriented."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Neither posting states a visa or sponsorship policy, so a Canadian student should ask Profluent before applying."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Leadership details come from search-result summaries of the about page. The about and team pages were not fully fetched (the /about fetch returned 404), so verify titles at profluent.bio/about and profluent.bio/team. James Fraser is an advisor, not a founder."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-profluent",
+     "entry_name": "Profluent",
+     "text": "Headquarters is reported as Emeryville in most sources and as Berkeley in one profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "No internship, PhD fellowship, residency, student researcher or visiting program was found on the official site. The careers page lists only full-time roles and does not mention internships."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "Open full-time roles seen (not student programs): London: Member of Technical Staff (Applied AI), Forward Deployed AI Engineer, Member of Technical Staff (Foundation Models). San Francisco: Research Scientist (Biology), Member of Technical Staff (Applied AI), Forward Deployed AI Engineer, Member of "
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "A US or UK visa would likely be needed for any role. No sponsorship policy was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "The team page gave no individual profile links, so all lead profile_urls point to the general team page. Sandy Nelson is listed as strategy and talent, and press reports describe them as an advisor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-latent",
+     "entry_name": "Latent Labs",
+     "text": "Press reports name technical staff such as Jonathan Crabbé, Henry Kenlay and Alex Bridgland. I did not verify these on the official site, so I left them out of the leads."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-bioptimus",
+     "entry_name": "Bioptimus",
+     "text": "The only listed program is a business-track talent pool, so the student is not eligible and it is not relevant to their research."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-bioptimus",
+     "entry_name": "Bioptimus",
+     "text": "The careers page (bioptimus.com/careers) showed no current vacancies, and I found no PhD fellowship, research internship or student researcher program."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-bioptimus",
+     "entry_name": "Bioptimus",
+     "text": "The Greenhouse board listing (job-boards.eu.greenhouse.io/bioptimus8) failed to load, so I could not check for other roles there."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-bioptimus",
+     "entry_name": "Bioptimus",
+     "text": "Sources disagree on Bioptimus's founding year (2023 or 2024) and on exact titles. The team page lists six co-founders. One TechCrunch report describes Vert as executive chairman."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-bioptimus",
+     "entry_name": "Bioptimus",
+     "text": "The student might make a speculative direct approach to Tokuwa Kanno about research collaboration or an internship. No such program exists, and the role would likely need an EU or UK work visa."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "The re-check confirmed that the Open Apply posting is still live. It lists compensation of $105K-$240K plus bonus and equity, so it is a full-time role, not a student role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "The Greenhouse board lists 7 roles. None is labelled an internship, fellowship, residency or student role. The other six are full-time jobs: partnerships, commercial strategy, experiment design, data selection and quality evaluation, foundation and generative models, and high-throughput data generat"
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "The company site (inceptive.com) names no leaders or team members. The leads come from third-party interviews and articles, so check their current titles before reaching out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "I found no evidence of a recurring internship or PhD program. If the student wants to work with Inceptive, a direct approach or the Open Apply form is the likely route."
+    },
+    {
+     "type": "flag",
+     "entry_id": "st-inceptive",
+     "entry_name": "Inceptive",
+     "text": "Possible work authorization is needed for US, Swiss or German roles."
+    },
     {
      "type": "flag",
      "entry_id": "nygc-sanjana",
