@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T11:24:41+00:00",
+ "generated_at": "2026-11-15T17:47:32+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -46056,105 +46056,96 @@
    "group": null,
    "department_hint": null,
    "id": "bt-openai",
-   "url": "https://openai.com/gpt-rosalind/",
-   "focus": "OpenAI for Science was launched to build an AI platform for scientific discovery and to bring in outside academics in biology, chemistry and physics. Its main biology product is GPT-Rosalind, a reasoning model announced on 2026-04-16 for biology, drug discovery and translational medicine. It supports evidence synthesis, hypothesis generation, experiment design and data analysis. A free Life Sciences research plugin for Codex connects to more than 50 public databases and tools, including AlphaFold and BindingDB. Named partners include Amgen, Novo Nordisk, Moderna, Thermo Fisher, the Allen Institute, Benchling and UCSF. A September 2026 update says the model is out of research preview and available through a trusted-access program for eligible organizations.",
+   "url": "https://openai.com/",
+   "focus": "OpenAI launched GPT-Rosalind in April 2026. It is the company's first model built specifically for life sciences. OpenAI says it improves performance on medicinal chemistry, genomics and quantitative biology, wet-lab troubleshooting and life-sciences industry workflows. Enterprise users can pair it with Codex Life Sciences Research and NGS Analysis plugins. Access is limited to qualified users through a trusted-access review. Early partners are Amgen, Moderna, the Allen Institute, Thermo Fisher Scientific and Novo Nordisk. OpenAI is hiring for a Rosalind Workbench product, which suggests it aims at tooling for research workflows. I found no published cancer-genomics research from the team.",
    "topics": [
     "GPT-Rosalind",
-    "biology reasoning models",
+    "life sciences LLMs",
+    "genomics / NGS analysis",
     "drug discovery",
-    "scientific discovery agents",
-    "bioinformatics database tooling",
-    "translational medicine"
+    "AI for science",
+    "lab workflow agents"
    ],
    "fit": {
-    "score": 2,
-    "reason": "GPT-Rosalind could help with genomics data analysis and literature work, but OpenAI has no cancer-genomics, structural-variant or single-cell research group that a Canadian first-year PhD student could join, and its student-facing programs are general ML or safety roles that need US work authorizati"
+    "score": 3,
+    "reason": "GPT-Rosalind and the NGS Analysis plugin touch genomics and quantitative biology, but the work is industry- and tool-focused. I found no cancer or structural-variant research program and no PhD-targeted life-sciences role, and US-only access and work authorization add friction."
    },
    "flags": [
-    "Only 2-3 of the program details come from search snippets. I could not open the official residency or careers pages, so check the requirements and deadlines there.",
-    "Kevin Weil's departure and the decentralization of OpenAI for Science come from secondary reporting and need checking. I found no named current life-sciences lead, so only one lead is listed. OpenAI's GPT-Rosalind page says to contact its Life Sciences team.",
-    "I found no OpenAI PhD fellowship, student researcher or visiting role for biology.",
-    "Warp Sciences' $215M funding is from a single unverified source, so I left it out of the lead entry."
+    "openai.com/residency and openai.com/careers/emerging-talent returned HTTP 403, so program details come from search snippets and third-party sources, not the official pages.",
+    "Lead titles come from a single trade-press article (R&D World). I did not see an official OpenAI team page or leader bios.",
+    "I found no 'OpenAI for Science' leader in this search, so I named only the two life-sciences leads. I did not verify a third lead.",
+    "GPT-Rosalind access is restricted to qualified users, and one source said only US-based entities can apply for trusted access.",
+    "I found no PhD- or life-sciences-specific fellowship or internship. Pay figures from third-party guides conflict and are not included."
    ],
    "sources": [
     {
-     "title": "GPT-Rosalind (OpenAI)",
-     "url": "https://openai.com/gpt-rosalind/"
+     "title": "R&D World: OpenAI research and product leads detail GPT-Rosalind",
+     "url": "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities/"
     },
     {
-     "title": "Introducing GPT-Rosalind (OpenAI)",
-     "url": "https://openai.com/index/introducing-gpt-rosalind/?trk=test"
+     "title": "Axios: OpenAI launches new AI model for life sciences research",
+     "url": "https://axios.com/2026/04/16/openai-models-life-sciences-drugs"
     },
     {
-     "title": "Kevin Weil (Latent Space wiki)",
-     "url": "https://latent.space/wiki/kevin-weil/"
+     "title": "OpenAI careers: Engineering Manager, Rosalind Workbench",
+     "url": "https://openai.com/careers/engineering-manager-rosalind-workbench-san-francisco/"
     },
     {
-     "title": "Kevin Weil leaves OpenAI to build faster medicine with Warp Sciences",
-     "url": "https://parametric-architecture.com/?p=189567"
-    },
-    {
-     "title": "OpenAI launches OpenAI for Science (Tom's Guide)",
-     "url": "https://www.tomsguide.com/ai/openai-launches-openai-for-science-initiative-to-build-the-next-great-scientific-instrument-heres-what-we-know"
+     "title": "Extern: OpenAI internship guide",
+     "url": "https://www.extern.com/post/openai-internship-guide"
     },
     {
      "title": "OpenAI Residency",
      "url": "https://openai.com/residency"
-    },
-    {
-     "title": "Software Engineer, Applied Emerging Talent (2027), OpenAI careers",
-     "url": "https://openai.com/careers/software-engineer-applied-emerging-talent-(2027)-san-francisco/"
-    },
-    {
-     "title": "How to Get a Job at OpenAI as a New Grad 2027 (Simplify)",
-     "url": "https://simplify.jobs/blog/openai-new-grad-job-2027"
-    },
-    {
-     "title": "Introducing the OpenAI Safety Fellowship",
-     "url": "https://openai.com/index/introducing-openai-safety-fellowship/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-08T06:11:19+00:00",
-   "error": "Claude Code error: You've hit your 5-hour limit · resets 11:20am (UTC)",
+   "refreshed_at": "2026-11-15T17:47:11+00:00",
+   "error": null,
    "leads": [
     {
-     "name": "Kevin Weil",
-     "role": "Founded and led OpenAI for Science (VP of Science). Reported to have left OpenAI on 2026-04-17.",
-     "background": "Former OpenAI Chief Product Officer. Reportedly left to start Warp Sciences, a medicine-focused company, and said OpenAI for Science would be decentralized into other research teams. I could not check his departure on an official page.",
-     "profile_url": "https://latent.space/wiki/kevin-weil/"
+     "name": "Joy Jiao",
+     "role": "Life Sciences Research Lead, OpenAI",
+     "background": "Leads life sciences research, including GPT-Rosalind. I found no further background on an official page.",
+     "profile_url": "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities/"
+    },
+    {
+     "name": "Yunyun Wang",
+     "role": "Life Sciences Product Lead, OpenAI",
+     "background": "Leads life sciences product work for GPT-Rosalind. I found no further background on an official page.",
+     "profile_url": "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities/"
     }
    ],
    "programs": [
     {
      "name": "OpenAI Residency",
      "type": "residency",
-     "requirements": "From search snippets and third-party listings only, because the official page was not opened. It targets people already working in AI or adjacent fields such as maths, physics and neuroscience, and early-career builders with a record of building things. Residents embed in research teams.",
-     "eligibility": "Residents are described as full-time hires, so a Canadian student would need US work authorization. I found no PhD-specific or life-sciences track. The residency would likely mean pausing the PhD.",
-     "location": "San Francisco (hybrid, in person)",
+     "requirements": "From search snippets and third-party listings only, because the official page returned HTTP 403. It targets early-career researchers from any domain, including maths, physics and neuroscience, with a record of building things. Residents embed in research teams.",
+     "eligibility": "A third-party guide says the Residency is open to people who are not enrolled. Residents are described as full-time hires, so a Canadian student would need US work authorization. I found no life-sciences track. It would likely mean pausing the PhD.",
+     "location": "San Francisco (in person or hybrid)",
      "duration": "6 months",
      "deadline": null,
-     "deadline_text": "OpenAI's own residency pages say applications for the 2026 Residency are closed. I found no official 2027 announcement. ",
+     "deadline_text": "OpenAI's page says applications for the 2026 Residency are closed. No official 2027 announcement found. A third-party gu",
      "status": "closed",
      "url": "https://openai.com/residency"
     },
     {
      "name": "OpenAI internships (Emerging Talent / research intern)",
      "type": "internship",
-     "requirements": "Not verified on an official page. One third-party guide lists a Software Engineer, Applied Emerging Talent track for CS/CE students and a Systems Research internship aimed at PhD students (13 weeks). Research roles favour a strong ML background and publications.",
-     "eligibility": "Not verified on OpenAI's site. Listings describe students enrolled in a degree. A US work visa would probably be needed. I found no life-sciences-specific internship.",
+     "requirements": "Not verified on an official page, because the page returned HTTP 403. A third-party guide says internships need an enrolled BS, MS or PhD student with at least one semester remaining after the internship. A Summer 2026 Systems Research internship listing asked for a PhD in CS, Computer Engineering or a relevant technical field. Research roles favour strong ML and publications.",
+     "eligibility": "Enrolled degree students per third-party sources. A US work visa would probably be needed. I found no life-sciences-specific internship.",
      "location": "San Francisco",
-     "duration": "About 12-13 weeks (per third-party and past postings)",
+     "duration": "About 12-13 weeks (third-party)",
      "deadline": null,
-     "deadline_text": "Rolling and unconfirmed. A student newsletter from August 2026 said the summer 2027 process had not yet opened. Guides s",
+     "deadline_text": "Rolling and unconfirmed. The next cycle (summer 2027) is projected by a third party to open September to November 2026. ",
      "status": "unknown",
      "url": "https://openai.com/careers/emerging-talent"
     },
     {
      "name": "OpenAI Safety Fellowship (pilot)",
      "type": "fellowship",
-     "requirements": "External researchers working on AI safety and alignment. The pilot required letters of reference and produced a paper, benchmark or dataset, with a stipend, compute and mentorship.",
-     "eligibility": "Remote or at Constellation in Berkeley. It is an AI-safety program, not biology, so it is a poor fit for this student.",
+     "requirements": "External researchers working on AI safety and alignment. The pilot required letters of reference and a paper, benchmark or dataset as output, with a stipend, compute and mentorship. I did not re-check this program this week; this comes from last week's notes.",
+     "eligibility": "Remote or at Constellation in Berkeley. It is an AI-safety program, not biology, so it is a poor fit.",
      "location": "Berkeley or remote",
      "duration": "2026-09-14 to 2027-02-05 (pilot)",
      "deadline": "2026-05-03",
@@ -47154,96 +47145,123 @@
    "group": null,
    "department_hint": null,
    "id": "bio-lilly",
-   "url": "https://lilly.gcs-web.com/news-releases/news-release-details/lilly-appoints-thomas-j-fuchs-companys-first-chief-ai-officer",
-   "focus": "Lilly launched TuneLab on 2025-09-09. It is a federated AI/ML platform that gives smaller biotechs access to drug-discovery models trained on more than $1B of Lilly's internal R&D data. Biotechs can run the models on their own proprietary data without handing it over. Access is free for selected partners and sits within Lilly Catalyze360. Lilly plans to add in vivo small-molecule predictive models and NVIDIA Clara open-source model workflows. Separately, Lilly is building a large NVIDIA-powered AI supercomputer for its own discovery work. Public sources I found describe small-molecule and drug-discovery modelling. They do not mention cancer genomics or sequencing-based methods.",
+   "url": "https://www.lilly.com/news/stories/new-supercomputer-could-change-future-medicine",
+   "focus": "Lilly launched TuneLab on 9 Sept 2025. It is a federated AI/ML platform that gives biotechs access to drug-discovery models trained on Lilly's research data, which Lilly values at over $1B. Biotechs can fine-tune the models on their own data without exposing proprietary data to Lilly or the other way round. Lilly is also building a large NVIDIA-based AI supercomputer to train models for drug discovery and development. Under Chief AI Officer Thomas Fuchs, AI work spans discovery, clinical trials and manufacturing. A later TuneLab 2.0 uses Tamarind Bio for inference infrastructure. I found no public named lead for a dedicated cancer-genomics computational biology team, so these leads are enterprise-level AI and R&D leaders.",
    "topics": [
-    "TuneLab federated learning",
-    "AI drug discovery",
-    "predictive ADMET/small-molecule models",
+    "federated AI for drug discovery",
+    "TuneLab",
+    "AI supercomputing",
     "computational biology",
-    "AI supercomputing (NVIDIA)"
+    "oncology R&D",
+    "machine learning models"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The public TuneLab and AI work centres on small-molecule and drug-discovery ML, which overlaps only through the student's ML-methods interest. The student's cancer genomics, structural variant and single-cell focus doesn't show up in it, and the open internship is US-based with unclear visa terms."
+    "score": 3,
+    "reason": "Lilly's AI and computational biology work in drug discovery and ML modelling is relevant to the student's ML-for-genomics interest. I found no public evidence of a team doing cancer WGS, structural-variant or spatial-omics research, and US work authorization is unclear."
    },
    "flags": [
-    "I could not find a named TuneLab team lead. Thomas Fuchs is the Chief AI officer and is linked to Lilly's AI efforts, but I did not see a source that names him as the TuneLab head.",
-    "Only two leads are listed. I did not verify any computational-biology research heads (for example, within Lilly Research Laboratories).",
-    "The Harvard-hosted listing's expiry date (2026-12-01) is not confirmed as Lilly's own application deadline.",
-    "The AI/GenAI Data Science internship details come from third-party job boards only, and its 2027 status is unverified.",
-    "A third-party guide says Lilly requires active full-time enrollment, and it estimated a priority deadline around mid-October. Neither point is confirmed officially."
+    "No named head of TuneLab or of a computational biology team was found. The leads listed are enterprise-level AI and R&D leaders.",
+    "The Harvard listing and the xtalks copy give different expiry and deadline dates (2026-12-01 vs 2026-12-04).",
+    "No source states work authorization or visa sponsorship for the doctoral internship. A Canadian student should ask Lilly before applying.",
+    "The Fall 2027 doctoral internship was only seen as a search result and was not opened.",
+    "The AI/GenAI PhD internship details come from third-party boards only."
    ],
    "sources": [
     {
-     "title": "Lilly Research Laboratories TDA: 2027 Summer Doctoral Intern (Harvard FAS Career Services)",
+     "title": "Harvard FAS Career Services: Lilly TDA 2027 Summer Doctoral Internship",
      "url": "https://careerservices.fas.harvard.edu/jobs/eli-lilly-lilly-research-laboratories-tda-2027-summer-doctoral-inter/"
     },
     {
-     "title": "Lilly appoints Thomas J. Fuchs as company's first Chief AI Officer",
-     "url": "https://lilly.gcs-web.com/news-releases/news-release-details/lilly-appoints-thomas-j-fuchs-companys-first-chief-ai-officer"
+     "title": "xtalks: Lilly TDA 2027 Summer Doctoral Internship",
+     "url": "https://xtalks.com/job/lilly-research-laboratories-tda-2027-summer-doctoral-internship/"
     },
     {
-     "title": "Lilly names Thomas Fuchs its first chief AI officer (pharmaphorum)",
+     "title": "xtalks: Lilly TDA 2027 Fall Doctoral Internship",
+     "url": "https://xtalks.com/job/lilly-research-laboratories-tda-2027-fall-doctoral-internship/"
+    },
+    {
+     "title": "Lilly launches TuneLab platform (Drug Development & Delivery)",
+     "url": "https://drug-dev.com/lilly-launches-tunelab-platform-to-give-biotechnology-companies-access-to-ai-enabled-drug-discovery-models-built-through-over-1-billion-in-research-investment/"
+    },
+    {
+     "title": "pharmaphorum: Lilly names Thomas Fuchs as first chief AI officer",
      "url": "https://pharmaphorum.com/news/lilly-names-thomas-fuchs-its-first-chief-ai-officer"
     },
     {
-     "title": "Lilly unveils TuneLab AI platform for biotechs (2 Minute Medicine)",
-     "url": "https://www.2minutemedicine.com/lilly-unveils-tunelab-ai-platform-for-biotechs/"
+     "title": "Lilly: new supercomputer could change future medicine",
+     "url": "https://www.lilly.com/news/stories/new-supercomputer-could-change-future-medicine"
     },
     {
-     "title": "Lilly partners with NVIDIA to build the industry's most powerful AI supercomputer",
-     "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-partners-nvidia-build-industrys-most-powerful-ai"
+     "title": "Tamarind Bio selected as TuneLab 2.0 technology partner",
+     "url": "https://www.tamarind.bio/blog/eli-lilly-tunelab-tamarind-bio-partnership"
     },
     {
-     "title": "AI GenAI Data Science Internship (Teal)",
+     "title": "AI/GenAI Data Science Internship (Teal, third-party)",
      "url": "https://www.tealhq.com/job/ai-genai-data-science-internship_7ea1adb1a1f3dfd51ba41e7b0681922e0b7c4"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-08T06:11:16+00:00",
-   "error": "Claude Code error: You've hit your 5-hour limit · resets 11:20am (UTC)",
+   "refreshed_at": "2026-11-15T17:47:23+00:00",
+   "error": null,
    "leads": [
     {
      "name": "Thomas J. Fuchs",
-     "role": "Chief AI Officer (first in the company's history, effective 2024-10-21)",
-     "background": "Previously dean and inaugural chair for AI and Human Health at Mount Sinai. Founded three companies, including Paige AI. His remit covers drug discovery, clinical trials, manufacturing and commercial work.",
-     "profile_url": "https://lilly.gcs-web.com/news-releases/news-release-details/lilly-appoints-thomas-j-fuchs-companys-first-chief-ai-officer"
+     "role": "Chief AI Officer (Lilly's first; started Oct 2024)",
+     "background": "Previously dean and inaugural chair of AI and Human Health at Mount Sinai. Earlier worked at Memorial Sloan Kettering (computational pathology), NASA JPL and Caltech.",
+     "profile_url": "https://pharmaphorum.com/news/lilly-names-thomas-fuchs-its-first-chief-ai-officer"
     },
     {
-     "name": "Diogo Rau",
-     "role": "Executive Vice President and Chief Information and Digital Officer",
-     "background": "Has held the CIDO role since 2021. He works alongside the Chief AI Officer on digital and AI strategy. This is an enterprise IT/digital role, not a biology team lead.",
-     "profile_url": "https://pharmaphorum.com/news/lilly-names-thomas-fuchs-its-first-chief-ai-officer"
+     "name": "Nisha Nanda",
+     "role": "Head of Lilly Catalyze360, the biotech-partner offering that includes TuneLab",
+     "background": "Quoted as the Lilly lead on TuneLab at launch. I did not verify her full bio.",
+     "profile_url": "https://drug-dev.com/lilly-launches-tunelab-platform-to-give-biotechnology-companies-access-to-ai-enabled-drug-discovery-models-built-through-over-1-billion-in-research-investment/"
+    },
+    {
+     "name": "Daniel Skovronsky",
+     "role": "Chief Scientific Officer and President, Lilly Research Laboratories and Lilly Immunology",
+     "background": "Senior R&D leader who was quoted in the September 2025 TuneLab launch.",
+     "profile_url": "https://drug-dev.com/lilly-launches-tunelab-platform-to-give-biotechnology-companies-access-to-ai-enabled-drug-discovery-models-built-through-over-1-billion-in-research-investment/"
     }
    ],
    "programs": [
     {
-     "name": "Lilly Research Laboratories TDA 2027 Summer Doctoral Internship",
+     "name": "Lilly Research Laboratories TDA – 2027 Summer Doctoral Internship",
      "type": "internship",
-     "requirements": "Enrolled in a PhD or PharmD program in biology, chemistry, biochemistry, chemical engineering, biomedical engineering, mechanical engineering, or a related field. Preferred: lab or pharma research experience (AI/ML, computational chemistry, molecular biology, drug product design), prior use of AI tools, and strong teamwork and communication skills. Project areas include AI/ML and computational biology.",
-     "eligibility": "Open to doctoral students in the listed fields. The posting doesn't state work authorization or visa sponsorship, so a Canadian student should confirm with Lilly before applying. A first-year bioinformatics PhD student appears to qualify as a 'related field'.",
-     "location": "Primarily Indianapolis, IN. Possibly Boston, San Diego, Pasadena or South San Francisco.",
-     "duration": "Summer 2027, starting May or June. Length not stated in the posting.",
+     "requirements": "Enrolled in a PhD or PharmD program in biology, chemistry, biochemistry, chemical, biomedical or mechanical engineering, or a related discipline. Must have at least one academic term remaining after the internship (per xtalks). Preferred: lab or pharma research experience (e.g. AI/ML, computational chemistry, molecular biology), prior use of AI tools, and strong teamwork and communication skills.",
+     "eligibility": "Open to doctoral students in the listed fields. A bioinformatics PhD student likely counts as a 'related discipline'. Neither listing mentions work authorization or visa sponsorship, so a Canadian student should confirm with Lilly. A third-party guide says the undergraduate/master's posting excludes sponsorship, which may not apply to this posting.",
+     "location": "Primarily Indianapolis, IN. Possibly Boston, New York City, San Diego, Pasadena, South San Francisco or Louisville, CO. Subsidized housing is provided if relocation is needed (xtalks).",
+     "duration": "Summer 2027, starting May or June. Length not stated.",
      "deadline": "2026-12-01",
-     "deadline_text": "Recruitment opened 2026-09-29. The Harvard-hosted listing expires 2026-12-01. That is the listing's expiry date, not nec",
+     "deadline_text": "The Harvard-hosted listing says recruitment began 2026-09-29 and the listing expires 2026-12-01. The xtalks copy gives a",
      "status": "open",
      "url": "https://careerservices.fas.harvard.edu/jobs/eli-lilly-lilly-research-laboratories-tda-2027-summer-doctoral-inter/"
     },
     {
+     "name": "Lilly Research Laboratories TDA – 2027 Fall Doctoral Internship",
+     "type": "internship",
+     "requirements": "Not verified in detail. It is the doctoral track in the same TDA series, with the fall term starting in the third week of August 2027 (per search snippet).",
+     "eligibility": "Not verified. Work authorization is not confirmed.",
+     "location": "Not verified",
+     "duration": "Fall 2027, starting around the third week of August 2027",
+     "deadline": null,
+     "deadline_text": "Not verified. Check the listing.",
+     "status": "unknown",
+     "url": "https://xtalks.com/job/lilly-research-laboratories-tda-2027-fall-doctoral-internship/"
+    },
+    {
      "name": "AI / GenAI Data Science PhD Internship (summer 2027)",
      "type": "internship",
-     "requirements": "Per third-party job boards, not an official Lilly page: currently enrolled with at least 3 years of completed graduate work in Computer Science, Computer Engineering, Information Sciences or a closely related field, and expected graduation by August 2027. Preferred: machine learning, generative AI, NLP and Python.",
-     "eligibility": "A first-year PhD student would likely not meet the 3-year graduate-work requirement. Work authorization is not stated.",
+     "requirements": "Per third-party job boards, not an official Lilly page: at least 3 years of completed graduate work in computer science, computer engineering, information sciences or a closely related field, and expected graduation by August 2027. Preferred: machine learning, generative AI, NLP and Python. I did not re-verify this.",
+     "eligibility": "A first-year PhD student likely does not meet the 3-year graduate-work requirement. Work authorization is not stated.",
      "location": "Not verified",
      "duration": "About 12 weeks, May or June start (third-party listing)",
      "deadline": null,
-     "deadline_text": "Not verified. I found no 2027 posting on an official page. Confirm on careers.lilly.com. The prior cycle's PhD statistic",
+     "deadline_text": "Not verified. I found no 2027 posting on an official page. Confirm on careers.lilly.com.",
      "status": "unknown",
      "url": "https://www.tealhq.com/job/ai-genai-data-science-internship_7ea1adb1a1f3dfd51ba41e7b0681922e0b7c4"
     }
    ],
-   "location": "Indianapolis, IN (HQ). Research sites in Boston, San Diego, Pasadena and South San Francisco."
+   "location": "Indianapolis, IN (HQ). Other R&D sites: Boston, San Diego, Pasadena, South San Francisco, New York City and Louisville, "
   },
   {
    "name": "Tempus AI",
@@ -47757,26 +47775,26 @@
    "group": null,
    "department_hint": null,
    "id": "bio-astrazeneca",
-   "url": "https://www.astrazeneca.com/what-science-can-do/topics/data-science-ai/unlocking-potential-data-ai-driven-drug-discovery-development.html",
-   "focus": "AstraZeneca's Oncology R&D data science and AI group builds machine learning methods and enterprise platforms for drug discovery and clinical development. Its models guide drug development decisions and the design of efficient clinical trials. Oncology Bioscience teams run AI-enabled discovery work, and there are ongoing job postings for AI and computational tools in Oncology R&D. The company has also partnered with or acquired AI firms in oncology (Modella AI for pathology foundation models, and a BostonGene collaboration). Its AI work includes protein design methods such as MapDiff. I did not find a public page describing a tumour WGS or structural-variant effort specifically.",
+   "url": "https://www.astrazeneca.com/r-d/rd-approach/oncology-research-and-development.html",
+   "focus": "AstraZeneca's Oncology R&D uses data science and AI across the whole pipeline, from target discovery to clinical development. The Oncology Data Science group works on omics (genomics, phenomics), knowledge graphs, multimodal foundation models, AI agents and computational pathology biomarkers such as QCS. AI and computational tools teams in Cambridge UK and the US support AI-enabled target and biomarker discovery and early clinical development. The Oncology Bioscience groups run small-molecule, biologics and antibody-engineering programs, including computational design of multispecific antibodies.",
    "topics": [
     "oncology data science",
-    "machine learning for drug development",
-    "AI-enabled target discovery",
-    "clinical trial AI",
-    "pathology foundation models",
-    "real-world data"
+    "AI for drug discovery",
+    "omics and biomarkers",
+    "computational pathology",
+    "multimodal foundation models",
+    "antibody design"
    ],
    "fit": {
     "score": 3,
-    "reason": "The ML-for-oncology and biomarker focus matches the student's computational interests, but the public material shows little on tumour WGS, structural variants or single-cell/spatial work, and the student programs are mostly US-based and need work authorization."
+    "reason": "The Oncology Data Science group's omics/genomics and ML work matches the student's cancer genomics and ML interests. Almost all student programs are US/UK-based and need work authorization, and none of them targets WGS or structural-variant analysis."
    },
    "flags": [
-    "Jorge Reis-Filho (formerly Chief of AI for Science Innovation) left AstraZeneca for Foresite Labs (BioCentury, 2026-08-20), so do not list him as a current lead.",
-    "Etai Jacob's exact current title is uncertain. His former title is Senior Director, Head of Data Science and AI, Early Oncology. Verify on LinkedIn or AstraZeneca pages before outreach.",
-    "I found no official lab or people page for the Oncology Data Science & AI group. The leads come from conference, org-chart aggregator and press pages.",
-    "The Preclinical Mathematical Modeling Internship is undergraduate only and its deadline (2026-11-05) has passed. The earlier entry's PhD/eligibility assumptions were wrong.",
-    "The Cambridge studentships and the R&D Graduate Programme were not re-verified this week."
+    "I could not open the individual 2027 postings, so their requirements and deadlines are unverified. The early-careers page showed 15 of 29 roles, and page 2 was not visible.",
+    "No named current head of Oncology Data Science could be verified. Reis-Filho's Dec 2025 move to the Enterprise AI Unit means the oncology data science lead may have changed. Senior Director, Head of AI for Clinical Development (Early and Late Oncology) roles were being advertised.",
+    "I found no Canadian-based student program. The 2026 Canadian computational biology/AI internship was labelled Summer 2026, and I found no confirmation of a 2027 repeat.",
+    "The 'AI-enabled Discovery' and 'AI & Computational Tools, Oncology R&D' roles at Cambridge UK appeared as job ads, not student programs. They are a contact route only.",
+    "Job-link URLs were taken from the early-careers listing's relative paths. Verify them on the site."
    ],
    "sources": [
     {
@@ -47784,116 +47802,122 @@
      "url": "https://careers.astrazeneca.com/early-careers"
     },
     {
-     "title": "Preclinical Mathematical Modeling Internship posting",
+     "title": "AZ-UoC Collaborative Non-Clinical PhD Programme",
+     "url": "https://www.ats.cam.ac.uk/az-funded-non-clinical-phd-studentship-2026"
+    },
+    {
+     "title": "Jorge Reis-Filho appointed Chief of AI for Science Innovation (OncoDaily)",
+     "url": "https://oncodaily.com/career/jorge-reis-filho-426577"
+    },
+    {
+     "title": "AstraZeneca taps Susan Galbraith to head Oncology R&D (BioSpace)",
+     "url": "https://www.biospace.com/astrazeneca-taps-susan-galbraith-to-take-over-as-head-of-oncology-r-and-d"
+    },
+    {
+     "title": "AstraZeneca Oncology R&D",
+     "url": "https://www.astrazeneca.com/r-d/rd-approach/oncology-research-and-development.html"
+    },
+    {
+     "title": "Preclinical Mathematical Modeling Internship",
      "url": "https://careers.astrazeneca.com/job/cambridge/preclinical-mathematical-modeling-internship/7684/102358637584"
     },
     {
-     "title": "Etai Jacob, TheOrg",
-     "url": "https://theorg.com/org/astrazeneca/org-chart/etai-jacob"
-    },
-    {
-     "title": "Etai Jacob, BIO convention speaker page",
-     "url": "https://convention.bio.org/speaker/etai-jacob"
-    },
-    {
-     "title": "AstraZeneca: Unlocking the potential of data and AI-driven drug discovery & development",
-     "url": "https://www.astrazeneca.com/what-science-can-do/topics/data-science-ai/unlocking-potential-data-ai-driven-drug-discovery-development.html"
-    },
-    {
-     "title": "AstraZeneca appoints Susan Galbraith as EVP Oncology R&D",
-     "url": "https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-appoints-dr-susan-galbraith-as-executive-vice-president-oncology-research-and-development.html"
-    },
-    {
-     "title": "BioCentury: AI exec Reis-Filho leaves AstraZeneca for Foresite Labs",
-     "url": "https://www.biocentury.com/article/660586/ai-exec-reis-filho-leaves-astrazeneca-for-strategy-role-at-foresite-labs"
-    },
-    {
-     "title": "AZ-funded Cambridge PhD studentships",
-     "url": "https://www.ats.cam.ac.uk/node/5751"
+     "title": "Research Data Science lead for Omics, Oncology (job ad)",
+     "url": "https://careernavigator.gradeducation.hms.harvard.edu/node/1236315"
     }
    ],
-   "broken_links": [
-    "https://www.ats.cam.ac.uk/node/5751"
-   ],
-   "refreshed_at": "2026-11-08T06:11:13+00:00",
-   "error": "Claude Code error: You've hit your 5-hour limit · resets 11:20am (UTC)",
+   "broken_links": [],
+   "refreshed_at": "2026-11-15T17:47:32+00:00",
+   "error": null,
    "leads": [
     {
-     "name": "Etai Jacob",
-     "role": "Head of Applied Data Science and AI, Oncology R&D (earlier listed as Senior Director, Head of Data Science and AI, Early Oncology)",
-     "background": "PhD in Computational Biology (Weizmann Institute / Bar-Ilan). Previously at Dana-Farber, leading statistics and machine learning in early oncology. Sources disagree on his exact current title.",
-     "profile_url": "https://theorg.com/org/astrazeneca/org-chart/etai-jacob"
+     "name": "Susan Galbraith",
+     "role": "Executive Vice-President, Oncology R&D",
+     "background": "Leads AstraZeneca's oncology R&D. She was appointed in July 2021 to head Oncology Haematology R&D, and her strategy pieces describe data and AI embedded across target ID, trial recruitment and molecule prediction.",
+     "profile_url": "https://www.biospace.com/astrazeneca-taps-susan-galbraith-to-take-over-as-head-of-oncology-r-and-d"
     },
     {
-     "name": "Susan Galbraith",
-     "role": "Executive Vice President, Oncology (Haematology) R&D",
-     "background": "Clinical oncologist with a PhD from the University of London. Joined AstraZeneca in 2010 and has led Oncology R&D since June 2021. Not a computational lead, but she is the senior executive over the oncology data science and AI groups.",
-     "profile_url": "https://www.astrazeneca.com/media-centre/press-releases/2021/astrazeneca-appoints-dr-susan-galbraith-as-executive-vice-president-oncology-research-and-development.html"
+     "name": "Jorge Reis-Filho",
+     "role": "Chief of AI for Science Innovation, Enterprise AI Unit (previously led the AI & Data Science organization for Oncology R&D)",
+     "background": "As of a December 2025 report, he leads reusable AI solutions across oncology and biopharma R&D. His earlier work covered multimodal foundation models, agentic frameworks and the QCS computational-pathology biomarker, which received FDA Breakthrough Device Designation. His education and earlier caree",
+     "profile_url": "https://oncodaily.com/career/jorge-reis-filho-426577"
     }
    ],
    "programs": [
     {
-     "name": "Summer internships, including oncology data science, bioinformatics and statistics tracks (2027 cycle)",
+     "name": "Summer 2027 internships, Oncology R&D (e.g. Small Molecule Oncology Bioscience Intern, Cambridge MA; GTO Summer Internships)",
      "type": "internship",
-     "requirements": "Current undergraduate, master's or PhD student, depending on the posting. Earlier (2026-cycle) Master's/PhD postings in statistics, bioinformatics and data science asked for ML or statistics skills and graduation after August 2026. Search snippets also mention a 12-week May-Aug 2027 Gaithersburg internship for PhD/PharmD students in life or pharmaceutical sciences, which I could not open to confirm.",
-     "eligibility": "The 2026 US postings required US work authorization with no sponsorship and no OPT/CPT support. UK internship pages describe a 10-12 week program open to undergraduate, master's and doctoral students. A Canadian student would likely need work authorization for US/UK roles. A Canadian computational biology/AI internship was labelled Summer 2026, and I could not confirm a 2027 repeat.",
-     "location": "Gaithersburg MD; Cambridge MA; Waltham MA; Cambridge UK",
-     "duration": "10-12 weeks",
+     "requirements": "Varies by posting, so check each one. Earlier Master's/PhD bioinformatics, statistics and data science postings asked for ML/statistics skills and graduation after the posting year. I did not open the individual 2027 postings. They are not computational-genomics roles.",
+     "eligibility": "The 2026 US postings required US work authorization with no sponsorship and no CPT/OPT support. A Canadian student would need their own work authorization. UK pages describe 10-12 week programs for undergraduate, master's and doctoral students.",
+     "location": "Cambridge MA; Gaithersburg MD; Waltham MA; Cambridge UK",
+     "duration": "About 10-12 weeks",
      "deadline": null,
-     "deadline_text": "The 2026 cycle closed around Jan-Feb 2026. As of 2026-11-08 the early-careers page lists only two '2027 Summer' internsh",
+     "deadline_text": "Unverified. On 2026-11-15 the early-careers page listed only two titles explicitly labelled 'Summer 2027'. Last cycle's ",
      "status": "unknown",
      "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "name": "Early Oncology Clinical Development Intern, PharmD and PhD",
+     "type": "internship",
+     "requirements": "PharmD or PhD student. This is a clinical development role, not computational. I did not read the full posting.",
+     "eligibility": "Not stated on the listing. It is US-based, so work authorization is likely needed.",
+     "location": "Gaithersburg, MD",
+     "duration": "Not stated",
+     "deadline": null,
+     "deadline_text": "Not stated on the listing",
+     "status": "unknown",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "name": "Biologics Engineering, Computational and Experimental Design of Multispecific Antibodies Intern",
+     "type": "internship",
+     "requirements": "Not verified. The title indicates computational plus experimental protein/antibody design. This is a weak fit for genomics.",
+     "eligibility": "Not stated. It is US-based, so work authorization is likely needed.",
+     "location": "Gaithersburg, MD",
+     "duration": "Not stated",
+     "deadline": null,
+     "deadline_text": "Not stated on the listing",
+     "status": "unknown",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "name": "Data Science/AI Intern, literature mining and graph modeling (oncology/translational)",
+     "type": "internship",
+     "requirements": "An aggregator describes it as a 10-week role for Master's/PhD students. I could not confirm the requirements or whether it repeats for 2027.",
+     "eligibility": "Unknown. It is US-based, so work authorization is likely needed.",
+     "location": "Waltham, MA",
+     "duration": "10 weeks",
+     "deadline": null,
+     "deadline_text": "Not confirmed for 2027. Watch the early-careers page.",
+     "status": "unknown",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "name": "AZ-UoC Collaborative Non-Clinical PhD Programme (includes the 'Data Science and AI for Drug Discovery and Development' area)",
+     "type": "fellowship",
+     "requirements": "Students apply to individually advertised projects. Projects are submitted jointly by a Cambridge PI and an AstraZeneca collaborator. The funded studentship is a full PhD. Earlier ads asked for a first or upper-second class degree or an overseas equivalent. The terms (4-year stipend, fees at Home level) apply to new PhD entrants, not to someone already in a PhD.",
+     "eligibility": "Funding covers Home-fee status only. The student is already in a PhD at UBC, so this is unlikely to be relevant. The page does not mention oncology.",
+     "location": "University of Cambridge, UK",
+     "duration": "4 years",
+     "deadline": null,
+     "deadline_text": "The 2027 intake has concluded. Projects are typically advertised October-December, and the page suggests revisiting from",
+     "status": "closed",
+     "url": "https://www.ats.cam.ac.uk/az-funded-non-clinical-phd-studentship-2026"
     },
     {
      "name": "Preclinical Mathematical Modeling Summer Internship (2027)",
      "type": "internship",
-     "requirements": "Undergraduates in biological engineering, biology, mathematics, physics, computer science, biochemistry or similar, with anticipated graduation after August 2027. Applied or proficient programming and data analysis skills, with MATLAB preferred. This is dry-lab work, onsite in Cambridge three days a week.",
-     "eligibility": "Undergraduate only, so a PhD student is not eligible. It requires US work authorization with no sponsorship now or later, and offers no CPT/OPT letters.",
+     "requirements": "Undergraduates with anticipated graduation after August 2027. Programming and data analysis skills, MATLAB preferred.",
+     "eligibility": "Undergraduate only, so a PhD student is not eligible. It requires US work authorization with no sponsorship.",
      "location": "Cambridge, MA",
      "duration": "About 10 weeks (2027-06-07 to 2027-08-13)",
      "deadline": "2026-11-05",
-     "deadline_text": "Closing date 2026-11-05, so it has already passed",
+     "deadline_text": "Closed 2026-11-05",
      "status": "closed",
      "url": "https://careers.astrazeneca.com/job/cambridge/preclinical-mathematical-modeling-internship/7684/102358637584"
-    },
-    {
-     "name": "US Medical Affairs Doctoral and PharmD Intern, GI Oncology",
-     "type": "internship",
-     "requirements": "Doctoral or PharmD student. This is a medical-affairs role, not computational. I did not re-verify it this week.",
-     "eligibility": "Not stated. The role is US-based, so work authorization is likely needed.",
-     "location": "Gaithersburg, MD",
-     "duration": "Not stated",
-     "deadline": null,
-     "deadline_text": "Not stated",
-     "status": "unknown",
-     "url": "https://careers.astrazeneca.com/early-careers"
-    },
-    {
-     "name": "AZ-funded Cambridge non-clinical PhD studentships",
-     "type": "fellowship",
-     "requirements": "First or upper-second class degree, or an overseas equivalent. Research areas have included Oncology Machine Learning & AI and Data Sciences & AI. Carried over from last week's check and not re-verified.",
-     "eligibility": "For students starting a new PhD at Cambridge, so not usable by a current UBC PhD student.",
-     "location": "University of Cambridge, UK",
-     "duration": "3.5-4 years",
-     "deadline": null,
-     "deadline_text": "The 2023-intake call is closed. The page says to watch for future calls.",
-     "status": "closed",
-     "url": "https://www.ats.cam.ac.uk/node/5751"
-    },
-    {
-     "name": "R&D Graduate Programme",
-     "type": "other",
-     "requirements": "Early-career graduates. Three roughly 8-month rotations across R&D, including oncology. I did not verify the degree level or whether a PhD is eligible.",
-     "eligibility": "Post-degree program, not a PhD student role. Work authorization is needed. Carried over from last week's check and not re-verified.",
-     "location": "Cambridge UK; Gothenburg; Boston",
-     "duration": "2 years",
-     "deadline": null,
-     "deadline_text": "Not verified",
-     "status": "unknown",
-     "url": "https://careers.astrazeneca.com/early-careers"
     }
    ],
-   "location": "Cambridge UK (HQ and R&D); Gaithersburg MD; Cambridge MA; Waltham MA; Gothenburg"
+   "location": "Cambridge UK (HQ); Gaithersburg MD, Cambridge MA and Waltham MA (US oncology and data science sites); Gothenburg, Sweden"
   },
   {
    "name": "GRAIL",

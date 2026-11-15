@@ -2,9 +2,178 @@
  "weeks": [
   {
    "week": "2026-11-15",
-   "generated_at": "2026-11-15T11:24:41+00:00",
-   "checked": 22,
+   "generated_at": "2026-11-15T17:47:32+00:00",
+   "checked": 3,
    "items": [
+    {
+     "type": "flag",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "openai.com/residency and openai.com/careers/emerging-talent returned HTTP 403, so program details come from search snippets and third-party sources, not the official pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "Lead titles come from a single trade-press article (R&D World). I did not see an official OpenAI team page or leader bios."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "I found no 'OpenAI for Science' leader in this search, so I named only the two life-sciences leads. I did not verify a third lead."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "GPT-Rosalind access is restricted to qualified users, and one source said only US-based entities can apply for trusted access."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bt-openai",
+     "entry_name": "OpenAI",
+     "text": "I found no PhD- or life-sciences-specific fellowship or internship. Pay figures from third-party guides conflict and are not included."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "New program: Lilly Research Laboratories TDA – 2027 Summer Doctoral Internship",
+     "url": "https://careerservices.fas.harvard.edu/jobs/eli-lilly-lilly-research-laboratories-tda-2027-summer-doctoral-inter/"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "New program: Lilly Research Laboratories TDA – 2027 Fall Doctoral Internship",
+     "url": "https://xtalks.com/job/lilly-research-laboratories-tda-2027-fall-doctoral-internship/"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "No longer listed: Lilly Research Laboratories TDA 2027 Summer Doctoral Internship"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "No named head of TuneLab or of a computational biology team was found. The leads listed are enterprise-level AI and R&D leaders."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "The Harvard listing and the xtalks copy give different expiry and deadline dates (2026-12-01 vs 2026-12-04)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "No source states work authorization or visa sponsorship for the doctoral internship. A Canadian student should ask Lilly before applying."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "The Fall 2027 doctoral internship was only seen as a search result and was not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-lilly",
+     "entry_name": "Eli Lilly",
+     "text": "The AI/GenAI PhD internship details come from third-party boards only."
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "New program: Summer 2027 internships, Oncology R&D (e.g. Small Molecule Oncology Bioscience Intern, Cambridge MA; GTO Summer Internships)",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "New program: Early Oncology Clinical Development Intern, PharmD and PhD",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "New program: Biologics Engineering, Computational and Experimental Design of Multispecific Antibodies Intern",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "New program: Data Science/AI Intern, literature mining and graph modeling (oncology/translational)",
+     "url": "https://careers.astrazeneca.com/early-careers"
+    },
+    {
+     "type": "new_program",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "New program: AZ-UoC Collaborative Non-Clinical PhD Programme (includes the 'Data Science and AI for Drug Discovery and Development' area)",
+     "url": "https://www.ats.cam.ac.uk/az-funded-non-clinical-phd-studentship-2026"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "No longer listed: Summer internships, including oncology data science, bioinformatics and statistics tracks (2027 cycle)"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "No longer listed: US Medical Affairs Doctoral and PharmD Intern, GI Oncology"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "No longer listed: AZ-funded Cambridge non-clinical PhD studentships"
+    },
+    {
+     "type": "program_removed",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "No longer listed: R&D Graduate Programme"
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "I could not open the individual 2027 postings, so their requirements and deadlines are unverified. The early-careers page showed 15 of 29 roles, and page 2 was not visible."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "No named current head of Oncology Data Science could be verified. Reis-Filho's Dec 2025 move to the Enterprise AI Unit means the oncology data science lead may have changed. Senior Director, Head of AI for Clinical Development (Early and Late Oncology) roles were being advertised."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "I found no Canadian-based student program. The 2026 Canadian computational biology/AI internship was labelled Summer 2026, and I found no confirmation of a 2027 repeat."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "The 'AI-enabled Discovery' and 'AI & Computational Tools, Oncology R&D' roles at Cambridge UK appeared as job ads, not student programs. They are a contact route only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "bio-astrazeneca",
+     "entry_name": "AstraZeneca",
+     "text": "Job-link URLs were taken from the early-careers listing's relative paths. Verify them on the site."
+    },
     {
      "type": "needs_review",
      "entry_id": "bt-openai",
