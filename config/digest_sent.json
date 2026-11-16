@@ -39,6 +39,11 @@
   "status": "rolling",
   "url": "https://arcinstitute.org/programs/science-fellows"
  },
+ "arc institute|arc science fellows (postdoc-level independent group leader fellowship; includes computational science/ml and human genetics focus areas)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://arcinstitute.org/programs/science-fellows"
+ },
  "arc institute|arc science fellows program": {
   "sent": "2026-11-02",
   "status": "rolling",
@@ -74,6 +79,11 @@
   "status": "rolling",
   "url": "https://job-boards.eu.greenhouse.io/bioptimus8/jobs/4918287101"
  },
+ "broad institute|broad summer research program (bsrp) 2027 (not eligible for canadian phd students)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.broadinstitute.org/diversity"
+ },
  "broad institute|eric and wendy schmidt center (ewsc) postdoctoral fellowship, 2027 cohort": {
   "sent": "2026-11-09",
   "status": "open",
@@ -103,6 +113,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://brain.broadinstitute.org/jobs/visiting_scientists_program"
+ },
+ "calico (alphabet)|calico postdoctoral fellowships (hahn lab, jan lab, nile lab; listed for future reference)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.calicolabs.com/postdoctoral-fellowship/"
  },
  "calico (alphabet)|calico postdoctoral fellowships (hahn, jan and nile labs; listed for reference)": {
   "sent": "2026-10-30",
@@ -166,6 +181,11 @@
  },
  "eli lilly|lilly research laboratories tda 2027 summer doctoral internship": {
   "sent": "2026-10-30",
+  "status": "open",
+  "url": "https://careerservices.fas.harvard.edu/jobs/eli-lilly-lilly-research-laboratories-tda-2027-summer-doctoral-inter/"
+ },
+ "eli lilly|lilly research laboratories tda – 2027 summer doctoral internship": {
+  "sent": "2026-11-16",
   "status": "open",
   "url": "https://careerservices.fas.harvard.edu/jobs/eli-lilly-lilly-research-laboratories-tda-2027-summer-doctoral-inter/"
  },
@@ -269,6 +289,11 @@
   "status": "open",
   "url": "https://www.crick.ac.uk/careers-and-study/postdocs/postdoc-recruitment"
  },
+ "francis crick institute|crick-pace postdoctoral fellowship (with kcl, ucl, imperial)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.jobs.ac.uk/job/DTC966/crick-pace-postdoctoral-fellowship"
+ },
  "francis crick institute|single-cell genomics: from bench to bioinformatics": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -314,6 +339,16 @@
   "status": "open",
   "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
  },
+ "harvard university|harvard chan bioinformatics core: advanced ngs workshops (scrna-seq, spatial transcriptomics, differential expression) and cells to insights boot camp": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule/"
+ },
+ "harvard university|harvard chan bioinformatics core: current topics in bioinformatics (multiomics, r, quarto, rshiny) and basic data skills (python, r)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule/"
+ },
  "harvard university|hbc boot camp: cells to insights (intro to r and scrna-seq)": {
   "sent": "2026-10-30",
   "status": "open",
@@ -323,6 +358,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+ },
+ "harvard university|hms division of medical sciences (dms) visiting fellows program": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.hms.harvard.edu/DMS/Prospective%20Students/visitingfellows.html"
  },
  "harvard university|hms division of medical sciences (gsas) visiting fellows": {
   "sent": "2026-11-09",
@@ -375,9 +415,14 @@
   "url": "https://www.themuse.com/jobs/meta/research-scientist-intern-fair-chemistry-phd"
  },
  "microsoft research|microsoft research intern (includes health futures, genomics and bio llm roles)": {
-  "sent": "2026-10-30",
-  "status": "unknown",
+  "sent": "2026-11-16",
+  "status": "rolling",
   "url": "https://www.microsoft.com/en-us/research/careers/"
+ },
+ "mit|eric and wendy schmidt center postdoctoral fellowship (broad institute / mit / harvard)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://ericandwendyschmidtcenter.org/become-a-fellow"
  },
  "mit|eric and wendy schmidt center postdoctoral fellowship (broad institute of mit and harvard)": {
   "sent": "2026-10-30",
@@ -414,6 +459,11 @@
   "status": "rolling",
   "url": "https://mrclmb.ac.uk/careers-and-people/postdocs/"
  },
+ "mrc laboratory of molecular biology|mrc lmb international phd programme (october 2027 entry)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://mrclmb.ac.uk/?p=894"
+ },
  "new york genome center|genomic ai fellows": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -426,6 +476,11 @@
  },
  "new york genome center|nygc postdoctoral training program (postdoc positions in individual labs)": {
   "sent": "2026-10-30",
+  "status": "rolling",
+  "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
+ },
+ "new york genome center|nygc postdoctoral training program (postdoctoral research associate roles)": {
+  "sent": "2026-11-16",
   "status": "rolling",
   "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
  },
@@ -499,6 +554,11 @@
   "status": "unknown",
   "url": "https://careers.regeneron.com"
  },
+ "scripps research|scripps research fellows program": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.scripps.edu/faculty/scripps-fellow/"
+ },
  "scripps research|scripps research fellows program (independent postdoctoral fellowship)": {
   "sent": "2026-11-09",
   "status": "open",
@@ -528,6 +588,11 @@
   "sent": "2026-11-09",
   "status": "rolling",
   "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
+ },
+ "stanford university|guolan lu lab – visiting graduate student (deep learning / computational biology)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://med.stanford.edu/guolanlulab/Joining.html"
  },
  "stanford university|guolan lu lab: visiting graduate students (biomedical imaging, ai and computational biology)": {
   "sent": "2026-11-02",
@@ -564,6 +629,11 @@
   "status": "unknown",
   "url": "https://icr.ac.uk/study-and-careers/careers-at-the-icr/postdocs"
  },
+ "university college london|independent visiting research student (ucl central route; biosciences and other departments need supervisor and department approval)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://www.ucl.ac.uk/prospective-students/international/study-abroad-and-exchange/applying-independent-visiting-research-student"
+ },
  "university college london|independent visiting research student (ucl, host department in e.g. cancer institute / genetics institute / computer science)": {
   "sent": "2026-10-30",
   "status": "rolling",
@@ -589,6 +659,11 @@
   "status": "unknown",
   "url": "https://ucl-blic.github.io/LearnBioinformatics"
  },
+ "university college london|ucl genetic epidemiology short course 2027 (gwas and polygenic scores)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.ucl.ac.uk/brain-sciences/psychiatry/study/genetic-epidemiology-short-course"
+ },
  "university college london|ucl independent visiting research student (central scheme)": {
   "sent": "2026-11-02",
   "status": "rolling",
@@ -603,6 +678,11 @@
   "sent": "2026-11-09",
   "status": "rolling",
   "url": "https://www.ucl.ac.uk/study/international/study-abroad-and-exchange/visiting-research-students"
+ },
+ "university college london|visiting postgraduate research students, genetics, evolution and environment (ucl biosciences)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://www.ucl.ac.uk/biosciences/gee/gee-staff-intranet/gee-academics/visiting-post-graduate-research-students"
  },
  "university of cambridge|cambridge bioinformatics training courses (single-cell rna-seq analysis, spatial transcriptomics, bulk rna-seq, nextflow/pipelines, hpc, python/r, statistics, principles of machine learning)": {
   "sent": "2026-10-30",
@@ -649,10 +729,25 @@
   "status": "open",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/online-courses/"
  },
+ "university of cambridge|wellcome connecting science – cancer genomic epidemiology (genome campus)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/"
+ },
+ "university of cambridge|wellcome connecting science – long read sequencing: platforms, approaches and applications": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/long-read-sequencing-platforms-approaches-and-applications-20270314/"
+ },
  "university of cambridge|wellcome genome campus advanced courses and scientific conferences (cancer genomics, genomics and data science events, with bursaries)": {
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/technologies-and-approaches-courses-conferences-and-training/"
+ },
+ "university of cambridge|wellcome sanger institute 4-year phd programme (2027 intake)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.sanger.ac.uk/about/study/phd-programmes/"
  },
  "university of oxford|oxford statistical genomics summer school (dept for continuing education, with big data institute, wellcome centre for human genetics and dept of statistics)": {
   "sent": "2026-10-30",
@@ -663,6 +758,11 @@
   "sent": "2026-11-09",
   "status": "rolling",
   "url": "https://www.ox.ac.uk/research/collaborate-with-us/visiting-academics-and-visiting-researchers"
+ },
+ "university of oxford|recognised student scheme (visiting doctoral researchers) – oxford departments, e.g. ndcn, oii": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://www.ndcn.ox.ac.uk/study-with-us/recognised-students"
  },
  "university of oxford|recognised student status (visiting research student, graduate research)": {
   "sent": "2026-11-09",
@@ -734,10 +834,20 @@
   "status": "rolling",
   "url": "https://sanger.wd103.myworkdayjobs.com/WellcomeSangerInstitute"
  },
+ "wellcome sanger institute|sanger core postdoctoral fellowships (advertised roles)": {
+  "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+ },
  "wellcome sanger institute|sanger core postdoctoral fellowships (faculty-recruited roles, via workday)": {
   "sent": "2026-10-30",
   "status": "rolling",
   "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+ },
+ "wellcome sanger institute|sanger institute 4-year phd programme (2027 entry)": {
+  "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.sanger.ac.uk/about/study/phd-programmes/4-year-phd-programme/application-process-for-sanger-institute-4-year-phd-programme/"
  },
  "wellcome sanger institute|sanger institute core postdoctoral fellowships and posts (via workday)": {
   "sent": "2026-11-02",
