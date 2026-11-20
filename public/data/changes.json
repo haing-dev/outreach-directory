@@ -2,9 +2,964 @@
  "weeks": [
   {
    "week": "2026-11-20",
-   "generated_at": "2026-11-20T03:31:17+00:00",
+   "generated_at": "2026-11-20T13:06:18+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "members_changed",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "joined: June-Young Koh"
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "No PI move found: the team page still lists UC San Diego (Cellular and Molecular Medicine and Bioengineering)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "The team page has no date, so I can't tell how current it is."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "I couldn't fetch alexandrov-lab.com (DNS failure). The lab site used here is alexandrov.cloud.ucsd.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "I excluded staff and research associates (Steele, Nandi, Kundu, D'Antonio-Chronowska, Duong) and the undergraduates (Joseph, Murali)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-alexandrov",
+     "entry_name": "Alexandrov Lab",
+     "text": "Nandi is an Assistant Project Scientist and Steele is a Research Associate. Both work on signatures, duplex sequencing and structural/copy-number data, which is relevant to the student's interests."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "left: Pratibha Jagannatha"
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "PI move: the lab site says Ideker was appointed Director of the University of Oxford Big Data Institute (announced 2026-03-09). The PI page lists him as adjunct Professor of Medicine at UCSD. The site does not say the lab is relocating."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "The lab site also reports a Visiting Member role at the Ellison Medical Institute (announced 2026-01-23)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "The old URL idekerlab.ucsd.edu now redirects to idekerlab.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "The members page does not give a research focus or year for any member, so the per-member focus fields only reflect program and location. The page has no last-updated date, though some photos are dated 2026/09."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-ideker",
+     "entry_name": "Ideker Lab",
+     "text": "Sungjoon Park is listed as a Research Scientist at Oxford, not a postdoc, so is excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab",
+     "text": "Lab website sidowlab.org currently appears to be a parked or for-sale domain, so no official members page could be opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab",
+     "text": "No current postdocs or PhD students could be verified, so the members list is empty. Check the Stanford profile or recent publication author lists for current members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab",
+     "text": "PI is still listed at Stanford, with no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab",
+     "text": "Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sidow",
+     "entry_name": "Sidow Lab",
+     "text": "The BioX page lists the PI as Associate Professor, which is outdated. The Stanford profile says Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab",
+     "text": "No move found: the PI is still listed at Stanford Bioengineering."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab",
+     "text": "The members page has no last-updated date. It gives no research focus and no individual profile links, so the focus lines come only from program and background."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab",
+     "text": "A web search snippet of the same page named different members (Prateek Kalakuntla as a graduate student, and Guang Yang and Chew Chai as postdocs). The page fetch returned the 9-person list above, so the page may have changed or one view may be stale. Please re-check the roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab",
+     "text": "Xiaomeng Wan is listed in a Stanford profile as a Bioengineering postdoc with Bo Wang as faculty sponsor, but does not appear on the lab members page. This is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wang",
+     "entry_name": "Wang Lab",
+     "text": "I did not find the PI's Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab",
+     "text": "PI is still at Stanford. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab",
+     "text": "The people page lists no postdocs by title. Jae-Yoon Jung is listed as a Research Fellow (methods for gene-disease associations in mental disorders) and was left out of the members list because the role is ambiguous."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab",
+     "text": "The members page has no last-updated date. Some entries have been there since 2016, so it may be stale."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab",
+     "text": "The page lists no emails. The lab contact form is at https://wall-lab.stanford.edu/contact."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-wall",
+     "entry_name": "Wall Lab",
+     "text": "Google Scholar URL not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab",
+     "text": "The people page gives no focus, email, year or profile links for members, so those fields are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab",
+     "text": "The older page zou-group.github.io/team is outdated (it lists people who are now alumni), so I did not use it for the roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab",
+     "text": "The PI's contact on his site is jamesz at stanford dot edu (not a member email)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-zou",
+     "entry_name": "Zou Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "joined: Jane Fan"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "No dedicated lab website or people/members page was found. The member list comes only from the advisee and sponsor listings on the Stanford profile page, so it may be incomplete or out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "The 'doctoral program' advisee list may include students who are not core lab members. Check each person before contacting them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "No emails were published for members. The only email on the profile is for the administrative contact, Sweden Smith (s1smith@stanford.edu)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "The PI's institution is confirmed as Stanford, with no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-witte",
+     "entry_name": "Witte Lab",
+     "text": "A Stanford search summary says the lab has openings for pre- and postdoctoral trainees, and Witte co-directs an NIH T32 predoctoral training program in cancer risk genetics. I did not open the page that says this, so confirm it."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "joined: Julie Wang; left: Ammar Zaghlool, Conor Messer, Jason Qin, Roozbeh Dehghannasiri, Steven Barrett, Vicky Cepeda"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "The lab website pages (labmembers, home, contact, 2024 news post) returned 404 when I fetched them, so the roster is NOT verified as current. Julie Wang and Linda Szabo come from search-result snippets only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "The roster is probably incomplete. A April 2024 news post welcomed Khoa Hoang, Conor Messer and Daniel Cotte. I could not confirm their roles or whether they are still in the lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "Vicky Cepeda (postdoc, joined full time in 2021) and Marieke Vromman (visiting scholar) appeared in snippets. I excluded them because I could not confirm they are current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "A search snippet says the PI's Stanford profile showed her on leave from 2025-09-01 to 2026-06-01. I did not confirm this, and I found no evidence of a move to another institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "The Stanford profile lists advisees Chester Yu, Oana Enache and Holly McCann. These are advising relationships, not confirmed lab membership."
+    },
+    {
+     "type": "needs_review",
+     "entry_id": "stanford-salzman",
+     "entry_name": "Salzman Lab",
+     "text": "Link not found (404)",
+     "url": "https://salzmanlab.stanford.edu/"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab",
+     "text": "No PI move found: Steinmetz is still at Stanford, where he has chaired the Department of Genetics since 2024. He also holds an EMBL Heidelberg group-leader appointment."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab",
+     "text": "The people page shows no last-updated date, so currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab",
+     "text": "Chenchen Zhu appears as current staff and also in the alumni list, so the page is inconsistent. Staff and research scientists (Nguyen, Roy, Li, Zhu, Gschwind, Griffin) are excluded from the members list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab",
+     "text": "No year of study is listed for any student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-steinmetz",
+     "entry_name": "Steinmetz Lab",
+     "text": "The Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab",
+     "text": "left: Maya Kasowski, Meng Wang, Sophia Miryam S. Rose"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab",
+     "text": "The postdoc page has no update dates, so some listed postdocs may be out of date. Maya Kasowski and Sophia Miryam Rose appear on the page with clinical instructor, instructor or similar titles, and Meng Wang as a research scientist. I left all three out as non-postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab",
+     "text": "The lab site gives no enrollment years for students. Profile links are LinkedIn pages because there are no dedicated Stanford profile pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-snyder",
+     "entry_name": "Snyder Lab",
+     "text": "Gorgani has a UBC undergraduate degree (BASc 2023), which could be a Canadian connection."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "left: Max Schuessler, Min Sun, Ryan Goto"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "PI is still at Stanford, with no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "No dedicated lab people/members page was found. The Stanford profile only lists 'Stanford Advisees', and that list was truncated when fetched."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "The advisee list mixes dissertation advisees, co-advised students, readers and master's students. Roles and years are not stated, so no one was listed as a confirmed current PhD student or postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "The advisee names on the profile are Ryan Goto, Max Schuessler, Min Sun (dissertation advisor); Aymen Echarghaoui, Jing Shang, Ivy Zhang (co-advisor); and Yixing Jiang, Gowri Nayar, Betty Xiong (doctoral program, role unspecified). Check these directly with the profile before outreach."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-tibshirani",
+     "entry_name": "Tibshirani Group",
+     "text": "No postdocs were listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab",
+     "text": "The PI is still at Stanford University. No move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab",
+     "text": "The people page has no date or last-updated information, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab",
+     "text": "The people page lists names and links only. It gives no years, focus areas or emails, and no member emails were verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab",
+     "text": "The Google Scholar URL for the PI was not seen, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-yeung-levy",
+     "entry_name": "Medical AI and Computer Vision Lab",
+     "text": "The lab invites postdocs, rotation PhD students and a limited number of MS or advanced undergraduate students on a rolling basis. Interested postdocs should email the PI."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
+     "text": "PI is still at UCL, with no move found. She is now Director of the UCL Genetics Institute (CARTA profile says since 2025)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
+     "text": "The members page shows no dates, so it may not be current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
+     "text": "Kishan Susodiya is listed as a research assistant, so I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
+     "text": "The members page has an unnamed photo captioned 'JoshChair', which I could not identify."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-andr-s",
+     "entry_name": "Andrés Group (population/evolutionary genomics), UCL Genetics Institute",
+     "text": "The UCL academic-staff URL returned 403, so I could not read it directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab)",
+     "text": "I could not verify a current roster. The UCL people pages returned HTTP 403 (the discovery URL and https://www.ucl.ac.uk/biosciences/computational-biology-people)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab)",
+     "text": "The only member list I found is the OpenWetWare page, last edited 12 October 2018. It gave names only, with no roles. I left the members list empty rather than present 2018 names as current. Names on that page were Marc Williams, Alex Fedorec, Luca Rosa, Behzad Karkaria, Neythen Treloar, Jack Rutter"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab)",
+     "text": "The PI holds a concurrent role as Head of Science of AI at NPL, per NPL's profile. UCL appears to remain his academic home, but I did not confirm his current UCL page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab)",
+     "text": "The PI's profile link is the NPL page, because I could not open a UCL profile. The lab's OpenWetWare page lists an older UCL IRIS profile (http://iris.ucl.ac.uk/iris/browse/profile?upi=CPBAR18)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-barnes",
+     "entry_name": "Computational and Systems Biology group (Barnes Lab)",
+     "text": "I did not find a Google Scholar URL, so it is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics)",
+     "text": "left: Claudia Alvarez Carreno, David Miller, Javier Sánchez Utgés, Rafael Lemos, Samadrita Chatterjee"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics)",
+     "text": "Could not verify the current member list: the UCL lab-members and team pages returned HTTP 403, and the ISMB 'Our People' page lists only the PI."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics)",
+     "text": "Unclear whether the PI has moved. The ISMB profile says 'Based at UCL' with a ucl.ac.uk email, but its address block gives Birkbeck, University of London. The page predates UCL's current structure, so confirm the current affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics)",
+     "text": "A search snippet of the lab-members page showed names (e.g. Baskozos, Das, Dawson, Lam, Lehtinen) with no roles. It may be outdated, so I did not list them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-orengo",
+     "entry_name": "Orengo Group (CATH, protein structure/function bioinformatics)",
+     "text": "A UCL team page mentions a Master's student (Janusan Jeyananthan). Master's students are excluded from the directory."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics)",
+     "text": "The lab page returned HTTP 403, so I could not read it. No members list was verified, and members is empty. Do not treat that as confirmation that the group has no members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics)",
+     "text": "Curtis appears to hold an honorary professorship at UCL and at QMUL, not a full-time faculty post. A 2022 editorial describes him as a retired consultant psychiatrist who still does research. This may be a part-time or small-group setup and not a staffed lab."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics)",
+     "text": "I did not find a named 'Curtis group' on the UCL Genetics Institute research groups page. I could not confirm his current status on the UCL people page because it also returned 403."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics)",
+     "text": "I found no Google Scholar URL, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-curtis",
+     "entry_name": "Curtis group (statistical genetics)",
+     "text": "A UK role would probably need a visa for a Canadian student."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-jones",
+     "entry_name": "Bioinformatics Group (UCL Computer Science)",
+     "text": "left: Yutong Li, Zijian Zhou"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-jones",
+     "entry_name": "Bioinformatics Group (UCL Computer Science)",
+     "text": "No current postdoc or PhD student list could be verified. The UCL group pages returned HTTP 403, and no other page I found listed members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-jones",
+     "entry_name": "Bioinformatics Group (UCL Computer Science)",
+     "text": "PI is still at UCL as of the pages found, so no move to flag. The ISMB page also shows a Birkbeck affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-jones",
+     "entry_name": "Bioinformatics Group (UCL Computer Science)",
+     "text": "The student would likely need a UK visa for a role here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics)",
+     "text": "Could not open the UCL people, academic-staff and GEE pages (HTTP 403), so no current postdocs or PhD students could be verified. The members list is empty on purpose."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics)",
+     "text": "Search results mention Cedric Tan, a PhD student co-supervised by Balloux (zoonotic disease), on a page from Lucy van Dorp's team. I did not confirm this on an official Balloux page, so he is not listed as a member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics)",
+     "text": "No dedicated Balloux lab website was found. Search results also disagree on whether Balloux is the Genetics Institute's director."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics)",
+     "text": "No move from UCL was found. The PI's Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-balloux",
+     "entry_name": "Balloux Lab (UCL Genetics Institute; computational/systems biology, microbial genomics)",
+     "text": "To get the roster, check the UCL Genetics Institute people page directly in a browser."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "left: Alice Balard"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "The PI's institution has not changed: UCL is current. The PI's old homepage (homepages.ucl.ac.uk/~ucbtgrh) is badly outdated. It still shows the Sir Henry Dale Fellow title and a 2012-era team, so use the GitHub group site instead."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "Title varies by source: UCL and group pages say Professor of Statistical Genetics, and an HSTalks bio says Associate Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "The group members page lists Alice Balard (methylation statistical models) as a lab member with no role given, and says her PhD with Garrett finished in 2023. She is probably not a current PhD student, so she is left out of the member list. The page also says Nancy Bird completed her PhD in 2023, wh"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "No member emails and no members' profile links are published on the group page. The UCL people page returned HTTP 403, so I couldn't cross-check it. A search snippet said it lists Mengzi Chen under the group."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hellenthal",
+     "entry_name": "Hellenthal Group (statistical genetics, human population history)",
+     "text": "The group page has no date, so I can't tell how recently it was updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director)",
+     "text": "Hemingway is no longer listed as Institute Director. Search results for the UCL IHI people page name Prof Laura Shallcross as Institute Director and give Hemingway the title Professor of Clinical Epidemiology. The HDR UK and World Heart Federation profiles still call him Director, so they are probab"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director)",
+     "text": "No move away from UCL was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director)",
+     "text": "UCL pages returned 403 errors, so I could not verify the people page. It reportedly lists only the director and links to UCL Profiles. No postdocs or PhD students could be verified, so the members list is empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director)",
+     "text": "The Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-hemingway",
+     "entry_name": "Institute of Health Informatics (Director)",
+     "text": "The student would likely need a UK visa. Research is clinical and EHR-based and not genomic."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "joined: Anna Kwon, Clara Lisazo, Danilo Danese, Dorian Manouvriez, Emilie Alvarez Orvik, Hui Xin Ng, Lemuel Puglisi, Mariam Zabihi, Michela Gravina, Rafael Navarro, Remika Mito, Sivaniya Subramaniapillai, Sophie A Martin; left: Ayodeji Ijishakin, Douglas Wyllie, Florence Townend, Jiongqi Qu, Rui Yeow, Sophie A. Martin"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "PI is still at UCL (Hawkes Institute and Dementia Research Centre) according to the lab site; I saw no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "The lab site has no dedicated PhD student section. All 8 PhD students listed are under 'Visitors' and appear to be visiting from other institutions (Italy, Spain, Switzerland). None is listed as a UCL-registered PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "The lab's own people list (/people/ and the homepage 'Meet the Team' section) shows no research focus or year for anyone. Focus text for some postdocs comes from the lab's projects page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "Some postdocs may have moved on; for example, the emails for Dijsselhof and Subramaniapillai are at other institutions."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-cole",
+     "entry_name": "MANIFOLD lab (machine learning, AI and neuroimaging for longevity and dementia)",
+     "text": "The jobs.ac.uk listing (DSG686) returned 403, so I could not read it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry)",
+     "text": "Team page returned HTTP 403, so it could not be read directly; member data comes only from search-result summaries."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry)",
+     "text": "PhD students are not listed. One summary named Haoyu Wang, Zheng Liang, Jinjie Chen, Jacob Lester, Erika Yara Romero and Seán O'Reilly, but a second search did not confirm them, so check the page manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry)",
+     "text": "Ben Heineke is listed as a Visiting/Honorary Researcher, so he is excluded from the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry)",
+     "text": "No move detected: PI is still at UCL. Other pages also list him at Birkbeck (ISMB) and the Crick Institute, so those may be secondary or old affiliations."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-b-hler",
+     "entry_name": "Bähler Lab (functional genomics, wet/dry)",
+     "text": "Currency of the team page is unknown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group",
+     "text": "The PI is still at UCL, so no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group",
+     "text": "The lab's own site (secrierlab.github.io) was used. The discovery URL was a UCL staff list, and I did not open it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group",
+     "text": "The team page gives no research focus, year or email for any member. Those fields are null or not stated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group",
+     "text": "Shi Pan and Cenk Celik are listed as Research Fellows, and I treated them as postdocs. Beatriz Monterde Martínez is a visiting MSCA postdoc."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-secrier",
+     "entry_name": "Computational Cancer Biology Group",
+     "text": "The team page has no 'last updated' date. The footer reads © 2025, so it may be slightly out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group",
+     "text": "Could not verify the member list: the UCL group page returned HTTP 403, so no postdocs or PhD students are listed. Check the page's 'Group members' section manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group",
+     "text": "PI still at UCL as of the sources seen (title: Professor of Cancer Evolution per a UCL steering group page and Cancer Grand Challenges profile); no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group",
+     "text": "The Google Sites 'Computational Cancer Genomics (CCG) Research Group' at UCL Cancer Institute is a different group, apparently Simone Zaccaria's. Its members were not used here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group",
+     "text": "A UCL Department of Oncology page was reported to list McGranahan's lab as 'Cancer Metastasis Lab', so the group name may have changed. This is unconfirmed because the page was not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mcgranahan",
+     "entry_name": "Cancer Genome Evolution Research Group",
+     "text": "PI profile and Google Scholar URLs were not seen, so they are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain)",
+     "text": "The UCL pages returned 403, so the current roster could not be verified and the members list is empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain)",
+     "text": "Search snippets named possible past or present team members: Amy Nelson (Senior Research Associate), Patrik Bey (postdoc, per a Frontiers profile), Anthony Bourached, Ashwani Jha, James Cann, Chris Foulon, Timothy Roberts, Henry Watkins and Amy Tso. I did not confirm their roles or whether they are "
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain)",
+     "text": "The PI's current institution (UCL, Queen Square Institute of Neurology) comes from a search snippet that lists him on the institute's PI page. I saw no sign of a move, but I couldn't confirm it on the page itself."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain)",
+     "text": "The discovery URL is a UCL AI Centre people page, which I also could not open."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-nachev",
+     "entry_name": "Nachev group (computational modelling and machine learning for the damaged brain)",
+     "text": "The Google Scholar profile was not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics)",
+     "text": "Both UCL pages returned HTTP 403, so member details come from search-result summaries only and are not verified. Please check the pages manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics)",
+     "text": "The PhD student's name differs between the lab team page (Edress Deliri) and the UGI people page (Mohammad Deliri)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics)",
+     "text": "The PI's current institution is UCL, where they have been since November 2015 (previously Oxford WTCHG). No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics)",
+     "text": "The Google Scholar URL was not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-mott",
+     "entry_name": "Mott Group (computational and statistical genetics)",
+     "text": "The lab page has a general contact email, r.mott@ucl.ac.uk. It is the PI's address, not a member's, so I left member emails null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "left: Eduardo Gomez-Castañeda, Fatimah Almousawi, George Hall, Jasmin Rees, Lamia Boukhibar, Pau Puigdevall, Vignesh Jayarajan, Yara Sanchez-Corrales"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "UCL pages returned HTTP 403, so the current member list could not be read; members left empty rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "Search snippets indicate the page lists PhD researchers, postdocs and an undergraduate, but I could not see their names."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "Past members seen in snippets (not current): Anna Mikhailova (summer researcher), Mohammed Mirza (MSc), Louise White (PhD researcher)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "The page says the group is currently recruiting; check its Jobs page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-castellano",
+     "entry_name": "Castellano Group (translational/computational genomics, UCL Genomics)",
+     "text": "PI's employer is UCL according to the listing and search results; no move was found, but I could not read the live profile to confirm the current title."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "left: Kefan Meng, Shanshan Ren"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "Possible institutional move: a snippet of the UCL profile lists a March 2025 entry for the University of Florida Statistics Department and also says he was appointed Associate Professor at UCL in 2026. I couldn't resolve this because the page returned 403 and no other source confirmed it. Check his "
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "The UCL profile pages returned HTTP 403, so I couldn't verify any postdocs or PhD students. The members list is empty because I couldn't confirm anyone, not because the group has none."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "I found no dedicated Bartlett lab website or people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "He does not appear on the UCL Genetics Institute people page, according to search results."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-bartlett",
+     "entry_name": "Bartlett Lab",
+     "text": "I didn't find a Google Scholar profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology",
+     "text": "Could not read the lab pages. The UCL lab, people and news pages all returned HTTP 403, so the current postdoc and PhD student roster could not be verified. No members are listed, to avoid inventing any."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology",
+     "text": "The listed discovery URL (https://www.ucl.ac.uk/biosciences/gee/computational-biology-group) also returned 403, so the lab's own page is https://www.ucl.ac.uk/life-sciences/yang-lab, which I saw only in search results."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology",
+     "text": "Search results show Yang still at UCL GEE as Professor of Statistical Genetics, with no sign of a move. A UCL news item from September 2026 reports he won a 2026 Balzan Prize for Molecular Evolution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology",
+     "text": "The lab's prospective-student page gives z.yang@ucl.ac.uk as the contact for MSc and PhD enquiries. The lab welcomes applicants with a background in probability, statistics, computer science or population genomics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-yang",
+     "entry_name": "Yang group (molecular evolution, phylogenetics); Director, UCL Centre for Computational Biology",
+     "text": "Google Scholar URL not verified, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group",
+     "text": "The group page lists no postdocs or PhD students. Only the PI is named, so the member list is empty. The group is new: the PI's appointment was announced in June 2025 and started in July 2025."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group",
+     "text": "The PI has not moved. They are still at the CRUK Cambridge Institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group",
+     "text": "The group is recruiting. A PhD studentship ('Generative modelling for foundational discovery in biomedicine') is advertised, and the institute's vacancy notes mention a Research Associate role."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group",
+     "text": "The student may need a UK visa for a role here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-aliee",
+     "entry_name": "Aliee Group",
+     "text": "I did not verify the PI's Google Scholar page, so scholar_url is null. The PI's email is not published on the page."
+    },
     {
      "type": "flag",
      "entry_id": "stanford-newman",
