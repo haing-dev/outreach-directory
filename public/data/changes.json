@@ -2,9 +2,897 @@
  "weeks": [
   {
    "week": "2026-11-20",
-   "generated_at": "2026-11-20T13:06:18+00:00",
+   "generated_at": "2026-11-20T21:17:30+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "members_changed",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "joined: Abigail Bunkum, Olivia Lucas; left: Sylvie Chan"
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "PI is still at UCL, so no move was found. He also has a visiting scientist affiliation at the Francis Crick Institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "The official UCL lab page returned HTTP 403, so the roster comes from the group's own Google Sites page. I couldn't confirm how recently that page was updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "The team page gives no years, research focus or emails for members. I didn't open the individual member profile pages, so the focus fields are left unspecified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "Excluded: Sylvie Chan (co-supervised clinical fellow, not a postdoc or PhD student) and Sonya Hessey (listed as alumni)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "ucl-zaccaria",
+     "entry_name": "Computational Cancer Genomics (CCG) Group",
+     "text": "The UCL Computational Cancer Collaboratorium page lists the PI as 'Principal Research Fellow', which differs from the group-leader title on his own pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-butterworth",
+     "entry_name": "Butterworth Group",
+     "text": "No current postdocs or PhD students are named on the PI's PHPC or HLRI profile pages, so the members list is empty. I did not find a dedicated lab people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-butterworth",
+     "entry_name": "Butterworth Group",
+     "text": "A search snippet mentioned Dr Rouchelle Sriranjan Rothwell as a postdoctoral research associate in his lab. I could not confirm her current status, and she is now an NIHR Clinical Lecturer, so I left her out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-butterworth",
+     "entry_name": "Butterworth Group",
+     "text": "PI is still at the University of Cambridge. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-butterworth",
+     "entry_name": "Butterworth Group",
+     "text": "PI email listed on the official page: asb38@cam.ac.uk. The Cambridge cardiovascular network suggests Dr Jane Sugars as the contact for enquiries."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "joined: Bernadeta Rupainyte"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "The PI is still at the University of Cambridge. One CRUK profile also mentions a Wellcome Sanger Institute link. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "The department members page and the lab site team page (caganlab.com/team-3-1) disagree. The department page lists Powles and Vaitkute but not Rupainyte. The lab page lists Rupainyte but not Powles or Vaitkute. I included all of them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "No years or individual emails are published. Research focus for Powles and Vaitkute was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "Inez Januszczak (Research Laboratory Coordinator) and Dr Yu Sun (Research Laboratory Technician) are staff and were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cagan",
+     "entry_name": "Comparative Somatic Evolutionary Genomics",
+     "text": "No Google Scholar link was found. The PI's ORCID is https://orcid.org/0000-0002-7857-4771."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction)",
+     "text": "I found no dedicated lab website or lab people/members page. The discovery URL is the department's PhD supervisor list, where Wood appears under the Cardiovascular Epidemiology Unit with no group roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction)",
+     "text": "No current postdocs or PhD students could be verified, so the members list is empty rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction)",
+     "text": "The PI is still at the University of Cambridge according to the HLRI profile. I found no sign of a move, but I could not see a date on that page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction)",
+     "text": "The PI's role titles differ by source. HDR UK calls her NIHR Research Professor of Biostatistics and Health Data Science. Cambridge lists her as Professor of Health Data Science."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-wood",
+     "entry_name": "Wood Group (statistical methodology, risk prediction)",
+     "text": "PI email listed on the official page: amw79@cam.ac.uk. This is a PI contact, not a member contact."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics",
+     "text": "No move found: the PI is still listed at the University of Cambridge Department of Genetics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics",
+     "text": "The members page lists only one person besides the PI, a postgraduate student. No postdocs are listed, and the page may be incomplete or out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics",
+     "text": "Andrei Popescu's profile page returned HTTP 403, so his role, focus and year are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics",
+     "text": "The PI's profile gives only the department contact address comms@gen.cam.ac.uk. The group page shows an obfuscated address, 'a.scally at gen.cam.ac.uk', which I did not use as a published email."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-scally",
+     "entry_name": "Evolutionary Genomics",
+     "text": "The group has no dedicated lab website. The department page is the main page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group",
+     "text": "No PI move found: the PI is still listed at the University of Cambridge as Director of the Cambridge Stem Cell Institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group",
+     "text": "The group page lists about 20 members without roles (postdoc, student or staff). I could only confirm PhD student status for Hidajat, Juster and Martinuzzi, from the institute's student and staff directory listings in search results. The postdoc list is therefore incomplete and unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group",
+     "text": "Other names on the group page with unconfirmed roles: Marcelo Brunatto, Barbora Bucinskaite, A. Garcia-Hernandez, Josephine Gollin, Myriam Haltalli, Hiromitsu Harimoto, Xiaoling Huang, Sarah Kinston, Blaise Musabe, Magdalena Nikolova, Licyel Paulas Condori, Juan Rubio Lara, Zhimeng Wu, Weizhong Zhen"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group",
+     "text": "Rebecca Hannah and Qi Liu are listed as bioinformaticians (staff), so I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-ttgens",
+     "entry_name": "Göttgens Group",
+     "text": "Katherine Sturgess appeared as a Göttgens PhD student in directory search results but is not on the group page, so I left her out. Check whether she is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics",
+     "text": "No postdocs or PhD students are listed on the group page, the PI profile page or the department page I fetched. The member list is empty because none was published, not because the lab has no members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics",
+     "text": "I did not open the department-wide /people page, so I can't rule out that members appear there."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics",
+     "text": "I confirmed no PI move: the Department of Genetics page at Cambridge still lists her. I did not check the date of that page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics",
+     "text": "PI email is published as 'ch504 at cam.ac.uk'. I did not find a Google Scholar profile link."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-houldcroft",
+     "entry_name": "Virus Genomics",
+     "text": "The PI's title varies by page (Assistant Professor vs. Lecturer)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology)",
+     "text": "No PI move found: the page still lists Markowetz at the CRUK Cambridge Institute (only that page was checked)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology)",
+     "text": "The members list is a section on the main group page, with no separate people page, individual profile links or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology)",
+     "text": "Students are listed only as 'Postgraduate Student'. I treated them as PhD students, but this is not confirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology)",
+     "text": "No one is explicitly titled 'Postdoc'. Research Associates (Philip Smith, William Prew, Shadi Shafighi) may be postdocs, but the page doesn't say so, so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-markowetz",
+     "entry_name": "Markowetz Group (Computational Oncology)",
+     "text": "Other staff (not postdocs or students) were excluded: Jonathan Pushpa-Rajah (Clinical Research Training Fellow), Amy Cullen, Harvey Major, Ryan Blake, Raquel Manzano Garcia, Bethan Yates and Sabina Bryant."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab)",
+     "text": "The PI moved from Columbia University (Herbert Irving Assistant Professor of Biomedical Informatics; New York Genome Center core member) to the University of Cambridge. Cambridge lists her as Assistant Professor in DAMTP. Columbia and NYGC pages still exist and may be outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab)",
+     "text": "The lab is split across institutions. Four PhD students are listed with Columbia affiliations, one is a Cambridge DAMTP student, and one is a visiting student from Indiana University. The Columbia students may be completing their degrees there or remaining co-advised. Check before assuming they are "
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab)",
+     "text": "The people page shows emails as 'name at domain'. I converted them to standard form."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab)",
+     "text": "The people page gives no student year and no date for when it was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-g-rsoy",
+     "entry_name": "Computational Biology and Bioinformatics (G2 Lab)",
+     "text": "The main g2lab.org page does not name the PI or the institution. The research page and Google Scholar profile were not checked, so the scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-micklem",
+     "entry_name": "Bioinformatics and Genomics (Micklem Lab)",
+     "text": "The members list sits on the lab home page, which has no last-updated date, so I could not tell how current it is."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-micklem",
+     "entry_name": "Bioinformatics and Genomics (Micklem Lab)",
+     "text": "No postdocs are listed under 'Current lab members'. The other entries are two visiting researchers (Prof. Conrad Lichtenstein and Dr Gi Mikawa), who are excluded as non-postdoc, non-PhD."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-micklem",
+     "entry_name": "Bioinformatics and Genomics (Micklem Lab)",
+     "text": "Individual member profile pages and emails are not published on the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-micklem",
+     "entry_name": "Bioinformatics and Genomics (Micklem Lab)",
+     "text": "The PI's Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease",
+     "text": "No postdocs are listed on the people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease",
+     "text": "Staff not included in members: Sebastian Diegeler (Lab Manager / Research Associate)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease",
+     "text": "The people page has no start years or update date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease",
+     "text": "The Cambridge profile places the PI in Pathology, with a joint Genetics affiliation per the lab site. No institutional move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-machado",
+     "entry_name": "Lymphocyte somatic evolution in ageing and disease",
+     "text": "No Google Scholar profile was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics",
+     "text": "No PI move found: the PI is still listed at the Cambridge Department of Genetics."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics",
+     "text": "The members page lists no individual research focus, year or email. I did not open the individual profile pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics",
+     "text": "Oscar Cortez Azuero and Anchita Puri are listed as Research Assistants (staff) and are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics",
+     "text": "'Postgraduate Student' is assumed to mean PhD student. Two of them are also listed as Research Assistants, so their status is uncertain."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-salje",
+     "entry_name": "Infectious disease dynamics",
+     "text": "I did not check when the members page was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-welch",
+     "entry_name": "Molecular Evolution",
+     "text": "No current postdocs or PhD students could be verified. The department group page (/welch-group) and the research-group page list no members, only external collaborators."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-welch",
+     "entry_name": "Molecular Evolution",
+     "text": "The old lab site (welch.gen.cam.ac.uk/GroupPage/People.html) now redirects to the department homepage. A search snippet of it named Xiaowei Jiang and Gemma Murray and listed Christelle Fraïsse and Hilde Schneemann as former members. I could not confirm roles, so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-welch",
+     "entry_name": "Molecular Evolution",
+     "text": "Check the PI's contact at j.j.welch at gen.cam.ac.uk before reaching out. The student would likely need a UK visa."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical)",
+     "text": "The PI is Director of the MRC Biostatistics Unit and sits on the Unit's group-leaders page. I found no separate Whittaker lab page that lists his own postdocs or PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical)",
+     "text": "The Unit has about 35 PhD students and a PhD student listing, but it doesn't say who supervises whom. I did not attribute any student or postdoc to Whittaker, so the members list is empty. A search snippet named some Unit PhD students (e.g. Amy Armento, Simone Baskir, Kathryn Bowers, Zhi Cao, Conor "
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical)",
+     "text": "The lab URL from discovery (mrc-bsu.cam.ac.uk/staff/john-whittaker) redirects with a 301 to medschl.cam.ac.uk/people/john-whittaker."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical)",
+     "text": "I found no move. The institution is still the University of Cambridge, as confirmed by his profile page and his UKRI appointment as Director."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-whittaker",
+     "entry_name": "Whittaker (Bayesian statistical modelling, biomedical)",
+     "text": "I did not find a Google Scholar profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics",
+     "text": "Possible PI move: the Liverpool staff profile and the PI's CV list a Chair in Applied Microbial Genomics at the University of Liverpool from 2022. I could not open the Liverpool page, which returned a 404 or a redirect, and I did not confirm that the Cambridge page is still active."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics",
+     "text": "The Cambridge members page appears stale or incomplete. It shows no dates, and some members may have left or moved with the PI."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics",
+     "text": "The members page labels the students 'Postgraduate Student', so I assumed they are PhD students. Check this before contacting them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics",
+     "text": "Profile URLs are relative links from the members page, resolved against gen.cam.ac.uk. I did not open them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-baker",
+     "entry_name": "Applied Microbial Genomics",
+     "text": "No member emails are published on the page. The only listed contact is the general address comms@gen.cam.ac.uk."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine)",
+     "text": "PI is still at the University of Cambridge; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine)",
+     "text": "The group page lists no current postdocs. All postdocs on it are listed as past, including Nikola Simidjievski and Helena Andres-Terre, who worked on the cancer-medicine project."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine)",
+     "text": "The group page gives no last-updated date and no start years, so year is null for all members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine)",
+     "text": "The department page https://www.cl.cam.ac.uk/research/ai/people/ is outdated. It still lists alumni such as Dimanov, Kazhdan and Margeloin as current students, so I used the PI's group page instead."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-jamnik",
+     "entry_name": "Jamnik Group (explainable ML, personalised medicine)",
+     "text": "The department's PhD list names some Jamnik-supervised students who are not on the group page: Mantas Baksys, Michael Dodds and Martin Fixman. Their supervision details were not confirmed, so I left them out of the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair",
+     "text": "The PI is still at the University of Cambridge, with no move found. The Genetics page lists the Department of Pathology as the contact address, and the group is also listed on the Pathology site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair",
+     "text": "The people page gives no research focus, year or email for any member. It links to GitHub, LinkedIn and Scholar profiles, but I did not see the actual URLs, so profile_url is null for everyone."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair",
+     "text": "The PI's Scholar URL was not seen, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair",
+     "text": "The people page also lists Sarah Saw (undergraduate), who is excluded. Many former members are listed and also excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-boemo",
+     "entry_name": "Computational Biology of DNA Replication and Repair",
+     "text": "The people page has no 'last updated' date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group",
+     "text": "The PI has not moved. The University of Cambridge is his primary affiliation, with a joint appointment at the Baker Heart and Diabetes Institute in Melbourne."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group",
+     "text": "The lab URL from discovery is a PhD supervisors page, not a lab site. The lab's own site is the Google Sites page above, and the inouyelab.org/people URL returned 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group",
+     "text": "The members page shows an 'updated' label but no date, so I could not check how current it is. Current status of the listed people is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group",
+     "text": "I left out the research staff who are not clearly postdocs: Carles Foguet, Elodie Persyn, Xilin Jiang (Group Leader), Scott Ritchie (Assistant Research Professor), Tin Oreskovic (completing a PhD at Oxford) and two software developers."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-inouye",
+     "entry_name": "Systems Genomics / Inouye Group",
+     "text": "No individual profile pages or member emails were published. The PI's emails are on the page (mi336@cam.ac.uk, minouye@baker.edu.au)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology)",
+     "text": "No move: PI is still DeepMind Professor of Machine Learning at Cambridge (since 1 Oct 2019), with a visiting post at Sheffield."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology)",
+     "text": "The members page lists no postdocs, only two students. It looks outdated, because both students have been listed for years and may have graduated. Verify before contacting them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology)",
+     "text": "No emails are published on the members page. The profile link for Eric Meissner is a relative path (/~erm70/) that I resolved to the cl.cam.ac.uk domain and did not open."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology)",
+     "text": "The Google Scholar URL was not found on the PI's site, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-lawrence",
+     "entry_name": "Lawrence Group (probabilistic ML, computational biology)",
+     "text": "Current biology-related work is not evident from the pages I checked. The computational biology focus comes from the PI's earlier Sheffield group."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference",
+     "text": "I found no lab website or people/members page, so no postdocs or PhD students are listed. Do not treat the empty list as meaning the group has none."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference",
+     "text": "The De Maio profile page on gen.cam.ac.uk lists no group members, no research description and no personal email. Only the department contact comms@gen.cam.ac.uk appears."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference",
+     "text": "Move: earlier sources show De Maio as a Staff Scientist at EMBL-EBI (Hinxton) in the MAPLE and SPRTA news. The Cambridge pages now list them as Assistant Professor, so they appear to have moved from EMBL-EBI to the University of Cambridge. I did not find the date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference",
+     "text": "The research-groups page lists the group as 'Large-scale evolutionary inference' (subject area Evolutionary and Computational Genetics, CMS building), with no link."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-maio",
+     "entry_name": "Large-scale evolutionary inference",
+     "text": "The site mctavishlab.github.io also uses the title 'Large scale evolutionary inference'. It is the McTavish lab at UC Merced and is unrelated to De Maio."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group",
+     "text": "The group is now called Quantitative Plant Health; the old name was Theoretical and Computational Epidemiology."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group",
+     "text": "The lab URL from discovery (plantsci.cam.ac.uk/directory) returned 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group",
+     "text": "The old group-members page has an empty member list, so the roster comes from the filtered department people directory."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group",
+     "text": "No postdocs appeared in the directory listing. The group may have postdocs who are not listed there."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-cunniffe",
+     "entry_name": "Theoretical and Computational Epidemiology Group",
+     "text": "The PI's institution is unchanged: still the University of Cambridge."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "joined: Mihkel Örd; left: Mihkel Ord"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "No PI move found: Creixell is still a Junior Group Leader at the CRUK Cambridge Institute, University of Cambridge."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "The CRUK page labels the students 'Postgraduate Student'. The lab team page confirms PhD status for Evans, Peng, Barclay and Cheng. It does not list Jiang, Bermudez-Guzman, Tsang or Duart, so their PhD status and any focus are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "Excluded as non-PhD or non-postdoc staff: Carol Mendonca (Senior Scientific Associate), Sydney Porto (Research Assistant), Mohan Sun (Research Assistant / MPhil)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "No start years are published for any member. The 'profile_url' values are lab publication-listing pages, not personal pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-creixell",
+     "entry_name": "Creixell Group (Cancer signalling and therapeutics)",
+     "text": "I did not find a Google Scholar link for the PI."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-li",
+     "entry_name": "Liò Group (ML and computational models for health, multi-omics)",
+     "text": "The roster looks stale (roughly 2019–2022). Many listed students have probably graduated, so check each person's current status before reaching out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-li",
+     "entry_name": "Liò Group (ML and computational models for health, multi-omics)",
+     "text": "The PI's personal page was last updated around 2020–21. It shows no move from Cambridge."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-li",
+     "entry_name": "Liò Group (ML and computational models for health, multi-omics)",
+     "text": "No postdocs are listed on the AI people page. A group page lists research associates Helena Andrés Terre and Nikola Simidjievski (both from 2019), who may be former members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-li",
+     "entry_name": "Liò Group (ML and computational models for health, multi-omics)",
+     "text": "No emails are published on the people page. The Laboratory's full members list at /people/ may have contact details, but I did not check it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology)",
+     "text": "No move found: the PI is still at the CRUK Cambridge Institute, University of Cambridge."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology)",
+     "text": "The 'postdoc' roles are inferred. The lab pages list these people as Research Associates, not postdocs."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology)",
+     "text": "Ayane Nakamura appears only on the CRUK page, as a Visiting PhD Student. The lab's own people page doesn't list her."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology)",
+     "text": "CRUK lists Caroline Caruso Carter, Ellen Schrader and Lubna Ahmad as 'Postgraduate Student'. The lab's own people page calls them PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-ali",
+     "entry_name": "Ali Group (Systems cancer pathology)",
+     "text": "Excluded as staff, visitors or alumni: Neus Masqué-Soler (Principal Scientific Associate), Eric Jou (NIHR Academic Clinical Fellow), Ciccy Wang (Visiting Research Associate), Sridatta Teerdhala (Visiting Master's Student), Ioanna Karouzou (administrator), Paula Wagner (alumni, Summer 2026)."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "left: Alexandre P Fernandes"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "The Department of Genetics page (gen.cam.ac.uk/vroomans-group) lists only the PI. Group membership comes from the SLCU site, where the lab appears to be based."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "No postdocs were found on any page I checked."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "Alexandre P Fernandes is listed as an SLCU PhD student (theoretical biology, evolution of multicellularity). His profile does not name the Vroomans group, so he is excluded. Contact: alexandre.porcherfernandes@slcu.cam.ac.uk, https://www.slcu.cam.ac.uk/people/alexandre-p-fernandes"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "Past members on the SLCU group page are MPhil, Part III and visiting Masters students, so they are excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-vroomans",
+     "entry_name": "Computational evolution of development in plants",
+     "text": "Start years are not published."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics",
+     "text": "PI is still at the University of Cambridge (Department of Genetics); no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics",
+     "text": "The members page shows no last-updated date (only a 2026 copyright notice) and gives no research focus for individual members. Focus entries are 'not listed', and I did not open individual profiles."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics",
+     "text": "No individual emails are published on the members page. The PI's address is rd109@cam.ac.uk, shown on the group page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics",
+     "text": "Luka Blumer was listed as a research assistant on the members page, though a search snippet also described them as a PhD student. I excluded them as unclear."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-durbin",
+     "entry_name": "Evolutionary and Computational Genomics",
+     "text": "Research assistants, technicians and Assistant Research Professor Yucheng Wang are excluded as staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-collepardo",
+     "entry_name": "Computational Physics of Chromatin",
+     "text": "The lab people page (collepardolab.org/people) could not be opened because of an expired certificate, so no current members were verified and the members list is empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-collepardo",
+     "entry_name": "Computational Physics of Chromatin",
+     "text": "The PI is still at the University of Cambridge (Genetics and Chemistry), so no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-collepardo",
+     "entry_name": "Computational Physics of Chromatin",
+     "text": "Search snippets mentioned Julia Maristany (PhD student, described as third-year in an older item), Jan Huertas (joined the group after 2021) and Kieran Russell (co-author on a 2024 paper). Their current status is unverified, so they are not listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-collepardo",
+     "entry_name": "Computational Physics of Chromatin",
+     "text": "The PI's published contact is 'r.collepardo at gen.cam.ac.uk' on the department group page. Her Google Scholar URL was not found."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "joined: Ken To"
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "The PI's institution is Cambridge. She moved from the Wellcome Sanger Institute (Head of Cellular Genetics, 2016–2024) to the Cambridge Stem Cell Institute in 2024, so the Sanger affiliation is outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "The members page has no last-updated date and publishes no emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "The institute page lists some names that are not on the lab page, so the lists differ. The lab page was used as the primary source."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "Ana-Maria Cujba is listed as 'will be joining', so she may not have started."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-teichmann",
+     "entry_name": "Teichmann Group",
+     "text": "Ken To is listed as a postdoc but also described as a surgical trainee. Chenqu Suo and James Cranley are NIHR Clinical Lecturers, so they were excluded as neither postdocs nor PhD students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-holden",
+     "entry_name": "Holden Group (ML, organelle proteomics)",
+     "text": "The PI is confirmed at the University of Cambridge in the Department of Computer Science and Technology. His 2026-27 course page is current, and I found no move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-holden",
+     "entry_name": "Holden Group (ML, organelle proteomics)",
+     "text": "The AI group people page looks stale. Many of the listed students seem to be from several years ago, so Mangla and Słowik may have graduated. I could not verify their current status, so check before contacting them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-holden",
+     "entry_name": "Holden Group (ML, organelle proteomics)",
+     "text": "No postdocs are listed under Holden's supervision."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-holden",
+     "entry_name": "Holden Group (ML, organelle proteomics)",
+     "text": "There is no dedicated lab website. The group is only a section of the AI group and of the PI's personal page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
+     "text": "No public group members page was found, so no postdocs or PhD students could be verified. Do not infer names."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
+     "text": "Amy Mason is listed in search results as joining the Burgess group in March 2026 after working with it from the Cardiovascular Epidemiology Unit. Her exact role (postdoc or research associate) was not verified, so she is not listed as a member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
+     "text": "The PI's institution is confirmed as Cambridge (MRC Biostatistics Unit), with no move found. The listed lab URL is only a PHPC PhD supervisor list, which gives his department as the Cardiovascular Epidemiology Unit."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
+     "text": "The old mrc-bsu.cam.ac.uk staff URLs now redirect to medschl.cam.ac.uk, so staff pages have moved."
+    },
+    {
+     "type": "flag",
+     "entry_id": "cam-burgess",
+     "entry_name": "Burgess Group (Mendelian randomization / genetic epidemiology)",
+     "text": "A Google Scholar URL was not seen, so it is null."
+    },
     {
      "type": "members_changed",
      "entry_id": "other-alexandrov",
