@@ -1,6 +1,991 @@
 {
  "weeks": [
   {
+   "week": "2026-11-20",
+   "generated_at": "2026-11-20T03:31:17+00:00",
+   "checked": 30,
+   "items": [
+    {
+     "type": "flag",
+     "entry_id": "stanford-newman",
+     "entry_name": "Newman Lab",
+     "text": "Members page has no dates, so I could not tell how recently it was updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-newman",
+     "entry_name": "Newman Lab",
+     "text": "Stanford profile lists Minji Kang as a postdoctoral mentee, while the lab page lists them as a PhD student (Computer Science). I used the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-newman",
+     "entry_name": "Newman Lab",
+     "text": "Stanford profile also lists Ryan Goto as a doctoral program advisee. They are not on the lab page, so I left them out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-newman",
+     "entry_name": "Newman Lab",
+     "text": "The lab page also lists two clinical/research fellows (Ken Chen, Tom Watkins), a medical student and a lab manager. These are not postdocs or PhD students, so I excluded them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab",
+     "text": "No current postdocs are listed. Javier Blanco-Portillo, the only postdoc named, appears under Alumni."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab",
+     "text": "Daniel Mas Montserrat is listed as Chief Researcher, which is neither a postdoc nor a PhD student, so he is excluded from members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab",
+     "text": "The people page lists no years, research focus, emails or individual profile links, so those fields are null or unspecified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab",
+     "text": "I could not open a separate People page URL; the member list came from the lab's main site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-ioannidis",
+     "entry_name": "Ioannidis Lab",
+     "text": "The PI's rank is 'Assistant Professor (Research)'; the discovery page title says 'Assistant Professor of Genetics and of Biomedical Data Science'. No institutional move was found."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "joined: Emma Heaton; left: Imani Porter"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "PI's current institution confirmed as Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "The lab website is ajglab.org, and the Stanford profile lists the PI's primary home as Pathology and Medicine, with Biomedical Data Science only a courtesy appointment."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "The people page gives no years, emails or profile links. I did not check its last-updated date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "Emma Heaton is listed only as a graduate student in the Majeti lab, so her role as a PhD student is not confirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gentles",
+     "entry_name": "Gentles Lab",
+     "text": "Google Scholar URL not verified, so it is left null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "joined: Jonathan Perera"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "PI is still at Stanford; no move found. Profile shows joint Genetics and Computer Science appointments."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "Members page footer shows it was last updated 11/19/2026, so the roster is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "No emails are published on the lab people page; all emails are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "Many members are co-advised with other labs (Engreitz, Kasowski, Zou, Hie, Goodarzi and others). Several have no stated focus or start year."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-kundaje",
+     "entry_name": "Kundaje Lab",
+     "text": "Jonathan Perera is an MD-PhD student and is counted as a PhD student. Staff (Vivek Ramalingam, Vivian Hecht, Amanda Everitt, Lily Leung, Manasvi Agarwal) were excluded."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "joined: Adam Weiner, PhD, Ed Tam, PhD, Jiachen Cai, PhD, Sarah Nyquist, PhD; left: Adam Weiner, Ed Tam, Jiachen Cai, Sarah Nyquist"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "No institution move found: the PI is still at Stanford (Biomedical Data Science) and has been a Gladstone Senior Investigator since 2021. Earlier work at Princeton and Duke is not current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "Only Ed Tam is explicitly titled 'Visiting Postdoc'. Sarah Nyquist, Jiachen Cai and Adam Weiner are titled 'Bioinformatics Fellow'. I listed them as Postdocs, which is an assumption about their level (they all hold PhDs)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "The team page gives no research focus, year or email for any member, so those fields are null or 'not stated'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "Priyanka Shrestha is listed as an 'Afiliate' and was excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engelhardt",
+     "entry_name": "Engelhardt Lab",
+     "text": "The page does not show a last-updated date. Its alumni list runs only to about 2022, so it may be stale, and the roster should be confirmed with the lab."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "joined: Aakarsh Vermani, Alex Yukun Hao, Daniel Chang, Divya Nori, Ivan Specht, Lily Taylor, Matthew Liu, Seyone Chithrananda, Soyoon Park; left: Eric Nguyen"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "No PI move: Stanford profile and lab site confirm Hie is still at Stanford (also Arc Institute Innovation Investigator)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "The discovery URL was a Stanford Data Science event page, not the lab site. The real lab site is evodesign.org."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "The team page lists affiliations and profile links only. No research focus, year or email is given, so those fields are null or reflect affiliation only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "No Google Scholar URL could be verified (the Stanford profile lists ORCID 0000-0003-3224-8142 instead)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hie",
+     "entry_name": "Laboratory of Evolutionary Design",
+     "text": "Haoyu Dai is listed as 'Graduate student' (not clearly a PhD student) and was excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sabatti",
+     "entry_name": "Sabatti Lab",
+     "text": "PI is still at Stanford. No move found. Her profile lists her as Associate Director of HAI (2026 to present)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sabatti",
+     "entry_name": "Sabatti Lab",
+     "text": "Only 1 postdoc and 1 PhD student are explicitly labelled on the team section. Three other people appear without a stated role and are excluded: Alexandru Lopotenco (advised by Candès and Lei), Sarah Zhao (works with Candès and Zihuai He), and Jamie Liu (a rotating student on virtual cell models). So"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sabatti",
+     "entry_name": "Sabatti Lab",
+     "text": "No member emails are published. The lab page gives the PI's email only in obfuscated form (Sabatti AT stanford DOT edu)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-sabatti",
+     "entry_name": "Sabatti Lab",
+     "text": "The members page date could not be verified. The PI profile page was only partly read (the first 100,000 of about 313,000 characters)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-alsentzer",
+     "entry_name": "Alsentzer Lab",
+     "text": "No move found: the Stanford profile still lists her as Assistant Professor at Stanford."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-alsentzer",
+     "entry_name": "Alsentzer Lab",
+     "text": "The lab site says the lab is hiring."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-alsentzer",
+     "entry_name": "Alsentzer Lab",
+     "text": "The team page was not dated. The year labels (1st/2nd year) come from the page and may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-alsentzer",
+     "entry_name": "Alsentzer Lab",
+     "text": "The Google Scholar URL was not verified, so it is left null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "joined: Paul Sun; left: Paul (Huangqingbo) Sun"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "PI is still at Stanford (Bioengineering profile confirms she joined that department); no move detected."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "The people section sits on the main page, with no separate people URL. The page lists no dates or join years, so student years are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "Visiting PhD student Emily Laura Meyer (cardiac spatial proteomics) is listed but excluded as a visitor. Research scientists, researchers, engineers and staff are also excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "Alexandra Johannesson's email is left out because the address as printed looks like a typo."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-lundberg",
+     "entry_name": "Lundberg Lab",
+     "text": "Some members have SciLifeLab (Stockholm) emails, so the group is partly based in Sweden. Alumni listed on the page were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab",
+     "text": "PI is still at Stanford as of the profile checked; no move found"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab",
+     "text": "Lab website bejerano.stanford.edu failed its HTTPS certificate check, so the people page could not be read and no current postdocs or PhD students were verified"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab",
+     "text": "Google Scholar URL was not found on the Stanford profile"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab",
+     "text": "The profile text was truncated at 100,000 of 236,277 characters, so some content was not read"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-bejerano",
+     "entry_name": "Bejerano Lab",
+     "text": "Heidi Chen appears on the Kingsley lab page as a graduate student co-advised with Bejerano, but this is not confirmed as current and she is not listed as a member"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab",
+     "text": "The lab website (web.stanford.edu/~jfries) could not be opened because of a certificate error, so I did not see a lab members page. The member list is incomplete: it contains only the one postdoc found on a Stanford profile page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab",
+     "text": "PhD students are not listed. Fries says he mainly recruits from Biomedical Data Science and Computer Science, and students must be admitted to a Stanford PhD program first."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab",
+     "text": "The lab is recruiting multiple postdocs (postings seen in search results for Summer-Fall 2026 start). I did not open the posting itself."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab",
+     "text": "The PI is still at Stanford, so no move was found. Some other pages list him differently: the NMBL page shows an older postdoc role, and the HAI page shows Research Engineer. The Stanford profile is the current source."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-fries",
+     "entry_name": "Fries Lab",
+     "text": "The Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "left: Ben Doughty"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "The team page does not show research focus, year or email for individuals, so those fields are null or only the joint affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "The three MD-PhD students are included as PhD students; remove them if you want standard PhD students only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "I did not verify the PI's exact title (Assistant vs Associate Professor) or a Google Scholar URL; the site lists only 'Principal Investigator'."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-engreitz",
+     "entry_name": "Engreitz Lab",
+     "text": "The people list was read through a fetch tool that summarised the page, so confirm it against the live page. It was fetched at /people, which appears to lead to /team."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "joined: Courtney Smith, Julie Zhu; left: Julie (Huisheng) Zhu, Ronghui (Ron) Zhu"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "The lab's own people page (web.stanford.edu/group/pritchardlab/people.html) could not be opened because of a certificate error. The member list comes from the advisee list on the PI's Stanford Profiles page, not from the lab's roster."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "That advisee list may include former members or people who are only co-advised. I read only the first 100,000 of about 265,000 characters of the profile page, so the list may be incomplete."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "Undergraduates and dissertation-reader-only students were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "The PI's Stanford profile showed a leave from 2026-01-01 to 2026-06-15. No move to another institution was found, and Stanford is still listed as his institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-pritchard",
+     "entry_name": "Pritchard Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab",
+     "text": "The lab people page has no date, so the roster may be out of date. Stanford Profiles lists additional advisees (e.g. Ishaq Balogun) who are not on the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab",
+     "text": "The Stanford profile lists no lab website, and an older Stanford page gives the PI's title as Assistant Professor. The profile title is Associate Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab",
+     "text": "No member emails or personal profile links were published. The only lab contact is a Gmail address, which I left out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-palacios",
+     "entry_name": "Palacios Lab",
+     "text": "The lab says it is recruiting students and postdocs. The student may need a visa for a US role."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "joined: Handuo Shi; left: Andrew Verdegaal, Helen Stone, Jess Liang, Kevin Jiang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "I could not open the members page directly (the site returned a certificate rejected error). The roster comes from search-result summaries of https://whatislife.stanford.edu/people.html, not from reading the page. Verify it against the live page before use."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "The roster may be incomplete or out of date. Two searches returned different partial lists, and no update date was visible. The list may include people who have since left, and some students may be missing."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "Years, individual research foci and member emails could not be verified. The PI's published contact is kchuang@stanford.edu, listed on the lab's postdoc recruiting note."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "No institution move found: the PI is still at Stanford."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-huang",
+     "entry_name": "Huang Lab",
+     "text": "Google Scholar URL not verified, so it is left null."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "left: Emily Flynn, Jack O'Sullivan"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "No PI move found: Rivas is still listed at Stanford Biomedical Data Science."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "The members page's newest entries are dated 2024–2025, so I can't confirm who is current as of Nov 2026. The three postdocs are the 2025 entries and may have left."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "No clearly current PhD students are listed. Bem Iordaah is listed as a 'graduate student' (2024–2025, AI dashboards for tumour boards), but the role is unclear, so I left them out. Ivan Lopez appears as a doctoral advisee on the Stanford profile but not on the lab page, so I left them out too."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "The page lists no emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rivas",
+     "entry_name": "Rivas Lab",
+     "text": "No Google Scholar profile for the PI was found."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "joined: Bo Xiong, Kae Nurge"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "PI has not moved. Still at Stanford."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "The lab members page lists only one postdoc (Brian Donovan) and no PhD students. The rest are software developers and engineers, who are staff and excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "Bo Xiong and Kae Nurge come from a search snippet and the profile advisee list, not the lab members page. Their current status is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "The old BMIR people page (bmir.stanford.edu/people/) returned 404. BMIR has been folded into the Division of Computational Medicine."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-musen",
+     "entry_name": "Stanford Center for Biomedical Informatics Research (BMIR)",
+     "text": "Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab",
+     "text": "The PI is still at Stanford, with no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab",
+     "text": "The members page gave no individual profile links or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab",
+     "text": "The focus statement is not verified against the lab's research page, which I did not open."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab",
+     "text": "The Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-covert",
+     "entry_name": "Covert Lab",
+     "text": "The members page's last-updated date is unknown."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "left: Cynthia Li"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "The people page appears out of date. It mixes undated entries and alumni, and does not clearly mark who is current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "The PI's Stanford profile lists a partial leave from Aug 1, 2026 to May 31, 2027, so check her availability before reaching out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "No move: the PI is still at Stanford."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "Cynthia Li is listed as 'PhD Student' but her bio says Master's student in ICME, so she is excluded from the members list. Simon Soerensen (visiting research student) and Indrani Bhattacharya (research engineer) are also excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-rusu",
+     "entry_name": "Rusu Lab",
+     "text": "The Hassan Jahanandish profile link on the page duplicates Negar Golestani's LinkedIn link, so it was left out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab",
+     "text": "No PI move found: the Stanford profile still lists Stanford University as his institution."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab",
+     "text": "The lab wiki roster does not say which members are currently active, and neither roster page shows a last-updated date, so check each person before reaching out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab",
+     "text": "Brenna Li, Kaustubh Dhole and Francois Grolleau are listed as Postdoctoral Scholars on the Computational Medicine page. The lab wiki lists only Li and Dhole as postdocs, and Grolleau is missing from it."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab",
+     "text": "Ali Nowroozi is listed as an MS student on the Computational Medicine page and as 'MS student & Postdoc' on the lab wiki. He is left out of the member list because the role is ambiguous."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-shah",
+     "entry_name": "Shah Lab",
+     "text": "Excluded as non-PhD/postdoc roles: Alison Callahan (Research & Data Scientist), Emma Sage (Project Manager), Bobak Seddighzadeh (Clinical Informatics Fellow), Emma Sun (MS student)."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "joined: Marija Pizurica"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "The members page has no last-updated date; its footer shows ©2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "Sam Zhan is listed under the 'Postdocs' heading but his bio says he is a PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "Marija Pizurica is a visiting doctoral student from Ghent, not a Stanford PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-gevaert",
+     "entry_name": "Gevaert Lab",
+     "text": "The page gives no individual profile links or emails."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "joined: AJ Venkatakrishnan, João Rodrigues, Scott Hollingsworth; left: Anasthasia Shilov, Ayush Pandit, Briana Sobecks, Hyelim Kang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "I could not open drorlab.stanford.edu directly because every fetch failed with a certificate error. The roster comes from search-result summaries of the people page, not a direct read."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "The people page shows no date and the roster looks stale. Some listed names may be alumni, and the postdoc entries in particular are uncertain. Check the page before reaching out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "No emails or individual profile URLs were verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "The PI is still at Stanford, with no move found. The cs.stanford.edu listing says Associate Professor, while the newer CS profile says Cheriton Family Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-dror",
+     "entry_name": "Dror Lab",
+     "text": "The Google Scholar URL was not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab",
+     "text": "No PI move found: the lab page still lists Stanford as current. I checked only the lab homepage and did not cross-check a Stanford department page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab",
+     "text": "The members list is on the homepage (#group); /people/ returns 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab",
+     "text": "The page gives no per-person research focus or year, so those fields are generic or null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab",
+     "text": "Most member profile links are LinkedIn rather than personal or lab pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-linderman",
+     "entry_name": "Linderman Lab",
+     "text": "The PI's email (scott.linderman@stanford.edu) appeared on the lab page, but it is not in the schema's PI fields. No member emails were published."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab",
+     "text": "The PI is still at Stanford. No move was found, and the Stanford profile lists the current titles."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab",
+     "text": "The roster could not be retrieved. The people page at https://smontgomlab.github.io/people.html has Postdocs and Graduate Students sections that load via JavaScript (js/bundle.js), and they were empty in the fetched HTML. Check that page in a browser."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab",
+     "text": "The lab's page on med.stanford.edu only links to the GitHub people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab",
+     "text": "An older Stanford postdoc-mentor page lists the PI as Associate Professor, which looks out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-montgomery",
+     "entry_name": "Montgomery Lab",
+     "text": "No Google Scholar URL was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab",
+     "text": "No move found: PI is still listed at Stanford, but search snippets differ on his Chan Zuckerberg role (co-President of Biohub vs Head of Science at CZI), so the role should be double-checked."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab",
+     "text": "The people page has no date, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab",
+     "text": "The page labels students 'Graduate Student', not 'PhD'. I assumed they are PhD students, but this is unconfirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab",
+     "text": "No individual emails are published. Only the administrator contact ltdunn@stanford.edu appears."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-quake",
+     "entry_name": "Quake Lab",
+     "text": "Member research focus and year are not listed on the people page, and I did not open the individual profile pages."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "joined: Dina Hany, Shahira Abousamra; left: Dina Hany, PhD, Shahira Abousamra, PhD"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "PI is still at Stanford, where she chairs the Department of Biomedical Data Science. No move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "The members page lists Asmita Sood as a PhD student in Biomedical Data Science, but a search snippet described her as an MS student. Check this before contacting her."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "I did not open the profile pages of the other listed non-PhD, non-postdoc people. The lab page lists Jeremy Edwards (visiting scholar), Elizabeth Miller (fall rotation student) and staff, and I excluded all of them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "I did not open the Dina Hany page's linked Stanford profile or Shahira Abousamra's personal site, so their focus areas are unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-plevritis",
+     "entry_name": "Plevritis Lab",
+     "text": "The members page does not show a last-updated date. The Google Scholar URL was not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab",
+     "text": "The lab people page gives only program affiliations, not individual research focus, and its update date is not shown."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab",
+     "text": "Postdoc and PhD student lists differ slightly between the lab page and the Computational Medicine page: Yeon Mi Hwang appears only on the lab page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab",
+     "text": "The lab page spells Namu Park's name differently from the Computational Medicine page ('Na Mu Park')."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-hernandez-boussard",
+     "entry_name": "Hernandez-Boussard Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "left: Sandy Klemm"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "PI is still at Stanford; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "The lab site's contact page says it was last meaningfully updated in 10/2025, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "The people page gives no per-member research descriptions or profile links, so the member focus entries are limited to program and fellowship details."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "Sandy Klemm appears on the people page as both a postdoc and an alumna, so I left her out. Sarah Sun and Tong Wang are listed as medical residents and were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-greenleaf",
+     "entry_name": "Greenleaf Lab",
+     "text": "I did not verify the Google Scholar URL, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab",
+     "text": "No move detected: the PI is still at Stanford (lab email xiaojie@stanford.edu, Biomedical Innovation Building room 3555)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab",
+     "text": "Member profile URLs were built by joining the relative paths on the people page to the lab domain. I did not open the individual profile pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab",
+     "text": "The people page gives no years, research focus or individual emails. Member focus is mostly null, and Weize Xu's comes from a Stanford profile search snippet."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab",
+     "text": "I did not open the Google Scholar profile for the PI, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-qiu",
+     "entry_name": "Qiu Lab",
+     "text": "The only email published is the PI's contact address, xiaojie@stanford.edu."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "left: Julie F. Wang, Runbing Zheng, Zichu Fu"
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "No lab people/members page was found. The personal site (Home, Research and Software sections) and the Stanford QSU page list no postdocs or PhD students, so the members list is empty rather than confirmed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "PI is still at Stanford. No move was found. Stanford pages disagree on the title: older pages say Assistant Professor (Research), and the current profile says Associate Professor (Research)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "No Google Scholar link was found. Only an ORCID, https://orcid.org/0000-0002-8220-4183, is listed on the Stanford profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "The Stanford postdoc opportunities page shows the PI recruiting postdocs, with contact zihuai@stanford.edu. I did not open that page, and the address comes from a search-result summary, so it is not recorded as a member email."
+    },
+    {
+     "type": "flag",
+     "entry_id": "stanford-he",
+     "entry_name": "He Lab",
+     "text": "Only the first 100,000 of about 208,000 characters of the Stanford profile page were read."
+    }
+   ]
+  },
+  {
    "week": "2026-11-19",
    "generated_at": "2026-11-19T22:19:09+00:00",
    "checked": 30,
