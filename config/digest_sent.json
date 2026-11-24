@@ -19,6 +19,11 @@
   "status": "unknown",
   "url": "https://amazon.jobs/en/jobs/2793817/2025-applied-science-internship-canada-phd-student-science-recruiting"
  },
+ "amazon / aws|applied scientist internship (phd) – bucharest": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://www.amazon.jobs/jobs/10585292/-applied-scientist-internship--phd-amazon-university-talent-acquisition?cmpid=bsp-amazon-science"
+ },
  "anthropic|ai for science api credits program": {
   "sent": "2026-11-09",
   "status": "rolling",
@@ -114,6 +119,11 @@
   "status": "unknown",
   "url": "https://brain.broadinstitute.org/jobs/visiting_scientists_program"
  },
+ "calico (alphabet)|calico postdoctoral fellowships (hahn lab, jan lab, nile lab, ruby lab; for future reference)": {
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://www.calicolabs.com/postdoctoral-fellowship/"
+ },
  "calico (alphabet)|calico postdoctoral fellowships (hahn lab, jan lab, nile lab; listed for future reference)": {
   "sent": "2026-11-16",
   "status": "open",
@@ -146,6 +156,11 @@
  },
  "caltech|visiting student researcher (vsr)": {
   "sent": "2026-10-30",
+  "status": "rolling",
+  "url": "https://gradoffice.caltech.edu/academics/otherprograms/visiting-student-researcher-vsr"
+ },
+ "caltech|visiting student researcher (vsr) appointment, caltech graduate studies office (host lab in biology & biological engineering, computing + mathematical sciences, or another division)": {
+  "sent": "2026-11-24",
   "status": "rolling",
   "url": "https://gradoffice.caltech.edu/academics/otherprograms/visiting-student-researcher-vsr"
  },
@@ -183,6 +198,11 @@
   "sent": "2026-10-30",
   "status": "open",
   "url": "https://careerservices.fas.harvard.edu/jobs/eli-lilly-lilly-research-laboratories-tda-2027-summer-doctoral-inter/"
+ },
+ "eli lilly|lilly research laboratories tda – 2027 fall doctoral internship": {
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://xtalks.com/job/lilly-research-laboratories-tda-2027-fall-doctoral-internship/"
  },
  "eli lilly|lilly research laboratories tda – 2027 summer doctoral internship": {
   "sent": "2026-11-16",
@@ -223,6 +243,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/20260824_GenericPoster_2027_Update-screen.pdf"
+ },
+ "embl-ebi|embl-ebi events and training listing (all courses and workshops)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://www.ebi.ac.uk/about/events"
  },
  "embl-ebi|embl-ebi training events (courses, workshops, webinars)": {
   "sent": "2026-10-30",
@@ -279,6 +304,11 @@
   "status": "unknown",
   "url": "https://www.crick.ac.uk/careers-and-study/postdocs/postdoc-recruitment"
  },
+ "francis crick institute|crick pace postdoctoral fellowships (with ucl, king's, imperial)": {
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://www.crick.ac.uk/careers-and-study/postdocs/postdoc-recruitment/pace-postdoctoral-fellowships"
+ },
  "francis crick institute|crick technical training (external courses)": {
   "sent": "2026-10-30",
   "status": "rolling",
@@ -302,6 +332,11 @@
  "genentech|genentech general graduate internships and university programs": {
   "sent": "2026-10-30",
   "status": "opens_soon",
+  "url": "https://qbi.ucsf.edu/virtual-coffee-chat-internships-and-postdocs-at-genentech"
+ },
+ "genentech|genentech general graduate internships and university programs (2027 summer postings in other areas)": {
+  "sent": "2026-11-24",
+  "status": "open",
   "url": "https://qbi.ucsf.edu/virtual-coffee-chat-internships-and-postdocs-at-genentech"
  },
  "genentech|gred summer internship (computational biology & medicine / computational sciences coe / computational cancer biology and ai)": {
@@ -343,6 +378,21 @@
   "sent": "2026-11-16",
   "status": "rolling",
   "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule/"
+ },
+ "harvard university|harvard chan bioinformatics core: advanced topics in ngs data analysis workshops (scrna-seq, pseudobulk, spatial transcriptomics, differential expression)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+ },
+ "harvard university|harvard chan bioinformatics core: cells to insights boot camp (intro to r and scrna-seq)": {
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
+ },
+ "harvard university|harvard chan bioinformatics core: current topics in bioinformatics (free monthly modules, e.g. multiomics i-iii)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://hsph.harvard.edu/research/bioinformatics/training/training-schedule"
  },
  "harvard university|harvard chan bioinformatics core: current topics in bioinformatics (multiomics, r, quarto, rshiny) and basic data skills (python, r)": {
   "sent": "2026-11-16",
@@ -419,6 +469,11 @@
   "status": "rolling",
   "url": "https://www.microsoft.com/en-us/research/careers/"
  },
+ "microsoft research|microsoft research internship (including health futures, genomics and bio-llm roles)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://www.microsoft.com/en-us/research/careers/"
+ },
  "mit|eric and wendy schmidt center postdoctoral fellowship (broad institute / mit / harvard)": {
   "sent": "2026-11-16",
   "status": "rolling",
@@ -448,6 +503,11 @@
   "sent": "2026-11-02",
   "status": "rolling",
   "url": "https://oge.mit.edu/graduate-admissions/programs/exchange-special-visiting-students"
+ },
+ "mrc laboratory of molecular biology|lmb phd programme (2027 intake)": {
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://mrclmb.ac.uk/careers-and-people/student-placements/"
  },
  "mrc laboratory of molecular biology|lmb phd studentship 2027 entry (open competition; includes computational project e.g. david barford 'machine learning for finding macromolecules in cells')": {
   "sent": "2026-11-02",
@@ -479,10 +539,20 @@
   "status": "rolling",
   "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
  },
+ "new york genome center|nygc postdoctoral training program (postdoc positions posted by lab)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
+ },
  "new york genome center|nygc postdoctoral training program (postdoctoral research associate roles)": {
   "sent": "2026-11-16",
   "status": "rolling",
   "url": "https://www.nygenome.org/careers/open-positions-training-opportunities/postdoctoral-training-program/"
+ },
+ "noetik|express interest: artificial intelligence, data foundry, engineering and therapeutics (general talent pool)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://www.noetik.ai/careers"
  },
  "nvidia|applied deep learning scientist intern, bio foundation model research (summer 2026 posting; 2027 not found)": {
   "sent": "2026-10-30",
@@ -494,6 +564,11 @@
   "status": "open",
   "url": "https://research.nvidia.com/graduate-fellowships"
  },
+ "openai|openai early-career / emerging talent internships": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://openai.com/careers/emerging-talent/"
+ },
  "openai|openai internships (emerging talent / research intern)": {
   "sent": "2026-10-30",
   "status": "unknown",
@@ -503,6 +578,11 @@
   "sent": "2026-10-30",
   "status": "unknown",
   "url": "https://openai.com/residency"
+ },
+ "openai|software engineer, applied emerging talent (2027)": {
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://openai.com/careers/software-engineer-applied-emerging-talent-(2027)-san-francisco/"
  },
  "princeton university|postdoctoral research associate in computational biology, pritykin lab (lewis-sigler institute)": {
   "sent": "2026-10-30",
@@ -575,9 +655,9 @@
   "url": "https://education.scripps.edu/cpdo/students-and-postdocs/prospective-postdocs/index.html"
  },
  "scripps research|scripps research translational institute (srti) student research internship program": {
-  "sent": "2026-10-30",
-  "status": "unknown",
-  "url": "https://education.scripps.edu/undergraduate/summer-research/other-programs/"
+  "sent": "2026-11-24",
+  "status": "open",
+  "url": "https://www.scripps.edu/science/translational-institute/education-training/student-research-internship-program/"
  },
  "scripps research|scripps research visiting student (thesis/dissertation research internship, j-1)": {
   "sent": "2026-10-30",
@@ -586,6 +666,11 @@
  },
  "scripps research|visiting student (thesis/dissertation research internship, arranged with a host pi)": {
   "sent": "2026-11-09",
+  "status": "rolling",
+  "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
+ },
+ "scripps research|visiting student / research internship (j-1 short-term or research scholar)": {
+  "sent": "2026-11-24",
   "status": "rolling",
   "url": "https://www.scripps.edu/about/campus-resources/international-services-office/international-students/visiting-students/index.html"
  },
@@ -631,6 +716,11 @@
  },
  "university college london|independent visiting research student (ucl central route; biosciences and other departments need supervisor and department approval)": {
   "sent": "2026-11-16",
+  "status": "rolling",
+  "url": "https://www.ucl.ac.uk/prospective-students/international/study-abroad-and-exchange/applying-independent-visiting-research-student"
+ },
+ "university college london|independent visiting research student (ucl central scheme; applied to a bioinformatics, genomics or computational biology group, e.g. ucl genetics institute, cancer institute or centre for computation": {
+  "sent": "2026-11-24",
   "status": "rolling",
   "url": "https://www.ucl.ac.uk/prospective-students/international/study-abroad-and-exchange/applying-independent-visiting-research-student"
  },
@@ -829,6 +919,11 @@
   "status": "open",
   "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/organoids-and-beyond-from-development-to-disease-20270301/"
  },
+ "wellcome sanger institute|sanger core postdoc fellowships (faculty-led)": {
+  "sent": "2026-11-24",
+  "status": "rolling",
+  "url": "https://www.sanger.ac.uk/about/careers/postdoc-programme-recruitment/"
+ },
  "wellcome sanger institute|sanger core postdoctoral fellow positions (rolling; workday)": {
   "sent": "2026-11-09",
   "status": "rolling",
@@ -846,6 +941,11 @@
  },
  "wellcome sanger institute|sanger institute 4-year phd programme (2027 entry)": {
   "sent": "2026-11-16",
+  "status": "open",
+  "url": "https://www.sanger.ac.uk/about/study/phd-programmes/4-year-phd-programme/application-process-for-sanger-institute-4-year-phd-programme/"
+ },
+ "wellcome sanger institute|sanger institute 4-year phd programme (2027 intake)": {
+  "sent": "2026-11-24",
   "status": "open",
   "url": "https://www.sanger.ac.uk/about/study/phd-programmes/4-year-phd-programme/application-process-for-sanger-institute-4-year-phd-programme/"
  },
