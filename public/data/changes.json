@@ -2,9 +2,945 @@
  "weeks": [
   {
    "week": "2026-11-26",
-   "generated_at": "2026-11-26T09:42:22+00:00",
+   "generated_at": "2026-11-26T19:46:14+00:00",
    "checked": 30,
    "items": [
+    {
+     "type": "members_changed",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "joined: Benjamin B. Morris, Dexin Yang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "No PI move found: the lab page and members page both show Peter Van Loo at MD Anderson (Houston)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "The members page gives no research focus or year for any member, so member entries are minimal and the year is null throughout."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "The members page lists Noshad Hosseini (postdoc, 2025–2026) as alumni, so the roster appears to have been updated in 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "Visiting PhD student Dexin Yang and visiting postdoc Benjamin B. Morris are included because they are listed as current MD Anderson visitors. Other visiting scientists with outside affiliations were excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "other-vanloo",
+     "entry_name": "Van Loo Lab",
+     "text": "Staff (data scientists, lab manager) and rotation students were excluded."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "joined: Morgan Sanchez"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "No PI move found: the PI is still at Harvard Medical School, DBMI, in Boston."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "No official Manrai Lab website was found. The guessed domains manrailab.org, manrai.org and manrailab.hms.harvard.edu did not resolve, so the main lab URL is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "The member list is INCOMPLETE and unverified. It is built only from DBMI directory entries tagged 'Manrai Lab'. The directory page is paginated with a 'Load More' link, which I did not fully expand. I identified no postdocs, so check the DBMI directory directly."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "The PI's rank appears as Associate Professor on the current DBMI profile and the 2026 NEXUS spotlight, but older pages say Assistant Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-manrai",
+     "entry_name": "Manrai Lab",
+     "text": "The bmiphd.hms.harvard.edu and ogephd.hms.harvard.edu profile pages returned 403 errors and could not be opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "No PI move found: the HMS DBMI profile still lists him as Associate Professor at Harvard Medical School."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "The members page has no 'last updated' date, so the roster's currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "No start years or emails are published on the members page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "Braden T. Tierney (listed as Director) and Sivateja Tangirala (Research Associate) are on the page but were excluded as non-postdoc, non-PhD staff."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-patel",
+     "entry_name": "Patel Group",
+     "text": "Profile URLs were built from relative links on the members page; I did not open the individual profile pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "PI's current institution confirmed as Harvard Medical School (DBMI Chair); no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "Members could not be verified: zaklab.org returned HTTP 403, kohanelab.org does not resolve, and the DBMI lab page (dbmi.hms.harvard.edu/zak) lists no postdocs or students. The members list is therefore empty, not confirmed as having no members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "The DBMI directory lists PhD students Roshan Kenia (AI in Medicine) and Ellie Kim (Bioinformatics and Integrative Genomics). Neither is confirmed as a Kohane lab member, so I did not include them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "The only lab-affiliated person named on the DBMI page is Samantha Lemos, Executive Coordinator (staff, not a student or postdoc)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-kohane",
+     "entry_name": "Kohane Lab",
+     "text": "No Google Scholar link was found on the official pages, so scholar_url is null. The PI has a Harvard Catalyst profile: https://connects.catalyst.harvard.edu/Profiles/display/Person/25477"
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "left: Chi-Kang Pai, Christian Engel, Christoph Bucher, Guillaume Larghero, Idil Ünlü, Jing Li, Johanna Topalis, Siavash Raissi, Sunni Lin, Ting-Wan Kao"
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "The people page lists 10 'Graduate Students' (Chi-Kang Pai, Guillaume Larghero, Christian Engel, Idil Ünlü, Ting-Wan Kao, Siavash Raissi, Jing Li, Sunni Lin, Christoph Bucher, Johanna Topalis). The page does not say whether they are PhD students, so I left them out of the members list. Chi-Kang Pai "
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "I could not confirm the PI's title or find his Scholar link. I did not search for them or open his HMS profile."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "I did not check the PI's institution against a separate source. The lab site still lists Harvard Medical School, so I found no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "The people page gave no information on when it was last updated, members' years, research focus or emails."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-yu",
+     "entry_name": "Yu Lab",
+     "text": "I fetched only the lab home page and the people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "No PI move found: still at HMS Biomedical Informatics with a Broad Institute affiliation."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "Emails were obfuscated on the members page, so the addresses were reconstructed from the displayed text. Verify them before use."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "The members page gives no individual profile pages, years of study, or research focus for several members."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "Google Scholar URL not found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-o-connor",
+     "entry_name": "O'Connor Lab",
+     "text": "The page also lists a Master's student, Qiuqi (Autumn) Xu, who is excluded. The lab website's own text said no postdoc positions were open at the time of search."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "No PI move found: the lab site still lists Harvard and the Department of Biomedical Informatics, HMS."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "Research focus, years and emails are not published on the people page; per-member focus is left generic rather than guessed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "The PI's title and Google Scholar URL were not shown on the pages fetched, so the title is based on the people page and the Scholar URL is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "Only the lab home page and people page were checked, with no separate searches. The page affiliations for Ayush Noori (Oxford) and Robert Calef/Michael Sun (MIT) suggest some students are enrolled at other institutions."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-zitnik",
+     "entry_name": "Zitnik Lab",
+     "text": "Postdoc and student links on the page include some placeholders; only links that resolved to a real URL are included."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Peter Park is still at Harvard Medical School (Dept. of Biomedical Informatics), so no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "The people page gives training background only. It lists no research focus or email for anyone, so those fields are null or marked as not listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Kate Woo is listed under Postdoctoral Fellows but is a Visiting Scholar."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Elizabeth (Hye-Jung) Chun, a Research Associate and Associate Director of the SMaHT Data Analysis Center, holds a UBC bioinformatics PhD. She is a possible contact for a UBC student but is not counted as a postdoc or PhD student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-park",
+     "entry_name": "Park Lab",
+     "text": "Dominik Glodzik and Julia Markowski are listed as postdoc alumni (both left in 2026)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab",
+     "text": "PI is still at Harvard Medical School, Department of Biomedical Informatics, according to the lab site. No move found. I did not check a second source."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab",
+     "text": "The /people URL returned 403, so the member list comes from /team. It gives no research focus, year or email for any member."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab",
+     "text": "The lab site does not give the PI's title on its home page. 'Associate Professor' comes from the team page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab",
+     "text": "The PI's profile and Google Scholar URLs were not verified, so they are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-rajpurkar",
+     "entry_name": "Rajpurkar Lab",
+     "text": "The lab advertises postdoc and predoc positions and a PhD pathway through Harvard's AI in Medicine program."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "No move found: the PI is still at Harvard Medical School (DBMI profile)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "The lab site failed certificate verification, so I could not open the members page directly. The member list comes from a search-engine summary of that page, not a direct read."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "The members page appears more than a year old, so the roster may be outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "The summary also named Carles Boix, Evan Koch, Ryan McGinty, Misha Moldovan and Vova Seplyarskiy, but their roles were not stated. I left them out; some may be postdocs or students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "harvard-sunyaev",
+     "entry_name": "Sunyaev Lab",
+     "text": "Student years, research focuses and emails could not be verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab",
+     "text": "PI is still at MIT; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab",
+     "text": "The members page has no individual profile links or emails, and no dates or years for members. I did not check when the page was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab",
+     "text": "The MIT CSB page lists an older lab URL (mit.edu/biology/keating/KeatingLab/Home.html); the keatinglab.mit.edu people page was used for the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab",
+     "text": "The PI's Google Scholar URL was not verified, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-keating",
+     "entry_name": "Keating Lab",
+     "text": "A US role would likely need a visa for a Canadian student."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-berger",
+     "entry_name": "Berger Lab (CSAIL Computation and Biology)",
+     "text": "The members page lists no year for any member and shows no last-updated date (footer says © 2026), so the roster's currency is unverified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-berger",
+     "entry_name": "Berger Lab (CSAIL Computation and Biology)",
+     "text": "No individual emails are published; the only one is the general lab address bab@mit.edu in the page footer."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-berger",
+     "entry_name": "Berger Lab (CSAIL Computation and Biology)",
+     "text": "The Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-berger",
+     "entry_name": "Berger Lab (CSAIL Computation and Biology)",
+     "text": "I did not open the csbphd.mit.edu discovery URL."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "left: Diana Gong, Owen Leddy"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "brysonlab.mit.edu/team redirects (301) to brysonlab.org. I read the team section on the homepage, and the page gives no years, research focus or individual profile links."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "The page labels members 'Graduate Student', not 'PhD Student'. I treated them as PhD students, which is an assumption."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "Diana Gong and Owen Leddy appear as current in one fetch of the homepage but as alumni in the search summary of the old team page. I left them out and they should be verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "The page has two team sections whose email assignments differ, so check the emails before use."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bryson",
+     "entry_name": "Bryson Lab",
+     "text": "The MIT CSB page lists the PI as Assistant Professor, while other sources say Associate Professor. The title could not be confirmed on a single official page."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab",
+     "text": "left: Aditya Wirawan, David McWatters, Kira Patterson, Kuerbannisha Amahong, Michael McGurk, Tara Chari"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab",
+     "text": "The lab's Current people page (/current) returned 404 on every URL variant I tried, so no members could be verified and the member list is empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab",
+     "text": "The PI's current institution (MIT) is confirmed by the MIT CSB faculty page; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab",
+     "text": "Google Scholar URL not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-burge",
+     "entry_name": "Burge Lab",
+     "text": "Check the live site manually for the current roster. A search surfaced a genes.mit.edu profile for Kayla McCue (graduate student, CSB), but I could not confirm she is still a current member, so she is not listed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group",
+     "text": "No move detected: the PI is still at MIT."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group",
+     "text": "The CSB program page lists an older title (Assistant Professor), while the lab people page lists Associate Professor, so the lab page is likely the more current."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group",
+     "text": "Some members are co-advised or visiting (Anna Marija Sumrova is a visiting student from Cambridge)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group",
+     "text": "Member profile links are mostly LinkedIn or personal pages."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-coley",
+     "entry_name": "Coley Research Group",
+     "text": "No year-of-study data was published."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab",
+     "text": "PI is still at MIT; no move found"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab",
+     "text": "The members page shows no update date and may be stale. The search snippet calls Alm an Associate Professor, but the CSB page says Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab",
+     "text": "almlab.mit.edu failed to load because of a certificate error, so the roster comes from the web.mit.edu mirror."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab",
+     "text": "Individual profile pages are relative links on the members page that I did not open, so profile_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-alm",
+     "entry_name": "Alm Lab",
+     "text": "Ethan Evans appears under Current Members with no role given, so he is excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "PI is still at MIT and no move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "The PI's title is Professor of Biological Engineering on the lab page; the CSB faculty page (the discovery URL) still says Associate Professor, so it appears outdated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "The members page gives no research descriptions or profile links, and the group photo is dated Oct 2022, so the roster may lag. The footer shows © 2026."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "Only Brian Kang's email is published; the lab's general contact is fraenkel-admin@mit.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-fraenkel",
+     "entry_name": "Fraenkel Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project)",
+     "text": "PI is still at MIT, with no move found. He also holds Broad Institute and Wyss Institute (Harvard) appointments."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project)",
+     "text": "The members page does not state research focus or year for anyone, so those fields are generic or null. Profile pages were not opened."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project)",
+     "text": "The page shows emails as 'name [at] domain'. I converted them to standard form."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project)",
+     "text": "Some students are Harvard-affiliated or DTU-affiliated rather than MIT students."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-collins",
+     "entry_name": "Collins Lab (Antibiotics-AI Project)",
+     "text": "The page lists Rih-Sheng Huang and James Robson with PhDs dated 2026, and gives no date for when the roster was last updated."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "left: Albert Blanch Asensio, Deon Ploessl, Joji Teves, Nat Wang, Richard Hongyi Li"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "PI is still at MIT. I found no sign of a move."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "The people page shows only '© Copyright 2026' and has no explicit update date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "The page lists Richard Hongyi Li, Albert Blanch Asensio, Deon Ploessl, Joji Teves, Nat Wang, Zahmiria Johnson, Christopher Johnstone, Sneha Kabaria and Emma Peterman under Alumni. I excluded them, but a search snippet showed some of them in current postdoc or student lists in an earlier snapshot, so"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "The page gives no per-person research focus or year. I did not open the individual profile pages, so the focus fields are blank."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-galloway",
+     "entry_name": "Galloway Lab",
+     "text": "No individual emails are published. The only address on the page is the general lab address, katiegal@mit.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab",
+     "text": "PI is still at MIT; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab",
+     "text": "The lab website bathebionano.org returned a TLS certificate mismatch (the host is not in the certificate's names), so the people page could not be opened. The member list is therefore empty, not verified as empty."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab",
+     "text": "The MIT BE directory profile lists no postdocs or students, only a staff member (Terra Cholfin)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab",
+     "text": "Google Scholar URL not verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bathe",
+     "entry_name": "Bathe Lab",
+     "text": "The student would need a US visa for any role here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group",
+     "text": "No move found: PI is still at MIT (EECS/IMES)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group",
+     "text": "PI Google Scholar URL not verified, so it is left null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group",
+     "text": "Member list comes from a single fetch of the people page, and the page's last-updated date was not checked."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group",
+     "text": "Individual profile URLs are as listed on the people page, and I did not open them."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-ghassemi",
+     "entry_name": "Healthy ML Group",
+     "text": "PhD years are not listed on the page."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "left: Ada Zhu, James Occean, Juliano Ribeiro, Julien Dilly, Liz Codd"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "PI is still at MIT. He is a new faculty member (MIT news, March 2026) and was previously a postdoc with Howard Chang at Stanford, so no move is flagged."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "The member roster could not be read. The /team page content returned by the fetch tool was truncated and the Lab Members section was not visible, so no postdocs or PhD students are listed. Check the live page manually."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "No Google Scholar profile URL was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "No lab emails were verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-jones",
+     "entry_name": "Jones Lab",
+     "text": "The lab is new, so it likely has a small roster."
+    },
+    {
+     "type": "members_changed",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "joined: Hannah Ramcharan, Wenjuan Du, Yike Huang"
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "PI has not moved. She is still at MIT and the Whitehead Institute (Member since 2021)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "The MIT faculty directory may list her as Associate Professor, but the Whitehead and CSB pages say Assistant Professor, so the current rank is unclear."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "The people page does not state roles for Wenjuan Du, Hannah Ramcharan or Yike Huang. Their postdoc/PhD classification is inferred and should be verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "The people page also lists a lab technician (Sofia Agudelo), who is excluded here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-corradin",
+     "entry_name": "Corradin Lab",
+     "text": "No Google Scholar URL was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab",
+     "text": "PI is still at MIT (CEE); no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab",
+     "text": "The members page does not give emails, profile links or years, and I could not tell when it was last updated."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab",
+     "text": "The MIT faculty page says the title is Doherty Assistant Professor of Ocean Utilization. I did not check whether the title has changed."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab",
+     "text": "Samantha Pennino is listed as a Research Associate (staff) and is excluded."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-cordero",
+     "entry_name": "Cordero Lab",
+     "text": "I did not find a Google Scholar profile, so scholar_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab",
+     "text": "No PI move found: the PI is still at MIT and the Broad Institute."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab",
+     "text": "The PI title differs between sources: the lab team page says Professor, and the MIT CSB page says Associate Professor."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab",
+     "text": "The team page has no date. Its footer reads 2025 and some photo uploads are dated 2026. Another search summary listed a slightly different roster, so check the roster before reaching out."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab",
+     "text": "The team page gives no per-person research focus or year for any member. Roles come from the page's section headings."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-blainey",
+     "entry_name": "Blainey Lab",
+     "text": "Frances Keer appears as a postdoc on the fetched page but as a graduate student in a search summary, so the role is uncertain."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group",
+     "text": "PI is still at MIT; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group",
+     "text": "The people page lists no current postdocs. Athena Taymourtash is listed as a postdoc for 2024–2026, so she is treated as an alumna."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group",
+     "text": "The people page gives no research focus, year or email for the students, so those fields are null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group",
+     "text": "Student focus areas were not verified; I did not open their personal sites."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-golland",
+     "entry_name": "Medical Vision Group",
+     "text": "Only the PI's email is published on the page (polina at csail.mit.edu), and I did not include it because it is not in the member list."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group",
+     "text": "The members page looks stale. The newest alumni listed graduated in 2023, and the page shows no years or per-person focus for most members. Some listed students (e.g. Corso, Stark, Yim, Wohlwend) may have graduated or moved on. Verify current status before outreach."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group",
+     "text": "The PI's own page (regina.csail.mit.edu) lists a shorter group of 12 names without roles. Roles come from rbg.mit.edu/people only."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group",
+     "text": "No PI move found: she is still at MIT. Her title differs between pages (Delta Electronics Professor on the CSB page; Distinguished Professor for AI and Health on her own page)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group",
+     "text": "The page also lists two Masters students (Evan Rubel, Isaac Duitz), excluded here."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-barzilay",
+     "entry_name": "Barzilay Group",
+     "text": "PI Google Scholar URL not verified. Emails are copied from the official lab people page."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group",
+     "text": "PI is still at MIT; no move found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group",
+     "text": "There is no separate people page. The 'My group' section of the homepage lists five people under 'Current PhD Students and Postdocs', with no individual roles, years, focus areas or emails. All 'PhD student' roles in this JSON are assumed and should be verified against each personal site."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group",
+     "text": "Eric Weine has no verified personal site: the fetch tool pointed to a general LIDS students page, so profile_url is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group",
+     "text": "The lab site at groups.csail.mit.edu/tamaralab returned 403, and tamarabroderick.com/people.html returned 404."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-broderick",
+     "entry_name": "Broderick Group",
+     "text": "The PI's Google Scholar URL was not verified, so it is null."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab",
+     "text": "No move: PI is at MIT (started as assistant professor in Fall 2025)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab",
+     "text": "The csbphd.mit.edu discovery URL is a faculty listing page, not the lab site; the lab site is hwanglab.mit.edu."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab",
+     "text": "Members page shows only 'Copyright 2025' with no last-updated date, so the roster may be out of date."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab",
+     "text": "Excluded as non-PhD/postdoc: Tom Lankiewicz (research scientist), Tori Yetman (administrative assistant), Anisha Parsan (UROP undergraduate)."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-hwang",
+     "entry_name": "Hwang Lab",
+     "text": "Jia Lu's listed email is a personal Gmail address; it appears on the lab page, but is not an MIT address."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab",
+     "text": "The lab is new: the PI starts in early 2026. A search snippet said the members page reads 'Coming soon', so no postdocs or PhD students are listed. I could not confirm this myself."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab",
+     "text": "The bailab.mit.edu home page and the be.mit.edu faculty page returned 404 when I fetched them. Lab details come from the csbphd.mit.edu page and search snippets."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab",
+     "text": "The PI's previous position was as a postdoc at Yale (per search snippet); the MIT listing is the current affiliation, and no other move was found."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab",
+     "text": "No Google Scholar URL was verified."
+    },
+    {
+     "type": "flag",
+     "entry_id": "mit-bai",
+     "entry_name": "Bai Lab",
+     "text": "The lab is likely to be recruiting. The student should check the MIT Biological Engineering admissions pages for current openings."
+    },
     {
      "type": "flag",
      "entry_id": "stanford-curtis",
