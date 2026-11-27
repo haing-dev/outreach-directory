@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T12:42:27+00:00",
+ "generated_at": "2026-11-27T22:32:06+00:00",
  "model": "claude-sonnet-5-5",
  "effort": "medium",
  "entries": [
@@ -489,46 +489,50 @@
    "department_hint": null,
    "id": "other-alexandrov",
    "url": "https://alexandrov.cloud.ucsd.edu/",
-   "focus": "The lab develops machine-learning and computational methods to study the molecular mechanisms of cancer development and progression. A core theme is mutational signatures: the SigProfiler tool suite is used to find the mutational footprints of endogenous and exogenous processes in cancer and normal genomes. Related work covers copy-number and structural signatures, APOBEC mutagenesis, and microbial exposures such as colibactin in early-onset colorectal cancer. The lab also uses high-accuracy duplex sequencing of normal tissues to study somatic mutation, aging and cancer predisposition. It also applies deep learning to histopathology slides and works on genomic biomarkers of treatment response.",
+   "focus": "The lab develops machine-learning and computational methods for large omics datasets. It uses them to study the molecular mechanisms of cancer development and progression. Major topics are mutational signatures (the SigProfiler tool suite), including signatures of copy-number and structural variants, and APOBEC mutagenesis. Other topics are somatic mutation in normal tissue studied with duplex sequencing, environmental and bacterial mutagens such as colibactin, and genomic biomarkers of treatment response. The lab also works on tumour evolution, germline-somatic interactions, and deep learning on histopathology slides. It is part of the Cancer Grand Challenges CAUSE project.",
    "topics": [
     "mutational signatures",
     "cancer genomics",
-    "structural variants / copy number",
     "machine learning",
-    "duplex sequencing of normal tissue",
-    "environmental mutagenesis"
+    "structural variants / copy number",
+    "somatic mutation in normal tissue",
+    "duplex sequencing"
    ],
    "fit": {
-    "score": 5,
-    "reason": "Strong overlap with the student's interests in somatic mutation and structural-variant analysis, cancer whole-genome sequencing and ML for genomics. Single-cell and spatial omics is the only minor gap, and a US visa would likely be needed."
+    "score": 4,
+    "reason": "Strong overlap with cancer WGS, somatic mutation and structural-variant signature analysis, and ML methods for genomics. Single-cell and spatial omics are not a visible focus, and a US visa would likely be needed."
    },
    "flags": [
-    "No PI move found: the team page still lists UC San Diego (Cellular and Molecular Medicine and Bioengineering).",
-    "The team page has no date, so I can't tell how current it is.",
-    "I couldn't fetch alexandrov-lab.com (DNS failure). The lab site used here is alexandrov.cloud.ucsd.edu.",
-    "I excluded staff and research associates (Steele, Nandi, Kundu, D'Antonio-Chronowska, Duong) and the undergraduates (Joseph, Murali).",
-    "Nandi is an Assistant Project Scientist and Steele is a Research Associate. Both work on signatures, duplex sequencing and structural/copy-number data, which is relevant to the student's interests."
+    "PI is still at UC San Diego. No move found on the lab pages.",
+    "The team page has no date, so the roster may be out of date. Cohort years are given for only a few students.",
+    "The first site I opened, alexandrovlab.com, belongs to a different lab (Andrei Alexandrov, RNA biology). I did not use it.",
+    "I left out staff and researchers who are not postdocs or PhD students: Christopher Steele (Research Associate), Shuvro Prakash Nandi (Assistant Project Scientist), Mousumy Kundu, Agnieszka D'Antonio-Chronowska and Janelle Duong. I also left out two undergraduates.",
+    "Emails come from the lab's UCSD-hosted team page."
    ],
    "sources": [
     {
-     "title": "Alexandrov Lab team page",
+     "title": "Alexandrov Lab - Team",
      "url": "https://alexandrov.cloud.ucsd.edu/team"
     },
     {
-     "title": "UCSD Profiles - Ludmil Alexandrov",
+     "title": "Alexandrov Lab - Home",
+     "url": "https://alexandrov.cloud.ucsd.edu/"
+    },
+    {
+     "title": "Ludmil Alexandrov - UCSD Profiles",
      "url": "http://profiles.ucsd.edu/ludmil.alexandrov"
     },
     {
-     "title": "Google Scholar - Ludmil Alexandrov",
+     "title": "Ludmil Alexandrov - Google Scholar",
      "url": "https://scholar.google.com/citations?user=UCO6fKwAAAAJ&hl=en"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:02:35+00:00",
+   "refreshed_at": "2026-11-27T22:04:07+00:00",
    "error": null,
    "pi_profile": {
     "name": "Ludmil B. Alexandrov",
-    "title": "Professor of Cellular and Molecular Medicine and Bioengineering",
+    "title": "Professor, Department of Cellular and Molecular Medicine and Department of Bioengineering",
     "profile_url": "http://profiles.ucsd.edu/ludmil.alexandrov",
     "scholar_url": "https://scholar.google.com/citations?user=UCO6fKwAAAAJ&hl=en"
    },
@@ -537,7 +541,7 @@
      "name": "Ammal Abbasi",
      "role": "Postdoc",
      "year": null,
-     "focus": "Microbial and environmental exposures in cancer genomes, colibactin, early-onset colorectal cancer, and genomic biomarkers of treatment response",
+     "focus": "Colibactin-producing bacteria and early-onset colorectal cancer; genomic biomarkers of treatment response",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=-RKn5p8AAAAJ&hl=en&oi=ao"
     },
@@ -545,7 +549,7 @@
      "name": "June-Young Koh",
      "role": "Postdoc",
      "year": null,
-     "focus": "Genome instability and immune dysregulation, pediatric cancers, and mutational signatures with aging. The page lists them under 'Postdoctoral Fellows & Research Associates' and doesn't state their exact role.",
+     "focus": "Genome instability, immune dysregulation, and mutational signatures in pediatric cancers and aging",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=S-u2y-cAAAAJ&hl=ko"
     },
@@ -553,7 +557,7 @@
      "name": "Yuhe Cheng",
      "role": "Postdoc",
      "year": null,
-     "focus": "Phenotypic profiling of mutational signatures in tumors and normal tissues",
+     "focus": "Phenotypic profiling of mutational signatures in tumors and normal tissue",
      "email": null,
      "profile_url": null
     },
@@ -561,7 +565,7 @@
      "name": "Banghua Xu",
      "role": "PhD student",
      "year": "2023 cohort",
-     "focus": "Bioinformatics tools and deep learning on cancer histopathology slides",
+     "focus": "Bioinformatics tools; deep learning on histopathology slides",
      "email": null,
      "profile_url": null
     },
@@ -569,7 +573,7 @@
      "name": "Douglas Meyer",
      "role": "PhD student",
      "year": "2022 cohort",
-     "focus": "Germline-somatic interactions affecting oncogenic pathways, co-advised with the Hannah Carter Lab",
+     "focus": "Germline-somatic interactions affecting oncogenic pathways; co-advised with the Hannah Carter Lab",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=NiYcs4EAAAAJ&hl=en"
     },
@@ -577,7 +581,7 @@
      "name": "Gabi Yung",
      "role": "PhD student",
      "year": null,
-     "focus": "Environmental exposures and mutational footprints in healthy tissues",
+     "focus": "Environmental exposures leaving mutational footprints in healthy tissue (Bioengineering)",
      "email": null,
      "profile_url": null
     },
@@ -585,7 +589,7 @@
      "name": "Haoran Zhang",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational methods and machine learning for mutational signatures",
+     "focus": "Computational methods for mutational signatures; machine learning; biomarkers",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=AmHGUBcAAAAJ&hl=en"
     },
@@ -593,7 +597,7 @@
      "name": "Jessica Au",
      "role": "PhD student",
      "year": null,
-     "focus": "Cancer genomics, tumor evolution, and genomic alterations as clinical biomarkers (Bioinformatics and Systems Biology)",
+     "focus": "Tumor evolution; genomic alterations as clinical biomarkers (Bioinformatics & Systems Biology)",
      "email": null,
      "profile_url": null
     },
@@ -601,7 +605,7 @@
      "name": "Rongjie Wu",
      "role": "PhD student",
      "year": null,
-     "focus": "APOBEC mutagenesis and clonal hematopoiesis in tumor development",
+     "focus": "APOBEC mutagenesis and clonal hematopoiesis in tumor development (Bioengineering)",
      "email": null,
      "profile_url": null
     },
@@ -609,7 +613,7 @@
      "name": "Ting Yang",
      "role": "PhD student",
      "year": null,
-     "focus": "Computational and biological mechanisms of tumorigenesis and rapid cancer progression (Bioengineering)",
+     "focus": "Mechanisms driving tumorigenesis and rapid cancer progression (Bioengineering)",
      "email": null,
      "profile_url": "https://scholar.google.com.tw/citations?user=uIU8Eu8AAAAJ&hl=en"
     },
@@ -617,13 +621,13 @@
      "name": "Zichen Jiang",
      "role": "PhD student",
      "year": "2023 cohort",
-     "focus": "High-accuracy sequencing of normal tissues, healthy longevity and cancer predisposition",
+     "focus": "Accurate DNA sequencing of normal tissues; healthy longevity and cancer predisposition",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?hl=en&user=NLV6t1AAAAAJ"
     }
    ],
-   "department": "Department of Cellular and Molecular Medicine; Shu Chien-Gene Lay Department of Bioengineering",
-   "location": "La Jolla / San Diego, California, USA",
+   "department": "Cellular and Molecular Medicine; Bioengineering (Shu Chien-Gene Lay Dept.); Bioinformatics & Systems Biology program (students)",
+   "location": "San Diego, California, USA",
    "current_institution": "University of California San Diego",
    "members_page": "https://alexandrov.cloud.ucsd.edu/team"
   },
@@ -1115,47 +1119,43 @@
    "group": "Notable PIs",
    "department_hint": null,
    "id": "other-ideker",
-   "url": "https://idekerlab.org/",
-   "focus": "The lab builds AI-driven, mechanistic models of cancer and neurodegenerative disease that turn patient data into more precise diagnosis and treatment. A main thread is mapping subcellular networks and structures, including the Cancer Cell Map Initiative. Another is interpretable ('visible') machine learning, where neural networks are built to follow the hierarchy of cell biology so that predictions in predictive oncology can be explained. Other areas are network biomarkers for cancer and neuropsychiatric disease, epigenetic aging, and bioinformatics software such as Cytoscape and NDEx.",
+   "url": "https://idekerlab.ucsd.edu/",
+   "focus": "The lab-wide areas listed on the members page are systems biology, cellular modeling, cancer genomics, computational biology, epigenetics and psychiatric diseases. The lab is known for building interpretable, hierarchical models of the cell, and for network biology tools such as Cytoscape and NDEx. This is from my background knowledge and I did not check it on the pages I fetched. The members page also lists a BioML director and a software development team, which suggests the lab works on both machine learning and software. I did not read the lab's research page, so the specific methods are not confirmed.",
    "topics": [
+    "systems biology",
+    "cancer genomics",
     "network biology",
     "interpretable machine learning",
-    "cancer genomics",
-    "cell maps / subcellular structure",
-    "epigenetic aging",
-    "predictive oncology"
+    "cellular modeling",
+    "epigenetics"
    ],
    "fit": {
     "score": 3,
-    "reason": "The lab overlaps on cancer genomics and computational/ML methods for genomics. It has little focus on whole-genome sequencing, structural variants or single-cell/spatial omics, and a US or UK role would need a visa."
+    "reason": "The lab overlaps on cancer genomics and on machine learning for genomics, but I did not confirm any focus on tumour whole-genome sequencing, structural variants or single-cell/spatial omics, and a US visa would likely be needed."
    },
    "flags": [
-    "PI move: the lab site says Ideker was appointed Director of the University of Oxford Big Data Institute (announced 2026-03-09). The PI page lists him as adjunct Professor of Medicine at UCSD. The site does not say the lab is relocating.",
-    "The lab site also reports a Visiting Member role at the Ellison Medical Institute (announced 2026-01-23).",
-    "The old URL idekerlab.ucsd.edu now redirects to idekerlab.org.",
-    "The members page does not give a research focus or year for any member, so the per-member focus fields only reflect program and location. The page has no last-updated date, though some photos are dated 2026/09.",
-    "Sungjoon Park is listed as a Research Scientist at Oxford, not a postdoc, so is excluded."
+    "No move found: the PI is still listed at UC San Diego.",
+    "The members page shows no 'last updated' date and no years or individual research focus for anyone.",
+    "Pratibha Jagannatha appeared as a postdoc/research scientist in a search summary, but not in the page content I fetched. I left them out because I could not verify the role.",
+    "Sungjoon Park is listed as a Research Scientist, not a postdoc, so I excluded them.",
+    "Some members (Agbaedeng, Chen, Halmos) show a University of Oxford affiliation, so the lab may have a UK link."
    ],
    "sources": [
     {
-     "title": "Ideker Lab - Lab Members",
-     "url": "https://idekerlab.org/lab-members/"
+     "title": "Meet the Ideker Lab",
+     "url": "https://idekerlab.ucsd.edu/lab-members/"
     },
     {
-     "title": "Ideker Lab - Home",
-     "url": "https://idekerlab.org/"
-    },
-    {
-     "title": "Trey Ideker, PhD (lab profile)",
+     "title": "Trey Ideker, PhD",
      "url": "https://idekerlab.ucsd.edu/trey-ideker/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:02:17+00:00",
+   "refreshed_at": "2026-11-27T22:03:38+00:00",
    "error": null,
    "pi_profile": {
     "name": "Trey Ideker",
-    "title": "Director of the Big Data Institute and Professor in the Nuffield Departments of Population Health & Medicine, University of Oxford; Adjunct Professor of Medicine, UC San Diego",
+    "title": "Professor",
     "profile_url": "https://idekerlab.ucsd.edu/trey-ideker/",
     "scholar_url": null
    },
@@ -1164,7 +1164,7 @@
      "name": "Jiahao Gao",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the page; based at UCSD",
+     "focus": "Not listed on the members page",
      "email": null,
      "profile_url": null
     },
@@ -1172,7 +1172,7 @@
      "name": "JungHo Kong",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the page; based at UCSD",
+     "focus": "Not listed on the members page",
      "email": null,
      "profile_url": "https://scholar.google.co.kr/citations?user=Vfwnr6IAAAAJ&hl=ko&oi=ao"
     },
@@ -1180,7 +1180,7 @@
      "name": "Nicole Mattson",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the page; based at UCSD",
+     "focus": "Not listed on the members page",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?hl=en&user=7kR4POsAAAAJ"
     },
@@ -1188,7 +1188,7 @@
      "name": "Thomas Agbaedeng",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the page; based at Oxford",
+     "focus": "Not listed on the members page (affiliation shown as University of Oxford)",
      "email": null,
      "profile_url": null
     },
@@ -1196,7 +1196,7 @@
      "name": "Xiaoyu Zhao",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not described on the page; based at UCSD",
+     "focus": "Not listed on the members page",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/xiaoyu-zhao-9b775b103/"
     },
@@ -1204,7 +1204,7 @@
      "name": "Abishai Ebenezer M.",
      "role": "PhD student",
      "year": null,
-     "focus": "Computer Science PhD; based at UCSD",
+     "focus": "Computer Science PhD; project not listed on the members page",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=4L-PfD0AAAAJ&hl=en"
     },
@@ -1212,7 +1212,7 @@
      "name": "Aleysha Chen",
      "role": "PhD student",
      "year": null,
-     "focus": "Bioengineering PhD; listed at Oxford",
+     "focus": "Bioengineering PhD; project not listed on the members page",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=DtsSOwEAAAAJ&hl=en"
     },
@@ -1220,7 +1220,7 @@
      "name": "Dan Halmos",
      "role": "PhD student",
      "year": null,
-     "focus": "Bioinformatics & Systems Biology PhD; listed at Oxford",
+     "focus": "Bioinformatics & Systems Biology PhD; project not listed on the members page",
      "email": null,
      "profile_url": null
     },
@@ -1228,7 +1228,7 @@
      "name": "Scarlett (Gege) Qian",
      "role": "PhD student",
      "year": null,
-     "focus": "Bioinformatics & Systems Biology PhD; based at UCSD",
+     "focus": "Bioinformatics & Systems Biology PhD; project not listed on the members page",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/gege-qian-87a2701b5/"
     },
@@ -1236,15 +1236,15 @@
      "name": "Zach Wallace",
      "role": "PhD student",
      "year": null,
-     "focus": "Bioinformatics & Systems Biology PhD; based at UCSD",
+     "focus": "Bioinformatics & Systems Biology PhD; project not listed on the members page",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "UCSD: Department of Medicine (adjunct), Moores Cancer Center, Bioengineering, Computer Science, and Bioinformatics & Systems Biology programs. Oxford: Big Data Institute, Nuffield Department of Popula",
-   "location": "San Diego, USA, and Oxford, UK",
-   "current_institution": "University of Oxford (Big Data Institute) and UC San Diego (adjunct). The lab is still based at UCSD, with a growing Oxford presence.",
-   "members_page": "https://idekerlab.org/lab-members/"
+   "department": "Not confirmed in the pages I read. The lab page lists the Bioengineering and Bioinformatics & Systems Biology PhD programs and Computer Science for its students.",
+   "location": "San Diego, USA",
+   "current_institution": "University of California San Diego",
+   "members_page": "https://idekerlab.ucsd.edu/lab-members/"
   },
   {
    "name": "Laboratory of Evolutionary Design",
@@ -28087,63 +28087,61 @@
    "group": null,
    "department_hint": "Pathology / Genetics",
    "id": "stanford-sidow",
-   "url": "http://www.sidowlab.org",
-   "focus": "The lab studies the evolution of function, currently in cancer. It runs a collaborative program in the evolutionary genomics of cancer. It applies phylogenetic principles to tumours, using whole-genome sequencing and functional genomics data from multiple samples taken from the same patient. Projects examine how the structural and functional evolution of the cancer genome relate to each other. The lab also develops wet-lab protocols and computational methods for new genomics technologies.",
+   "url": "https://med.stanford.edu/genetics/people/Faculty1/genetics-faculty-m-z.html",
+   "focus": "The lab runs a collaborative research program on the evolutionary genomics of cancer. It applies phylogenetic principles to tumor evolution. Its data are whole-genome sequencing and functional genomics from multiple tumor samples taken from the same patient. This is a computational and evolutionary approach to somatic mutation and clonal architecture. The Stanford profile does not say whether the lab also does single-cell or spatial work.",
    "topics": [
-    "cancer genome evolution",
-    "tumour phylogenetics",
+    "cancer evolution",
+    "tumor phylogenetics",
     "whole-genome sequencing",
-    "structural variants",
-    "functional genomics",
-    "computational genomics methods"
+    "somatic mutation",
+    "functional genomics"
    ],
    "fit": {
     "score": 4,
-    "reason": "Multi-sample tumour whole-genome sequencing, somatic and structural evolution, and computational method development overlap strongly with the student's cancer genomics interests. The single-cell and spatial angle is not confirmed, and the move would need a US visa."
+    "reason": "Strong overlap with tumour whole-genome sequencing, somatic mutation analysis and computational methods. Single-cell and spatial omics are not confirmed, and a US visa would likely be needed."
    },
    "flags": [
-    "Lab website sidowlab.org currently appears to be a parked or for-sale domain, so no official members page could be opened.",
-    "No current postdocs or PhD students could be verified, so the members list is empty. Check the Stanford profile or recent publication author lists for current members.",
-    "PI is still listed at Stanford, with no sign of a move.",
-    "Google Scholar URL was not verified.",
-    "The BioX page lists the PI as Associate Professor, which is outdated. The Stanford profile says Professor."
+    "The lab website sidowlab.org is a parked 'domain for sale' page, so no official members page could be found.",
+    "No current postdocs or PhD students could be verified, so the members list is empty rather than guessed.",
+    "The PI is still listed at Stanford, with no sign of a move. The Bio-X page still shows the older title 'Associate Professor', while the Stanford profile says Professor.",
+    "The student would likely need a visa for a US role."
    ],
    "sources": [
-    {
-     "title": "Stanford Medicine profile: Arend Sidow",
-     "url": "https://med.stanford.edu/profiles/arend-sidow"
-    },
     {
      "title": "Stanford Genetics faculty M-Z",
      "url": "https://med.stanford.edu/genetics/people/Faculty1/genetics-faculty-m-z.html"
     },
     {
-     "title": "CEHG: Arend Sidow",
+     "title": "Arend Sidow - Stanford Medicine profile",
+     "url": "https://med.stanford.edu/profiles/arend-sidow"
+    },
+    {
+     "title": "Arend Sidow - Current Research and Scholarly Interests",
+     "url": "https://profiles.med.stanford.edu/arend-sidow?tab=bio"
+    },
+    {
+     "title": "Arend Sidow - CEHG",
      "url": "https://cehg.stanford.edu/people/arend-sidow"
     },
     {
-     "title": "Bio-X: Arend Sidow",
+     "title": "Arend Sidow - Bio-X",
      "url": "https://biox.stanford.edu/people/arend-sidow"
-    },
-    {
-     "title": "Stanford profile, research interests",
-     "url": "https://profiles.med.stanford.edu/arend-sidow?tab=bio"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:02:05+00:00",
+   "refreshed_at": "2026-11-27T22:03:32+00:00",
    "error": null,
    "pi_profile": {
     "name": "Arend Sidow",
-    "title": "Professor of Pathology and of Genetics (Stanford W. Ascherman Professor of Genetics)",
+    "title": "Professor of Pathology and of Genetics",
     "profile_url": "https://med.stanford.edu/profiles/arend-sidow",
-    "scholar_url": null
+    "scholar_url": "https://profiles.stanford.edu/4393"
    },
    "members": [],
-   "department": "Pathology; Genetics; member of Bio-X, Stanford Cancer Institute, and MCHRI",
+   "department": "Pathology and Genetics; member of Bio-X, the Maternal & Child Health Research Institute, and the Stanford Cancer Institute",
    "location": "Stanford, California, USA",
    "current_institution": "Stanford University",
-   "members_page": "http://www.sidowlab.org"
+   "members_page": null
   },
   {
    "name": "Engelhardt Lab",
@@ -28212,25 +28210,25 @@
    "department_hint": "Bioengineering",
    "id": "stanford-wang",
    "url": "https://wanglab.stanford.edu/",
-   "focus": "The lab is a discovery-driven group working where developmental biology, bioengineering and statistical physics meet. It asks how collective cell behaviour underlies tissue regeneration, adaptation and evolution. Its methods include organism-wide fluorescence imaging, functional genomics and physical modelling. The lab's model systems are regenerative organisms; the pages I read did not name them.",
+   "focus": "The lab works at the intersection of developmental biology, bioengineering and statistical physics. It studies the rules by which groups of cells behave collectively, with the aim of informing tissue regeneration, adaptation and evolution. Its main model is the planarian flatworm and related animals, and it studies stem cell rules in whole-body regeneration. Its methods include whole-organism fluorescence imaging, functional genomics, single-cell multiomic analysis (for example, cell type evolution) and physical modeling.",
    "topics": [
-    "regeneration",
-    "developmental biology",
-    "collective cell behavior",
-    "live imaging",
-    "functional genomics",
-    "physical modeling"
+    "planarian regeneration",
+    "stem cell dynamics",
+    "single-cell multiomics",
+    "cell type evolution",
+    "statistical physics",
+    "whole-organism imaging"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab does use functional genomics and computational modelling, but its focus is developmental and regenerative biology and tissue physics. It does not cover cancer genomics, tumour sequencing, structural variants or cancer single-cell/spatial omics, and a US role would likely need a visa."
+    "reason": "The lab uses single-cell genomics and computational modeling, but it studies developmental biology and regeneration in planarians. It does no cancer genomics, tumour sequencing or structural variant work."
    },
    "flags": [
-    "No move found: the PI is still listed at Stanford Bioengineering.",
-    "The members page has no last-updated date. It gives no research focus and no individual profile links, so the focus lines come only from program and background.",
-    "A web search snippet of the same page named different members (Prateek Kalakuntla as a graduate student, and Guang Yang and Chew Chai as postdocs). The page fetch returned the 9-person list above, so the page may have changed or one view may be stale. Please re-check the roster.",
-    "Xiaomeng Wan is listed in a Stanford profile as a Bioengineering postdoc with Bo Wang as faculty sponsor, but does not appear on the lab members page. This is unverified.",
-    "I did not find the PI's Google Scholar URL, so it is null."
+    "No PI move found. The PI is still at Stanford.",
+    "The members page has no update date. It lists a member who joined 02/2026, so it was updated at least that recently.",
+    "An earlier search snippet listed a different roster, so the page may change often. The roster above comes from the page itself.",
+    "The members page gives no research focus and no profile links for individuals.",
+    "A search summary said the Bioengineering department profile lists the PI as Assistant Professor. The department page I fetched says Associate Professor."
    ],
    "sources": [
     {
@@ -28244,18 +28242,14 @@
     {
      "title": "Wang Lab",
      "url": "https://wanglab.stanford.edu/"
-    },
-    {
-     "title": "Xiaomeng Wan Stanford profile",
-     "url": "https://profiles.stanford.edu/xiaomeng-wan"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:01:16+00:00",
+   "refreshed_at": "2026-11-27T22:02:48+00:00",
    "error": null,
    "pi_profile": {
     "name": "Bo Wang",
-    "title": "Associate Professor of Bioengineering (by courtesy, of Developmental Biology)",
+    "title": "Associate Professor of Bioengineering and (by courtesy) of Developmental Biology",
     "profile_url": "https://bioengineering.stanford.edu/people/bo-wang",
     "scholar_url": null
    },
@@ -28263,77 +28257,77 @@
     {
      "name": "Chew Chai",
      "role": "Postdoc",
-     "year": null,
-     "focus": "Joined 03/2018 as a graduate student and is now a postdoc; Stanford Bioengineering PhD. Research focus not stated.",
+     "year": "Joined 03/2018 as a graduate student",
+     "focus": "Bioengineering PhD from Stanford; research focus not listed",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Guang Yang",
      "role": "Postdoc",
-     "year": null,
-     "focus": "PhD from Tongji University (Biology); joined 09/2024. Research focus not stated.",
+     "year": "Joined 09/2024",
+     "focus": "Biology PhD from Tongji University; research focus not listed",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Pengyang Li",
      "role": "Postdoc",
-     "year": null,
-     "focus": "Stanford Bioengineering PhD; re-joined 01/2024. Research focus not stated.",
+     "year": "Re-joined 01/2024",
+     "focus": "Bioengineering PhD from Stanford; research focus not listed",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Souradeep Sarkar",
      "role": "Postdoc",
-     "year": null,
-     "focus": "School of Medicine Dean's Postdoctoral Fellow, joined 07/2022. Research focus not stated.",
+     "year": "Joined 07/2022",
+     "focus": "Developmental biology PhD; School of Medicine Dean's Postdoctoral Fellow",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Abhimanyu Sharma",
      "role": "PhD student",
-     "year": "joined 04/2024; Bioengineering",
-     "focus": "Not stated on the page",
+     "year": "Joined 04/2024 (Bioengineering)",
+     "focus": "Not listed on the page",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Brennan McDonald",
      "role": "PhD student",
-     "year": "joined 02/2026; Biology, joint with Chri",
-     "focus": "Not stated on the page",
+     "year": "Joined 02/2026 (Biology, co-advised with",
+     "focus": "Not listed on the page; joint with the Lowe lab",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Jeongwoong Yoon",
      "role": "PhD student",
-     "year": "joined 06/2024; Bioengineering, Stanford",
-     "focus": "Not stated on the page",
+     "year": "Joined 06/2024 (Bioengineering)",
+     "focus": "Not listed on the page",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Lauren Lubeck",
      "role": "PhD student",
-     "year": "joined 11/2022; Biology, joint with Chri",
-     "focus": "Not stated on the page",
+     "year": "Joined 11/2022 (Biology, co-advised with",
+     "focus": "Not listed on the page; joint with the Lowe lab",
      "email": null,
      "profile_url": null
     },
     {
      "name": "Sidney Vermeulen",
      "role": "PhD student",
-     "year": "joined 06/2023; Genetics",
-     "focus": "Not stated on the page",
+     "year": "Joined 06/2023 (Genetics)",
+     "focus": "Not listed on the page",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Bioengineering; courtesy appointment in Developmental Biology",
+   "department": "Bioengineering; Developmental Biology (by courtesy)",
    "location": "Stanford, California, USA",
    "current_institution": "Stanford University",
    "members_page": "https://wanglab.stanford.edu/members"
@@ -28567,29 +28561,29 @@
    "department_hint": "Biomedical Data Science / Pediatrics",
    "id": "stanford-wall",
    "url": "https://wall-lab.stanford.edu/",
-   "focus": "The lab develops biomedical informatics and systems biology methods for conditions that begin in childhood, especially autism and related developmental delays. A major strand is digital diagnostics and therapeutics: machine learning on home video and mobile data for autism detection, and wearable-based (Autism Glass) therapy. A second strand uses genomic data from autism cohorts such as iHART to find gene-disease associations in mental disorders, and builds computational and bioinformatics software for this. The work is mostly clinical ML, computer vision and human-centred AI. It is not oncology.",
+   "focus": "The lab uses systems biology and biomedical informatics to detect and treat conditions that begin in childhood, mainly autism and related developmental delays. Its main methods are machine learning and mobile or digital tools. Examples include video- and wearable-based digital diagnostics and therapeutics, such as the Autism Glass and GuessWhat projects. The lab also works on genetics of autism, including the iHART cohort, and on gene-disease associations in mental disorders. The work is mostly behavioural and clinical AI, with some genomics. It has little cancer focus.",
    "topics": [
     "autism",
-    "digital therapeutics",
-    "clinical machine learning",
-    "pediatric informatics",
-    "autism genomics (iHART)",
-    "mobile health"
+    "digital diagnostics and therapeutics",
+    "machine learning",
+    "clinical informatics",
+    "autism genetics (iHART)",
+    "computer vision"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The lab's computational and ML genomics work (iHART gene-disease association, bioinformatics software) loosely overlaps the student's methods interests. Its focus is autism and digital health, with no cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics."
+    "score": 1,
+    "reason": "The lab works on autism, digital phenotyping and behavioural ML, with only minor overlap in computational genomics methods. It does no cancer genomics, structural variant analysis, tumour sequencing or single-cell/spatial omics, and it is in the US, where the student may need a visa."
    },
    "flags": [
-    "PI is still at Stanford. No move found.",
-    "The people page lists no postdocs by title. Jae-Yoon Jung is listed as a Research Fellow (methods for gene-disease associations in mental disorders) and was left out of the members list because the role is ambiguous.",
-    "The members page has no last-updated date. Some entries have been there since 2016, so it may be stale.",
-    "The page lists no emails. The lab contact form is at https://wall-lab.stanford.edu/contact.",
-    "Google Scholar URL not verified, so it is null."
+    "No move found: the PI is still at Stanford.",
+    "The people page lists no postdocs. Jae-Yoon Jung is a Research Fellow, who may be postdoc-equivalent. I did not list this person as a postdoc.",
+    "The page does not date its roster, so some entries may be out of date. For example, Paskov and Stockham joined in 2016.",
+    "No emails are published on the members page.",
+    "The Google Scholar URL was not verified, so it is null."
    ],
    "sources": [
     {
-     "title": "Stanford Profiles - Dennis Wall",
+     "title": "Dennis Wall - Stanford Profiles",
      "url": "https://profiles.stanford.edu/dennis-wall"
     },
     {
@@ -28597,15 +28591,15 @@
      "url": "https://wall-lab.stanford.edu/people"
     },
     {
-     "title": "The Wall Lab - Contact",
-     "url": "https://wall-lab.stanford.edu/contact"
+     "title": "The Wall Lab",
+     "url": "http://wall-lab.stanford.edu/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:00:44+00:00",
+   "refreshed_at": "2026-11-27T22:02:20+00:00",
    "error": null,
    "pi_profile": {
-    "name": "Dennis Wall",
+    "name": "Dennis P. Wall",
     "title": "Professor of Pediatrics (Clinical Informatics), of Biomedical Data Science, and by courtesy, of Psychiatry and Behavioral Sciences",
     "profile_url": "https://profiles.stanford.edu/dennis-wall",
     "scholar_url": null
@@ -28614,53 +28608,53 @@
     {
      "name": "Adele Smolansky",
      "role": "PhD student",
-     "year": "started 2024",
-     "focus": "Learning Sciences and Technology Design PhD student. Specific focus not stated on the page.",
+     "year": "joined 2024",
+     "focus": "Learning Sciences and Technology Design PhD student; research focus not specified on the page",
      "email": null,
      "profile_url": "https://wall-lab.stanford.edu/people/current/adele/"
     },
     {
      "name": "Kelley Paskov",
      "role": "PhD student",
-     "year": "started Aug 2016",
-     "focus": "Biomedical Informatics PhD student working on computational math and bioinformatics software.",
+     "year": "joined Aug 2016",
+     "focus": "Biomedical Informatics PhD student; computational math and bioinformatics software",
      "email": null,
      "profile_url": "https://wall-lab.stanford.edu/people/current/kelley/"
     },
     {
      "name": "Mahdi Honarmand",
      "role": "PhD student",
-     "year": "started 2022",
-     "focus": "Mechanical Engineering PhD student working on AI applications in healthcare.",
+     "year": "joined 2022",
+     "focus": "Mechanical Engineering PhD student; AI applications in healthcare",
      "email": null,
      "profile_url": "https://wall-lab.stanford.edu/people/current/mahdih/"
     },
     {
      "name": "Nate Stockham",
      "role": "PhD student",
-     "year": "started Sep 2016",
-     "focus": "Neuroscience PhD student working on the iHART and Autism Glass projects.",
+     "year": "joined Sep 2016",
+     "focus": "Neuroscience PhD student; iHART and Autism Glass projects",
      "email": null,
      "profile_url": "https://wall-lab.stanford.edu/people/current/nate/"
     },
     {
      "name": "Onur Cezmi Mutlu",
      "role": "PhD student",
-     "year": "started Spring 2020",
-     "focus": "Electrical Engineering PhD student. Specific focus not stated on the page.",
+     "year": "joined spring 2020",
+     "focus": "Electrical Engineering PhD student; research focus not specified on the page",
      "email": null,
      "profile_url": "https://wall-lab.stanford.edu/people/current/cezmi/"
     },
     {
      "name": "Parnian Azizian",
      "role": "PhD student",
-     "year": "started 2023",
-     "focus": "Mechanical Engineering PhD student. Specific focus not stated on the page; the lab's work is AI for healthcare.",
+     "year": null,
+     "focus": "Mechanical Engineering PhD student; research focus not specified on the page",
      "email": null,
      "profile_url": "https://wall-lab.stanford.edu/people/current/parnian/"
     }
    ],
-   "department": "Pediatrics (Clinical Informatics); Biomedical Data Science; Psychiatry and Behavioral Sciences (courtesy)",
+   "department": "Pediatrics (Clinical Informatics); Biomedical Data Science; Psychiatry and Behavioral Sciences (by courtesy)",
    "location": "Stanford, California, USA",
    "current_institution": "Stanford University",
    "members_page": "https://wall-lab.stanford.edu/people"
@@ -29428,38 +29422,37 @@
    "department_hint": "Biomedical Data Science",
    "id": "stanford-zou",
    "url": "https://www.james-zou.com/",
-   "focus": "The lab develops machine learning and AI methods for biomedicine and health. Current work includes AI agents and LLM-based systems for science, such as Paper2Agent, the Virtual Lab, TextGrad and CellVoyager. It also covers single-cell and spatial transcriptomics, aging clocks, and protein and gene models. Clinical AI work includes echocardiography video models (EchoNet), sleep and cardiovascular risk models, and fairness and evaluation of medical AI, for example in dermatology. A further strand is data-centric ML: data valuation, data attribution and robustness to distribution shift.",
+   "focus": "The group works on making AI more reliable, human-compatible and statistically rigorous, with applications to human disease and health. Its work covers the foundations of statistical machine learning, including trustworthy and interpretable models, data valuation and fairness, and biomedical and healthcare applications. The Stanford profile does not give specific genomics projects. The group's past work, including Ruishan Liu's cancer genomics work, suggests a genomics component, but I did not verify that against current publications. The group is mainly computational and ML-methods focused.",
    "topics": [
-    "AI agents for science",
-    "machine learning for biomedicine",
-    "single-cell / spatial transcriptomics",
-    "clinical AI and fairness",
-    "data valuation",
-    "LLMs"
+    "machine learning",
+    "trustworthy AI",
+    "biomedical data science",
+    "statistical ML",
+    "healthcare AI"
    ],
    "fit": {
     "score": 3,
-    "reason": "The lab overlaps on ML methods for genomics and single-cell/spatial omics, but it has little focus on cancer genomics, tumour WGS, or structural variant and somatic mutation analysis, and the roles are US-based and may need a visa."
+    "reason": "The lab is strong in ML methods and has some biomedical and cancer links through the Stanford Cancer Institute, but the verified profile has no focus on tumour sequencing, structural variants or single-cell/spatial omics, and a US visa would be needed."
    },
    "flags": [
-    "PI is still at Stanford; no move found.",
-    "The people page gives no focus, email, year or profile links for members, so those fields are null.",
-    "The older page zou-group.github.io/team is outdated (it lists people who are now alumni), so I did not use it for the roster.",
-    "The PI's contact on his site is jamesz at stanford dot edu (not a member email).",
-    "Google Scholar URL not verified."
+    "The Stanford profile confirms the PI is still at Stanford, so no move was found.",
+    "The people page lists only names, roles and programs. It gives no research focus, emails, profile links or years, so those fields are null.",
+    "The older page zou-group.github.io/team is outdated, listing people such as Aghazadeh and Daneshjou. I did not use it for the roster.",
+    "The program labels 'BMI' and 'ICML' are as shown on the page. 'ICML' is probably 'ICME' (my guess), so I wrote ICME in the member entry.",
+    "I did not verify the Google Scholar URL, so it is null."
    ],
    "sources": [
     {
-     "title": "James Zou - Stanford Medicine Profile",
+     "title": "Stanford Profiles: James Zou",
      "url": "https://med.stanford.edu/profiles/james-zou"
-    },
-    {
-     "title": "James Zou lab website",
-     "url": "https://www.james-zou.com/"
     },
     {
      "title": "Zou Group people page",
      "url": "https://www.james-zou.com/people"
+    },
+    {
+     "title": "James Zou website",
+     "url": "https://www.james-zou.com/"
     },
     {
      "title": "Zou Group (older team page)",
@@ -29467,11 +29460,11 @@
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:01:52+00:00",
+   "refreshed_at": "2026-11-27T22:03:24+00:00",
    "error": null,
    "pi_profile": {
     "name": "James Zou",
-    "title": "Associate Professor of Biomedical Data Science (courtesy appointments in Computer Science and Electrical Engineering)",
+    "title": "Associate Professor of Biomedical Data Science and, by courtesy, of Computer Science and of Electrical Engineering",
     "profile_url": "https://med.stanford.edu/profiles/james-zou",
     "scholar_url": null
    },
@@ -29480,7 +29473,7 @@
      "name": "Jiacheng Miao",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed",
+     "focus": null,
      "email": null,
      "profile_url": null
     },
@@ -29488,7 +29481,7 @@
      "name": "Pan Lu",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed",
+     "focus": null,
      "email": null,
      "profile_url": null
     },
@@ -29496,7 +29489,7 @@
      "name": "Sheng Liu",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed",
+     "focus": null,
      "email": null,
      "profile_url": null
     },
@@ -29504,7 +29497,7 @@
      "name": "Siyu He",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed on the people page (the Stanford profile lists her as a postdoctoral sponsor advisee).",
+     "focus": null,
      "email": null,
      "profile_url": null
     },
@@ -29512,7 +29505,7 @@
      "name": "Aneesh Pappu",
      "role": "PhD student",
      "year": null,
-     "focus": "EE PhD; focus not listed",
+     "focus": "Electrical Engineering program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29520,7 +29513,7 @@
      "name": "Arushi Gupta",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29528,7 +29521,7 @@
      "name": "Batu El",
      "role": "PhD student",
      "year": null,
-     "focus": "ICME PhD (listed as 'ICML'); focus not listed",
+     "focus": "ICME program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29536,7 +29529,7 @@
      "name": "Elana Simon",
      "role": "PhD student",
      "year": null,
-     "focus": "Biomedical Informatics PhD; focus not listed",
+     "focus": "Biomedical Informatics (BMI) program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29544,7 +29537,7 @@
      "name": "Haotian Ye",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29552,7 +29545,7 @@
      "name": "Harrison Zhang",
      "role": "PhD student",
      "year": null,
-     "focus": "MD/PhD student; focus not listed",
+     "focus": "MD/PhD program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29560,7 +29553,7 @@
      "name": "Jake Silberg",
      "role": "PhD student",
      "year": null,
-     "focus": "Biomedical Informatics PhD; focus not listed",
+     "focus": "Biomedical Informatics (BMI) program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29568,7 +29561,7 @@
      "name": "Joseph Boen",
      "role": "PhD student",
      "year": null,
-     "focus": "Biomedical Informatics PhD; focus not listed",
+     "focus": "Biomedical Informatics (BMI) program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29576,7 +29569,7 @@
      "name": "Kyle Swanson",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29584,7 +29577,7 @@
      "name": "Mert Yuksekgonul",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29592,7 +29585,7 @@
      "name": "Mirac Suzgun",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29600,7 +29593,7 @@
      "name": "Nitya Thakkar",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29608,7 +29601,7 @@
      "name": "Owen Queen",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29616,7 +29609,7 @@
      "name": "Rahul Thapa",
      "role": "PhD student",
      "year": null,
-     "focus": "Biomedical Informatics PhD; focus not listed",
+     "focus": "Biomedical Informatics (BMI) program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29624,7 +29617,7 @@
      "name": "Sam Alber",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29632,7 +29625,7 @@
      "name": "Shirley Wu",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     },
@@ -29640,12 +29633,12 @@
      "name": "Wanjia Zhao",
      "role": "PhD student",
      "year": null,
-     "focus": "CS PhD; focus not listed",
+     "focus": "Computer Science program; focus not listed",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Biomedical Data Science (School of Medicine); courtesy in Computer Science and Electrical Engineering",
+   "department": "Biomedical Data Science (primary); Computer Science and Electrical Engineering (by courtesy); member of Stanford Cancer Institute, Bio-X and Stanford HAI",
    "location": "Stanford, California, USA",
    "current_institution": "Stanford University",
    "members_page": "https://www.james-zou.com/people"
@@ -29939,25 +29932,25 @@
    "department_hint": "Epidemiology & Population Health / Biomedical Data Science",
    "id": "stanford-witte",
    "url": "https://med.stanford.edu/profiles/john-witte",
-   "focus": "The Witte Lab works on computational and statistical genetics, aiming to find the genetic and molecular mechanisms behind cancer and other complex traits. Current work includes precision screening for prostate cancer (such as genetically adjusted PSA), polygenic risk scores across ancestries, and cross-cancer and multi-phenotype genetics. The lab also uses Bayesian hierarchical models of disease susceptibility and progression, and studies the genetics of repeat expansion disorders. The work is population-scale genetic epidemiology (GWAS, risk prediction, statistical modelling). It is not tumour sequencing or single-cell/spatial omics.",
+   "focus": "The Witte Lab is a computational and statistical genetics group that studies the genetic and molecular basis of cancer and other complex traits. It runs integrative analyses across large multi-ancestry cohorts and biobanks. Its work covers precision screening for prostate cancer, including genetically adjusted PSA, and polygenic risk scores across ancestries. It also covers cross-cancer and multi-phenotype genetics, Bayesian hierarchical models of disease susceptibility, and the genetics of repeat expansion disorders. Methods combine genomic, clinical and environmental data with machine learning, and the focus is on population-scale germline risk rather than tumour sequencing.",
    "topics": [
     "genetic epidemiology",
+    "statistical genetics",
     "polygenic risk scores",
     "prostate cancer screening",
-    "cross-cancer genetics",
-    "Bayesian hierarchical modelling",
-    "repeat expansion disorders"
+    "cancer risk prediction",
+    "biobank analysis"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab shares the student's cancer genetics and statistical/computational methods interests, but it centres on germline, population-level risk and polygenic scores. It does not cover tumour WGS/transcriptome, somatic or structural variants, or single-cell/spatial omics."
+    "reason": "The lab shares computational and machine-learning genomics and an interest in cancer, but it centres on germline population genetics and risk prediction. It does little tumour WGS/transcriptome, structural variant, somatic mutation or single-cell/spatial work, and a US role would likely need a visa."
    },
    "flags": [
-    "No dedicated lab website or people/members page was found. The member list comes only from the advisee and sponsor listings on the Stanford profile page, so it may be incomplete or out of date.",
-    "The 'doctoral program' advisee list may include students who are not core lab members. Check each person before contacting them.",
-    "No emails were published for members. The only email on the profile is for the administrative contact, Sweden Smith (s1smith@stanford.edu).",
-    "The PI's institution is confirmed as Stanford, with no move found.",
-    "A Stanford search summary says the lab has openings for pre- and postdoctoral trainees, and Witte co-directs an NIH T32 predoctoral training program in cancer risk genetics. I did not open the page that says this, so confirm it."
+    "No standalone Witte Lab website or lab people page was found. The member list comes from the advisee section of the Stanford profile, which is not a lab roster and may be incomplete or out of date.",
+    "I read only the first 100,000 of about 585,000 characters of the Stanford profile page, so the advisee list may be incomplete.",
+    "The PI is confirmed at Stanford. He moved from UCSF and became E&PH Vice Chair in 2021, and an old UCSF profile page still lists him.",
+    "Master's advisees (Sahana Balaji, Jorge Bernate Marcucci, Andrew Muning Chang, Kuniaki Iwanami, I-Hsin Ma, Ashley Celestine Tamdjo) are excluded.",
+    "Search results said the lab has openings for pre- and postdoctoral trainees. I did not confirm this on an official page."
    ],
    "sources": [
     {
@@ -29969,61 +29962,61 @@
      "url": "https://profiles.stanford.edu/john-witte"
     },
     {
-     "title": "John Witte - Stanford CEHG",
-     "url": "https://cehg.stanford.edu/people/john-witte"
+     "title": "E&PH Welcomes Dr. John Witte as New Faculty Member",
+     "url": "https://med.stanford.edu/epidemiology-dept/about/news/spotlight-interviews/witte-faculty-spotlight.html"
     },
     {
-     "title": "E&PH Welcomes Dr. John Witte",
-     "url": "https://med.stanford.edu/epidemiology-dept/about/news/spotlight-interviews/witte-faculty-spotlight.html"
+     "title": "John Witte - Stanford Biomedical Data Science",
+     "url": "https://dbds.stanford.edu/?p=6839"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:01:36+00:00",
+   "refreshed_at": "2026-11-27T22:03:00+00:00",
    "error": null,
    "pi_profile": {
     "name": "John Witte",
-    "title": "Professor, Epidemiology and Population Health; Biomedical Data Science; Genetics (by courtesy)",
-    "profile_url": "https://med.stanford.edu/profiles/john-witte",
-    "scholar_url": null
+    "title": "Professor of Epidemiology and Population Health, of Biomedical Data Science and of Genetics; Vice Chair, Epidemiology and Population Health",
+    "profile_url": "https://profiles.stanford.edu/john-witte",
+    "scholar_url": "https://scholar.google.com/citations?user=0jbq_9cAAAAJ&hl=en"
    },
    "members": [
     {
      "name": "Brenda Xiao",
      "role": "Postdoc",
      "year": null,
-     "focus": "Listed as a postdoctoral fellow with Witte as faculty sponsor; research topic not stated on the page",
+     "focus": "Focus not stated on the pages I read. Stanford lists Witte as her postdoctoral faculty sponsor.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://profiles.stanford.edu/brenda-xiao"
     },
     {
      "name": "Martina Fu",
      "role": "Postdoc",
      "year": null,
-     "focus": "Listed as a postdoctoral fellow with Witte as faculty sponsor; research topic not stated on the page",
+     "focus": "Focus not stated on the pages I read. Stanford lists Witte as her postdoctoral faculty sponsor.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://profiles.stanford.edu/martina-fu"
     },
     {
      "name": "Mykhaylo Malakhov",
      "role": "Postdoc",
      "year": null,
-     "focus": "Listed as a postdoctoral fellow with Witte as faculty sponsor; research topic not stated on the page",
+     "focus": "Focus not stated on the pages I read. Stanford lists Witte as his postdoctoral faculty sponsor.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://profiles.stanford.edu/mykhaylo-malakhov"
     },
     {
      "name": "Jane Fan",
      "role": "PhD student",
      "year": null,
-     "focus": "Listed under the doctoral program advisees; research topic not stated on the page",
+     "focus": "Focus not stated on the pages I read. She is listed as a doctoral program advisee of Witte.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://profiles.stanford.edu/jane-fan"
     },
     {
      "name": "Karen Feng",
      "role": "PhD student",
      "year": null,
-     "focus": "Listed as a doctoral dissertation advisee; research topic not stated on the page",
+     "focus": "Focus not stated on the pages I read. Witte is her doctoral dissertation advisor.",
      "email": null,
      "profile_url": null
     },
@@ -30031,15 +30024,15 @@
      "name": "Rakesh Natarajan",
      "role": "PhD student",
      "year": null,
-     "focus": "Listed as a doctoral dissertation advisee and in the doctoral program; research topic not stated on the page",
+     "focus": "Focus not stated on the pages I read. Witte is his doctoral dissertation advisor.",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Epidemiology and Population Health (Vice Chair since 2021); Biomedical Data Science; Genetics",
+   "department": "Epidemiology and Population Health; Biomedical Data Science; Genetics; Stanford Cancer Institute (co-leads the Program in Population Sciences)",
    "location": "Stanford, California, USA",
-   "current_institution": "Stanford University (School of Medicine)",
-   "members_page": null
+   "current_institution": "Stanford University",
+   "members_page": "https://profiles.stanford.edu/john-witte"
   },
   {
    "name": "Chen Lab",
@@ -30435,76 +30428,55 @@
    "department_hint": "Biomedical Data Science / Biochemistry",
    "id": "stanford-salzman",
    "url": "https://salzmanlab.stanford.edu/",
-   "focus": "The lab treats genomic data as a statistical signal-processing problem and uses statistics, machine learning and deep learning to analyse it. Its main method is SPLASH, a reference-free, alignment-free algorithm that infers sequence variation directly from raw sequencing reads. The lab applies SPLASH to RNA splicing, RNA secondary structure, microbes and viruses, and single-cell data from humans and non-model organisms. It also trains large biological deep-learning models to predict phenotypes such as microbial drug response and single-cell features. Stated interests include splicing, cancer and microbes.",
+   "focus": "The lab treats genomic data as a statistical signal-processing problem and develops reference-free methods such as SPLASH, which finds sequence variation directly from raw reads without alignment to a reference genome. It combines statistics and deep learning to predict phenotypes and study biological behavior. Listed application areas are RNA splicing, cancer and microbes. The work spans humans, non-model organisms, plants, viruses and ocean systems.",
    "topics": [
-    "reference-free sequence analysis (SPLASH",
+    "reference-free sequence analysis",
+    "SPLASH",
     "RNA splicing",
-    "statistical genomics",
-    "single-cell omics",
-    "deep learning",
-    "microbial genomics"
+    "cancer genomics",
+    "statistical methods",
+    "microbiome"
    ],
    "fit": {
     "score": 3,
-    "reason": "Strong overlap with computational/statistical methods for genomics and single-cell data, and cancer splicing is a stated interest. The lab is not centred on tumour WGS or structural-variant calling, and the student would likely need a US visa."
+    "reason": "Statistical and ML methods for genomic sequencing data with a cancer interest overlap with the student's computational-methods interests, but the lab centres on reference-free analysis and splicing rather than tumour WGS, structural variants or spatial omics."
    },
    "flags": [
-    "The lab website pages (labmembers, home, contact, 2024 news post) returned 404 when I fetched them, so the roster is NOT verified as current. Julie Wang and Linda Szabo come from search-result snippets only.",
-    "The roster is probably incomplete. A April 2024 news post welcomed Khoa Hoang, Conor Messer and Daniel Cotte. I could not confirm their roles or whether they are still in the lab.",
-    "Vicky Cepeda (postdoc, joined full time in 2021) and Marieke Vromman (visiting scholar) appeared in snippets. I excluded them because I could not confirm they are current.",
-    "A search snippet says the PI's Stanford profile showed her on leave from 2025-09-01 to 2026-06-01. I did not confirm this, and I found no evidence of a move to another institution.",
-    "The Stanford profile lists advisees Chester Yu, Oana Enache and Holly McCann. These are advising relationships, not confirmed lab membership."
+    "Could not open the lab members page: salzmanlab.stanford.edu returned 404 on every direct fetch, so no current postdoc or PhD student list could be verified.",
+    "Unverified names from search snippets only (roles and dates unconfirmed): Roozbeh Dehghannasiri (listed in the postdoc section), Vicky Cepeda (joined full time in 2021), Khoa Hoang, Conor Messer and Daniel Cotte (joined spring 2024).",
+    "No PI move found; the Stanford profile still lists Stanford.",
+    "Google Scholar URL not verified, so it is left null.",
+    "Check the lab site directly for the current roster."
    ],
    "sources": [
     {
-     "title": "Julia Salzman – Stanford Medicine profile",
+     "title": "Julia Salzman - Stanford Medicine Profile",
      "url": "https://med.stanford.edu/profiles/julia-salzman"
     },
     {
-     "title": "Salzman Lab members page (could not be fetched; seen in search results)",
+     "title": "Salzman Lab members (search result; page returned 404 on fetch)",
      "url": "https://salzmanlab.stanford.edu/labmembers"
     },
     {
-     "title": "Hello to our new members (Salzman Lab news, April 2024)",
+     "title": "Hello to our new members (search result; page returned 404 on fetch)",
      "url": "https://salzmanlab.stanford.edu/news/2024/4/23/hello-to-our-new-members"
-    },
-    {
-     "title": "Vicky Cepeda joins the lab full time",
-     "url": "https://salzmanlab.stanford.edu/news/2021/9/15/vicky-cepeda-joins-the-lab-full-time"
     }
    ],
    "broken_links": [
     "https://salzmanlab.stanford.edu/"
    ],
-   "refreshed_at": "2026-11-20T13:00:47+00:00",
+   "refreshed_at": "2026-11-27T22:02:23+00:00",
    "error": null,
    "pi_profile": {
     "name": "Julia Salzman",
-    "title": "Associate Professor of Biomedical Data Science and of Biochemistry; by courtesy of Statistics and of Biology",
+    "title": "Associate Professor of Biomedical Data Science and of Biochemistry (courtesy in Statistics and Biology)",
     "profile_url": "https://med.stanford.edu/profiles/julia-salzman",
     "scholar_url": null
    },
-   "members": [
-    {
-     "name": "Julie Wang",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Downstream applications of SPLASH to RNA secondary structure (from a search snippet of the members page, which I could not open).",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Linda Szabo",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Graduate student in Biomedical Informatics (from a search snippet of the members page, which I could not open). Specific project unknown.",
-     "email": null,
-     "profile_url": null
-    }
-   ],
-   "department": "Biomedical Data Science; Biochemistry; courtesy appointments in Statistics and Biology",
+   "members": [],
+   "department": "Biomedical Data Science; Biochemistry; courtesy Statistics and Biology; Bio-X, ICME, Stanford Cancer Institute",
    "location": "Stanford, California, USA",
-   "current_institution": "Stanford University",
+   "current_institution": "Stanford University (School of Medicine)",
    "members_page": "https://salzmanlab.stanford.edu/labmembers"
   },
   {
@@ -30717,43 +30689,43 @@
    "group": null,
    "department_hint": "Genetics",
    "id": "stanford-steinmetz",
-   "url": "https://steinmetzlab.stanford.edu/",
-   "focus": "The lab studies how genetic variation shapes molecular and cellular traits and disease. It develops genomics technologies to do this, including CRISPR and genome editing, single-cell multi-omics, and spatial genomics. Current projects include modelling inherited heart disease such as dilated cardiomyopathy in stem cells, mice and humans, and mapping enhancer–gene regulatory interactions. The lab also builds synthetic biology systems, including synthetic mitochondria and the Sc2.0 synthetic yeast genome, and runs quantitative genetics CRISPR screens in yeast and human cells. Computational work covers gene-regulation methods and machine learning on perturbation and multi-omic data.",
+   "url": "https://steinmetzlab.stanford.edu",
+   "focus": "The lab develops genomics technologies and uses them to study how genetic variation shapes traits and disease. Precision-health projects include dilated cardiomyopathy and mitochondrial disease. Genome-regulation work covers enhancer-gene interactions and single-cell transcriptomics. Synthetic biology includes the synthetic yeast genome (Sc2.0), and the lab also does quantitative genetics, with CRISPR editing and spatial/single-cell genomics as methods. Most of the work uses yeast and human cell or cardiac models. It is not centred on cancer.",
    "topics": [
-    "functional genomics",
-    "CRISPR screens",
-    "single-cell and spatial multi-omics",
     "quantitative genetics",
-    "synthetic biology",
-    "cardiomyopathy and precision health"
+    "single-cell genomics",
+    "spatial genomics",
+    "synthetic yeast genome (Sc2.0)",
+    "dilated cardiomyopathy",
+    "CRISPR genome editing"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab shares an interest in single-cell/spatial omics and ML for genomics, but its work is functional genetics, genome editing and synthetic biology in yeast and cardiac disease, not cancer genomics, tumour WGS or structural variant analysis. A US visa may also be needed."
+    "reason": "The lab's single-cell and spatial omics and its genomics methods overlap somewhat with the student's interests, but it has little cancer genomics, tumour WGS or structural-variant work, and the role would likely need a US visa."
    },
    "flags": [
-    "No PI move found: Steinmetz is still at Stanford, where he has chaired the Department of Genetics since 2024. He also holds an EMBL Heidelberg group-leader appointment.",
-    "The people page shows no last-updated date, so currency is unverified.",
-    "Chenchen Zhu appears as current staff and also in the alumni list, so the page is inconsistent. Staff and research scientists (Nguyen, Roy, Li, Zhu, Gschwind, Griffin) are excluded from the members list.",
-    "No year of study is listed for any student.",
-    "The Google Scholar URL was not verified, so it is null."
+    "The lab people page returned 403, so the member list comes from a search-result summary and is not verified against the page itself. It may be incomplete or out of date.",
+    "The PI holds a concurrent EMBL appointment (Associate Group Leader and Director of the Life Science Alliance, 2023-present). There is a separate EMBL lab site at http://steinmetzlab.embl.de, and EMBL-based members were not checked.",
+    "Only one PhD student appears on the page summary, so the lab probably has more students than listed.",
+    "Research scientists (Kevin Roy, Chenchen Zhu, Xueyi Li) and the lab manager (Michelle Nguyen) were excluded as staff. A Marta Seczynska entry had no title and was excluded.",
+    "No Google Scholar URL was seen, so it is left null."
    ],
    "sources": [
     {
-     "title": "Steinmetz Lab People",
-     "url": "https://steinmetzlab.stanford.edu/people/"
+     "title": "Lars Steinmetz - Stanford Profiles",
+     "url": "https://profiles.stanford.edu/lars-steinmetz"
     },
     {
-     "title": "Stanford Profiles: Lars Steinmetz",
-     "url": "https://profiles.stanford.edu/lars-steinmetz"
+     "title": "Steinmetz Lab people page (search summary only)",
+     "url": "https://steinmetzlab.stanford.edu/people/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:06:18+00:00",
+   "refreshed_at": "2026-11-27T22:31:56+00:00",
    "error": null,
    "pi_profile": {
     "name": "Lars M. Steinmetz",
-    "title": "Professor of Genetics and Chair, Department of Genetics; Dieter Schwarz Foundation Endowed Professor; Co-Director, Stanford Genome Technology Center",
+    "title": "Professor of Genetics; Dieter Schwarz Foundation Endowed Professor; Chair, Department of Genetics",
     "profile_url": "https://profiles.stanford.edu/lars-steinmetz",
     "scholar_url": null
    },
@@ -30762,7 +30734,7 @@
      "name": "Chris Mathy",
      "role": "Postdoc",
      "year": null,
-     "focus": "Systems and synthetic biology of protein networks",
+     "focus": "Protein network mapping and synthetic biology",
      "email": null,
      "profile_url": null
     },
@@ -30775,65 +30747,17 @@
      "profile_url": null
     },
     {
-     "name": "Marta Seczynska",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Functional genomics of epigenetic pathways and cellular memory",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Simon Sretenovic",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "High-throughput precision genome editing in yeast and human cell lines",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Stefan Bassler",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Ageing: mapping lifespan-regulating pathways from yeast to humans (co-supervised with Dmitri Petrov)",
-     "email": null,
-     "profile_url": null
-    },
-    {
      "name": "Bianca Edozie",
      "role": "PhD student",
      "year": null,
-     "focus": "ME/CFS cellular and molecular mechanisms and diagnostic biomarkers (co-supervised with Ron Davis)",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Jon Bezney",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Combinatorial perturbations, multi-omics, machine learning and algorithm-inspired methods (co-supervised with Stanley Qi)",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Julia Bauman",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Tools for studying gene regulation",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Lorenzo Magni",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Mitochondrial and organelle engineering for energy metabolism (co-supervised with Stanley Qi)",
+     "focus": "Co-supervised with Ron Davis; specific project not verified",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Department of Genetics; Stanford Genome Technology Center; Stanford-EMBL Life Science Alliance; Bio-X; Cardiovascular Institute",
-   "location": "Stanford, California, USA (with EMBL Heidelberg, Germany)",
-   "current_institution": "Stanford University (joint appointment as Associate Group Leader at EMBL Heidelberg)",
+   "department": "Department of Genetics (Chair, 2024-present); Stanford Genome Technology Center (Co-Director); Bio-X; Cardiovascular Institute; Wu Tsai Neurosciences Institute; HAI faculty affiliate. Also EMBL Associ",
+   "location": "Stanford, California, USA (also EMBL, Heidelberg, Germany)",
+   "current_institution": "Stanford University (with a concurrent EMBL appointment)",
    "members_page": "https://steinmetzlab.stanford.edu/people/"
   },
   {
@@ -31141,55 +31065,59 @@
    "department_hint": "Genetics",
    "id": "stanford-snyder",
    "url": "https://med.stanford.edu/snyderlab.html",
-   "focus": "The lab works in functional genomics, proteomics and personal omics. It developed technologies such as proteome chips, tiling arrays, transcription-factor binding mapping and RNA-Seq. Its integrative personal omics profiling (iPOP) project follows people longitudinally with multi-omics (genome, transcriptome, proteome, metabolome, microbiome) and wearable-sensor data. The aim is precision health, covering early disease detection, diabetes, aging, infection and vaccine response, and cardiovascular disease. Methods include machine learning, metabolomics and mass spectrometry, and multi-omics integration. Cancer is a minor theme, for example immunotherapy, drug resistance and epigenomics.",
+   "focus": "The lab maps transcription-factor binding and regulatory networks across the genome. It uses these maps to study noncoding DNA in cancer, inflammation, autism and metabolism. It pioneered paired-end sequencing to find structural variants and studies how SNPs and structural variants shape human variation and disease. Its integrative Personal Omics Profiling (iPOP) work follows people over time with genome, transcriptome, proteome, metabolome, immune and microbiome data, together with continuous wearable-sensor monitoring. It also builds pipelines to find mutations in undiagnosed disease, and studies DNA methylation and chromatin in cancer and autism, with machine learning used widely for multi-omics integration.",
    "topics": [
-    "personal multi-omics (iPOP)",
-    "wearables / digital health",
-    "metabolomics & proteomics",
-    "microbiome",
-    "aging",
-    "machine learning for precision medicine"
+    "multi-omics",
+    "personal omics / wearables",
+    "structural variation",
+    "regulatory genomics",
+    "machine learning",
+    "precision health"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The lab's strengths in multi-omics, machine learning and computational methods overlap partly with the student's interests, but the work is mostly wearables, metabolomics and population precision health, not tumour WGS/transcriptome, structural variants or single-cell/spatial cancer omics, and only "
+    "score": 3,
+    "reason": "The lab overlaps on structural variants, computational/ML methods and some cancer epigenomics work, but it is mainly population/precision-health multi-omics and wearables, not tumour WGS/transcriptome or single-cell/spatial cancer work."
    },
    "flags": [
-    "PI is still at Stanford; no move found.",
-    "The postdoc page has no update dates, so some listed postdocs may be out of date. Maya Kasowski and Sophia Miryam Rose appear on the page with clinical instructor, instructor or similar titles, and Meng Wang as a research scientist. I left all three out as non-postdocs.",
-    "The lab site gives no enrollment years for students. Profile links are LinkedIn pages because there are no dedicated Stanford profile pages.",
-    "Gorgani has a UBC undergraduate degree (BASc 2023), which could be a Canadian connection.",
-    "Google Scholar URL was not verified, so it is null."
+    "PI is still at Stanford. This is confirmed by the lab's pages and the search results (Stanford Genetics, HAI), and no move was found. The UCSF and Utah 'Snyder Lab' results are different labs.",
+    "Pages show no update dates, so I can't confirm the rosters are current. Several entries (for example Misha Baitemirova, listed as 2023, and Brian Johnson, Tim MacKenzie and Caleb Mayer, who have no listed focus) may be out of date. Check them before you reach out.",
+    "Stanford department of origin differs among students (Electrical Engineering, Computer Science, Bioengineering, Biomedical Engineering, Epidemiology). Few are in Genetics.",
+    "The postdoc page also lists Maya Kasowski (Clinical Instructor), Sophia Miryam Rose (Instructor) and Meng Wang (Basic Life Research Scientist). I left these three out because they are not postdocs by title.",
+    "Student year/cohort is not reliably stated on the page, so I set year to null. Student profile links are LinkedIn pages, not official lab profiles."
    ],
    "sources": [
     {
-     "title": "Snyder Lab people",
+     "title": "Snyder Lab - Personnel",
      "url": "https://med.stanford.edu/snyderlab/people.html"
     },
     {
-     "title": "Snyder Lab Postdoctoral Fellows",
+     "title": "Snyder Lab - Postdoctoral Fellows",
      "url": "https://med.stanford.edu/snyderlab/people/postdocs.html"
     },
     {
-     "title": "Snyder Lab Graduate Students",
+     "title": "Snyder Lab - Graduate Students",
      "url": "https://med.stanford.edu/snyderlab/people/graduate-student.html"
     },
     {
-     "title": "Snyder Lab Principal Investigator",
+     "title": "Snyder Lab - Research",
+     "url": "https://med.stanford.edu/snyderlab/research.html"
+    },
+    {
+     "title": "Snyder Lab - Principal Investigator",
      "url": "https://med.stanford.edu/snyderlab/about.html"
     },
     {
-     "title": "Michael Snyder Stanford profile",
-     "url": "https://med.stanford.edu/profiles/michael-snyder"
+     "title": "Stanford Profiles - Michael Snyder",
+     "url": "https://profiles.stanford.edu/397196"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:01:02+00:00",
+   "refreshed_at": "2026-11-27T22:02:33+00:00",
    "error": null,
    "pi_profile": {
     "name": "Michael Snyder",
     "title": "Stanford W. Ascherman Professor of Genetics",
-    "profile_url": "https://med.stanford.edu/profiles/michael-snyder",
+    "profile_url": "https://med.stanford.edu/snyderlab/about.html",
     "scholar_url": null
    },
    "members": [
@@ -31197,7 +31125,7 @@
      "name": "Allison Xinyue Zhang",
      "role": "Postdoc",
      "year": null,
-     "focus": "Exposome and effects of environmental exposures on health",
+     "focus": "Exposome and environmental effects on health",
      "email": null,
      "profile_url": null
     },
@@ -31205,7 +31133,7 @@
      "name": "Andrew Brooks",
      "role": "Postdoc",
      "year": null,
-     "focus": "Human gut microbiome, multi-omics, SARS-CoV-2",
+     "focus": "Human gut microbiome, multi-omics, coronavirus research",
      "email": null,
      "profile_url": null
     },
@@ -31213,7 +31141,7 @@
      "name": "Ariel Bacaner Ganz",
      "role": "Postdoc",
      "year": null,
-     "focus": "Biology of depression and recovery; well-being",
+     "focus": "Biology of depression and recovery; strategies for mental and physical well-being",
      "email": null,
      "profile_url": null
     },
@@ -31245,7 +31173,7 @@
      "name": "Daniel Panyard",
      "role": "Postdoc",
      "year": null,
-     "focus": "Molecular epidemiology of complex disease; genomics, metabolomics, proteomics",
+     "focus": "Molecular epidemiology, complex disease, genomics, metabolomics, proteomics",
      "email": null,
      "profile_url": null
     },
@@ -31253,7 +31181,7 @@
      "name": "Ekanath Srihari Rangan",
      "role": "Postdoc",
      "year": null,
-     "focus": "Wearable health monitoring; machine learning for infectious disease; genomics linked to health records",
+     "focus": "Wearable medical systems, genomics and EHR correlation, ML for infectious disease",
      "email": null,
      "profile_url": null
     },
@@ -31261,7 +31189,7 @@
      "name": "Faye Chleilat",
      "role": "Postdoc",
      "year": null,
-     "focus": "Nutrition, microbiome, epigenome, fertility, precision medicine",
+     "focus": "Nutrition, microbiome, epigenome, multi-omics, fertility, precision medicine",
      "email": null,
      "profile_url": null
     },
@@ -31269,7 +31197,7 @@
      "name": "Hirotaka Ieki",
      "role": "Postdoc",
      "year": null,
-     "focus": "Cardiovascular genomics; machine learning for precision medicine in heart disease",
+     "focus": "Cardiovascular genomics, machine learning, precision medicine in heart disease",
      "email": null,
      "profile_url": null
     },
@@ -31277,7 +31205,7 @@
      "name": "Jou-Ho Shih",
      "role": "Postdoc",
      "year": null,
-     "focus": "Physiological perturbations and clinical applications in cancer biology",
+     "focus": "Physiological perturbations and cancer biology, integrating multi-source data",
      "email": null,
      "profile_url": null
     },
@@ -31285,7 +31213,7 @@
      "name": "Linda (Yu-Ling) Lan",
      "role": "Postdoc",
      "year": null,
-     "focus": "Immune responses to vaccination/infection; fitness and influenza vaccine response",
+     "focus": "Immune function, cardiorespiratory fitness, vaccine response",
      "email": null,
      "profile_url": null
     },
@@ -31293,7 +31221,7 @@
      "name": "Mahasish Shome",
      "role": "Postdoc",
      "year": null,
-     "focus": "Disease progression biomarkers from antibodies, cytokines, proteins and metabolites",
+     "focus": "Disease progression biomarkers, omics profiling",
      "email": null,
      "profile_url": null
     },
@@ -31309,7 +31237,7 @@
      "name": "Michael Nshanian",
      "role": "Postdoc",
      "year": null,
-     "focus": "Histone epigenetics; acyl-lysine histone modifications and chromatin",
+     "focus": "Histone epigenetics, chromatin biology, multi-omics",
      "email": null,
      "profile_url": null
     },
@@ -31317,7 +31245,7 @@
      "name": "Mihir Mongia",
      "role": "Postdoc",
      "year": null,
-     "focus": "Computational mass spectrometry; multi-omics for maternal/cardiovascular health and drug response",
+     "focus": "Computational mass spectrometry, multi-omics in maternal, cardiovascular and drug-response research",
      "email": null,
      "profile_url": null
     },
@@ -31341,7 +31269,7 @@
      "name": "Nasim Bararpour",
      "role": "Postdoc",
      "year": null,
-     "focus": "Metabolomics, computational analysis, software development, multi-omics integration",
+     "focus": "Metabolomics, computational analysis and software, multi-omics integration",
      "email": null,
      "profile_url": null
     },
@@ -31349,7 +31277,7 @@
      "name": "Pardis Miri",
      "role": "Postdoc",
      "year": null,
-     "focus": "Wearable technology for mental well-being and emotion dysregulation in children, including autism",
+     "focus": "Mental well-being technology, emotion regulation, wearable systems for children",
      "email": null,
      "profile_url": null
     },
@@ -31381,7 +31309,7 @@
      "name": "Tejaswini Mishra",
      "role": "Postdoc",
      "year": null,
-     "focus": "Bioinformatics, longitudinal omics and wearables; project lead for iPOP/hPOP/COVID-19 Wearables; NASA Twins Study",
+     "focus": "Bioinformatics, precision health, longitudinal multi-omics, wearable sensors",
      "email": null,
      "profile_url": null
     },
@@ -31389,7 +31317,7 @@
      "name": "Tim MacKenzie",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not listed (postdoctoral medical fellow)",
+     "focus": "Not listed",
      "email": null,
      "profile_url": null
     },
@@ -31397,7 +31325,7 @@
      "name": "Varuna Chander",
      "role": "Postdoc",
      "year": null,
-     "focus": "Genomic basis of rare and common disease using multi-omics and machine learning",
+     "focus": "Genomic basis of rare and common diseases, multi-omics, machine learning",
      "email": null,
      "profile_url": null
     },
@@ -31405,7 +31333,7 @@
      "name": "Xiaotao Shen",
      "role": "Postdoc",
      "year": null,
-     "focus": "Bioinformatics for large-scale metabolomics and biomarker discovery (MetNormalizer, MetFlow, MetDNA)",
+     "focus": "Metabolomics algorithms and tools, biomarker discovery",
      "email": null,
      "profile_url": null
     },
@@ -31413,7 +31341,7 @@
      "name": "Xin Zhou",
      "role": "Postdoc",
      "year": null,
-     "focus": "Immune system interactions with environmental factors such as the microbiome",
+     "focus": "Human immune system and environmental factors such as the microbiome",
      "email": null,
      "profile_url": null
     },
@@ -31421,7 +31349,7 @@
      "name": "Yue Wu",
      "role": "Postdoc",
      "year": null,
-     "focus": "Metabolomics, time series, dynamics, machine learning",
+     "focus": "Metabolomics, time-series analysis, machine learning",
      "email": null,
      "profile_url": null
     },
@@ -31429,7 +31357,7 @@
      "name": "Alexander Johansen",
      "role": "PhD student",
      "year": null,
-     "focus": "Wearable health monitoring, convex optimization, stochastic processes",
+     "focus": "Health monitoring with wearables, convex optimization, stochastic processes (Computer Science)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/alexrosejo/"
     },
@@ -31437,7 +31365,7 @@
      "name": "Aubrey Roberts",
      "role": "PhD student",
      "year": null,
-     "focus": "Exercise physiology, molecular transducers of physical activity, epidemiology, precision medicine",
+     "focus": "Exercise physiology, molecular transducers of physical activity, epidemiology, precision medicine, nutrition",
      "email": null,
      "profile_url": "http://www.linkedin.com/in/aubreyrobertsstanford"
     },
@@ -31445,15 +31373,15 @@
      "name": "Jessica Kain",
      "role": "PhD student",
      "year": null,
-     "focus": "Precision medicine, computational and systems biology, machine learning, multi-omics, metabolomics",
+     "focus": "Precision medicine, computational and systems biology, machine learning, multi-omics, metabolomics (Biomedical Engineering)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/jessica-kain-106695181/"
     },
     {
      "name": "Khoa Hoang",
      "role": "PhD student",
-     "year": "expected 2028",
-     "focus": "Virome, metagenomics, genome mining, machine learning",
+     "year": null,
+     "focus": "Virome, metagenomics, genome mining, machine learning (Bioengineering)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/khoa-hoang-babb30172/"
     },
@@ -31469,7 +31397,7 @@
      "name": "Sayra Gorgani",
      "role": "PhD student",
      "year": null,
-     "focus": "Electrical Engineering PhD student (focus not listed)",
+     "focus": "PhD in Electrical Engineering; research focus not stated (UBC bachelor's)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/sayragorgani/"
     },
@@ -31477,14 +31405,14 @@
      "name": "Ziv Lautman",
      "role": "PhD student",
      "year": null,
-     "focus": "Early disease detection with wearables, precision mental health, placebo effect",
+     "focus": "Early disease detection with wearables, precision mental health, placebo effect (Bioengineering)",
      "email": null,
      "profile_url": "https://www.linkedin.com/in/lautman/"
     }
    ],
-   "department": "Department of Genetics",
+   "department": "Department of Genetics; Center for Genomics and Personalized Medicine",
    "location": "Stanford, California, USA",
-   "current_institution": "Stanford University School of Medicine",
+   "current_institution": "Stanford University (School of Medicine)",
    "members_page": "https://med.stanford.edu/snyderlab/people.html"
   },
   {
@@ -32069,44 +31997,41 @@
    "group": null,
    "department_hint": "Biomedical Data Science / Statistics",
    "id": "stanford-tibshirani",
-   "url": "https://statistics.stanford.edu/~tibs/",
-   "focus": "The group works on applied statistics and biostatistics. Its methods include computer-intensive approaches to regression and classification, the bootstrap, cross-validation and statistical inference. Applications include genomics, proteomics, medical diagnosis, and signal and image analysis. Tibshirani also develops genomics and proteomics software with Balasubramanian Narasimhan. The work is mainly statistical methodology and machine learning for high-dimensional biomedical data. It is not wet-lab or sequencing-pipeline work.",
+   "url": "https://med.stanford.edu/profiles/robert-tibshirani",
+   "focus": "The group works on applied statistics and biostatistics. Its methods include regression and classification, the bootstrap, cross-validation and statistical inference. These methods are applied to genomics, proteomics, medicine and signal and image analysis for medical diagnosis. The PI also co-develops genomics and proteomics software with Balasubramanian Narasimhan. The work is primarily methodological rather than wet-lab or cancer-specific.",
    "topics": [
     "statistical learning",
     "high-dimensional regression",
-    "genomics and proteomics statistics",
-    "bootstrap and cross-validation",
-    "biomedical data science"
+    "statistical inference",
+    "genomics/proteomics methods",
+    "biostatistics"
    ],
    "fit": {
     "score": 3,
-    "reason": "The group's statistical and machine-learning methods for genomic and proteomic data overlap with the student's computational-methods interest, but it has no focus on cancer WGS, structural variants or single-cell/spatial omics, and it is in the US, so a visa may be needed."
+    "reason": "Strong overlap with the student's interest in computational and machine-learning methods for genomics, but little published focus on cancer WGS, structural variants or single-cell/spatial work, and the student would need a US visa."
    },
    "flags": [
-    "PI is still at Stanford, with no move found.",
-    "No dedicated lab people/members page was found. The Stanford profile only lists 'Stanford Advisees', and that list was truncated when fetched.",
-    "The advisee list mixes dissertation advisees, co-advised students, readers and master's students. Roles and years are not stated, so no one was listed as a confirmed current PhD student or postdoc.",
-    "The advisee names on the profile are Ryan Goto, Max Schuessler, Min Sun (dissertation advisor); Aymen Echarghaoui, Jing Shang, Ivy Zhang (co-advisor); and Yixing Jiang, Gowri Nayar, Betty Xiong (doctoral program, role unspecified). Check these directly with the profile before outreach.",
-    "No postdocs were listed."
+    "No dedicated lab website or people page was found, so the current postdoc/PhD roster could not be verified.",
+    "The Stanford profile lists advisees (for example Ryan Goto, Max Schuessler and Min Sun as dissertation advisees), but it doesn't give their roles or current status, so they are not listed as members.",
+    "No PI move was found; the profile still shows Stanford.",
+    "Do not confuse this PI with his son Ryan Tibshirani, who is at UC Berkeley."
    ],
    "sources": [
     {
-     "title": "Robert Tibshirani - Stanford Medicine profile",
+     "title": "Robert Tibshirani – Stanford Medicine profile",
      "url": "https://med.stanford.edu/profiles/robert-tibshirani"
     },
     {
-     "title": "Robert Tibshirani - Stanford Profiles",
+     "title": "Robert Tibshirani – Stanford Profiles",
      "url": "https://profiles.stanford.edu/robert-tibshirani"
     },
     {
-     "title": "Tibshirani personal site",
-     "url": "https://statistics.stanford.edu/~tibs/"
+     "title": "Robert Tibshirani – Stanford Statistics",
+     "url": "https://statistics.stanford.edu/people/robert-tibshirani"
     }
    ],
-   "broken_links": [
-    "https://statistics.stanford.edu/~tibs/"
-   ],
-   "refreshed_at": "2026-11-20T13:01:37+00:00",
+   "broken_links": [],
+   "refreshed_at": "2026-11-27T22:03:04+00:00",
    "error": null,
    "pi_profile": {
     "name": "Robert Tibshirani",
@@ -32115,10 +32040,10 @@
     "scholar_url": null
    },
    "members": [],
-   "department": "Biomedical Data Science; Statistics (also Bio-X, Stanford Cancer Institute, Maternal & Child Health Research Institute, Wu Tsai Neurosciences Institute)",
+   "department": "Biomedical Data Science (School of Medicine); Statistics (joint)",
    "location": "Stanford, California, USA",
    "current_institution": "Stanford University",
-   "members_page": "https://med.stanford.edu/profiles/robert-tibshirani"
+   "members_page": null
   },
   {
    "name": "Dror Lab",
@@ -32731,47 +32656,47 @@
    "group": null,
    "department_hint": "Biomedical Data Science / Computer Science",
    "id": "stanford-yeung-levy",
-   "url": "https://marvl.stanford.edu/",
-   "focus": "The lab develops AI and machine learning algorithms for biomedicine and healthcare. Its main tools are deep learning and computer vision. It applies them to video of human behavior, such as clinical and hospital settings, to medical images, and to cell microscopy images. Some members work on multimodal and vision-language foundation models for biomedical data. Others work on spatial transcriptomics and computational biology, for example the postdoc Ludvig Bergenstråhle and the PhD students Fiona Cai and Min Woo Sun.",
+   "url": "https://marvl.stanford.edu/index.html",
+   "focus": "The lab works on deep learning, computer vision and multimodal modeling, with applications in biomedicine. Its methods include visual and vision-language models. It also works on machine learning for healthcare, including datasets and benchmarks. Its postdocs and students include people working on spatial transcriptomics (Ludvig Bergenstråhle) and statistical genomics (Min Woo Sun, co-advised by Rob Tibshirani). However, the lab's pages do not describe a cancer genomics or sequencing-variant program.",
    "topics": [
-    "medical computer vision",
-    "multimodal / vision-language models",
-    "biomedical foundation models",
-    "cell microscopy imaging",
-    "spatial transcriptomics",
-    "healthcare video"
+    "computer vision",
+    "multimodal deep learning",
+    "vision-language models",
+    "medical AI",
+    "biomedical benchmarks",
+    "spatial omics"
    ],
    "fit": {
     "score": 2,
-    "reason": "Only a minority of the lab's work (spatial transcriptomics and some computational biology ML) overlaps with the student's interests. The lab's core is vision and multimodal AI, not cancer genomics or sequencing-based somatic variant analysis. A US visa would also be needed."
+    "reason": "The lab's overlap is limited to machine learning methods and a couple of members who work on spatial or genomic data. Its core work is vision and multimodal AI, not tumour sequencing, structural variants or somatic mutation analysis."
    },
    "flags": [
-    "The PI is still at Stanford University. No move was found.",
-    "The people page has no date or last-updated information, so the roster may be out of date.",
-    "The people page lists names and links only. It gives no years, focus areas or emails, and no member emails were verified.",
-    "The Google Scholar URL for the PI was not seen, so it is left null.",
-    "The lab invites postdocs, rotation PhD students and a limited number of MS or advanced undergraduate students on a rolling basis. Interested postdocs should email the PI."
+    "No PI move found: the Stanford profile and the lab site both list her at Stanford.",
+    "The people page has no last-updated date and gives no years, individual research focus or emails for members.",
+    "I did not check the individual members' own pages, so the focus entries are mostly unknown.",
+    "No Google Scholar URL was seen on the official pages, so it is left null.",
+    "Stanford's profile page gives no lab link. The lab site is marvl.stanford.edu."
    ],
    "sources": [
     {
-     "title": "Serena Yeung-Levy – Stanford Medicine profile",
+     "title": "Stanford profile: Serena Yeung",
      "url": "https://med.stanford.edu/profiles/serena-yeung"
-    },
-    {
-     "title": "Stanford Medical AI and Computer Vision Lab",
-     "url": "https://marvl.stanford.edu/"
     },
     {
      "title": "People of MARVL",
      "url": "https://marvl.stanford.edu/people.html"
+    },
+    {
+     "title": "Stanford Medical AI and Computer Vision Lab",
+     "url": "https://marvl.stanford.edu/index.html"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:01:15+00:00",
+   "refreshed_at": "2026-11-27T22:02:47+00:00",
    "error": null,
    "pi_profile": {
     "name": "Serena Yeung-Levy",
-    "title": "Assistant Professor of Biomedical Data Science, and by courtesy of Computer Science and of Electrical Engineering",
+    "title": "Assistant Professor of Biomedical Data Science (courtesy appointments in Computer Science and Electrical Engineering)",
     "profile_url": "https://med.stanford.edu/profiles/serena-yeung",
     "scholar_url": null
    },
@@ -32780,7 +32705,7 @@
      "name": "Ludvig Bergenstråhle",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page. Prior work suggests spatial transcriptomics methods; this is unverified.",
+     "focus": "Not listed on the people page. The Wallenberg profile link suggests spatial omics or ML work, but I did not verify this.",
      "email": null,
      "profile_url": "https://wallenbergresearchlink.stanford.edu/people/ludvig-bergenstrahle"
     },
@@ -32788,7 +32713,7 @@
      "name": "Xiaoxiao Sun",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://scholar.google.com/citations?user=1oCrd64AAAAJ&hl"
     },
@@ -32796,7 +32721,7 @@
      "name": "Alejandro Lozano",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://alejandro-lozano-dev.github.io/alejandro/"
     },
@@ -32804,7 +32729,7 @@
      "name": "Elaine Sui",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "http://www.linkedin.com/in/elaine-sui"
     },
@@ -32812,7 +32737,7 @@
      "name": "Fiona Cai",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://fionacai.com/"
     },
@@ -32820,7 +32745,7 @@
      "name": "Leon Chen",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://cliangyu.com/"
     },
@@ -32828,7 +32753,7 @@
      "name": "Marie Huynh",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://dbds.stanford.edu/people/marie-huynh/"
     },
@@ -32836,7 +32761,7 @@
      "name": "Mark Endo",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://web.stanford.edu/~markendo/"
     },
@@ -32844,7 +32769,7 @@
      "name": "Min Woo Sun",
      "role": "PhD student",
      "year": null,
-     "focus": "Co-advised by Rob Tibshirani. No other focus is stated on the people page.",
+     "focus": "Co-advised by Rob Tibshirani. Individual focus is not listed on the people page.",
      "email": null,
      "profile_url": "https://minwoosun.github.io/"
     },
@@ -32852,7 +32777,7 @@
      "name": "Shengguang Wu",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://cs.stanford.edu/~shgwu"
     },
@@ -32860,12 +32785,12 @@
      "name": "Shiye Su",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the people page.",
+     "focus": "Not listed on the people page.",
      "email": null,
      "profile_url": "https://ssu53.github.io/"
     }
    ],
-   "department": "Biomedical Data Science (School of Medicine); courtesy in Computer Science and Electrical Engineering; affiliated with SAIL, AIMI and CERC",
+   "department": "Biomedical Data Science (primary); Computer Science and Electrical Engineering (courtesy). The lab is affiliated with SAIL, AIMI and CERC.",
    "location": "Stanford, California, USA",
    "current_institution": "Stanford University",
    "members_page": "https://marvl.stanford.edu/people.html"
@@ -34187,7 +34112,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-20T13:05:01+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 10:30pm (UTC)",
    "pi_profile": {
     "name": "Aida Andrés",
     "title": "Professor in Population Evolutionary Genetics; Director, UCL Genetics Institute",
@@ -34243,62 +34168,62 @@
    "group": null,
    "department_hint": "Cell and Developmental Biology",
    "id": "ucl-barnes",
-   "url": "https://openwetware.org/wiki/Barnes",
-   "focus": "The group works on synthetic biology and computational methods, with the aim of making biology more engineerable, predictable and robust. Listed projects include computational control of mixed microbial communities, computation using patterning of bacterial colonies, engineering the microbiome for therapeutic and diagnostic uses, therapeutically relevant bacterial biosensors, and computational design and characterisation of synthetic gene networks. UCL's group-leader page also lists principles of genome rearrangement and biocomputing. Methods include statistics, machine learning, systems biology and quantitative modelling. The PI is now also Head of Science of AI at NPL, working on AI uncertainty quantification and trustworthy AI.",
+   "url": "https://openwetware.org/wiki/Barnes:Research",
+   "focus": "The group combines synthetic biology with computational methods. Its stated aim is to make biology more engineerable, predictable and robust. Current projects on its OpenWetWare page cover computational control of mixed microbial communities, computation through bacterial colony patterning, and engineering the microbiome for therapeutic and diagnostic uses. Earlier work covered therapeutic bacterial biosensors and the computational design and characterisation of synthetic gene switches. Other topics listed on UCL pages include principles of genome rearrangement and biocomputing. I could not find a description of specific techniques, and the group does not appear to work on cancer or human genomics.",
    "topics": [
     "synthetic biology",
     "microbiome engineering",
-    "gene network design",
-    "microbial community modelling",
-    "biosensors",
-    "AI uncertainty quantification"
+    "microbial community control",
+    "biocomputing and biosensing",
+    "genome rearrangement",
+    "gene circuit design"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The group is computational and uses machine learning and statistics, but it focuses on synthetic biology and microbiome engineering. It has no stated work on cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics, and a UK role would probably need a visa."
+    "score": 1,
+    "reason": "The group works on synthetic biology and microbiome engineering, with no visible overlap with cancer genomics, structural variants, tumour sequencing or single-cell/spatial omics. Only the general use of computational modelling is shared."
    },
    "flags": [
-    "I could not verify a current roster. The UCL people pages returned HTTP 403 (the discovery URL and https://www.ucl.ac.uk/biosciences/computational-biology-people).",
-    "The only member list I found is the OpenWetWare page, last edited 12 October 2018. It gave names only, with no roles. I left the members list empty rather than present 2018 names as current. Names on that page were Marc Williams, Alex Fedorec, Luca Rosa, Behzad Karkaria, Neythen Treloar, Jack Rutter",
-    "The PI holds a concurrent role as Head of Science of AI at NPL, per NPL's profile. UCL appears to remain his academic home, but I did not confirm his current UCL page.",
-    "The PI's profile link is the NPL page, because I could not open a UCL profile. The lab's OpenWetWare page lists an older UCL IRIS profile (http://iris.ucl.ac.uk/iris/browse/profile?upi=CPBAR18).",
-    "I did not find a Google Scholar URL, so it is null."
+    "I could not verify a current postdoc or PhD student roster, so 'members' is empty. The UCL academics page and the UCL Cell and Developmental Biology group-leaders page both returned HTTP 403.",
+    "The only member list found is the OpenWetWare 'Lab Members' page, last edited 12 Oct 2018. It names Marc Williams, Alex Fedorec, Luca Rosa, Behzad Karkaria, Neythen Treloar, Jack Rutter, Ke Yan Wen and Linda Dekker, without roles. I did not treat these as current members.",
+    "A web search listed the PI as Professor of Systems and Synthetic Biology at UCL, in the Cell and Developmental Biology department. I found no sign of a move, but I could not open the current UCL pages.",
+    "OpenWetWare lists the PI's email as christopher.barnes at ucl.ac.uk. I did not confirm it on a UCL page.",
+    "The lab website cssb.cs.ucl.ac.uk was only seen as a link, not opened, so it may be outdated."
    ],
    "sources": [
     {
-     "title": "Barnes lab - OpenWetWare",
-     "url": "https://openwetware.org/wiki/Barnes"
-    },
-    {
-     "title": "Barnes: Contact - OpenWetWare",
-     "url": "https://openwetware.org/wiki/Barnes:Contact"
-    },
-    {
-     "title": "Barnes: Lab Members - OpenWetWare (last edited 2018)",
-     "url": "https://openwetware.org/wiki/Barnes:Lab_Members"
-    },
-    {
-     "title": "Chris Barnes - NPL",
-     "url": "https://www.npl.co.uk/our-people/chris-barnes"
+     "title": "UCL Physics of Living Systems - academics and research fellows",
+     "url": "https://www.ucl.ac.uk/physics-living-systems/people/academics-and-research-fellows"
     },
     {
      "title": "UCL Cell and Developmental Biology group leaders",
      "url": "https://www.ucl.ac.uk/biosciences/cell-and-developmental-biology/group-leaders"
+    },
+    {
+     "title": "OpenWetWare Barnes: Research",
+     "url": "https://openwetware.org/wiki/Barnes:Research"
+    },
+    {
+     "title": "OpenWetWare Barnes: Contact",
+     "url": "https://openwetware.org/wiki/Barnes:Contact"
+    },
+    {
+     "title": "OpenWetWare Barnes: Lab Members (last edited 2018)",
+     "url": "https://openwetware.org/wiki/Barnes:Lab_Members"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:02:50+00:00",
+   "refreshed_at": "2026-11-27T22:04:05+00:00",
    "error": null,
    "pi_profile": {
     "name": "Chris P. Barnes",
     "title": "Professor of Systems and Synthetic Biology",
-    "profile_url": "https://www.npl.co.uk/our-people/chris-barnes",
+    "profile_url": "http://iris.ucl.ac.uk/iris/browse/profile?upi=CPBAR18",
     "scholar_url": null
    },
    "members": [],
-   "department": "Cell and Developmental Biology (UCL Division of Biosciences); Computational Systems and Synthetic Biology group",
-   "location": "London, UK",
-   "current_institution": "University College London (UCL), with a concurrent role at the National Physical Laboratory (NPL)",
+   "department": "Cell and Developmental Biology (UCL Biosciences)",
+   "location": "London, United Kingdom",
+   "current_institution": "University College London",
    "members_page": "https://openwetware.org/wiki/Barnes:Lab_Members"
   },
   {
@@ -34350,7 +34275,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-20T13:05:05+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 10:30pm (UTC)",
    "pi_profile": {
     "name": "Christine Orengo",
     "title": "Professor of Bioinformatics",
@@ -34374,57 +34299,57 @@
    "department_hint": "UCL Genetics Institute",
    "id": "ucl-curtis",
    "url": "https://www.ucl.ac.uk/life-sciences/biosciences/computational-biology/computational-genetics",
-   "focus": "Curtis works on statistical and psychiatric genetics, with a particular interest in the genetics of schizophrenia and other psychiatric conditions. He took part in the SCHEMA exome-sequencing meta-analysis, which found rare coding variants in ten genes that confer substantial risk for schizophrenia. His work includes analysing rare sequence variants from exome and sequencing data and writing statistical methods and software for gene-based association tests. I could not open the lab page (it returned HTTP 403), so this summary comes from search snippets and not from the lab's own description.",
+   "focus": "The group develops statistical methods and software for genetic association analysis, mainly in psychiatric and complex-trait genetics. Recent work centres on weighted burden tests for rare variants in UK Biobank exome sequencing data. These tests use allele-frequency and annotation-based weights, and linear regression that copes with ethnically heterogeneous samples. Applications include BMI, where MC4R and PCSK1 reached exome-wide significance, and lipid and other phenotypes. The work is mostly in germline rare-variant association testing, and the search results gave no sign of cancer or single-cell work.",
    "topics": [
     "statistical genetics",
+    "rare variant burden testing",
+    "UK Biobank exomes",
     "psychiatric genetics",
-    "schizophrenia",
-    "rare variant / exome association",
-    "gene-based tests"
+    "association methods and software"
    ],
    "fit": {
     "score": 2,
-    "reason": "The overlap is limited to statistical and computational methods for sequencing data. Curtis works on germline rare-variant association in psychiatric disease, and the student's interests are cancer genomics, tumour WGS and transcriptome sequencing, somatic structural variants and single-cell and spa"
+    "reason": "Methods-oriented genomics work overlaps loosely with the student's computational interests, but it is germline and population-level, with no cancer, somatic, structural-variant, or single-cell/spatial focus."
    },
    "flags": [
-    "The lab page returned HTTP 403, so I could not read it. No members list was verified, and members is empty. Do not treat that as confirmation that the group has no members.",
-    "Curtis appears to hold an honorary professorship at UCL and at QMUL, not a full-time faculty post. A 2022 editorial describes him as a retired consultant psychiatrist who still does research. This may be a part-time or small-group setup and not a staffed lab.",
-    "I did not find a named 'Curtis group' on the UCL Genetics Institute research groups page. I could not confirm his current status on the UCL people page because it also returned 403.",
-    "I found no Google Scholar URL, so scholar_url is null.",
-    "A UK role would probably need a visa for a Canadian student."
+    "Could not open the lab page or the UCL people page (both returned HTTP 403), so no current postdocs or PhD students were verified. The list is empty, not confirmed to be empty.",
+    "Search results describe Curtis as an Honorary Professor and a retired or NHS consultant psychiatrist, so he is probably not a conventional lab head with funded students. This is unconfirmed.",
+    "He may also hold an honorary post at Queen Mary University of London, but the QMUL profile URL returned 404. The PI's current institution is therefore not fully verified.",
+    "No Google Scholar URL was seen.",
+    "A UK role would likely need a visa for a Canadian student."
    ],
    "sources": [
     {
-     "title": "UCL Computational Genetics page (from discovery; 403 on fetch, appeared in search results)",
+     "title": "UCL computational genetics page (discovered lab URL, 403 on fetch)",
      "url": "https://www.ucl.ac.uk/life-sciences/biosciences/computational-biology/computational-genetics"
     },
     {
-     "title": "UCL Genetics Institute people (403 on fetch; search snippet lists Curtis as Honorary Professor)",
+     "title": "UCL Genetics Institute people (403 on fetch; seen in search results)",
      "url": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people"
     },
     {
-     "title": "UCL news: advances in understanding genetic contributions to mental illness (David Curtis, UGI)",
-     "url": "https://www.ucl.ac.uk/life-sciences/news/2022/apr/advances-our-understanding-genetic-contributions-mental-illness-david-curtis-ugi"
+     "title": "UCL Discovery: Curtis UKBB BMI paper",
+     "url": "https://discovery.ucl.ac.uk/id/eprint/10146475"
     },
     {
-     "title": "Curtis: What have genetic studies of rare sequence variants taught us about the aetiology of schizophrenia (UCL Discovery)",
-     "url": "https://discovery.ucl.ac.uk/10188583/2/Curtis_What%20have%20genetic%20studies%20of%20rare%20sequence%20variants%20taught%20us%20about%20the%20aetiology%20of%20schizophrenia_VoR.pdf"
+     "title": "BJPsych Bulletin profile (David Curtis)",
+     "url": "https://doi.org/10.1192/bjb.2023.72"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:03:22+00:00",
+   "refreshed_at": "2026-11-27T22:04:34+00:00",
    "error": null,
    "pi_profile": {
     "name": "David Curtis",
-    "title": "Honorary Professor (UCL Genetics Institute; also Honorary Professor at Queen Mary University of London, Centre for Psychiatry); retired consultant psychiatrist",
-    "profile_url": "https://www.ucl.ac.uk/life-sciences/biosciences/computational-biology/computational-genetics",
+    "title": "Honorary Professor, UCL Genetics Institute (also reported as Honorary Professor at Queen Mary University of London)",
+    "profile_url": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people",
     "scholar_url": null
    },
    "members": [],
-   "department": "UCL Genetics Institute (Division of Biosciences / Genetics, Evolution & Environment)",
+   "department": "UCL Genetics Institute, Division of Biosciences (Genetics, Evolution & Environment)",
    "location": "London, United Kingdom",
-   "current_institution": "University College London (honorary appointment; also honorary at Queen Mary University of London)",
-   "members_page": null
+   "current_institution": "University College London (honorary appointment)",
+   "members_page": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people"
   },
   {
    "name": "Bioinformatics Group (UCL Computer Science)",
@@ -34471,7 +34396,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-20T13:04:58+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 10:30pm (UTC)",
    "pi_profile": {
     "name": "David T. Jones",
     "title": "Professor of Bioinformatics, FRS",
@@ -34494,59 +34419,63 @@
    "group": null,
    "department_hint": "Genetics, Evolution and Environment",
    "id": "ucl-balloux",
-   "url": "https://www.ucl.ac.uk/biosciences/gee/ucl-genetics-institute",
-   "focus": "The lab works on microbial and pathogen genomics, where genomics, epidemiology, evolution and ecology overlap. It studies how epidemics and outbreaks unfold in humans and wildlife, and how antimicrobial resistance emerges. Past work covers drug resistance in tuberculosis and Gram-negative bacteria, zoonotic pathogen spread among vertebrates, and curation of an early SARS-CoV-2 genetic dataset. The methods are computational: phylogenetics, population genetics and genomic epidemiology. These details come from a secondary source (Wikipedia) and search snippets, not from an official lab page.",
+   "url": "https://ucl.ac.uk/biosciences/gee/academic-staff",
+   "focus": "I could not open the lab's own pages, so this description is general and not checked against a current official source. The group works on computational and systems biology of microbes, especially microbial genomics, pathogen evolution and the spread of infectious disease. Typical methods are phylogenetics and population genomics, and the group has also used machine learning and metagenomics on pathogen data. Related work in the wider UCL Genetics Institute covers ancient pathogen DNA and zoonotic disease at the human-animal interface.",
    "topics": [
     "microbial genomics",
-    "genomic epidemiology",
-    "antimicrobial resistance",
     "pathogen evolution",
-    "zoonoses",
-    "computational biology"
+    "infectious disease genomics",
+    "computational biology",
+    "metagenomics"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab is computational and genomics-focused, but it centres on pathogen and microbial evolution and epidemiology. It has little overlap with cancer genomics, structural variants, somatic mutations or single-cell and spatial omics. A UK role would also probably need a visa."
+    "reason": "The lab shares the student's interest in computational and machine-learning genomics, but it studies pathogens and microbial evolution. It does not appear to work on cancer genomics, somatic structural variants or single-cell and spatial omics, and a UK role may also need a visa."
    },
    "flags": [
-    "Could not open the UCL people, academic-staff and GEE pages (HTTP 403), so no current postdocs or PhD students could be verified. The members list is empty on purpose.",
-    "Search results mention Cedric Tan, a PhD student co-supervised by Balloux (zoonotic disease), on a page from Lucy van Dorp's team. I did not confirm this on an official Balloux page, so he is not listed as a member.",
-    "No dedicated Balloux lab website was found. Search results also disagree on whether Balloux is the Genetics Institute's director.",
-    "No move from UCL was found. The PI's Google Scholar URL was not verified.",
-    "To get the roster, check the UCL Genetics Institute people page directly in a browser."
+    "The UCL pages (the GEE academic staff page, the Genetics Institute people pages and the research groups page) returned HTTP 403, so I could not read them.",
+    "I found no dedicated Balloux Lab members page, so the member list is almost certainly incomplete. It includes only the one person I could verify, from Lucy van Dorp's team page.",
+    "PI institution: search results list Balloux at UCL, as Professor of Computational Systems Biology on the Genetics Institute people page. I found no sign of a move, but I could not open the pages to confirm it.",
+    "Two other UCL titles for him appeared in search results: 'Professor of Computational Biology Systems Biology' and 'director of the UCL Genetics Institute'. A Genetics Institute page lists Aida Andres as Director, so the director claim may be out of date.",
+    "I did not verify the lab website URL or the Google Scholar URL, so both are null."
    ],
    "sources": [
+    {
+     "title": "academic staff (UCL GEE)",
+     "url": "https://ucl.ac.uk/biosciences/gee/academic-staff"
+    },
     {
      "title": "UCL Genetics Institute people",
      "url": "https://www.ucl.ac.uk/biosciences/gee/ucl-genetics-institute/people"
     },
     {
-     "title": "GEE academic staff",
-     "url": "https://www.ucl.ac.uk/biosciences/gee/academic-staff"
-    },
-    {
-     "title": "Francois Balloux - Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Francois_Balloux"
-    },
-    {
-     "title": "UCL Genetics Institute research groups",
-     "url": "https://www.ucl.ac.uk/biosciences/gee/ucl-genetics-institute"
+     "title": "van Dorp lab team page (Cedric Tan, joint supervision with Balloux)",
+     "url": "https://www.homepages.ucl.ac.uk/~ucbpvan/team/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:02:40+00:00",
+   "refreshed_at": "2026-11-27T22:04:07+00:00",
    "error": null,
    "pi_profile": {
     "name": "Francois Balloux",
-    "title": "Professor of Computational Systems Biology; Director, UCL Genetics Institute",
-    "profile_url": "https://www.ucl.ac.uk/biosciences/gee/academic-staff",
+    "title": "Professor of Computational Systems Biology",
+    "profile_url": "https://ucl.ac.uk/biosciences/gee/academic-staff",
     "scholar_url": null
    },
-   "members": [],
-   "department": "UCL Genetics Institute; Genetics, Evolution and Environment (Division of Biosciences)",
+   "members": [
+    {
+     "name": "Cedric Tan",
+     "role": "PhD student",
+     "year": null,
+     "focus": "Zoonotic disease, machine learning and metagenomics, with a focus on pathogen evolution and transmission at the human-animal interface. The page says he is jointly supervised with Francois Balloux.",
+     "email": null,
+     "profile_url": "https://www.homepages.ucl.ac.uk/~ucbpvan/team/"
+    }
+   ],
+   "department": "UCL Genetics Institute; Genetics, Evolution and Environment (GEE), Division of Biosciences",
    "location": "London, United Kingdom",
    "current_institution": "University College London",
-   "members_page": "https://www.ucl.ac.uk/biosciences/gee/ucl-genetics-institute/people"
+   "members_page": null
   },
   {
    "name": "Hellenthal Group (statistical genetics, human population history)",
@@ -34559,25 +34488,25 @@
    "department_hint": "Genetics, Evolution and Environment / UCL Genetics Institute",
    "id": "ucl-hellenthal",
    "url": "https://hellenthal-group-ucl.github.io/hellenthal-group/",
-   "focus": "The group develops and applies statistical methods, including Bayesian approaches, to genome-wide genetic data. These methods infer population structure, admixture and migration, and they date historical episodes of DNA exchange between populations. Applications include the genetic structure of the UK (People of the British Isles project) and population history in Africa, including Ethiopia. Current work also looks at adaptive loci, such as variants linked to the Anglo-Saxon migration, and at statistical models of methylation marks. The group uses ancient and modern DNA.",
+   "focus": "The group develops statistical methods, including Bayesian approaches, for genome-wide DNA data to infer human population history. Its work includes detecting and dating historical admixture events, such as those linked to invasions and migrations, and inferring fine-scale population structure, particularly in Africa and the UK. It also looks for genetic loci involved in human adaptation to new environments, including methylation marks. Current projects include adaptive variants from the Anglo-Saxon migration and methylation loci established in the early embryo.",
    "topics": [
-    "population genetics",
-    "admixture and migration inference",
-    "human demographic history",
-    "ancient DNA",
     "statistical genetics",
-    "adaptation and selection"
+    "population structure",
+    "admixture inference",
+    "human demographic history",
+    "adaptation",
+    "methylation"
    ],
    "fit": {
     "score": 1,
-    "reason": "The group works on population-history inference and admixture, not cancer genomics, somatic or structural variants, single-cell or spatial omics. The only overlap is generic statistical and computational method development."
+    "reason": "The group does population-genetic and demographic inference, not cancer, tumour sequencing, structural variants, somatic mutation or single-cell/spatial omics. The only overlap is general statistical and computational genomics methods. The student would also need a UK visa."
    },
    "flags": [
-    "The PI's institution has not changed: UCL is current. The PI's old homepage (homepages.ucl.ac.uk/~ucbtgrh) is badly outdated. It still shows the Sir Henry Dale Fellow title and a 2012-era team, so use the GitHub group site instead.",
-    "Title varies by source: UCL and group pages say Professor of Statistical Genetics, and an HSTalks bio says Associate Professor.",
-    "The group members page lists Alice Balard (methylation statistical models) as a lab member with no role given, and says her PhD with Garrett finished in 2023. She is probably not a current PhD student, so she is left out of the member list. The page also says Nancy Bird completed her PhD in 2023, wh",
-    "No member emails and no members' profile links are published on the group page. The UCL people page returned HTTP 403, so I couldn't cross-check it. A search snippet said it lists Mengzi Chen under the group.",
-    "The group page has no date, so I can't tell how recently it was updated."
+    "The PI's homepage (homepages.ucl.ac.uk/~ucbtgrh) is outdated. It lists the PI as a Sir Henry Dale Fellow and lists members who are now alumni, such as Saioa Lopez, Lucy van Dorp, Liam Quinn, Pongsakorn Wangkumhang and Juan Camilo Chacón-Duque. I used the group GitHub-pages site instead.",
+    "No move: the PI is still at UCL, listed as Professor of Statistical Genetics.",
+    "The group members page shows no last-updated date, so the roster could not be checked against a dated source.",
+    "Alice Balard is listed as a member without a role. She is included but not confirmed as a postdoc or PhD student.",
+    "The UCL Genetics Institute people page returned 403 when fetched. A search snippet said it lists Mengzi Chen as a PhD student in the group, but I could not open the page to check this."
    ],
    "sources": [
     {
@@ -34585,33 +34514,29 @@
      "url": "https://hellenthal-group-ucl.github.io/hellenthal-group/group-members"
     },
     {
-     "title": "Garrett Hellenthal homepage (outdated)",
+     "title": "Garrett Hellenthal homepage (UCL)",
      "url": "https://www.homepages.ucl.ac.uk/~ucbtgrh"
     },
     {
-     "title": "UCL Human Population Genetics",
-     "url": "https://www.ucl.ac.uk/life-sciences/ugi/human-population-genetics"
-    },
-    {
      "title": "UCL Genetics Institute people",
-     "url": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people"
+     "url": "https://www.ucl.ac.uk/biosciences/gee/ucl-genetics-institute/people"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:03:45+00:00",
+   "refreshed_at": "2026-11-27T22:05:02+00:00",
    "error": null,
    "pi_profile": {
     "name": "Garrett Hellenthal",
     "title": "Professor of Statistical Genetics",
-    "profile_url": "https://www.ucl.ac.uk/life-sciences/ugi/human-population-genetics",
+    "profile_url": "https://www.homepages.ucl.ac.uk/~ucbtgrh",
     "scholar_url": null
    },
    "members": [
     {
      "name": "Nancy Bird",
      "role": "Postdoc",
-     "year": "PhD with Garrett completed 2023",
-     "focus": "Ancestry and population structure; human adaptation to new environments",
+     "year": "PhD completed 2023",
+     "focus": "Population structure and ancestry in worldwide humans, and human adaptation to new environments.",
      "email": null,
      "profile_url": null
     },
@@ -34619,13 +34544,13 @@
      "name": "Mengzi Chen",
      "role": "PhD student",
      "year": null,
-     "focus": "Adaptive variants from the Anglo-Saxon migration and their health impact in the UK; admixture, migration and ancient DNA (UCL Research Excellence Fellowship)",
+     "focus": "Adaptive genetic variants from the Anglo-Saxon migration and their health impact in the UK today (UCL Research Excellence Fellowship).",
      "email": null,
      "profile_url": null
     }
    ],
-   "department": "Genetics, Evolution and Environment / UCL Genetics Institute (UGI)",
-   "location": "London, UK",
+   "department": "UCL Genetics Institute, Department of Genetics, Evolution and Environment",
+   "location": "London, United Kingdom",
    "current_institution": "University College London",
    "members_page": "https://hellenthal-group-ucl.github.io/hellenthal-group/group-members"
   },
@@ -34639,32 +34564,28 @@
    "group": null,
    "department_hint": "Institute of Health Informatics",
    "id": "ucl-hemingway",
-   "url": "https://www.ucl.ac.uk/health-informatics",
-   "focus": "The institute works on electronic health record (EHR) research, covering large linked national datasets such as CALIBER. Its main areas are cardiovascular disease, disease phenotyping, risk prediction and clinical epidemiology. It also works on health data science, machine learning and AI for healthcare, public health data science, and infectious disease informatics. The work is population-scale and clinical-record based. It does not cover tumour sequencing, structural variants or single-cell/spatial omics.",
+   "url": "https://www.ucl.ac.uk/health-informatics/governance-and-strategy",
+   "focus": "The Institute works on health data science using large linked electronic health records. Hemingway's own work centres on cardiovascular disease and clinical epidemiology, including disease phenotyping, prognosis research and risk prediction. Wider IHI themes in the search snippets include AI and machine learning for clinical data, clinical informatics, infectious diseases, digital health interventions and population health. The work is population-scale and clinical. It does not focus on tumour sequencing or other molecular omics.",
    "topics": [
     "electronic health records",
     "clinical epidemiology",
     "cardiovascular disease",
-    "risk prediction / machine learning",
     "health data science",
-    "phenotyping"
+    "clinical AI/ML",
+    "population health"
    ],
    "fit": {
     "score": 2,
-    "reason": "There is some overlap in machine learning methods, but the lab works on EHR and population health data and not on cancer genomics, sequencing, structural variants or single-cell/spatial omics."
+    "reason": "The ML and health-data methods overlap loosely with the student's computational interests, but the work is EHR and epidemiology rather than cancer genomics, structural variants or single-cell and spatial omics, and a UK role would need a visa."
    },
    "flags": [
-    "Hemingway is no longer listed as Institute Director. Search results for the UCL IHI people page name Prof Laura Shallcross as Institute Director and give Hemingway the title Professor of Clinical Epidemiology. The HDR UK and World Heart Federation profiles still call him Director, so they are probab",
-    "No move away from UCL was found.",
-    "UCL pages returned 403 errors, so I could not verify the people page. It reportedly lists only the director and links to UCL Profiles. No postdocs or PhD students could be verified, so the members list is empty.",
-    "The Google Scholar URL was not verified.",
-    "The student would likely need a UK visa. Research is clinical and EHR-based and not genomic."
+    "Could not open the people page (UCL returned 403), so postdocs and PhD students are not listed. Nothing was fabricated.",
+    "Director role unclear: a search summary says UCL's people page names Laura Shallcross as Institute Director and lists Hemingway only as Professor of Clinical Epidemiology. The HDR UK and World Heart Federation profiles still call him Director. Verify this manually.",
+    "No sign that Hemingway has left UCL. He is also listed as Research Director at HDR UK London, based on the HDR UK profile (I couldn't open it).",
+    "Google Scholar URL not verified, so it is null.",
+    "A separate AI4H UCL group page lists group members. It is not the IHI roster and I did not open it."
    ],
    "sources": [
-    {
-     "title": "UCL IHI people page",
-     "url": "https://www.ucl.ac.uk/health-informatics/people"
-    },
     {
      "title": "Harry Hemingway - UCL profile",
      "url": "https://www.ucl.ac.uk/school-life-medical-sciences/harry-hemingway"
@@ -34674,25 +34595,25 @@
      "url": "https://www.hdruk.ac.uk/people/harry-hemingway/"
     },
     {
-     "title": "UCL IHI governance and strategy",
-     "url": "https://www.ucl.ac.uk/health-informatics/governance-and-strategy"
+     "title": "IHI people page (not opened)",
+     "url": "https://www.ucl.ac.uk/health-informatics/people"
     },
     {
-     "title": "AI4H Lab team",
-     "url": "https://ai4hucl.github.io/ai4h_webs/team"
+     "title": "Health Informatics MPhil/PhD",
+     "url": "https://www.ucl.ac.uk/prospective-students/graduate/research-degrees/health-informatics-mphil-phd-2026"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:03:44+00:00",
+   "refreshed_at": "2026-11-27T22:04:57+00:00",
    "error": null,
    "pi_profile": {
     "name": "Harry Hemingway",
-    "title": "Professor of Clinical Epidemiology; Research Director, HDR UK London; NIHR UCLH BRC Computational Medicine theme lead",
+    "title": "Professor of Clinical Epidemiology, UCL Institute of Health Informatics",
     "profile_url": "https://www.ucl.ac.uk/school-life-medical-sciences/harry-hemingway",
     "scholar_url": null
    },
    "members": [],
-   "department": "Institute of Health Informatics, Faculty of Population Health Sciences; NIHR UCLH/UCL Biomedical Research Centre (Computational Medicine); Health Data Research UK London",
+   "department": "Institute of Health Informatics, Faculty of Population Health Sciences",
    "location": "London, United Kingdom",
    "current_institution": "University College London",
    "members_page": "https://www.ucl.ac.uk/health-informatics/people"
@@ -34748,7 +34669,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-20T13:04:24+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 10:30pm (UTC)",
    "pi_profile": {
     "name": "James H. Cole",
     "title": "Professor of Neuroimage Computing",
@@ -34924,26 +34845,25 @@
    "group": null,
    "department_hint": "Institute of Healthy Ageing / Genetics, Evolution and Environment",
    "id": "ucl-b-hler",
-   "url": "https://www.ucl.ac.uk/life-sciences/bahler-lab/team",
-   "focus": "The lab studies genome regulation during cellular quiescence, ageing and stress response, using fission yeast (Schizosaccharomyces pombe) as a simple model system. It combines molecular genetics, computational analysis and genome-wide approaches. These are used to understand how genotype, phenotype and environment relate at a systems level. Topics include genome evolution, energy metabolism, transcriptome regulation and non-coding RNAs. Recent recruitment calls mention functional genomics of conserved but unstudied proteins in quiescence and ageing, and the genetic architecture of environmental responses.",
+   "url": "http://bahlerlab.info/home/",
+   "focus": "The lab uses fission yeast (Schizosaccharomyces pombe) as a model to study genome regulation during cell proliferation, quiescence and ageing. This is based on a search summary of the team page, and I couldn't open the lab pages to check the details. Their work is described as combining wet-lab and computational functional genomics. Typical methods for this group include transcriptomics, non-coding RNAs, genetic interaction and natural-variation screens, and systems-level analysis. I did not confirm these from an official page.",
    "topics": [
     "fission yeast",
-    "quiescence and ageing",
     "functional genomics",
-    "non-coding RNA",
-    "stress response",
-    "genotype-phenotype"
+    "ageing and quiescence",
+    "genome regulation",
+    "systems biology"
    ],
    "fit": {
     "score": 2,
-    "reason": "The lab has some computational and genome-wide methods overlap, but it works on yeast ageing and gene function, not cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics."
+    "reason": "The lab does computational genomics and omics analysis, which overlaps a little with the student's methods interests. It works on yeast ageing and gene regulation, not cancer genomics, tumour sequencing, structural variants or single-cell/spatial cancer omics."
    },
    "flags": [
-    "Team page returned HTTP 403, so it could not be read directly; member data comes only from search-result summaries.",
-    "PhD students are not listed. One summary named Haoyu Wang, Zheng Liang, Jinjie Chen, Jacob Lester, Erika Yara Romero and Seán O'Reilly, but a second search did not confirm them, so check the page manually.",
-    "Ben Heineke is listed as a Visiting/Honorary Researcher, so he is excluded from the member list.",
-    "No move detected: PI is still at UCL. Other pages also list him at Birkbeck (ISMB) and the Crick Institute, so those may be secondary or old affiliations.",
-    "Currency of the team page is unknown."
+    "The UCL team page and the discovery URL both returned HTTP 403 to me. The member list comes from a search-result summary of the team page, not from reading the page.",
+    "The summary showed no PhD students, so the list may be incomplete or out of date. Check the page by hand.",
+    "The PI is still at UCL, with no move found. The ISMB page, which I opened, says 'Based at UCL' and also lists a Birkbeck-linked institute.",
+    "The summary named Ben Heineke as a visiting/honorary researcher. I excluded them as not a postdoc or PhD student.",
+    "The only email I saw is the lab contact address j.bahler@ucl.ac.uk, which appeared in the search summary. It is the PI's contact address and not a member's, so I left it out of the member entries."
    ],
    "sources": [
     {
@@ -34952,19 +34872,17 @@
     },
     {
      "title": "Jürg Bähler (ISMB)",
-     "url": "https://www.ismb.lon.ac.uk/?p=1165"
-    },
-    {
-     "title": "Jürg Bähler (ISMB profile)",
      "url": "https://www.ismb.lon.ac.uk/jurg-bahler/"
     },
     {
-     "title": "Bähler lab (Crick)",
-     "url": "https://www.crick.ac.uk/research/labs/jurg-bahler"
+     "title": "UCL GEE academics",
+     "url": "https://www.ucl.ac.uk/life-sciences/gee/gee-researchers/gee-academics"
     }
    ],
-   "broken_links": [],
-   "refreshed_at": "2026-11-20T13:03:03+00:00",
+   "broken_links": [
+    "http://bahlerlab.info/home/"
+   ],
+   "refreshed_at": "2026-11-27T22:04:31+00:00",
    "error": null,
    "pi_profile": {
     "name": "Jürg Bähler",
@@ -34977,22 +34895,22 @@
      "name": "Manuel Lera-Ramírez",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not verified (the team page could not be opened). The lab works on fission yeast functional genomics.",
+     "focus": "Not verified; the team page was inaccessible to me.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.ucl.ac.uk/life-sciences/bahler-lab/team"
     },
     {
      "name": "Shaimaa Hassan",
      "role": "Postdoc",
      "year": null,
-     "focus": "Not verified (the team page could not be opened). The lab works on fission yeast functional genomics.",
+     "focus": "Not verified; the team page was inaccessible to me.",
      "email": null,
-     "profile_url": null
+     "profile_url": "https://www.ucl.ac.uk/life-sciences/bahler-lab/team"
     }
    ],
-   "department": "Institute of Healthy Ageing; Genetics, Evolution and Environment",
+   "department": "Institute of Healthy Ageing; Genetics, Evolution and Environment (UCL Division of Biosciences). The ISMB page also lists an affiliation with the Institute of Structural and Molecular Biology (UCL/Birk",
    "location": "London, United Kingdom",
-   "current_institution": "University College London (UCL)",
+   "current_institution": "University College London",
    "members_page": "https://www.ucl.ac.uk/life-sciences/bahler-lab/team"
   },
   {
@@ -35006,46 +34924,66 @@
    "department_hint": "Genetics, Evolution and Environment / UCL Genetics Institute",
    "id": "ucl-secrier",
    "url": "https://secrierlab.github.io",
-   "focus": "The lab studies somatic evolution in cancer. It looks at how mutational processes shape cell plasticity and stress adaptation, and how tumour cells interact with their microenvironment to resist therapy and persist in tissue. It builds statistical, data-integration and machine learning methods that link bulk genomics, single-cell and spatial transcriptomics, and digital pathology. A UKRI Future Leaders Fellowship supports work on the mutational processes and spatial context of tumour dormancy. The group works on genomic instability and tumour-immune crosstalk during cancer progression.",
+   "focus": "The lab studies somatic evolution, using cancer as the main system. One theme is how mutational processes shape cellular plasticity and stress adaptation. The other is how tumour cells co-evolve with their microenvironment to evade therapy. The group develops statistical modelling, data integration and machine learning methods. These link bulk, single-cell and spatial transcriptomics with digital pathology data. A UKRI Future Leaders Fellowship funds work on the mutational processes and spatial context of tumour dormancy. Current projects include HRD in breast cancer, radiotherapy resistance in colorectal cancer, and tumour immunogenomics.",
    "topics": [
-    "somatic evolution",
+    "cancer evolution",
     "mutational processes",
-    "tumour dormancy",
     "single-cell and spatial transcriptomics",
+    "computational pathology",
     "machine learning",
-    "digital pathology"
+    "tumour dormancy"
    ],
    "fit": {
     "score": 4,
-    "reason": "The lab's computational and machine learning methods for cancer genomics, mutational processes, and single-cell and spatial omics match several of the student's interests. There is less emphasis on structural variants and tumour WGS than in the Marra Lab, and a UK role may need a visa."
+    "reason": "Strong overlap with computational and machine learning methods and with single-cell/spatial omics in cancer, and some overlap with mutational processes and somatic mutation analysis; it is less focused on structural variants and WGS, and a UK role may need a visa."
    },
    "flags": [
-    "The PI is still at UCL, so no move was found.",
-    "The lab's own site (secrierlab.github.io) was used. The discovery URL was a UCL staff list, and I did not open it.",
-    "The team page gives no research focus, year or email for any member. Those fields are null or not stated.",
-    "Shi Pan and Cenk Celik are listed as Research Fellows, and I treated them as postdocs. Beatriz Monterde Martínez is a visiting MSCA postdoc.",
-    "The team page has no 'last updated' date. The footer reads © 2025, so it may be slightly out of date."
+    "No PI move found: Secrier is still at UCL.",
+    "The lab URL in the discovery hint is a UCL staff list. The lab's own site is secrierlab.github.io.",
+    "Emails are not given in the member list. The profile pages show addresses with an 'obfuscate' string inserted (anti-spam), so I left all emails null instead of guessing.",
+    "Profile pages for Emma Champneys and Ivan Lam contain leftover template text, so they may be incomplete. Neither gives a start year.",
+    "Shi Pan and Cenk Celik are titled Research Fellow rather than postdoc. Beatriz Monterde Martínez is a visiting MSCA postdoc based mainly at the ICR."
    ],
    "sources": [
     {
-     "title": "Secrier Lab homepage",
+     "title": "Secrier Lab",
      "url": "https://secrierlab.github.io"
     },
     {
      "title": "Secrier Lab team page",
-     "url": "https://secrierlab.github.io/team"
+     "url": "https://secrierlab.github.io/team/"
     },
     {
-     "title": "Maria Secrier – lab profile",
+     "title": "Maria Secrier profile",
      "url": "https://secrierlab.github.io/team/maria-secrier"
+    },
+    {
+     "title": "Shi Pan",
+     "url": "https://secrierlab.github.io/team/shi-pan/"
+    },
+    {
+     "title": "Cenk Celik",
+     "url": "https://secrierlab.github.io/team/cenk-celik/"
+    },
+    {
+     "title": "Beatriz Monterde Martínez",
+     "url": "https://secrierlab.github.io/team/bea/"
+    },
+    {
+     "title": "Emma Champneys",
+     "url": "https://secrierlab.github.io/team/emma-champneys/"
+    },
+    {
+     "title": "Hou Wang (Ivan) Lam",
+     "url": "https://secrierlab.github.io/team/ivan-lam/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:05:28+00:00",
+   "refreshed_at": "2026-11-27T22:31:47+00:00",
    "error": null,
    "pi_profile": {
     "name": "Maria Secrier",
-    "title": "Associate Professor (UKRI Future Leaders Fellow)",
+    "title": "Associate Professor (UKRI Future Leaders Fellow), UCL Genetics Institute",
     "profile_url": "https://secrierlab.github.io/team/maria-secrier",
     "scholar_url": null
    },
@@ -35053,24 +34991,24 @@
     {
      "name": "Beatriz Monterde Martínez",
      "role": "Postdoc",
-     "year": null,
-     "focus": "Not stated on the team page (Marie Skłodowska-Curie postdoctoral researcher, listed as a visiting researcher)",
+     "year": "Since July 2025",
+     "focus": "Immunogenomic metrics to predict treatment response (MSCA postdoctoral researcher, joint ICR/UCL; listed as Visiting Researcher).",
      "email": null,
      "profile_url": "https://secrierlab.github.io/team/bea/"
     },
     {
      "name": "Cenk Celik",
      "role": "Postdoc",
-     "year": null,
-     "focus": "Not stated on the team page (listed as Research Fellow)",
+     "year": "Joined June 2023",
+     "focus": "Tumour cell plasticity and quiescent/proliferative switching in breast cancer and liver metastasis, using single-cell and spatial transcriptomics. The page lists his title as Research Fellow, which I treated as postdoctoral.",
      "email": null,
      "profile_url": "https://secrierlab.github.io/team/cenk-celik/"
     },
     {
      "name": "Shi Pan",
      "role": "Postdoc",
-     "year": null,
-     "focus": "Not stated on the team page (listed as Research Fellow)",
+     "year": "Joined 2021",
+     "focus": "AI prediction of molecular information from H&E whole-slide images; multiple instance learning (HistoMIL), graph neural networks, multimodal foundation models. The page lists his title as Research Fellow, which I treated as postdoctoral.",
      "email": null,
      "profile_url": "https://secrierlab.github.io/team/shi-pan/"
     },
@@ -35078,7 +35016,7 @@
      "name": "Emma Champneys",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Homologous recombination deficiency (HRD) in breast cancer (MRC DTP funded).",
      "email": null,
      "profile_url": "https://secrierlab.github.io/team/emma-champneys/"
     },
@@ -35086,15 +35024,15 @@
      "name": "Hou Wang (Ivan) Lam",
      "role": "PhD student",
      "year": null,
-     "focus": "Not stated on the team page",
+     "focus": "Radiotherapy resistance in colorectal cancer (MRC DTP funded).",
      "email": null,
      "profile_url": "https://secrierlab.github.io/team/ivan-lam/"
     }
    ],
-   "department": "Department of Genetics, Evolution and Environment; UCL Genetics Institute",
-   "location": "London, United Kingdom",
+   "department": "UCL Genetics Institute, Department of Genetics, Evolution and Environment",
+   "location": "London, UK",
    "current_institution": "University College London",
-   "members_page": "https://secrierlab.github.io/team"
+   "members_page": "https://secrierlab.github.io/team/"
   },
   {
    "name": "Cancer Genome Evolution Research Group",
@@ -35147,7 +35085,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-20T13:04:27+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 10:30pm (UTC)",
    "pi_profile": {
     "name": "Nicholas McGranahan",
     "title": "Professor of Cancer Evolution",
@@ -35214,7 +35152,7 @@
    ],
    "broken_links": [],
    "refreshed_at": "2026-11-20T13:04:36+00:00",
-   "error": null,
+   "error": "Claude Code error: You've hit your 5-hour limit · resets 10:30pm (UTC)",
    "pi_profile": {
     "name": "Parashkev Nachev",
     "title": "Professor of Neurology; Honorary Consultant Neurologist, National Hospital for Neurology and Neurosurgery",
@@ -35237,42 +35175,46 @@
    "group": null,
    "department_hint": "Genetics, Evolution and Environment / UCL Genetics Institute",
    "id": "ucl-mott",
-   "url": "https://www.ucl.ac.uk/life-sciences/mott-lab/team",
-   "focus": "The group works on statistical and computational genetics of complex traits. Its work covers mapping genes in rodent models and in crop species such as wheat, chickpea and rice. I could not open the lab pages directly (they returned HTTP 403), so this description comes only from search-result summaries and is not detailed. It is not a cancer-genomics lab.",
+   "url": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people",
+   "focus": "The group works on quantitative genetics and statistical genetics in plants and mice. Search snippets say Mott's current interests include the genetics of wheat, chickpea and rice. He developed the HAPPY software for high-resolution QTL mapping in outbred and heterogeneous stock populations. His work centres on computational and statistical methods for mapping complex traits. I could not open the group's own pages, so this description comes from search summaries and not from a lab page.",
    "topics": [
-    "statistical genetics",
-    "complex traits",
-    "rodent genetics",
-    "crop genetics",
-    "computational genetics"
+    "quantitative genetics",
+    "QTL mapping",
+    "plant genetics (wheat, chickpea, rice)",
+    "mouse genetics",
+    "statistical genetics methods"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The group does computational and statistical genetics of complex traits in rodents and crops, so it overlaps with the student's computational methods interest but not with cancer genomics, tumour sequencing, structural variants or single-cell/spatial omics."
+    "score": 1,
+    "reason": "The group does complex-trait and QTL mapping in plants and mice, with no apparent work on cancer genomics, tumour sequencing, structural variants, somatic mutations or single-cell and spatial omics. It overlaps with the student only in general computational genetics methods, and a UK role would like"
    },
    "flags": [
-    "Both UCL pages returned HTTP 403, so member details come from search-result summaries only and are not verified. Please check the pages manually.",
-    "The PhD student's name differs between the lab team page (Edress Deliri) and the UGI people page (Mohammad Deliri).",
-    "The PI's current institution is UCL, where they have been since November 2015 (previously Oxford WTCHG). No move found.",
-    "The Google Scholar URL was not found.",
-    "The lab page has a general contact email, r.mott@ucl.ac.uk. It is the PI's address, not a member's, so I left member emails null."
+    "The PI is still at UCL according to search results; he moved there in November 2015 from the Wellcome Trust Centre for Human Genetics, Oxford. No move was found, but I could not open the current UCL pages to check.",
+    "UCL pages returned HTTP 403 and the search quota ran out, so the members page was never opened.",
+    "Search summaries said the UGI people page lists a postdoc and a PhD student in the Mott Group. I could not read their names, so I did not list them. The page needs to be checked by hand.",
+    "No dedicated lab website or Google Scholar URL was seen, so both are null.",
+    "This entry is low-confidence and should be re-verified before use."
    ],
    "sources": [
     {
-     "title": "Mott Lab team",
-     "url": "https://www.ucl.ac.uk/life-sciences/mott-lab/team"
+     "title": "richard mott profile (UCL)",
+     "url": "https://www.ucl.ac.uk/research/domains/food-metabolism-society/experts/experts-components/richard-mott-profile"
     },
     {
      "title": "UCL Genetics Institute people",
      "url": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people"
     },
     {
-     "title": "Richard Mott profile",
-     "url": "https://www.ucl.ac.uk/research/domains/food-metabolism-society/experts/experts-components/richard-mott-profile"
+     "title": "UCL Genetics Institute research groups",
+     "url": "https://www.ucl.ac.uk/biosciences/gee/ucl-genetics-institute/ucl-genetics-institute-research-groups"
+    },
+    {
+     "title": "Richard Mott (statistician) - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Richard_Mott_(statistician)"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:04:06+00:00",
+   "refreshed_at": "2026-11-27T22:05:17+00:00",
    "error": null,
    "pi_profile": {
     "name": "Richard Mott",
@@ -35280,36 +35222,11 @@
     "profile_url": "https://www.ucl.ac.uk/research/domains/food-metabolism-society/experts/experts-components/richard-mott-profile",
     "scholar_url": null
    },
-   "members": [
-    {
-     "name": "Arun Isaac",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Not verified; I couldn't open the page.",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Louise Arathoon",
-     "role": "Postdoc",
-     "year": null,
-     "focus": "Not verified; I couldn't open the page.",
-     "email": null,
-     "profile_url": null
-    },
-    {
-     "name": "Edress (Mohammad) Deliri",
-     "role": "PhD student",
-     "year": null,
-     "focus": "Listed as a LIDO PhD student on the team page. The UGI page gives the name as Mohammad Deliri, and I couldn't confirm they are the same person.",
-     "email": null,
-     "profile_url": null
-    }
-   ],
-   "department": "Genetics, Evolution and Environment (UCL Division of Biosciences / Life Sciences); UCL Genetics Institute",
+   "members": [],
+   "department": "Genetics, Evolution and Environment; UCL Genetics Institute (UGI)",
    "location": "London, United Kingdom",
    "current_institution": "University College London",
-   "members_page": "https://www.ucl.ac.uk/life-sciences/mott-lab/team"
+   "members_page": "https://www.ucl.ac.uk/life-sciences/ugi/ucl-genetics-institute-people"
   },
   {
    "name": "Castellano Group (translational/computational genomics, UCL Genomics)",
@@ -35322,48 +35239,93 @@
    "department_hint": "Genetics and Genomic Medicine, UCL Great Ormond Street Institute of Child Health",
    "id": "ucl-castellano",
    "url": "https://www.ucl.ac.uk/child-health/research/genetics-and-genomic-medicine/genome-biology-and-precision-medicine/dr-sergi-castellano",
-   "focus": "The group works in translational and computational genomics at UCL Genomics, based at the UCL Great Ormond Street Institute of Child Health. Search snippets say most of its work is done with close collaborators, including researchers from the GOSH/ICH Biomedical Research Centre. The PI is also known for ancient-genome analysis, including work on Neanderthal and Denisovan genomes. I could not verify the group's current specific projects or methods because the page was inaccessible.",
+   "focus": "The group works on computational and translational genomics aimed at improving diagnosis, prognosis and treatment of rare diseases in children. The wider UCL/GOSH section combines computational and experimental identification of rare genetic variants with technologies that assess their functional impact. The group has an evolutionary-genomics background (former members came from the Max Planck Institute for Evolutionary Anthropology). The funders include the NIHR GOSH BRC, MRC and GOSH Children's Charity. Specific methods and projects were not verified because I couldn't open the page.",
    "topics": [
+    "rare disease genomics",
     "computational genomics",
-    "translational genomics",
-    "bioinformatics",
-    "paediatric genomics",
-    "ancient DNA / evolutionary genomics"
+    "genomic medicine",
+    "variant interpretation",
+    "evolutionary genomics"
    ],
    "fit": {
     "score": 2,
-    "reason": "General genomics and bioinformatics overlap, but I found no evidence of cancer genomics, structural variants, tumour sequencing or single-cell/spatial work, and a UK role would likely need a visa."
+    "reason": "The group is computational genomics, but it focuses on paediatric rare disease and germline variants. I found no sign of cancer, tumour sequencing, somatic or structural variants, or single-cell and spatial work, so overlap with the student's cancer genomics interests is limited to general computati"
    },
    "flags": [
-    "UCL pages returned HTTP 403, so the current member list could not be read; members left empty rather than guessed.",
-    "Search snippets indicate the page lists PhD researchers, postdocs and an undergraduate, but I could not see their names.",
-    "Past members seen in snippets (not current): Anna Mikhailova (summer researcher), Mohammed Mirza (MSc), Louise White (PhD researcher).",
-    "The page says the group is currently recruiting; check its Jobs page.",
-    "PI's employer is UCL according to the listing and search results; no move was found, but I could not read the live profile to confirm the current title."
+    "The UCL page returned 403 to my fetch tool, so the roster comes from search-result summaries, not from reading the page. Verify it manually.",
+    "The page is undated, so I can't tell how current the roster is.",
+    "No move found: the PI is still listed at UCL and as Non-Clinical Deputy Lead of the GOSH BRC Genomic Medicine theme. I could not confirm this on the page itself.",
+    "The page also lists GOSH/ICH BRC collaborators (Lamia Boukhibar, Georg Otto, Dorian Xenakis, Yara Sanchez-Corrales, George Hall). I excluded them as collaborators or staff, not members.",
+    "I excluded undergraduate Jiayi Wang and the alumni."
    ],
    "sources": [
     {
-     "title": "Dr Sergi Castellano - UCL Child Health",
+     "title": "Castellano group page (UCL)",
      "url": "https://www.ucl.ac.uk/child-health/research/genetics-and-genomic-medicine/genome-biology-and-precision-medicine/dr-sergi-castellano"
     },
     {
-     "title": "Genome Biology and Precision Medicine - UCL",
+     "title": "Genome biology and precision medicine (UCL)",
      "url": "https://www.ucl.ac.uk/child-health/research/genetics-and-genomic-medicine/genome-biology-and-precision-medicine"
+    },
+    {
+     "title": "GOSH BRC Our people",
+     "url": "https://gosh.nhs.uk/our-research/our-research-infrastructure/nihr-great-ormond-street-hospital-brc/about-our-biomedical-research-centre/our-people"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:03:40+00:00",
+   "refreshed_at": "2026-11-27T22:05:00+00:00",
    "error": null,
    "pi_profile": {
     "name": "Sergi Castellano",
-    "title": "Dr (Associate Professor-level title not verified)",
+    "title": "Dr; Non-Clinical Deputy Lead, Genomic Medicine theme, NIHR GOSH BRC (exact academic title not verified)",
     "profile_url": "https://www.ucl.ac.uk/child-health/research/genetics-and-genomic-medicine/genome-biology-and-precision-medicine/dr-sergi-castellano",
     "scholar_url": null
    },
-   "members": [],
-   "department": "Genetics and Genomic Medicine, UCL Great Ormond Street Institute of Child Health; Genome Biology and Precision Medicine; UCL Genomics",
+   "members": [
+    {
+     "name": "Eduardo Gomez-Castañeda",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Pau Puigdevall",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Vignesh Jayarajan",
+     "role": "Postdoc",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Fatimah Almousawi",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    },
+    {
+     "name": "Jasmin Rees",
+     "role": "PhD student",
+     "year": null,
+     "focus": null,
+     "email": null,
+     "profile_url": null
+    }
+   ],
+   "department": "Genetics and Genomic Medicine; Genome Biology and Precision Medicine; NIHR GOSH BRC Genomic Medicine theme",
    "location": "London, United Kingdom",
-   "current_institution": "University College London (UCL)",
+   "current_institution": "University College London (UCL Great Ormond Street Institute of Child Health)",
    "members_page": "https://www.ucl.ac.uk/child-health/research/genetics-and-genomic-medicine/genome-biology-and-precision-medicine/dr-sergi-castellano"
   },
   {
@@ -35498,25 +35460,25 @@
    "department_hint": "Statistical Science (statistical genomics)",
    "id": "ucl-bartlett",
    "url": "https://www.ucl.ac.uk/mathematical-physical-sciences/departments/statistical-science/people/academic-and-lecturing-staff",
-   "focus": "According to search snippets of his UCL profile, Bartlett's research covers networks, multivariate and high-dimensional data, computational statistics, mathematical biology, and genomics and epigenomics. His published work includes two-way sparsity for time-varying networks with genomics applications (Annals of Applied Statistics, 2021). It also includes single-cell co-expression subnetwork analysis using mixture models (Scientific Reports, 2017) and a multi-omics method for predicting gene regulatory networks in early human embryos (2023). He teaches STAT0017 Introduction to Statistical Genomics. This summary comes from snippets only, because the profile page itself was blocked.",
+   "focus": "The group works on statistical methodology for genomics and epigenomics, with a focus on inferring networks from high-dimensional multivariate data. Published work includes sparse time-varying network models (two-way sparsity, Annals of Applied Statistics 2021). It also includes gene-regulatory network inference using epigenomic priors (iScience, 2026) and MICA, a multi-omics method to predict gene regulatory networks in early human embryos (2023). Methods are computational statistics and Bayesian-style modelling, applied mainly to developmental and regulatory genomics rather than cancer. This summary comes from the profile's listed research interests and publications. I could not read the full profile.",
    "topics": [
-    "statistical genomics",
     "gene regulatory networks",
-    "single-cell expression",
     "high-dimensional statistics",
-    "epigenomics",
-    "network inference"
+    "multi-omics / epigenomics",
+    "network inference",
+    "computational statistics",
+    "mathematical biology"
    ],
    "fit": {
     "score": 2,
-    "reason": "The group does statistical and network methods for single-cell and multi-omic genomics, which touches the student's interest in computational methods and single-cell omics. I found no cancer, tumour WGS or structural-variant focus, and the UK location may need a visa."
+    "reason": "It overlaps with the student's interest in computational and statistical methods for genomics, but the work centres on regulatory network inference and embryo multi-omics, with no visible focus on cancer, structural variants, somatic mutations or single-cell/spatial cancer omics. The student would a"
    },
    "flags": [
-    "Possible institutional move: a snippet of the UCL profile lists a March 2025 entry for the University of Florida Statistics Department and also says he was appointed Associate Professor at UCL in 2026. I couldn't resolve this because the page returned 403 and no other source confirmed it. Check his ",
-    "The UCL profile pages returned HTTP 403, so I couldn't verify any postdocs or PhD students. The members list is empty because I couldn't confirm anyone, not because the group has none.",
-    "I found no dedicated Bartlett lab website or people page.",
-    "He does not appear on the UCL Genetics Institute people page, according to search results.",
-    "I didn't find a Google Scholar profile."
+    "UCL profile pages returned 403, so the profile and members list could not be opened. Details come from search snippets only.",
+    "No dedicated lab website or people page was found, so no postdocs or PhD students could be verified.",
+    "UCL pages conflict on his title: one says Lecturer and another says appointed Associate Professor in 2026. No institution move was found, and he appears to still be at UCL.",
+    "No Google Scholar profile was found.",
+    "Search results for a separate 'Thomas Bartlett' at the Wadsworth Center (S. aureus) and Doug Bartlett's lab at UCSD are different people and were ignored."
    ],
    "sources": [
     {
@@ -35524,27 +35486,23 @@
      "url": "https://www.ucl.ac.uk/mathematical-physical-sciences/departments/statistical-science/people/academic-and-lecturing-staff/dr-thomas-bartlett"
     },
     {
-     "title": "Dr Thomas Bartlett (UCL Statistics, alternate URL)",
+     "title": "Dr Thomas Bartlett (UCL, older statistics URL)",
      "url": "https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/people/academic-and-lecturing-staff/dr-thomas-bartlett"
-    },
-    {
-     "title": "Single-cell Co-expression Subnetwork Analysis (Sci Rep 2017, UCL Discovery)",
-     "url": "https://discovery-pp.ucl.ac.uk/id/eprint/10044220/1/s41598-017-15525-z.pdf"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:03:12+00:00",
+   "refreshed_at": "2026-11-27T22:04:33+00:00",
    "error": null,
    "pi_profile": {
-    "name": "Thomas (Tom) E. Bartlett",
-    "title": "Associate Professor in Statistical Science (per search snippets of the UCL profile; not verified by opening the page)",
+    "name": "Thomas (Tom) Bartlett",
+    "title": "Associate Professor of Statistical Science (one UCL page says appointed Associate Professor in 2026; another still says Lecturer)",
     "profile_url": "https://www.ucl.ac.uk/mathematical-physical-sciences/departments/statistical-science/people/academic-and-lecturing-staff/dr-thomas-bartlett",
     "scholar_url": null
    },
    "members": [],
    "department": "Department of Statistical Science",
-   "location": "London, United Kingdom",
-   "current_institution": "University College London (per UCL profile snippets; current status unverified)",
+   "location": "London, UK",
+   "current_institution": "University College London",
    "members_page": null
   },
   {
@@ -35558,68 +35516,64 @@
    "department_hint": "Genetics, Evolution and Environment",
    "id": "ucl-yang",
    "url": "https://www.ucl.ac.uk/life-sciences/yang-lab",
-   "focus": "The lab develops maximum likelihood and Bayesian statistical methods for comparative analysis of molecular sequence data. Its main topics are phylogenetics, molecular clock dating and species delimitation, along with the detection of positive selection. Its software includes PAML for phylogenetic analysis by maximum likelihood, and BPP for Bayesian multispecies-coalescent analysis. It also builds MCMC algorithms that scale to large genomic datasets, and Bayesian relaxed-clock dating. The lab describes itself as a small, collaborative group with backgrounds in evolutionary genetics, genomics, computer science and statistics.",
+   "focus": "The group develops statistical models and software for the phylogenetic and population-genetic analysis of DNA and protein sequences, using maximum likelihood and Bayesian methods. Main topics are codon models and tests for positive selection (the PAML package), and the multispecies coalescent for species-tree estimation and species delimitation (the BPP package). Related work covers MCMC algorithms for genomic data from several species or populations, which infer demographic history, introgression and hybridisation. It also covers Bayesian relaxed-clock divergence dating. The lab describes itself as small and collaborative, and it welcomes students with a background in probability, statistics, computer science or population and phylogenomics.",
    "topics": [
     "molecular evolution",
     "phylogenetics",
-    "Bayesian MCMC methods",
-    "molecular clock dating",
     "multispecies coalescent",
-    "statistical genetics"
+    "positive selection (codon models)",
+    "Bayesian MCMC methods",
+    "divergence time estimation"
    ],
    "fit": {
-    "score": 2,
-    "reason": "The lab shares only the general theme of computational and statistical methods development for genomics (Bayesian and MCMC methods). It does no cancer genomics, tumour sequencing, structural variant analysis or single-cell/spatial omics. A move to the UK would also probably need a visa."
+    "score": 1,
+    "reason": "The group works on evolutionary and phylogenetic statistical methods, with no cancer genomics, tumour sequencing, structural variants, single-cell or spatial omics. The only overlap is general computational and statistical methods development. A UK role would also probably need a visa."
    },
    "flags": [
-    "Could not read the lab pages. The UCL lab, people and news pages all returned HTTP 403, so the current postdoc and PhD student roster could not be verified. No members are listed, to avoid inventing any.",
-    "The listed discovery URL (https://www.ucl.ac.uk/biosciences/gee/computational-biology-group) also returned 403, so the lab's own page is https://www.ucl.ac.uk/life-sciences/yang-lab, which I saw only in search results.",
-    "Search results show Yang still at UCL GEE as Professor of Statistical Genetics, with no sign of a move. A UCL news item from September 2026 reports he won a 2026 Balzan Prize for Molecular Evolution.",
-    "The lab's prospective-student page gives z.yang@ucl.ac.uk as the contact for MSc and PhD enquiries. The lab welcomes applicants with a background in probability, statistics, computer science or population genomics.",
-    "Google Scholar URL not verified, so it is left null."
+    "I could not open the lab pages (ucl.ac.uk/life-sciences/yang-lab and the discovery URL both returned HTTP 403), so I could not verify any current postdocs or PhD students. The members list is empty on purpose.",
+    "The PI is still at UCL. Wikipedia and the search results show the R.A. Fisher Chair and the Centre directorship, and I saw no sign of a move. I did not see a current UCL page confirming this.",
+    "The Google Scholar URL was not verified, so it is null.",
+    "The lab's contact address from the search results is z.yang@ucl.ac.uk. It is the PI's address and not a member's.",
+    "The discovery URL (biosciences/gee/computational-biology-group) was not readable. The lab's own pages are under ucl.ac.uk/life-sciences/yang-lab*."
    ],
    "sources": [
     {
-     "title": "Yang Lab (UCL)",
+     "title": "Yang lab (UCL)",
      "url": "https://www.ucl.ac.uk/life-sciences/yang-lab"
     },
     {
-     "title": "Yang Lab research projects: Bayesian relaxed clock dating",
+     "title": "Yang lab resources (BPP/PAML)",
+     "url": "https://www.ucl.ac.uk/life-sciences/yang-lab-resources"
+    },
+    {
+     "title": "Yang lab research projects",
      "url": "https://www.ucl.ac.uk/life-sciences/yang-lab-research-projects"
     },
     {
-     "title": "Yang Lab: work with us",
-     "url": "https://www.ucl.ac.uk/life-sciences/yang-lab-work-us"
-    },
-    {
-     "title": "UCL experts profile: Ziheng Yang",
+     "title": "UCL expert profile: Yang Ziheng",
      "url": "https://www.ucl.ac.uk/human-evolution/experts/experts-profile/yang-ziheng"
     },
     {
-     "title": "UCL GEE academics",
-     "url": "https://www.ucl.ac.uk/life-sciences/gee/gee-researchers/gee-academics"
+     "title": "Ziheng Yang - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ziheng_Yang"
     },
     {
-     "title": "UCL news: geneticist wins global prize for molecular evolution research (Sept 2026)",
-     "url": "https://www.ucl.ac.uk/news/2026/sep/ucl-geneticist-wins-global-prize-molecular-evolution-research"
-    },
-    {
-     "title": "Royal Society: Professor Ziheng Yang FRS",
-     "url": "https://royalsociety.org/people/ziheng-yang-12576"
+     "title": "UCL GEE academic staff",
+     "url": "https://www.ucl.ac.uk/biosciences/gee/academic-staff"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:05:34+00:00",
+   "refreshed_at": "2026-11-27T22:32:06+00:00",
    "error": null,
    "pi_profile": {
     "name": "Ziheng Yang",
-    "title": "R. A. Fisher Chair of Statistical Genetics; Director, R. A. Fisher Centre for Computational Biology; FRS",
+    "title": "R.A. Fisher Chair of Statistical Genetics; Director, R.A. Fisher Centre for Computational Biology",
     "profile_url": "https://www.ucl.ac.uk/human-evolution/experts/experts-profile/yang-ziheng",
     "scholar_url": null
    },
    "members": [],
-   "department": "Genetics, Evolution and Environment (GEE), UCL Division of Biosciences",
-   "location": "London, United Kingdom",
+   "department": "Department of Genetics, Evolution and Environment (GEE), Division of Biosciences",
+   "location": "London, UK",
    "current_institution": "University College London",
    "members_page": null
   },
@@ -36472,25 +36426,24 @@
    "department_hint": "CRUK Cambridge Institute",
    "id": "cam-aliee",
    "url": "https://www.cruk.cam.ac.uk/research-groups/aliee-group/",
-   "focus": "The group builds AI models to study the molecular mechanisms behind health and disease. One theme is AI-driven scientific discovery, with models that help form testable hypotheses and design informative experiments. A second is modelling 'cellular intelligence': predictive, generalisable models of how cells differ across individuals and respond to mutations, drugs or disease. A third is causal, context-aware inference of gene regulatory networks across individuals and contexts. The work is mainly machine-learning methods development (generative modelling); the pages I read don't name specific cancer datasets or sequencing assays.",
+   "focus": "The group builds AI models for scientific discovery. These models suggest testable hypotheses and help design experiments, and they are updated in a closed loop as new data arrive. A second theme is predictive, generalisable models of cellular behaviour. These models aim to capture how cells differ between individuals and how they respond to mutations, drugs or disease. One example question is whether a cell would return to a healthy state if a driver mutation such as BRCA1 in breast cancer were corrected. A third theme is context-aware computational inference of gene regulatory networks, and how gene regulation varies across individuals and populations. The methods are generative and machine-learning models, applied to single-cell data.",
    "topics": [
-    "AI for biology",
     "generative modelling",
+    "AI for scientific discovery",
     "gene regulatory networks",
-    "causal inference",
-    "cell response prediction",
-    "scientific discovery"
+    "single-cell omics",
+    "cell state / perturbation modelling",
+    "machine learning"
    ],
    "fit": {
     "score": 3,
-    "reason": "Strong overlap with the student's interest in ML methods for genomics and likely single-cell data, but the pages I read don't mention tumour WGS, structural variants or somatic mutation analysis."
+    "reason": "The group's ML methods for single-cell data and its cancer-relevant cell modelling match the student's interests in computational methods and single-cell omics. It does little on tumour WGS, structural variants or somatic mutation calling, which are the student's core interests."
    },
    "flags": [
-    "The group page lists no postdocs or PhD students. Only the PI is named, so the member list is empty. The group is new: the PI's appointment was announced in June 2025 and started in July 2025.",
-    "The PI has not moved. They are still at the CRUK Cambridge Institute.",
-    "The group is recruiting. A PhD studentship ('Generative modelling for foundational discovery in biomedicine') is advertised, and the institute's vacancy notes mention a Research Associate role.",
-    "The student may need a UK visa for a role here.",
-    "I did not verify the PI's Google Scholar page, so scholar_url is null. The PI's email is not published on the page."
+    "The PI is a new Junior Group Leader who joined CRUK CI in July 2025 from the Wellcome Sanger Institute (Vento-Tormo lab). No institution move since then was found.",
+    "The group page lists no current postdocs or PhD students. The group is newly established, so the members list is empty and not verified.",
+    "The group advertises an open PhD studentship (Generative modelling for foundational discovery in biomedicine) and a Research Associate position. Both are at Cambridge, so a UK visa may be needed.",
+    "No Google Scholar URL was verified, so it is left null."
    ],
    "sources": [
     {
@@ -36502,12 +36455,12 @@
      "url": "https://www.cruk.cam.ac.uk/news/dr-hana-aliee-appointed-as-a-junior-group-leader"
     },
     {
-     "title": "PhD Studentship: Generative modelling for foundational discovery in biomedicine",
+     "title": "PhD studentship: Generative modelling for foundational discovery in biomedicine",
      "url": "https://www.cruk.cam.ac.uk/vacancies/phd-studentship-generative-modelling-for-foundational-discovery-in-biomedicine/"
     }
    ],
    "broken_links": [],
-   "refreshed_at": "2026-11-20T13:05:22+00:00",
+   "refreshed_at": "2026-11-27T22:31:34+00:00",
    "error": null,
    "pi_profile": {
     "name": "Hana Aliee",
@@ -36516,9 +36469,9 @@
     "scholar_url": null
    },
    "members": [],
-   "department": "Cancer Research UK Cambridge Institute",
+   "department": "CRUK Cambridge Institute (Artificial Intelligence research theme)",
    "location": "Cambridge, United Kingdom",
-   "current_institution": "University of Cambridge (Cancer Research UK Cambridge Institute)",
+   "current_institution": "Cancer Research UK Cambridge Institute, University of Cambridge",
    "members_page": "https://www.cruk.cam.ac.uk/research-groups/aliee-group/"
   },
   {
